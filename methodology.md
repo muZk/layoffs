@@ -2,13 +2,13 @@
 
 *Cómo se armó el dataset, qué fuentes se usaron, cómo se clasificó cada evento, y qué caveats tener en cuenta.*
 
-Última actualización: 2026-05-27. Versión del dataset: snapshot 2026-05-26 de [layoffs.fyi](https://layoffs.fyi/).
+Última actualización: 2026-06-17. Versión del dataset: snapshot 2026-05-26 de [layoffs.fyi](https://layoffs.fyi/).
 
 ---
 
 ## 1. Pipeline de data
 
-El análisis se construyó en 9 fases. Cada fase produjo artefactos guardados en este repo para reproducibilidad.
+El análisis se construyó en 7 fases. Cada fase produjo artefactos guardados en este repo para reproducibilidad.
 
 ### Fase 1 — Extracción raw de layoffs.fyi
 - Fuente: el Airtable público de layoffs.fyi (URL: `app1PaujS9zxVGUZ4`).
@@ -39,32 +39,23 @@ El análisis se construyó en 9 fases. Cada fase produjo artefactos guardados en
 
 ### Fase 4 — Clasificación multi-eje
 - Apliqué 3 ejes ortogonales + 1 columna estructural + 4 enriquecimientos opcionales. Ver `schema.md`.
-- Implementación: [`categorize.py`](categorize.py) (rule-based + 14 manual overrides para casos high-confidence).
+- Implementación: [`categorize.py`](categorize.py) (rule-based + 46 manual overrides para casos high-confidence).
 - Output: [`2026-categorized.json`](2026-categorized.json) y [`.csv`](2026-categorized.csv).
 
 ### Fase 5 — Análisis de profiles de los grandes
-- Para Meta (4 rondas) y Oracle/PayPal/Amazon/Intuit/Snap: 2 agentes adicionales hicieron deep-research role-by-role.
-- Output: [`meta-profile-breakdown.md`](meta-profile-breakdown.md), [`other-profiles-breakdown.md`](other-profiles-breakdown.md).
+- Para Meta (4 rondas) y Oracle/PayPal/Amazon/Intuit/Snap: agentes adicionales hicieron deep-research role-by-role.
+- Output: documentación interna (no incluida en este repo, sirvió como input a las columnas `profiles_cut` / `profiles_hired` del dataset).
 
 ### Fase 6 — Cross-reference con The Pragmatic Engineer
 - Source: [State of the software engineering job market in 2026](https://newsletter.pragmaticengineer.com/p/state-of-eng-market-2026), Gergely Orosz + Jessica Salmon, 26-may-2026.
 - Data: Workforce.ai 2-yr SWE headcount growth, por empresa (May 2024 → May 2026).
 - Aplicado a la columna `hire_overcorrection` (bool) — solo 11 de 160 eventos tienen valor por cobertura limitada del paper.
-- Archivo: [`market-2026.md`](market-2026.md) (texto completo del deepdive).
 
 ### Fase 7 — LATAM via Get on Board public API
 - Source: 9 endpoints públicos de `getonbrd.com/api/v0/insights/`.
 - Tipo de cambio USD/CLP: scraped de `sii.cl/valores_y_fechas/dolar/` (semestre 2022-H1 a 2026-H1).
 - CPI Chile: data anual INE Chile (vía Trading Economics como agregador).
-- Archivos en [`getonboard/`](getonboard/).
-
-### Fase 8 — Charts
-- 10 PNG charts generados con matplotlib. Script: [`charts.py`](charts.py).
-- Output: [`charts/`](charts/).
-
-### Fase 9 — Newsletter + HTML
-- Markdown drafts: [`top-findings.md`](top-findings.md) (EN), [`top-findings-es.md`](top-findings-es.md) (ES).
-- HTML build: [`build_html.py`](build_html.py) → [`top-findings-es.html`](top-findings-es.html) (newsletter-ready, self-contained con CSS inline).
+- Snapshots del API y del FX/CPI no se incluyen en este repo. El detalle metodológico de cada endpoint y las fechas de scrape están documentados acá en sección 4.
 
 ---
 
@@ -238,29 +229,23 @@ Para `ai_position`, la clasificación es **keada por empresa**, no por evento (l
 
 ## 5. Reproducibilidad
 
-Toda la cadena es reproducible localmente:
+La clasificación del dataset es reproducible con un único comando:
 
 ```bash
-# Comando único: regenera todos los artefactos derivados en orden
-python3 build_all.py            # categorize → charts → build_html
-python3 build_all.py --quiet    # sin los cross-tabs verbosos
-
-# O paso por paso si querés debuggear uno:
-python3 categorize.py   # → 2026-categorized.{json,csv} + sources.md
-python3 charts.py       # → charts/*.png
-python3 build_html.py   # → top-findings-es.html
+python3 categorize.py
 ```
 
-**Fuente de verdad**: `2026-enriched.json` (más el dict de overrides en `categorize.py`). Los artefactos derivados — `2026-categorized.{json,csv}`, `sources.md`, `charts/*.png`, `top-findings-es.html` — **no se editan a mano**; se regeneran con `build_all.py`.
+Lee `2026-enriched.json` y regenera `2026-categorized.{json,csv}` + actualiza `sources.md`.
+
+**Fuente de verdad**: `2026-enriched.json` + el dict `MANUAL` dentro de `categorize.py` (46 overrides high-confidence). Los artefactos derivados — `2026-categorized.{json,csv}`, `sources.md` — **no se editan a mano**; se regeneran corriendo `categorize.py`.
 
 Re-fetch de raw data (solo si caducó):
-- **layoffs.fyi**: ya en `2026-airtable-raw.json`. Re-extracción requiere refrescar el `accessPolicy` token de Airtable.
-- **GoB / SII**: re-descargables con curl (lista de endpoints en sección 4).
+- **layoffs.fyi**: ya en `2026-airtable-raw.json`. Re-extracción requiere refrescar el `accessPolicy` token del SPA de Airtable (ver Fase 1).
 
 Archivos clave para auditoría:
 - [`2026-categorized.csv`](2026-categorized.csv) — vista plana en Excel/Sheets
 - [`2026-categorized.json`](2026-categorized.json) — vista estructurada con todos los campos
-- [`categorize.py`](categorize.py) — toda la lógica de clasificación + overrides en una sola file ~700 líneas
+- [`categorize.py`](categorize.py) — lógica de clasificación + overrides en una sola file
 
 ---
 
