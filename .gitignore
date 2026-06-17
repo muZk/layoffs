@@ -1,0 +1,36 @@
+# --- Reporte (publicado en trabajoremoto.cl, no en este repo) ---
+top-findings*.md
+top-findings*.html
+top-findings-es/
+fintualist-*.md
+fintualist-*.html
+results.md
+meta-profile-breakdown.md
+other-profiles-breakdown.md
+ai-cost-reality.md
+
+# --- Pipeline de visualización (no parte del dataset reproducible) ---
+charts.py
+build_all.py
+build_html.py
+charts/
+assets/
+getonboard/
+
+# --- Material de trabajo / texto ajeno ---
+lenny.md
+market-2026.md
+latam.md
+youtube-inputs.md
+videos.md
+healthtech/
+
+# --- Python / OS ---
+__pycache__/
+*.pyc
+.DS_Store
+
+# --- Editor / IDE ---
+.claude/
+.vscode/
+.idea/

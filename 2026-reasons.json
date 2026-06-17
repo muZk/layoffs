@@ -1,0 +1,1294 @@
+[
+  {
+    "company": "Wix",
+    "date": "2026-05-25",
+    "laid_off": 1000,
+    "pct": 0.2,
+    "reason": "Weak earnings, nearly 50% stock decline, rising AI compute costs from Base44 acquisition, and roles becoming redundant in the AI era.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "ClickUp",
+    "date": "2026-05-21",
+    "laid_off": null,
+    "pct": 0.22,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Meta",
+    "date": "2026-05-20",
+    "laid_off": 8000,
+    "pct": 0.1,
+    "reason": "Zuckerberg memo: 'Success isn't a given' and 'AI is the most consequential technology of our lifetimes.' Roughly 10% of staff cut while ~7,000 employees were redeployed into new AI-focused roles (Applied AI Engineering, Agent Transformation Accelerator, Central Analytics). AI infrastructure, foundation-model, and AI monetization teams were explicitly protected. Zuckerberg said no further companywide layoffs were expected in 2026.",
+    "theme": "AI restructuring",
+    "source_used": "https://fortune.com/2026/05/21/meta-10-percent-workforce-layoffs-ai-tech-success-is-not-a-given-8-thousand-employees-mark-zuckerberg/"
+  },
+  {
+    "company": "Intuit",
+    "date": "2026-05-20",
+    "laid_off": 3000,
+    "pct": 0.17,
+    "reason": "CEO Sasan Goodarzi internal memo: cuts (17% of ~18,200 employees) framed as 'reducing complexity and simplifying the corporate structure' to deliver better products and consolidate teams in key hubs (winding down Reno and Woodland Hills offices). Notably Goodarzi told CNBC 'None of it had to do with AI... Everything was about how do we become more effective,' even though the restructuring funds AI integration across TurboTax/QuickBooks/Credit Karma.",
+    "theme": "restructuring (AI-adjacent; CEO denies AI driver)",
+    "source_used": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/"
+  },
+  {
+    "company": "AI21 Labs",
+    "date": "2026-05-18",
+    "laid_off": 110,
+    "pct": 0.61,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Kraken",
+    "date": "2026-05-15",
+    "laid_off": 150,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Innovaccer",
+    "date": "2026-05-14",
+    "laid_off": 340,
+    "pct": null,
+    "reason": "Transitioning to an AI-native company and aligning the team to current business priorities to become lean, fast and focused.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Dune",
+    "date": "2026-05-14",
+    "laid_off": null,
+    "pct": 0.25,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Gambling.com Group",
+    "date": "2026-05-14",
+    "laid_off": null,
+    "pct": null,
+    "reason": "AI Transformation-led restructure making AI the foundation of team structures and processes, targeting $13M in annual savings.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Cisco",
+    "date": "2026-05-13",
+    "laid_off": 4000,
+    "pct": 0.05,
+    "reason": "Restructuring to shift investment toward areas of strongest demand in the AI era, including silicon, optics, security, and AI.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "LinkedIn",
+    "date": "2026-05-13",
+    "laid_off": 875,
+    "pct": 0.05,
+    "reason": "New CEO Daniel Shapero (ex-COO, took over month prior) memo: 'We need to reinvent how we work, with agile teams focused on our highest priorities, and by shifting investments toward areas such as infrastructure to fulfill our mission and vision over the long term.' Spokesperson called it 'regular business planning.' Source told Reuters AI automation was NOT the cause. Notable because LinkedIn just crossed $5B quarterly revenue (+12% YoY).",
+    "theme": "restructuring under new CEO (explicitly not AI-driven)",
+    "source_used": "https://www.hcamag.com/us/news/general/linkedin-cuts-5-of-staff-despite-record-revenue-reuters-reports/575160"
+  },
+  {
+    "company": "Jumia",
+    "date": "2026-05-13",
+    "laid_off": 200,
+    "pct": null,
+    "reason": "Reducing headcount and process automation through expansion of AI tools to improve operational efficiency and cut costs.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Guesty",
+    "date": "2026-05-13",
+    "laid_off": 20,
+    "pct": 0.02,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Breadfast",
+    "date": "2026-05-12",
+    "laid_off": 58,
+    "pct": null,
+    "reason": "Non-renewal of contracts for 58 engineering, product, and data staff at scheduled expiry; no substantive strategic justification provided publicly.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "MRI Software",
+    "date": "2026-05-11",
+    "laid_off": 200,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "One Identity",
+    "date": "2026-05-11",
+    "laid_off": 41,
+    "pct": null,
+    "reason": "Closing German development office, relocating work abroad; CTO claimed German team was not open enough to new development approaches and the company needed to act quickly.",
+    "theme": "offshoring"
+  },
+  {
+    "company": "GitLab",
+    "date": "2026-05-11",
+    "laid_off": null,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "MessageBird",
+    "date": "2026-05-11",
+    "laid_off": null,
+    "pct": 0.2,
+    "reason": "Reducing European headcount by 20% to relocate closer to US-headquartered customers, who now account for 75% of revenue.",
+    "theme": "geographic shift"
+  },
+  {
+    "company": "ZoomInfo",
+    "date": "2026-05-10",
+    "laid_off": 600,
+    "pct": 0.2,
+    "reason": "Restructuring to redirect spending toward AI-enabled engineering and data infrastructure, targeting ~$60M in annual savings; cuts concentrated in R&D and downmarket sales.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Adda247",
+    "date": "2026-05-10",
+    "laid_off": 200,
+    "pct": 0.2,
+    "reason": "Structural adjustments to optimize financial performance and operational execution ahead of planned IPO.",
+    "theme": "IPO prep"
+  },
+  {
+    "company": "Parker",
+    "date": "2026-05-09",
+    "laid_off": null,
+    "pct": 1,
+    "reason": "Filed for bankruptcy after failed acquisition negotiations; CEO hinted at over-hiring and reactive decisions as contributing factors.",
+    "theme": "shutdown"
+  },
+  {
+    "company": "Staffbase",
+    "date": "2026-05-08",
+    "laid_off": 176,
+    "pct": 0.22,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Cloudflare",
+    "date": "2026-05-07",
+    "laid_off": 1100,
+    "pct": 0.2,
+    "reason": "Reorganizing to operate effectively in the agentic AI era; internal AI usage grew over 600% in three months, requiring fundamental restructuring of roles and processes.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Bill.com",
+    "date": "2026-05-07",
+    "laid_off": 709,
+    "pct": 0.3,
+    "reason": "Aligning cost structure and talent with growth trajectory, investing more deliberately in highest-impact areas to improve organizational agility.",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "Ticketmaster",
+    "date": "2026-05-07",
+    "laid_off": 350,
+    "pct": 0.08,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "DeepL",
+    "date": "2026-05-07",
+    "laid_off": 250,
+    "pct": 0.21,
+    "reason": "Restructuring as an enduring global AI company with smaller, AI-embedded teams to match accelerating pace of AI advancement.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Upwork",
+    "date": "2026-05-07",
+    "laid_off": 151,
+    "pct": 0.24,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Truecaller",
+    "date": "2026-05-07",
+    "laid_off": 70,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Arctic Wolf",
+    "date": "2026-05-06",
+    "laid_off": 250,
+    "pct": 0.1,
+    "reason": "Better aligning structure and investments with long-term strategy; redirecting resources to its Superintelligence platform and Agentic SOC.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Pocket FM",
+    "date": "2026-05-06",
+    "laid_off": 100,
+    "pct": 0.1,
+    "reason": "Framed as regular performance-based reviews leading to role-specific changes; reportedly aimed at increasing revenue per employee.",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "LSports",
+    "date": "2026-05-06",
+    "laid_off": 40,
+    "pct": 0.2,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "ApnaMart",
+    "date": "2026-05-06",
+    "laid_off": 35,
+    "pct": 0.1,
+    "reason": "AI-led automation rendering some roles redundant, combined with relocation of product and technology teams from Bengaluru to Gurugram.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "reAlpha",
+    "date": "2026-05-06",
+    "laid_off": null,
+    "pct": 0.25,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "PayPal",
+    "date": "2026-05-05",
+    "laid_off": 4760,
+    "pct": 0.2,
+    "reason": "New CEO Enrique Lores (ex-HP Inc., took the helm March 1, 2026) announced cutting ~20% of the 23,800-person workforce as part of a 2-3 year reorg targeting at least $1.5B in annualized run-rate savings and a shift to an 'AI-native operating model.' Announced alongside weaker-than-expected Q1 profit.",
+    "theme": "cost cutting / AI-native reorg under new CEO",
+    "source_used": "https://layoffhedge.com/company/paypal"
+  },
+  {
+    "company": "Coinbase",
+    "date": "2026-05-05",
+    "laid_off": 700,
+    "pct": 0.14,
+    "reason": "Adjusting cost structure amid crypto market downturn while leveraging AI tools so smaller teams can do more.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Freshworks",
+    "date": "2026-05-05",
+    "laid_off": 500,
+    "pct": 0.11,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "0G",
+    "date": "2026-05-05",
+    "laid_off": null,
+    "pct": 0.25,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Careem",
+    "date": "2026-05-05",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Citing rising inflation, weakening demand, intense competition, and global capital constraints; exiting Pakistan ride-hailing and broader global cost-cutting restructure.",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "Shopify",
+    "date": "2026-05-04",
+    "laid_off": 30,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Pentera",
+    "date": "2026-04-27",
+    "laid_off": 40,
+    "pct": 0.08,
+    "reason": "Focus on core activities and continued development of AI-driven cybersecurity verification products, reallocating resources.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "SuperOps",
+    "date": "2026-04-24",
+    "laid_off": 60,
+    "pct": 0.3,
+    "reason": "Restructuring to improve operational efficiency and align the company with its long-term AI-focused roadmap, accelerating its transition into an AI-first organization.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Remarkable",
+    "date": "2026-04-22",
+    "laid_off": 200,
+    "pct": null,
+    "reason": "Declining demand and challenging macroeconomic conditions, including weaker sales and rising component costs driven by the AI industry.",
+    "theme": "demand decline"
+  },
+  {
+    "company": "Epidemic Sound",
+    "date": "2026-04-21",
+    "laid_off": 150,
+    "pct": 0.33,
+    "reason": "source not accessible",
+    "theme": "AI pivot"
+  },
+  {
+    "company": "GeoComply",
+    "date": "2026-04-21",
+    "laid_off": 68,
+    "pct": 0.15,
+    "reason": "Strategic evolution to streamline operations, incorporate AI into daily workflows, and stay ahead of shifts in the regulatory and technology landscape.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Acko",
+    "date": "2026-04-20",
+    "laid_off": 60,
+    "pct": 0.05,
+    "reason": "Structural realignment to reset internal operations around AI, framed as a pre-IPO restructuring rather than cost-cutting.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Sama",
+    "date": "2026-04-16",
+    "laid_off": 1108,
+    "pct": null,
+    "reason": "Meta terminated a major contract with Sama; the company unsuccessfully tried to retain the workstream, forcing redundancies for its Nairobi staff.",
+    "theme": "lost contract"
+  },
+  {
+    "company": "Shutterfly",
+    "date": "2026-04-16",
+    "laid_off": 80,
+    "pct": null,
+    "reason": "Restructuring to streamline work and accelerate delivery, consolidating web and app development teams in the US instead of Israel.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Quora",
+    "date": "2026-04-16",
+    "laid_off": null,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Snap",
+    "date": "2026-04-15",
+    "laid_off": 1000,
+    "pct": 0.16,
+    "reason": "CEO Evan Spiegel: company has reached 'a crucible moment' requiring 'a new way of working that is faster and more efficient.' Cited AI as helping staff work faster, reducing 'repetitive work' and enabling smaller teams. 16% of global workforce plus ~300 open roles closed; targets $500M+ in annualized cost savings by H2 2026. Stock jumped on the news.",
+    "theme": "AI efficiency / cost cutting",
+    "source_used": "https://variety.com/2026/digital/news/snap-layoffs-snapchat-ceo-evan-spiegel-cites-ai-1236722228/"
+  },
+  {
+    "company": "UKG",
+    "date": "2026-04-15",
+    "laid_off": 950,
+    "pct": null,
+    "reason": "CEO Jennifer Morgan (joined 2024) is restructuring UKG into an 'AI-first company,' citing the need to streamline operations and realign resources with evolving customer demands. ~600 employees left immediately, ~350 stayed for transition. Hits Sunrise and Weston, FL offices hard; follows a prior 2,200-person (14%) cut in late 2024. Owned by PE firm Hellman & Friedman since 2019.",
+    "theme": "AI-first restructuring",
+    "source_used": "https://cbs12.com/news/florida/ukg-announces-950-layoffs-affecting-a-large-number-of-workers-in-south-florida-offices-ultimate-kronos-group-jobs-reductions-restructuring-"
+  },
+  {
+    "company": "Taboola",
+    "date": "2026-04-15",
+    "laid_off": 100,
+    "pct": 0.05,
+    "reason": "Strategic realignment; the company is continuing to hire in parallel while accelerating expansion of its DeeperDive product with major media partners.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Swyftx",
+    "date": "2026-04-15",
+    "laid_off": 37,
+    "pct": 0.15,
+    "reason": "Restructuring to remove duplication, simplify operations, and capture efficiencies following two major acquisitions that increased company size and complexity.",
+    "theme": "post-acquisition restructuring"
+  },
+  {
+    "company": "Nayax",
+    "date": "2026-04-15",
+    "laid_off": 32,
+    "pct": 0.03,
+    "reason": "Ongoing management processes and organizational adjustments in line with market developments and customer needs, framed as routine efficiency work.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Productboard",
+    "date": "2026-04-15",
+    "laid_off": null,
+    "pct": 0.3,
+    "reason": "Transformation into an AI-only organization focused on its Productboard Spark product, citing that AI is collapsing the process layer of building software.",
+    "theme": "AI pivot"
+  },
+  {
+    "company": "GoCardless",
+    "date": "2026-04-14",
+    "laid_off": 90,
+    "pct": null,
+    "reason": "Restructuring to achieve profitability, with the company targeting cash-generative status by June 2026.",
+    "theme": "profitability push"
+  },
+  {
+    "company": "Eventbrite",
+    "date": "2026-04-13",
+    "laid_off": null,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "post-acquisition restructuring"
+  },
+  {
+    "company": "StarkWare",
+    "date": "2026-04-13",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Shifting focus from infrastructure and research toward revenue-generating products, becoming more agile and commercially focused.",
+    "theme": "pivot to revenue"
+  },
+  {
+    "company": "Esh Group",
+    "date": "2026-04-12",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Organizational restructuring to align with technological developments and newly signed customer agreements, following the sale of Esh Bank to Isracard.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Life360",
+    "date": "2026-04-10",
+    "laid_off": null,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Cars.com",
+    "date": "2026-04-09",
+    "laid_off": null,
+    "pct": 0.11,
+    "reason": "source not accessible",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Pepper Pay",
+    "date": "2026-04-09",
+    "laid_off": null,
+    "pct": 1,
+    "reason": "Bankruptcy filing; company had only $665K in assets against $3.4M in liabilities, including approximately $2.9M owed to TSYS/Global Payments.",
+    "theme": "shutdown"
+  },
+  {
+    "company": "IAC",
+    "date": "2026-04-08",
+    "laid_off": 77,
+    "pct": 0.02,
+    "reason": "Consolidating corporate functions with its People Inc. business as part of a rebrand and reorganization, expected to save about $40M annually.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "GoPro",
+    "date": "2026-04-07",
+    "laid_off": 145,
+    "pct": 0.23,
+    "reason": "source not accessible",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "Pendo",
+    "date": "2026-04-07",
+    "laid_off": 90,
+    "pct": 0.1,
+    "reason": "Reorganization amid a dramatically changing technology landscape, 'refounding' the company to move quickly and serve clients building AI agents.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Bolt",
+    "date": "2026-04-05",
+    "laid_off": null,
+    "pct": 0.33,
+    "reason": "Becoming a leaner organization that leverages AI more centrally, citing that operating in 2026 is very different from prior years.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Welltech",
+    "date": "2026-04-03",
+    "laid_off": 225,
+    "pct": 0.3,
+    "reason": "Reorganization and a change in focus, coinciding with recent CEO and C-level leadership changes.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "NeuroPixel.AI",
+    "date": "2026-04-03",
+    "laid_off": null,
+    "pct": 1,
+    "reason": "Shutdown due to limited business penetration, rising competition from large tech players' advanced image generation models, and financial strain from a lost major client.",
+    "theme": "shutdown"
+  },
+  {
+    "company": "Vimeo",
+    "date": "2026-04-03",
+    "laid_off": null,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "post-acquisition restructuring"
+  },
+  {
+    "company": "Meta",
+    "date": "2026-04-02",
+    "laid_off": 200,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "restructuring"
+  },
+  {
+    "company": "MARA",
+    "date": "2026-04-02",
+    "laid_off": null,
+    "pct": 0.15,
+    "reason": "source not accessible",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "Sonos",
+    "date": "2026-04-01",
+    "laid_off": null,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Oracle",
+    "date": "2026-03-31",
+    "laid_off": 30000,
+    "pct": null,
+    "reason": "Mass layoff (~18% of 162k workforce) executed without HR/manager warning to redirect headcount spend into a ~$50B FY26 AI capex push (Nvidia GB300 racks, AMD MI355X clusters, and the 4.5GW Stargate data-center buildout tied to OpenAI's $300B compute contract). Larry Ellison is betting Oracle's next decade on more compute; the cuts happened despite Q3 FY26 GAAP net income of $3.7B (+27% YoY) and RPO of $553B (+325% YoY).",
+    "theme": "AI capex reallocation",
+    "source_used": "https://thenextweb.com/news/oracle-layoffs-march-2026"
+  },
+  {
+    "company": "Monzo",
+    "date": "2026-03-31",
+    "laid_off": 50,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "market exit"
+  },
+  {
+    "company": "Covrzy",
+    "date": "2026-03-31",
+    "laid_off": null,
+    "pct": 1,
+    "reason": "Persistent cash crunch and inability to secure funding, compounded by the CTO's resignation and two attempted acquisition deals falling through.",
+    "theme": "shutdown"
+  },
+  {
+    "company": "Rec Room",
+    "date": "2026-03-31",
+    "laid_off": null,
+    "pct": 1,
+    "reason": "Shutdown due to inability to reach profitability amid the shift in the VR market and broader gaming headwinds, with expenses outpacing revenue despite 150M players.",
+    "theme": "shutdown"
+  },
+  {
+    "company": "Yupp",
+    "date": "2026-03-31",
+    "laid_off": null,
+    "pct": 1,
+    "reason": "Shutdown due to failure to reach strong product-market fit as AI models improved rapidly and the industry shifted toward specialized experts rather than crowdsourced feedback.",
+    "theme": "shutdown"
+  },
+  {
+    "company": "Enpal",
+    "date": "2026-03-27",
+    "laid_off": 100,
+    "pct": null,
+    "reason": "Dissolved an entire customer service department (Customer GmbH) and restructured it, with affected employees asked to reapply for their jobs; underlying business rationale not detailed.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Monte Carlo",
+    "date": "2026-03-26",
+    "laid_off": null,
+    "pct": 0.3,
+    "reason": "Restructuring to align with AI-driven productivity gains, reorganizing to be flatter and faster with AI-first products and workflows.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Quandoo",
+    "date": "2026-03-26",
+    "laid_off": null,
+    "pct": 1,
+    "reason": "Decision to cease operations in a planned and orderly manner; underlying business factors not disclosed in the article.",
+    "theme": "shutdown"
+  },
+  {
+    "company": "Meta",
+    "date": "2026-03-25",
+    "laid_off": 700,
+    "pct": 0.01,
+    "reason": "~700 jobs cut across Facebook social, global operations, recruiting, sales, and Reality Labs (the biggest hit). Internal memo framed it as sharpening operations to free up resources for AI; some employees offered new roles (some requiring relocation). Coincided with record AI capex guidance ($125-145B for 2026, more than 2x 2025), shifting resources away from AR hardware.",
+    "theme": "AI restructuring",
+    "source_used": "https://dataconomy.com/2026/03/26/meta-layoffs-hundreds-2026/"
+  },
+  {
+    "company": "Epic Games",
+    "date": "2026-03-24",
+    "laid_off": 1000,
+    "pct": null,
+    "reason": "Cited a downturn in Fortnite engagement starting in 2025 that caused spending to outpace revenue, along with industry-wide headwinds (slower growth, weaker spending, console softness); Epic explicitly said the cuts were not AI-related.",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "Zendesk",
+    "date": "2026-03-24",
+    "laid_off": 100,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "OpenText",
+    "date": "2026-03-24",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Company spokesperson said it regularly evaluates its organization to ensure alignment with strategic priorities and long-term growth.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Spotify",
+    "date": "2026-03-23",
+    "laid_off": 15,
+    "pct": null,
+    "reason": "Spotify said the podcast group cuts were intended to improve execution, speed, and alignment across teams, and were 'not about cost-cutting,' with continued investment in multiformat content and video.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Gemini",
+    "date": "2026-03-20",
+    "laid_off": null,
+    "pct": 0.3,
+    "reason": "Company cited deploying AI tools to increase productivity amid heavy losses (~$587M-$602M for 2025), market exits (UK, EEA, Australia), and a pivot to prediction markets and a 'super app' model to support a path to profitability.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Crypto.com",
+    "date": "2026-03-19",
+    "laid_off": null,
+    "pct": 0.12,
+    "reason": "CEO Kris Marszalek said the cuts targeted 'roles that do not adapt' to AI, framing it as an urgent pivot to embed AI across operations or risk being left behind.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Snowflake",
+    "date": "2026-03-19",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Eliminated its entire technical writing and documentation team (~70 roles) as 'targeted adjustments' tied to its AI strategy, freeing budget for AI talent and Cortex agents following a $200M OpenAI partnership that automated documentation work.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "FranShares",
+    "date": "2026-03-17",
+    "laid_off": null,
+    "pct": 1,
+    "reason": "Chicago franchise-investing startup shut down operations (100% staff impacted); specific public rationale was not detailed beyond the company-wide closure.",
+    "theme": "shutdown"
+  },
+  {
+    "company": "Dell",
+    "date": "2026-03-16",
+    "laid_off": 11000,
+    "pct": 0.1,
+    "reason": "Annual filing attributed the 10% workforce reduction to ongoing restructuring and cost controls (reorganizations, limited external hiring) as Dell shifts investment toward AI-optimized servers while managing weak PC demand.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Stone",
+    "date": "2026-03-13",
+    "laid_off": 400,
+    "pct": 0.03,
+    "reason": "Company said the layoffs were part of restructuring aimed at greater efficiency, including advances in AI initiatives that contributed to the ~3% headcount reduction.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Loopio",
+    "date": "2026-03-13",
+    "laid_off": 36,
+    "pct": 0.12,
+    "reason": "Cited market conditions and a need to better align the organization with areas of greatest impact on product, customer experience, and sustainable growth.",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "Digg",
+    "date": "2026-03-13",
+    "laid_off": null,
+    "pct": null,
+    "reason": "CEO Justin Mezzell said sophisticated AI agents and bot spam had overwhelmed Digg's user-voting model, making it impossible to trust content rankings, forcing a retool and app shutdown.",
+    "theme": "pivot"
+  },
+  {
+    "company": "Atlassian",
+    "date": "2026-03-11",
+    "laid_off": 1600,
+    "pct": 0.1,
+    "reason": "CEO Mike Cannon-Brookes said the company is pivoting toward AI and reorganizing for the AI era, changing the mix of skills and roles needed.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "InvestCloud",
+    "date": "2026-03-10",
+    "laid_off": 150,
+    "pct": null,
+    "reason": "No publicly stated reason; cuts were concentrated in the digital wealth division (financial planning, advisor and client experience software).",
+    "theme": "unknown"
+  },
+  {
+    "company": "Flipkart",
+    "date": "2026-03-06",
+    "laid_off": 500,
+    "pct": null,
+    "reason": "Company said the cuts were part of its regular annual performance review process, through which a small percentage of employees transition out.",
+    "theme": "performance review"
+  },
+  {
+    "company": "SSense",
+    "date": "2026-03-05",
+    "laid_off": 215,
+    "pct": null,
+    "reason": "Company reported 'economic reasons' to the Quebec government as the basis for terminations, with some staff previously on temporary layoff status.",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "Supernal",
+    "date": "2026-03-04",
+    "laid_off": 296,
+    "pct": 0.8,
+    "reason": "Hyundai-backed eVTOL startup called the cuts 'a strategic pivot to ensure our staffing and cost structures are optimized for the long-term delivery of our market-aligned aircraft design' after lagging competitors and pausing flight testing.",
+    "theme": "pivot"
+  },
+  {
+    "company": "Envato",
+    "date": "2026-03-04",
+    "laid_off": 200,
+    "pct": 0.3,
+    "reason": "CEO Hichame Assi cited the need to respond to rapidly changing customer expectations and to reduce operating costs in order to invest further in product, marketing, and AI.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Amazon",
+    "date": "2026-03-04",
+    "laid_off": 100,
+    "pct": null,
+    "reason": "Robotics unit cuts attributed to routine organizational reviews to ensure teams are set up to innovate and deliver for customers; broader Amazon reductions have been tied to AI-driven operational effectiveness.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "At-Bay",
+    "date": "2026-03-04",
+    "laid_off": 25,
+    "pct": null,
+    "reason": "CEO Rotem Iram said the R&D layoffs were part of a transition to operating profit while maintaining At-Bay's position in cyber insurance.",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "MicroVision",
+    "date": "2026-03-03",
+    "laid_off": 49,
+    "pct": null,
+    "reason": "Cuts were part of a plan to consolidate Redmond engineering, manufacturing, supply chain, and quality activities into a new Orlando facility to reduce operating expenses and align resources with strategic priorities.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Verint Systems",
+    "date": "2026-03-02",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Post-Thoma Bravo acquisition consolidation: Verint is being combined with Calabrio to build an AI-driven CX platform, with cuts focused on overlapping roles, overhead, and tightening R&D/go-to-market budgets.",
+    "theme": "M&A consolidation"
+  },
+  {
+    "company": "Zap Africa",
+    "date": "2026-02-28",
+    "laid_off": null,
+    "pct": 0.44,
+    "reason": "CTO described it as an 'AI-driven efficiency shift,' aligning operating costs with revenue-generating activities and trimming the team from 18 to 10 to match product priorities.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Block",
+    "date": "2026-02-26",
+    "laid_off": 4000,
+    "pct": 0.4,
+    "reason": "CEO Jack Dorsey said Block is shifting to operate with 'smaller, highly talented teams using AI to automate more work,' explicitly stating the business is strong and the cuts are an AI-driven structural change.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Ocado",
+    "date": "2026-02-26",
+    "laid_off": 1000,
+    "pct": 0.05,
+    "reason": "Targeting GBP150M in technology and support cost savings to achieve cash-flow positivity in fiscal 2025/26; cuts focused on UK head-office tech and back-office roles, including roughly half from R&D.",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "eBay",
+    "date": "2026-02-26",
+    "laid_off": 800,
+    "pct": 0.06,
+    "reason": "Company said it is reinvesting and aligning its structure with strategic priorities, based on operating model needs and areas of duplication; cuts followed eBay's $1.2B Depop acquisition.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "C3.ai",
+    "date": "2026-02-25",
+    "laid_off": 280,
+    "pct": 0.26,
+    "reason": "CEO Stephen Ehikian said the cost structure was 'simply too high' after aggressive 2024-25 hiring outpaced slower enterprise AI adoption; also cites AI-driven efficiency. Came alongside a wider loss and stock drop.",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "Deliveroo",
+    "date": "2026-02-25",
+    "laid_off": 187,
+    "pct": null,
+    "reason": "DoorDash, which acquired Deliveroo, closed Qatar and Singapore operations following a review of country-specific conditions, framed as aligning with long-term value for customers, merchants, and riders.",
+    "theme": "market exit"
+  },
+  {
+    "company": "WiseTech",
+    "date": "2026-02-24",
+    "laid_off": 2000,
+    "pct": 0.3,
+    "reason": "CEO Zubin Appoo declared 'the era of manually writing code as the core act of engineering is over,' with AI displacing software development and customer service work across 40 countries.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "TrueCar",
+    "date": "2026-02-24",
+    "laid_off": 100,
+    "pct": 0.3,
+    "reason": "After going private under founder Scott Painter, TrueCar refocused on profitability and its core mission, eliminating unprofitable initiatives (TrueCar+, TCMS, TCWS) that had consumed over half of company resources.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "DraftKings",
+    "date": "2026-02-24",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Company is reducing general and administrative costs amid a broader reorganization; AI is central to its evolving cost structure (automated RFPs, coding assistance, chatbots) and prediction market competition pressures.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Livspace",
+    "date": "2026-02-20",
+    "laid_off": 1000,
+    "pct": 0.12,
+    "reason": "Company attributed the cuts to integration of advanced AI agents and automation across sales, operations, design, and marketing, framing it as a strategic AI pivot rather than cost-cutting.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Lucid Motors",
+    "date": "2026-02-20",
+    "laid_off": null,
+    "pct": 0.12,
+    "reason": "Interim CEO Marc Winterhoff said the cuts will 'improve operational effectiveness and optimize our resources' as Lucid pursues profitability.",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "Codecademy",
+    "date": "2026-02-19",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Skillsoft did not publicly detail the rationale; the entire Codecademy curriculum team was eliminated, confirmed via employee LinkedIn posts rather than an official statement.",
+    "theme": "unknown"
+  },
+  {
+    "company": "Cyberark",
+    "date": "2026-02-17",
+    "laid_off": 500,
+    "pct": 0.12,
+    "reason": "No explicit public statement; layoffs appear tied to post-merger consolidation with Palo Alto Networks, focused on overlapping sales, operational, and administrative roles created by the combination.",
+    "theme": "M&A consolidation"
+  },
+  {
+    "company": "Huawei",
+    "date": "2026-02-15",
+    "laid_off": 50,
+    "pct": null,
+    "reason": "Company said it is undergoing organizational restructuring to improve efficiency and sharpen business focus, with some staff being integrated into other business units.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Axonius",
+    "date": "2026-02-15",
+    "laid_off": 40,
+    "pct": 0.04,
+    "reason": "Company said the cuts were part of refining its organizational structure and ensuring operational discipline and efficiency as it matures and prepares for an IPO.",
+    "theme": "IPO prep"
+  },
+  {
+    "company": "Firebolt",
+    "date": "2026-02-15",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Management said expanded AI-driven capabilities now reduce the need for a large engineering organization, citing a strategic shift to improve efficiency in a new technological era.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Clari",
+    "date": "2026-02-12",
+    "laid_off": 76,
+    "pct": null,
+    "reason": "Restructuring after the SalesLoft merger to eliminate overlapping sales, marketing, and engineering roles and accelerate investment in AI-powered revenue intelligence capabilities.",
+    "theme": "M&A consolidation"
+  },
+  {
+    "company": "Glossier",
+    "date": "2026-02-11",
+    "laid_off": 50,
+    "pct": 0.33,
+    "reason": "Under new CEO Colin Walsh, Glossier said it is being 'reshaped' into smaller, more agile teams to restore operational discipline, sharpen brand positioning, and reignite growth after years of slowed momentum.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Dayforce",
+    "date": "2026-02-11",
+    "laid_off": null,
+    "pct": 0.05,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Fi.Money",
+    "date": "2026-02-10",
+    "laid_off": null,
+    "pct": 0.4,
+    "reason": "source not accessible",
+    "theme": "pivot"
+  },
+  {
+    "company": "Salesforce",
+    "date": "2026-02-09",
+    "laid_off": null,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Workday",
+    "date": "2026-02-04",
+    "laid_off": 400,
+    "pct": 0.02,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Rewire",
+    "date": "2026-02-04",
+    "laid_off": 110,
+    "pct": null,
+    "reason": "Parent Remitly is consolidating R&D to other global locations to streamline operations, reduce complexity, and focus on its most significant growth engines in cross-border money transfers.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Smartsheet",
+    "date": "2026-02-04",
+    "laid_off": null,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Zillow",
+    "date": "2026-02-02",
+    "laid_off": 200,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Zipcar",
+    "date": "2026-02-02",
+    "laid_off": 126,
+    "pct": null,
+    "reason": "Parent Avis Budget Group is consolidating Zipcar's Boston headquarters to New Jersey as part of broader corporate restructuring to make Zipcar run more efficiently in the long term.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Expedia",
+    "date": "2026-02-01",
+    "laid_off": 100,
+    "pct": null,
+    "reason": "Expedia is simplifying its structure and reducing organizational layers to move faster, while remaining disciplined about assessing the skills it needs for the future.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Zupee",
+    "date": "2026-01-30",
+    "laid_off": 200,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "regulatory impact"
+  },
+  {
+    "company": "Peloton",
+    "date": "2026-01-30",
+    "laid_off": null,
+    "pct": 0.11,
+    "reason": "source not accessible",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "Kiwi.com",
+    "date": "2026-01-29",
+    "laid_off": 250,
+    "pct": 0.36,
+    "reason": "source not accessible",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "Gloo",
+    "date": "2026-01-29",
+    "laid_off": null,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "cost cutting"
+  },
+  {
+    "company": "Amazon",
+    "date": "2026-01-28",
+    "laid_off": 16000,
+    "pct": null,
+    "reason": "Amazon is strengthening its organization by reducing layers, increasing ownership, and removing bureaucracy across corporate roles.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "ASML",
+    "date": "2026-01-28",
+    "laid_off": 1700,
+    "pct": null,
+    "reason": "ASML is streamlining its Technology and IT organizations to address inefficiencies and slow process flows, so engineers can focus on engineering and innovation.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Pinterest",
+    "date": "2026-01-27",
+    "laid_off": 700,
+    "pct": 0.15,
+    "reason": "CEO Bill Ready told staff the cuts were to 'double down on an AI-forward approach,' redirecting resources to AI-focused roles and prioritizing AI-powered products. Also scaling back office space, with $35-45M in pre-tax restructuring charges expected by end of Q3. Stock plummeted on the news. Notable aftermath: Pinterest later fired engineers who built an internal layoff-tracking tool.",
+    "theme": "AI transformation",
+    "source_used": "https://techcrunch.com/2026/01/27/pinterest-to-lay-off-15-of-staff-to-redirect-resources-to-ai/"
+  },
+  {
+    "company": "Moon Active",
+    "date": "2026-01-27",
+    "laid_off": 110,
+    "pct": 0.05,
+    "reason": "Strategic restructuring with targeted streamlining in two units following internal review of operational structure and processes, framed as cost optimization amid continued growth.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Expedia",
+    "date": "2026-01-26",
+    "laid_off": null,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Entropy",
+    "date": "2026-01-25",
+    "laid_off": null,
+    "pct": 1,
+    "reason": "Entropy is winding down because the company wasn't venture scale; after multiple pivots and layoffs, the founder couldn't find a viable business model supporting venture-level growth.",
+    "theme": "shutdown"
+  },
+  {
+    "company": "Roof Stacks",
+    "date": "2026-01-24",
+    "laid_off": 220,
+    "pct": null,
+    "reason": "The company terminated employees citing 'Code 18 - End of Work', allegedly used to circumvent standard mass layoff procedures; no substantive business rationale was publicly stated.",
+    "theme": "unknown"
+  },
+  {
+    "company": "Autodesk",
+    "date": "2026-01-22",
+    "laid_off": 1000,
+    "pct": 0.07,
+    "reason": "CEO Andrew Anagnost framed the ~7% cut (mostly customer-facing sales) as completion of a multi-year go-to-market transformation, with smaller targeted adjustments to align with future opportunities. Resources reallocated to AI, platform, and cloud initiatives. Restructuring charges estimated at $135-160M, mostly severance.",
+    "theme": "GTM restructuring + AI/cloud reinvestment",
+    "source_used": "https://www.sec.gov/Archives/edgar/data/0000769397/000076939726000006/ceoemlfinal.htm"
+  },
+  {
+    "company": "Shopify",
+    "date": "2026-01-22",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Shopify is restructuring its partnerships division to focus on building low-friction systems and concentrating efforts on agentic commerce to help merchants capture the AI opportunity.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Vimeo",
+    "date": "2026-01-21",
+    "laid_off": null,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "post-acquisition"
+  },
+  {
+    "company": "Vimeo",
+    "date": "2026-01-20",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Layoffs follow a broader global restructuring effort after Vimeo's acquisition by Bending Spoons; no specific underlying cause was stated in the article.",
+    "theme": "post-acquisition"
+  },
+  {
+    "company": "Polygon",
+    "date": "2026-01-16",
+    "laid_off": 60,
+    "pct": null,
+    "reason": "Layoffs were due to role overlaps from the Coinme and Sequence acquisitions being integrated into Polygon Labs, while keeping overall headcount flat.",
+    "theme": "post-acquisition"
+  },
+  {
+    "company": "Ericsson",
+    "date": "2026-01-15",
+    "laid_off": 1600,
+    "pct": null,
+    "reason": "Press manager Ralf Begner cited competitive pressure in telecom: 'the market has not shown any growth while inflationary pressure continues, and the company must continue to work on reducing its costs to ensure its long-term technology leadership.' Driven by a sharp decline in 5G network investments globally as carriers shift from rollout to monetization. Cuts hit core business and R&D in Sweden (>1 in 10 of 12,600 Swedish staff).",
+    "theme": "cost cutting / 5G slowdown",
+    "source_used": "https://www.thelocal.se/20260115/ericsson-to-lay-off-1600-workers-in-sweden"
+  },
+  {
+    "company": "Tipalti",
+    "date": "2026-01-15",
+    "laid_off": 100,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Playtika",
+    "date": "2026-01-14",
+    "laid_off": 500,
+    "pct": 0.15,
+    "reason": "CEO said the broad growth mindset is no longer sustainable; Playtika is restructuring to focus on fewer games, reduce headcount, and implement AI and automation.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Aleph Alpha",
+    "date": "2026-01-14",
+    "laid_off": 50,
+    "pct": 0.16,
+    "reason": "Strategic repositioning to bundle core competencies and concentrate resources on areas with the highest growth potential following an organizational strategy review.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Meta",
+    "date": "2026-01-13",
+    "laid_off": 1500,
+    "pct": 0.02,
+    "reason": "CTO Andrew Bosworth memo: Meta is 'shifting some of our investment from Metaverse toward Wearables' to make the business 'more sustainable,' reinvesting savings into wearables/AR (smart glasses, controllers). ~10% of Reality Labs cut; AR roles were preserved while VR/metaverse investment was scaled back. Reflects the broader pivot from metaverse to AI.",
+    "theme": "metaverse-to-wearables/AI pivot",
+    "source_used": "https://techcrunch.com/2026/01/14/meta-to-reportedly-lay-off-10-of-reality-labs-staff/"
+  },
+  {
+    "company": "eToro",
+    "date": "2026-01-13",
+    "laid_off": 105,
+    "pct": 0.07,
+    "reason": "Part of eToro's maturation process to align organizational structure with the business and support long-term growth, framed as restructuring from a position of strength to focus on future technologies.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "StoreDot",
+    "date": "2026-01-13",
+    "laid_off": null,
+    "pct": null,
+    "reason": "No specific reason stated; remaining team is focused on maintaining existing projects and commercializing fast-charging battery technology, suggesting workforce streamlining ahead of SPAC merger and Nasdaq listing.",
+    "theme": "IPO prep"
+  },
+  {
+    "company": "MercadoLibre",
+    "date": "2026-01-12",
+    "laid_off": 116,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "FormFactor",
+    "date": "2026-01-09",
+    "laid_off": 220,
+    "pct": 0.11,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Kaseya",
+    "date": "2026-01-08",
+    "laid_off": 250,
+    "pct": 0.05,
+    "reason": "Redesigning its go-to-market approach to serve customers more effectively through intelligent, customer-led execution, reorganizing account management teams by customer segment.",
+    "theme": "restructuring"
+  },
+  {
+    "company": "Hailo",
+    "date": "2026-01-08",
+    "laid_off": 30,
+    "pct": 0.1,
+    "reason": "Strategic repositioning to expand into robotics and Physical AI while reducing investment in other areas adopting the technology more slowly; not financial distress.",
+    "theme": "pivot"
+  },
+  {
+    "company": "Foretellix",
+    "date": "2026-01-08",
+    "laid_off": 29,
+    "pct": 0.18,
+    "reason": "Efficiency measures driven in part by the growing adoption of AI tools, reflecting broader efficiency efforts across the tech sector.",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Tailwind Labs",
+    "date": "2026-01-08",
+    "laid_off": 3,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "AI restructuring"
+  },
+  {
+    "company": "Angi",
+    "date": "2026-01-07",
+    "laid_off": 350,
+    "pct": null,
+    "reason": "source not accessible",
+    "theme": "unknown"
+  },
+  {
+    "company": "Multiverse",
+    "date": "2026-01-05",
+    "laid_off": 55,
+    "pct": null,
+    "reason": "Strategy to employ slightly fewer people while increasing compensation and productivity, citing rising staff costs and efforts to improve revenue per employee.",
+    "theme": "cost cutting"
+  }
+]

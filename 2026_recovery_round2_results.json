@@ -1,0 +1,263 @@
+[
+  {
+    "company": "Freshworks",
+    "date": "2026-05-05",
+    "laid_off": 500,
+    "pct": 0.11,
+    "reason": "Freshworks cut 11% of its workforce (about 500 jobs) to 'streamline organizational efforts and product development, and increase leverage of AI and automation.' CEO Dennis Woodside said 'over half of our code is written by AI' and that automation reduced 'rote work that technology can take care of.' Cuts span global teams and aim to reduce management layers; announced same day as Q1 2026 earnings beat.",
+    "theme": "AI restructuring",
+    "found_via": "https://www.benzinga.com/markets/tech/26/05/52312892/freshworks-cuts-11-of-workforce-as-ceo-says-over-half-of-our-code-is-written-by-ai"
+  },
+  {
+    "company": "Workday",
+    "date": "2026-02-04",
+    "laid_off": 400,
+    "pct": 0.02,
+    "reason": "Workday cut 400 employees (about 2%) concentrated almost entirely in Global Customer Operations (Customer Success, Adoption Services, Customer Support, implementation enablement). Disclosed via regulatory filing; restructuring expected to drive ~$135M in charges and be completed by late April 2026. Follows a much larger 1,600-job round one year earlier.",
+    "theme": "restructuring",
+    "found_via": "https://www.theregister.com/2026/02/04/workday_layoffs_400_jobs/"
+  },
+  {
+    "company": "Ticketmaster",
+    "date": "2026-05-07",
+    "laid_off": 350,
+    "pct": 0.08,
+    "reason": "Ticketmaster cut ~350 jobs (8%) across 25 countries, heaviest in engineering, then product and design. Global President Saumil Mehta framed AI as 'a new utility' for mobile, search and pricing, and said the reorg aimed to 'flatten organizational layers' and speed decisions. Came one day after a 10% Q1 revenue jump to $765M.",
+    "theme": "AI restructuring",
+    "found_via": "https://www.musicbusinessworldwide.com/ticketmaster-cuts-around-350-jobs-8-of-global-workforce-in-engineering-product-and-design-restructuring-report/"
+  },
+  {
+    "company": "Angi",
+    "date": "2026-01-07",
+    "laid_off": 350,
+    "pct": 0.125,
+    "reason": "Angi announced ~350 layoffs to 'reduce operating expenses and optimize the organizational structure in support of long-term growth and in light of AI-driven efficiency improvements.' Expected to save $70-80M annually with ~$30M in restructuring charges. Most engineers among affected; ML algorithms now handle 'a substantial portion of what was once manual labor.'",
+    "theme": "AI restructuring",
+    "found_via": "https://www.ibj.com/articles/angi-to-eliminate-350-jobs"
+  },
+  {
+    "company": "Kiwi.com",
+    "date": "2026-01-29",
+    "laid_off": 250,
+    "pct": 0.36,
+    "reason": "Kiwi.com cut 250 of 700 employees (36%) in its second round since 2024. CEO Oliver Dlouhy told staff: 'Delivering both, at scale and over time, requires clear priorities, fast execution, and a structure designed to support the next phase of Kiwi.com,' and that the company will operate 'with a smaller team, optimized for speed and autonomy.' Refocusing on low fares.",
+    "theme": "restructuring",
+    "found_via": "https://skift.com/2026/01/29/online-travel-agency-kiwi-lays-off-staff-in-latest-round-of-cuts/"
+  },
+  {
+    "company": "FormFactor",
+    "date": "2026-01-09",
+    "laid_off": 220,
+    "pct": 0.11,
+    "reason": "Semiconductor test equipment maker FormFactor announced 200+ layoffs and facility closures (Baldwin Park CA closing Jan 30 with 113 jobs; Carlsbad closing mid-Dec with 107 jobs). Company cited import tariffs and changes in market demand. Expects $30-40M in restructuring charges; affects technicians, engineers, managers, and assemblers.",
+    "theme": "cost cutting",
+    "found_via": "https://finance.yahoo.com/news/bay-area-semiconductor-testing-company-224357532.html"
+  },
+  {
+    "company": "MRI Software",
+    "date": "2026-05-11",
+    "laid_off": 200,
+    "pct": null,
+    "reason": "PE-backed real estate software firm MRI cut ~200 roles globally, explicitly citing AI adoption across products and operations. Company framed it as 'strategic alignment of resources' to improve scalability. Cuts come as PE owners (TA Associates, Harvest Partners, GI Partners) explore a sale/IPO at up to $10B valuation with Goldman Sachs advising.",
+    "theme": "AI restructuring",
+    "found_via": "https://www.crainscleveland.com/real-estate/commercial/ccl-mri-layoffs-2026511/"
+  },
+  {
+    "company": "Zillow",
+    "date": "2026-02-02",
+    "laid_off": 200,
+    "pct": 0.02,
+    "reason": "Zillow let go ~200 employees (about 2%) in performance-based reductions tied to its annual review process. Spokesperson: 'After thoughtful consideration, we made the decision to separate a small number of employees whose performance did not meet expectations,' adding 'This decision is not connected to market conditions or recent business developments.' Primarily engineering, product, and sales.",
+    "theme": "performance",
+    "found_via": "https://www.geekwire.com/2026/zillow-lets-go-of-200-employees-in-performance-related-reductions-at-real-estate-company/"
+  },
+  {
+    "company": "Zupee",
+    "date": "2026-01-30",
+    "laid_off": 200,
+    "pct": null,
+    "reason": "Zupee cut ~200 employees in a second phase of cost rationalization following India's August 2025 Promotion and Regulation of Online Gaming Act, which banned real-money gaming. Total cuts now ~370 across two rounds. Primarily affected tech and customer support; Zupee Studio (micro-drama vertical) was spared. Continuing health insurance and offering career transition support.",
+    "theme": "shutdown",
+    "found_via": "https://inc42.com/buzz/zupee-lays-off-around-200-employees-to-focus-on-short-video-content/"
+  },
+  {
+    "company": "Staffbase",
+    "date": "2026-05-08",
+    "laid_off": 176,
+    "pct": 0.22,
+    "reason": "Chemnitz-based unicorn Staffbase cut 176 people (22%) - 'every fifth position' - driven by economic pressure (inflation, investor caution), shifts in industry demand, and internal restructuring. Company is consolidating product development to Berlin and Saxony, closing other sites. Frames it as reducing complexity after three acquisitions.",
+    "theme": "restructuring",
+    "found_via": "https://www.sunsethq.com/layoff-tracker/staffbase"
+  },
+  {
+    "company": "Upwork",
+    "date": "2026-05-07",
+    "laid_off": 151,
+    "pct": 0.24,
+    "reason": "Upwork cut ~24% of workforce. CEO Hayden Brown's memo: 'Two pizza teams are dead. AI means smaller, differently resourced teams in product and engineering can make a bigger impact than ever.' Also: 'Fewer layers means faster decisions. Flatter is better.' Cited slower near-term growth in Q1 and profitability goals.",
+    "theme": "AI restructuring",
+    "found_via": "https://officechai.com/ai/upwork-lays-off-25-of-its-workforce-says-ai-will-lead-to-smaller-teams/"
+  },
+  {
+    "company": "Kraken",
+    "date": "2026-05-15",
+    "laid_off": 150,
+    "pct": 0.05,
+    "reason": "Kraken parent Payward cut ~150 workers after deploying AI that improved efficiency, primarily in customer service, compliance, and trading support. Kraken's AI chatbot now handles ~80% of customer inquiries. IPO timeline may slip from late 2026 to 2027 due to crypto market decline; Kraken paused its confidential SEC filing in March.",
+    "theme": "AI restructuring",
+    "found_via": "https://unchainedcrypto.com/kraken-cuts-150-workers-after-deploying-ai-as-ipo-timeline-may-slip-to-2027/"
+  },
+  {
+    "company": "Epidemic Sound",
+    "date": "2026-04-21",
+    "laid_off": 150,
+    "pct": 0.33,
+    "reason": "EQT-backed Epidemic Sound cut 150 jobs (one-third of staff) to adapt to AI. Interim CEO Sara Borsvik said the move is 'not financially driven' but to align with AI development; company will broaden offering with AI support and eventually offer entirely AI-generated music. Board chair stated 'in principle all previous business models will become obsolete.'",
+    "theme": "AI restructuring",
+    "found_via": "https://www.breakit.se/artikel/46097/epidemic-sound-vill-dra-ner-med-150-tjanster-det-ar-tungt"
+  },
+  {
+    "company": "GoPro",
+    "date": "2026-04-07",
+    "laid_off": 145,
+    "pct": 0.23,
+    "reason": "GoPro board approved a restructuring plan eliminating 145 jobs (23% of 631-person workforce) to lower costs and improve operating margins. Plan costs $11.5-15M in severance/healthcare. Follows 2025 revenue decline including $9M Q4 loss. Company is also reportedly weighing a sale or merger.",
+    "theme": "cost cutting",
+    "found_via": "https://petapixel.com/2026/04/08/gopro-to-lay-off-23-of-its-workforce-this-year/"
+  },
+  {
+    "company": "MercadoLibre",
+    "date": "2026-01-12",
+    "laid_off": 119,
+    "pct": null,
+    "reason": "MercadoLibre laid off 119 people (originally 116 reported) due to AI expansion, primarily UX writers - the team behind app/website copy. Affected 38 in Brazil and 32 in Argentina. Cofounder Marcos Galperin said his focus would shift to AI projects and mastering 'this transition to the world of agents.' Some affected workers reported training the AI that replaced them.",
+    "theme": "AI restructuring",
+    "found_via": "https://www.investing.com/news/stock-market-news/mercadolibre-lays-off-119-employees-amid-ai-expansion-93CH-4443283"
+  },
+  {
+    "company": "AI21 Labs",
+    "date": "2026-05-18",
+    "laid_off": 110,
+    "pct": 0.61,
+    "reason": "Israeli AI startup AI21 Labs (Amnon Shashua) cut 110 of 180 employees (~61%) and pivoted away from selling foundation models toward its Maestro AI agent orchestration platform. Remaining staff are mostly research and product. Cited inability of foundation models to be a sufficient source of income; revenue agreements include deals with Nebius and Wix.",
+    "theme": "AI restructuring",
+    "found_via": "https://www.calcalistech.com/ctechnews/article/rjwumhukfx"
+  },
+  {
+    "company": "Zendesk",
+    "date": "2026-03-24",
+    "laid_off": 100,
+    "pct": null,
+    "reason": "Zendesk conducted cuts in late March 2026 amid its AI push - completed acquisition of Forethought (an AI agent platform) on March 26, 2026, enabling autonomous AI agents that handle ~80% of support tickets. Specific public reporting on the March 24 internal memo not surfaced; cuts align with broader Zendesk strategy of shifting customer support functions to AI agents (a continuation of multiple PE-era rounds).",
+    "theme": "AI restructuring",
+    "found_via": "https://techcrunch.com/2026/03/11/zendesk-acquires-agentic-customer-service-startup-forethought/"
+  },
+  {
+    "company": "Tipalti",
+    "date": "2026-01-15",
+    "laid_off": 100,
+    "pct": null,
+    "reason": "Israeli fintech Tipalti began another layoff round (industry estimates: 100+ employees) primarily affecting customer success, sales development, and engineering, with ~40% in R&D in Tel Aviv. Company cited economic headwinds and need to optimize operational efficiency. This was the second wave in ~2 months following a sales-restructuring round.",
+    "theme": "cost cutting",
+    "found_via": "https://www.calcalistech.com/ctechnews/article/syrnrsyvgg"
+  },
+  {
+    "company": "ClickUp",
+    "date": "2026-05-21",
+    "laid_off": 290,
+    "pct": 0.22,
+    "reason": "ClickUp cut ~290 of 1,300 employees (22%) and introduced $1M salary bands for survivors. CEO Zeb Evans framed it on X not as cost-cutting but as a structural bet on AI: restructuring around a '100x org' model where AI agents outnumber employees 3:1. The company now runs ~3,000 internal AI agents. Path to $1M salary available to anyone producing '100x impact' by creating/managing AI systems.",
+    "theme": "AI restructuring",
+    "found_via": "https://thenextweb.com/news/clickup-layoffs-22-percent-ai-100x-org-million-salary"
+  },
+  {
+    "company": "Dune",
+    "date": "2026-05-14",
+    "laid_off": 35,
+    "pct": 0.25,
+    "reason": "Dune Analytics cut 25% of staff (~35 of 143) as cofounder Fredrik Haga restructures around AI agents and institutional onchain finance adoption. Pivot leans on Dune MCP (open-standard server launched March 2026) that lets AI agents query its data warehouse via natural language. Company says it remains well capitalized after $79M total raised.",
+    "theme": "AI restructuring",
+    "found_via": "https://decrypt.co/367949/dune-analytics-slashes-25-of-workforce-in-ai-institutional-pivot"
+  },
+  {
+    "company": "GitLab",
+    "date": "2026-05-11",
+    "laid_off": null,
+    "pct": 0.07,
+    "reason": "GitLab announced 7% workforce reduction, 30% cut to country footprint, flattened three management layers, reorganized R&D into 60 autonomous teams, and automated internal processes with AI agents. CEO Bill Staples: cuts are 'not an AI optimization or cost cutting exercise' - rather company will 'reinvest the vast majority of savings back into the business to accelerate our unique opportunity in the agentic era.' Stock fell >8% after-hours.",
+    "theme": "AI restructuring",
+    "found_via": "https://thenextweb.com/news/gitlab-layoffs-agentic-era-devops-ai"
+  },
+  {
+    "company": "Quora",
+    "date": "2026-04-16",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Quora laid off employees across teams - particularly Poe-focused teams and shared SG&A. CEO Adam D'Angelo: 'Poe had been funding its growth with support from Quora, and we decided that it was time for Poe to stand on its own financially and fund its own growth.' Also: 'The world is changing rapidly with the rise of AI, and we see incredible potential to apply it to greatly improve both of our products, while maintaining financial independence for both of them through smaller, more focused teams.'",
+    "theme": "AI restructuring",
+    "found_via": "https://laffaz.com/quora-layoffs-poe-adam-dangelo/"
+  },
+  {
+    "company": "Vimeo",
+    "date": "2026-04-03",
+    "laid_off": 132,
+    "pct": 0.25,
+    "reason": "Vimeo filed a WARN notice April 1 to lay off 132 employees at its 330 W. 34th St Midtown Manhattan office, effective April 20 - about 25% of NYC staff. Second major reduction since Bending Spoons closed its $1.38B acquisition in late 2025; follows the January round that eliminated most of the global staff including core video engineering.",
+    "theme": "cost cutting",
+    "found_via": "https://whatnow.com/new-york/local-news/new-york-based-video-platform-to-layoff-130-employees/"
+  },
+  {
+    "company": "Sonos",
+    "date": "2026-04-01",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Sonos cut numerous marketing staff as new CMO Colleen DeCourcy consolidated marketing into five core global functions. DeCourcy described the prior structure as 'overly fragmented, with overlapping roles and multiple handoffs.' Framed as simplification rather than cost-cutting; not performance related. Coincided with launch of first new consumer hardware in over a year. Specific headcount not disclosed.",
+    "theme": "restructuring",
+    "found_via": "https://startuptalky.com/news/sonos-cuts-marketing-jobs/"
+  },
+  {
+    "company": "Salesforce",
+    "date": "2026-02-09",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Salesforce quietly laid off fewer than 1,000 roles on Feb 10, 2026, mostly in marketing, product management, data analytics, Agentforce, and Heroku - not formally announced. Came amid executive reshuffle: 6 new execs replacing 5 who exited since December, with Joe Inzerillo leading the merger of Agentforce and Slack. Benioff has previously cited cutting customer support from ~9,000 to ~5,000 via AI tools.",
+    "theme": "AI restructuring",
+    "found_via": "https://www.salesforceben.com/salesforce-lays-off-nearly-1000-employees-in-early-2026-cuts/"
+  },
+  {
+    "company": "Smartsheet",
+    "date": "2026-02-04",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Smartsheet quietly cut staff in Feb 2026 affecting engineers, marketing managers, project managers and others. Statement: company 'recently made organizational changes to better align our resources with our long-term business priorities.' Headcount of cut not disclosed. Follows ~120-person October round and Smartsheet's $8.4B take-private deal by Blackstone/Vista, with investors known for pushing higher margins.",
+    "theme": "cost cutting",
+    "found_via": "https://www.geekwire.com/2026/smartsheet-layoffs-enterprise-software-giant-cuts-staff/"
+  },
+  {
+    "company": "Peloton",
+    "date": "2026-01-30",
+    "laid_off": null,
+    "pct": 0.11,
+    "reason": "Peloton cut 11% of staff in a cost-cutting move primarily affecting engineering and enterprise teams. CEO Peter Stern informed staffers; second major reduction in six months after a 6% August 2025 cut. Targeting at least $100M in annual spending cuts through 2026. Came months after the weak-selling October 2025 Cross Training Series launch with Peloton IQ AI hardware.",
+    "theme": "cost cutting",
+    "found_via": "https://www.techbuzz.ai/articles/peloton-cuts-11-of-staff-months-after-ai-hardware-launch"
+  },
+  {
+    "company": "Expedia",
+    "date": "2026-01-26",
+    "laid_off": 162,
+    "pct": 0.10,
+    "reason": "Expedia filed WARN notice Jan 28 cutting 162 tech roles at Seattle Interbay HQ (~10% of tech team) - software engineers, data engineers, product/program managers. Statement: 'We are eliminating roles as well as opening some new roles as we remain disciplined about assessing the skills we need for the future. We are also simplifying our structure and reducing organizational layers to move faster and with more accountability.' Cited competition and need to enhance AI-driven experiences.",
+    "theme": "AI restructuring",
+    "found_via": "https://www.geekwire.com/2026/expedia-group-lays-off-employees-in-latest-cuts-at-seattle-travel-giant/"
+  },
+  {
+    "company": "Vimeo",
+    "date": "2026-01-21",
+    "laid_off": null,
+    "pct": null,
+    "reason": "Vimeo laid off more than 1,000 employees globally - the entire video engineering team was eliminated, with fewer than 15 engineers remaining. Came two months after Italian PE/conglomerate Bending Spoons closed its $1.38B acquisition. Matches Bending Spoons' pattern: WeTransfer saw 75% of staff terminated within two months of its 2024 acquisition, and Filmic's entire 22-person team was fired in 2023.",
+    "theme": "PE cost cutting",
+    "found_via": "https://techcrunch.com/2026/01/22/vimeo-starts-layoffs-after-acquisition-by-bending-spoons/"
+  }
+]
