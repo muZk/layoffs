@@ -64,16 +64,19 @@ AI_POSITION = {
     "MercadoLibre": "token_buyer",    # reclassified: internal ML at scale but no foundation models / silicon
 
     # ---- hybrid (sells AI compute/services AND consumes internally) ----
+    # Strict criterion (2026-06): "hybrid" requires selling AI infra/silicon/foundation
+    # models to third parties — NOT just embedding LLM features into a SaaS product.
+    # Companies like Atlassian/Autodesk/Shopify/Workday/GitLab/LinkedIn embed
+    # Anthropic/OpenAI behind their features → they are token_buyers, not hybrids.
     "Amazon": "hybrid",               # AWS+Bedrock+Trainium+Nova+internal usage
-    "Cloudflare": "hybrid",           # Workers AI sells inference, internal usage 600% growth
-    "Salesforce": "hybrid",           # Einstein + Agentforce sold, internal consumption too
-    "LinkedIn": "hybrid",             # Azure-via-Microsoft + own ML
+    "Cloudflare": "hybrid",           # Workers AI sells inference + internal usage
+    "Salesforce": "hybrid",           # Einstein + Agentforce + own xGen LLMs
+    "LinkedIn": "token_buyer",        # consumes Azure AI internally — does not sell AI
     "Microsoft": "hybrid",            # would be hybrid if in dataset
-    "Atlassian": "hybrid",            # Rovo sold + internal consumption
-    "GitLab": "hybrid",               # Duo AI sold + internal
-    "Salesforce": "hybrid",
-    "Workday": "hybrid",              # AI agents sold + internal
-    "Smartsheet": "hybrid",
+    "Atlassian": "token_buyer",       # Rovo embeds Anthropic/OpenAI; no own infra
+    "GitLab": "token_buyer",          # Duo AI embeds Anthropic; no own infra
+    "Workday": "token_buyer",         # AI agents embed third-party LLMs
+    "Smartsheet": "token_buyer",
     "Sonos": "n/a",                   # consumer audio, not AI-driven
     "Block": "token_buyer",           # Square/Cash App; uses AI via providers
     "WiseTech": "token_buyer",        # logistics SaaS using AI for code
@@ -120,14 +123,14 @@ AI_POSITION = {
     "MessageBird": "token_buyer",
     "LSports": "token_buyer",
     "Staffbase": "token_buyer",
-    "Shopify": "hybrid",              # has Sidekick AI agent + internal usage
+    "Shopify": "token_buyer",         # Sidekick embeds third-party LLMs; SaaS w/ AI feature
     "Upwork": "token_buyer",
     "Eventbrite": "token_buyer",
     "Quora": "hybrid",                # Poe sells AI access + internal
-    "GitLab": "hybrid",
+    "GitLab": "token_buyer",
     "Crypto.com": "token_buyer",
     "Gemini": "token_buyer",          # crypto exchange, not Google Gemini
-    "Atlassian": "hybrid",
+    "Atlassian": "token_buyer",
     "Envato": "token_buyer",
 
     # ---- n/a (AI not material to business model or layoff context) ----
@@ -176,7 +179,7 @@ AI_POSITION = {
     "OpenText": "hybrid",
     "eBay": "n/a",
     "Expedia": "n/a",
-    "Autodesk": "hybrid",             # has AI tooling sold + internal
+    "Autodesk": "token_buyer",        # AI features in Fusion/Forma; CAD/AEC core, not AI seller
     "Welltech": "n/a",
     "Roof Stacks": "n/a",
     "Kaseya": "n/a",
@@ -226,7 +229,7 @@ AI_POSITION = {
     "Gemini": "token_buyer",
     "Snowflake": "compute_seller",
     "Stone": "token_buyer",
-    "Atlassian": "hybrid",
+    "Atlassian": "token_buyer",
     "Envato": "token_buyer",
     "Amazon": "hybrid",
     "Zap Africa": "token_buyer",
