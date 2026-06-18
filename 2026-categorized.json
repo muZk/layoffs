@@ -23,7 +23,7 @@
     "ai_position": "token_buyer",
     "profiles_cut": [],
     "profiles_hired": [],
-    "hire_overcorrection": null,
+    "hire_overcorrection": true,
     "reassignment_observed": false
   },
   {
@@ -527,8 +527,8 @@
     "ai_position": "token_buyer",
     "profiles_cut": [],
     "profiles_hired": [],
-    "hire_overcorrection": null,
-    "reassignment_observed": null
+    "hire_overcorrection": true,
+    "reassignment_observed": false
   },
   {
     "company": "Adda247",
@@ -633,7 +633,7 @@
     "ai_position": "hybrid",
     "profiles_cut": [],
     "profiles_hired": [],
-    "hire_overcorrection": null,
+    "hire_overcorrection": true,
     "reassignment_observed": false
   },
   {
@@ -659,8 +659,8 @@
     "ai_position": "token_buyer",
     "profiles_cut": [],
     "profiles_hired": [],
-    "hire_overcorrection": null,
-    "reassignment_observed": null
+    "hire_overcorrection": true,
+    "reassignment_observed": false
   },
   {
     "company": "Ticketmaster",
@@ -960,8 +960,8 @@
     "ai_position": "token_buyer",
     "profiles_cut": [],
     "profiles_hired": [],
-    "hire_overcorrection": null,
-    "reassignment_observed": null
+    "hire_overcorrection": true,
+    "reassignment_observed": false
   },
   {
     "company": "Freshworks",
@@ -2823,8 +2823,8 @@
     "ai_position": "token_buyer",
     "profiles_cut": [],
     "profiles_hired": [],
-    "hire_overcorrection": null,
-    "reassignment_observed": null
+    "hire_overcorrection": true,
+    "reassignment_observed": false
   },
   {
     "company": "Ocado",
@@ -3682,8 +3682,8 @@
     "ai_position": "token_buyer",
     "profiles_cut": [],
     "profiles_hired": [],
-    "hire_overcorrection": null,
-    "reassignment_observed": null
+    "hire_overcorrection": true,
+    "reassignment_observed": false
   },
   {
     "company": "Moon Active",

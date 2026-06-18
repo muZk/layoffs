@@ -363,13 +363,51 @@ MANUAL = {
         "reason_primary": "ai_substitution_claim",
         "ai_link": "direct_substitution",
         "narrative_source": "ceo_memo",
+        "hire_overcorrection": True,  # see SEC audit pass below
     },
     # Wix: "rising AI compute costs... roles becoming redundant in the AI era"
     ("Wix", "2026-05-25"): {
         "reason_primary": "cost_cutting",
         "ai_link": "ai_denied_but_adjacent",
         "narrative_source": "news_with_quote",
+        "hire_overcorrection": True,  # see SEC audit pass below
     },
+    # ------------------------------------------------------------------
+    # SEC 10-K audit pass (2026-06-18): expanded hire_overcorrection coverage
+    # ------------------------------------------------------------------
+    # Original `hire_overcorrection` flag relied on Workforce.ai data (11 companies).
+    # Audited 8 large 2026 cuts (>=500 people OR >=10% pct, SaaS/digital) via SEC
+    # 10-K / 20-F headcount disclosures. Threshold: >=15% growth in any 2-yr window.
+    # Verdicts: 7/8 TRUE (Block, Cloudflare, Wix, Coinbase, Bill.com, Pinterest, ZoomInfo).
+    # WiseTech is FALSE — its growth was M&A-driven (E2open acquisition).
+    # Sources: SEC EDGAR filings of each company. See methodology.md §1 Phase 8.
+    ("Block", "2026-02-26"): {
+        # FY20: 5,477 → FY22: 12,428 (+127%); +101% organic ex Afterpay (~1,400 hc)
+        # FY24-25 already cutting 21% before 4k cut. Returns to ~FY20+13%.
+        "hire_overcorrection": True,
+    },
+    ("Pinterest", "2026-01-27"): {
+        # FY20: 2,545 → FY22: 3,987 (+57%) AND FY23: 4,014 → FY25: 5,265 (+31%).
+        # Cut corrects the FY24-25 AI-ads/GenAI rebuild wave, not original COVID bulge.
+        "hire_overcorrection": True,
+    },
+    ("Coinbase", "2026-05-05"): {
+        # Pandemic 2021 already corrected (Jun-22 -18%, Jan-23 -25%). 2026 cut
+        # corrects fresh FY23→FY25 rebuild: 3,416 → 4,951 (+45% in 2yr).
+        "hire_overcorrection": True,
+    },
+    ("Bill.com", "2026-05-07"): {
+        # FY20: 618 → FY22 organic: ~1,549 (+151% organic ex Divvy/Invoice2go).
+        # 30% cut returns to ~pre-acquisition organic levels.
+        "hire_overcorrection": True,
+    },
+    ("ZoomInfo", "2026-05-10"): {
+        # IPO 2020 with 1,747 FTEs → FY22 peak 3,540 (+102% raw, +85% organic
+        # ex Chorus.ai + RingLead). 600 cut on top of -332 in FY24-25.
+        "hire_overcorrection": True,
+    },
+    # WiseTech (2026-02-24): FALSE — growth M&A-driven (Envase/Blume/Trinium/E2open).
+    # FY21 was -12% organic. No flag.
     # Sama: lost Meta contract (data labeling). The driver is contractual, not AI-denial.
     # Meta brought labeling in-house; Sama is the supply side that got disrupted.
     # Was wrongly flagged ai_denied_but_adjacent because the reason text mentions AI work.
