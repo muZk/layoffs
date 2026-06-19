@@ -141,7 +141,7 @@ Columnas: **fuente original** = el campo `Source` de layoffs.fyi. **fuente recov
 | 2026-01-30 | Peloton | — | news_inferred | [reuters.com](https://www.reuters.com/business/peloton-cuts-11-staff-including-engineering-teams-bloomberg-news-reports-2026-01-30/) | [techbuzz.ai](https://www.techbuzz.ai/articles/peloton-cuts-11-of-staff-months-after-ai-hardware-launch) |
 | 2026-01-29 | Kiwi.com | 250 | ceo_memo | [forbes.cz](https://forbes.cz/kiwi-pokracuje-v-propousteni-odchazi-tretina-zamestnancu/) | [skift.com](https://skift.com/2026/01/29/online-travel-agency-kiwi-lays-off-staff-in-latest-round-of-cuts/) |
 | 2026-01-29 | Gloo | — | not_accessible | [bizjournals.com](https://www.bizjournals.com/denver/news/2026/01/29/ai-company-cuts-staff-reduces-executive-salaries.html) |  |
-| 2026-01-28 | Amazon | 16000 | ceo_memo | [aboutamazon.com](https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026) |  |
+| 2026-01-28 | Amazon | 16000 | news_inferred | [aboutamazon.com](https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026) |  |
 | 2026-01-28 | ASML | 1700 | news_inferred | [asml.com](https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation) |  |
 | 2026-01-27 | Pinterest | 700 | ceo_memo | [theverge.com](https://www.theverge.com/news/868531/pinterest-layoffs-cuts-15-percent-ai-transformation) | [techcrunch.com](https://techcrunch.com/2026/01/27/pinterest-to-lay-off-15-of-staff-to-redirect-resources-to-ai/) |
 | 2026-01-27 | Moon Active | 110 | news_inferred | [calcalistech.com](https://www.calcalistech.com/ctechnews/article/jvbqyjznm) |  |

@@ -39,7 +39,7 @@ El análisis se construyó en 8 fases. Cada fase produjo artefactos guardados en
 
 ### Fase 4 — Clasificación multi-eje
 - Apliqué 3 ejes ortogonales + 1 columna estructural + 4 enriquecimientos opcionales. Ver `schema.md`.
-- Implementación: [`categorize.py`](categorize.py) (rule-based + 53 manual overrides para casos high-confidence).
+- Implementación: [`categorize.py`](categorize.py) (rule-based + 58 manual overrides para casos high-confidence).
 - Output: [`2026-categorized.json`](2026-categorized.json) y [`.csv`](2026-categorized.csv).
 
 ### Fase 5 — Análisis de profiles de los grandes
@@ -59,13 +59,25 @@ El análisis se construyó en 8 fases. Cada fase produjo artefactos guardados en
 
 ### Fase 8 — SEC 10-K audit pass para `hire_overcorrection`
 - **Motivación**: el flag original (Fase 6) solo cubría 11 empresas vía Workforce.ai. Para los layoffs grandes 2026 que se atribuyeron a productividad AI, faltaba auditar si el verdadero driver era corrección de overhiring post-COVID disfrazado.
-- **Candidatos**: filtré el dataset a empresas con cuts ≥ 500 personas O pct ≥ 10%, SaaS/digital (excluyendo maduros como Oracle/Cisco/Dell). Top 8: **Block, WiseTech, Cloudflare, Wix, Coinbase, Bill.com, Pinterest, ZoomInfo**.
-- **Método**: agentes paralelos extrayeron headcount end-of-FY de los 10-K (US issuers) o 20-F (foreign private issuers — Wix) vía SEC EDGAR. Para cada empresa calcularon growth % en ventanas de 2 años, ajustaron por M&A cuando aplicaba (Block-Afterpay, Bill.com-Divvy/Invoice2go, ZoomInfo-Chorus.ai/RingLead, WiseTech-multiple).
-- **Threshold**: ≥+15% organic growth en alguna ventana de 2 años pre-cut.
-- **Resultados**: 7/8 califican TRUE (Block, Cloudflare, Wix, Coinbase, Bill.com, Pinterest, ZoomInfo). **WiseTech FALSE** — su growth fue M&A-driven, FY21 organic *cayó* -12%; el cut de feb 2026 es eliminación redundancia post-E2open, no COVID overhiring residue.
-- **Caveat fino para Pinterest y Coinbase**: el cut 2026 corrige la **segunda** ola de hiring (FY23→FY25 AI ads/Base rebuild), no el bulge pandemic original que ya se había absorbido en 2023.
-- **Impacto en el dataset**: el bucket Hire-then-fire pasó de **7 empresas / ~13k personas (~11%)** a **14 empresas / ~21.8k personas (~19%)**.
-- Citas SEC para cada veredicto están en el dict `MANUAL` de `categorize.py` y en footnote [^33] del newsletter.
+- **Tres rondas de auditoría**:
+
+  **Ronda 1 (8 empresas)** — candidatos SaaS/digital con cuts ≥ 500 personas O pct ≥ 10%: **Block, WiseTech, Cloudflare, Wix, Coinbase, Bill.com, Pinterest, ZoomInfo**.
+
+  **Ronda 2 (4 empresas)** — los "big 4" originalmente excluidos por asumirse maduros: **Oracle, Amazon, PayPal, Intuit**.
+
+  **Ronda 3 (8 empresas)** — Tier 1 restante: **Dell, Cisco, ASML, Autodesk, Workday, Freshworks, C3.ai, Stone**.
+
+- **Método**: agentes paralelos extrayeron headcount end-of-FY de los 10-K (US issuers) o 20-F (foreign private issuers — ASML, Stone, Wix) vía SEC EDGAR. Para cada empresa calcularon growth % en ventanas de 2 años, ajustaron por M&A cuando aplicaba (Block-Afterpay, Bill.com-Divvy/Invoice2go, ZoomInfo-Chorus.ai/RingLead, Intuit-Mailchimp, Oracle-Cerner, Cisco-Splunk, Stone-Linx, Workday-Peakon, WiseTech-multiple).
+- **Threshold**: ≥+15% organic growth en alguna ventana de 2 años pre-cut. Nota metodológica importante: el threshold fue diseñado para SaaS startups; para hardware/networking maduros (Dell, Cisco, ASML) y semi-cycle businesses, requiere juicio cualitativo.
+- **Resultados acumulados**: 12/20 califican TRUE. **TRUE**: Block, Cloudflare, Wix, Coinbase, Bill.com, Pinterest, ZoomInfo, Amazon (corporate), Intuit, Workday, Freshworks, C3.ai. **FALSE**: WiseTech, Oracle, PayPal, Dell, Cisco, ASML, Autodesk, Stone.
+- **Caveats finos**:
+  - **Amazon** TRUE solo para corporate segment; Amazon no disclosa split corporate-vs-warehouse en 10-K. La cifra de "corporate triplicó 2019→2022" viene de The Information leaks y earnings calls, no de audited disclosure.
+  - **Pinterest** y **Coinbase**: el cut 2026 corrige la **segunda** ola de hiring (FY23→FY25 AI rebuild), no la pandemic original ya absorbida en 2022-23.
+  - **C3.ai**: caso de **AI-hype overhire** (FY25 +33% apostando a GenAI demand que no se materializó), no COVID puro.
+  - **Workday** TRUE qualified: revenue creció +95% (más que headcount +61%).
+  - **ASML** FALSE pese a +35.7% organic FY20→FY22: semiconductor capex cycle (EUV/High-NA), no pandemic SaaS demand.
+- **Impacto en el dataset**: el bucket Hire-then-fire pasó de **7 empresas / ~13k personas (~11%)** a **16 empresas / ~42k personas (~36%)**.
+- Citas SEC empresa-por-empresa están en el dict `MANUAL` de `categorize.py` y en footnotes [^33] y [^34] del newsletter.
 
 ---
 
@@ -203,11 +215,12 @@ Para `ai_position`, la clasificación es **keada por empresa**, no por evento (l
 
 ### SEC EDGAR — 10-K / 20-F filings (Fase 8)
 - **Para qué**: expandir el flag `hire_overcorrection` más allá de la cobertura Workforce.ai.
-- **Empresas auditadas**: Block (XYZ), WiseTech (WTC), Cloudflare (NET), Wix (WIX), Coinbase (COIN), Bill.com (BILL), Pinterest (PINS), ZoomInfo (GTM).
-- **Métrica**: empleados full-time end-of-fiscal-year disclosed en "Human Capital" section.
+- **Empresas auditadas (20 totales en 3 rondas)**: Block (XYZ), WiseTech (WTC), Cloudflare (NET), Wix (WIX), Coinbase (COIN), Bill.com (BILL), Pinterest (PINS), ZoomInfo (GTM), Oracle (ORCL), Amazon (AMZN), PayPal (PYPL), Intuit (INTU), Dell (DELL), Cisco (CSCO), ASML (ASML), Autodesk (ADSK), Stone (STNE), Workday (WDAY), Freshworks (FRSH), C3.ai (AI).
+- **Métrica**: empleados full-time end-of-fiscal-year disclosed en "Human Capital" section del 10-K o equivalente en 20-F.
 - **Threshold**: ≥+15% growth orgánico en ventana 2-yr; M&A inflation restada manualmente cuando aplica.
-- **Caveat M&A**: Block (Afterpay 2022, ~1,400 hc), Bill.com (Divvy + Invoice2go 2021, ~720 hc), ZoomInfo (Chorus.ai + RingLead 2021, ~300 hc), WiseTech (Envase/Blume/Trinium/E2open, ~3,500 hc — el más confundido del grupo).
-- **Veredictos**: 7 TRUE / 1 FALSE (WiseTech).
+- **Caveats M&A documentados**: Block (Afterpay 2022, ~1,400 hc), Bill.com (Divvy + Invoice2go 2021, ~720 hc), ZoomInfo (Chorus.ai + RingLead 2021, ~300 hc), Intuit (Mailchimp 2021, ~1,200 hc), Oracle (Cerner 2022, ~25,150 hc), Cisco (Splunk 2024, ~7,500 hc), Stone (Linx 2021, ~3,500 hc), Workday (Peakon 2021, ~200 hc), WiseTech (Envase/Blume/Trinium/E2open).
+- **Veredictos**: **12 TRUE** (Block, Cloudflare, Wix, Coinbase, Bill.com, Pinterest, ZoomInfo, Amazon, Intuit, Workday, Freshworks, C3.ai) / **8 FALSE** (WiseTech, Oracle, PayPal, Dell, Cisco, ASML, Autodesk, Stone).
+- **No auditadas (Tier 2 / 3 — markeadas null)**: ~35 empresas restantes con cuts <500 personas, privadas (Sama, UKG, DeepL, Kraken), o subsidiarias sin disclosure standalone (LinkedIn).
 
 ### Get on Board API (LATAM)
 - **Para qué**: análisis salarial LATAM, AI skills evolution, junior collapse.

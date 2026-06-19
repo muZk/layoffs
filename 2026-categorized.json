@@ -113,23 +113,13 @@
     "source_used": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
     "raised_mm": 18,
     "$_raised_mm": 18,
-    "reason_primary": "restructuring_vague",
-    "ai_link": "ai_denied_but_adjacent",
+    "reason_primary": "shutdown_bankruptcy",
+    "ai_link": "unrelated",
     "narrative_source": "ceo_memo",
     "ai_position": "token_buyer",
-    "profiles_cut": [
-      "engineering_CA",
-      "customer_support",
-      "marketing",
-      "admin",
-      "satellite_offices_Reno_WoodlandHills",
-      "middle_management"
-    ],
-    "profiles_hired": [
-      "AI_ML_engineers_Mountain_View",
-      "Anthropic_OpenAI_integration_roles"
-    ],
-    "hire_overcorrection": false,
+    "profiles_cut": [],
+    "profiles_hired": [],
+    "hire_overcorrection": true,
     "reassignment_observed": false
   },
   {
@@ -986,7 +976,7 @@
     "ai_position": "hybrid",
     "profiles_cut": [],
     "profiles_hired": [],
-    "hire_overcorrection": null,
+    "hire_overcorrection": true,
     "reassignment_observed": false
   },
   {
@@ -2902,8 +2892,8 @@
     "ai_position": "compute_seller",
     "profiles_cut": [],
     "profiles_hired": [],
-    "hire_overcorrection": null,
-    "reassignment_observed": null
+    "hire_overcorrection": true,
+    "reassignment_observed": false
   },
   {
     "company": "Deliveroo",
@@ -3351,8 +3341,8 @@
     "ai_position": "token_buyer",
     "profiles_cut": [],
     "profiles_hired": [],
-    "hire_overcorrection": null,
-    "reassignment_observed": null
+    "hire_overcorrection": true,
+    "reassignment_observed": false
   },
   {
     "company": "Rewire",
@@ -3609,27 +3599,12 @@
     "raised_mm": 8100,
     "$_raised_mm": 8100,
     "reason_primary": "restructuring_vague",
-    "ai_link": "direct_substitution",
-    "narrative_source": "ceo_memo",
+    "ai_link": "unrelated",
+    "narrative_source": "news_inferred",
     "ai_position": "hybrid",
-    "profiles_cut": [
-      "SDE_II",
-      "middle_management_L6_L7",
-      "PXT_HR_recruiting",
-      "AWS_TAM_solutions_architects",
-      "Alexa_AI_legacy",
-      "Prime_Video_platform_eng",
-      "Amazon_Pharmacy",
-      "TPMs"
-    ],
-    "profiles_hired": [
-      "AGI_team_Nova",
-      "Trainium_chip_team",
-      "Bedrock_agents",
-      "Frontier_AI_Robotics",
-      "Project_Rainier_data_center"
-    ],
-    "hire_overcorrection": false,
+    "profiles_cut": [],
+    "profiles_hired": [],
+    "hire_overcorrection": true,
     "reassignment_observed": false
   },
   {

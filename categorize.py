@@ -408,6 +408,86 @@ MANUAL = {
     },
     # WiseTech (2026-02-24): FALSE — growth M&A-driven (Envase/Blume/Trinium/E2open).
     # FY21 was -12% organic. No flag.
+    #
+    # ------------------------------------------------------------------
+    # Second SEC audit pass (2026-06-18): "the big 4" Oracle/Amazon/PayPal/Intuit
+    # ------------------------------------------------------------------
+    # Audited the four big cuts originally framed in the newsletter as
+    # "strategic reset, NOT overhired organically". Verdicts:
+    #
+    # ORACLE (2026-03-31): FALSE. Best 2-yr organic window FY20→FY22 = +5.9%.
+    # The +21k FY22→FY23 jump was entirely Cerner M&A ($28.3B, ~25k hc).
+    # Ex-Cerner organic flat-to-down. Cut is Cerner unwind + OCI/AI margin reset.
+    # Source: Oracle 10-K FY25 (Human Capital, ~162k FTE May 31, 2025).
+    #
+    # PAYPAL (2026-05-05): FALSE. FY21 peak 30.9k → FY25 23.8k (-23% absorbed
+    # via Feb-2023 + Jan-2024 cuts). FY25 sits 10% BELOW FY20 pre-COVID baseline.
+    # The COVID overhang was already cleared pre-2026.
+    # Source: PayPal 10-K FY25.
+    #
+    # AMAZON (2026-01-28): TRUE for corporate/tech segment.
+    # Corporate ~150-180k (FY19) → ~415k peak (FY22) ≈ +130-175%. Jassy's own
+    # Q3 2021 disclosure: 55k new tech/corporate hires in a single batch.
+    # Cumulative ~60k+ corporate eliminations against ~415k peak = ~15% unwound.
+    # CAVEAT: Amazon does NOT disclose corporate-vs-fulfillment split in 10-Ks.
+    # ~415k peak comes from press leaks (The Information, Reuters via earnings
+    # calls), not audited disclosure. Direction high confidence, magnitude medium.
+    # Newsletter previously said "Amazon not organically overhired" — that was
+    # wrong for the corporate segment. Defensible only if you blend in warehouse.
+    ("Amazon", "2026-01-28"): {
+        "hire_overcorrection": True,  # corporate segment; caveat: no audited split
+    },
+    # INTUIT (2026-05-20): TRUE. FY20 10.6k → FY22 organic ex-Mailchimp 16.1k
+    # = +51.9% organic in 2 yrs. Pre-Mailchimp pure organic FY20→FY21 = +27.4%
+    # in a single year. Plateau FY23-FY25 (+5.6%, +3.5%, -3.4%) — classic
+    # overhiring → plateau → correction pattern. Cut returns to ~FY22 organic.
+    # Source: Intuit 10-K FY20 + FY22 (Mailchimp ~1,200 hc, closed Nov 2021).
+    ("Intuit", "2026-05-20"): {
+        "hire_overcorrection": True,
+    },
+    # ------------------------------------------------------------------
+    # Third SEC audit pass (2026-06-18): Tier 1 (8 remaining large cuts)
+    # ------------------------------------------------------------------
+    # Audited Dell, Cisco, ASML, Autodesk, Stone, Workday, Freshworks, C3.ai.
+    # TRUE (3): Workday, Freshworks, C3.ai. FALSE (5): Dell, Cisco, ASML,
+    # Autodesk, Stone — all mature businesses or pre-absorbed overhire.
+    # Methodological note: the +15% / 2-yr threshold was designed for SaaS
+    # startups; mature hardware (Dell, Cisco, ASML) and disciplined LATAM
+    # fintech (Stone) require qualitative judgment, not raw math.
+    #
+    # WORKDAY (2026-02-04): TRUE (qualified). FY21 12.5k → FY25 organic
+    # 20.1k = +61% in 4 yrs. Post Feb-2025 cut (-1,750), still +50% above
+    # FY21 baseline. Feb 2026 cut (-400) is follow-on right-sizing.
+    # Caveat: revenue grew +95% same window, so headcount lagged revenue —
+    # not pure overhire, but still elevated vs SaaS maturity benchmarks.
+    ("Workday", "2026-02-04"): {
+        "hire_overcorrection": True,
+    },
+    # FRESHWORKS (2026-05-05): TRUE. Textbook pandemic-IPO pattern.
+    # FY20 3,585 → FY22 5,400 = +50% in 2 yrs. Three cuts (2023 attrition,
+    # Nov 2024 -660, May 2026 -500) now at ~3,900 — BELOW the IPO baseline
+    # ex-Device42. AI-productivity framing is post-hoc rationalization.
+    ("Freshworks", "2026-05-05"): {
+        "hire_overcorrection": True,
+    },
+    # C3.AI (2026-02-25): TRUE — but it's an AI-hype overhire, not COVID.
+    # FY21 baseline 574 → FY25 peak 1,181 = +106% in 4 yrs. FY24 was flat
+    # then FY25 re-accelerated +32.6% chasing GenAI demand. Q3 FY26 revenue
+    # collapsed ($53M vs $76M consensus). New CEO: "cost structure was
+    # simply too high." Feb 2026 cut (-312) ~equals FY25 net adds (+290) —
+    # they literally fired everyone hired in their last growth year.
+    ("C3.ai", "2026-02-25"): {
+        "hire_overcorrection": True,
+    },
+    # FALSE verdicts kept here for documentation (no override needed):
+    # - Dell (2026-03-16): FY20 organic 134k → FY22 organic 133k = -0.7%.
+    #   Dell actually CONTRACTED during COVID (FY21 124k). Mature hardware.
+    # - Cisco (2026-05-13): FY20 → FY22 organic +7.5%. Mature networking.
+    # - ASML (2026-01-28): FY20 → FY22 payroll +35.7% but semi-cycle, not
+    #   SaaS. FY24 → FY25 already +1.7% (self-decelerated). 1,700 cut = 3.9%.
+    # - Autodesk (2026-01-22): FY21 → FY25 organic +28% (linear ~7% CAGR).
+    #   Revenue grew faster (+62%) than headcount.
+    # - Stone (2026-03-13): organic ex-Linx -11% vs peak. Already absorbed.
     # Sama: lost Meta contract (data labeling). The driver is contractual, not AI-denial.
     # Meta brought labeling in-house; Sama is the supply side that got disrupted.
     # Was wrongly flagged ai_denied_but_adjacent because the reason text mentions AI work.
@@ -444,7 +524,7 @@ MANUAL = {
     ("StoreDot",     "2026-01-13"): {"ai_link": "unrelated"},  # SPAC merger prep, batteries
 
     # 4 cases that are direct_substitution (CEO openly said AI does the work):
-    ("Freshworks",   "2026-05-05"): {"ai_link": "direct_substitution"},  # "over half of our code is written by AI"
+    ("Freshworks",   "2026-05-05"): {"ai_link": "direct_substitution", "hire_overcorrection": True},  # see SEC audit pass + "over half of our code is written by AI"
     ("Upwork",       "2026-05-07"): {"ai_link": "direct_substitution"},  # "AI means smaller, differently resourced teams"
     ("Kraken",       "2026-05-15"): {"ai_link": "direct_substitution"},  # AI chatbot handles 80% of customer inquiries
     ("Crypto.com",   "2026-03-19"): {"ai_link": "direct_substitution"},  # "roles that do not adapt to AI"
