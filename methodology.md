@@ -79,6 +79,15 @@ El análisis se construyó en 8 fases. Cada fase produjo artefactos guardados en
 - **Impacto en el dataset**: el bucket Hire-then-fire pasó de **7 empresas / ~13k personas (~11%)** a **16 empresas / ~42k personas (~36%)**.
 - Citas SEC empresa-por-empresa están en el dict `MANUAL` de `categorize.py` y en footnotes [^33] y [^34] del newsletter.
 
+#### Sesgo metodológico explícito (importante)
+
+El audit usa SEC 10-K / 20-F como fuente. Eso solo cubre empresas públicas que reportan a la SEC (US issuers + foreign private issuers como ASML/Wix/Stone). Implicaciones:
+
+- **No es posible afirmar "el wave es Post-IPO"** a partir de este audit. Lo único que el audit puede decir es: *"el audit es Post-IPO."* Las 38 empresas del dataset en stage Series A–G no fueron auditadas porque no tienen SEC filings públicos, no porque hayan sido descartadas analíticamente.
+- **Alternativas para auditar startups no son equivalentes**: LinkedIn employee count (self-reported, sin histórico), Crunchbase (employee *ranges*, no exacto), SignalFire Beacon (free pero cobertura parcial), PitchBook (paid). Workforce.ai (Live Data Technologies) es estrictamente enterprise — no hay API pública.
+- **Implicación práctica**: las ~38 startups del dataset suman <5% del headcount del wave (cuts promedio < 130 personas). Cualitativamente son distintas a los mega-eventos Post-IPO (death-by-funding-runway vs unwinding pandemic-era hiring), pero no se pueden cuantificar con la misma rigurosidad.
+- **Otras empresas no auditadas**: Sama (privada Kenia), UKG (PE-owned desde 2020), LinkedIn (subsidiaria de Microsoft sin disclosure standalone), DeepL (privada Alemania), Kraken (privada US). Para todas, `hire_overcorrection` queda `null` — desconocido, no descartado.
+
 ---
 
 ## 2. Fuentes de noticias usadas
