@@ -314,9 +314,21 @@ Archivos clave para auditoría:
 
 ## 7. Versionado y updates
 
-Este análisis es un **snapshot de 2026-05-26 / 2026-05-27**. Cosas que pueden cambiar:
+Snapshot original: **2026-05-26 / 2026-05-27** (n=160).
 
-- Más eventos 2026 publicados después de mayo (la segunda mitad del año podría tener picos en Q3, históricamente la peor temporada para layoffs).
+### Update junio-julio 2026 (2026-07-03)
+
+Extendí el corte de datos hasta el 3 de julio de 2026. Cambios:
+
+- **+4 eventos nuevos**: GitLab (3-jun, 350, capex_funding), Robinhood (16-jun, 290, ai_substitution_claim + hire_overcorrection=TRUE tras auditar el 10-K), Bungie (25-jun, 400, strategic_pivot), Microsoft (2-jul, 9.000, capex_funding).
+- **−1 duplicado**: el pre-anuncio de GitLab del 11-may (null headcount) se consolidó con el evento del 3-jun (350 real).
+- **Nuevo total**: n=163, 126.089 personas, rango 2026-01-05 → 2026-07-02.
+- **Auditoría SEC de Robinhood**: plantilla 2.300 (dic 2024) → ~2.900 (2025) = +26% en un año. Clasificado TRUE bajo `hire_overcorrection` (era-IA overhire), en la misma categoría que Atlassian y Snap.
+- **Auditoría de Microsoft**: crecimiento neto 181k → 228k FY21-25, mayormente por adquisición de Activision (~10k). Clasificado FALSE bajo `hire_overcorrection`. El driver declarado es capex reallocation (>US$100B FY26 vs US$80B FY25).
+
+### Qué puede cambiar hacia adelante
+
+- Más eventos 2026 publicados después de julio (Q3 es históricamente la peor temporada para layoffs).
 - Empresas en `unknown` que liberen información (rompiendo paywalls, leaks, etc.) → upgrade de su clasificación.
 - Empresas en `hire_overcorrection: null` que aparezcan en data Workforce.ai futura → flag se llena.
 - Reclasificaciones de borderline cases (ya pasó: MercadoLibre).
