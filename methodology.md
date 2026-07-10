@@ -316,15 +316,16 @@ Archivos clave para auditoría:
 
 Snapshot original: **2026-05-26 / 2026-05-27** (n=160).
 
-### Update junio-julio 2026 (2026-07-03)
+### Update junio-julio 2026 (2026-07-10)
 
-Extendí el corte de datos hasta el 3 de julio de 2026. Cambios:
+Extendí el corte de datos hasta el 10 de julio de 2026. Cambios:
 
-- **+4 eventos nuevos**: GitLab (3-jun, 350, capex_funding), Robinhood (16-jun, 290, ai_substitution_claim + hire_overcorrection=TRUE tras auditar el 10-K), Bungie (25-jun, 400, strategic_pivot), Microsoft (2-jul, 9.000, capex_funding).
+- **+4 eventos nuevos en junio**: GitLab (3-jun, 350, capex_funding), Robinhood (16-jun, 290, ai_substitution_claim + hire_overcorrection=TRUE tras auditar el 10-K), Bungie (25-jun, 400, strategic_pivot).
+- **+2 eventos nuevos en julio (Microsoft dividido)**: la reestructura anunciada el 6-jul de 2026 se descompone en `Microsoft (Xbox)` (3.200, strategic_pivot / unrelated — la propia Xbox CEO Asha Sharma la enmarcó como "our business today is not healthy", márgenes 3-10x menores que negocios comparables, incluye divestment de 4-5 estudios) y `Microsoft (corporate)` (1.600, ai_capex_reallocation / capex_funding — sales/consulting). Se mantienen como filas separadas porque los drivers son ortogonales.
 - **−1 duplicado**: el pre-anuncio de GitLab del 11-may (null headcount) se consolidó con el evento del 3-jun (350 real).
-- **Nuevo total**: n=163, 126.089 personas, rango 2026-01-05 → 2026-07-02.
+- **Nuevo total dataset**: n=164, 121.889 personas, rango 2026-01-05 → 2026-07-06.
+- **Report cutoff (2026-07-01)**: el análisis publicado usa solo eventos anteriores al 1 de julio → n=162, 117.089 personas (Jan-Jun clean). Los 2 eventos de Microsoft de julio quedan en el dataset por completitud pero fuera de los porcentajes del post.
 - **Auditoría SEC de Robinhood**: plantilla 2.300 (dic 2024) → ~2.900 (2025) = +26% en un año. Clasificado TRUE bajo `hire_overcorrection` (era-IA overhire), en la misma categoría que Atlassian y Snap.
-- **Auditoría de Microsoft**: crecimiento neto 181k → 228k FY21-25, mayormente por adquisición de Activision (~10k). Clasificado FALSE bajo `hire_overcorrection`. El driver declarado es capex reallocation (>US$100B FY26 vs US$80B FY25).
 
 ### Qué puede cambiar hacia adelante
 
