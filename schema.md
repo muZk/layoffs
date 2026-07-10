@@ -1,6 +1,6 @@
 # Layoffs 2026 — Categorization Schema
 
-Three orthogonal axes plus four optional enrichment columns. Applied to 160 entries from the layoffs.fyi public Airtable, filtered to 2026 events.
+Three orthogonal axes plus four optional enrichment columns. Applied to **163 entries**: 158 from the layoffs.fyi public Airtable (pull through 2026-05-25; one Vimeo duplicate merged, GitLab's May 11 announcement superseded by its June 3 execution), plus 5 hand-added June–July events (GitLab, Robinhood, Bungie, Microsoft ×2).
 
 ## Source files
 
@@ -8,7 +8,7 @@ Three orthogonal axes plus four optional enrichment columns. Applied to 160 entr
 |---|---|
 | `2026-airtable-raw.json` | Raw 160 entries from the layoffs.fyi public Airtable share view (extracted via the `readSharedViewData` endpoint). Industry/stage/country are still in select-ID form. |
 | `airtable-labels.json` | The ID-to-label maps for the Industry / Stage / Country / Location HQ select columns. |
-| `2026-enriched.json` | 160 entries enriched with resolved labels and the public reason recovered from each source URL. |
+| `2026-enriched.json` | 163 entries enriched with resolved labels and the public reason recovered from each source URL (158 from the raw extract after dedup/supersede, + 5 hand-added Jun–Jul events). |
 | `2026-reasons.json` | The intermediate file with `reason` + `theme_original` per entry (before our 3-axis categorization). |
 | `2026-categorized.json` | **The main artefact.** Full structured records with all 3 axes + enrichment columns. |
 | `2026-categorized.csv` | Flat tabular version (good for spreadsheet ingest). |
@@ -48,9 +48,9 @@ How AI shows up in the story, independent of root cause. Separates the AI questi
 | `direct_substitution` | "AI does the work" — public and explicit (Block, WiseTech, Cloudflare, Snap). |
 | `capex_funding` | "We're cutting to fund GPU / training infrastructure" (Oracle, Meta, PayPal). |
 | `ai_pivot_market` | The company's *product* is shifting to AI as the new market (Hailo, Digg, StarkWare, Atlassian). |
-| `ai_denied_but_adjacent` | Public denial of AI as the cause, OR vague restructuring where AI surfaces in the framing without being declared the engine (Intuit, LinkedIn, Dell, ASML). |
+| `ai_denied_but_adjacent` | Public denial of AI as the cause **while the company is visibly investing in AI** (Intuit, LinkedIn, Wix), OR vague restructuring where AI surfaces in the framing without being declared the engine (Salesforce, Ticketmaster). A denial with no AI adjacency (Epic Games' Fortnite decline, Bungie's franchise wind-down) stays `unrelated` — denial alone doesn't make an event AI-adjacent. |
 | `unrelated` | Genuinely not AI-driven (Ericsson 5G, Sama lost contract, regulatory, pure M&A consolidation). |
-| `unknown` | Can't tell — source blocked. |
+| `unknown` | Can't tell — source blocked. **Currently unused (0 records)**: low-evidence rows carry a substantive label with `narrative_source=not_accessible` instead, which overstates classification confidence — filter on the evidence axis before leaning on those labels. |
 
 ## Axis 3 — `narrative_source` (evidence quality)
 
@@ -93,8 +93,10 @@ These are filled in only where deep research exists — currently the ~9 manuall
 
 ## Methodology notes
 
-- **Rule-based classifier** (in `categorize.py`) is the first pass; manual overrides for ~14 high-confidence rounds.
-- **160 entries total**, of which **128 have a public reason recovered** (44 sources were paywalled or blocked; we recovered the 12 largest via alt sources, leaving 32 `unknown`).
+- **Rule-based classifier** (in `categorize.py`) is the first pass; **59 event-level manual overrides** (deep-research rounds, SEC audit passes, and bucket-audit recodes) in the `MANUAL` dict.
+- **163 entries total.** Reason recovery has improved since the first snapshot: **10** entries remain `reason_primary=unknown` and **15** are `narrative_source=not_accessible` (originally 44 blocked / 32 unknown).
+- **`pct` is a 0–1 fraction** (0.14 = 14%), not a percentage — a known footgun for anyone consuming the CSV.
+- **Coverage window**: the raw layoffs.fyi pull ends **2026-05-25**. Jan–May is complete as-per-layoffs.fyi; the June–July events (GitLab, Robinhood, Bungie, Microsoft ×2) are hand-added high-profile picks — a curated tail, not a collected sample. Do not read May→June deltas as a trend.
 - **People-counts** are based on the `# Laid Off` column from layoffs.fyi, which is `null` for many smaller / 100%-shutdown rounds. So "people per category" only sums entries with a disclosed count.
 - **The rule base is intentionally over-conservative** on `ai_capex_reallocation` — it requires BOTH a redirect verb AND a concrete capex target (GPU, infra, named project). Otherwise the bucket would swell with cases where "AI" merely appears in the framing.
 - **`narrative_source = ceo_memo`** requires explicit memo-language in the reason text. Many entries with quotes from CEOs in news articles land as `news_with_quote`.

@@ -73,6 +73,11 @@ AI_POSITION = {
     "Salesforce": "hybrid",           # Einstein + Agentforce + own xGen LLMs
     "LinkedIn": "token_buyer",        # consumes Azure AI internally — does not sell AI
     "Microsoft": "hybrid",            # would be hybrid if in dataset
+    "Microsoft (corporate)": "hybrid",# Azure + Copilot + own models (Jul additions use split names)
+    "Microsoft (Xbox)": "n/a",        # gaming division restructure, not AI-driven
+    "Robinhood": "token_buyer",       # AI features via third-party models; "frontier technologies" framing
+    "Gambling.com Group": "token_buyer",  # "AI Transformation" restructure on third-party models
+    "Bungie": "n/a",                  # game studio, franchise decline
     "Atlassian": "token_buyer",       # Rovo embeds Anthropic/OpenAI; no own infra
     "GitLab": "token_buyer",          # Duo AI embeds Anthropic; no own infra
     "Workday": "token_buyer",         # AI agents embed third-party LLMs
@@ -162,7 +167,7 @@ AI_POSITION = {
     "Polygon": "n/a",                 # crypto
     "Vimeo": "n/a",
     "Swyftx": "n/a",
-    "Verint Systems": "n/a",
+    "Verint Systems": "token_buyer",  # post-Thoma Bravo: "AI-driven CX platform" w/ Calabrio (was n/a — conflicted with ai_denied_but_adjacent)
     "Clari": "token_buyer",
     "Dayforce": "n/a",
     "FormFactor": "n/a",
@@ -170,15 +175,15 @@ AI_POSITION = {
     "Zillow": "n/a",
     "Zupee": "n/a",
     "Zendesk": "token_buyer",
-    "Ticketmaster": "n/a",
-    "Angi": "n/a",
+    "Ticketmaster": "token_buyer",    # "fast-tracks new tech" / AI-adjacent framing (was n/a — conflicted with ai_denied_but_adjacent)
+    "Angi": "token_buyer",            # AI substitution claimed in own IR release (was n/a — conflicted with direct_substitution)
     "Kiwi.com": "n/a",
     "Codecademy/Skillsoft": "n/a",
     "Spotify": "hybrid",
     "Huawei": "hybrid",
     "OpenText": "hybrid",
-    "eBay": "n/a",
-    "Expedia": "n/a",
+    "eBay": "token_buyer",            # cuts framed as freeing spend for AI (was n/a — conflicted with capex_funding link)
+    "Expedia": "token_buyer",         # Jan round claimed AI substitution; embeds third-party AI in trip planning (was n/a)
     "Autodesk": "token_buyer",        # AI features in Fusion/Forma; CAD/AEC core, not AI seller
     "Welltech": "n/a",
     "Roof Stacks": "n/a",
@@ -282,7 +287,7 @@ MANUAL = {
     ("Meta", "2026-04-02"): {
         "reason_primary": "ai_capex_reallocation",
         "ai_link": "capex_funding",
-        "narrative_source": "news_inferred",
+        "narrative_source": "press_release_sec",  # CA EDD WARN filings (Burlingame 124 / Sunnyvale 74) — see meta-profile-breakdown.md Round 3
         "profiles_cut": ["Bay_Area_ICs_RL_AR_infra"],
         "profiles_hired": [],
         "hire_overcorrection": True,
@@ -324,7 +329,7 @@ MANUAL = {
         "narrative_source": "ceo_memo",
         "profiles_cut": ["SDE_II", "middle_management_L6_L7", "PXT_HR_recruiting", "AWS_TAM_solutions_architects", "Alexa_AI_legacy", "Prime_Video_platform_eng", "Amazon_Pharmacy", "TPMs"],
         "profiles_hired": ["AGI_team_Nova", "Trainium_chip_team", "Bedrock_agents", "Frontier_AI_Robotics", "Project_Rainier_data_center"],
-        "hire_overcorrection": False,  # Amazon was -1.3% in SWE last 2 yrs (Pragmatic Engineer)
+        "hire_overcorrection": True,  # SEC audit 2026-06-18: TRUE for corporate/tech segment (see audit notes below). The Workforce.ai -1.3% SWE figure was the blended view.
         "reassignment_observed": False,
     },
     # ---------------------- Intuit ----------------------
@@ -334,7 +339,7 @@ MANUAL = {
         "narrative_source": "ceo_memo",
         "profiles_cut": ["engineering_CA", "customer_support", "marketing", "admin", "satellite_offices_Reno_WoodlandHills", "middle_management"],
         "profiles_hired": ["AI_ML_engineers_Mountain_View", "Anthropic_OpenAI_integration_roles"],
-        "hire_overcorrection": False,
+        "hire_overcorrection": True,  # SEC audit 2026-06-18: FY20→FY22 +51.9% organic ex-Mailchimp (see audit notes below)
         "reassignment_observed": False,
     },
     # ---------------------- Snap ----------------------
@@ -434,17 +439,17 @@ MANUAL = {
     # calls), not audited disclosure. Direction high confidence, magnitude medium.
     # Newsletter previously said "Amazon not organically overhired" — that was
     # wrong for the corporate segment. Defensible only if you blend in warehouse.
-    ("Amazon", "2026-01-28"): {
-        "hire_overcorrection": True,  # corporate segment; caveat: no audited split
-    },
+    # (Flag merged into the main ("Amazon", "2026-01-28") entry above — the
+    # duplicate dict key that used to sit here silently clobbered that entry's
+    # full override, wiping its ai_link/narrative_source/profiles.)
     # INTUIT (2026-05-20): TRUE. FY20 10.6k → FY22 organic ex-Mailchimp 16.1k
     # = +51.9% organic in 2 yrs. Pre-Mailchimp pure organic FY20→FY21 = +27.4%
     # in a single year. Plateau FY23-FY25 (+5.6%, +3.5%, -3.4%) — classic
     # overhiring → plateau → correction pattern. Cut returns to ~FY22 organic.
     # Source: Intuit 10-K FY20 + FY22 (Mailchimp ~1,200 hc, closed Nov 2021).
-    ("Intuit", "2026-05-20"): {
-        "hire_overcorrection": True,
-    },
+    # (Flag merged into the main ("Intuit", "2026-05-20") entry above — the
+    # duplicate dict key that used to sit here silently clobbered that entry's
+    # full override, mislabeling Intuit as shutdown_bankruptcy/unrelated.)
     # ------------------------------------------------------------------
     # Third SEC audit pass (2026-06-18): Tier 1 (8 remaining large cuts)
     # ------------------------------------------------------------------
@@ -467,9 +472,8 @@ MANUAL = {
     # FY20 3,585 → FY22 5,400 = +50% in 2 yrs. Three cuts (2023 attrition,
     # Nov 2024 -660, May 2026 -500) now at ~3,900 — BELOW the IPO baseline
     # ex-Device42. AI-productivity framing is post-hoc rationalization.
-    ("Freshworks", "2026-05-05"): {
-        "hire_overcorrection": True,
-    },
+    # (Flag lives in the ("Freshworks", "2026-05-05") entry further below,
+    # together with its ai_link override — avoid duplicate dict keys.)
     # C3.AI (2026-02-25): TRUE — but it's an AI-hype overhire, not COVID.
     # FY21 baseline 574 → FY25 peak 1,181 = +106% in 4 yrs. FY24 was flat
     # then FY25 re-accelerated +32.6% chasing GenAI demand. Q3 FY26 revenue
@@ -518,7 +522,12 @@ MANUAL = {
     ("OpenText",     "2026-03-24"): {"ai_link": "unrelated"},  # "regular evaluation"
     ("Lucid Motors", "2026-02-20"): {"ai_link": "unrelated"},  # EV profitability push
     ("Codecademy",   "2026-02-19"): {"ai_link": "unrelated"},  # no rationale given
-    ("Salesforce",   "2026-02-09"): {"ai_link": "unrelated"},  # no public framing; Agentforce team cut
+    # Salesforce recode (2026-07-10): vague unannounced restructuring where AI surfaces
+    # in the coverage framing — Benioff's own "support ~9,000 → ~5,000 via AI tools"
+    # claim is cited, and the cut hit Agentforce/Heroku while Salesforce sells Agentforce.
+    # Fits ai_denied_but_adjacent's second clause; was over-corrected to unrelated in the
+    # substring-bug audit.
+    ("Salesforce",   "2026-02-09"): {"ai_link": "ai_denied_but_adjacent"},
     ("Peloton",      "2026-01-30"): {"ai_link": "unrelated"},  # fitness hardware cost cuts
     ("Vimeo",        "2026-01-21"): {"ai_link": "unrelated"},  # Bending Spoons PE playbook
     ("StoreDot",     "2026-01-13"): {"ai_link": "unrelated"},  # SPAC merger prep, batteries
@@ -538,6 +547,43 @@ MANUAL = {
     # Remarkable: AI mentioned as macroeconomic cost pressure (chip shortage), not their investment.
     ("Epic Games",   "2026-03-24"): {"ai_link": "unrelated"},
     ("Remarkable",   "2026-04-22"): {"ai_link": "unrelated"},
+
+    # ------------------------------------------------------------------
+    # Data-fix pass (2026-07-10): pin the hand-appended Jun/Jul events so they
+    # survive pipeline re-runs, normalize their off-schema label values, and
+    # fix the Zupee mislabel.
+    # ------------------------------------------------------------------
+    # Zupee: rule misfired to shutdown_bankruptcy ("banned" in reason text);
+    # it's a partial layoff (~200) driven by India's online-gaming ban — the
+    # schema's own canonical `regulatory` example.
+    ("Zupee", "2026-01-30"): {"reason_primary": "regulatory"},
+    ("GitLab", "2026-06-03"): {
+        "reason_primary": "ai_capex_reallocation",
+        "ai_link": "capex_funding",
+        "narrative_source": "news_with_quote",
+    },
+    ("Robinhood", "2026-06-16"): {
+        "reason_primary": "ai_substitution_claim",
+        "ai_link": "direct_substitution",  # normalized from off-schema "substitution_claim"
+        "narrative_source": "ceo_memo",
+        # Headcount 2,300 (Dec 2024) → ~2,900 (2025) = +26% in the year before the 10% cut.
+        "hire_overcorrection": True,
+    },
+    ("Bungie", "2026-06-25"): {
+        "reason_primary": "strategic_pivot",
+        "ai_link": "unrelated",
+        "narrative_source": "news_inferred",  # normalized from off-schema "news_confirmed"
+    },
+    ("Microsoft (Xbox)", "2026-07-06"): {
+        "reason_primary": "strategic_pivot",
+        "ai_link": "unrelated",
+        "narrative_source": "news_with_quote",  # Xbox CEO Asha Sharma: "our business today is not healthy"
+    },
+    ("Microsoft (corporate)", "2026-07-06"): {
+        "reason_primary": "ai_capex_reallocation",
+        "ai_link": "capex_funding",
+        "narrative_source": "press_release_sec",
+    },
 }
 
 # ---------------------------------------------------------------------------
