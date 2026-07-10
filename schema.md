@@ -1,6 +1,6 @@
 # Layoffs 2026 — Categorization Schema
 
-Three orthogonal axes plus four optional enrichment columns. Applied to **163 entries**: 158 from the layoffs.fyi public Airtable (pull through 2026-05-25; one Vimeo duplicate merged, GitLab's May 11 announcement superseded by its June 3 execution), plus 5 hand-added June–July events (GitLab, Robinhood, Bungie, Microsoft ×2).
+Five classification axes plus four optional enrichment columns. Applied to **163 entries**: 158 from the layoffs.fyi public Airtable (pull through 2026-05-25; one Vimeo duplicate merged, GitLab's May 11 announcement superseded by its June 3 execution), plus 5 hand-added June–July events (GitLab, Robinhood, Bungie, Microsoft ×2).
 
 ## Source files
 
@@ -43,14 +43,31 @@ What's actually moving cash flow. Mutually exclusive — picking one forces the 
 
 How AI shows up in the story, independent of root cause. Separates the AI question from the financial question.
 
+**Vocabulary revised 2026-07-10** — the axis now carries only the *mechanism*; who claims it moved to `ai_link_basis` (Axis 2b). The old `ai_denied_but_adjacent` and `ai_pivot_market` values were retired: they conflated mechanism with basis, and the primary-source adjudication proved `ai_denied_but_adjacent` factually wrong for 3 of its 8 large members (PayPal, Wix, and Playtika never denied anything — they affirmed substitution). Legacy values migrate mechanically to `ai_narrative_only`.
+
 | value | meaning |
 |---|---|
-| `direct_substitution` | "AI does the work" — public and explicit (Block, WiseTech, Cloudflare, Snap). |
-| `capex_funding` | "We're cutting to fund GPU / training infrastructure" (Oracle, Meta, PayPal). |
-| `ai_pivot_market` | The company's *product* is shifting to AI as the new market (Hailo, Digg, StarkWare, Atlassian). |
-| `ai_denied_but_adjacent` | Public denial of AI as the cause **while the company is visibly investing in AI** (Intuit, LinkedIn, Wix), OR vague restructuring where AI surfaces in the framing without being declared the engine (Salesforce, Ticketmaster). A denial with no AI adjacency (Epic Games' Fortnite decline, Bungie's franchise wind-down) stays `unrelated` — denial alone doesn't make an event AI-adjacent. |
-| `unrelated` | Genuinely not AI-driven (Ericsson 5G, Sama lost contract, regulatory, pure M&A consolidation). |
-| `unknown` | Can't tell — source blocked. **Currently unused (0 records)**: low-evidence rows carry a substantive label with `narrative_source=not_accessible` instead, which overstates classification confidence — filter on the evidence axis before leaning on those labels. |
+| `direct_substitution` | "AI does or reduces the cut work" (Oracle per its FY26 10-K, Block, WiseTech, Snap, PayPal, Wix, ZoomInfo). |
+| `capex_funding` | "The cuts free money for AI investment/infrastructure" (Meta May 20, Cisco, Atlassian, Pinterest). |
+| `ai_narrative_only` | AI appears in the company's or press framing — including explicit denials — but no mechanism was stated (Amazon, Intuit, Cloudflare, UKG). Pair with `ai_link_basis` to distinguish denial from vague framing. |
+| `unrelated` | No AI in the story at all (Dell, LinkedIn, Ericsson, Sama, Bungie). |
+| `unknown` | Can't tell — source blocked. **Currently unused (0 records)**: low-evidence rows carry a substantive label with `narrative_source=not_accessible` instead — filter on the evidence axis before leaning on those labels. |
+
+## Axis 2b — `ai_link_basis` (who established the AI connection)
+
+Added 2026-07-10 so labels are honest about what is known vs inferred. The old schema forced a false choice: Amazon's 16k cut had a real CEO memo (`narrative_source=ceo_memo`) but the *AI label itself* was an analyst inference the evidence axis couldn't express.
+
+| value | meaning |
+|---|---|
+| `company_stated` | The company itself made/supported the `ai_link` reading (memo, filing, earnings call, named exec quote). |
+| `company_denied` | The company explicitly denied AI as the cause (Amazon via AP, Intuit on CNBC, Autodesk in an SEC-filed email). |
+| `analyst_inferred` | This dataset's analyst inferred the link. Currently empty: the two events that lived on inference (Amazon, Oracle) resolved to `company_denied` / `company_stated` on adjudication. |
+| `press_inferred` | Press made the connection; the company said nothing (Meta's March/April rounds). |
+| `unknown` | Source not accessible. |
+
+Basis for the 25 adjudicated events (≥500 heads, 94.9% of AI-linked headcount) comes from primary sources — see the `ADJUDICATION` dict in `categorize.py`, with decisive quote + URL per event. Small events get a default derived from `narrative_source` (memo/filing/quote → `company_stated`, `news_inferred` → `press_inferred`), with two documented failure modes: a `ceo_memo` doesn't guarantee the memo makes the AI claim, and a legacy denial label doesn't guarantee a denial exists.
+
+**Headline usage:** report the mechanism share per basis tier instead of a single "AI-related %". On the audited totals (Oracle at its 10-K net figure of 21,000, not the never-confirmed 30,000 press estimate): of **108,089** disclosed Jan–Jun heads, **34.9% substitution-stated + 13.6% capex-stated = 48.5% AI-caused by the companies' own account**; +1.6% AI mechanism per press only; +23.3% AI-narrative-only (including Amazon's denied 16k); 26.6% genuinely unrelated. (Contested-figure alerts: the viral Oracle Catz/Ellison capex quotes could not be traced to any real source — its substitution coding rests on its sworn 10-K; the 30,000 headline has the same provenance problem, hence 21,000.)
 
 ## Axis 3 — `narrative_source` (evidence quality)
 
@@ -90,6 +107,9 @@ These are filled in only where deep research exists — currently the ~9 manuall
 | `profiles_hired` | list[str] | Specific functions being hired into. Tags like `AI_researchers_foundation_models`, `data_center_technicians_no_degree`, `AR_hardware`, `Trainium_chip_team`. |
 | `hire_overcorrection` | bool/null | Was the cut a correction of recent over-hiring? Cross-referenced with Workforce.ai 2-yr SWE growth data from market-2026.md. `True` if 2-yr growth ≥ +15%. Currently set for Meta×4 (+20%), Atlassian (+23%), Shopify (+36%), Snap (+15%); `False` for Amazon (-1.3%), Oracle (no growth); `null` everywhere else (no data). |
 | `reassignment_observed` | bool/null | Did the same restructuring redeploy employees internally rather than cut them? Currently `True` only for Meta May 20 (~7,000 redeployed to four new AI orgs). |
+| `revenue_health` | enum/null | Last reported quarter *before* the layoff: `strength` (growing + profitable) / `mixed` / `weakness` / `unknown`. From the 2026-07-10 external cross-check pass; only the 24 adjudicated stated-AI events carry values. |
+| `backfill_verdict` | enum/null | Post-cut hiring behavior: `ai_only` / `frozen` / `rehiring_same` / `offshore_swap` / `mixed` / `unknown`. Null for capex events (backfill doesn't test a capex claim). Same 24-event coverage. |
+| `story_integrity` | enum/null | Combined external-evidence call on the company's AI narrative: `holds` / `cracked` (≥1 material fact contradicts the clean story) / `busted` (rehiring/offshoring evidence) / `unknown`. Headline result: of company-stated AI heads, ~24% holds, ~72% cracked, ~4% busted. Evidence per event in `categorize.py`'s `CROSS_CHECK` dict. |
 
 ## Methodology notes
 

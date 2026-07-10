@@ -22,7 +22,7 @@ Columnas: **fuente original** = el campo `Source` de layoffs.fyi. **fuente recov
 | 2026-05-14 | Dune | 35 | news_inferred | [x.com](https://x.com/hagaetc/status/2054937771811192837?s=20) | [decrypt.co](https://decrypt.co/367949/dune-analytics-slashes-25-of-workforce-in-ai-institutional-pivot) |
 | 2026-05-14 | Gambling.com Group | — | news_inferred | [finance.yahoo.com](https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html) |  |
 | 2026-05-14 | Innovaccer | 340 | news_inferred | [inc42.com](https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/) |  |
-| 2026-05-13 | Cisco | 4000 | news_inferred | [blogs.cisco.com](https://blogs.cisco.com/news/our-path-forward) |  |
+| 2026-05-13 | Cisco | 4000 | press_release_sec | [blogs.cisco.com](https://blogs.cisco.com/news/our-path-forward) |  |
 | 2026-05-13 | Guesty | 20 | not_accessible | [geektime.co.il](https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/) |  |
 | 2026-05-13 | Jumia | 200 | news_inferred | [thekenyatimes.com](https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/) |  |
 | 2026-05-13 | LinkedIn | 875 | ceo_memo | [reuters.com](https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/) | [hcamag.com](https://www.hcamag.com/us/news/general/linkedin-cuts-5-of-staff-despite-record-revenue-reuters-reports/575160) |
@@ -30,8 +30,8 @@ Columnas: **fuente original** = el campo `Source` de layoffs.fyi. **fuente recov
 | 2026-05-11 | MRI Software | 200 | news_inferred | [propmodo.com](https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/) | [crainscleveland.com](https://www.crainscleveland.com/real-estate/commercial/ccl-mri-layoffs-2026511/) |
 | 2026-05-11 | MessageBird | — | news_inferred | [linkedin.com](https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/) |  |
 | 2026-05-11 | One Identity | 41 | news_inferred | [heise.de](https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html) |  |
+| 2026-05-11 | ZoomInfo | 600 | news_with_quote | [finance.yahoo.com](https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html) |  |
 | 2026-05-10 | Adda247 | 200 | news_inferred | [whalesbook.com](https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77) |  |
-| 2026-05-10 | ZoomInfo | 600 | news_inferred | [finance.yahoo.com](https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html) |  |
 | 2026-05-09 | Parker | — | news_inferred | [techcrunch.com](https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/) |  |
 | 2026-05-08 | Staffbase | 176 | news_inferred | [msn.com](https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv) | [sunsethq.com](https://www.sunsethq.com/layoff-tracker/staffbase) |
 | 2026-05-07 | Bill.com | 709 | news_inferred | [bill.com](https://www.bill.com/blog/a-message-to-bill-employees) |  |
@@ -47,7 +47,7 @@ Columnas: **fuente original** = el campo `Source` de layoffs.fyi. **fuente recov
 | 2026-05-06 | reAlpha | — | not_accessible | [markets.businessinsider.com](https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751) |  |
 | 2026-05-05 | 0G | — | not_accessible | [businessinsider.com](https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5) |  |
 | 2026-05-05 | Careem | — | news_inferred | [en.dailypakistan.com.pk](https://en.dailypakistan.com.pk/05-May-2026/careem-layoffs-intensify-after-exit-from-ride-hailing-services-in-pakistan) |  |
-| 2026-05-05 | Coinbase | 700 | news_inferred | [techcrunch.com](https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/) |  |
+| 2026-05-05 | Coinbase | 700 | news_with_quote | [techcrunch.com](https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/) |  |
 | 2026-05-05 | Freshworks | 500 | news_with_quote | [reuters.com](https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/) | [benzinga.com](https://www.benzinga.com/markets/tech/26/05/52312892/freshworks-cuts-11-of-workforce-as-ceo-says-over-half-of-our-code-is-written-by-ai) |
 | 2026-05-05 | PayPal | 4760 | ceo_memo | [wsj.com](https://www.wsj.com/business/earnings/paypal-to-cut-costs-after-profit-falls-dc42baf9) | [layoffhedge.com](https://layoffhedge.com/company/paypal) |
 | 2026-05-04 | Shopify | 30 | not_accessible | [thelogic.co](https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/) |  |
@@ -85,13 +85,13 @@ Columnas: **fuente original** = el campo `Source` de layoffs.fyi. **fuente recov
 | 2026-04-01 | Sonos | — | news_inferred | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-04-01/sonos-makes-marketing-cuts-as-new-cmo-reshapes-division) | [startuptalky.com](https://startuptalky.com/news/sonos-cuts-marketing-jobs/) |
 | 2026-03-31 | Covrzy | — | news_inferred | [inc42.com](https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/) |  |
 | 2026-03-31 | Monzo | 50 | not_accessible | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe) |  |
-| 2026-03-31 | Oracle | 30000 | news_with_quote | [cnbc.com](https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html) | [thenextweb.com](https://thenextweb.com/news/oracle-layoffs-march-2026) |
+| 2026-03-31 | Oracle | 21000 | press_release_sec | [cnbc.com](https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html) | `Oracle FY26 10-K (sec.gov, orcl-20260531.htm) Human Capital section` |
 | 2026-03-31 | Rec Room | — | news_inferred | [techcrunch.com](https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/) |  |
 | 2026-03-31 | Yupp | — | news_inferred | [techcrunch.com](https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/) |  |
 | 2026-03-27 | Enpal | 100 | news_inferred | [businessinsider.de](https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/) |  |
 | 2026-03-26 | Monte Carlo | — | news_inferred | [linkedin.com](https://www.linkedin.com/feed/update/urn:li:activity:7442678720647184385/) |  |
 | 2026-03-26 | Quandoo | — | news_inferred | [finance.yahoo.com](https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html) |  |
-| 2026-03-25 | Meta | 700 | news_with_quote | [nytimes.com](https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE) | [dataconomy.com](https://dataconomy.com/2026/03/26/meta-layoffs-hundreds-2026/) |
+| 2026-03-25 | Meta | 700 | news_inferred | [nytimes.com](https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE) | [dataconomy.com](https://dataconomy.com/2026/03/26/meta-layoffs-hundreds-2026/) |
 | 2026-03-24 | Epic Games | 1000 | news_inferred | [epicgames.com](https://www.epicgames.com/site/en-US/news/todays-layoffs) |  |
 | 2026-03-24 | OpenText | — | news_inferred | [betakit.com](https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/) |  |
 | 2026-03-24 | Zendesk | 100 | ceo_memo | `Internal memo` | [techcrunch.com](https://techcrunch.com/2026/03/11/zendesk-acquires-agentic-customer-service-startup-forethought/) |
@@ -115,15 +115,15 @@ Columnas: **fuente original** = el campo `Source` de layoffs.fyi. **fuente recov
 | 2026-03-03 | MicroVision | 49 | news_inferred | [bizjournals.com](https://www.bizjournals.com/seattle/news/2026/03/03/microvision-lidar-redmond-layoffs-warn-cars.html) |  |
 | 2026-03-02 | Verint Systems | — | news_inferred | [calcalistech.com](https://www.calcalistech.com/ctechnews/article/rjpmvvqf11l) |  |
 | 2026-02-28 | Zap Africa | — | news_inferred | [techcabal.com](https://techcabal.com/2026/02/28/zap-africa-layoffs/) |  |
-| 2026-02-26 | Block | 4000 | news_with_quote | [cnbc.com](https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html) |  |
+| 2026-02-26 | Block | 4000 | press_release_sec | [cnbc.com](https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html) |  |
 | 2026-02-26 | Ocado | 1000 | news_inferred | [theguardian.com](https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive) |  |
 | 2026-02-26 | eBay | 800 | news_inferred | [cnbc.com](https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html) |  |
 | 2026-02-25 | C3.ai | 280 | news_with_quote | [morningstar.com](https://www.morningstar.com/stocks/xnys/ai/earnings-transcript) |  |
 | 2026-02-25 | Deliveroo | 187 | news_inferred | [in.investing.com](https://in.investing.com/news/company-news/doordash-closes-deliveroo-operations-in-qatar-and-singapore-93CH-5256077) |  |
 | 2026-02-24 | DraftKings | — | news_inferred | [next.io](https://next.io/news/people/draftkings-reduces-workforce-company-embraces-ai/) |  |
 | 2026-02-24 | TrueCar | 100 | news_inferred | [aimgroup.com](https://aimgroup.com/2026/02/24/truecar-cuts-30-of-staff/) |  |
-| 2026-02-24 | WiseTech | 2000 | news_with_quote | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-02-24/wisetech-to-cut-2-000-jobs-as-ai-ends-era-of-manual-coding) |  |
-| 2026-02-20 | Livspace | 1000 | news_inferred | [inc42.com](https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/) |  |
+| 2026-02-24 | WiseTech | 2000 | press_release_sec | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-02-24/wisetech-to-cut-2-000-jobs-as-ai-ends-era-of-manual-coding) |  |
+| 2026-02-20 | Livspace | 1000 | news_with_quote | [inc42.com](https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/) |  |
 | 2026-02-20 | Lucid Motors | — | news_with_quote | [techcrunch.com](https://techcrunch.com/2026/02/20/lucid-motors-slashes-12-of-its-workforce-as-it-seeks-profitability/) |  |
 | 2026-02-19 | Codecademy | — | news_inferred | [edtechinnovationhub.com](https://www.edtechinnovationhub.com/news/skillsoft-lays-off-entire-codecademy-curriculum-team-senior-leader-confirms) |  |
 | 2026-02-17 | Cyberark | 500 | news_inferred | [calcalistech.com](https://www.calcalistech.com/ctechnews/article/hy707511ube) |  |
@@ -148,7 +148,7 @@ Columnas: **fuente original** = el campo `Source` de layoffs.fyi. **fuente recov
 | 2026-01-28 | ASML | 1700 | news_inferred | [asml.com](https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation) |  |
 | 2026-01-28 | Amazon | 16000 | ceo_memo | [aboutamazon.com](https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026) |  |
 | 2026-01-27 | Moon Active | 110 | news_inferred | [calcalistech.com](https://www.calcalistech.com/ctechnews/article/jvbqyjznm) |  |
-| 2026-01-27 | Pinterest | 700 | ceo_memo | [theverge.com](https://www.theverge.com/news/868531/pinterest-layoffs-cuts-15-percent-ai-transformation) | [techcrunch.com](https://techcrunch.com/2026/01/27/pinterest-to-lay-off-15-of-staff-to-redirect-resources-to-ai/) |
+| 2026-01-27 | Pinterest | 700 | press_release_sec | [theverge.com](https://www.theverge.com/news/868531/pinterest-layoffs-cuts-15-percent-ai-transformation) | [techcrunch.com](https://techcrunch.com/2026/01/27/pinterest-to-lay-off-15-of-staff-to-redirect-resources-to-ai/) |
 | 2026-01-26 | Expedia | 162 | news_inferred | [bizjournals.com](https://www.bizjournals.com/seattle/news/2026/01/26/expedia-layoffs-tech-team-interbay-travel.html) | [geekwire.com](https://www.geekwire.com/2026/expedia-group-lays-off-employees-in-latest-cuts-at-seattle-travel-giant/) |
 | 2026-01-25 | Entropy | — | news_inferred | [theblock.co](https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors) |  |
 | 2026-01-24 | Roof Stacks | 220 | news_inferred | [yenicaggazetesi.com](https://www.yenicaggazetesi.com/erdoganin-mektup-arkadasinin-sirketinde-skandal-olay-yuzlerce-kisi-isten-cikarildi-995293h.htm) |  |
@@ -159,7 +159,7 @@ Columnas: **fuente original** = el campo `Source` de layoffs.fyi. **fuente recov
 | 2026-01-15 | Ericsson | 1600 | news_inferred | [reuters.com](https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/) | [thelocal.se](https://www.thelocal.se/20260115/ericsson-to-lay-off-1600-workers-in-sweden) |
 | 2026-01-15 | Tipalti | 100 | news_inferred | [en.globes.co.il](https://en.globes.co.il/en/article-tipalti-laying-off-dozens-of-employees-1001532153) | [calcalistech.com](https://www.calcalistech.com/ctechnews/article/syrnrsyvgg) |
 | 2026-01-14 | Aleph Alpha | 50 | news_inferred | [startbase.com](https://www.startbase.com/news/aleph-alpha-baut-rund-50-stellen-ab/) |  |
-| 2026-01-14 | Playtika | 500 | news_inferred | [calcalistech.com](https://www.calcalistech.com/ctechnews/article/bkl6xzhswe) |  |
+| 2026-01-14 | Playtika | 500 | press_release_sec | [calcalistech.com](https://www.calcalistech.com/ctechnews/article/bkl6xzhswe) |  |
 | 2026-01-13 | Meta | 1500 | ceo_memo | [nytimes.com](https://www.nytimes.com/2026/01/12/technology/meta-layoffs-reality-labs.html?unlocked_article_code=1.D1A.ckee.3ANQhKMxi5Ld&smid=url-share) | [techcrunch.com](https://techcrunch.com/2026/01/14/meta-to-reportedly-lay-off-10-of-reality-labs-staff/) |
 | 2026-01-13 | StoreDot | — | news_inferred | [calcalistech.com](https://www.calcalistech.com/ctechnews/article/sjkqkmeb11x) |  |
 | 2026-01-13 | eToro | 105 | news_inferred | [calcalistech.com](https://www.calcalistech.com/ctechnews/article/sjedi1vh11x) |  |

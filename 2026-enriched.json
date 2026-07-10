@@ -475,7 +475,7 @@
       "Seattle"
     ],
     "source_url": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026",
-    "reason": "Amazon is strengthening its organization by reducing layers, increasing ownership, and removing bureaucracy across corporate roles.",
+    "reason": "Amazon is strengthening its organization by reducing layers, increasing ownership, and removing bureaucracy across corporate roles. The memo (Beth Galetti, SVP PXT) contains no mention of AI; an Amazon spokesperson told AP (~Feb 1) that AI was 'not the reason behind the vast majority of these reductions.'",
     "theme_original": "restructuring",
     "source_used": null,
     "raised_mm": 8100,
@@ -861,7 +861,7 @@
       "Non-U.S."
     ],
     "source_url": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/",
-    "reason": "Company attributed the cuts to integration of advanced AI agents and automation across sales, operations, design, and marketing, framing it as a strategic AI pivot rather than cost-cutting.",
+    "reason": "Company spokesperson on record: 'investing heavily in AI... choosing to lean into the future of work rather than clinging to legacy operational models.' Press coverage elaborated that AI agents were deployed across sales, operations, design, and marketing over six months (function-level detail is press elaboration, not first-party).",
     "theme_original": "AI restructuring",
     "source_used": null,
     "raised_mm": 482,
@@ -1451,7 +1451,7 @@
       "SF Bay Area"
     ],
     "source_url": "Internal memo",
-    "reason": "Zendesk conducted cuts in late March 2026 amid its AI push - completed acquisition of Forethought (an AI agent platform) on March 26, 2026, enabling autonomous AI agents that handle ~80% of support tickets. Specific public reporting on the March 24 internal memo not surfaced; cuts align with broader Zendesk strategy of shifting customer support functions to AI agents (a continuation of multiple PE-era rounds).",
+    "reason": "Zendesk conducted cuts in late March 2026 amid its AI push - completed acquisition of Forethought (an AI agent platform) on March 26, 2026, enabling autonomous AI agents that handle ~80% of support tickets. Specific public reporting on the March 24 internal memo not surfaced; cuts align with broader Zendesk strategy of shifting customer support functions to AI agents (a continuation of multiple PE-era rounds). LOW CONFIDENCE: this event has no external footprint — no press coverage, no WARN filing, absent from AI-layoff trackers; sole source is an internal memo. Exclude from headline aggregates or caveat explicitly.",
     "theme_original": "AI restructuring",
     "source_used": "https://techcrunch.com/2026/03/11/zendesk-acquires-agentic-customer-service-startup-forethought/",
     "raised_mm": 85,
@@ -1469,7 +1469,7 @@
       "SF Bay Area"
     ],
     "source_url": "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE",
-    "reason": "~700 jobs cut across Facebook social, global operations, recruiting, sales, and Reality Labs (the biggest hit). Internal memo framed it as sharpening operations to free up resources for AI; some employees offered new roles (some requiring relocation). Coincided with record AI capex guidance ($125-145B for 2026, more than 2x 2025), shifting resources away from AR hardware.",
+    "reason": "~700 jobs cut across Facebook social, global operations, recruiting, sales, and Reality Labs (the biggest hit); some employees offered new roles (some requiring relocation). No first-party AI statement exists for this round — press framing connected it to the record AI capex guidance ($125-145B for 2026) announced in the same window. (An earlier version of this record attributed the 'free up resources for AI' memo language here; that quote is from the April 23 Janelle Gale memo and belongs to the May 20 round.)",
     "theme_original": "AI restructuring",
     "source_used": "https://dataconomy.com/2026/03/26/meta-layoffs-hundreds-2026/",
     "raised_mm": 26000,
@@ -1572,8 +1572,8 @@
   {
     "company": "Oracle",
     "date": "2026-03-31",
-    "laid_off": 30000,
-    "pct": null,
+    "laid_off": 21000,
+    "pct": 0.13,
     "industry": "Other",
     "stage": "Post-IPO",
     "country": "United States",
@@ -1581,9 +1581,9 @@
       "SF Bay Area"
     ],
     "source_url": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
-    "reason": "Mass layoff (~18% of 162k workforce) executed without HR/manager warning to redirect headcount spend into a ~$50B FY26 AI capex push (Nvidia GB300 racks, AMD MI355X clusters, and the 4.5GW Stargate data-center buildout tied to OpenAI's $300B compute contract). Larry Ellison is betting Oracle's next decade on more compute; the cuts happened despite Q3 FY26 GAAP net income of $3.7B (+27% YoY) and RPO of $553B (+325% YoY).",
+    "reason": "Mass layoff executed without HR/manager warning. Headcount: the widely-reported 30,000 figure was a TD Cowen estimate ('20,000-30,000') plus anonymous sourcing, never company-confirmed; Oracle's FY26 10-K shows a net reduction of 21,000 (162k to ~141k, 13%) — the audited figure is used here. US WARN filings capture only ~1,241; the ~12,000-India figure is press-only. Oracle declined all event-level comment; its FY26 10-K states that AI deployment across operations 'resulted... in reductions to our workforce' during the fiscal year in which this cut was nearly all of the reduction (162k to ~141k). Press coverage framed the cuts as funding the ~$50B FY26 AI capex push (Nvidia GB300, AMD MI355X, 4.5GW Stargate buildout tied to OpenAI's $300B compute contract), but the widely-circulated Catz ('generational reallocation of capital') and Ellison ('choosing the chips') quotes could not be traced to any real source and are likely fabricated. The cuts happened despite Q3 FY26 GAAP net income of $3.7B (+27% YoY) and RPO of $553B (+325% YoY).",
     "theme_original": "AI capex reallocation",
-    "source_used": "https://thenextweb.com/news/oracle-layoffs-march-2026",
+    "source_used": "Oracle FY26 10-K (sec.gov, orcl-20260531.htm) Human Capital section",
     "raised_mm": null,
     "$_raised_mm": null
   },
@@ -2038,7 +2038,7 @@
       "Boston"
     ],
     "source_url": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/",
-    "reason": "CEO Jennifer Morgan (joined 2024) is restructuring UKG into an 'AI-first company,' citing the need to streamline operations and realign resources with evolving customer demands. ~600 employees left immediately, ~350 stayed for transition. Hits Sunrise and Weston, FL offices hard; follows a prior 2,200-person (14%) cut in late 2024. Owned by PE firm Hellman & Friedman since 2019.",
+    "reason": "CEO Jennifer Morgan (joined 2024) is restructuring UKG; a spokesperson attributed the layoffs to 'market shifts — including changes in technology driven by AI, customer expectations, and how software companies compete.' ('AI-first company' is UKG brand positioning, not layoff language; no direct Morgan quote about the cuts exists.) ~600 employees left immediately, ~350 stayed for transition. Hits Sunrise and Weston, FL offices hard; follows a prior 2,200-person (14%) cut in late 2024. Owned by PE firm Hellman & Friedman since 2019.",
     "theme_original": "AI-first restructuring",
     "source_used": "https://cbs12.com/news/florida/ukg-announces-950-layoffs-affecting-a-large-number-of-workers-in-south-florida-offices-ultimate-kronos-group-jobs-reductions-restructuring-",
     "raised_mm": null,
@@ -2583,24 +2583,6 @@
     "$_raised_mm": 61
   },
   {
-    "company": "ZoomInfo",
-    "date": "2026-05-10",
-    "laid_off": 600,
-    "pct": 0.2,
-    "industry": "Sales",
-    "stage": "Post-IPO",
-    "country": "United States",
-    "location_hq": [
-      "Portland"
-    ],
-    "source_url": "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html",
-    "reason": "Restructuring to redirect spending toward AI-enabled engineering and data infrastructure, targeting ~$60M in annual savings; cuts concentrated in R&D and downmarket sales.",
-    "theme_original": "AI restructuring",
-    "source_used": null,
-    "raised_mm": 7,
-    "$_raised_mm": 7
-  },
-  {
     "company": "MRI Software",
     "date": "2026-05-11",
     "laid_off": 200,
@@ -2655,6 +2637,24 @@
     "source_used": null,
     "raised_mm": null,
     "$_raised_mm": null
+  },
+  {
+    "company": "ZoomInfo",
+    "date": "2026-05-11",
+    "laid_off": 600,
+    "pct": 0.2,
+    "industry": "Sales",
+    "stage": "Post-IPO",
+    "country": "United States",
+    "location_hq": [
+      "Portland"
+    ],
+    "source_url": "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html",
+    "reason": "Restructuring to redirect spending toward AI-enabled engineering and data infrastructure, targeting ~$60M in annual savings; cuts concentrated in R&D and downmarket sales.",
+    "theme_original": "AI restructuring",
+    "source_used": null,
+    "raised_mm": 7,
+    "$_raised_mm": 7
   },
   {
     "company": "Breadfast",

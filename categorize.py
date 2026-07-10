@@ -325,7 +325,11 @@ MANUAL = {
     # ---------------------- Amazon ----------------------
     ("Amazon", "2026-01-28"): {
         "reason_primary": "restructuring_vague",
-        "ai_link": "direct_substitution",  # Claude Sonnet replacing dozens of mid-engineers cited
+        # NOTE (2026-07-10 adjudication): the earlier "Claude Sonnet replacing dozens of
+        # mid-engineers cited" note was traced to a satirical blog post + an unrelated Reddit
+        # anecdote — no first-party Amazon origin. Galetti memo is AI-silent; Amazon spokesperson
+        # to AP (~Feb 1): AI was "not the reason behind the vast majority of these reductions".
+        # ai_link is therefore set by the ADJUDICATION layer below (ai_narrative_only/company_denied).
         "narrative_source": "ceo_memo",
         "profiles_cut": ["SDE_II", "middle_management_L6_L7", "PXT_HR_recruiting", "AWS_TAM_solutions_architects", "Alexa_AI_legacy", "Prime_Video_platform_eng", "Amazon_Pharmacy", "TPMs"],
         "profiles_hired": ["AGI_team_Nova", "Trainium_chip_team", "Bedrock_agents", "Frontier_AI_Robotics", "Project_Rainier_data_center"],
@@ -406,7 +410,7 @@ MANUAL = {
         # 30% cut returns to ~pre-acquisition organic levels.
         "hire_overcorrection": True,
     },
-    ("ZoomInfo", "2026-05-10"): {
+    ("ZoomInfo", "2026-05-11"): {  # date corrected 2026-07-10 per the 8-K (was 05-10)
         # IPO 2020 with 1,747 FTEs → FY22 peak 3,540 (+102% raw, +85% organic
         # ex Chorus.ai + RingLead). 600 cut on top of -332 in FY24-25.
         "hire_overcorrection": True,
@@ -534,8 +538,8 @@ MANUAL = {
 
     # 4 cases that are direct_substitution (CEO openly said AI does the work):
     ("Freshworks",   "2026-05-05"): {"ai_link": "direct_substitution", "hire_overcorrection": True},  # see SEC audit pass + "over half of our code is written by AI"
-    ("Upwork",       "2026-05-07"): {"ai_link": "direct_substitution"},  # "AI means smaller, differently resourced teams"
-    ("Kraken",       "2026-05-15"): {"ai_link": "direct_substitution"},  # AI chatbot handles 80% of customer inquiries
+    ("Upwork",       "2026-05-07"): {"ai_link": "direct_substitution", "hire_overcorrection": True},   # "AI means smaller, differently resourced teams"; 10-K: +57.4% headcount 2020→22
+    ("Kraken",       "2026-05-15"): {"ai_link": "direct_substitution", "hire_overcorrection": True},   # AI chatbot handles 80% of customer inquiries; +36.4% Oct'24→May'26 (press-sourced)
     ("Crypto.com",   "2026-03-19"): {"ai_link": "direct_substitution"},  # "roles that do not adapt to AI"
 
     # 2 cases that are ai_pivot_market (product/market pivot to AI):
@@ -561,6 +565,7 @@ MANUAL = {
         "reason_primary": "ai_capex_reallocation",
         "ai_link": "capex_funding",
         "narrative_source": "news_with_quote",
+        "hire_overcorrection": True,  # Track-2 audit: +30.7% FY22→24, +21.1% FY24→26 (10-K)
     },
     ("Robinhood", "2026-06-16"): {
         "reason_primary": "ai_substitution_claim",
@@ -584,6 +589,283 @@ MANUAL = {
         "ai_link": "capex_funding",
         "narrative_source": "press_release_sec",
     },
+
+    # ------------------------------------------------------------------
+    # Track-2 over-hiring audit extension (2026-07-10): stated-AI companies
+    # the SEC-only audit never covered. Same >=15%-in-any-2yr-window criterion;
+    # filings where public, LinkedIn/press headcount series where not.
+    # (Upwork/Kraken/GitLab/Robinhood flags live in their entries above.)
+    # ------------------------------------------------------------------
+    ("Livspace", "2026-02-20"): {"hire_overcorrection": True},   # +112.8% May'20→Mar'22
+    ("Cisco", "2026-05-13"): {"hire_overcorrection": False},     # +8.5% raw, flat organic ex-Splunk
+    ("WiseTech", "2026-02-24"): {"hire_overcorrection": False},  # organic; raw +75% is pure M&A stacking (E2open et al.)
+    ("Playtika", "2026-01-14"): {"hire_overcorrection": False},  # shrinking every year since 2020
+    ("Zendesk", "2026-03-24"): {"hire_overcorrection": False},   # +8.3% best window (Revelio/LinkedIn-derived)
+}
+
+# ---------------------------------------------------------------------------
+# Axis 5 — ai_link_basis: WHO established the AI connection (added 2026-07-10)
+# ---------------------------------------------------------------------------
+# The old ai_link axis conflated the mechanism with who claims it. This axis
+# separates them so the labels are honest about what is known vs inferred:
+#   company_stated  — the company itself made/supported the ai_link reading
+#                     (memo, filing, earnings call, named exec quote)
+#   company_denied  — the company explicitly denied AI as the cause
+#   analyst_inferred— this dataset's analyst inferred the link (none currently:
+#                     the two events that lived on inference — Amazon, Oracle —
+#                     resolved to company_denied / company_stated on adjudication)
+#   press_inferred  — press made the connection; company said nothing
+#   unknown         — source not accessible
+#
+# ai_link vocabulary migration (same pass): mechanism axis no longer carries
+# denial/pivot framing — that information lives in ai_link_basis now.
+#   ai_denied_but_adjacent -> ai_narrative_only (+ basis=company_denied)
+#   ai_pivot_market        -> ai_narrative_only
+# Final ai_link vocabulary: direct_substitution / capex_funding /
+# ai_narrative_only / unrelated (/ unknown, reserved).
+AI_LINK_MIGRATION = {
+    "ai_denied_but_adjacent": "ai_narrative_only",
+    "ai_pivot_market": "ai_narrative_only",
+}
+
+def default_ai_link_basis(ai_link, narrative):
+    """Default basis for non-adjudicated events, from the evidence axis.
+    Known failure modes (both demonstrated by the 2026-07-10 audit):
+    (1) ceo_memo does not imply the memo makes the AI claim (Amazon, Meta-Jan
+        had AI-silent memos) — spot-check small ceo_memo events whose reason
+        text lacks an AI verb before leaning on company_stated;
+    (2) legacy ai_denied_but_adjacent does not imply an actual denial exists
+        (PayPal/Wix/Playtika never denied — they affirmed substitution)."""
+    if ai_link == "ai_denied_but_adjacent":
+        return "company_denied"
+    if narrative in ("ceo_memo", "press_release_sec", "news_with_quote"):
+        return "company_stated"
+    if narrative == "news_inferred":
+        return "press_inferred"
+    return "unknown"
+
+# ---------------------------------------------------------------------------
+# ADJUDICATION pass (2026-07-10): 25 contested events (>=500 heads or Amazon),
+# covering 94.9% of AI-linked headcount, re-verdicted against PRIMARY sources
+# (memos, SEC/ASX filings, earnings-call transcripts). Applied AFTER MANUAL —
+# this layer is authoritative for the fields it sets. One-line decisive
+# evidence + source per entry. Rubric: M1 = AI does the work, M2 = AI gets
+# the money, M3 = AI in the story only, M4 = not AI.
+# ---------------------------------------------------------------------------
+ADJUDICATION = {
+    # M3/company_denied. Galetti memo 100% AI-silent; spokesperson to AP (~Feb 1):
+    # AI "not the reason behind the vast majority of these reductions".
+    # aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026
+    ("Amazon", "2026-01-28"): {
+        "ai_link": "ai_narrative_only", "ai_link_basis": "company_denied",
+    },
+    # M1/company_stated (CAVEAT: year-level, not event-specific — Oracle declined
+    # all event comment). FY26 10-K: AI deployment "resulted... in reductions to
+    # our workforce" in the FY where this cut was ~all the reduction (162k->141k).
+    # The viral Catz "generational reallocation of capital" / Ellison "choosing
+    # the chips" capex quotes could NOT be traced to any real source (likely
+    # content-mill fabrications) — the M2 capex story is therefore unsupported.
+    # sec.gov orcl-20260531.htm
+    ("Oracle", "2026-03-31"): {
+        "reason_primary": "ai_substitution_claim",
+        "ai_link": "direct_substitution", "ai_link_basis": "company_stated",
+        "narrative_source": "press_release_sec",
+    },
+    # M4/company_stated. 10-K Human Capital cites only "disciplined cost
+    # management... employee reorganizations" — zero AI. AI-server link was
+    # press inference. Dell FY26 10-K (dell-20260130.htm)
+    ("Dell", "2026-03-16"): {
+        "reason_primary": "cost_cutting",
+        "ai_link": "unrelated", "ai_link_basis": "company_stated",
+    },
+    # M4/company_stated. Full statement: "reinvest across our business and align
+    # our structure with strategic priorities" — no AI anywhere. retaildive/cnbc
+    ("eBay", "2026-02-26"): {
+        "ai_link": "unrelated", "ai_link_basis": "company_stated",
+    },
+    # M4/company_stated. Shapero memo + spokesperson: zero AI language ("regular
+    # business planning"); even the "not AI" line was an anonymous source, not a
+    # company denial. reuters.com 2026-05-13
+    ("LinkedIn", "2026-05-13"): {
+        "ai_link": "unrelated", "ai_link_basis": "company_stated",
+    },
+    # M4/company_stated. Bosworth memo has zero AI language: VR to be "leaner,
+    # flatter... sustainability"; "AI wearables" was press framing. Bloomberg/Yahoo
+    ("Meta", "2026-01-13"): {
+        "ai_link": "unrelated", "ai_link_basis": "company_stated",
+    },
+    # M3/press_inferred. No first-party AI statement exists for this round; the
+    # "free up resources for AI" quote belongs to the 04-23 Gale memo (05-20 event).
+    ("Meta", "2026-03-25"): {
+        "reason_primary": "restructuring_vague",
+        "ai_link": "ai_narrative_only", "ai_link_basis": "press_inferred",
+        "narrative_source": "news_inferred",
+    },
+    # Follows the 03-25 downgrade: WARN filings are AI-silent; this round is the
+    # formal IC processing of that wave.
+    ("Meta", "2026-04-02"): {
+        "reason_primary": "restructuring_vague",
+        "ai_link": "ai_narrative_only", "ai_link_basis": "press_inferred",
+    },
+    # M2/company_stated. CFO Susan Li, Q1 call 4/29: leaner model "helping to
+    # offset the substantial investments we are making" ($125-145B AI capex,
+    # same call); CPO Gale memo 4/23 same language. fool.com Meta Q1-2026
+    ("Meta", "2026-05-20"): {
+        "ai_link": "capex_funding", "ai_link_basis": "company_stated",
+    },
+    # M1/company_stated — no denial ever existed. CEO Lores, Q1 call: "With AI,
+    # we believe we can both reduce cost and improve the experience"; AI
+    # transformation "function by function, process by process". fool.com
+    ("PayPal", "2026-05-05"): {
+        "ai_link": "direct_substitution", "ai_link_basis": "company_stated",
+    },
+    # M3/company_denied. Goodarzi on CNBC: "None of it had to do with AI"; no
+    # first-party link from savings to the same-day Anthropic/OpenAI deals.
+    ("Intuit", "2026-05-20"): {
+        "ai_link": "ai_narrative_only", "ai_link_basis": "company_denied",
+    },
+    # M3/company_denied. Anagnost email (SEC-filed): changes "not driven by...
+    # an effort to replace people with AI". adsknews.autodesk.com 012226
+    ("Autodesk", "2026-01-22"): {
+        "ai_link": "ai_narrative_only", "ai_link_basis": "company_denied",
+    },
+    # M1/company_stated — no denial ever existed. Abrahami: "fewer layers...
+    # also means a smaller number of people" (FX a stated co-driver). cnbc 05-28
+    ("Wix", "2026-05-25"): {
+        "reason_primary": "ai_substitution_claim",
+        "ai_link": "direct_substitution", "ai_link_basis": "company_stated",
+    },
+    # M1/company_stated — no denial ever existed. Antokol letter (8-K exhibit):
+    # "streamlined teams powered by AI and automation... do more with less".
+    ("Playtika", "2026-01-14"): {
+        "ai_link": "direct_substitution", "ai_link_basis": "company_stated",
+        "narrative_source": "press_release_sec",
+    },
+    # M3/company_stated. Blog invokes "the agentic AI era" + 600% internal usage
+    # but never states AI performs the cut roles' work, and explicitly says
+    # "not a cost-cutting exercise" (ruling out M2 too). blog.cloudflare.com
+    ("Cloudflare", "2026-05-07"): {
+        "reason_primary": "restructuring_vague",
+        "ai_link": "ai_narrative_only", "ai_link_basis": "company_stated",
+    },
+    # M2/company_stated. Cannon-Brookes memo: "We are doing this to self-fund
+    # further investment in AI and enterprise sales" (+M1 ack: AI changes "the
+    # number of roles required in certain areas. It does.") atlassian.com/blog
+    ("Atlassian", "2026-03-11"): {
+        "reason_primary": "ai_capex_reallocation",
+        "ai_link": "capex_funding", "ai_link_basis": "company_stated",
+    },
+    # M3/company_stated (weak: PR spokesperson only; no Morgan quote exists).
+    # "market shifts — including changes in technology driven by AI"; "AI-first
+    # company" is brand copy, not layoff language. cbs12/hrexecutive
+    ("UKG", "2026-04-15"): {
+        "ai_link": "ai_narrative_only", "ai_link_basis": "company_stated",
+    },
+    # M1(+M2)/company_stated, M1 dominant. Schuck, Q1 call: "we do not need as
+    # many front-end developers" thanks to coding agents (8-K memo AI-silent).
+    ("ZoomInfo", "2026-05-11"): {
+        "reason_primary": "ai_substitution_claim",
+        "ai_link": "direct_substitution", "ai_link_basis": "company_stated",
+        "narrative_source": "news_with_quote",
+    },
+    # M1/company_stated. Armstrong (own X post): "rebuilding Coinbase as an
+    # intelligence, with humans around the edge" (crypto downturn co-driver).
+    ("Coinbase", "2026-05-05"): {
+        "ai_link_basis": "company_stated", "narrative_source": "news_with_quote",
+    },
+    # M2/company_stated. 8-K Item 2.05: "reallocating resources to AI-focused
+    # roles and teams". sec.gov pins-20260122.htm
+    ("Pinterest", "2026-01-27"): {
+        "ai_link_basis": "company_stated", "narrative_source": "press_release_sec",
+    },
+    # M1/company_stated (core claim first-party via spokesperson; per-function
+    # detail is press elaboration). inc42/entrackr
+    ("Livspace", "2026-02-20"): {
+        "ai_link_basis": "company_stated", "narrative_source": "news_with_quote",
+    },
+    # M1/company_stated. Dorsey, SEC 8-K shareholder letter: teams "using AI to
+    # automate more work". sec.gov d108590dex991.htm
+    ("Block", "2026-02-26"): {
+        "ai_link_basis": "company_stated", "narrative_source": "press_release_sec",
+    },
+    # M1/company_stated. ASX release + CEO Appoo: roles "where we have seen AI
+    # dramatically improve throughput". wisetechglobal.com wtc-1h26-asx
+    ("WiseTech", "2026-02-24"): {
+        "ai_link_basis": "company_stated", "narrative_source": "press_release_sec",
+    },
+    # M2/company_stated. Robbins company blog: investments in "silicon, optics,
+    # security, and... AI"; CFO: "not a savings-driven restructure".
+    ("Cisco", "2026-05-13"): {
+        "ai_link_basis": "company_stated", "narrative_source": "press_release_sec",
+    },
+    # M1/company_stated. Spiegel memo: AI "enable[s] our teams to reduce
+    # repetitive work... small squads leveraging AI tools". newsroom.snap.com
+    ("Snap", "2026-04-15"): {
+        "ai_link_basis": "company_stated",
+    },
+    # M1/company_stated. Woodside: "Over half of our code is written by AI".
+    ("Freshworks", "2026-05-05"): {
+        "ai_link_basis": "company_stated",
+    },
+
+    # --- Cross-check corrections (2026-07-10, external-evidence pass) ---
+    # Tenev's memo pointedly avoided the word "AI" ("frontier technologies");
+    # the AI attribution came from press interpretation (TechCrunch et al.).
+    ("Robinhood", "2026-06-16"): {
+        "ai_link_basis": "press_inferred",
+    },
+    # "AI broke the product", not labor substitution: CEO Mezzell said AI agents
+    # and bot spam overwhelmed Digg's voting model, forcing retool + app shutdown.
+    ("Digg", "2026-03-13"): {
+        "reason_primary": "strategic_pivot",
+        "ai_link": "ai_narrative_only", "ai_link_basis": "company_stated",
+    },
+    # Event has NO external footprint (no press, no WARN, absent from trackers;
+    # sole source "Internal memo") — basis unknown, reason text carries the flag.
+    ("Zendesk", "2026-03-24"): {
+        "ai_link_basis": "unknown",
+    },
+}
+
+# ---------------------------------------------------------------------------
+# External cross-check columns (2026-07-10): three verdicts per stated-AI event,
+# from the three-track external evidence pass (12 sub-agent research batches).
+#   revenue_health   — last reported quarter BEFORE the layoff:
+#                      strength (growing + profitable) / mixed / weakness / unknown
+#   backfill_verdict — hiring behavior post-cut: ai_only / frozen / rehiring_same /
+#                      offshore_swap / mixed / unknown  (null for capex events —
+#                      backfill doesn't test a capex claim)
+#   story_integrity  — the combined call: holds / cracked / busted / unknown.
+#                      "cracked" = at least one material fact contradicts the
+#                      clean AI narrative (inflated headline number, same-day
+#                      guidance cut, M&A-synergy cuts rebranded, documented rehires).
+# Sparse: only the 24 adjudicated company-stated AI events carry values.
+# ---------------------------------------------------------------------------
+CROSS_CHECK = {
+    ("Oracle", "2026-03-31"):     {"revenue_health": "strength", "backfill_verdict": "ai_only",       "story_integrity": "cracked"},  # 30k headline ~43% above audited 10-K net 21k
+    ("Meta", "2026-05-20"):       {"revenue_health": "strength", "backfill_verdict": None,            "story_integrity": "holds"},    # 7k redeployed; capex raised — money goes where the story says
+    ("PayPal", "2026-05-05"):     {"revenue_health": "mixed",    "backfill_verdict": "unknown",       "story_integrity": "cracked"},  # same-day weak GAAP + EPS guided down; cuts phased to 2028
+    ("Block", "2026-02-26"):      {"revenue_health": "strength", "backfill_verdict": "ai_only",       "story_integrity": "cracked"},  # >=4 named rehires into same roles; non-AI reqs during stated freeze
+    ("Cisco", "2026-05-13"):      {"revenue_health": "strength", "backfill_verdict": None,            "story_integrity": "holds"},    # record quarter; AI order book matches claim
+    ("WiseTech", "2026-02-24"):   {"revenue_health": "mixed",    "backfill_verdict": "frozen",        "story_integrity": "cracked"},  # up to half the cut is E2open M&A synergy in AI clothing
+    ("Atlassian", "2026-03-11"):  {"revenue_health": "mixed",    "backfill_verdict": None,            "story_integrity": "cracked"},  # over-hirer, chronic GAAP losses, no verifiable AI-capex commitment
+    ("Livspace", "2026-02-20"):   {"revenue_health": "strength", "backfill_verdict": "rehiring_same", "story_integrity": "busted"},   # 138 live listings in the exact cut role families
+    ("Snap", "2026-04-15"):       {"revenue_health": "strength", "backfill_verdict": "mixed",         "story_integrity": "cracked"},  # 250+ broad reqs = backfill, not substitution
+    ("Wix", "2026-05-25"):        {"revenue_health": "mixed",    "backfill_verdict": "ai_only",       "story_integrity": "holds"},    # weak holds; co-stated FX driver honestly
+    ("Pinterest", "2026-01-27"):  {"revenue_health": "strength", "backfill_verdict": None,            "story_integrity": "holds"},
+    ("Coinbase", "2026-05-05"):   {"revenue_health": "mixed",    "backfill_verdict": "frozen",        "story_integrity": "holds"},    # weak holds; co-stated crypto downturn
+    ("ZoomInfo", "2026-05-11"):   {"revenue_health": "weakness", "backfill_verdict": "offshore_swap", "story_integrity": "busted"},   # own 8-K: Israel R&D closed, roles reallocated incl. India; guidance cut to ~1%
+    ("Playtika", "2026-01-14"):   {"revenue_health": "mixed",    "backfill_verdict": "offshore_swap", "story_integrity": "cracked"},  # 6th round of secular decline; Israel->Bucharest (thin)
+    ("Freshworks", "2026-05-05"): {"revenue_health": "strength", "backfill_verdict": "rehiring_same", "story_integrity": "busted"},   # Chennai support trainee req on own ATS ~7 weeks post-cut
+    ("GitLab", "2026-06-03"):     {"revenue_health": "mixed",    "backfill_verdict": None,            "story_integrity": "cracked"},  # cut 14% a day after raising guidance; narrative flip May->June
+    ("Robinhood", "2026-06-16"):  {"revenue_health": "strength", "backfill_verdict": "rehiring_same", "story_integrity": "busted"},   # CX reqs in layoff-hit hub cities, one posted layoff day
+    ("C3.ai", "2026-02-25"):      {"revenue_health": "weakness", "backfill_verdict": "frozen",        "story_integrity": "cracked"},  # distress cut with AI garnish ("burning too much money")
+    ("Upwork", "2026-05-07"):     {"revenue_health": "mixed",    "backfill_verdict": "ai_only",       "story_integrity": "cracked"},  # same-day ~9% guidance cut on +1% growth
+    ("Kraken", "2026-05-15"):     {"revenue_health": "mixed",    "backfill_verdict": "ai_only",       "story_integrity": "cracked"},  # Q1 EBITDA -90% disclosed 3 days post-layoff; IPO frozen
+    ("MercadoLibre", "2026-01-12"): {"revenue_health": "strength", "backfill_verdict": "ai_only",     "story_integrity": "holds"},    # narrow honest claim while net-adding ~42k jobs
+    ("Zendesk", "2026-03-24"):    {"revenue_health": "unknown",  "backfill_verdict": "unknown",       "story_integrity": "unknown"},  # event itself externally unverifiable
+    ("Digg", "2026-03-13"):       {"revenue_health": "unknown",  "backfill_verdict": "frozen",        "story_integrity": "unknown"},
+    ("Crypto.com", "2026-03-19"): {"revenue_health": "unknown",  "backfill_verdict": "unknown",       "story_integrity": "unknown"},  # no audited financials exist
 }
 
 # ---------------------------------------------------------------------------
@@ -817,10 +1099,29 @@ for e in entries:
         hire_overcorrection = None
         reassignment_observed = None
 
+    # Axis 5: who established the AI connection (default from evidence axis,
+    # computed on the PRE-migration ai_link so legacy denials map to company_denied)
+    basis = default_ai_link_basis(ai_link, narrative)
+    # Adjudication layer (primary-source verdicts) is authoritative
+    if key in ADJUDICATION:
+        a = ADJUDICATION[key]
+        primary = a.get("reason_primary", primary)
+        ai_link = a.get("ai_link", ai_link)
+        narrative = a.get("narrative_source", narrative)
+        basis = a.get("ai_link_basis", basis)
+    # Legacy vocabulary migration: denial/pivot framing moved to ai_link_basis
+    ai_link = AI_LINK_MIGRATION.get(ai_link, ai_link)
+
+    xc = CROSS_CHECK.get(key, {})
+
     out.append({
         **e,
         "reason_primary": primary,
         "ai_link": ai_link,
+        "ai_link_basis": basis,
+        "revenue_health": xc.get("revenue_health"),
+        "backfill_verdict": xc.get("backfill_verdict"),
+        "story_integrity": xc.get("story_integrity"),
         "narrative_source": narrative,
         "ai_position": ai_position,
         "profiles_cut": profiles_cut,
@@ -829,13 +1130,22 @@ for e in entries:
         "reassignment_observed": reassignment_observed,
     })
 
+# Guard: every override key must match a real (company, date) — a typo here
+# silently drops a verdict (this exact failure mode shipped the Intuit mislabel)
+_events = {(e["company"], e["date"]) for e in entries}
+for name, d in (("MANUAL", MANUAL), ("ADJUDICATION", ADJUDICATION), ("CROSS_CHECK", CROSS_CHECK)):
+    stale = set(d) - _events
+    if stale:
+        raise SystemExit(f"{name} keys match no event: {sorted(stale)}")
+
 # Write JSON
 with open(ROOT / "2026-categorized.json", "w") as f:
     json.dump(out, f, indent=2, ensure_ascii=False)
 
 # Write CSV
 cols_csv = ["date", "company", "laid_off", "pct", "industry", "stage", "country",
-            "reason_primary", "ai_link", "narrative_source", "ai_position",
+            "reason_primary", "ai_link", "ai_link_basis", "narrative_source", "ai_position",
+            "revenue_health", "backfill_verdict", "story_integrity",
             "hire_overcorrection", "reassignment_observed",
             "profiles_cut", "profiles_hired",
             "reason", "theme_original", "source_url", "source_used"]
@@ -897,6 +1207,11 @@ for k, v in Counter(r["reason_primary"] for r in out).most_common():
 print("\n=== ai_link ===")
 for k, v in Counter(r["ai_link"] for r in out).most_common():
     n = sum(r.get("laid_off") or 0 for r in out if r["ai_link"] == k)
+    print(f"  {k:<30} {v:>4}   {n:>7,} people")
+
+print("\n=== ai_link x ai_link_basis (people) ===")
+for k, v in Counter(r["ai_link_basis"] for r in out).most_common():
+    n = sum(r.get("laid_off") or 0 for r in out if r["ai_link_basis"] == k)
     print(f"  {k:<30} {v:>4}   {n:>7,} people")
 
 print("\n=== narrative_source ===")
