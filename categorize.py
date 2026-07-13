@@ -630,14 +630,13 @@ AI_LINK_MIGRATION = {
 
 def default_ai_link_basis(ai_link, narrative):
     """Default basis for non-adjudicated events, from the evidence axis.
-    Known failure modes (both demonstrated by the 2026-07-10 audit):
-    (1) ceo_memo does not imply the memo makes the AI claim (Amazon, Meta-Jan
-        had AI-silent memos) — spot-check small ceo_memo events whose reason
-        text lacks an AI verb before leaning on company_stated;
-    (2) legacy ai_denied_but_adjacent does not imply an actual denial exists
-        (PayPal/Wix/Playtika never denied — they affirmed substitution)."""
-    if ai_link == "ai_denied_but_adjacent":
-        return "company_denied"
+    company_denied is NEVER defaulted — the referee pass (2026-07-10) found the
+    legacy rule (ai_denied_but_adjacent -> company_denied) stamped 15 records
+    with no denial evidence (some even AFFIRM AI, e.g. MRI Software). Verified
+    denials are assigned only via ADJUDICATION (currently Amazon, Intuit,
+    Autodesk). Known failure mode that remains: ceo_memo does not imply the
+    memo makes the AI claim (Amazon, Meta-Jan had AI-silent memos) — spot-check
+    small ceo_memo events whose reason text lacks an AI verb."""
     if narrative in ("ceo_memo", "press_release_sec", "news_with_quote"):
         return "company_stated"
     if narrative == "news_inferred":
@@ -824,6 +823,18 @@ ADJUDICATION = {
     # sole source "Internal memo") — basis unknown, reason text carries the flag.
     ("Zendesk", "2026-03-24"): {
         "ai_link_basis": "unknown",
+    },
+
+    # --- Referee-pass corrections (2026-07-10, blind re-inspection) ---
+    # Clearest substitution text in the dataset ("workers reported training the
+    # AI that replaced them") was sitting under restructuring_vague.
+    ("MercadoLibre", "2026-01-12"): {
+        "reason_primary": "ai_substitution_claim",
+    },
+    # Robotics-unit cut: reason text says "routine organizational reviews";
+    # the substitution reading is press framing (basis already press_inferred).
+    ("Amazon", "2026-03-04"): {
+        "reason_primary": "restructuring_vague",
     },
 }
 
@@ -1113,6 +1124,8 @@ for e in entries:
     ai_link = AI_LINK_MIGRATION.get(ai_link, ai_link)
 
     xc = CROSS_CHECK.get(key, {})
+
+    e = {k: v for k, v in e.items() if k != "$_raised_mm"}  # byte-identical duplicate of raised_mm
 
     out.append({
         **e,

@@ -1304,7 +1304,7 @@
       "Austin"
     ],
     "source_url": "https://www.reuters.com/business/world-at-work/dell-workforce-drops-10-fiscal-2026-filing-shows-2026-03-16/",
-    "reason": "Annual filing attributed the 10% workforce reduction to ongoing restructuring and cost controls (reorganizations, limited external hiring) as Dell shifts investment toward AI-optimized servers while managing weak PC demand.",
+    "reason": "Annual filing attributed the 10% workforce reduction to ongoing restructuring and cost controls (reorganizations, limited external hiring) amid weak PC demand. The 10-K Human Capital section contains no AI language; the widely-repeated 'shifting investment toward AI-optimized servers' framing was press inference, not filing text (adjudicated 2026-07-10).",
     "theme_original": "AI restructuring",
     "source_used": null,
     "raised_mm": null,

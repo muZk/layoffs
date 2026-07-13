@@ -9,13 +9,24 @@ Five classification axes plus four optional enrichment columns. Applied to **163
 | `2026-airtable-raw.json` | Raw 160 entries from the layoffs.fyi public Airtable share view (extracted via the `readSharedViewData` endpoint). Industry/stage/country are still in select-ID form. |
 | `airtable-labels.json` | The ID-to-label maps for the Industry / Stage / Country / Location HQ select columns. |
 | `2026-enriched.json` | 163 entries enriched with resolved labels and the public reason recovered from each source URL (158 from the raw extract after dedup/supersede, + 5 hand-added Jun–Jul events). |
-| `2026-reasons.json` | The intermediate file with `reason` + `theme_original` per entry (before our 3-axis categorization). |
+| `2026-reasons.json` | The intermediate file with `reason` + `theme_original` per entry (before categorization). **Snapshot**: does not include the 5 hand-added Jun–Jul events. |
 | `2026-categorized.json` | **The main artefact.** Full structured records with all 3 axes + enrichment columns. |
 | `2026-categorized.csv` | Flat tabular version (good for spreadsheet ingest). |
 | `meta-profile-breakdown.md` | Hand-researched role-by-role detail for Meta's 4 rounds. |
 | `other-profiles-breakdown.md` | Same for Oracle / PayPal / Amazon / Intuit / Snap. |
 | `categorize.py` | The categorizer (rule-based + manual overrides). Re-runnable. |
 | `market-2026.md` | Pragmatic Engineer / Workforce.ai data on hiring trends — context for the `hire_overcorrection` flag. |
+
+## Base columns (carried through from layoffs.fyi / enrichment, previously undocumented)
+
+| column | meaning |
+|---|---|
+| `company`, `date` | Company name and **announcement** date (not effective date). Together they key every override dict. |
+| `laid_off` | Disclosed headcount; `null` when undisclosed (45 of 161 Jan–Jun events, incl. all full shutdowns). |
+| `pct` | Share of workforce cut as a **0–1 fraction** (0.14 = 14%). |
+| `industry`, `stage`, `country`, `location_hq` | layoffs.fyi select fields, label-resolved via `airtable-labels.json`. `country` = layoff location. |
+| `source_url` / `source_used` | Original layoffs.fyi source / alternative source used when the original was blocked. |
+| `raised_mm` | Total raised in $M per layoffs.fyi. (The redundant `$_raised_mm` duplicate was dropped from outputs 2026-07-10.) |
 
 ## Axis 1 — `reason_primary` (single value, financial root cause)
 
@@ -60,14 +71,14 @@ Added 2026-07-10 so labels are honest about what is known vs inferred. The old s
 | value | meaning |
 |---|---|
 | `company_stated` | The company itself made/supported the `ai_link` reading (memo, filing, earnings call, named exec quote). |
-| `company_denied` | The company explicitly denied AI as the cause (Amazon via AP, Intuit on CNBC, Autodesk in an SEC-filed email). |
+| `company_denied` | The company explicitly denied AI as the cause. **Assigned only via adjudication with verified denial language — currently exactly 3 records: Amazon (via AP), Intuit (on CNBC), Autodesk (SEC-filed email).** Never defaulted: the referee pass found the legacy mechanical default had stamped 15 records with no denial evidence. |
 | `analyst_inferred` | This dataset's analyst inferred the link. Currently empty: the two events that lived on inference (Amazon, Oracle) resolved to `company_denied` / `company_stated` on adjudication. |
 | `press_inferred` | Press made the connection; the company said nothing (Meta's March/April rounds). |
 | `unknown` | Source not accessible. |
 
 Basis for the 25 adjudicated events (≥500 heads, 94.9% of AI-linked headcount) comes from primary sources — see the `ADJUDICATION` dict in `categorize.py`, with decisive quote + URL per event. Small events get a default derived from `narrative_source` (memo/filing/quote → `company_stated`, `news_inferred` → `press_inferred`), with two documented failure modes: a `ceo_memo` doesn't guarantee the memo makes the AI claim, and a legacy denial label doesn't guarantee a denial exists.
 
-**Headline usage:** report the mechanism share per basis tier instead of a single "AI-related %". On the audited totals (Oracle at its 10-K net figure of 21,000, not the never-confirmed 30,000 press estimate): of **108,089** disclosed Jan–Jun heads, **34.9% substitution-stated + 13.6% capex-stated = 48.5% AI-caused by the companies' own account**; +1.6% AI mechanism per press only; +23.3% AI-narrative-only (including Amazon's denied 16k); 26.6% genuinely unrelated. (Contested-figure alerts: the viral Oracle Catz/Ellison capex quotes could not be traced to any real source — its substitution coding rests on its sworn 10-K; the 30,000 headline has the same provenance problem, hence 21,000.)
+**Headline usage:** report the mechanism share per basis tier instead of a single "AI-related %". On the audited totals (Oracle at its 10-K net figure of 21,000, not the never-confirmed 30,000 press estimate): of **108,089** disclosed Jan–Jun heads, **34.9% substitution-stated + 13.6% capex-stated = 48.5% AI-caused by the companies' own account**; +1.5% AI mechanism per press only; +23.3% AI-narrative-only (including Amazon's denied 16k); 26.6% genuinely unrelated. (Contested-figure alerts: the viral Oracle Catz/Ellison capex quotes could not be traced to any real source — its substitution coding rests on its sworn 10-K; the 30,000 headline has the same provenance problem, hence 21,000.)
 
 ## Axis 3 — `narrative_source` (evidence quality)
 
@@ -109,7 +120,7 @@ These are filled in only where deep research exists — currently the ~9 manuall
 | `reassignment_observed` | bool/null | Did the same restructuring redeploy employees internally rather than cut them? Currently `True` only for Meta May 20 (~7,000 redeployed to four new AI orgs). |
 | `revenue_health` | enum/null | Last reported quarter *before* the layoff: `strength` (growing + profitable) / `mixed` / `weakness` / `unknown`. From the 2026-07-10 external cross-check pass; only the 24 adjudicated stated-AI events carry values. |
 | `backfill_verdict` | enum/null | Post-cut hiring behavior: `ai_only` / `frozen` / `rehiring_same` / `offshore_swap` / `mixed` / `unknown`. Null for capex events (backfill doesn't test a capex claim). Same 24-event coverage. |
-| `story_integrity` | enum/null | Combined external-evidence call on the company's AI narrative: `holds` / `cracked` (≥1 material fact contradicts the clean story) / `busted` (rehiring/offshoring evidence) / `unknown`. Headline result: of company-stated AI heads, ~24% holds, ~72% cracked, ~4% busted. Evidence per event in `categorize.py`'s `CROSS_CHECK` dict. |
+| `story_integrity` | enum/null | Combined external-evidence call on the company's AI narrative: `holds` / `cracked` (≥1 material fact contradicts the clean story) / `busted` (rehiring/offshoring evidence) / `unknown`. Headline result (on audited Oracle-21k figures): of company-stated AI heads, **27.7% holds, 68.3% cracked, 4.0% busted**. Evidence per event in `categorize.py`'s `CROSS_CHECK` dict. |
 
 ## Methodology notes
 
