@@ -1,0 +1,164 @@
+
+====================================================================================================
+1. SANITY CHECK (148-event population)
+====================================================================================================
+n events (population)            : 148
+n events with disclosed laid_off  : 103
+total disclosed heads             : 27,929
+max single-event heads            : Sama (2026-04-16) = 1,108 heads = 4.0% of population disclosed heads
+
+====================================================================================================
+2. AI-ATTRIBUTION TIERS (148-event population; heads denom=27,929, events denom=148)
+====================================================================================================
+
+--- POPULATION (148 events) ---
+tier                                                      n_ev     ev%     heads   heads%
+a_substitution_company_stated                               12    8.1%     5,997    21.5%
+b_capex_company_stated                                       2    1.4%     1,050     3.8%
+c_ai_mechanism_press_inferred__basis=press_inferred         15   10.1%     1,642     5.9%
+c_ai_mechanism_press_inferred__basis=unknown                 1    0.7%       100     0.4%
+d1_ai_narrative_only__other_basis                           28   18.9%     5,223    18.7%
+d2_ai_narrative_only__company_denied                         1    0.7%     1,000     3.6%
+e_unrelated                                                 89   60.1%    12,917    46.2%
+>>> COMBINED company-stated AI mechanism (a+b)              14    9.5%     7,047    25.2%
+
+====================================================================================================
+3. SIZE CLUSTERS (implied company size = laid_off / pct, both non-null, pct>0)
+====================================================================================================
+n of 148 with both laid_off & pct (pct>0) : 61
+n disclosed-heads events lacking usable pct: 42
+
+--- cluster <500: n=15 events, total heads=1,126 ---
+  median pct cut          : 20.0%
+  mean pct cut            : 27.2%
+  company-stated-AI rate (events) : 0/15 = 0.0%
+  company-stated-AI rate (heads)  : 0/1,126 = 0.0%
+  ai_link mix             : {'ai_narrative_only': 6, 'unrelated': 7, 'direct_substitution': 2}
+  ai_link_basis mix       : {'press_inferred': 13, 'company_stated': 1, 'unknown': 1}
+  hire_overcorrection mix : True=0 False=0 None=15
+  top-3 reason_primary    : [('restructuring_vague', 6), ('strategic_pivot', 3), ('ai_substitution_claim', 2)]
+  companies (up to 8)     : ['AI21 Labs', 'Aleph Alpha', 'ApnaMart', 'Dune', 'Epidemic Sound', 'Foretellix', 'GeoComply', 'Glossier']
+
+--- cluster 500-2,000: n=19 events, total heads=3,054 ---
+  median pct cut          : 21.0%
+  mean pct cut            : 18.6%
+  company-stated-AI rate (events) : 2/19 = 10.5%
+  company-stated-AI rate (heads)  : 431/3,054 = 14.1%
+  ai_link mix             : {'unrelated': 11, 'direct_substitution': 6, 'ai_narrative_only': 2}
+  ai_link_basis mix       : {'press_inferred': 15, 'company_stated': 3, 'unknown': 1}
+  hire_overcorrection mix : True=2 False=0 None=17
+  top-3 reason_primary    : [('restructuring_vague', 6), ('ai_substitution_claim', 5), ('ipo_prep', 3)]
+  companies (up to 8)     : ['Acko', 'Adda247', 'Axonius', 'Bungie', 'C3.ai', 'ClickUp', 'DeepL', 'Envato']
+
+--- cluster 2,000-10,000: n=20 events, total heads=10,306 ---
+  median pct cut          : 12.0%
+  mean pct cut            : 12.8%
+  company-stated-AI rate (events) : 9/20 = 45.0%
+  company-stated-AI rate (heads)  : 6,350/10,306 = 61.6%
+  ai_link mix             : {'unrelated': 8, 'direct_substitution': 8, 'capex_funding': 2, 'ai_narrative_only': 2}
+  ai_link_basis mix       : {'press_inferred': 10, 'company_stated': 10}
+  hire_overcorrection mix : True=11 False=1 None=8
+  top-3 reason_primary    : [('restructuring_vague', 9), ('ai_substitution_claim', 6), ('cost_cutting', 2)]
+  companies (up to 8)     : ['Arctic Wolf', 'Bill.com', 'Cloudflare', 'Coinbase', 'Cyberark', 'FormFactor', 'Freshworks', 'GitLab']
+
+--- cluster >10,000: n=7 events, total heads=5,175 ---
+  median pct cut          : 5.0%
+  mean pct cut            : 4.1%
+  company-stated-AI rate (events) : 0/7 = 0.0%
+  company-stated-AI rate (heads)  : 0/5,175 = 0.0%
+  ai_link mix             : {'ai_narrative_only': 3, 'unrelated': 4}
+  ai_link_basis mix       : {'company_denied': 1, 'press_inferred': 4, 'company_stated': 2}
+  hire_overcorrection mix : True=2 False=0 None=5
+  top-3 reason_primary    : [('restructuring_vague', 5), ('cost_cutting', 1), ('new_ceo_turnaround', 1)]
+  companies (up to 8)     : ['Autodesk', 'LinkedIn', 'Meta', 'Ocado', 'Stone', 'Workday', 'eBay']
+
+====================================================================================================
+4. CUT-DEPTH BY MECHANISM (population, pct available; n=148 events, subset with pct non-null)
+====================================================================================================
+
+By ai_link:
+ai_link                 n(pct)   median pct   mean pct
+unrelated                   46        15.5%      29.9%
+direct_substitution         19        16.0%      18.4%
+ai_narrative_only           18        25.0%      29.7%
+capex_funding                2        14.5%      14.5%
+
+By reason_primary (n>=5 with pct available):
+reason_primary                n(pct)   median pct   mean pct
+restructuring_vague               27        11.0%      15.0%
+ai_substitution_claim             15        20.0%      19.2%
+cost_cutting                      10        12.0%      15.1%
+shutdown_bankruptcy                9       100.0%     100.0%
+strategic_pivot                    7        40.0%      40.4%
+unknown                            6        15.5%      14.7%
+
+====================================================================================================
+5. DISTORTION CHECK: 148-population vs 161 all-Jan-Jun-events (mega included)
+====================================================================================================
+all-events n=161, n disclosed=116, total heads=108,089
+
+--- ALL 161 JAN-JUN EVENTS ---
+tier                                                      n_ev     ev%     heads   heads%
+a_substitution_company_stated                               16    9.9%    37,757    34.9%
+b_capex_company_stated                                       5    3.1%    14,650    13.6%
+c_ai_mechanism_press_inferred__basis=press_inferred         15    9.3%     1,642     1.5%
+c_ai_mechanism_press_inferred__basis=unknown                 1    0.6%       100     0.1%
+d1_ai_narrative_only__other_basis                           28   17.4%     5,223     4.8%
+d2_ai_narrative_only__company_denied                         3    1.9%    20,000    18.5%
+e_unrelated                                                 93   57.8%    28,717    26.6%
+>>> COMBINED company-stated AI mechanism (a+b)              21   13.0%    52,407    48.5%
+
+Cut-depth by ai_link (ALL 161 events):
+ai_link                 n(pct)   median pct   mean pct
+unrelated                   48        15.0%      28.9%
+direct_substitution         23        20.0%      19.7%
+ai_narrative_only           19        20.0%      29.0%
+capex_funding                5        10.0%      10.8%
+
+Cut-depth by reason_primary (ALL 161 events, n>=5):
+reason_primary                n(pct)   median pct   mean pct
+restructuring_vague               28        13.0%      15.1%
+ai_substitution_claim             18        20.0%      20.6%
+cost_cutting                      11        12.0%      14.6%
+shutdown_bankruptcy                9       100.0%     100.0%
+strategic_pivot                    8        35.0%      35.6%
+unknown                            6        15.5%      14.7%
+ai_capex_reallocation              5        10.0%      10.8%
+
+====================================================================================================
+5b. METRICS THAT MOVE >5pp BETWEEN ALL-EVENTS AND POPULATION
+====================================================================================================
+
+HEADLINE — company-stated AI mechanism (a+b), % of HEADS:
+  population : 25.2%  (7,047 / 27,929)
+  all-events : 48.5%  (52,407 / 108,089)
+  delta      : +23.3 pp
+
+HEADLINE — company-stated AI mechanism (a+b), % of EVENTS:
+  population : 9.5%  (14 / 148)
+  all-events : 13.0%  (21 / 161)
+  delta      : +3.6 pp
+
+SUBSTITUTION-ONLY (company-stated direct_substitution), % of HEADS:
+  population : 21.5%   all-events : 34.9%   delta: +13.5 pp
+SUBSTITUTION-ONLY, % of EVENTS:
+  population : 8.1%   all-events : 9.9%   delta: +1.8 pp
+
+CAPEX-ONLY (company-stated capex_funding), % of HEADS:
+  population : 3.8%   all-events : 13.6%   delta: +9.8 pp
+CAPEX-ONLY, % of EVENTS:
+  population : 1.4%   all-events : 3.1%   delta: +1.8 pp
+
+
+ALL METRICS moving by >5.0 percentage points (population -> all-events):
+metric                                                       pop      all  delta(pp)
+[heads%]  tier=COMBINED_company_stated_ai_mechanism        25.2%    48.5%     +23.3pp
+[heads%]  tier=e_unrelated                                 46.2%    26.6%     -19.7pp
+[heads%]  tier=d2_ai_narrative_only__company_denied         3.6%    18.5%     +14.9pp
+[heads%]  tier=d1_ai_narrative_only__other_basis           18.7%     4.8%     -13.9pp
+[heads%]  tier=a_substitution_company_stated               21.5%    34.9%     +13.5pp
+[heads%]  tier=b_capex_company_stated                       3.8%    13.6%      +9.8pp
+
+====================================================================================================
+DONE
+====================================================================================================
