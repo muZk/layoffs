@@ -883,6 +883,27 @@ CROSS_CHECK = {
 }
 
 # ---------------------------------------------------------------------------
+# ai_link_basis refinement (2026-07): events where the AI attribution came from
+# the COMPANY itself but through an INFORMAL channel (CEO/founder tweet, LinkedIn
+# post, blog, "AI-native" self-positioning, spokesperson quote) rather than a
+# formal memo/filing/earnings call. These were previously lumped into
+# press_inferred; company_informal separates "the company said it, casually"
+# from "the press added the AI angle". Only upgrades press_inferred -> never
+# overrides company_stated / company_denied. Verdict per-event read of each
+# reason + source. The other 14 press-linked-AI events stay press_inferred.
+INFORMAL_AI = {
+    ("Angi", "2026-01-07"), ("Hailo", "2026-01-08"), ("Firebolt", "2026-02-15"),
+    ("Zap Africa", "2026-02-28"), ("Envato", "2026-03-04"), ("Stone", "2026-03-13"),
+    ("Snowflake", "2026-03-19"), ("Gemini", "2026-03-20"), ("Monte Carlo", "2026-03-26"),
+    ("Yupp", "2026-03-31"), ("Bolt", "2026-04-05"), ("Pendo", "2026-04-07"),
+    ("Productboard", "2026-04-15"), ("Pentera", "2026-04-27"), ("ApnaMart", "2026-05-06"),
+    ("DeepL", "2026-05-07"), ("Ticketmaster", "2026-05-07"), ("MRI Software", "2026-05-11"),
+    ("Jumia", "2026-05-13"), ("Dune", "2026-05-14"), ("Gambling.com Group", "2026-05-14"),
+    ("Innovaccer", "2026-05-14"), ("AI21 Labs", "2026-05-18"), ("ClickUp", "2026-05-21"),
+    ("Robinhood", "2026-06-16"),
+}
+
+# ---------------------------------------------------------------------------
 # Rule-based categorizer
 # ---------------------------------------------------------------------------
 
@@ -1126,6 +1147,11 @@ for e in entries:
     # Legacy vocabulary migration: denial/pivot framing moved to ai_link_basis
     ai_link = AI_LINK_MIGRATION.get(ai_link, ai_link)
 
+    # Informal-company AI attribution: upgrade press_inferred -> company_informal
+    # for events where the company itself invoked AI casually (tweet/blog/quote).
+    if key in INFORMAL_AI and basis == "press_inferred":
+        basis = "company_informal"
+
     xc = CROSS_CHECK.get(key, {})
 
     e = {k: v for k, v in e.items() if k != "$_raised_mm"}  # byte-identical duplicate of raised_mm
@@ -1149,7 +1175,7 @@ for e in entries:
 # Guard: every override key must match a real (company, date) — a typo here
 # silently drops a verdict (this exact failure mode shipped the Intuit mislabel)
 _events = {(e["company"], e["date"]) for e in entries}
-for name, d in (("MANUAL", MANUAL), ("ADJUDICATION", ADJUDICATION), ("CROSS_CHECK", CROSS_CHECK)):
+for name, d in (("MANUAL", MANUAL), ("ADJUDICATION", ADJUDICATION), ("CROSS_CHECK", CROSS_CHECK), ("INFORMAL_AI", INFORMAL_AI)):
     stale = set(d) - _events
     if stale:
         raise SystemExit(f"{name} keys match no event: {sorted(stale)}")
