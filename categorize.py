@@ -850,7 +850,7 @@ ADJUDICATION = {
 #                      "cracked" = at least one material fact contradicts the
 #                      clean AI narrative (inflated headline number, same-day
 #                      guidance cut, M&A-synergy cuts rebranded, documented rehires).
-# Sparse: only the 24 adjudicated company-stated AI events carry values.
+# Sparse: only the adjudicated company-stated AI events carry values.
 # ---------------------------------------------------------------------------
 CROSS_CHECK = {
     ("Oracle", "2026-03-31"):     {"revenue_health": "strength", "backfill_verdict": "ai_only",       "story_integrity": "cracked"},  # 30k headline ~43% above audited 10-K net 21k
@@ -875,8 +875,11 @@ CROSS_CHECK = {
     ("Kraken", "2026-05-15"):     {"revenue_health": "mixed",    "backfill_verdict": "ai_only",       "story_integrity": "cracked"},  # Q1 EBITDA -90% disclosed 3 days post-layoff; IPO frozen
     ("MercadoLibre", "2026-01-12"): {"revenue_health": "strength", "backfill_verdict": "ai_only",     "story_integrity": "holds"},    # narrow honest claim while net-adding ~42k jobs
     ("Zendesk", "2026-03-24"):    {"revenue_health": "unknown",  "backfill_verdict": "unknown",       "story_integrity": "unknown"},  # event itself externally unverifiable
-    ("Digg", "2026-03-13"):       {"revenue_health": "unknown",  "backfill_verdict": "frozen",        "story_integrity": "unknown"},
-    ("Crypto.com", "2026-03-19"): {"revenue_health": "unknown",  "backfill_verdict": "unknown",       "story_integrity": "unknown"},  # no audited financials exist
+    ("Digg", "2026-03-13"):       {"revenue_health": "weakness", "backfill_verdict": "frozen",        "story_integrity": "cracked"},  # ~3M visits vs Reddit 3.84B; bot-spam accelerated a low-traction relaunch
+    ("Crypto.com", "2026-03-19"): {"revenue_health": "weakness", "backfill_verdict": "frozen",        "story_integrity": "cracked"},  # 3rd round since 2022; crypto-cycle downturn; generic "adapt or leave" language
+    ("Cloudflare", "2026-05-07"): {"revenue_health": "strength", "backfill_verdict": "rehiring_same", "story_integrity": "cracked"},  # record +34% rev but gross margin 76->71%; sales spared; CEO vowed to exceed 2026 headcount by 2027
+    ("UKG", "2026-04-15"):        {"revenue_health": "strength", "backfill_verdict": "offshore_swap", "story_integrity": "cracked"},  # +3,100 cut since 2024; PE-owned pre-IPO; AI one of 3 vague factors
+    ("Epidemic Sound", "2026-04-21"): {"revenue_health": "weakness", "backfill_verdict": "frozen",    "story_integrity": "cracked"},  # 2025 growth 29->3%, neg EBITDA; "positive" H1'26 right after cuts; real AI product too
 }
 
 # ---------------------------------------------------------------------------

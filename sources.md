@@ -122,7 +122,7 @@ Columnas: **fuente original** = el campo `Source` de layoffs.fyi. **fuente recov
 | 2026-02-25 | Deliveroo | 187 | news_inferred | [in.investing.com](https://in.investing.com/news/company-news/doordash-closes-deliveroo-operations-in-qatar-and-singapore-93CH-5256077) |  |
 | 2026-02-24 | DraftKings | — | news_inferred | [next.io](https://next.io/news/people/draftkings-reduces-workforce-company-embraces-ai/) |  |
 | 2026-02-24 | TrueCar | 100 | news_inferred | [aimgroup.com](https://aimgroup.com/2026/02/24/truecar-cuts-30-of-staff/) |  |
-| 2026-02-24 | WiseTech | 2000 | press_release_sec | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-02-24/wisetech-to-cut-2-000-jobs-as-ai-ends-era-of-manual-coding) |  |
+| 2026-02-24 | WiseTech | 2000 | press_release_sec | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-02-24/wisetech-to-cut-2-000-jobs-as-ai-ends-era-of-manual-coding) | `e2open deal & cut split: WWD Sourcing Journal 2026 (2,000 over 2yr, up to ~50% on e2open); Business Wire 25-May-2025 (agreement, ~$2.1B); headcount: stockanalysis.com ASX:WTC (FY21-25).` |
 | 2026-02-20 | Livspace | 1000 | news_with_quote | [inc42.com](https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/) |  |
 | 2026-02-20 | Lucid Motors | — | news_with_quote | [techcrunch.com](https://techcrunch.com/2026/02/20/lucid-motors-slashes-12-of-its-workforce-as-it-seeks-profitability/) |  |
 | 2026-02-19 | Codecademy | — | news_inferred | [edtechinnovationhub.com](https://www.edtechinnovationhub.com/news/skillsoft-lays-off-entire-codecademy-curriculum-team-senior-leader-confirms) |  |

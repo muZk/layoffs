@@ -934,9 +934,9 @@
       "Non-U.S."
     ],
     "source_url": "https://www.bloomberg.com/news/articles/2026-02-24/wisetech-to-cut-2-000-jobs-as-ai-ends-era-of-manual-coding",
-    "reason": "CEO Zubin Appoo declared 'the era of manually writing code as the core act of engineering is over,' with AI displacing software development and customer service work across 40 countries.",
+    "reason": "CEO Zubin Appoo declared 'the era of manually writing code as the core act of engineering is over,' with AI displacing software development and customer service work across 40 countries. Context (verified 2026-07): the 2,000 cuts (~29%) are a two-year program, with ~500 executed in H1 FY26. They were announced following WiseTech's ~$2.1B acquisition of e2open (agreed 25-May-2025, closing 1H26), which roughly doubled global headcount from ~3,600 (Jun-2025) to ~7,000 — the ~29-30% figure only reconciles against that larger base, and reporting indicates up to ~half of the cuts land on e2open. WiseTech's own headcount was near-flat FY21-FY22 (1,860-2,000) and grew organically subsequently, so a substantial share is merger integration rather than pandemic-era over-hiring; AI substitution is the company's stated framing.",
     "theme_original": "AI restructuring",
-    "source_used": null,
+    "source_used": "e2open deal & cut split: WWD Sourcing Journal 2026 (2,000 over 2yr, up to ~50% on e2open); Business Wire 25-May-2025 (agreement, ~$2.1B); headcount: stockanalysis.com ASX:WTC (FY21-25).",
     "raised_mm": 3000,
     "$_raised_mm": 3000
   },
