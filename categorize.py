@@ -39,224 +39,157 @@ ROOT = Path("/Users/muzk/code/layoffs")
 #                    regulatory shutdowns, M&A overlap unrelated to AI, etc.)
 #
 # Keyed by company name (not date) since position is structural per-company.
-AI_POSITION = {
-    # ---- compute_seller (cloud / model APIs) ----
-    "Oracle": "compute_seller",       # OCI; $300B OpenAI compute contract
-    "Snowflake": "compute_seller",    # data cloud + AI services
-    "C3.ai": "compute_seller",        # enterprise AI applications
-    "AI21 Labs": "compute_seller",    # foundation model API
-    "DeepL": "compute_seller",        # translation model API
-    "Firebolt": "compute_seller",     # cloud data warehouse w/ AI features
-
-    # ---- infra_seller (hardware/silicon/networking/data services) ----
-    "Cisco": "infra_seller",          # silicon, optics, networking
-    "Dell": "infra_seller",           # AI-optimized servers
-    "ASML": "infra_seller",           # lithography — sells to TSMC for AI chips
-    "Hailo": "infra_seller",          # AI inference chips
-    "Sama": "infra_seller",           # data labeling for AI training
-    "Foretellix": "infra_seller",     # AV simulation/validation toolchain
-
-    # ---- vertical_builder (build own AI stack for own products) ----
-    # Strict criterion: own foundation models + own silicon + own datacenters at hyperscaler scale.
-    # MercadoLibre, Spotify, Netflix, LinkedIn etc. train task-specific models but don't qualify.
-    # Apple/Tesla/ByteDance would qualify but had no 2026 layoffs.
-    "Meta": "vertical_builder",       # Llama + MTIA + own datacenters + $125-145B capex
-    "MercadoLibre": "token_buyer",    # reclassified: internal ML at scale but no foundation models / silicon
-
-    # ---- hybrid (sells AI compute/services AND consumes internally) ----
-    # Strict criterion (2026-06): "hybrid" requires selling AI infra/silicon/foundation
-    # models to third parties — NOT just embedding LLM features into a SaaS product.
-    # Companies like Atlassian/Autodesk/Shopify/Workday/GitLab/LinkedIn embed
-    # Anthropic/OpenAI behind their features → they are token_buyers, not hybrids.
-    "Amazon": "hybrid",               # AWS+Bedrock+Trainium+Nova+internal usage
-    "Cloudflare": "hybrid",           # Workers AI sells inference + internal usage
-    "Salesforce": "hybrid",           # Einstein + Agentforce + own xGen LLMs
-    "LinkedIn": "token_buyer",        # consumes Azure AI internally — does not sell AI
-    "Microsoft": "hybrid",            # would be hybrid if in dataset
-    "Microsoft (corporate)": "hybrid",# Azure + Copilot + own models (Jul additions use split names)
-    "Microsoft (Xbox)": "n/a",        # gaming division restructure, not AI-driven
-    "Robinhood": "token_buyer",       # AI features via third-party models; "frontier technologies" framing
-    "Gambling.com Group": "token_buyer",  # "AI Transformation" restructure on third-party models
-    "Bungie": "n/a",                  # game studio, franchise decline
-    "Atlassian": "token_buyer",       # Rovo embeds Anthropic/OpenAI; no own infra
-    "GitLab": "token_buyer",          # Duo AI embeds Anthropic; no own infra
-    "Workday": "token_buyer",         # AI agents embed third-party LLMs
-    "Smartsheet": "token_buyer",
-    "Sonos": "n/a",                   # consumer audio, not AI-driven
-    "Block": "token_buyer",           # Square/Cash App; uses AI via providers
-    "WiseTech": "token_buyer",        # logistics SaaS using AI for code
-    "PayPal": "token_buyer",          # AI integration partnerships
-    "Intuit": "token_buyer",          # named Anthropic + OpenAI deals
-    "Pinterest": "token_buyer",       # ad ranking via providers
-    "Snap": "token_buyer",            # Snap My AI on OpenAI; AR hardware not AI silicon
-    "Coinbase": "token_buyer",
-    "ZoomInfo": "token_buyer",
-    "Bill.com": "token_buyer",
-    "UKG": "token_buyer",             # HR SaaS, AI-first via providers
-    "Innovaccer": "token_buyer",      # healthtech AI partnerships
-    "Wix": "token_buyer",             # Base44 acquisition + AI compute
-    "Livspace": "token_buyer",
-    "Pentera": "token_buyer",
-    "Pendo": "token_buyer",
-    "ApnaMart": "token_buyer",
-    "Monte Carlo": "token_buyer",     # observability w/ AI
-    "Digg": "token_buyer",            # AI agent reliance pre-shutdown
-    "Zap Africa": "token_buyer",
-    "Kraken": "token_buyer",
-    "Flipkart": "token_buyer",
-    "Playtika": "token_buyer",
-    "CyberArk": "token_buyer",
-    "Arctic Wolf": "token_buyer",
-    "Adda247": "token_buyer",
-    "Jumia": "token_buyer",
-    "MRI Software": "token_buyer",
-    "Envato": "token_buyer",
-    "Stone": "token_buyer",
-    "Coinbase": "token_buyer",
-    "Tailwind Labs": "token_buyer",   # CSS framework, OSS lib; AI usage marginal
-    "Adobe": "hybrid",
-    "Pocket FM": "token_buyer",
-    "GeoComply": "token_buyer",
-    "Bolt": "token_buyer",
-    "Acko": "token_buyer",
-    "Productboard": "token_buyer",
-    "Cars.com": "token_buyer",
-    "Life360": "token_buyer",
-    "DraftKings": "token_buyer",
-    "Epidemic Sound": "token_buyer",  # music AI mentioned
-    "Truecaller": "token_buyer",
-    "MessageBird": "token_buyer",
-    "LSports": "token_buyer",
-    "Staffbase": "token_buyer",
-    "Shopify": "token_buyer",         # Sidekick embeds third-party LLMs; SaaS w/ AI feature
-    "Upwork": "token_buyer",
-    "Eventbrite": "token_buyer",
-    "Quora": "hybrid",                # Poe sells AI access + internal
-    "GitLab": "token_buyer",
-    "Crypto.com": "token_buyer",
-    "Gemini": "token_buyer",          # crypto exchange, not Google Gemini
-    "Atlassian": "token_buyer",
-    "Envato": "token_buyer",
-
-    # ---- n/a (AI not material to business model or layoff context) ----
-    "Ericsson": "n/a",                # 5G telecom slowdown
-    "Lucid Motors": "n/a",            # EV
-    "Peloton": "n/a",                 # fitness hardware
-    "GoPro": "n/a",                   # consumer cameras
-    "Sonos": "n/a",
-    "MicroVision": "n/a",             # LiDAR
-    "StoreDot": "n/a",                # EV batteries
-    "Remarkable": "n/a",              # e-ink tablets
-    "Tamara Mellon": "n/a",
-    "Easypost": "n/a",
-    "TrueCar": "n/a",
-    "Glossier": "n/a",
-    "SSense": "n/a",                  # fashion e-commerce
-    "Ocado": "n/a",                   # grocery automation
-    "Careem": "n/a",                  # ride-hailing
-    "Deliveroo": "n/a",
-    "Zipcar": "n/a",
-    "Welltech": "n/a",
-    "Moon Active": "n/a",             # mobile games
-    "Multiverse": "n/a",
-    "Loopio": "n/a",
-    "At-Bay": "n/a",
-    "GoCardless": "n/a",
-    "Epic Games": "n/a",              # Fortnite engagement
-    "MARA": "n/a",                    # bitcoin mining
-    "Polygon": "n/a",                 # crypto
-    "Vimeo": "n/a",
-    "Swyftx": "n/a",
-    "Verint Systems": "token_buyer",  # post-Thoma Bravo: "AI-driven CX platform" w/ Calabrio (was n/a — conflicted with ai_denied_but_adjacent)
-    "Clari": "token_buyer",
-    "Dayforce": "n/a",
-    "FormFactor": "n/a",
-    "Tipalti": "n/a",
-    "Zillow": "n/a",
-    "Zupee": "n/a",
-    "Zendesk": "token_buyer",
-    "Ticketmaster": "token_buyer",    # "fast-tracks new tech" / AI-adjacent framing (was n/a — conflicted with ai_denied_but_adjacent)
-    "Angi": "token_buyer",            # AI substitution claimed in own IR release (was n/a — conflicted with direct_substitution)
-    "Kiwi.com": "n/a",
-    "Codecademy/Skillsoft": "n/a",
-    "Spotify": "hybrid",
-    "Huawei": "hybrid",
-    "OpenText": "hybrid",
-    "eBay": "token_buyer",            # cuts framed as freeing spend for AI (was n/a — conflicted with capex_funding link)
-    "Expedia": "token_buyer",         # Jan round claimed AI substitution; embeds third-party AI in trip planning (was n/a)
-    "Autodesk": "token_buyer",        # AI features in Fusion/Forma; CAD/AEC core, not AI seller
-    "Welltech": "n/a",
-    "Roof Stacks": "n/a",
-    "Kaseya": "n/a",
-    "Enpal": "n/a",
-    "Flipkart": "token_buyer",
-    "Freshworks": "hybrid",           # Freddy AI sold + internal
-    "InvestCloud": "n/a",
-    "One Identity": "n/a",
-    "Guesty": "n/a",
-    "Breadfast": "n/a",
-    "Gambling.com Group": "n/a",
-    "Dune": "token_buyer",
-    "Jumia": "token_buyer",
+AI_POSITION = {  # deduped + guarded 2026-08 (was 201 entries w/ 39 dup keys; recovered 3 miscased, dropped 6 dead)
     "0G": "n/a",
-    "Fi.Money": "n/a",
-    "reAlpha": "token_buyer",
-    "Quora": "hybrid",
-    "Eventbrite": "token_buyer",
-    "Esh Group": "n/a",
-    "Rec Room": "n/a",
-    "Yupp": "token_buyer",            # AI-feedback startup that lost PMF
-    "NeuroPixel.AI": "compute_seller", # AI image gen for retail
-    "Pepper Pay": "n/a",
-    "Parker": "n/a",
-    "Entropy": "n/a",
-    "FranShares": "n/a",
-    "Quandoo": "n/a",
-    "Covrzy": "n/a",
-    "Panda Squad": "n/a",
-    "Supernal": "n/a",                # eVTOL
-    "StarkWare": "n/a",               # ZK rollups
-    "Polygon Labs": "n/a",
-    "InvestCloud": "n/a",
-    "Loopio": "n/a",
-    "Bolt": "token_buyer",
-    "IAC": "n/a",
-    "SuperOps": "hybrid",
-    "GeoComply": "token_buyer",
-    "Productboard": "token_buyer",
-    "ZoomInfo": "token_buyer",
-    "Acko": "token_buyer",
-    "Bolt": "token_buyer",
-    "Cars.com": "token_buyer",
-    "Life360": "token_buyer",
-    "Oracle Health": "compute_seller",
-    "Crypto.com": "token_buyer",
-    "Gemini": "token_buyer",
-    "Snowflake": "compute_seller",
-    "Stone": "token_buyer",
-    "Atlassian": "token_buyer",
-    "Envato": "token_buyer",
-    "Amazon": "hybrid",
-    "Zap Africa": "token_buyer",
-    "WiseTech": "token_buyer",
-    "DraftKings": "token_buyer",
-    "Livspace": "token_buyer",
-    "Firebolt": "compute_seller",
-    "Aleph Alpha": "compute_seller",  # German foundation model startup
-    "eToro": "n/a",
-    "Playtika": "token_buyer",
-    "Bill.com": "token_buyer",
-    "Hailo": "infra_seller",
-    "Rewire": "n/a",
-    "Foretellix": "infra_seller",
-    "Pinterest": "token_buyer",
-    "Cisco": "infra_seller",
-    "Welltech": "n/a",
+    "AI21 Labs": "compute_seller",
     "ASML": "infra_seller",
+    "Acko": "token_buyer",
+    "Adda247": "token_buyer",
+    "Aleph Alpha": "compute_seller",
     "Amazon": "hybrid",
-    "Kaseya": "n/a",
-    "Multiverse": "n/a",
+    "Angi": "token_buyer",
+    "ApnaMart": "token_buyer",
+    "Arctic Wolf": "token_buyer",
+    "At-Bay": "n/a",
+    "Atlassian": "token_buyer",
+    "Autodesk": "token_buyer",
     "Axonius": "token_buyer",
+    "Bill.com": "token_buyer",
+    "Block": "token_buyer",
+    "Bolt": "token_buyer",
+    "Breadfast": "n/a",
+    "Bungie": "n/a",
+    "C3.ai": "compute_seller",
+    "Careem": "n/a",
+    "Cars.com": "token_buyer",
+    "Cisco": "infra_seller",
+    "Clari": "token_buyer",
+    "Cloudflare": "hybrid",
+    "Codecademy": "n/a",
+    "Coinbase": "token_buyer",
+    "Covrzy": "n/a",
+    "Crypto.com": "token_buyer",
+    "Cyberark": "token_buyer",
+    "Dayforce": "n/a",
+    "DeepL": "compute_seller",
+    "Deliveroo": "n/a",
+    "Dell": "infra_seller",
+    "Digg": "token_buyer",
+    "DraftKings": "token_buyer",
+    "Dune": "token_buyer",
+    "Enpal": "n/a",
+    "Entropy": "n/a",
+    "Envato": "token_buyer",
+    "Epic Games": "n/a",
+    "Epidemic Sound": "token_buyer",
+    "Ericsson": "n/a",
+    "Esh Group": "n/a",
+    "Eventbrite": "token_buyer",
+    "Expedia": "token_buyer",
+    "Fi.Money": "n/a",
+    "Firebolt": "compute_seller",
+    "Flipkart": "token_buyer",
+    "Foretellix": "infra_seller",
+    "FormFactor": "n/a",
+    "FranShares": "n/a",
+    "Freshworks": "hybrid",
+    "Gambling.com Group": "n/a",
+    "Gemini": "token_buyer",
+    "GeoComply": "token_buyer",
+    "GitLab": "token_buyer",
+    "Glossier": "n/a",
+    "GoCardless": "n/a",
+    "GoPro": "n/a",
+    "Guesty": "n/a",
+    "Hailo": "infra_seller",
+    "Huawei": "hybrid",
+    "IAC": "n/a",
+    "Innovaccer": "token_buyer",
+    "Intuit": "token_buyer",
+    "InvestCloud": "n/a",
+    "Jumia": "token_buyer",
+    "Kaseya": "n/a",
+    "Kiwi.com": "n/a",
+    "Kraken": "token_buyer",
+    "LSports": "token_buyer",
+    "Life360": "token_buyer",
+    "LinkedIn": "token_buyer",
+    "Livspace": "token_buyer",
+    "Loopio": "n/a",
+    "Lucid Motors": "n/a",
+    "MARA": "n/a",
+    "MRI Software": "token_buyer",
+    "MercadoLibre": "token_buyer",
+    "MessageBird": "token_buyer",
+    "Meta": "vertical_builder",
+    "MicroVision": "n/a",
+    "Microsoft (Xbox)": "n/a",
+    "Microsoft (corporate)": "hybrid",
+    "Monte Carlo": "token_buyer",
+    "Moon Active": "n/a",
+    "Multiverse": "n/a",
+    "NeuroPixel.AI": "compute_seller",
+    "Ocado": "n/a",
+    "One Identity": "n/a",
+    "OpenText": "hybrid",
+    "Oracle": "compute_seller",
+    "Parker": "n/a",
+    "PayPal": "token_buyer",
+    "Peloton": "n/a",
+    "Pendo": "token_buyer",
+    "Pentera": "token_buyer",
+    "Pepper Pay": "n/a",
+    "Pinterest": "token_buyer",
+    "Playtika": "token_buyer",
+    "Pocket FM": "token_buyer",
+    "Polygon": "n/a",
+    "Productboard": "token_buyer",
+    "Quandoo": "n/a",
+    "Quora": "hybrid",
+    "Rec Room": "n/a",
+    "Remarkable": "n/a",
+    "Rewire": "n/a",
+    "Robinhood": "token_buyer",
+    "Roof Stacks": "n/a",
+    "SSense": "n/a",
+    "Salesforce": "hybrid",
+    "Sama": "infra_seller",
+    "Shopify": "token_buyer",
+    "Smartsheet": "token_buyer",
+    "Snap": "token_buyer",
+    "Snowflake": "compute_seller",
+    "Sonos": "n/a",
+    "Spotify": "hybrid",
+    "Staffbase": "token_buyer",
+    "StarkWare": "n/a",
+    "Stone": "token_buyer",
+    "StoreDot": "n/a",
+    "SuperOps": "hybrid",
+    "Supernal": "n/a",
+    "Swyftx": "n/a",
+    "Tailwind Labs": "token_buyer",
+    "Ticketmaster": "token_buyer",
+    "Tipalti": "n/a",
+    "TrueCar": "n/a",
+    "Truecaller": "token_buyer",
+    "UKG": "token_buyer",
+    "Upwork": "token_buyer",
+    "Verint Systems": "token_buyer",
+    "Vimeo": "n/a",
+    "Welltech": "n/a",
+    "WiseTech": "token_buyer",
+    "Wix": "token_buyer",
+    "Workday": "token_buyer",
+    "Yupp": "token_buyer",
+    "Zap Africa": "token_buyer",
+    "Zendesk": "token_buyer",
+    "Zillow": "n/a",
+    "Zipcar": "n/a",
+    "ZoomInfo": "token_buyer",
+    "Zupee": "n/a",
+    "eBay": "token_buyer",
+    "eToro": "n/a",
+    "reAlpha": "token_buyer",
 }
 
 
@@ -890,11 +823,11 @@ CROSS_CHECK = {
 # press_inferred; company_informal separates "the company said it, casually"
 # from "the press added the AI angle". Only upgrades press_inferred -> never
 # overrides company_stated / company_denied. Verdict per-event read of each
-# reason + source. The other 14 press-linked-AI events stay press_inferred.
+# reason + source. The other 16 press-linked-AI events stay press_inferred.
 INFORMAL_AI = {
     ("Angi", "2026-01-07"), ("Hailo", "2026-01-08"), ("Firebolt", "2026-02-15"),
-    ("Zap Africa", "2026-02-28"), ("Envato", "2026-03-04"), ("Stone", "2026-03-13"),
-    ("Snowflake", "2026-03-19"), ("Gemini", "2026-03-20"), ("Monte Carlo", "2026-03-26"),
+    ("Zap Africa", "2026-02-28"), ("Stone", "2026-03-13"),
+    ("Snowflake", "2026-03-19"), ("Monte Carlo", "2026-03-26"),
     ("Yupp", "2026-03-31"), ("Bolt", "2026-04-05"), ("Pendo", "2026-04-07"),
     ("Productboard", "2026-04-15"), ("Pentera", "2026-04-27"), ("ApnaMart", "2026-05-06"),
     ("DeepL", "2026-05-07"), ("Ticketmaster", "2026-05-07"), ("MRI Software", "2026-05-11"),
@@ -1179,6 +1112,13 @@ for name, d in (("MANUAL", MANUAL), ("ADJUDICATION", ADJUDICATION), ("CROSS_CHEC
     stale = set(d) - _events
     if stale:
         raise SystemExit(f"{name} keys match no event: {sorted(stale)}")
+# AI_POSITION is keyed by company name (not company+date) — guard it too so a
+# miscased/renamed key (e.g. "CyberArk" vs event "Cyberark") fails loudly instead
+# of silently shipping the default position.
+_companies = {e["company"] for e in entries}
+stale_pos = set(AI_POSITION) - _companies
+if stale_pos:
+    raise SystemExit(f"AI_POSITION keys match no event company: {sorted(stale_pos)}")
 
 # Write JSON
 with open(ROOT / "2026-categorized.json", "w") as f:

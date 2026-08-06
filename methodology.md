@@ -324,7 +324,7 @@ Extendí el corte de datos hasta el 10 de julio de 2026. Cambios:
 - **+2 eventos nuevos en julio (Microsoft dividido)**: la reestructura anunciada el 6-jul de 2026 se descompone en `Microsoft (Xbox)` (3.200, strategic_pivot / unrelated — la propia Xbox CEO Asha Sharma la enmarcó como "our business today is not healthy", márgenes 3-10x menores que negocios comparables, incluye divestment de 4-5 estudios) y `Microsoft (corporate)` (1.600, ai_capex_reallocation / capex_funding — sales/consulting). Se mantienen como filas separadas porque los drivers son ortogonales.
 - **−1 duplicado**: el pre-anuncio de GitLab del 11-may (null headcount) se consolidó con el evento del 3-jun (350 real).
 - **Nuevo total dataset**: n=164, 121.889 personas, rango 2026-01-05 → 2026-07-06.
-- **Report cutoff (2026-07-01)**: el análisis publicado usa solo eventos anteriores al 1 de julio → n=162, 117.089 personas (Jan-Jun clean). Los 2 eventos de Microsoft de julio quedan en el dataset por completitud pero fuera de los porcentajes del post.
+- **Report cutoff (2026-07-01)**: el análisis publicado usa solo eventos anteriores al 1 de julio → n=161, 108.089 personas (Jan-Jun clean). Los 2 eventos de Microsoft de julio quedan en el dataset por completitud pero fuera de los porcentajes del post.
 - **Auditoría SEC de Robinhood**: plantilla 2.300 (dic 2024) → ~2.900 (2025) = +26% en un año. Clasificado TRUE bajo `hire_overcorrection` (era-IA overhire), en la misma categoría que Atlassian y Snap.
 
 ### Qué puede cambiar hacia adelante
