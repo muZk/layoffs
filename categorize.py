@@ -577,7 +577,7 @@ def default_ai_link_basis(ai_link, narrative):
     return "unknown"
 
 # ---------------------------------------------------------------------------
-# ADJUDICATION pass (2026-07-10): 25 contested events (>=500 heads or Amazon),
+# ADJUDICATION pass (2026-07-10, +2026-08): 31 contested events (>=500 heads or Amazon),
 # covering 94.9% of AI-linked headcount, re-verdicted against PRIMARY sources
 # (memos, SEC/ASX filings, earnings-call transcripts). Applied AFTER MANUAL —
 # this layer is authoritative for the fields it sets. One-line decisive

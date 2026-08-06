@@ -49,7 +49,7 @@ El análisis se construyó en 8 fases. Cada fase produjo artefactos guardados en
 ### Fase 6 — Cross-reference con The Pragmatic Engineer
 - Source: [State of the software engineering job market in 2026](https://newsletter.pragmaticengineer.com/p/state-of-eng-market-2026), Gergely Orosz + Jessica Salmon, 26-may-2026.
 - Data: Workforce.ai 2-yr SWE headcount growth, por empresa (May 2024 → May 2026).
-- Aplicado a la columna `hire_overcorrection` (bool) — solo 11 de 160 eventos tienen valor por cobertura limitada del paper.
+- Aplicado a la columna `hire_overcorrection` (bool) — 30 de 161 eventos tienen valor (24 True, 6 False); el resto es null por cobertura limitada de la data de crecimiento.
 
 ### Fase 7 — LATAM via Get on Board public API
 - Source: 9 endpoints públicos de `getonbrd.com/api/v0/insights/`.
@@ -298,7 +298,7 @@ Archivos clave para auditoría:
 
 ### De la clasificación
 - **`reason_primary` es single-valued**. Eventos con múltiples drivers simultáneos (ej. Meta May: AI capex + middle management + hire correction + new strategy memo) quedan reducidos a uno solo. Capturamos los demás en `ai_link` + `hire_overcorrection`, pero la primary se simplifica.
-- **`hire_overcorrection` solo cubre 11/160 eventos**. Los demás 149 son null porque no hay Workforce.ai data — no significa False, significa unknown.
+- **`hire_overcorrection` cubre 30/161 eventos** (24 True, 6 False). Los demás 133 son null porque no hay data de crecimiento — no significa False, significa unknown.
 - **Las CEOs declaraciones son self-serving**. Que un memo diga "AI-first" no prueba que el motivo real sea AI; sí prueba que esa es la narrativa pública que la empresa elige. El bucket `ai_denied_but_adjacent` captura esto.
 
 ### Del análisis LATAM
