@@ -696,8 +696,8 @@ ADJUDICATION = {
     # M1(+M2)/company_stated, M1 dominant. Schuck, Q1 call: "we do not need as
     # many front-end developers" thanks to coding agents (8-K memo AI-silent).
     ("ZoomInfo", "2026-05-11"): {
-        "reason_primary": "ai_substitution_claim",
-        "ai_link": "direct_substitution", "ai_link_basis": "company_stated",
+        "reason_primary": "ai_capex_reallocation",
+        "ai_link": "capex_funding", "ai_link_basis": "company_stated",  # 2026-08: "redirect spending toward AI infra" is M2 capex, not M1 substitution
         "narrative_source": "news_with_quote",
     },
     # M1/company_stated. Armstrong (own X post): "rebuilding Coinbase as an
@@ -827,13 +827,14 @@ CROSS_CHECK = {
 INFORMAL_AI = {
     ("Angi", "2026-01-07"), ("Hailo", "2026-01-08"), ("Firebolt", "2026-02-15"),
     ("Zap Africa", "2026-02-28"), ("Stone", "2026-03-13"),
-    ("Snowflake", "2026-03-19"), ("Monte Carlo", "2026-03-26"),
+    ("Snowflake", "2026-03-19"), ("Gemini", "2026-03-20"), ("Monte Carlo", "2026-03-26"),
     ("Yupp", "2026-03-31"), ("Bolt", "2026-04-05"), ("Pendo", "2026-04-07"),
     ("Productboard", "2026-04-15"), ("Pentera", "2026-04-27"), ("ApnaMart", "2026-05-06"),
     ("DeepL", "2026-05-07"), ("Ticketmaster", "2026-05-07"), ("MRI Software", "2026-05-11"),
     ("Jumia", "2026-05-13"), ("Dune", "2026-05-14"), ("Gambling.com Group", "2026-05-14"),
     ("Innovaccer", "2026-05-14"), ("AI21 Labs", "2026-05-18"), ("ClickUp", "2026-05-21"),
-    ("Robinhood", "2026-06-16"),
+    # Robinhood removed 2026-08: adjudicated press_inferred ("frontier technologies",
+    # not an explicit AI claim); a bulk set must not override that.
 }
 
 # ---------------------------------------------------------------------------
@@ -1070,7 +1071,13 @@ for e in entries:
     # Axis 5: who established the AI connection (default from evidence axis,
     # computed on the PRE-migration ai_link so legacy denials map to company_denied)
     basis = default_ai_link_basis(ai_link, narrative)
-    # Adjudication layer (primary-source verdicts) is authoritative
+    # Informal-company AI attribution: upgrade a DEFAULT press_inferred ->
+    # company_informal where the company invoked AI casually (tweet/blog/quote).
+    # Applied BEFORE adjudication so a bulk set fills gaps only and NEVER overrides
+    # a primary-source verdict (e.g. Robinhood's adjudicated press_inferred wins).
+    if key in INFORMAL_AI and basis == "press_inferred":
+        basis = "company_informal"
+    # Adjudication layer (primary-source verdicts) is authoritative — wins last.
     if key in ADJUDICATION:
         a = ADJUDICATION[key]
         primary = a.get("reason_primary", primary)
@@ -1079,11 +1086,6 @@ for e in entries:
         basis = a.get("ai_link_basis", basis)
     # Legacy vocabulary migration: denial/pivot framing moved to ai_link_basis
     ai_link = AI_LINK_MIGRATION.get(ai_link, ai_link)
-
-    # Informal-company AI attribution: upgrade press_inferred -> company_informal
-    # for events where the company itself invoked AI casually (tweet/blog/quote).
-    if key in INFORMAL_AI and basis == "press_inferred":
-        basis = "company_informal"
 
     xc = CROSS_CHECK.get(key, {})
 
@@ -1119,6 +1121,12 @@ _companies = {e["company"] for e in entries}
 stale_pos = set(AI_POSITION) - _companies
 if stale_pos:
     raise SystemExit(f"AI_POSITION keys match no event company: {sorted(stale_pos)}")
+# INFORMAL_AI is a gap-filler, not an override: it must never touch an event whose
+# basis was set by the authoritative ADJUDICATION layer.
+_adj_basis = {k for k, v in ADJUDICATION.items() if "ai_link_basis" in v}
+overlap = set(INFORMAL_AI) & _adj_basis
+if overlap:
+    raise SystemExit(f"INFORMAL_AI overlaps ADJUDICATION basis (bulk must not override primary source): {sorted(overlap)}")
 
 # Write JSON
 with open(ROOT / "2026-categorized.json", "w") as f:
