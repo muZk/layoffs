@@ -85,7 +85,7 @@ Columnas: **fuente original** = el campo `Source` de layoffs.fyi. **fuente recov
 | 2026-04-01 | Sonos | — | news_inferred | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-04-01/sonos-makes-marketing-cuts-as-new-cmo-reshapes-division) | [startuptalky.com](https://startuptalky.com/news/sonos-cuts-marketing-jobs/) |
 | 2026-03-31 | Covrzy | — | news_inferred | [inc42.com](https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/) |  |
 | 2026-03-31 | Monzo | 50 | not_accessible | [bloomberg.com](https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe) |  |
-| 2026-03-31 | Oracle | 21000 | press_release_sec | [cnbc.com](https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html) | `Oracle FY26 10-K (sec.gov, orcl-20260531.htm) Human Capital section` |
+| 2026-03-31 | Oracle | 21000 | press_release_sec | [cnbc.com](https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html) | `Oracle FY26 10-K (sec.gov, orcl-20260531.htm) Item 1A Risk Factors + Note 7 Restructuring` |
 | 2026-03-31 | Rec Room | — | news_inferred | [techcrunch.com](https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/) |  |
 | 2026-03-31 | Yupp | — | news_inferred | [techcrunch.com](https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/) |  |
 | 2026-03-27 | Enpal | 100 | news_inferred | [businessinsider.de](https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/) |  |

@@ -21,6 +21,10 @@ from pathlib import Path
 
 ROOT = Path("/Users/muzk/code/layoffs")
 
+import sys
+sys.path.insert(0, str(ROOT))
+from causes import derive_causes  # multi-causal layer (2026-09, additive)
+
 # ---------------------------------------------------------------------------
 # Manual ai_position: company's business-model relationship to the AI economy
 # ---------------------------------------------------------------------------
@@ -240,7 +244,10 @@ MANUAL = {
         "reason_primary": "ai_capex_reallocation",
         "ai_link": "capex_funding",
         "narrative_source": "news_with_quote",
-        "profiles_cut": ["Oracle_Health_Cerner", "SVOS_support", "NetSuite_devs", "OCI_legacy_sales", "customer_support", "QA_testers", "documentation", "middle_management", "India_dev_centers"],
+        # 2026-09-02 primary-source verification: trimmed to the two profiles with
+        # non-content-mill evidence (539-person KC/Cerner WARN; India ~12k press-sourced).
+        # SVOS/NetSuite/OCI-support/QA/docs figures trace only to SEO content mills.
+        "profiles_cut": ["Oracle_Health_Cerner", "India_dev_centers"],
         "profiles_hired": ["data_center_technicians_no_degree", "AI_infra_engineers", "MLOps", "OCI_AI_sales", "Stargate_buildout"],
         "hire_overcorrection": False,
         "reassignment_observed": False,
@@ -594,6 +601,13 @@ ADJUDICATION = {
     # M1/company_stated (CAVEAT: year-level, not event-specific — Oracle declined
     # all event comment). FY26 10-K: AI deployment "resulted... in reductions to
     # our workforce" in the FY where this cut was ~all the reduction (162k->141k).
+    # Verified 2026-09-02 against the filing: the sentence lives in Item 1A RISK
+    # FACTORS (not Human Capital), bundled with "management changes, product
+    # changes, performance issues... acquisitions"; Note 7 adds the 2026
+    # Restructuring Plan ($1.78B) is "including through the adoption and
+    # integration of AI technologies across certain functions". Hedged, unquantified,
+    # filed ~3 months after the cut. Unit concentration (Cerner/SVOS/NetSuite) is
+    # NOT company-confirmed beyond the 539-person KC WARN — see reason text.
     # The viral Catz "generational reallocation of capital" / Ellison "choosing
     # the chips" capex quotes could NOT be traced to any real source (likely
     # content-mill fabrications) — the M2 capex story is therefore unsupported.
@@ -1106,6 +1120,9 @@ for e in entries:
         "hire_overcorrection": hire_overcorrection,
         "reassignment_observed": reassignment_observed,
     })
+    # Multi-causal layer (2026-09, additive): causes / cause_evidence /
+    # ai_claim_verdict derived from the axes above — see causes.py.
+    out[-1].update(derive_causes(out[-1]))
 
 # Guard: every override key must match a real (company, date) — a typo here
 # silently drops a verdict (this exact failure mode shipped the Intuit mislabel)
