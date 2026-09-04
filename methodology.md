@@ -2,6 +2,8 @@
 
 *Cómo se armó el dataset, qué fuentes se usaron, cómo se clasificó cada evento, y qué caveats tener en cuenta.*
 
+> **Nota (septiembre 2026).** Este documento narra la construcción original del dataset y contiene números y clasificaciones que fueron revisados después (la sobre-contratación como "41%", Robinhood/Cloudflare como reclamos de IA, n=164). Para el estado y los números vigentes, ver **`verificacion.md`** (reproduce cada dato del análisis) y **`auditoria-sobrecontratacion.md`** (la sobre-contratación como trayectoria). Ventana del análisis: `date < 2026-07-01`, 161 eventos, 108.089 personas con cifra.
+
 Última actualización: 2026-06-18. Versión del dataset: snapshot 2026-05-26 de [layoffs.fyi](https://layoffs.fyi/).
 
 ---

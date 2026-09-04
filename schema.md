@@ -118,7 +118,7 @@ These are filled in only where deep research exists — currently the ~9 manuall
 |---|---|---|
 | `profiles_cut` | list[str] | Specific job functions / teams / levels cut. Tags like `middle_management`, `SDE_II`, `recruiting`, `VR_game_studios_shutdown`, `Reality_Labs`, `support_ops`. |
 | `profiles_hired` | list[str] | Specific functions being hired into. Tags like `AI_researchers_foundation_models`, `data_center_technicians_no_degree`, `AR_hardware`, `Trainium_chip_team`. |
-| `hire_overcorrection` | bool/null | Was the cut a correction of recent over-hiring? Cross-referenced with Workforce.ai / SEC 10-K 2-yr growth. `True` if 2-yr growth ≥ +15%. Currently set on **30 events: 24 `True`** (e.g. Meta, Atlassian, Block +127%, Pinterest, Coinbase, Intuit, Cloudflare, ZoomInfo, C3.ai, Freshworks, Upwork, Robinhood) and **6 `False`** (Amazon, Oracle, WiseTech — M&A-driven, PayPal, Cisco, Playtika); `null` on the other 133 (no growth data — means unknown, not False). |
+| `hire_overcorrection` | bool/null | **Superseded** — no longer feeds the `over_hiring` cause tag; the honest read is the two-window trajectory in `auditoria-sobrecontratacion.md` (a single 2-yr window is misleading). Kept as a raw field. Was the cut a correction of recent over-hiring? `True` if 2-yr growth ≥ +15%. Currently set on **30 events: 24 `True`** (e.g. Meta, Atlassian, Block +127%, Pinterest, Coinbase, Intuit, Cloudflare, ZoomInfo, C3.ai, Freshworks, Upwork, Robinhood) and **6 `False`** (Amazon, Oracle, WiseTech — M&A-driven, PayPal, Cisco, Playtika); `null` on the other 133 (no growth data — means unknown, not False). |
 | `reassignment_observed` | bool/null | Did the same restructuring redeploy employees internally rather than cut them? Currently `True` only for Meta May 20 (~7,000 redeployed to four new AI orgs). |
 | `revenue_health` | enum/null | Last reported quarter *before* the layoff: `strength` (growing + profitable) / `mixed` / `weakness` / `unknown`. From the 2026-07-10 external cross-check pass; only the 24 adjudicated stated-AI events carry values. |
 | `backfill_verdict` | enum/null | Post-cut hiring behavior: `ai_only` / `frozen` / `rehiring_same` / `offshore_swap` / `mixed` / `unknown`. Null for capex events (backfill doesn't test a capex claim). Same 24-event coverage. |
@@ -138,12 +138,12 @@ Reframe: whether a company *uses* AI is irrelevant. The thing in dispute is the 
 
 | tag | rule | events | heads |
 |---|---|---|---|
-| `ai_substitution_claim` | **the disputed claim** — `ai_link=direct_substitution` with `ai_link_basis` company_stated/company_informal (+ Zendesk, basis unknown but memo-sourced) | 27 | 38,347 |
+| `ai_substitution_claim` | **the disputed claim** — `ai_link=direct_substitution` with `ai_link_basis` company_stated/company_informal (Zendesk moved to `ai_framing_vague`: internal-memo-only, no public source) | 26 | 38,247 |
 | `ai_capex_reallocation` | `ai_link=capex_funding`, company-stated: payroll cut to fund AI investment (real, ≠ substitution) | 6 | 15,250 |
 | `ai_framing_vague` | company invoked AI ("AI era", "AI-first") without a mechanism (`ai_narrative_only`, company basis) | 16 | 3,830 |
 | `ai_press_narrative` | AI angle added by press/analysts only; company gave a non-AI reason or none (Expedia Jan 26, Robinhood, Meta Mar/Apr, Salesforce…) | 16 | 1,945 |
 | `ai_denied` | verified denial (Amazon, Intuit, Autodesk) | 3 | 20,000 |
-| `over_hiring` | `hire_overcorrection=True` (SEC 10-K / Workforce.ai 2-yr growth ≥ ~15% organic) | 24 | 43,960 |
+| `over_hiring` | company-admitted only (C3.ai, Parker). The headcount trajectory (window-dependent) now lives in `auditoria-sobrecontratacion.md`, not this tag | 2 | 280 |
 | `cost_cutting` | `reason_primary` cost_cutting/path_to_profitability, or explicit savings/margin/profitability language | 44 | 46,505 |
 | `restructuring_unspecified` | `reason_primary=restructuring_vague` — no concrete mechanism stated | 56 | 31,790 |
 | `financial_distress` | `revenue_health=weakness`, or same-day guidance cut / losses on the record | 10 | 7,236 |
@@ -154,7 +154,7 @@ Reframe: whether a company *uses* AI is irrelevant. The thing in dispute is the 
 | `shutdown` | `shutdown_bankruptcy` | 9 | 0 (undisclosed) |
 | `market_exit` | lost contract / country exit (+ GitLab's 22-country exit) | 5 | 1,695 |
 | `offshoring` | `backfill_verdict=offshore_swap` (ZoomInfo, Playtika, UKG) or `geographic_relocation` (MessageBird, One Identity) | 5 | 2,091 |
-| `rehiring_same_roles` | `backfill_verdict=rehiring_same` (Livspace, Freshworks, Robinhood, Cloudflare) + Block (≥4 named same-role rehires per `CROSS_CHECK`) | 5 | 6,890 |
+| `rehiring_same_roles` | only where a citable source exists — Block (≥4 named same-role rehires, Business Insider). The raw `backfill_verdict=rehiring_same` cases lacked archivable sources and were dropped | 1 | 4,000 |
 | `performance_cull` | performance-review framing (Zillow, Flipkart, Pocket FM) | 3 | 800 |
 | `ipo_prep` / `regulatory` | as `reason_primary` | 4 / 1 | 300 / 200 |
 | `unknown` | source not accessible, nothing recoverable | 9 | 133 |
@@ -164,13 +164,13 @@ Reframe: whether a company *uses* AI is irrelevant. The thing in dispute is the 
 | value | rule | events (heads) |
 |---|---|---|
 | `plausible` | `story_integrity=holds` — external evidence consistent (no rehiring, revenue as stated). Means "not contradicted", not "proven". | 3 (1,816): MercadoLibre, Coinbase, Wix |
-| `thin_evidence` | claim made but not externally testable: informal channel with no cross-check, event unverifiable (Zendesk), or the claim itself is unquantified filing language (Oracle — see below) | 13 (22,190), of which Oracle 21,000 |
+| `thin_evidence` | claim made but not externally testable: informal channel with no cross-check, or the claim itself is unquantified filing language (Oracle — see below) | 12 (22,090), of which Oracle 21,000 |
 | `contradicted_soft` | `story_integrity=cracked`: ≥1 material fact cuts against the clean story — same-day guidance cut, M&A synergy in AI clothing, partial backfill | 7 (8,341): WiseTech, C3.ai, Crypto.com, Snap, PayPal, Upwork, Kraken |
 | `contradicted_hard` | `story_integrity=busted` or `rehiring_same_roles` / `offshoring` co-tag | 4 (6,000): Playtika, Livspace, Block, Freshworks |
 | `capex_not_substitution` | company's own framing is capex, so there is no substitution claim to grade | 6 (15,250): Pinterest, Atlassian, ZoomInfo, Cisco, Meta May 20, GitLab |
-| `not_claimed` | everything else (unrelated, press-only, vague framing, denied) | 128 (54,492) |
+| `not_claimed` | everything else (unrelated, press-only, vague framing, denied) | 129 |
 
-Headline on the reframe: of the 27 company-made substitution claims, **3 hold, 11 are contradicted (4 hard, 7 soft), 13 are too thin to test** — and 9 of the 27 sit on SEC-verified over-hiring, 9 carry an explicit savings/margin target, 6 came with financial distress on the record. Only Oracle's 21,000 keeps the substitution-claimed headcount large, and its claim is one hedged risk-factor sentence (see the Oracle verification note in its `reason`).
+Headline on the reframe: of the 26 company-made substitution claims, **3 hold, 11 are contradicted (4 hard, 7 soft), 12 are too thin to test**. Over-hiring is no longer counted as a claim property — a uniform audit showed it is window-dependent and does not distinguish claimers from the rest (see `auditoria-sobrecontratacion.md`). Only Oracle's 21,000 keeps the substitution-claimed headcount large, and its claim is one hedged risk-factor sentence (see the Oracle verification note in its `reason`).
 
 **Oracle correction (2026-09-02):** the FY26 10-K AI sentence lives in Item 1A Risk Factors and Note 7, not the Human Capital section as previously recorded (`source_used` fixed); `profiles_cut` trimmed to the two evidence-backed profiles (KC/Cerner WARN 539; India ~12k press-sourced) — SVOS/NetSuite/OCI-support figures trace only to SEO content mills. `story_integrity=cracked` and the substitution coding are unchanged.
 

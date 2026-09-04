@@ -142,7 +142,7 @@ any_ai = [e for e in mes if set(e["causes"]) & AI_ANY]               # menciona 
 ```
 
 → **La IA como reemplazo:** ene 10 % · feb 22 % · mar 13 % · abr 9 % · may 26 %. Rango 9 %–26 %, sin dirección clara.
-→ **Cualquier mención de IA:** 33 % en enero → 55 % en mayo, con tendencia al alza.
+→ **Cualquier mención de IA:** 33 % en enero → 58 % en mayo, con tendencia al alza.
 
 Con n≈30 por mes, 9 % contra 26 % son 3 contra 10 eventos: la serie es ruidosa. Por eso el resumen nombra la definición en vez de colgar una tesis del rango.
 

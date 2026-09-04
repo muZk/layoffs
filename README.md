@@ -1,9 +1,12 @@
 # 2026 Tech Layoffs — dataset categorizado
 
-Dataset auditable de los layoffs tech de 2026 (Ene–May, n=160) con
-clasificación en 4 ejes: `reason_primary`, `ai_link`, `narrative_source`,
-`ai_position`. Pipeline reproducible desde el scrape original de
-[layoffs.fyi](https://layoffs.fyi).
+Dataset auditable de los layoffs tech del primer semestre de 2026 (Ene–Jun,
+**161 eventos** en la ventana `date < 2026-07-01`) con clasificación multi-causa
+por evento (`causes`) y un veredicto sobre el reclamo de sustitución por IA
+(`ai_claim_verdict`), sobre los ejes base `reason_primary`, `ai_link`,
+`ai_link_basis`, `narrative_source`, `ai_position`. Pipeline reproducible desde el
+scrape original de [layoffs.fyi](https://layoffs.fyi). La reproducción de cada dato
+del análisis está en `verificacion.md` y `auditoria-sobrecontratacion.md`.
 
 Este repo contiene el **dataset y la metodología**. El reporte construido
 sobre estos datos será publicado en [trabajoremoto.cl](https://trabajoremoto.cl).
@@ -13,7 +16,9 @@ sobre estos datos será publicado en [trabajoremoto.cl](https://trabajoremoto.cl
 | Archivo | Qué es |
 |---|---|
 | `methodology.md` | Cómo se construyó el dataset, paso a paso |
-| `schema.md` | Definición de los 4 ejes de clasificación |
+| `schema.md` | Definición de los ejes y tags de clasificación |
+| `verificacion.md` / `.py` | Reproduce cada dato agregado del análisis, con su consulta |
+| `auditoria-sobrecontratacion.md` | La sobre-contratación como trayectoria (por qué no es un porcentaje) |
 | `sources.md` | Fuente original (URL) de cada evento del dataset |
 | `categorize.py` | Lógica de clasificación (regex + overrides manuales) |
 | `2026-airtable-raw.json` | Snapshot del Airtable de layoffs.fyi |
