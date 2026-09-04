@@ -32,7 +32,7 @@ heads = sum(e["laid_off"] for e in comp_ai if e["laid_off"])
 
 El subconjunto que dijo específicamente "la IA hace el trabajo" (solo sustitución) son
 **26 eventos = 35,4 %**; ver [Dato 3](#dato-3). Los eventos de inversión en IA (Meta, Cisco,
-Pinterest, Atlassian, ZoomInfo, Amentum) se cuentan en el 49,5 % pero se tratan aparte en el
+Pinterest, Atlassian, ZoomInfo, GitLab) se cuentan en el 49,5 % pero se tratan aparte en el
 hallazgo 7, porque ahí la IA no reemplaza a nadie.
 
 ---
