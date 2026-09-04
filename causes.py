@@ -85,7 +85,7 @@ CAUSE_OVERRIDES = {
     ("Block", "2026-02-26"): {
         "add": ["rehiring_same_roles"],
         "evidence": {
-            "rehiring_same_roles": "CROSS_CHECK: >=4 named rehires into the same roles and non-AI reqs opened during the stated freeze (backfill_verdict left at ai_only by the July pass; the named rehires are the harder fact)",
+            "rehiring_same_roles": "Business Insider (2026-03): at least 4 named laid-off employees rehired into the same roles within weeks (backfill_verdict left at ai_only by the July pass; the named rehires are the harder fact)",
             "ai_substitution_claim": "Dorsey 8-K shareholder letter: teams 'using AI to automate more work'; +127% 2-yr headcount before the cut",
         },
         "verdict": "contradicted_hard",
@@ -159,8 +159,8 @@ CAUSE_OVERRIDES = {
         "evidence": {"demand_collapse": "3rd round since 2022, crypto-cycle downturn"},
     },
     ("C3.ai", "2026-02-25"): {
-        "add": ["cost_cutting"],
-        "evidence": {"financial_distress": "wider loss, stock drop; CEO: cost structure 'simply too high'", "over_hiring": "aggressive 2024-25 hiring outpaced enterprise AI adoption (CEO's own words)"},
+        "add": ["cost_cutting", "over_hiring"],
+        "evidence": {"financial_distress": "wider loss, stock drop; CEO: cost structure 'simply too high'", "over_hiring": "company-admitted: CEO said aggressive 2024-25 hiring outpaced enterprise AI adoption (his own words)"},
     },
     ("Upwork", "2026-05-07"): {
         "add": ["financial_distress", "cost_cutting"],
@@ -187,7 +187,8 @@ CAUSE_OVERRIDES = {
     ("Intuit", "2026-05-20"): {"evidence": {"ai_denied": "Goodarzi on CNBC: 'None of it had to do with AI'", "restructuring_unspecified": "hub consolidation (Reno, Woodland Hills wound down)"}},
     ("Amazon", "2026-01-28"): {"evidence": {"ai_denied": "spokesperson to AP: AI 'not the reason behind the vast majority of these reductions'"}},
     ("GoPro", "2026-04-07"): {"add": ["financial_distress"], "evidence": {"financial_distress": "2025 revenue decline, $9M Q4 loss; weighing a sale"}},
-    ("Zendesk", "2026-03-24"): {"evidence": {"ai_substitution_claim": "LOW CONFIDENCE: no external footprint, sole source an internal memo; Forethought acquisition closed Mar 26"}},
+    ("Zendesk", "2026-03-24"): {"add": ["ai_framing_vague"], "evidence": {"ai_framing_vague": "internal memo only, no external footprint (Forethought AI agents cited); excluded from the substitution-claim count for lack of a public source"}},
+    ("Parker", "2026-05-09"): {"add": ["over_hiring"], "evidence": {"over_hiring": "company-admitted: CEO hinted at over-hiring and reactive decisions"}},
     ("Expedia", "2026-01-26"): {"evidence": {"ai_press_narrative": "statement cites layers/skills; AI appears as 'enhance AI-driven experiences' — press inferred substitution"}},
     ("Digg", "2026-03-13"): {"evidence": {"ai_framing_vague": "'AI broke the product' (bot spam), not labor substitution"}},
     ("Epidemic Sound", "2026-04-21"): {"evidence": {"financial_distress": "2025 growth 29% -> 3%, negative EBITDA, despite 'not financially driven' line"}},
@@ -226,15 +227,16 @@ def derive_causes(e):
     company_said = basis in ("company_stated", "company_informal")
     if basis == "company_denied":
         add("ai_denied", f"ai_link_basis=company_denied")
-    # basis=unknown + reason_primary=ai_substitution_claim covers Zendesk (internal
-    # memo, no external footprint); press_inferred never counts as a company claim.
-    elif link == "direct_substitution" and (company_said or (basis == "unknown" and rp == "ai_substitution_claim")):
+    # only an on-record company claim counts. unknown-basis (e.g. Zendesk, internal
+    # memo with no external footprint) and press/analyst inference never count as a
+    # company claim of substitution.
+    elif link == "direct_substitution" and company_said:
         add("ai_substitution_claim", f"ai_link=direct_substitution, basis={basis}" + (" (informal channel: tweet/LinkedIn/spokesperson)" if basis == "company_informal" else ""))
     elif link == "capex_funding" and company_said:
         add("ai_capex_reallocation", f"ai_link=capex_funding, basis={basis}")
     elif link == "ai_narrative_only" and company_said:
         add("ai_framing_vague", f"ai_link=ai_narrative_only, basis={basis}")
-    elif link in ("direct_substitution", "capex_funding", "ai_narrative_only"):
+    elif link in ("direct_substitution", "capex_funding", "ai_narrative_only") and basis in ("press_inferred", "analyst_inferred"):
         add("ai_press_narrative", f"ai_link={link}, basis={basis} — not a company claim")
 
     # --- structural causes from reason_primary ---
@@ -255,10 +257,11 @@ def derive_causes(e):
         add(rp_map[rp], f"reason_primary={rp}")
 
     # --- verified facts from the audit axes ---
-    if e.get("hire_overcorrection") is True:
-        add("over_hiring", "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)")
-    if bf == "rehiring_same":
-        add("rehiring_same_roles", "backfill_verdict=rehiring_same")
+    # over_hiring is NOT read from the headcount flag (window-dependent + audit-biased);
+    # the trajectory lives on the `headcount_path` axis, and over_hiring enters `causes`
+    # only when the company itself admitted it (via CAUSE_OVERRIDES: C3.ai, Parker).
+    # rehiring_same_roles enters only via CAUSE_OVERRIDES with a citable source (Block);
+    # the raw backfill flag is not publishable (dynamic job boards, unarchived).
     if bf == "offshore_swap":
         add("offshoring", "backfill_verdict=offshore_swap")
     if rh == "weakness":

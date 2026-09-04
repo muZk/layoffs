@@ -337,12 +337,10 @@
     "reassignment_observed": false,
     "causes": [
       "strategic_pivot",
-      "over_hiring",
       "cost_cutting"
     ],
     "cause_evidence": {
       "strategic_pivot": "reason_primary=strategic_pivot",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)",
       "cost_cutting": "explicit savings/margin/profitability language in the public reason"
     },
     "ai_claim_verdict": "not_claimed"
@@ -901,12 +899,10 @@
     "hire_overcorrection": true,
     "reassignment_observed": false,
     "causes": [
-      "ai_capex_reallocation",
-      "over_hiring"
+      "ai_capex_reallocation"
     ],
     "cause_evidence": {
-      "ai_capex_reallocation": "ai_link=capex_funding, basis=company_stated",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)"
+      "ai_capex_reallocation": "ai_link=capex_funding, basis=company_stated"
     },
     "ai_claim_verdict": "capex_not_substitution"
   },
@@ -992,13 +988,11 @@
     "reassignment_observed": false,
     "causes": [
       "ai_denied",
-      "restructuring_unspecified",
-      "over_hiring"
+      "restructuring_unspecified"
     ],
     "cause_evidence": {
       "ai_denied": "spokesperson to AP: AI 'not the reason behind the vast majority of these reductions'",
-      "restructuring_unspecified": "reason_primary=restructuring_vague",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)"
+      "restructuring_unspecified": "reason_primary=restructuring_vague"
     },
     "ai_claim_verdict": "not_claimed"
   },
@@ -1360,12 +1354,10 @@
     "hire_overcorrection": true,
     "reassignment_observed": false,
     "causes": [
-      "restructuring_unspecified",
-      "over_hiring"
+      "restructuring_unspecified"
     ],
     "cause_evidence": {
-      "restructuring_unspecified": "reason_primary=restructuring_vague",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)"
+      "restructuring_unspecified": "reason_primary=restructuring_vague"
     },
     "ai_claim_verdict": "not_claimed"
   },
@@ -1767,14 +1759,10 @@
     "hire_overcorrection": true,
     "reassignment_observed": false,
     "causes": [
-      "ai_substitution_claim",
-      "over_hiring",
-      "rehiring_same_roles"
+      "ai_substitution_claim"
     ],
     "cause_evidence": {
-      "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)",
-      "rehiring_same_roles": "138 live listings in the exact cut role families within weeks of the cut"
+      "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated"
     },
     "ai_claim_verdict": "contradicted_hard"
   },
@@ -1959,15 +1947,15 @@
     "reassignment_observed": false,
     "causes": [
       "ai_substitution_claim",
-      "over_hiring",
       "financial_distress",
-      "cost_cutting"
+      "cost_cutting",
+      "over_hiring"
     ],
     "cause_evidence": {
       "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
-      "over_hiring": "aggressive 2024-25 hiring outpaced enterprise AI adoption (CEO's own words)",
       "financial_distress": "wider loss, stock drop; CEO: cost structure 'simply too high'",
-      "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+      "cost_cutting": "explicit savings/margin/profitability language in the public reason",
+      "over_hiring": "company-admitted: CEO said aggressive 2024-25 hiring outpaced enterprise AI adoption (his own words)"
     },
     "ai_claim_verdict": "contradicted_soft"
   },
@@ -2038,13 +2026,11 @@
     "reassignment_observed": false,
     "causes": [
       "ai_substitution_claim",
-      "over_hiring",
       "rehiring_same_roles"
     ],
     "cause_evidence": {
       "ai_substitution_claim": "Dorsey 8-K shareholder letter: teams 'using AI to automate more work'; +127% 2-yr headcount before the cut",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)",
-      "rehiring_same_roles": "CROSS_CHECK: >=4 named rehires into the same roles and non-AI reqs opened during the stated freeze (backfill_verdict left at ai_only by the July pass; the named rehires are the harder fact)"
+      "rehiring_same_roles": "Business Insider (2026-03): at least 4 named laid-off employees rehired into the same roles within weeks (backfill_verdict left at ai_only by the July pass; the named rehires are the harder fact)"
     },
     "ai_claim_verdict": "contradicted_hard"
   },
@@ -2532,12 +2518,10 @@
     "hire_overcorrection": true,
     "reassignment_observed": false,
     "causes": [
-      "ai_capex_reallocation",
-      "over_hiring"
+      "ai_capex_reallocation"
     ],
     "cause_evidence": {
-      "ai_capex_reallocation": "Cannon-Brookes: 'self-fund further investment in AI and enterprise sales'; no verifiable capex commitment; chronic GAAP losses",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)"
+      "ai_capex_reallocation": "Cannon-Brookes: 'self-fund further investment in AI and enterprise sales'; no verifiable capex commitment; chronic GAAP losses"
     },
     "ai_claim_verdict": "capex_not_substitution"
   },
@@ -2989,12 +2973,12 @@
     "hire_overcorrection": false,
     "reassignment_observed": false,
     "causes": [
-      "ai_substitution_claim"
+      "ai_framing_vague"
     ],
     "cause_evidence": {
-      "ai_substitution_claim": "LOW CONFIDENCE: no external footprint, sole source an internal memo; Forethought acquisition closed Mar 26"
+      "ai_framing_vague": "internal memo only, no external footprint (Forethought AI agents cited); excluded from the substitution-claim count for lack of a public source"
     },
-    "ai_claim_verdict": "thin_evidence"
+    "ai_claim_verdict": "not_claimed"
   },
   {
     "company": "Meta",
@@ -3035,13 +3019,11 @@
     "reassignment_observed": false,
     "causes": [
       "ai_press_narrative",
-      "restructuring_unspecified",
-      "over_hiring"
+      "restructuring_unspecified"
     ],
     "cause_evidence": {
       "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
-      "restructuring_unspecified": "reason_primary=restructuring_vague",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)"
+      "restructuring_unspecified": "reason_primary=restructuring_vague"
     },
     "ai_claim_verdict": "not_claimed"
   },
@@ -3458,13 +3440,11 @@
     "reassignment_observed": false,
     "causes": [
       "ai_press_narrative",
-      "restructuring_unspecified",
-      "over_hiring"
+      "restructuring_unspecified"
     ],
     "cause_evidence": {
       "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
-      "restructuring_unspecified": "reason_primary=restructuring_vague",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)"
+      "restructuring_unspecified": "reason_primary=restructuring_vague"
     },
     "ai_claim_verdict": "not_claimed"
   },
@@ -4101,12 +4081,10 @@
     "reassignment_observed": false,
     "causes": [
       "ai_substitution_claim",
-      "over_hiring",
       "cost_cutting"
     ],
     "cause_evidence": {
       "ai_substitution_claim": "Spiegel: AI reduces 'repetitive work' enabling smaller teams; 250+ broad open reqs post-cut (backfill_verdict=mixed) — partial backfill, not documented same-role rehiring",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)",
       "cost_cutting": "$500M+ annualized savings target; stock jumped on the news"
     },
     "ai_claim_verdict": "contradicted_soft"
@@ -4597,10 +4575,10 @@
     "hire_overcorrection": true,
     "reassignment_observed": false,
     "causes": [
-      "over_hiring"
+      "unknown"
     ],
     "cause_evidence": {
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)"
+      "unknown": "reason_primary=unknown"
     },
     "ai_claim_verdict": "not_claimed"
   },
@@ -4709,13 +4687,11 @@
     "reassignment_observed": false,
     "causes": [
       "ai_substitution_claim",
-      "over_hiring",
       "cost_cutting",
       "demand_collapse"
     ],
     "cause_evidence": {
       "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)",
       "cost_cutting": "explicit savings/margin/profitability language in the public reason",
       "demand_collapse": "company-stated crypto market downturn as co-driver"
     },
@@ -4751,15 +4727,11 @@
     "reassignment_observed": false,
     "causes": [
       "ai_substitution_claim",
-      "restructuring_unspecified",
-      "over_hiring",
-      "rehiring_same_roles"
+      "restructuring_unspecified"
     ],
     "cause_evidence": {
       "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
-      "restructuring_unspecified": "reason_primary=restructuring_vague",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)",
-      "rehiring_same_roles": "Chennai support trainee req on Freshworks' own ATS ~7 weeks post-cut"
+      "restructuring_unspecified": "reason_primary=restructuring_vague"
     },
     "ai_claim_verdict": "contradicted_hard"
   },
@@ -5029,12 +5001,10 @@
     "hire_overcorrection": true,
     "reassignment_observed": false,
     "causes": [
-      "cost_cutting",
-      "over_hiring"
+      "cost_cutting"
     ],
     "cause_evidence": {
-      "cost_cutting": "reason_primary=cost_cutting",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)"
+      "cost_cutting": "reason_primary=cost_cutting"
     },
     "ai_claim_verdict": "not_claimed"
   },
@@ -5068,15 +5038,11 @@
     "reassignment_observed": false,
     "causes": [
       "ai_framing_vague",
-      "restructuring_unspecified",
-      "over_hiring",
-      "rehiring_same_roles"
+      "restructuring_unspecified"
     ],
     "cause_evidence": {
       "ai_framing_vague": "'agentic AI era' reorg; internal AI usage +600% cited, no substitution mechanism stated",
-      "restructuring_unspecified": "reason_primary=restructuring_vague",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)",
-      "rehiring_same_roles": "CEO vowed to exceed 2026 headcount by 2027; sales spared; rehiring in cut functions (CROSS_CHECK)"
+      "restructuring_unspecified": "reason_primary=restructuring_vague"
     },
     "ai_claim_verdict": "not_claimed"
   },
@@ -5223,14 +5189,12 @@
     "causes": [
       "ai_substitution_claim",
       "restructuring_unspecified",
-      "over_hiring",
       "cost_cutting",
       "financial_distress"
     ],
     "cause_evidence": {
       "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
       "restructuring_unspecified": "reason_primary=restructuring_vague",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)",
       "cost_cutting": "profitability goals cited",
       "financial_distress": "same-day ~9% guidance cut on +1% growth"
     },
@@ -5304,10 +5268,12 @@
     "hire_overcorrection": null,
     "reassignment_observed": null,
     "causes": [
-      "shutdown"
+      "shutdown",
+      "over_hiring"
     ],
     "cause_evidence": {
-      "shutdown": "reason_primary=shutdown_bankruptcy"
+      "shutdown": "reason_primary=shutdown_bankruptcy",
+      "over_hiring": "company-admitted: CEO hinted at over-hiring and reactive decisions"
     },
     "ai_claim_verdict": "not_claimed"
   },
@@ -5490,14 +5456,12 @@
     "reassignment_observed": false,
     "causes": [
       "ai_capex_reallocation",
-      "over_hiring",
       "offshoring",
       "financial_distress",
       "cost_cutting"
     ],
     "cause_evidence": {
       "ai_capex_reallocation": "ai_link=capex_funding, basis=company_stated",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)",
       "offshoring": "own 8-K: Israel R&D closed, roles reallocated incl. to India",
       "financial_distress": "guidance cut to ~1% growth",
       "cost_cutting": "~$60M annual savings target"
@@ -5836,14 +5800,12 @@
     "causes": [
       "ai_substitution_claim",
       "restructuring_unspecified",
-      "over_hiring",
       "demand_collapse",
       "financial_distress"
     ],
     "cause_evidence": {
       "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
       "restructuring_unspecified": "reason_primary=restructuring_vague",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)",
       "demand_collapse": "crypto market decline; IPO filing paused",
       "financial_distress": "Q1 EBITDA -90% disclosed 3 days post-layoff"
     },
@@ -5928,13 +5890,11 @@
     "reassignment_observed": false,
     "causes": [
       "ai_denied",
-      "restructuring_unspecified",
-      "over_hiring"
+      "restructuring_unspecified"
     ],
     "cause_evidence": {
       "ai_denied": "Goodarzi on CNBC: 'None of it had to do with AI'",
-      "restructuring_unspecified": "hub consolidation (Reno, Woodland Hills wound down)",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)"
+      "restructuring_unspecified": "hub consolidation (Reno, Woodland Hills wound down)"
     },
     "ai_claim_verdict": "not_claimed"
   },
@@ -5985,12 +5945,10 @@
     "hire_overcorrection": true,
     "reassignment_observed": true,
     "causes": [
-      "ai_capex_reallocation",
-      "over_hiring"
+      "ai_capex_reallocation"
     ],
     "cause_evidence": {
-      "ai_capex_reallocation": "~7,000 redeployed into AI orgs; capex raised — money goes where the story says",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)"
+      "ai_capex_reallocation": "~7,000 redeployed into AI orgs; capex raised — money goes where the story says"
     },
     "ai_claim_verdict": "capex_not_substitution"
   },
@@ -6063,13 +6021,11 @@
     "reassignment_observed": false,
     "causes": [
       "ai_substitution_claim",
-      "over_hiring",
       "financial_distress",
       "cost_cutting"
     ],
     "cause_evidence": {
       "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)",
       "financial_distress": "weak earnings, ~50% stock decline",
       "cost_cutting": "rising AI compute costs from Base44 acquisition"
     },
@@ -6105,13 +6061,11 @@
     "reassignment_observed": false,
     "causes": [
       "ai_capex_reallocation",
-      "over_hiring",
       "cost_cutting",
       "market_exit"
     ],
     "cause_evidence": {
       "ai_capex_reallocation": "narrative flip: May 11 'not an AI optimization or cost cutting exercise' -> June 3 'fund AI infrastructure buildout'",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)",
       "cost_cutting": "explicit savings/margin/profitability language in the public reason",
       "market_exit": "exit from 22 countries"
     },
@@ -6146,14 +6100,10 @@
     "hire_overcorrection": true,
     "reassignment_observed": false,
     "causes": [
-      "ai_press_narrative",
-      "over_hiring",
-      "rehiring_same_roles"
+      "ai_press_narrative"
     ],
     "cause_evidence": {
-      "ai_press_narrative": "Tenev memo said 'frontier technologies', never 'AI'; the AI angle is TechCrunch et al.",
-      "over_hiring": "hire_overcorrection=True (SEC 10-K / Workforce.ai 2-yr growth >= ~15%)",
-      "rehiring_same_roles": "CX reqs posted in layoff-hit hub cities, one on layoff day"
+      "ai_press_narrative": "Tenev memo said 'frontier technologies', never 'AI'; the AI angle is TechCrunch et al."
     },
     "ai_claim_verdict": "not_claimed"
   },

@@ -31,7 +31,7 @@ heads = sum(e["laid_off"] for e in comp_ai if e["laid_off"])
 → **32 eventos, 53.497 personas = 49,5 % de 108.089.**
 
 El subconjunto que dijo específicamente "la IA hace el trabajo" (solo sustitución) son
-**27 eventos = 35,5 %**; ver [Dato 3](#dato-3). Los eventos de inversión en IA (Meta, Cisco,
+**26 eventos = 35,4 %**; ver [Dato 3](#dato-3). Los eventos de inversión en IA (Meta, Cisco,
 Pinterest, Atlassian, ZoomInfo, Amentum) se cuentan en el 49,5 % pero se tratan aparte en el
 hallazgo 7, porque ahí la IA no reemplaza a nadie.
 
@@ -58,18 +58,20 @@ sin una cifra de personas atribuida. La fuente primaria de esa frase es el 10-K 
 
 ## Dato 3
 
-**"De las 27 empresas que dijeron 'la IA hace ese trabajo', 3 se sostienen, 11 se contradicen y 13 no se pueden verificar."**
+**"De las 26 empresas que dijeron 'la IA hace ese trabajo', 3 se sostienen, 11 se contradicen y 12 no se pueden verificar."**
 
 ```python
-subs = [e for e in D if "ai_substitution_claim" in e["causes"]]           # 27
+subs = [e for e in D if "ai_substitution_claim" in e["causes"]]           # 26
 vc = collections.Counter(e["ai_claim_verdict"] for e in subs)
 hold   = vc["plausible"]                                                   # se sostienen
 contra = vc["contradicted_soft"] + vc["contradicted_hard"]                # se contradicen
 thin   = vc["thin_evidence"]                                              # sin verificar
 ```
 
-→ **27 claims → 3 se sostienen (`plausible`) · 11 se contradicen (7 `soft` + 4 `hard`) · 13 sin verificar (`thin_evidence`).**
-Suma: 3 + 11 + 13 = 27.
+→ **26 claims → 3 se sostienen (`plausible`) · 11 se contradicen (7 `soft` + 4 `hard`) · 12 sin verificar (`thin_evidence`).**
+Suma: 3 + 11 + 12 = 26.
+
+"Sin verificar" no es falso, es que no hay con qué comprobarlo ni desmentirlo. De esos 12, Oracle es 21.000 de las 22.090 personas del grupo (una frase con condicional en su 10-K); los otros 11 suman ~1.090 personas, y solo 4 son posteos en redes sociales. Nueve de los 12 son empresas privadas sin filings que revisar.
 
 ---
 
@@ -130,37 +132,19 @@ mediana = statistics.median(vals)
 
 ## Dato 8
 
-**"Entre enero y mayo, la proporción de empresas que atribuye el recorte a la IA oscila entre 9 % y 26 % mes a mes."**
+**"Entre enero y mayo, la proporción que atribuye el recorte a la IA depende de la definición."**
 
-Proporción mensual de eventos que dieron la IA como reemplazo (`ai_substitution_claim`), enero a
-mayo (junio se agregó a mano, se excluye):
-
-```python
-for m in ("2026-01", ..., "2026-05"):
-    mes  = [e for e in D if e["date"][:7] == m]
-    ai   = [e for e in mes if "ai_substitution_claim" in e["causes"]]
-    # len(ai) / len(mes)
-```
-
-→ **ene 10 % · feb 22 % · mar 16 % · abr 9 % · may 26 %.** Rango 9 %–26 %, sin dirección clara.
-
----
-
-## Dato 9
-
-**"El reclamo de IA se puede revisar en las públicas, no en las privadas."**
-
-De las 27 empresas que dijeron que la IA reemplazó el trabajo, 14 son públicas (`stage = "Post-IPO"`) y 13 privadas.
+Dos definiciones, enero a mayo (junio se agregó a mano, se excluye), n≈30 por mes:
 
 ```python
-claims = [e for e in D if "ai_substitution_claim" in e["causes"]]
-pub  = [e for e in claims if e["stage"] == "Post-IPO"]   # 14
-priv = [e for e in claims if e["stage"] != "Post-IPO"]   # 13
+sub    = [e for e in mes if "ai_substitution_claim" in e["causes"]]  # dijo que la IA reemplaza
+any_ai = [e for e in mes if set(e["causes"]) & AI_ANY]               # menciona la IA de cualquier forma
 ```
 
-→ **Públicas (14)** · 12 on-record (`company_stated`) · 3 plausibles · 8 contradichas · 3 sin verificar.
-→ **Privadas (13)** · 9 informales (`company_informal`, tweet/blog) · 8 con la IA como única causa declarada · 0 plausibles · 10 sin verificar.
-→ Los 3 casos plausibles son todos de empresas públicas; ninguno privado queda en pie.
+→ **La IA como reemplazo:** ene 10 % · feb 22 % · mar 13 % · abr 9 % · may 26 %. Rango 9 %–26 %, sin dirección clara.
+→ **Cualquier mención de IA:** 33 % en enero → 55 % en mayo, con tendencia al alza.
+
+Con n≈30 por mes, 9 % contra 26 % son 3 contra 10 eventos: la serie es ruidosa. Por eso el resumen nombra la definición en vez de colgar una tesis del rango.
 
 ---
 

@@ -85,44 +85,33 @@ def dato_7_concentracion():
 
 
 def dato_8_proporcion_mensual():
-    """Proporción mensual que dio a la IA como reemplazo (ene-may): oscila 9%-26%."""
-    bm = collections.defaultdict(lambda: [0, 0])
+    """Proporción mensual, dos definiciones (ene-may): sustitución 9-26% vs cualquier-IA 27-53%."""
+    AI_ANY = {"ai_substitution_claim", "ai_capex_reallocation", "ai_framing_vague",
+              "ai_press_narrative", "ai_denied"}
+    bm = collections.defaultdict(lambda: [0, 0, 0])  # [substitution, any-AI, total]
     for e in D:
         m = e["date"][:7]
         if m >= "2026-06":
             continue
-        bm[m][1] += 1
+        bm[m][2] += 1
         if has(e, "ai_substitution_claim"):
             bm[m][0] += 1
-    pcts = []
+        if set(e.get("causes") or []) & AI_ANY:
+            bm[m][1] += 1
+    sub, any_ = [], []
     for m in sorted(bm):
-        a, t = bm[m]
-        pcts.append(100 * a / t)
-        print(f"[8] {m}: {a}/{t} = {100*a/t:.0f}%")
-    print(f"    rango: {min(pcts):.0f}% - {max(pcts):.0f}%")
-
-
-def dato_9_publicas_vs_privadas():
-    """El reclamo de IA se puede revisar en las públicas, no en las privadas."""
-    claims = [e for e in D if has(e, "ai_substitution_claim")]
-    pub = [e for e in claims if e.get("stage") == "Post-IPO"]
-    priv = [e for e in claims if e.get("stage") != "Post-IPO"]
-    def vc(g):
-        c = collections.Counter(e.get("ai_claim_verdict") for e in g)
-        return c["plausible"], c["contradicted_soft"] + c["contradicted_hard"], c["thin_evidence"]
-    onrec = sum(e.get("ai_link_basis") == "company_stated" for e in pub)
-    inf = sum(e.get("ai_link_basis") == "company_informal" for e in priv)
-    solo = sum(len(e.get("causes") or []) == 1 for e in priv)
-    print(f"[9] públicas={len(pub)} (on-record {onrec}) verdictos plausible/contra/thin={vc(pub)}")
-    print(f"    privadas={len(priv)} (informal {inf}, IA única causa {solo}) verdictos={vc(priv)}")
-    print(f"    los plausibles públicos={vc(pub)[0]} | privados={vc(priv)[0]}")
+        s, a, t = bm[m]
+        sub.append(100 * s / t); any_.append(100 * a / t)
+        print(f"[8] {m}: sustitución {s}/{t}={100*s/t:.0f}% | cualquier-IA {a}/{t}={100*a/t:.0f}% (n={t})")
+    print(f"    sustitución: {min(sub):.0f}-{max(sub):.0f}% (sin dirección) | "
+          f"cualquier-IA: {min(any_):.0f}-{max(any_):.0f}% (sube)")
 
 
 if __name__ == "__main__":
     print(f"Ventana in-window: {len(D)} eventos | {HEADS:,} personas con cifra\n")
     for fn in (dato_1_casi_la_mitad, dato_2_oracle, dato_3_verdictos_27, dato_4_prensa_16,
                dato_5_sobrecontratacion, dato_6_sin_cifra_45_9, dato_7_concentracion,
-               dato_8_proporcion_mensual, dato_9_publicas_vs_privadas):
+               dato_8_proporcion_mensual):
         print(f"--- {fn.__doc__}")
         fn()
         print()
