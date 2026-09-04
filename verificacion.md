@@ -88,18 +88,15 @@ empresa dio otro motivo o ninguno.
 
 ## Dato 5
 
-**"De las 30 empresas grandes que pudimos revisar contra sus reportes, 24 venían de contratar de más."**
+**"Corregir la sobre-contratación es solo parte de la ecuación."**
 
-`hire_overcorrection` solo está poblado para las empresas que se pudieron auditar contra sus
-reportes de dotación a la SEC (dos años antes del recorte):
+La dotación reportada solo existe para empresas públicas (67 de los 161). Auditadas todas con la misma
+ventana reciente, para 2026 la mayoría venía plana o achicándose —no cargando un exceso— y la
+sobre-contratación no distingue a las que culparon a la IA de las que no. Es real en un puñado de casos,
+no la causa general.
 
-```python
-audited = [e for e in D if e["hire_overcorrection"] is not None]          # 30
-over    = [e for e in audited if e["hire_overcorrection"] is True]        # 24
-```
-
-→ **30 auditadas, 24 con sobrecontratación (crecimiento ≥ 15 % antes del recorte).** Es descriptivo
-de las grandes que se pudieron revisar, no de todas, y no establece causa (ver hallazgo 6).
+Este dato no sale de este dataset: usa la dotación de los filings (10-K / 20-F), empresa por empresa.
+La tabla completa y las fuentes están en [auditoria-sobrecontratacion.md](auditoria-sobrecontratacion.md).
 
 ---
 
@@ -146,6 +143,24 @@ for m in ("2026-01", ..., "2026-05"):
 ```
 
 → **ene 10 % · feb 22 % · mar 16 % · abr 9 % · may 26 %.** Rango 9 %–26 %, sin dirección clara.
+
+---
+
+## Dato 9
+
+**"El reclamo de IA se puede revisar en las públicas, no en las privadas."**
+
+De las 27 empresas que dijeron que la IA reemplazó el trabajo, 14 son públicas (`stage = "Post-IPO"`) y 13 privadas.
+
+```python
+claims = [e for e in D if "ai_substitution_claim" in e["causes"]]
+pub  = [e for e in claims if e["stage"] == "Post-IPO"]   # 14
+priv = [e for e in claims if e["stage"] != "Post-IPO"]   # 13
+```
+
+→ **Públicas (14)** · 12 on-record (`company_stated`) · 3 plausibles · 8 contradichas · 3 sin verificar.
+→ **Privadas (13)** · 9 informales (`company_informal`, tweet/blog) · 8 con la IA como única causa declarada · 0 plausibles · 10 sin verificar.
+→ Los 3 casos plausibles son todos de empresas públicas; ninguno privado queda en pie.
 
 ---
 

@@ -57,12 +57,14 @@ def dato_4_prensa_16():
     print(f"[4] vínculo IA aportado por la prensa (causes 'ai_press_narrative'): {len(press)}")
 
 
-def dato_5_sobrecontratacion_24_30():
-    """De 30 empresas grandes auditadas contra sus reportes, 24 venían de contratar de más."""
-    audited = [e for e in D if e.get("hire_overcorrection") is not None]
-    over = [e for e in audited if e.get("hire_overcorrection") is True]
-    print(f"[5] auditadas (hire_overcorrection != None): {len(audited)} | "
-          f"con sobrecontratación: {len(over)}")
+def dato_5_sobrecontratacion():
+    """Corregir la sobre-contratación es solo parte de la ecuación.
+
+    No se reproduce desde este dataset: la dotación sale de los filings (10-K/20-F), empresa por
+    empresa. Con la misma ventana para todas las públicas, la sobre-contratación reciente no
+    distingue claim vs no-claim; para 2026 la mayoría venía plana o achicándose. Ver
+    auditoria-sobrecontratacion.md."""
+    print("[5] Dotación desde filings (no desde este dataset) — ver auditoria-sobrecontratacion.md")
 
 
 def dato_6_sin_cifra_45_9():
@@ -100,11 +102,27 @@ def dato_8_proporcion_mensual():
     print(f"    rango: {min(pcts):.0f}% - {max(pcts):.0f}%")
 
 
+def dato_9_publicas_vs_privadas():
+    """El reclamo de IA se puede revisar en las públicas, no en las privadas."""
+    claims = [e for e in D if has(e, "ai_substitution_claim")]
+    pub = [e for e in claims if e.get("stage") == "Post-IPO"]
+    priv = [e for e in claims if e.get("stage") != "Post-IPO"]
+    def vc(g):
+        c = collections.Counter(e.get("ai_claim_verdict") for e in g)
+        return c["plausible"], c["contradicted_soft"] + c["contradicted_hard"], c["thin_evidence"]
+    onrec = sum(e.get("ai_link_basis") == "company_stated" for e in pub)
+    inf = sum(e.get("ai_link_basis") == "company_informal" for e in priv)
+    solo = sum(len(e.get("causes") or []) == 1 for e in priv)
+    print(f"[9] públicas={len(pub)} (on-record {onrec}) verdictos plausible/contra/thin={vc(pub)}")
+    print(f"    privadas={len(priv)} (informal {inf}, IA única causa {solo}) verdictos={vc(priv)}")
+    print(f"    los plausibles públicos={vc(pub)[0]} | privados={vc(priv)[0]}")
+
+
 if __name__ == "__main__":
     print(f"Ventana in-window: {len(D)} eventos | {HEADS:,} personas con cifra\n")
     for fn in (dato_1_casi_la_mitad, dato_2_oracle, dato_3_verdictos_27, dato_4_prensa_16,
-               dato_5_sobrecontratacion_24_30, dato_6_sin_cifra_45_9, dato_7_concentracion,
-               dato_8_proporcion_mensual):
+               dato_5_sobrecontratacion, dato_6_sin_cifra_45_9, dato_7_concentracion,
+               dato_8_proporcion_mensual, dato_9_publicas_vs_privadas):
         print(f"--- {fn.__doc__}")
         fn()
         print()
