@@ -195,6 +195,8 @@ CAUSE_OVERRIDES = {
     ("MercadoLibre", "2026-01-12"): {"evidence": {"ai_substitution_claim": "narrow claim (UX writers) while net-adding ~42k jobs; affected workers trained the replacing AI"}},
     ("Multiverse", "2026-01-05"): {"add": ["cost_cutting"], "evidence": {"cost_cutting": "'revenue per employee' target, rising staff costs"}},
     ("Pocket FM", "2026-05-06"): {"add": ["performance_cull"], "evidence": {"performance_cull": "framed as regular performance-based reviews"}},
+    ("Quora", "2026-04-16"): {"add": ["ai_framing_vague"], "evidence": {"ai_framing_vague": "CEO D'Angelo cited the rise of AI and 'smaller, more focused teams'; Poe-focused teams cut — vague AI framing, not a substitution claim"}},
+    ("Arctic Wolf", "2026-05-06"): {"add": ["ai_framing_vague"], "evidence": {"ai_framing_vague": "'redirecting resources to its Superintelligence platform and Agentic SOC' — AI-investment framing, no substitution mechanism stated"}},
 }
 
 _COST_RE = re.compile(

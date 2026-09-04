@@ -4231,10 +4231,12 @@
     "hire_overcorrection": null,
     "reassignment_observed": false,
     "causes": [
-      "restructuring_unspecified"
+      "restructuring_unspecified",
+      "ai_framing_vague"
     ],
     "cause_evidence": {
-      "restructuring_unspecified": "reason_primary=restructuring_vague"
+      "restructuring_unspecified": "reason_primary=restructuring_vague",
+      "ai_framing_vague": "CEO D'Angelo cited the rise of AI and 'smaller, more focused teams'; Poe-focused teams cut — vague AI framing, not a substitution claim"
     },
     "ai_claim_verdict": "not_claimed"
   },
@@ -4853,10 +4855,12 @@
     "hire_overcorrection": null,
     "reassignment_observed": null,
     "causes": [
-      "restructuring_unspecified"
+      "restructuring_unspecified",
+      "ai_framing_vague"
     ],
     "cause_evidence": {
-      "restructuring_unspecified": "reason_primary=restructuring_vague"
+      "restructuring_unspecified": "reason_primary=restructuring_vague",
+      "ai_framing_vague": "'redirecting resources to its Superintelligence platform and Agentic SOC' — AI-investment framing, no substitution mechanism stated"
     },
     "ai_claim_verdict": "not_claimed"
   },
