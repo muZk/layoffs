@@ -10,141 +10,151 @@ abajo son la salida de ese script sobre la versión actual del dataset.
 
 Campos usados: `causes` (lista de causas por evento), `ai_link` y `ai_link_basis` (mecanismo
 y quién hizo la afirmación de IA), `ai_claim_verdict` (veredicto de la afirmación de
-sustitución), `hire_overcorrection` (auditoría de sobrecontratación contra reportes a la SEC),
-`laid_off` (personas). El significado de cada campo está en [`schema.md`](schema.md).
+sustitución), `stage` (etapa; `Post-IPO` = cotiza en bolsa), `laid_off` (personas). El
+significado de cada campo está en [`schema.md`](schema.md).
+
+Corte público/privado: **público** = `stage == "Post-IPO"` (67 eventos); **privado** =
+etapa privada conocida (71); los 23 de etapa `Unknown` se excluyen de ese corte.
 
 ---
 
 ## Dato 1
 
-**"Casi la mitad de las personas despedidas trabajaba en empresas que dieron a la IA como parte del motivo del recorte."**
-
-Empresas donde la propia empresa invocó la IA como motivo, sea como reemplazo (`direct_substitution`)
-o como inversión (`capex_funding`):
+**"El motivo más común es un no-motivo: la mayoría trae una sola causa, y suele ser vaga."**
 
 ```python
-comp_ai = [e for e in D if e["ai_link_basis"] in ("company_stated", "company_informal")
-           and e["ai_link"] in ("direct_substitution", "capex_funding")]
-heads = sum(e["laid_off"] for e in comp_ai if e["laid_off"])
+single = [e for e in D if len(e["causes"]) == 1]                       # 94
+vague  = [e for e in single if e["causes"][0] in
+          ("restructuring_unspecified", "cost_cutting", "unknown")]    # 52
+cf = collections.Counter(c for e in D for c in e["causes"])            # frecuencia
 ```
 
-→ **32 eventos, 53.497 personas = 49,5 % de 108.089.**
+→ **94 de 161 (58 %) tienen una sola causa etiquetada.** De esos 94, **52** son un motivo
+genérico o ninguno (25 "reestructuración sin especificar" + 17 "recorte de costos" + 10 "sin
+causa identificable"), o sea uno de cada tres de los 161.
 
-El subconjunto que dijo específicamente "la IA hace el trabajo" (solo sustitución) son
-**26 eventos = 35,4 %**; ver [Dato 3](#dato-3). Los eventos de inversión en IA (Meta, Cisco,
-Pinterest, Atlassian, ZoomInfo, GitLab) se cuentan en el 49,5 % pero se tratan aparte en el
-hallazgo 7, porque ahí la IA no reemplaza a nadie.
+Causas más nombradas (contando cada causa, sola o acompañada, sobre los 161):
+
+| causa | eventos | % |
+|---|---|---|
+| reestructuración sin especificar | 56 | 35 % |
+| recorte de costos | 44 | 27 % |
+| la empresa dice que la IA hace el trabajo (`ai_substitution_claim`) | 26 | 16 % |
+| la empresa menciona la IA sin atribuirle nada (`ai_framing_vague`) | 19 | 12 % |
+| el vínculo con la IA lo pone la prensa (`ai_press_narrative`) | 16 | 10 % |
+| fusión / adquisición | 12 | 7 % |
 
 ---
 
 ## Dato 2
 
-**"Oracle despidió a 21.000 personas, el 19 % del total del semestre. En marzo lo describió como un cambio organizacional; su única mención a la IA llegó en el reporte anual."**
+**"De los 161, MercadoLibre es el único caso de causa única = IA que resiste la revisión."**
 
 ```python
-o = next(e for e in D if e["company"] == "Oracle")
-# o["laid_off"] = 21000  ->  21000 / 108089
+ai_only = [e for e in D if e["causes"] == ["ai_substitution_claim"]]   # 10
+plaus   = [e for e in ai_only if e["ai_claim_verdict"] == "plausible"] # 1
 ```
 
-→ **21.000 personas = 19,4 % del total.** `causes = ['ai_substitution_claim', 'cost_cutting', 'm_and_a']`,
-`ai_claim_verdict = 'thin_evidence'`.
-
-Del campo `reason` del evento: los correos de despido de marzo hablaron de *"a broader organizational
-change"*; la frase de IA aparece recién en el 10-K FY26, en Item 1A Risk Factors + Note 7, en
-condicional (*"have resulted, and may continue to result, in reductions to our workforce"*),
-sin una cifra de personas atribuida. La fuente primaria de esa frase es el 10-K en SEC EDGAR.
+→ **10 eventos tienen la IA como única causa etiquetada.** Sus veredictos: 1 `plausible`
+(MercadoLibre, 116 personas = 0,1 %), 1 `contradicted_hard` (Livspace, 1.000, recontrató) y
+8 `thin_evidence` (Angi, Firebolt, Monte Carlo, Pendo, Pentera, ApnaMart, DeepL, Dune) — en
+general empresas chicas o privadas sin datos públicos para contrastar. **MercadoLibre es el
+único de causa única, verificable y donde la causa es la IA reemplazando trabajo.**
 
 ---
 
 ## Dato 3
 
-**"De las 26 empresas que dijeron 'la IA hace ese trabajo', 3 se sostienen, 11 se contradicen y 12 no se pueden verificar."**
+**"De las 26 que dijeron 'la IA hace ese trabajo', 16 nombraron otra causa; 3 se sostienen, 11 se contradicen, 12 no se pueden verificar."**
 
 ```python
-subs = [e for e in D if "ai_substitution_claim" in e["causes"]]           # 26
-vc = collections.Counter(e["ai_claim_verdict"] for e in subs)
-hold   = vc["plausible"]                                                   # se sostienen
-contra = vc["contradicted_soft"] + vc["contradicted_hard"]                # se contradicen
-thin   = vc["thin_evidence"]                                              # sin verificar
+subs  = [e for e in D if "ai_substitution_claim" in e["causes"]]       # 26
+multi = [e for e in subs if len(e["causes"]) > 1]                      # 16
+co    = collections.Counter(c for e in subs for c in e["causes"]
+                            if c != "ai_substitution_claim")
+vc    = collections.Counter(e["ai_claim_verdict"] for e in subs)
 ```
 
-→ **26 claims → 3 se sostienen (`plausible`) · 11 se contradicen (7 `soft` + 4 `hard`) · 12 sin verificar (`thin_evidence`).**
-Suma: 3 + 11 + 12 = 26.
+→ **26 reclamos → 16 (62 %) traen otra causa en el mismo anuncio.** Lo que co-ocurre con la
+IA: recorte de costos (9), problemas financieros (6), reestructuración (5), caída de demanda
+(4); algunos anuncios traen más de una, por eso la suma supera 16.
 
-"Sin verificar" no es falso, es que no hay con qué comprobarlo ni desmentirlo. De esos 12, Oracle es 21.000 de las 22.090 personas del grupo (una frase con condicional en su 10-K); los otros 11 suman ~1.090 personas, y solo 4 son posteos en redes sociales. Nueve de los 12 son empresas privadas sin filings que revisar.
+→ Verdicto de los 26: **3 se sostienen** (`plausible`: MercadoLibre, Coinbase, Wix) · **11 se
+contradicen** (7 `soft` + 4 `hard`) · **12 sin verificar** (`thin_evidence`). "Sin verificar"
+no es falso: es que no hay con qué comprobarlo ni desmentirlo (en general, empresas privadas o
+chicas).
 
 ---
 
 ## Dato 4
 
-**"En 16 de los 161 casos, el vínculo con la IA lo puso la prensa, no la empresa."**
+**"Culpar a la IA tiene dos caras: reemplazo (26) y gasto/capex (6). Oracle no es ninguna de las dos por su propia voz."**
 
 ```python
-press = [e for e in D if "ai_press_narrative" in e["causes"]]
+subs  = [e for e in D if "ai_substitution_claim"  in e["causes"]]      # 26 reemplazo
+capex = [e for e in D if "ai_capex_reallocation"  in e["causes"]]      # 6 gasto
+oracle = next(e for e in D if e["company"] == "Oracle")
 ```
 
-→ **16 eventos.** Son los casos donde el ángulo de IA proviene de la cobertura, mientras la
-empresa dio otro motivo o ninguno.
+→ **Reemplazo ("la IA hace el trabajo"): 26.** **Gasto/capex ("recortamos para invertir en
+IA"): 6** — Meta, Cisco, Pinterest, Atlassian, ZoomInfo y GitLab, todas cotizan en bolsa.
 
----
-
-## Dato 5
-
-**"Corregir la sobre-contratación es solo parte de la ecuación."**
-
-La dotación reportada solo existe para empresas públicas (67 de los 161). Auditadas todas con la misma
-ventana reciente, para 2026 la mayoría venía plana o achicándose —no cargando un exceso— y la
-sobre-contratación no distingue a las que culparon a la IA de las que no. Es real en un puñado de casos,
-no la causa general.
-
-Este dato no sale de este dataset: usa la dotación de los filings (10-K / 20-F), empresa por empresa.
-La tabla completa y las fuentes están en [auditoria-sobrecontratacion.md](auditoria-sobrecontratacion.md).
+→ **Oracle:** 21.000 personas = 19 % del total. `causes = ['ai_substitution_claim',
+'cost_cutting', 'm_and_a']`, `ai_claim_verdict = 'thin_evidence'`. Los correos de marzo
+hablaron de *"a broader organizational change"*; la única mención propia de la IA es una línea
+condicional en el 10-K FY26 (Item 1A Risk Factors + Note 7: *"have resulted, and may continue
+to result, in reductions to our workforce"*), sin cifra atribuida. Por eso su reclamo cae en
+`thin_evidence` y no se cuenta como reemplazo real.
 
 ---
 
 ## Dato 6
 
-**"45 de los 161 anuncios no traen cifra, y los 9 cierres totales están entre ellos."**
+**"Tres empresas negaron la IA de frente; en 16 el vínculo lo puso solo la prensa."**
 
 ```python
-nocifra = [e for e in D if not e["laid_off"]]                             # 45
-shut    = [e for e in D if "shutdown" in e["causes"]]                     # 9
-shut_sin_cifra = [e for e in shut if not e["laid_off"]]                   # 9
+denied = [e for e in D if "ai_denied" in e["causes"]]                  # 3
+press  = [e for e in D if "ai_press_narrative" in e["causes"]]         # 16
+press_cifra = [e["laid_off"] for e in press if e["laid_off"]]          # 11 con cifra
 ```
 
-→ **45 sin cifra · 9 cierres · los 9 cierres están dentro de los 45 sin cifra.**
+→ **Negaciones explícitas (`ai_denied`): 3** — Autodesk (1.000), Amazon (16.000), Intuit
+(3.000). **Vínculo aportado solo por la prensa (`ai_press_narrative`): 16;** de esos, 11 traen
+cifra y suman **1.945 personas** (menos de 2.000).
 
----
-
-## Dato 7
-
-**"Diez anuncios reúnen el 70 % de las personas, y el anuncio típico es de 200."**
-
-```python
-vals  = sorted((e["laid_off"] for e in D if e["laid_off"]), reverse=True)  # 116 con cifra
-top10 = sum(vals[:10])
-mediana = statistics.median(vals)
-```
-
-→ **top-10 = 75.460 personas = 69,8 % del total · mediana = 200** (sobre 116 anuncios con cifra).
+(La numeración de los datos sigue el orden de los hallazgos; el hallazgo 5, Block, y el 7,
+sobre-contratación, se documentan en sus propias fuentes: el evento de Block trae su
+`source_url`, y la sobre-contratación en [auditoria-sobrecontratacion.md](auditoria-sobrecontratacion.md).)
 
 ---
 
 ## Dato 8
 
-**"Entre enero y mayo, la proporción que atribuye el recorte a la IA depende de la definición."**
-
-Dos definiciones, enero a mayo (junio se agregó a mano, se excluye), n≈30 por mes:
+**"El peso humano está casi todo en empresas públicas; las causas se separan por tipo de empresa."**
 
 ```python
-sub    = [e for e in mes if "ai_substitution_claim" in e["causes"]]  # dijo que la IA reemplaza
-any_ai = [e for e in mes if set(e["causes"]) & AI_ANY]               # menciona la IA de cualquier forma
+PUB  = [e for e in D if e["stage"] == "Post-IPO"]                      # 67
+PRIV = [e for e in D if e["stage"] not in ("Post-IPO", "Unknown")]    # 71
 ```
 
-→ **La IA como reemplazo:** ene 10 % · feb 22 % · mar 13 % · abr 9 % · may 26 %. Rango 9 %–26 %, sin dirección clara.
-→ **Cualquier mención de IA:** 33 % en enero → 58 % en mayo, con tendencia al alza.
+→ **Público: 67 anuncios, 94.873 personas = 88 % del total.** Privado: 71 anuncios, 9.864 = 9 %
+(el resto está en los 23 de etapa desconocida). **Mediana por anuncio: público 450, privado
+110.**
 
-Con n≈30 por mes, 9 % contra 26 % son 3 contra 10 eventos: la serie es ruidosa. Por eso el resumen nombra la definición en vez de colgar una tesis del rango.
+Sesgo de causas (en qué % de los anuncios de cada grupo aparece la causa):
+
+| causa | públicas | privadas |
+|---|---|---|
+| recorte de costos | 39 % | 18 % |
+| gasto en IA (`ai_capex_reallocation`) | 9 % | 0 % |
+| la IA hace el trabajo | 21 % | 13 % |
+| cierre total (`shutdown`) | 0 % | 11 % |
+| pivote de estrategia | 1 % | 10 % |
+| mención vaga de la IA | 6 % | 18 % |
+| fusión / adquisición | 4 % | 10 % |
+
+Concentración: **45 de los 161 anuncios no traen cifra** (incluidos los 9 cierres totales); de
+los 116 con cifra, **los diez más grandes reúnen 75.460 personas = 70 % del total.**
 
 ---
 
