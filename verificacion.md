@@ -96,8 +96,15 @@ capex = [e for e in D if "ai_capex_reallocation"  in e["causes"]]      # 6 gasto
 oracle = next(e for e in D if e["company"] == "Oracle")
 ```
 
-→ **Reemplazo ("la IA hace el trabajo"): 26.** **Gasto/capex ("recortamos para invertir en
-IA"): 6** — Meta, Cisco, Pinterest, Atlassian, ZoomInfo y GitLab, todas cotizan en bolsa.
+→ **Reemplazo ("la IA hace el trabajo"): 26.** **Recorte enmarcado como inversión en IA: 6** —
+Meta, Cisco, Pinterest, Atlassian, ZoomInfo y GitLab, todas cotizan en bolsa. La etiqueta interna es
+`ai_capex_reallocation`, pero "invertir en IA" no es lo mismo en cada una: solo **Meta** ata el
+recorte a infraestructura verificable (guía de capex récord 2026, US$125-145B, más el traslado de
+~7.000 personas a equipos de IA). En el resto es una intención declarada sin cifra: Pinterest habla
+de "roles y productos con IA", Atlassian de "autofinanciar" la inversión *sin compromiso de capex*,
+ZoomInfo/Cisco de reorientar el gasto "hacia la IA", y GitLab promete infraestructura tras haber
+dicho un mes antes que el mismo recorte "no era una optimización por IA". El `cause_evidence` de cada
+evento registra la cita.
 
 → **Oracle:** 21.000 personas = 19 % del total. `causes = ['ai_substitution_claim',
 'cost_cutting', 'm_and_a']`, `ai_claim_verdict = 'thin_evidence'`. Los correos de marzo
