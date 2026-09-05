@@ -74,11 +74,20 @@ def dato_4_dos_caras():
           f"(mención propia = línea condicional en el 10-K, Item 1A + Note 7)")
 
 
-def dato_5_block():
-    """Block: dijo automatizar con IA y recontrató a despedidos para los mismos roles."""
-    b = next(e for e in D if e["company"] == "Block")
-    print(f"[5] Block: {b.get('laid_off')} personas | causes={b['causes']} | "
-          f"verdict={b['ai_claim_verdict']}  (recontratación documentada en prensa)")
+def dato_5_sin_senal_ia():
+    """En los 91 sin señal de IA, buscamos igual si el recorte pudo ser IA."""
+    AI = {"ai_substitution_claim", "ai_capex_reallocation", "ai_framing_vague",
+          "ai_press_narrative", "ai_denied"}
+    nosig = [e for e in D if not (set(e["causes"]) & AI)]
+    heads = sum(e["laid_off"] for e in nosig if e.get("laid_off"))
+    conc = [e for e in nosig if set(e["causes"]) &
+            {"shutdown", "m_and_a", "financial_distress", "market_exit", "demand_collapse"}]
+    unk = [e for e in nosig if e["causes"] == ["unknown"]]
+    print(f"[5] sin señal de IA: {len(nosig)} anuncios, {heads:,} personas = "
+          f"{100*heads/HEADS:.0f}% del total")
+    print(f"    motivo concreto/verificable: {len(conc)} | sin motivo alguno (unknown): {len(unk)} "
+          f"| resto con motivo vago (reestructuración/costos)")
+    print("    no hay test positivo para una sustitución no declarada ni reportada")
 
 
 def dato_6_negaciones():
@@ -130,7 +139,7 @@ if __name__ == "__main__":
     print(f"Público (Post-IPO)={len(PUB)} | Privado={len(PRIV)} | "
           f"Unknown excluido={len(D)-len(PUB)-len(PRIV)}\n")
     for fn in (dato_1_mapa_de_causas, dato_2_meli_unica, dato_3_ia_casi_nunca_sola,
-               dato_4_dos_caras, dato_5_block, dato_6_negaciones,
+               dato_4_dos_caras, dato_5_sin_senal_ia, dato_6_negaciones,
                dato_7_sobrecontratacion, dato_8_publicas_vs_privadas):
         print(f"--- {fn.__doc__.splitlines()[0]}")
         fn()

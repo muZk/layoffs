@@ -108,6 +108,31 @@ to result, in reductions to our workforce"*), sin cifra atribuida. Por eso su re
 
 ---
 
+## Dato 5
+
+**"En los 91 anuncios donde nadie nombró la IA, buscamos igual si el recorte pudo ser IA."**
+
+```python
+AI = {"ai_substitution_claim", "ai_capex_reallocation", "ai_framing_vague",
+      "ai_press_narrative", "ai_denied"}
+nosig = [e for e in D if not (set(e["causes"]) & AI)]                   # 91
+conc  = [e for e in nosig if set(e["causes"]) &
+         {"shutdown", "m_and_a", "financial_distress", "market_exit", "demand_collapse"}]  # 22
+unk   = [e for e in nosig if e["causes"] == ["unknown"]]                # 10
+```
+
+→ **91 anuncios sin ninguna señal de IA** (ni de la empresa ni de la prensa), **28.467 personas =
+26 %** del total. De ellos: **22** tienen un motivo concreto y verificable con hechos públicos
+(cierre, fusión, contrato perdido, caída de demanda) que no necesita la IA para explicarse; en la
+mayoría del resto el motivo es vago (reestructuración o costos, como en el [Dato 1](#dato-1));
+**10** no dan motivo alguno.
+
+Esto no prueba un negativo: ningún registro público descarta que un despido haya sido, en
+silencio, por IA. Lo verificable es que en ninguno de los 91 aparece una señal de IA, ni siquiera
+de la prensa. No hay un test positivo para una sustitución que nadie declaró ni reportó.
+
+---
+
 ## Dato 6
 
 **"Tres empresas negaron la IA de frente; en 16 el vínculo lo puso solo la prensa."**
