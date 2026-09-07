@@ -64,7 +64,7 @@ def causas_mapa():
         ("Reestructuración sin especificar", "restructuring_unspecified", False),
         ("Recorte de costos",                "cost_cutting",             False),
         ("La empresa: la IA hace el trabajo","ai_substitution_claim",    True),
-        ("La empresa menciona la IA, vaga",  "ai_framing_vague",         True),
+        ("La empresa nombra la IA sin detalle","ai_framing_vague",       True),
         ("El vínculo lo pone la prensa",     "ai_press_narrative",       True),
         ("Fusión o adquisición",             "m_and_a",                  False),
     ]
@@ -100,54 +100,55 @@ def causas_mapa():
 
 def publico_privado():
     rows = [
-        ("Recorte de costos",          "cost_cutting"),
-        ("La IA hace el trabajo",      "ai_substitution_claim"),
+        ("Recorte de costos",           "cost_cutting"),
+        ("La IA hace el trabajo",       "ai_substitution_claim"),
         ("Recortar para invertir en IA","ai_capex_reallocation"),
-        ("Fusión o adquisición",       "m_and_a"),
-        ("La IA como marco vago",      "ai_framing_vague"),
-        ("Pivote de estrategia",       "strategic_pivot"),
-        ("Cierre total",               "shutdown"),
+        ("Fusión o adquisición",        "m_and_a"),
+        ("Mención vaga de la IA",       "ai_framing_vague"),
+        ("Pivote de estrategia",        "strategic_pivot"),
+        ("Cierre total",                "shutdown"),
     ]
     labels = [r[0] for r in rows]
     pub = [freq(PUB, r[1]) for r in rows]
     priv = [freq(PRIV, r[1]) for r in rows]
-    mx = max(max(pub), max(priv)) * 1.15
+    mx = max(max(pub), max(priv)) * 1.16
 
-    fig, ax = plt.subplots(figsize=(8.6, 4.8))
-    y = list(range(len(rows)))
-    ax.barh(y, [-v for v in priv], color=MUTED, height=0.6, zorder=3)
-    ax.barh(y, pub, color=ACCENT, height=0.6, zorder=3)
-    ax.invert_yaxis()
-    ax.axvline(0, color="#C9CDd6", lw=1, zorder=2)
+    STEP, BH = 1.5, 0.5
+    y = [i * STEP for i in range(len(rows))]
+    fig, ax = plt.subplots(figsize=(9.0, 6.4))
+    ax.barh(y, [-v for v in priv], color=MUTED, height=BH, zorder=3)
+    ax.barh(y, pub, color=ACCENT, height=BH, zorder=3)
+    ax.axvline(0, color="#C9CDD6", lw=1, zorder=2)
     ax.set_xlim(-mx, mx)
     ax.set_yticks([])
     ax.set_xticks([])
     for s in ("top", "right", "bottom", "left"):
         ax.spines[s].set_visible(False)
 
-    for i in y:
-        # etiqueta de la causa, centrada, con caja blanca
-        ax.text(0, i - 0.42, labels[i], ha="center", va="bottom", fontsize=10.5,
-                color=INK, zorder=6,
-                bbox=dict(boxstyle="round,pad=0.15", fc="white", ec="none"))
+    for i, yy in enumerate(y):
+        # etiqueta de la causa: en el aire, arriba de cada par de barras
+        ax.text(0, yy - BH / 2 - 0.14, labels[i], ha="center", va="bottom",
+                fontsize=11.5, color=INK, fontweight="bold", zorder=6)
         if priv[i] > 0.4:
-            ax.text(-priv[i] - mx * 0.02, i, f"{priv[i]:.0f}%", ha="right", va="center",
-                    fontsize=10, color=MUTED, fontweight="bold")
+            ax.text(-priv[i] - mx * 0.02, yy, f"{priv[i]:.0f}%", ha="right", va="center",
+                    fontsize=10.5, color=MUTED, fontweight="bold")
         if pub[i] > 0.4:
-            ax.text(pub[i] + mx * 0.02, i, f"{pub[i]:.0f}%", ha="left", va="center",
-                    fontsize=10, color=ACCENT, fontweight="bold")
+            ax.text(pub[i] + mx * 0.02, yy, f"{pub[i]:.0f}%", ha="left", va="center",
+                    fontsize=10.5, color=ACCENT, fontweight="bold")
 
-    ax.text(-mx, -1.15, "PRIVADAS", ha="left", va="center", fontsize=11.5,
+    top = y[0] - 1.05
+    ax.text(-mx, top, "PRIVADAS", ha="left", va="center", fontsize=12,
             color=MUTED, fontweight="bold")
-    ax.text(mx, -1.15, "PÚBLICAS", ha="right", va="center", fontsize=11.5,
+    ax.text(mx, top, "PÚBLICAS", ha="right", va="center", fontsize=12,
             color=ACCENT, fontweight="bold")
-    ax.set_ylim(len(rows) - 0.4, -1.6)
-    ax.set_title("Las causas se separan por tipo de empresa", pad=34, loc="left", x=-0.0)
-    ax.text(0.5, 1.075, "Las públicas concentran el 88% de las personas · el capex de IA es solo público; el cierre, solo privado",
-            transform=ax.transAxes, fontsize=10, color=MUTED, ha="center")
+    ax.set_ylim(y[-1] + BH / 2 + 0.35, y[0] - 1.5)
+    fig.text(0.035, 0.945, "Las causas se separan por tipo de empresa",
+             fontsize=16, fontweight="bold", color=INK)
+    fig.text(0.035, 0.895, "Las públicas concentran el 88% de las personas · el capex de IA es solo público; el cierre, solo privado",
+             fontsize=10, color=MUTED)
     fig.text(0.99, 0.02, "trabajoremoto.cl · 161 despidos tech, ene–jun 2026",
              ha="right", fontsize=8.5, color=MUTED)
-    fig.subplots_adjust(left=0.04, right=0.96, top=0.80, bottom=0.08)
+    fig.subplots_adjust(left=0.05, right=0.95, top=0.85, bottom=0.07)
     fig.savefig(CHARTS / "publico_privado.png")
     plt.close(fig)
     print("publico_privado.png: pub", [f"{v:.0f}" for v in pub], "priv", [f"{v:.0f}" for v in priv])
