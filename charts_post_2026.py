@@ -73,6 +73,7 @@ def causas_mapa():
     ]
     labels = [r[0] for r in rows]
     vals = [freq(D, r[1]) for r in rows]
+    counts = [sum(1 for e in D if has(e, r[1])) for r in rows]
     cols = [ACCENT if r[2] else MUTED for r in rows]
 
     fig, ax = plt.subplots(figsize=(8.8, 4.6))
@@ -81,17 +82,20 @@ def causas_mapa():
     ax.set_yticks(list(y))
     ax.set_yticklabels(labels)
     ax.invert_yaxis()
-    ax.set_xlim(0, max(vals) * 1.16)
+    ax.set_xlim(0, max(vals) * 1.32)
     for i, v in enumerate(vals):
-        ax.text(v + max(vals) * 0.015, i, f"{v:.0f}%", va="center", ha="left",
-                fontsize=12, color=INK, fontweight="bold")
+        ax.annotate(f"  {counts[i]}", (v, i), va="center", ha="left",
+                    fontsize=14, color=INK, fontweight="bold")
+        ax.annotate(f"  ({v:.0f}%)", (v, i), va="center", ha="left",
+                    fontsize=10.5, color=MUTED,
+                    xytext=(28, 0), textcoords="offset points")
     ax.set_xticks([])
     for s in ("top", "right", "bottom"):
         ax.spines[s].set_visible(False)
     ax.spines["left"].set_color(GRID)
     fig.text(0.035, 0.925, "Los motivos de los 161 despidos",
              fontsize=16, fontweight="bold", color=INK)
-    fig.text(0.035, 0.865, "En qué % de los anuncios aparece cada causa (uno puede tener varias) · en azul, las 3 formas de nombrar la IA",
+    fig.text(0.035, 0.865, "Número de anuncios (de 161) en que aparece cada motivo, de mayor a menor · uno puede tener varios · en azul, la IA",
              fontsize=10.5, color=MUTED)
     fig.text(0.99, 0.02, "trabajoremoto.cl · 161 despidos tech, ene–jun 2026",
              ha="right", fontsize=8.5, color=MUTED)
