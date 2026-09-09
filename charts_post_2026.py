@@ -66,8 +66,8 @@ def causas_mapa():
     rows = [
         ("Reestructuración sin especificar", "restructuring_unspecified", False),
         ("Recorte de costos",                "cost_cutting",             False),
-        ("La empresa: la IA hace el trabajo","ai_substitution_claim",    True),
-        ("La empresa nombra la IA sin detalle","ai_framing_vague",       True),
+        ("La IA hace el trabajo",            "ai_substitution_claim",    True),
+        ("Mención vaga de la IA",            "ai_framing_vague",         True),
         ("El vínculo lo pone la prensa",     "ai_press_narrative",       True),
         ("Fusión o adquisición",             "m_and_a",                  False),
     ]
@@ -89,9 +89,9 @@ def causas_mapa():
     for s in ("top", "right", "bottom"):
         ax.spines[s].set_visible(False)
     ax.spines["left"].set_color(GRID)
-    fig.text(0.035, 0.925, "El motivo más común es un no-motivo",
+    fig.text(0.035, 0.925, "Los motivos de los 161 despidos",
              fontsize=16, fontweight="bold", color=INK)
-    fig.text(0.035, 0.865, "En qué % de los 161 despidos aparece cada causa · en azul, las tres formas de nombrar la IA",
+    fig.text(0.035, 0.865, "En qué % de los anuncios aparece cada causa (uno puede tener varias) · en azul, las 3 formas de nombrar la IA",
              fontsize=10.5, color=MUTED)
     fig.text(0.99, 0.02, "trabajoremoto.cl · 161 despidos tech, ene–jun 2026",
              ha="right", fontsize=8.5, color=MUTED)
@@ -194,9 +194,9 @@ def embudo():
             ax.text(0.5, (yc[i - 1] + y) / 2, "salen  " + drop, ha="center",
                     va="center", color=MUTED, fontsize=8.8, zorder=4)
 
-    fig.text(0.035, 0.955, "De 161 despidos a uno solo",
+    fig.text(0.035, 0.955, "¿Cuántos despidos fueron realmente por la IA?",
              fontsize=17, fontweight="bold", color=INK)
-    fig.text(0.035, 0.905, "En cada paso quitamos los que no resisten. Al final queda MercadoLibre: 116 personas, el 0,1% del total.",
+    fig.text(0.035, 0.905, "Filtramos los 161 anuncios hasta los casos donde la IA es de verdad la causa. Queda uno: MercadoLibre, 116 personas, el 0,1%.",
              fontsize=10.5, color=MUTED)
     fig.text(0.99, 0.02, "trabajoremoto.cl · 161 despidos tech, ene–jun 2026",
              ha="right", fontsize=8.5, color=MUTED)
