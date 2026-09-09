@@ -165,7 +165,7 @@ def embudo():
         (26,  'la empresa dice: "la IA hace el trabajo"',
               "16 solo la prensa · 3 la negaron · 19 mención vaga · 6 recorte para invertir en IA", 0.40),
         (3,   "se sostienen al revisar los hechos", "11 se contradicen · 12 sin forma de verificar", 0.22),
-        (1,   "MercadoLibre: la IA como única causa", "Coinbase y Wix: la IA convive con otras causas", 0.14),
+        (1,   "MercadoLibre — 116 personas (0,1%)", "Coinbase y Wix: la IA convive con otras causas", 0.14),
     ]
     yc = [0.79, 0.625, 0.46, 0.295, 0.135]
     BH = 0.11
@@ -196,7 +196,7 @@ def embudo():
 
     fig.text(0.035, 0.955, "¿Cuántos despidos fueron realmente por la IA?",
              fontsize=17, fontweight="bold", color=INK)
-    fig.text(0.035, 0.905, "Filtramos los 161 anuncios hasta los casos donde la IA es de verdad la causa. Queda uno: MercadoLibre, 116 personas, el 0,1%.",
+    fig.text(0.035, 0.905, "Filtramos los 161 anuncios hasta los casos donde la IA es realmente la causa del despido.",
              fontsize=10.5, color=MUTED)
     fig.text(0.99, 0.02, "trabajoremoto.cl · 161 despidos tech, ene–jun 2026",
              ha="right", fontsize=8.5, color=MUTED)
