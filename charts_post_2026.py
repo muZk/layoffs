@@ -13,6 +13,7 @@ from pathlib import Path
 
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
+from matplotlib.patches import Rectangle
 
 ROOT = Path("/Users/muzk/code/layoffs")
 CHARTS = ROOT / "charts"
@@ -24,10 +25,12 @@ if _JOST.exists():
     font_manager.fontManager.addfont(str(_JOST))
     FAM = "Jost"
 
-INK    = "#191E28"
-MUTED  = "#8992A1"   # neutral / privadas / causas no-IA
-ACCENT = "#A96D0E"   # ámbar / IA / públicas
-GRID   = "#E7E9EE"
+# paleta "color pop": acento vivo sobre grises fríos
+INK    = "#16181D"
+MUTED  = "#9AA3B2"   # neutral / privadas / causas no-IA
+ACCENT = "#3D5AFE"   # índigo eléctrico / IA / públicas / hilo del embudo
+POP2   = "#FF5247"   # coral / el remate (MercadoLibre)
+GRID   = "#EBEDF2"
 
 plt.rcParams.update({
     "font.family": FAM,
@@ -88,11 +91,11 @@ def causas_mapa():
     ax.spines["left"].set_color(GRID)
     fig.text(0.035, 0.925, "El motivo más común es un no-motivo",
              fontsize=16, fontweight="bold", color=INK)
-    fig.text(0.035, 0.865, "En qué % de los 161 despidos aparece cada causa · en ámbar, las tres formas de nombrar la IA",
+    fig.text(0.035, 0.865, "En qué % de los 161 despidos aparece cada causa · en azul, las tres formas de nombrar la IA",
              fontsize=10.5, color=MUTED)
     fig.text(0.99, 0.02, "trabajoremoto.cl · 161 despidos tech, ene–jun 2026",
              ha="right", fontsize=8.5, color=MUTED)
-    fig.subplots_adjust(left=0.34, right=0.97, top=0.80, bottom=0.10)
+    fig.subplots_adjust(left=0.345, right=0.97, top=0.80, bottom=0.10)
     fig.savefig(CHARTS / "causas_mapa.png")
     plt.close(fig)
     print("causas_mapa.png:", [f"{v:.0f}" for v in vals])
@@ -154,7 +157,57 @@ def publico_privado():
     print("publico_privado.png: pub", [f"{v:.0f}" for v in pub], "priv", [f"{v:.0f}" for v in priv])
 
 
+def embudo():
+    # (cuenta, descripción, texto de lo que sale antes de este paso, ancho 0-1)
+    stages = [
+        (161, "anuncios de despidos", None, 0.90),
+        (70,  "mencionan la IA de alguna forma", "91 no la nombraron (ni la empresa ni la prensa)", 0.60),
+        (26,  'la empresa dice: "la IA hace el trabajo"',
+              "16 solo la prensa · 3 la negaron · 19 mención vaga · 6 recorte para invertir en IA", 0.40),
+        (3,   "se sostienen al revisar los hechos", "11 se contradicen · 12 sin forma de verificar", 0.22),
+        (1,   "MercadoLibre: la IA como única causa", "Coinbase y Wix: la IA convive con otras causas", 0.14),
+    ]
+    yc = [0.79, 0.625, 0.46, 0.295, 0.135]
+    BH = 0.11
+    fig, ax = plt.subplots(figsize=(8.8, 7.4))
+    ax.set_xlim(0, 1)
+    ax.set_ylim(0, 1)
+    ax.axis("off")
+
+    for i, (cnt, desc, drop, w) in enumerate(stages):
+        y = yc[i]
+        color = POP2 if cnt == 1 else ACCENT
+        ax.add_patch(Rectangle((0.5 - w / 2, y - BH / 2), w, BH, fc=color,
+                               ec="none", zorder=3))
+        if w >= 0.38:  # cabe adentro
+            ax.text(0.5, y + 0.016, str(cnt), ha="center", va="center",
+                    color="white", fontsize=25, fontweight="bold", zorder=4)
+            ax.text(0.5, y - 0.028, desc, ha="center", va="center",
+                    color="white", fontsize=10, zorder=4)
+        else:  # barra chica: número adentro, descripción a la derecha
+            ax.text(0.5, y, str(cnt), ha="center", va="center",
+                    color="white", fontsize=19, fontweight="bold", zorder=4)
+            ax.text(0.5 + w / 2 + 0.02, y, desc, ha="left", va="center",
+                    color=(POP2 if cnt == 1 else INK), fontsize=10.5,
+                    fontweight="bold", zorder=4)
+        if drop:
+            ax.text(0.5, (yc[i - 1] + y) / 2, "salen  " + drop, ha="center",
+                    va="center", color=MUTED, fontsize=8.8, zorder=4)
+
+    fig.text(0.035, 0.955, "De 161 despidos a uno solo",
+             fontsize=17, fontweight="bold", color=INK)
+    fig.text(0.035, 0.905, "En cada paso quitamos los que no resisten. Al final queda MercadoLibre: 116 personas, el 0,1% del total.",
+             fontsize=10.5, color=MUTED)
+    fig.text(0.99, 0.02, "trabajoremoto.cl · 161 despidos tech, ene–jun 2026",
+             ha="right", fontsize=8.5, color=MUTED)
+    fig.subplots_adjust(left=0.02, right=0.98, top=0.99, bottom=0.01)
+    fig.savefig(CHARTS / "embudo.png")
+    plt.close(fig)
+    print("embudo.png ok")
+
+
 if __name__ == "__main__":
     causas_mapa()
     publico_privado()
+    embudo()
     print("OK ->", CHARTS)
