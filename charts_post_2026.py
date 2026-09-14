@@ -192,7 +192,7 @@ def embudo():
         (70,  "mencionan la IA de alguna forma", "91 no la nombraron (ni la empresa ni la prensa)", 0.60),
         (26,  'la empresa dice: "la IA hace el trabajo"',
               "16 solo la prensa · 3 la negaron · 19 mención vaga · 6 recorte para invertir en IA", 0.40),
-        (3,   "se sostienen al revisar los hechos", "11 se contradicen · 12 sin forma de verificar", 0.22),
+        (3,   "con respaldo en los hechos", "11 se contradicen · 12 sin respaldo", 0.22),
         (1,   "MercadoLibre — 116 personas (0,1%)", "Coinbase y Wix: la IA convive con otras causas", 0.14),
     ]
     yc = [0.79, 0.625, 0.46, 0.295, 0.135]
