@@ -1,10 +1,10 @@
-# Sources — fuente de cada evento de layoff
+# Fuentes por evento de layoff
 
-*Mapping auditable de los eventos del dataset 2026. Cada fila lista la empresa, el count, la fuente original de layoffs.fyi, y (si la original estaba bloqueada) la fuente alternativa usada para recuperar la razón. **Generado automáticamente por `categorize.py`** — no editar a mano.*
+*Mapeo auditable de los eventos del dataset 2026. Cada fila lista la empresa, el conteo, la fuente original de layoffs.fyi y, si la original estaba bloqueada, la fuente alternativa usada para recuperar la razón. El archivo se derivó del dataset curado (`2026-categorized.json`).*
 
 Referenciado desde [`methodology.md`](methodology.md) sección 2.
 
-Columnas: **fuente original** = el campo `Source` de layoffs.fyi. **fuente recovery** = fuente alternativa cuando la original era paywall/blocked (vacío si la original era accesible).
+Columnas: `fuente original` es el campo `Source` de layoffs.fyi. `fuente recovery` es la fuente alternativa cuando la original estaba bloqueada por paywall (vacío si la original era accesible).
 
 | Fecha | Empresa | # | narrative_source | Fuente original | Fuente recovery (si aplica) |
 |---|---|---:|---|---|---|

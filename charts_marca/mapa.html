@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --card1:#ffffff; --card2:#f3f1fb; --border:rgba(20,20,60,.08);
+    --ink:#1a1d29; --muted:#5c6478; --faint:#8a90a2;
+    --accent:#6d4bd8; --bar:#c9bbf0; --track:#ece7f8;
+  }
+  *{box-sizing:border-box; margin:0}
+  body{font-family:"Jost","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-variant-numeric:tabular-nums; -webkit-font-smoothing:antialiased;
+    color:var(--ink); background:var(--card2); padding:0}
+  .card{background:var(--card2);
+    width:1100px; padding:56px 60px 40px}
+  h1{font-weight:700; font-size:40px; line-height:1.05; letter-spacing:-.015em}
+  .sub{font-weight:400; font-size:19px; color:var(--muted); margin-top:12px; line-height:1.4}
+  .sub b{color:var(--accent); font-weight:600}
+  .chart{width:100%; display:block; overflow:visible; margin-top:26px}
+  .val{font-weight:700; fill:var(--ink)}
+  .lab{font-weight:500; fill:var(--ink)}
+  .pct{font-weight:400; fill:var(--faint)}
+  .foot{font-weight:600; font-size:15px; color:var(--faint); text-align:center; margin-top:22px}
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Los motivos de los 161 despidos</h1>
+    <p class="sub">Número de anuncios en que aparece cada motivo, de mayor a menor. Uno puede tener varios. En <b>morado</b>, la IA.</p>
+    <svg id="chart" class="chart"></svg>
+    <div class="foot">trabajoremoto.cl</div>
+  </div>
+<script>
+const NS="http://www.w3.org/2000/svg";
+function el(t,a){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;}
+const data=[
+  ["Reestructuración sin especificar",65,40,false],
+  ["Despedir para bajar costos",42,26,false],
+  ["Reemplazo por IA",16,10,true],
+  ["Pivote de estrategia",15,9,false],
+  ["Fusión o adquisición",12,7,false],
+  ["Problemas financieros",11,7,false],
+  ["Cierre total",9,6,false],
+  ["Caída de demanda",9,6,false],
+  ["Despedir para invertir en IA",5,3,true],
+];
+const svg=document.getElementById('chart');
+const W=980, padL=330, padR=92, rowH=58, oy=6, bh=34;
+const H=data.length*rowH+oy;
+const max=Math.max(...data.map(d=>d[1]));
+const barMax=W-padL-padR;
+svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+data.forEach((d,i)=>{
+  const yc=oy+i*rowH+rowH/2, by=yc-bh/2;
+  const bw=barMax*d[1]/max;
+  svg.appendChild(el('rect',{x:padL,y:by,width:barMax,height:bh,rx:8,fill:'var(--track)'}));
+  svg.appendChild(el('rect',{x:padL,y:by,width:bw,height:bh,rx:8,fill:'var(--accent)','fill-opacity':d[3]?1:.4}));
+  let t=el('text',{x:padL-16,y:yc,'text-anchor':'end','dominant-baseline':'central',class:'lab','font-size':19}); t.textContent=d[0]; svg.appendChild(t);
+  t=el('text',{x:padL+bw+14,y:yc,'dominant-baseline':'central',class:'val','font-size':25}); t.textContent=d[1]; svg.appendChild(t);
+  t=el('text',{x:padL+bw+14+(d[1]>=10?38:24),y:yc,'dominant-baseline':'central',class:'pct','font-size':16}); t.textContent=`${d[2]}%`; svg.appendChild(t);
+});
+</script>
+</body>
+</html>

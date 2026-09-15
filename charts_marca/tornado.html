@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --card1:#ffffff; --card2:#f3f1fb; --border:rgba(20,20,60,.08);
+    --ink:#1a1d29; --muted:#5c6478; --faint:#8a90a2;
+    --accent:#6d4bd8; --bar:#c9bbf0; --track:#ece7f8; --axis:rgba(20,20,60,.14);
+  }
+  *{box-sizing:border-box; margin:0}
+  body{font-family:"Jost","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-variant-numeric:tabular-nums; -webkit-font-smoothing:antialiased;
+    color:var(--ink); background:var(--card2); padding:0}
+  .card{background:var(--card2);
+    width:1040px; padding:52px 56px 34px}
+  h1{font-weight:700; font-size:38px; line-height:1.06; letter-spacing:-.015em}
+  .sub{font-weight:400; font-size:18px; color:var(--muted); margin-top:12px; line-height:1.4}
+  .chart{width:100%; display:block; overflow:visible; margin-top:22px}
+  .lab{font-weight:500; fill:var(--ink)}
+  .vpriv{font-weight:700; fill:var(--muted)}
+  .vpub{font-weight:700; fill:var(--accent)}
+  .hd{font-weight:700; letter-spacing:.04em}
+  .foot{font-weight:600; font-size:15px; color:var(--faint); text-align:center; margin-top:16px}
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Las causas se separan por tipo de empresa</h1>
+    <p class="sub">Las públicas concentran el 88% de las personas. El capex de IA es solo público; el cierre, solo privado.</p>
+    <svg id="chart" class="chart"></svg>
+    <div class="foot">trabajoremoto.cl</div>
+  </div>
+<script>
+const NS="http://www.w3.org/2000/svg";
+function el(t,a){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;}
+// [etiqueta, priv%, pub%]
+const data=[
+  ["Despedir para bajar costos",18,36],
+  ["Reemplazo por IA",4,18],
+  ["Despedir para invertir en IA",0,7],
+  ["Fusión o adquisición",10,4],
+  ["Pivote de estrategia",17,1],
+  ["Cierre total",11,0],
+];
+const svg=document.getElementById('chart');
+const W=928, cx=W/2, headH=34, rowH=80, oy=headH+8, barH=26;
+const H=oy+data.length*rowH+8;
+const maxPct=Math.max(...data.flatMap(d=>[d[1],d[2]]));
+const barMax=cx-78;
+svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+// headers
+let t=el('text',{x:cx-barMax,y:18,class:'hd vpriv','font-size':17}); t.textContent='PRIVADAS'; svg.appendChild(t);
+t=el('text',{x:cx+barMax,y:18,'text-anchor':'end',class:'hd vpub','font-size':17}); t.textContent='PÚBLICAS'; svg.appendChild(t);
+// eje central
+svg.appendChild(el('line',{x1:cx,y1:oy,x2:cx,y2:H-6,stroke:'var(--axis)','stroke-width':1.4}));
+data.forEach((d,i)=>{
+  const yLab=oy+i*rowH+26, yBar=yLab+14;
+  t=el('text',{x:cx,y:yLab,'text-anchor':'middle',class:'lab','font-size':18}); t.textContent=d[0]; svg.appendChild(t);
+  const pw=d[1]/maxPct*barMax, uw=d[2]/maxPct*barMax;
+  if(d[1]>0){
+    svg.appendChild(el('rect',{x:cx-pw,y:yBar,width:pw,height:barH,rx:7,fill:'var(--bar)'}));
+    t=el('text',{x:cx-pw-10,y:yBar+barH/2,'text-anchor':'end','dominant-baseline':'central',class:'vpriv','font-size':16}); t.textContent=d[1]+'%'; svg.appendChild(t);
+  }
+  if(d[2]>0){
+    svg.appendChild(el('rect',{x:cx,y:yBar,width:uw,height:barH,rx:7,fill:'var(--accent)'}));
+    t=el('text',{x:cx+uw+10,y:yBar+barH/2,'dominant-baseline':'central',class:'vpub','font-size':16}); t.textContent=d[2]+'%'; svg.appendChild(t);
+  }
+});
+</script>
+</body>
+</html>

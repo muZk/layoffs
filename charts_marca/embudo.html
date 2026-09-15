@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --card1:#ffffff; --card2:#f3f1fb; --border:rgba(20,20,60,.08);
+    --ink:#1a1d29; --muted:#5c6478; --faint:#8a90a2;
+    --accent:#6d4bd8; --bar:#c9bbf0; --track:#ece7f8;
+  }
+  *{box-sizing:border-box; margin:0}
+  body{font-family:"Jost","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-variant-numeric:tabular-nums; -webkit-font-smoothing:antialiased;
+    color:var(--ink); background:var(--card2); padding:0}
+  .card{background:var(--card2);
+    width:940px; padding:52px 56px 34px}
+  h1{font-weight:700; font-size:38px; line-height:1.06; letter-spacing:-.015em}
+  .sub{font-weight:400; font-size:18px; color:var(--muted); margin-top:12px; line-height:1.4}
+  .chart{width:100%; display:block; overflow:visible; margin-top:20px}
+  .big{font-weight:700; fill:var(--ink)}
+  .bigw{font-weight:700; fill:#fff}
+  .desc{font-weight:600; fill:var(--ink)}
+  .descw{font-weight:600; fill:var(--accent)}
+  .drop{font-weight:400; fill:var(--faint)}
+  .foot{font-weight:600; font-size:15px; color:var(--faint); text-align:center; margin-top:14px}
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>¿Cuántos despidos fueron realmente por la IA?</h1>
+    <p class="sub">Filtramos los 161 anuncios hasta el único donde la IA es la causa del despido.</p>
+    <svg id="chart" class="chart"></svg>
+    <div class="foot">trabajoremoto.cl</div>
+  </div>
+<script>
+const NS="http://www.w3.org/2000/svg";
+function el(t,a){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;}
+// [conteo, descripción, frac ancho, textoDrop]
+const stages=[
+  [161,"anuncios de despidos",0.94,null],
+  [71,"mencionan la IA de alguna forma",0.64,"salen 90 · no la nombraron (ni la empresa ni la prensa)"],
+  [16,"la empresa dice que fue reemplazo por IA",0.42,"salen 55 · la nombran, pero no como reemplazo (framing, capex o negada)"],
+  [1,"MercadoLibre, 116 personas (0,1%)",0.15,"salen 15 · se contradicen o no tienen pruebas"],
+];
+const svg=document.getElementById('chart');
+const W=828, cx=W/2, bh=82, step=190, oy=20;
+const H=oy+(stages.length-1)*step+bh+58;
+svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+stages.forEach((s,i)=>{
+  const [cnt,desc,frac,drop]=s;
+  const yTop=oy+i*step, w=frac*W, x=cx-w/2, meli=(cnt===1);
+  if(drop){
+    let t=el('text',{x:cx,y:yTop-step/2+bh/2+6,'text-anchor':'middle',class:'drop','font-size':16});
+    t.textContent=drop; svg.appendChild(t);
+  }
+  svg.appendChild(el('rect',{x,y:yTop,width:w,height:bh,rx:14,fill:'var(--accent)','fill-opacity':meli?1:.42}));
+  let t=el('text',{x:cx,y:yTop+bh/2- (meli?0:2),'text-anchor':'middle','dominant-baseline':'central',class:meli?'bigw':'big','font-size':meli?38:44});
+  t.textContent=cnt; svg.appendChild(t);
+  // descripción bajo la barra
+  t=el('text',{x:cx,y:yTop+bh+26,'text-anchor':'middle',class:meli?'descw':'desc','font-size':meli?19:18});
+  t.textContent=desc; svg.appendChild(t);
+});
+</script>
+</body>
+</html>
