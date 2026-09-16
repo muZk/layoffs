@@ -1,6 +1,6 @@
 # Layoffs 2026 categorization schema
 
-Five classification axes plus four optional enrichment columns. Applied to 163 entries: 158 from the layoffs.fyi public Airtable (pull through 2026-05-25; one Vimeo duplicate merged, GitLab's May 11 announcement superseded by its June 3 execution), plus 5 hand-added June–July events (GitLab, Robinhood, Bungie, Microsoft ×2).
+Five classification axes, a multi-causal layer, a role-of-AI axis (`papel_ia`, reconciled 2026-09), plus four optional enrichment columns. Applied to 163 entries: 158 from the layoffs.fyi public Airtable (pull through 2026-05-25; one Vimeo duplicate merged, GitLab's May 11 announcement superseded by its June 3 execution), plus 5 hand-added June–July events (GitLab, Robinhood, Bungie, Microsoft ×2).
 
 ## Source files
 
@@ -58,8 +58,8 @@ Vocabulary revised 2026-07-10. The axis now carries only the mechanism; who clai
 
 | value | meaning |
 |---|---|
-| `direct_substitution` | "AI does or reduces the cut work". Matches the 16 `ai_substitution_claim` events in the causes layer (Block, WiseTech, Snap, Coinbase, and others). Oracle, PayPal and Wix were re-coded `ai_narrative_only` under the genuineness principle; ZoomInfo is `capex_funding`. |
-| `capex_funding` | "The cuts free money for AI investment/infrastructure" (Meta May 20, Cisco, Atlassian, Pinterest). |
+| `direct_substitution` | "AI does or reduces the cut work". 16 records carry it, but only 6 pass the genuineness gate into `ai_substitution_claim` in the causes layer (Angi, MercadoLibre, WiseTech, Snowflake, Freshworks, Kraken). The other 10 (Block, Snap, Coinbase, Upwork, Playtika, Firebolt, ApnaMart, Jumia, ClickUp, Stone) said "smaller teams" or "efficiency", not "AI replaced these people", and read as `papel_ia=eficiencia` or `vaga`. Oracle, PayPal and Wix were re-coded `ai_narrative_only` under the genuineness principle; ZoomInfo is `capex_funding`. |
+| `capex_funding` | "The cuts free money for AI investment/infrastructure" (Meta May 20, Cisco, Atlassian, Pinterest). Cisco keeps this legacy label but lost the `ai_capex_reallocation` cause tag in the 2026-09 reconciliation (its AI mention was vague, `papel_ia=vaga`). |
 | `ai_narrative_only` | AI appears in the company's or press framing, including explicit denials, but no mechanism was stated (Amazon, Intuit, Cloudflare, UKG). Pair with `ai_link_basis` to distinguish denial from vague framing. |
 | `unrelated` | No AI in the story at all (Dell, LinkedIn, Ericsson, Sama, Bungie). |
 | `unknown` | Can't tell, source blocked. Currently unused (0 records): low-evidence rows carry a substantive label with `narrative_source=not_accessible` instead. Filter on the evidence axis before leaning on those labels. |
@@ -79,7 +79,7 @@ Added 2026-07-10 so labels are honest about what is known vs inferred. The old s
 
 Basis for the 31 adjudicated events (the ≥500-head events plus Amazon, ~94.9% of AI-linked headcount) comes from primary sources. The decisive quote and URL per event are recorded in the dataset. Small events get a default derived from `narrative_source` (memo/filing/quote → `company_stated`, `news_inferred` → `press_inferred`), with two documented failure modes: a `ceo_memo` doesn't guarantee the memo makes the AI claim, and a legacy denial label doesn't guarantee a denial exists.
 
-On headcount reporting, don't collapse `ai_link`/`ai_link_basis` into one "AI-related %". A blended headline of that kind was published earlier (roughly half of disclosed heads counted as "AI-caused by the companies' own account") and is retired: it mixed formal company statements, informal ones, and denials into a single number. The 2026-09 multi-causal layer replaced it with an event-count funnel (see Cause vocabulary below): of 161 Jan–Jun announcements, 71 touch AI in some form, 16 have the company claiming substitution, and only 1 of those 16 holds up against the facts (MercadoLibre, 116 people). Report the mechanism split per basis tier instead of a blended percentage. Audited totals use Oracle's 10-K net figure of 21,000, not the never-confirmed 30,000 press estimate; the viral Oracle Catz/Ellison capex quotes couldn't be traced to any real source, so Oracle's coding rests only on its sworn 10-K.
+On headcount reporting, don't collapse `ai_link`/`ai_link_basis` into one "AI-related %". A blended headline of that kind was published earlier (roughly half of disclosed heads counted as "AI-caused by the companies' own account") and is retired: it mixed formal company statements, informal ones, and denials into a single number. The 2026-09 multi-causal layer replaced it with an event-count funnel (see Cause vocabulary and Role of AI below): of 161 Jan–Jun announcements, AI plays some role in 70, is a real cause in 16, and of the 6 company-stated substitution claims only 1 holds up against the facts (MercadoLibre, 116 people). Report the mechanism split per basis tier instead of a blended percentage. Audited totals use Oracle's 10-K net figure of 21,000, not the never-confirmed 30,000 press estimate; the viral Oracle Catz/Ellison capex quotes couldn't be traced to any real source, so Oracle's coding rests only on its sworn 10-K.
 
 ## Axis 3: `narrative_source` (evidence quality)
 
@@ -121,7 +121,7 @@ These are filled in only where deep research exists, currently the ~9 manually-r
 | `reassignment_observed` | bool/null | Did the same restructuring redeploy employees internally rather than cut them? Currently `True` only for Meta May 20 (~7,000 redeployed to four new AI orgs). |
 | `revenue_health` | enum/null | Last reported quarter before the layoff: `strength` (growing + profitable) / `mixed` / `weakness` / `unknown`. From the 2026-07-10 external cross-check pass; only the 24 adjudicated stated-AI events carry values. |
 | `backfill_verdict` | enum/null | Post-cut hiring behavior: `ai_only` / `frozen` / `rehiring_same` / `offshore_swap` / `mixed` / `unknown`. Null for capex events (backfill doesn't test a capex claim). Same 24-event coverage. |
-| `story_integrity` | enum/null | Combined external-evidence call on the company's AI narrative: `holds` / `cracked` (≥1 material fact contradicts the clean story) / `busted` (rehiring/offshoring evidence) / `unknown`. Per-event evidence is recorded in the dataset. An earlier aggregate over company-stated AI heads is retired: the headline is the funnel 161 to 71 to 16 to 1, not a share. |
+| `story_integrity` | enum/null | Combined external-evidence call on the company's AI narrative: `holds` / `cracked` (≥1 material fact contradicts the clean story) / `busted` (rehiring/offshoring evidence) / `unknown`. Per-event evidence is recorded in the dataset. An earlier aggregate over company-stated AI heads is retired: the headline is the funnel 161 to 70 to 16 to 6 to 1, not a share. |
 
 ## Multi-causal layer: `causes`, `cause_evidence`, `ai_claim_verdict` (added 2026-09-02, additive)
 
@@ -133,17 +133,17 @@ Genuineness principle: a cause tag is recorded only when it names a real mechani
 |---|---|---|
 | `causes` | list[str] | ≥1 tag from the vocabulary below. The two `ai_*` tags (`ai_substitution_claim`, `ai_capex_reallocation`) are mutually exclusive with each other and gated by the genuineness principle above. All other tags co-occur freely. `unknown` only ever stands alone. |
 | `cause_evidence` | dict | tag → one-line note on what the tag rests on (which axis fired, or the documented fact). |
-| `ai_mention` | enum | A lens, not a cause: how AI shows up in the announcement regardless of whether it's genuine. Values: `none` (90 events, AI wasn't mentioned at all), `substitution` (16, matches `ai_substitution_claim` in causes), `capex` (5, matches `ai_capex_reallocation`), `framing` (46, AI was named without an operational mechanism, whether by the company or the press), `denied` (4: Amazon, Intuit, Autodesk, Epic Games). |
-| `ai_claim_verdict` | enum | Grades only the AI-substitution claim: `plausible` / `thin_evidence` / `contradicted_soft` / `contradicted_hard` / `capex_not_substitution` / `not_claimed`. |
+| `ai_mention` | enum | A lens, not a cause: how AI shows up in the announcement regardless of whether it's genuine. Values: `none` (90 events, AI wasn't mentioned at all), `substitution` (16), `capex` (5), `framing` (46, AI was named without an operational mechanism, whether by the company or the press), `denied` (4: Amazon, Intuit, Autodesk, Epic Games). Kept as recorded in 2026-09-02; the 2026-09 reconciliation did not re-derive it, so `substitution` (16) and `capex` (5) no longer match the tightened cause tags (6 and 4). `papel_ia` (see Role of AI below) supersedes it as the primary AI lens. |
+| `ai_claim_verdict` | enum | Grades the AI-substitution claim: `plausible` / `thin_evidence` / `contradicted_soft` / `contradicted_hard` / `capex_not_substitution` / `not_claimed`. Graded on the 16 events that carried `ai_substitution_claim` before the 2026-09 tightening; the 10 events that lost the tag keep their verdict as a record of what the earlier grading found. |
 
-Cause vocabulary (Jan–Jun 2026: 161 events; 125 mono-causal, 36 multi-causal). "Multi-causal" was overstated in an earlier version of this schema, which counted an AI mention as a second cause on its own; once that's corrected, most events have a single, usually vague, cause.
+Cause vocabulary (Jan–Jun 2026: 161 events; 123 mono-causal, 38 multi-causal). "Multi-causal" was overstated in an earlier version of this schema, which counted an AI mention as a second cause on its own; once that's corrected, most events have a single, usually vague, cause.
 
 | tag | rule | events |
 |---|---|---|
-| `ai_substitution_claim` | the disputed claim: `ai_link=direct_substitution` with `ai_link_basis` company_stated/company_informal, passing the genuineness principle above. All 16 are company-stated; none are press-only. Zendesk's internal-memo-only mention (no public source) doesn't qualify and is coded `ai_mention=framing` instead | 16 (10%) |
-| `ai_capex_reallocation` | `ai_link=capex_funding`, company-stated: payroll cut to fund AI investment (real, ≠ substitution) | 5: Meta, Cisco, Pinterest, ZoomInfo, GitLab |
+| `ai_substitution_claim` | the disputed claim: the company itself says AI does the work of the people cut, passing the genuineness principle above. Tightened 2026-09 from 16 to 6. All 6 come from the company (4 `company_stated`, 2 `company_informal`: Angi, Snowflake); none are press-only. The 10 that lost the tag (Block, Snap, Coinbase, Upwork, Playtika, Firebolt, ApnaMart, Jumia, ClickUp, Stone) said "smaller teams" or "efficiency with AI" without claiming AI replaced specific people, and now carry only their mundane cause (mostly `restructuring_unspecified` or `cost_cutting`). DraftKings (press-only) and Zendesk (internal memo, no public source) read as `papel_ia=reemplazo` but don't qualify | 6 (4%): Angi, MercadoLibre, WiseTech, Snowflake, Freshworks, Kraken |
+| `ai_capex_reallocation` | `ai_link=capex_funding`, company-stated: payroll cut to fund AI investment (real, ≠ substitution). Cisco lost the tag 2026-09: its AI mention was vague, recoded as plain restructuring | 4: Meta, Pinterest, ZoomInfo, GitLab |
 | `cost_cutting` | `reason_primary` cost_cutting/path_to_profitability, or explicit savings/margin/profitability language | 42 (26%) |
-| `restructuring_unspecified` | `reason_primary=restructuring_vague`, no concrete mechanism stated | 65 (40%) |
+| `restructuring_unspecified` | `reason_primary=restructuring_vague`, no concrete mechanism stated. Rose from 65 to 69 in the 2026-09 tightening, as most of the ex-substitution events landed here | 69 (43%) |
 | `strategic_pivot` | `reason_primary=strategic_pivot` | 15 (9%) |
 | `m_and_a` | `m_and_a_consolidation` + documented merger integration (WiseTech/e2open, Oracle/Cerner, Vimeo/Bending Spoons, eBay/Depop, Staffbase) | 12 (7%) |
 | `financial_distress` | `revenue_health=weakness`, or same-day guidance cut / losses on the record | 11 (7%) |
@@ -160,20 +160,47 @@ Cause vocabulary (Jan–Jun 2026: 161 events; 125 mono-causal, 36 multi-causal).
 
 `ai_framing_vague`, `ai_press_narrative`, `ai_denied`, and `over_hiring` are retired as cause tags. Framing and denial are tracked by `ai_mention` above, not by a `causes` entry; over-hiring lives only in `auditoria-sobrecontratacion.md` (see `hire_overcorrection` above).
 
-`ai_claim_verdict` rules (applied when `ai_substitution_claim` is present, with per-event manual overrides recorded in the dataset):
+`ai_claim_verdict` rules (graded on the 16 events that carried `ai_substitution_claim` on 2026-09-02, with per-event manual overrides recorded in the dataset; the 2026-09 tightening cut the tag to 6 and left the verdicts in place). Events still tagged are listed first; the rest are the 10 recoded events, which keep their verdict as a record:
 
 | value | rule | events |
 |---|---|---|
 | `plausible` | `story_integrity=holds`, external evidence consistent (no rehiring, revenue as stated). Means "not contradicted", not "proven" | 1: MercadoLibre |
-| `contradicted_hard` | `story_integrity=busted` or `rehiring_same_roles` / `offshoring` co-tag | 1: Block |
-| `contradicted_soft` | `story_integrity=cracked`: ≥1 material fact cuts against the clean story (same-day guidance cut, M&A synergy in AI clothing, partial backfill) | 6: WiseTech, Snap, Coinbase, Playtika, Upwork, Kraken |
-| `thin_evidence` | claim made but not externally testable: informal channel with no cross-check, or the claim itself is unquantified | 8: Freshworks, Angi, ClickUp, Jumia, ApnaMart, Stone, Firebolt, Snowflake |
-| `capex_not_substitution` | company's own framing is capex, so there is no substitution claim to grade | 5: Meta, Cisco, Pinterest, ZoomInfo, GitLab |
+| `contradicted_hard` | `story_integrity=busted` or `rehiring_same_roles` / `offshoring` co-tag | 1: Block (recoded `papel_ia=eficiencia`, keeps `rehiring_same_roles`) |
+| `contradicted_soft` | `story_integrity=cracked`: ≥1 material fact cuts against the clean story (same-day guidance cut, M&A synergy in AI clothing, partial backfill) | 6: WiseTech, Kraken; recoded Snap, Coinbase, Playtika, Upwork |
+| `thin_evidence` | claim made but not externally testable: informal channel with no cross-check, or the claim itself is unquantified | 8: Angi, Snowflake, Freshworks; recoded ClickUp, Jumia, ApnaMart, Stone, Firebolt |
+| `capex_not_substitution` | company's own framing is capex, so there is no substitution claim to grade | 5: Meta, Pinterest, ZoomInfo, GitLab; recoded Cisco |
 | `not_claimed` | everything else (unrelated, press-only, vague framing, denied) | 140 |
 
-Headline on the reframe: of the 16 company-made substitution claims, 1 holds (MercadoLibre), 7 are contradicted (1 hard: Block, 6 soft), 8 are too thin to test. Widen the lens to `ai_mention` and the funnel gets starker: of 161 Jan–Jun announcements, 71 touch AI in some form, 16 turn into an actual substitution claim, and only 1 of those 16 survives contact with the facts. Over-hiring is no longer counted as a claim property; a uniform audit showed it is window-dependent and doesn't distinguish claimers from the rest (see `auditoria-sobrecontratacion.md`). Oracle is not among the 16: its AI language sits in Item 1A Risk Factors of the FY26 10-K, not an operational substitution claim, so it's coded `ai_mention=framing` (see the genuineness principle and the Oracle correction below).
+Headline on the reframe: of the 6 company-made substitution claims, 1 holds (MercadoLibre, 116 people, 0.1% of the 108,089 laid off), 2 are contradicted (WiseTech, Kraken, both soft), 3 are too thin to test (Angi, Snowflake, Freshworks). Widen the lens to `papel_ia` and the funnel reads: of 161 Jan–Jun announcements, AI plays some role in 70, is a real cause in 16 (6 substitution claims, 4 capex reallocations, 6 products made obsolete by AI), and only 1 of the 6 substitution claims survives contact with the facts. Over-hiring is no longer counted as a claim property; a uniform audit showed it is window-dependent and doesn't distinguish claimers from the rest (see `auditoria-sobrecontratacion.md`). Oracle is not among the 6: its AI language sits in Item 1A Risk Factors of the FY26 10-K, not an operational substitution claim, so it's coded `ai_mention=framing` and `papel_ia=vaga` (see the genuineness principle and the Oracle correction below).
 
 Oracle correction (2026-09-02): the FY26 10-K AI sentence lives in Item 1A Risk Factors and Note 7, not the Human Capital section as previously recorded (`source_used` fixed); `profiles_cut` trimmed to the two evidence-backed profiles (KC/Cerner WARN 539; India ~12k press-sourced). SVOS/NetSuite/OCI-support figures trace only to SEO content mills. `story_integrity=cracked` still applies at the `ai_link` level, but Oracle does not carry `ai_substitution_claim` in the causes layer: risk-factor language isn't an operational claim, so it's coded `ai_mention=framing` per the genuineness principle above.
+
+## Role of AI: `papel_ia`, `papel_sub`, `fuente_ia`, `nego_ia`, `es_causa_ia` (added 2026-09, reconciled)
+
+The causes layer answers "did the company claim AI replaced these people". It says nothing about the far more common case where AI is in the announcement without being the mechanism. `papel_ia` covers that gap. It is set on every record and classifies the role AI plays in the announcement, whoever put it there. It supersedes `ai_mention` as the primary AI lens; `ai_mention` stays for continuity but was not re-derived.
+
+The two axes are reconciled. `ai_substitution_claim` in `causes` is exactly `papel_ia=reemplazo` with `fuente_ia=empresa` (6 events); `ai_capex_reallocation` is exactly `papel_ia=inversion` with `fuente_ia=empresa` (4 events). A company that only said "smaller teams" or "more productive with AI" is `eficiencia`, not `reemplazo`, and carries no AI cause tag.
+
+| column | type | meaning |
+|---|---|---|
+| `papel_ia` | enum | Role of AI in the announcement. Values below. |
+| `papel_sub` | enum/null | Sub-value for `vaga` and `disrupcion`; null otherwise. |
+| `fuente_ia` | enum | Who linked AI to the cut: `empresa` (52), `prensa` (21), `desconocida` (4, AI appears but the source can't be established, e.g. an internal memo with no public footprint), `ninguna` (84, nobody did). |
+| `nego_ia` | bool | The company explicitly denied AI as the cause. True for 4: Amazon, Epic Games, LinkedIn, Intuit. Overlaps `ai_mention=denied` on Amazon, Epic Games and Intuit; Autodesk carries `ai_mention=denied` and `ai_link_basis=company_denied` but not `nego_ia`, LinkedIn the reverse. |
+| `es_causa_ia` | bool | Is AI a real cause of this cut. True for 16: the 6 `reemplazo` from the company, the 4 `inversion` from the company, and the 6 `mercado_roto`. |
+
+`papel_ia` values (Jan–Jun 2026, 161 events):
+
+| value | meaning | events |
+|---|---|---|
+| `ninguna` | AI not mentioned, or mentioned without any operating role (a press aside, a denial with no AI mechanism behind it). | 91 |
+| `vaga` | AI is named but does nothing in the story. `papel_sub`: `de_pasada` (24, mentioned in passing, e.g. Cisco's "areas of strongest demand in the AI era"), `perfiles_obsoletos` (3, the skill mix or roles are said to change "in the AI era", with no claim that AI does the work: Atlassian, Crypto.com, Wix), `boilerplate_legal` (1, Oracle's 10-K risk-factor sentence). | 28 |
+| `eficiencia` | "Smaller teams using AI", productivity, "AI-first" self-positioning. The company does not claim AI replaced specific people. Block, Snap, Coinbase, Upwork, Firebolt, ApnaMart, Jumia, ClickUp live here. | 19 |
+| `disrupcion` | AI changed the company's market. `papel_sub`: `mercado_roto` (6, the product was made obsolete by AI, usually a shutdown: Digg, Yupp, NeuroPixel.AI, Productboard, Epidemic Sound, AI21 Labs), `pivote_producto` (4, the company pivots its product toward AI: Hailo, Shopify, Pendo, Dune). | 10 |
+| `reemplazo` | The company or the press says AI does the cut work. 6 from the company (the `ai_substitution_claim` set), 1 from the press (DraftKings), 1 from an unknown source (Zendesk). | 8 |
+| `inversion` | The cut funds AI infrastructure. 4 from the company (the `ai_capex_reallocation` set), 1 from the press (Arctic Wolf). | 5 |
+
+Reading the funnel on this axis: AI plays some role in 70 of 161 announcements (`papel_ia != ninguna`); someone linked it in 77 (`fuente_ia != ninguna`, the difference being 7 events where the press or an unknown source mentioned AI with no operating role); it is a real cause in 16 (`es_causa_ia`); the company claims substitution in 6; 1 of those holds.
 
 ## Methodology notes
 

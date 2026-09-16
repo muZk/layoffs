@@ -2,9 +2,12 @@
 
 Dataset auditable de los layoffs tech del primer semestre de 2026 (enero a
 junio, 161 eventos en la ventana `date < 2026-07-01`). Cada evento tiene
-causas clasificadas (`causes`) y un veredicto sobre el reclamo de sustitución
-por IA (`ai_claim_verdict`), sobre los ejes base `reason_primary`, `ai_link`,
-`ai_link_basis`, `narrative_source`, `ai_mention`. El dataset parte de un scrape de
+causas clasificadas (`causes`), el papel que juega la IA en el anuncio
+(`papel_ia`, con `fuente_ia`, `nego_ia` y `es_causa_ia`) y un veredicto sobre
+el reclamo de sustitución por IA (`ai_claim_verdict`), sobre los ejes base
+`reason_primary`, `ai_link`, `ai_link_basis`, `narrative_source`, `ai_mention`.
+De los 161 anuncios, la IA es causa real en 16; de los 6 donde la empresa dice
+que la IA reemplaza personas, uno se sostiene (MercadoLibre, 116 personas). El dataset parte de un scrape de
 [layoffs.fyi](https://layoffs.fyi) y luego se curó a mano, evento por evento. Cada dato
 del análisis y su consulta están en `verificacion.md` y `auditoria-sobrecontratacion.md`.
 

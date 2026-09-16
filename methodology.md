@@ -2,7 +2,7 @@
 
 Cómo se armó el dataset, qué fuentes se usaron, cómo se clasificó cada evento, y qué caveats tener en cuenta.
 
-> Nota (septiembre 2026). Este documento narra la construcción original del dataset y contiene números y clasificaciones que fueron revisados después (la sobre-contratación como "41%", Robinhood/Cloudflare como reclamos de IA, n=164). Para el estado y los números vigentes, ver `verificacion.md` (reproduce cada dato del análisis) y `auditoria-sobrecontratacion.md` (la sobre-contratación como trayectoria). Ventana del análisis: `date < 2026-07-01`, 161 eventos, 108.089 personas con cifra.
+> Nota (septiembre 2026). Este documento narra la construcción original del dataset y contiene números y clasificaciones que fueron revisados después (la sobre-contratación como "41%", Robinhood/Cloudflare como reclamos de IA, n=164, y los 16 reclamos de sustitución por IA, que la reconciliación de septiembre dejó en 6). Para el estado y los números vigentes, ver `verificacion.md` (reproduce cada dato del análisis), `schema.md` (el eje `papel_ia`, que separa reemplazo de eficiencia, inversión, disrupción y mención vaga) y `auditoria-sobrecontratacion.md` (la sobre-contratación como trayectoria). Ventana del análisis: `date < 2026-07-01`, 161 eventos, 108.089 personas con cifra.
 
 Última actualización: 2026-06-18. Versión del dataset: snapshot 2026-05-26 de [layoffs.fyi](https://layoffs.fyi/).
 
@@ -196,6 +196,8 @@ elif "new CEO" + named (Lores, Shapero, Morgan) → "new_ceo_turnaround"
 elif "restructuring" + "aligning" → "restructuring_vague"
 # ... 12 más
 ```
+
+La regla de "smaller teams using AI" fue la que más ruido metió: capturaba como reclamo de sustitución a empresas que solo hablaban de equipos más chicos o de productividad (Block, Snap, Coinbase, Upwork, entre otras). La reconciliación de septiembre de 2026 las movió a `papel_ia = eficiencia` y dejó `ai_substitution_claim` solo donde la empresa dice que la IA hace el trabajo de las personas cortadas (6 eventos). Ver `schema.md`.
 
 Manual overrides (14 casos high-confidence donde el rule-based no captura bien el matiz):
 - Meta × 4 rondas (cada una con `profiles_cut`/`profiles_hired` específicos)

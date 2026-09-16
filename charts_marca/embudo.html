@@ -40,9 +40,9 @@ function el(t,a){const e=document.createElementNS(NS,t);for(const k in a)e.setAt
 // [conteo, descripción, frac ancho, textoDrop]
 const stages=[
   [161,"anuncios de despidos",0.94,null],
-  [71,"mencionan la IA de alguna forma",0.64,"salen 90 · no la nombraron (ni la empresa ni la prensa)"],
-  [16,"la empresa dice que fue reemplazo por IA",0.42,"salen 55 · la nombran, pero no como reemplazo (framing, capex o negada)"],
-  [1,"MercadoLibre, 116 personas (0,1%)",0.15,"salen 15 · se contradicen o no tienen pruebas"],
+  [70,"la IA aparece de alguna forma",0.60,"salen 91 · no la nombran, o no como mecanismo del despido"],
+  [6,"la empresa dice que la IA reemplazó a los despedidos",0.32,"salen 64 · la IA aparece por otro motivo (eficiencia, inversión, mercado roto, mención vaga)"],
+  [1,"MercadoLibre, 116 personas (0,1%)",0.14,"salen 5 · se contradicen o no tienen pruebas"],
 ];
 const svg=document.getElementById('chart');
 const W=828, cx=W/2, bh=82, step=190, oy=20;

@@ -3,6 +3,7 @@ const { chromium } = require('playwright');
 const PORT = process.env.PORT || 8899;
 const jobs = [
   { url: `http://localhost:${PORT}/mapa.html`,    out: 'mapa.png' },
+  { url: `http://localhost:${PORT}/papel.html`,   out: 'papel.png' },
   { url: `http://localhost:${PORT}/embudo.html`,  out: 'embudo.png' },
   { url: `http://localhost:${PORT}/tornado.html`, out: 'tornado.png' },
 ];

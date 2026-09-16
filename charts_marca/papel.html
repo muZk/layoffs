@@ -22,14 +22,13 @@
   .chart{width:100%; display:block; overflow:visible; margin-top:26px}
   .val{font-weight:700; fill:var(--ink)}
   .lab{font-weight:500; fill:var(--ink)}
-  .pct{font-weight:400; fill:var(--faint)}
   .foot{font-weight:600; font-size:15px; color:var(--faint); text-align:center; margin-top:22px}
 </style>
 </head>
 <body>
   <div class="card">
-    <h1>En qué % de los anuncios aparece cada motivo</h1>
-    <p class="sub">161 anuncios de despido tech, enero a junio de 2026. En <b>morado</b>, la IA.</p>
+    <h1>Cuando aparece la IA, casi nunca es reemplazo</h1>
+    <p class="sub">70 de los 161 anuncios nombran a la IA. Solo en <b>8</b> la empresa dice que reemplaza gente.</p>
     <svg id="chart" class="chart"></svg>
     <div class="foot">Fuente: layoffs.fyi + fuentes primarias · trabajoremoto.cl</div>
   </div>
@@ -37,29 +36,25 @@
 const NS="http://www.w3.org/2000/svg";
 function el(t,a){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;}
 const data=[
-  ["Reestructuración sin especificar",69,43,false],
-  ["Despedir para bajar costos",42,26,false],
-  ["Pivote de estrategia",15,9,false],
-  ["Fusión o adquisición",12,7,false],
-  ["Problemas financieros",11,7,false],
-  ["Cierre total",9,6,false],
-  ["Caída de demanda",9,6,false],
-  ["Reemplazo por IA",6,4,true],
-  ["Despedir para invertir en IA",4,2,true],
+  ["Nombrada al pasar, sin explicar",28,false],
+  ["Equipos más chicos, misma pega",19,false],
+  ["El mercado de la empresa se rompió",10,false],
+  ["La IA reemplazó a quien echaron",8,true],
+  ["Recortar para pagar la IA",5,false],
 ];
 const svg=document.getElementById('chart');
-const W=980, padL=330, padR=92, rowH=58, oy=6, bh=34;
+const W=980, padL=440, padR=64, rowH=64, oy=6, bh=36;
 const H=data.length*rowH+oy;
 const barMax=W-padL-padR;
-const maxPct=Math.max(...data.map(d=>d[2]));
-const scale=barMax/(maxPct*1.12);         // sin riel: barra proporcional al %, con aire
+const maxV=Math.max(...data.map(d=>d[1]));
+const scale=barMax/(maxV*1.12);
 svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
 data.forEach((d,i)=>{
   const yc=oy+i*rowH+rowH/2, by=yc-bh/2;
-  const bw=d[2]*scale;
-  svg.appendChild(el('rect',{x:padL,y:by,width:bw,height:bh,rx:8,fill:'var(--accent)','fill-opacity':d[3]?1:.4}));
+  const bw=d[1]*scale;
+  svg.appendChild(el('rect',{x:padL,y:by,width:bw,height:bh,rx:8,fill:'var(--accent)','fill-opacity':d[2]?1:.4}));
   let t=el('text',{x:padL-16,y:yc,'text-anchor':'end','dominant-baseline':'central',class:'lab','font-size':19}); t.textContent=d[0]; svg.appendChild(t);
-  t=el('text',{x:padL+bw+14,y:yc,'dominant-baseline':'central',class:'val','font-size':25}); t.textContent=`${d[2]}%`; svg.appendChild(t);
+  t=el('text',{x:padL+bw+14,y:yc,'dominant-baseline':'central',class:'val','font-size':25}); t.textContent=d[1]; svg.appendChild(t);
 });
 </script>
 </body>

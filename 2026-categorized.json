@@ -35,7 +35,12 @@
    "cost_cutting": "'revenue per employee' target, rising staff costs"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Angi",
@@ -72,7 +77,12 @@
    "ai_substitution_claim": "ai_link=direct_substitution, basis=company_informal (informal channel: tweet/LinkedIn/spokesperson)"
   },
   "ai_claim_verdict": "thin_evidence",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "reemplazo",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "Foretellix",
@@ -107,11 +117,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Hailo",
@@ -146,11 +160,15 @@
    "strategic_pivot"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_informal",
    "strategic_pivot": "reason_primary=strategic_pivot"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "disrupcion",
+  "papel_sub": "pivote_producto",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Kaseya",
@@ -187,7 +205,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Tailwind Labs",
@@ -224,7 +247,12 @@
    "unknown": "reason_primary=unknown"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "desconocida",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "FormFactor",
@@ -261,7 +289,12 @@
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "MercadoLibre",
@@ -299,7 +332,12 @@
    "ai_substitution_claim": "narrow claim (UX writers) while net-adding ~42k jobs; affected workers trained the replacing AI"
   },
   "ai_claim_verdict": "plausible",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "reemplazo",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "Meta",
@@ -350,7 +388,12 @@
    "cost_cutting": "explicit savings/margin/profitability language in the public reason"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "StoreDot",
@@ -388,7 +431,12 @@
    "ipo_prep": "reason_primary=ipo_prep"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "eToro",
@@ -426,7 +474,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Aleph Alpha",
@@ -464,7 +517,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Playtika",
@@ -496,19 +554,22 @@
   "hire_overcorrection": false,
   "reassignment_observed": false,
   "causes": [
-   "ai_substitution_claim",
    "restructuring_unspecified",
    "offshoring",
    "demand_collapse"
   ],
   "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
    "restructuring_unspecified": "reason_primary=restructuring_vague",
    "offshoring": "Israel -> Bucharest (thin)",
    "demand_collapse": "6th round of secular decline; focus on fewer games"
   },
   "ai_claim_verdict": "contradicted_soft",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Ericsson",
@@ -546,7 +607,12 @@
    "demand_collapse": "reason_primary=demand_collapse"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Tipalti",
@@ -583,7 +649,12 @@
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Polygon",
@@ -621,7 +692,12 @@
    "m_and_a": "reason_primary=m_and_a_consolidation"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Vimeo",
@@ -660,7 +736,12 @@
    "m_and_a": "two months after Bending Spoons' $1.38B acquisition; matches WeTransfer/Filmic post-acquisition pattern"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Autodesk",
@@ -694,11 +775,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_denied": "ai_link_basis=company_denied",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "denied"
+  "ai_mention": "denied",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Shopify",
@@ -733,11 +818,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "disrupcion",
+  "papel_sub": "pivote_producto",
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Roof Stacks",
@@ -775,7 +864,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Entropy",
@@ -812,7 +906,12 @@
    "shutdown": "reason_primary=shutdown_bankruptcy"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Expedia",
@@ -845,11 +944,14 @@
   "causes": [
    "restructuring_unspecified"
   ],
-  "cause_evidence": {
-   "ai_press_narrative": "statement cites layers/skills; AI appears as 'enhance AI-driven experiences' — press inferred substitution"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Moon Active",
@@ -887,7 +989,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Pinterest",
@@ -924,7 +1031,12 @@
    "ai_capex_reallocation": "ai_link=capex_funding, basis=company_stated"
   },
   "ai_claim_verdict": "capex_not_substitution",
-  "ai_mention": "capex"
+  "ai_mention": "capex",
+  "papel_ia": "inversion",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "ASML",
@@ -962,7 +1074,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Amazon",
@@ -1011,11 +1128,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_denied": "spokesperson to AP: AI 'not the reason behind the vast majority of these reductions'",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "denied"
+  "ai_mention": "denied",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "prensa",
+  "nego_ia": true,
+  "es_causa_ia": false
  },
  {
   "company": "Gloo",
@@ -1052,7 +1173,12 @@
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Kiwi.com",
@@ -1090,7 +1216,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Peloton",
@@ -1127,7 +1258,12 @@
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Zupee",
@@ -1165,7 +1301,12 @@
    "regulatory": "reason_primary=regulatory"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Expedia",
@@ -1202,7 +1343,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Zillow",
@@ -1241,7 +1387,12 @@
    "performance_cull": "performance-review framing in the public reason"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Zipcar",
@@ -1278,7 +1429,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Rewire",
@@ -1317,7 +1473,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Smartsheet",
@@ -1354,7 +1515,12 @@
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Workday",
@@ -1391,7 +1557,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Salesforce",
@@ -1425,11 +1596,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Fi.Money",
@@ -1467,7 +1642,12 @@
    "strategic_pivot": "reason_primary=strategic_pivot"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Dayforce",
@@ -1505,7 +1685,12 @@
    "unknown": "reason_primary=unknown"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Glossier",
@@ -1542,7 +1727,12 @@
    "new_ceo_turnaround": "reason_primary=new_ceo_turnaround"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Clari",
@@ -1576,11 +1766,15 @@
    "m_and_a"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
    "m_and_a": "reason_primary=m_and_a_consolidation"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Axonius",
@@ -1617,7 +1811,12 @@
    "ipo_prep": "reason_primary=ipo_prep"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Firebolt",
@@ -1649,13 +1848,16 @@
   "hire_overcorrection": null,
   "reassignment_observed": null,
   "causes": [
-   "ai_substitution_claim"
+   "restructuring_unspecified"
   ],
-  "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_informal (informal channel: tweet/LinkedIn/spokesperson)"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "thin_evidence",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Huawei",
@@ -1693,7 +1895,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Cyberark",
@@ -1730,7 +1937,12 @@
    "m_and_a": "reason_primary=m_and_a_consolidation"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Codecademy",
@@ -1767,7 +1979,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Livspace",
@@ -1801,11 +2018,14 @@
   "causes": [
    "strategic_pivot"
   ],
-  "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Lucid Motors",
@@ -1842,7 +2062,12 @@
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "DraftKings",
@@ -1876,11 +2101,15 @@
    "cost_cutting"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=direct_substitution, basis=press_inferred — not a company claim",
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "reemplazo",
+  "papel_sub": null,
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "TrueCar",
@@ -1919,7 +2148,12 @@
    "cost_cutting": "explicit savings/margin/profitability language in the public reason"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "WiseTech",
@@ -1959,7 +2193,12 @@
    "m_and_a": "~$2.1B e2open acquisition doubled headcount to ~7,000; up to ~half the 2,000 cuts land on e2open (merger integration in AI clothing)"
   },
   "ai_claim_verdict": "contradicted_soft",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "reemplazo",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "C3.ai",
@@ -1994,13 +2233,16 @@
    "cost_cutting"
   ],
   "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
    "financial_distress": "wider loss, stock drop; CEO: cost structure 'simply too high'",
-   "cost_cutting": "explicit savings/margin/profitability language in the public reason",
-   "over_hiring": "company-admitted: CEO said aggressive 2024-25 hiring outpaced enterprise AI adoption (his own words)"
+   "cost_cutting": "explicit savings/margin/profitability language in the public reason"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Deliveroo",
@@ -2038,7 +2280,12 @@
    "market_exit": "reason_primary=lost_contract_market_exit"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Block",
@@ -2069,15 +2316,19 @@
   "hire_overcorrection": true,
   "reassignment_observed": false,
   "causes": [
-   "ai_substitution_claim",
-   "rehiring_same_roles"
+   "rehiring_same_roles",
+   "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_substitution_claim": "Dorsey 8-K shareholder letter: teams 'using AI to automate more work'; +127% 2-yr headcount before the cut",
    "rehiring_same_roles": "Business Insider (2026-03): at least 4 named laid-off employees rehired into the same roles within weeks (backfill_verdict left at ai_only by the July pass; the named rehires are the harder fact)"
   },
   "ai_claim_verdict": "contradicted_hard",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Ocado",
@@ -2115,7 +2366,12 @@
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "eBay",
@@ -2154,7 +2410,12 @@
    "m_and_a": "followed $1.2B Depop acquisition; 'areas of duplication'"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Zap Africa",
@@ -2189,11 +2450,15 @@
    "cost_cutting"
   ],
   "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_informal (informal channel: tweet/LinkedIn/spokesperson)",
    "cost_cutting": "explicit savings/margin/profitability language in the public reason"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Verint Systems",
@@ -2227,11 +2492,15 @@
    "m_and_a"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
    "m_and_a": "reason_primary=m_and_a_consolidation"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "MicroVision",
@@ -2268,7 +2537,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Amazon",
@@ -2302,11 +2576,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=direct_substitution, basis=press_inferred — not a company claim",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "At-Bay",
@@ -2344,7 +2622,12 @@
    "cost_cutting": "reason_primary=path_to_profitability"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Envato",
@@ -2380,12 +2663,16 @@
    "cost_cutting"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
    "restructuring_unspecified": "reason_primary=restructuring_vague",
    "cost_cutting": "explicit savings/margin/profitability language in the public reason"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Supernal",
@@ -2424,7 +2711,12 @@
    "cost_cutting": "explicit savings/margin/profitability language in the public reason"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "SSense",
@@ -2462,7 +2754,12 @@
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Flipkart",
@@ -2502,7 +2799,12 @@
    "performance_cull": "performance-review framing in the public reason"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "InvestCloud",
@@ -2539,7 +2841,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Atlassian",
@@ -2573,11 +2880,14 @@
   "causes": [
    "restructuring_unspecified"
   ],
-  "cause_evidence": {
-   "ai_capex_reallocation": "Cannon-Brookes: 'self-fund further investment in AI and enterprise sales'; no verifiable capex commitment; chronic GAAP losses"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "perfiles_obsoletos",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Digg",
@@ -2612,12 +2922,16 @@
    "financial_distress"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "'AI broke the product' (bot spam), not labor substitution",
    "strategic_pivot": "reason_primary=strategic_pivot",
    "financial_distress": "revenue_health=weakness (last quarter before the cut)"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "disrupcion",
+  "papel_sub": "mercado_roto",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "Loopio",
@@ -2655,7 +2969,12 @@
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Stone",
@@ -2687,15 +3006,18 @@
   "hire_overcorrection": null,
   "reassignment_observed": null,
   "causes": [
-   "ai_substitution_claim",
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_informal",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "thin_evidence",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Dell",
@@ -2734,7 +3056,12 @@
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "FranShares",
@@ -2771,7 +3098,12 @@
    "shutdown": "reason_primary=shutdown_bankruptcy"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Crypto.com",
@@ -2808,13 +3140,17 @@
    "demand_collapse"
   ],
   "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
    "strategic_pivot": "reason_primary=strategic_pivot",
    "financial_distress": "revenue_health=weakness (last quarter before the cut)",
    "demand_collapse": "3rd round since 2022, crypto-cycle downturn"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "perfiles_obsoletos",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Snowflake",
@@ -2853,7 +3189,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "thin_evidence",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "reemplazo",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "Gemini",
@@ -2889,12 +3230,16 @@
    "financial_distress"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_informal",
    "market_exit": "reason_primary=lost_contract_market_exit",
    "cost_cutting": "explicit savings/margin/profitability language in the public reason"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Spotify",
@@ -2928,11 +3273,14 @@
   "causes": [
    "restructuring_unspecified"
   ],
-  "cause_evidence": {
-   "cost_cutting": "reason_primary=cost_cutting"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Epic Games",
@@ -2969,7 +3317,12 @@
    "demand_collapse": "reason_primary=demand_collapse"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "denied"
+  "ai_mention": "denied",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "prensa",
+  "nego_ia": true,
+  "es_causa_ia": false
  },
  {
   "company": "OpenText",
@@ -3007,7 +3360,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Zendesk",
@@ -3040,11 +3398,14 @@
   "causes": [
    "strategic_pivot"
   ],
-  "cause_evidence": {
-   "ai_framing_vague": "internal memo only, no external footprint (Forethought AI agents cited); excluded from the substitution-claim count for lack of a public source"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "reemplazo",
+  "papel_sub": null,
+  "fuente_ia": "desconocida",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Meta",
@@ -3087,11 +3448,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Monte Carlo",
@@ -3124,11 +3489,14 @@
   "causes": [
    "restructuring_unspecified"
   ],
-  "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_informal (informal channel: tweet/LinkedIn/spokesperson)"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Quandoo",
@@ -3166,7 +3534,12 @@
    "shutdown": "reason_primary=shutdown_bankruptcy"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Enpal",
@@ -3204,7 +3577,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Covrzy",
@@ -3242,7 +3620,12 @@
    "shutdown": "reason_primary=shutdown_bankruptcy"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Monzo",
@@ -3280,7 +3663,12 @@
    "market_exit": "reason_primary=lost_contract_market_exit"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Oracle",
@@ -3324,12 +3712,16 @@
    "m_and_a"
   ],
   "cause_evidence": {
-   "ai_substitution_claim": "FY26 10-K Item 1A RISK FACTORS (verified 2026-09-02): AI deployment 'have resulted, and may continue to result, in reductions to our workforce' — one hedged sentence bundled with management/product/performance/acquisition drivers; Note 7: restructuring 'including through the adoption and integration of AI technologies across certain functions'. No AI-attributable headcount; filed ~3 months after a cut explained in March only as 'a broader organizational change'",
    "cost_cutting": "Note 7: 2026 Restructuring Plan 'to further improve operational efficiencies', $1.78B FY26 expense, up to $2.1B; press framed the cut as funding the ~$50B AI capex push (the viral Catz/Ellison capex quotes are untraceable)",
    "m_and_a": "the only headcount Oracle added FY22->FY23 came from Cerner (~25k); Oracle Health/Cerner cut every year since; the 539-person KC WARN is the only company-confirmed unit figure (the 8-10k Health number is a TD Cowen estimate)"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "boilerplate_legal",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Rec Room",
@@ -3368,7 +3760,12 @@
    "cost_cutting": "explicit savings/margin/profitability language in the public reason"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Yupp",
@@ -3402,11 +3799,15 @@
    "shutdown"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_informal",
    "shutdown": "reason_primary=shutdown_bankruptcy"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "disrupcion",
+  "papel_sub": "mercado_roto",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "Sonos",
@@ -3439,11 +3840,14 @@
   "causes": [
    "restructuring_unspecified"
   ],
-  "cause_evidence": {
-   "cost_cutting": "reason_primary=cost_cutting"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "MARA",
@@ -3480,7 +3884,12 @@
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Meta",
@@ -3516,11 +3925,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "NeuroPixel.AI",
@@ -3555,11 +3968,15 @@
    "shutdown"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
    "shutdown": "reason_primary=shutdown_bankruptcy"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "disrupcion",
+  "papel_sub": "mercado_roto",
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "Vimeo",
@@ -3598,7 +4015,12 @@
    "m_and_a": "second reduction since the Bending Spoons acquisition"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Welltech",
@@ -3636,7 +4058,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Bolt",
@@ -3670,11 +4097,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_informal",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "GoPro",
@@ -3713,7 +4144,12 @@
    "financial_distress": "2025 revenue decline, $9M Q4 loss; weighing a sale"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Pendo",
@@ -3746,11 +4182,14 @@
   "causes": [
    "strategic_pivot"
   ],
-  "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_informal (informal channel: tweet/LinkedIn/spokesperson)"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "disrupcion",
+  "papel_sub": "pivote_producto",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "IAC",
@@ -3787,7 +4226,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Cars.com",
@@ -3824,7 +4268,12 @@
    "unknown": "reason_primary=unknown"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "desconocida",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Pepper Pay",
@@ -3861,7 +4310,12 @@
    "shutdown": "reason_primary=shutdown_bankruptcy"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Life360",
@@ -3898,7 +4352,12 @@
    "unknown": "reason_primary=unknown"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "desconocida",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Esh Group",
@@ -3936,7 +4395,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Eventbrite",
@@ -3973,7 +4437,12 @@
    "m_and_a": "reason_primary=m_and_a_consolidation"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "StarkWare",
@@ -4011,7 +4480,12 @@
    "strategic_pivot": "reason_primary=strategic_pivot"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "GoCardless",
@@ -4049,7 +4523,12 @@
    "cost_cutting": "reason_primary=path_to_profitability"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Nayax",
@@ -4087,7 +4566,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Productboard",
@@ -4121,11 +4605,15 @@
    "strategic_pivot"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_informal",
    "strategic_pivot": "reason_primary=strategic_pivot"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "disrupcion",
+  "papel_sub": "mercado_roto",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "Snap",
@@ -4167,15 +4655,18 @@
   "hire_overcorrection": true,
   "reassignment_observed": false,
   "causes": [
-   "ai_substitution_claim",
    "cost_cutting"
   ],
   "cause_evidence": {
-   "ai_substitution_claim": "Spiegel: AI reduces 'repetitive work' enabling smaller teams; 250+ broad open reqs post-cut (backfill_verdict=mixed) — partial backfill, not documented same-role rehiring",
    "cost_cutting": "$500M+ annualized savings target; stock jumped on the news"
   },
   "ai_claim_verdict": "contradicted_soft",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Swyftx",
@@ -4213,7 +4704,12 @@
    "m_and_a": "reason_primary=m_and_a_consolidation"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Taboola",
@@ -4250,7 +4746,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "UKG",
@@ -4285,12 +4786,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_stated",
-   "new_ceo_turnaround": "reason_primary=new_ceo_turnaround",
-   "offshoring": "CROSS_CHECK offshore_swap; +3,100 cut since 2024 under PE owner Hellman & Friedman"
+   "new_ceo_turnaround": "reason_primary=new_ceo_turnaround"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Quora",
@@ -4324,11 +4828,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "restructuring_unspecified": "reason_primary=restructuring_vague",
-   "ai_framing_vague": "CEO D'Angelo cited the rise of AI and 'smaller, more focused teams'; Poe-focused teams cut — vague AI framing, not a substitution claim"
+   "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Sama",
@@ -4366,7 +4874,12 @@
    "market_exit": "reason_primary=lost_contract_market_exit"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Shutterfly",
@@ -4404,7 +4917,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Acko",
@@ -4440,12 +4958,16 @@
    "cost_cutting"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
    "ipo_prep": "reason_primary=ipo_prep",
    "cost_cutting": "explicit savings/margin/profitability language in the public reason"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Epidemic Sound",
@@ -4481,12 +5003,16 @@
    "financial_distress"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_stated",
    "restructuring_unspecified": "reason_primary=restructuring_vague",
    "financial_distress": "2025 growth 29% -> 3%, negative EBITDA, despite 'not financially driven' line"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "disrupcion",
+  "papel_sub": "mercado_roto",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "GeoComply",
@@ -4521,11 +5047,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Remarkable",
@@ -4564,7 +5094,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "SuperOps",
@@ -4599,11 +5134,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_press_narrative": "ai_link=ai_narrative_only, basis=press_inferred — not a company claim",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Pentera",
@@ -4636,11 +5175,14 @@
   "causes": [
    "strategic_pivot"
   ],
-  "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_informal (informal channel: tweet/LinkedIn/spokesperson)"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Shopify",
@@ -4678,7 +5220,12 @@
    "unknown": "reason_primary=unknown"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "0G",
@@ -4715,7 +5262,12 @@
    "unknown": "reason_primary=unknown"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Careem",
@@ -4755,7 +5307,12 @@
    "cost_cutting": "explicit savings/margin/profitability language in the public reason"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Coinbase",
@@ -4786,17 +5343,20 @@
   "hire_overcorrection": true,
   "reassignment_observed": false,
   "causes": [
-   "ai_substitution_claim",
    "cost_cutting",
    "demand_collapse"
   ],
   "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
    "cost_cutting": "explicit savings/margin/profitability language in the public reason",
    "demand_collapse": "company-stated crypto market downturn as co-driver"
   },
   "ai_claim_verdict": "contradicted_soft",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Freshworks",
@@ -4835,7 +5395,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "thin_evidence",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "reemplazo",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "PayPal",
@@ -4881,13 +5446,17 @@
    "financial_distress"
   ],
   "cause_evidence": {
-   "ai_substitution_claim": "'AI-native operating model' framing; cuts phased to 2028 so no backfill test yet",
    "new_ceo_turnaround": "Lores took over March 1, 2026; cut announced 9 weeks in",
    "cost_cutting": ">= $1.5B annualized run-rate savings target, 2-3 year program",
    "financial_distress": "announced alongside weaker-than-expected Q1 profit; EPS guided down same day"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "ApnaMart",
@@ -4919,13 +5488,16 @@
   "hire_overcorrection": null,
   "reassignment_observed": null,
   "causes": [
-   "ai_substitution_claim"
+   "restructuring_unspecified"
   ],
-  "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_informal (informal channel: tweet/LinkedIn/spokesperson)"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "thin_evidence",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Arctic Wolf",
@@ -4959,11 +5531,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "restructuring_unspecified": "reason_primary=restructuring_vague",
-   "ai_framing_vague": "'redirecting resources to its Superintelligence platform and Agentic SOC' — AI-investment framing, no substitution mechanism stated"
+   "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "inversion",
+  "papel_sub": null,
+  "fuente_ia": "prensa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "LSports",
@@ -5001,7 +5577,12 @@
    "unknown": "reason_primary=unknown"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Pocket FM",
@@ -5041,7 +5622,12 @@
    "performance_cull": "framed as regular performance-based reviews"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "reAlpha",
@@ -5078,7 +5664,12 @@
    "unknown": "reason_primary=unknown"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Bill.com",
@@ -5115,7 +5706,12 @@
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Cloudflare",
@@ -5149,11 +5745,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "'agentic AI era' reorg; internal AI usage +600% cited, no substitution mechanism stated",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "DeepL",
@@ -5187,11 +5787,14 @@
   "causes": [
    "restructuring_unspecified"
   ],
-  "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_informal (informal channel: tweet/LinkedIn/spokesperson)"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Ticketmaster",
@@ -5225,11 +5828,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_informal",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Truecaller",
@@ -5267,7 +5874,12 @@
    "unknown": "reason_primary=unknown"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Upwork",
@@ -5298,19 +5910,22 @@
   "hire_overcorrection": true,
   "reassignment_observed": false,
   "causes": [
-   "ai_substitution_claim",
    "restructuring_unspecified",
    "cost_cutting",
    "financial_distress"
   ],
   "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
    "restructuring_unspecified": "reason_primary=restructuring_vague",
    "cost_cutting": "profitability goals cited",
    "financial_distress": "same-day ~9% guidance cut on +1% growth"
   },
   "ai_claim_verdict": "contradicted_soft",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Staffbase",
@@ -5350,7 +5965,12 @@
    "m_and_a": "'reducing complexity after three acquisitions'; sites consolidated to Berlin/Saxony"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Parker",
@@ -5384,11 +6004,15 @@
    "shutdown"
   ],
   "cause_evidence": {
-   "shutdown": "reason_primary=shutdown_bankruptcy",
-   "over_hiring": "company-admitted: CEO hinted at over-hiring and reactive decisions"
+   "shutdown": "reason_primary=shutdown_bankruptcy"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Adda247",
@@ -5426,7 +6050,12 @@
    "ipo_prep": "reason_primary=ipo_prep"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "MRI Software",
@@ -5460,11 +6089,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_informal",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "MessageBird",
@@ -5502,7 +6135,12 @@
    "offshoring": "reason_primary=geographic_relocation"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "One Identity",
@@ -5540,7 +6178,12 @@
    "offshoring": "reason_primary=geographic_relocation"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "ZoomInfo",
@@ -5583,7 +6226,12 @@
    "cost_cutting": "~$60M annual savings target"
   },
   "ai_claim_verdict": "capex_not_substitution",
-  "ai_mention": "capex"
+  "ai_mention": "capex",
+  "papel_ia": "inversion",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "Breadfast",
@@ -5621,7 +6269,12 @@
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Cisco",
@@ -5652,13 +6305,16 @@
   "hire_overcorrection": false,
   "reassignment_observed": false,
   "causes": [
-   "ai_capex_reallocation"
+   "restructuring_unspecified"
   ],
-  "cause_evidence": {
-   "ai_capex_reallocation": "ai_link=capex_funding, basis=company_stated"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "capex_not_substitution",
-  "ai_mention": "capex"
+  "ai_mention": "capex",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Guesty",
@@ -5696,7 +6352,12 @@
    "unknown": "reason_primary=unknown"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Jumia",
@@ -5728,17 +6389,20 @@
   "hire_overcorrection": null,
   "reassignment_observed": null,
   "causes": [
-   "ai_substitution_claim",
    "restructuring_unspecified",
    "cost_cutting"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_informal",
    "restructuring_unspecified": "reason_primary=restructuring_vague",
    "cost_cutting": "explicit savings/margin/profitability language in the public reason"
   },
   "ai_claim_verdict": "thin_evidence",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "LinkedIn",
@@ -5775,7 +6439,12 @@
    "new_ceo_turnaround": "reason_primary=new_ceo_turnaround"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "prensa",
+  "nego_ia": true,
+  "es_causa_ia": false
  },
  {
   "company": "Dune",
@@ -5809,11 +6478,14 @@
   "causes": [
    "strategic_pivot"
   ],
-  "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_informal (informal channel: tweet/LinkedIn/spokesperson)"
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "disrupcion",
+  "papel_sub": "pivote_producto",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Gambling.com Group",
@@ -5848,11 +6520,15 @@
    "cost_cutting"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_informal",
    "cost_cutting": "reason_primary=cost_cutting"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Innovaccer",
@@ -5886,11 +6562,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_informal",
    "restructuring_unspecified": "reason_primary=restructuring_vague"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Kraken",
@@ -5933,7 +6613,12 @@
    "financial_distress": "Q1 EBITDA -90% disclosed 3 days post-layoff"
   },
   "ai_claim_verdict": "contradicted_soft",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "reemplazo",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "AI21 Labs",
@@ -5968,11 +6653,15 @@
    "strategic_pivot"
   ],
   "cause_evidence": {
-   "ai_framing_vague": "ai_link=ai_narrative_only, basis=company_informal",
    "strategic_pivot": "reason_primary=strategic_pivot"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "disrupcion",
+  "papel_sub": "mercado_roto",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "Intuit",
@@ -6016,11 +6705,15 @@
    "restructuring_unspecified"
   ],
   "cause_evidence": {
-   "ai_denied": "Goodarzi on CNBC: 'None of it had to do with AI'",
    "restructuring_unspecified": "hub consolidation (Reno, Woodland Hills wound down)"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "denied"
+  "ai_mention": "denied",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "prensa",
+  "nego_ia": true,
+  "es_causa_ia": false
  },
  {
   "company": "Meta",
@@ -6075,7 +6768,12 @@
    "ai_capex_reallocation": "~7,000 redeployed into AI orgs; capex raised — money goes where the story says"
   },
   "ai_claim_verdict": "capex_not_substitution",
-  "ai_mention": "capex"
+  "ai_mention": "capex",
+  "papel_ia": "inversion",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "ClickUp",
@@ -6106,15 +6804,18 @@
   "hire_overcorrection": null,
   "reassignment_observed": null,
   "causes": [
-   "ai_substitution_claim",
    "cost_cutting"
   ],
   "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_informal (informal channel: tweet/LinkedIn/spokesperson)",
    "cost_cutting": "explicit savings/margin/profitability language in the public reason"
   },
   "ai_claim_verdict": "thin_evidence",
-  "ai_mention": "substitution"
+  "ai_mention": "substitution",
+  "papel_ia": "eficiencia",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Wix",
@@ -6150,12 +6851,16 @@
    "cost_cutting"
   ],
   "cause_evidence": {
-   "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
    "financial_distress": "weak earnings, ~50% stock decline",
    "cost_cutting": "rising AI compute costs from Base44 acquisition"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "perfiles_obsoletos",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "GitLab",
@@ -6196,7 +6901,12 @@
    "market_exit": "exit from 22 countries"
   },
   "ai_claim_verdict": "capex_not_substitution",
-  "ai_mention": "capex"
+  "ai_mention": "capex",
+  "papel_ia": "inversion",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  },
  {
   "company": "Robinhood",
@@ -6229,11 +6939,14 @@
   "causes": [
    "restructuring_unspecified"
   ],
-  "cause_evidence": {
-   "ai_press_narrative": "Tenev memo said 'frontier technologies', never 'AI'; the AI angle is TechCrunch et al."
-  },
+  "cause_evidence": null,
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "framing"
+  "ai_mention": "framing",
+  "papel_ia": "vaga",
+  "papel_sub": "de_pasada",
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Bungie",
@@ -6270,7 +6983,12 @@
    "strategic_pivot": "reason_primary=strategic_pivot"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Microsoft (Xbox)",
@@ -6309,7 +7027,12 @@
    "cost_cutting": "explicit savings/margin/profitability language in the public reason"
   },
   "ai_claim_verdict": "not_claimed",
-  "ai_mention": "none"
+  "ai_mention": "none",
+  "papel_ia": "ninguna",
+  "papel_sub": null,
+  "fuente_ia": "ninguna",
+  "nego_ia": false,
+  "es_causa_ia": false
  },
  {
   "company": "Microsoft (corporate)",
@@ -6346,6 +7069,11 @@
    "ai_capex_reallocation": "ai_link=capex_funding, basis=company_stated"
   },
   "ai_claim_verdict": "capex_not_substitution",
-  "ai_mention": "capex"
+  "ai_mention": "capex",
+  "papel_ia": "inversion",
+  "papel_sub": null,
+  "fuente_ia": "empresa",
+  "nego_ia": false,
+  "es_causa_ia": true
  }
 ]
