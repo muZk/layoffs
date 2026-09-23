@@ -1,0 +1,110 @@
+{
+  "company": "Meta",
+  "source_url": "https://stockanalysis.com/stocks/meta/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Meta Platforms (META) Number of Employees 2009-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "78,865"
+    ],
+    [
+      "Dec 31, 2024",
+      "74,067"
+    ],
+    [
+      "Dec 31, 2023",
+      "67,317"
+    ],
+    [
+      "Dec 31, 2022",
+      "86,482"
+    ],
+    [
+      "Dec 31, 2021",
+      "71,970"
+    ],
+    [
+      "Dec 31, 2020",
+      "58,604"
+    ],
+    [
+      "Dec 31, 2019",
+      "44,942"
+    ],
+    [
+      "Dec 31, 2018",
+      "35,587"
+    ],
+    [
+      "Dec 31, 2017",
+      "25,105"
+    ],
+    [
+      "Dec 31, 2016",
+      "17,048"
+    ],
+    [
+      "Dec 31, 2015",
+      "12,691"
+    ],
+    [
+      "Dec 31, 2014",
+      "9,199"
+    ],
+    [
+      "Dec 31, 2013",
+      "6,337"
+    ],
+    [
+      "Dec 31, 2012",
+      "4,619"
+    ],
+    [
+      "Dec 31, 2011",
+      "3,200"
+    ],
+    [
+      "Dec 31, 2010",
+      "2,127"
+    ],
+    [
+      "Dec 31, 2009",
+      "1,218"
+    ],
+    [
+      "Alphabet",
+      "190,820"
+    ],
+    [
+      "Baidu",
+      "33,500"
+    ],
+    [
+      "Spotify Technology",
+      "7,323"
+    ],
+    [
+      "Zillow Group",
+      "7,068"
+    ],
+    [
+      "Tencent Music Entertainment Group",
+      "5,690"
+    ],
+    [
+      "Pinterest",
+      "5,265"
+    ],
+    [
+      "Snap Inc.",
+      "5,261"
+    ],
+    [
+      "Kanzhun",
+      "4,884"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

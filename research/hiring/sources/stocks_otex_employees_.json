@@ -1,0 +1,194 @@
+{
+  "company": "OpenText",
+  "source_url": "https://stockanalysis.com/stocks/otex/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Open Text (OTEX) Number of Employees",
+  "rows": [
+    [
+      "Jun 30, 2026",
+      "19,900"
+    ],
+    [
+      "Mar 31, 2026",
+      "20,500"
+    ],
+    [
+      "Dec 31, 2025",
+      "21,300"
+    ],
+    [
+      "Sep 30, 2025",
+      "21,200"
+    ],
+    [
+      "Jun 30, 2025",
+      "21,400"
+    ],
+    [
+      "Mar 31, 2025",
+      "21,700"
+    ],
+    [
+      "Dec 31, 2024",
+      "21,800"
+    ],
+    [
+      "Sep 30, 2024",
+      "21,800"
+    ],
+    [
+      "Jun 30, 2024",
+      "22,900"
+    ],
+    [
+      "Mar 31, 2024",
+      "23,700"
+    ],
+    [
+      "Dec 31, 2023",
+      "23,600"
+    ],
+    [
+      "Sep 30, 2023",
+      "24,050"
+    ],
+    [
+      "Jun 30, 2023",
+      "24,100"
+    ],
+    [
+      "Mar 31, 2023",
+      "25,550"
+    ],
+    [
+      "Dec 31, 2022",
+      "14,400"
+    ],
+    [
+      "Sep 30, 2022",
+      "14,500"
+    ],
+    [
+      "Jun 30, 2022",
+      "14,800"
+    ],
+    [
+      "Mar 31, 2022",
+      "15,000"
+    ],
+    [
+      "Dec 31, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "NIQ Global Intelligence",
+      "38,760"
+    ],
+    [
+      "NICE Ltd.",
+      "9,626"
+    ],
+    [
+      "RingCentral",
+      "7,378"
+    ],
+    [
+      "Pegasystems",
+      "5,598"
+    ],
+    [
+      "Lyft, Inc.",
+      "3,913"
+    ],
+    [
+      "ServiceTitan",
+      "3,414"
+    ],
+    [
+      "Clear Secure",
+      "3,301"
+    ],
+    [
+      "Commvault Systems",
+      "3,300"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

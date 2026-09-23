@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-17",
+  "purpose": "Alternative-source search for the two records lacking a usable causal source",
+  "result": "No causal assignment or count changed. Public mentions exist, but do not establish an event-specific mechanism.",
+  "cases": [
+    {
+      "company": "Dayforce",
+      "sources_considered": [
+        "https://www.thomabravo.com/press-releases/thoma-bravo-completes-acquisition-of-dayforce",
+        "https://www.dawnbidco.com/",
+        "https://www.interviewpal.com/layoffs/dayforce"
+      ],
+      "assessment": "Official release confirms acquisition, not the layoff cause. Unofficial commentary reports a February 11 reduction; aggregator uses February 12 and general restructuring language without traceable causal evidence. Acquisition timing alone is not a cause."
+    },
+    {
+      "company": "Dandy",
+      "sources_considered": [
+        "https://www.interviewpal.com/layoffs/dandy",
+        "https://builtin.com/company/dandy/faq/workplace-perception",
+        "https://www.linkedin.com/posts/brunellalupano_digital-dental-startup-activity-7470179290756722690-x-0_"
+      ],
+      "assessment": "Aggregator and third-party commentary mention June cuts and automation, but no traceable company statement or sufficiently specific firsthand causal account was recovered."
+    }
+  ]
+}

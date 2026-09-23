@@ -1,0 +1,74 @@
+{
+  "company": "Upwork",
+  "source_url": "https://stockanalysis.com/stocks/upwk/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Upwork (UPWK) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "630"
+    ],
+    [
+      "Dec 31, 2024",
+      "600"
+    ],
+    [
+      "Dec 31, 2023",
+      "800"
+    ],
+    [
+      "Dec 31, 2022",
+      "850"
+    ],
+    [
+      "Dec 31, 2021",
+      "650"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Weibo",
+      "5,651"
+    ],
+    [
+      "Yelp Inc.",
+      "5,168"
+    ],
+    [
+      "Taboola.com",
+      "2,000"
+    ],
+    [
+      "Genius Sports",
+      "2,000"
+    ],
+    [
+      "WEBTOON Entertainment",
+      "1,800"
+    ],
+    [
+      "Groupon",
+      "1,734"
+    ],
+    [
+      "Hello Group",
+      "1,400"
+    ],
+    [
+      "Opera",
+      "605"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

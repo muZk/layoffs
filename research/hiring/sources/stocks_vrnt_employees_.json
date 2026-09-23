@@ -1,0 +1,50 @@
+{
+  "company": "Verint Systems",
+  "source_url": "https://stockanalysis.com/stocks/vrnt/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Verint Systems (VRNT) Number of Employees",
+  "rows": [
+    [
+      "Jan 31, 2025",
+      "3,800"
+    ],
+    [
+      "Jan 31, 2024",
+      "3,700"
+    ],
+    [
+      "Jan 31, 2023",
+      "4,300"
+    ],
+    [
+      "Jan 31, 2022",
+      "4,400"
+    ],
+    [
+      "Jan 31, 2021",
+      "6,300"
+    ],
+    [
+      "Jan 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Jan 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Jan 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Jan 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Jan 31, 2016",
+      "Upgrade Pro"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

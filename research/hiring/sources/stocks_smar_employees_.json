@@ -1,0 +1,38 @@
+{
+  "company": "Smartsheet",
+  "source_url": "https://stockanalysis.com/stocks/smar/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Smartsheet (SMAR) Number of Employees 2018-2024",
+  "rows": [
+    [
+      "Jan 31, 2024",
+      "3,330"
+    ],
+    [
+      "Jan 31, 2023",
+      "3,191"
+    ],
+    [
+      "Jan 31, 2022",
+      "2,539"
+    ],
+    [
+      "Jan 31, 2021",
+      "1,915"
+    ],
+    [
+      "Jan 31, 2020",
+      "1,588"
+    ],
+    [
+      "Jan 31, 2019",
+      "1,101"
+    ],
+    [
+      "Jan 31, 2018",
+      "784"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

@@ -1,0 +1,82 @@
+{
+  "company": "FormFactor",
+  "source_url": "https://stockanalysis.com/stocks/form/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "FormFactor (FORM) Number of Employees",
+  "rows": [
+    [
+      "Dec 27, 2025",
+      "2,153"
+    ],
+    [
+      "Dec 28, 2024",
+      "2,238"
+    ],
+    [
+      "Dec 30, 2023",
+      "2,115"
+    ],
+    [
+      "Dec 31, 2022",
+      "2,105"
+    ],
+    [
+      "Dec 25, 2021",
+      "2,293"
+    ],
+    [
+      "Dec 26, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 28, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 29, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2016",
+      "Upgrade Pro"
+    ],
+    [
+      "Amkor Technology",
+      "30,800"
+    ],
+    [
+      "Entegris",
+      "7,700"
+    ],
+    [
+      "Ultra Clean Holdings",
+      "6,948"
+    ],
+    [
+      "IPG Photonics",
+      "4,840"
+    ],
+    [
+      "Kulicke and Soffa Industries",
+      "2,551"
+    ],
+    [
+      "ACM Research",
+      "2,513"
+    ],
+    [
+      "Onto Innovation",
+      "1,615"
+    ],
+    [
+      "Nova Ltd.",
+      "1,612"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

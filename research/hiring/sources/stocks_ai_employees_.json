@@ -1,0 +1,66 @@
+{
+  "company": "C3.ai",
+  "source_url": "https://stockanalysis.com/stocks/ai/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "C3.ai (AI) Number of Employees",
+  "rows": [
+    [
+      "Apr 30, 2026",
+      "764"
+    ],
+    [
+      "Apr 30, 2025",
+      "1,181"
+    ],
+    [
+      "Apr 30, 2024",
+      "891"
+    ],
+    [
+      "Apr 30, 2023",
+      "914"
+    ],
+    [
+      "Apr 30, 2022",
+      "704"
+    ],
+    [
+      "Apr 30, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "StoneCo",
+      "7,239"
+    ],
+    [
+      "EVERTEC",
+      "5,327"
+    ],
+    [
+      "PicS N.V.",
+      "4,644"
+    ],
+    [
+      "Progress Software",
+      "2,801"
+    ],
+    [
+      "GigaCloud Technology",
+      "1,644"
+    ],
+    [
+      "Flywire",
+      "1,500"
+    ],
+    [
+      "Nayax",
+      "1,250"
+    ],
+    [
+      "Bandwidth",
+      "1,100"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

@@ -1,0 +1,16 @@
+unit_id,record_id,name,summary,source_id
+layoff-2026-009_work_units_0,layoff-2026-009,Reality Labs / VR,Cuts concern the VR business; augmented-reality staff are reported outside the affected scope.,src_b13e19e4dea6a96dd401
+layoff-2026-020_work_units_0,layoff-2026-020,Loss-making units,Employees describe closing loss-making units; no occupation inventory recovered.,src_9f4bb4516c19da0fa0e9
+layoff-2026-037_work_units_0,layoff-2026-037,Agentforce / Heroku,Affected units also include Agentforce and Heroku; unit names are not additional occupations.,src_d21b69d2d71b0dfab628
+layoff-2026-038_work_units_0,layoff-2026-038,Consumer business,The cuts accompany the move away from the consumer business.,src_96fc3b725c56813ed44f
+layoff-2026-044_work_units_0,layoff-2026-044,Cloud / Toga Networks,The specific development center and cloud division are identified.,src_644bae172dd33ca77884
+layoff-2026-048_work_units_0,layoff-2026-048,Salaried workforce,"Hourly manufacturing, logistics and quality workers are expressly excluded; no positive occupation inventory recovered.",src_552fa56ec14458a4acb3
+layoff-2026-066_work_units_0,layoff-2026-066,Digital Wealth,CEO identifies Digital Wealth as the affected division; APL and Private Markets are excluded.,src_9d9eb1c9b4afa65c97e9
+layoff-2026-076_work_units_0,layoff-2026-076,The Ringer / Spotify Studios,Most cuts fall in these podcast units.,src_6cf274223009e3fd1c3e
+layoff-2026-112_work_units_0,layoff-2026-112,Poe,"Poe-focused teams are also identified, without an occupation inventory.",src_56c0b778351308d86dee
+layoff-2026-143_work_units_0,layoff-2026-143,Identity Manager,The affected product is Identity Manager.,src_65450c84608c0fc540c1
+layoff-2026-181_work_units_0,layoff-2026-181,Offline store network,Store closures and a country-head departure are reported; shop-floor occupations are not individually identified.,src_e3ddd1803a49b0050846
+layoff-2026-189_work_units_0,layoff-2026-189,Public Cloud,"Public Cloud is the business unit, not an occupational category.",src_7bdfca1cc0dcf738164b
+layoff-2026-204_work_units_0,layoff-2026-204,Google Cloud / GTIG / Mandiant,Cybersecurity teams within Cloud are named in reporting.,src_a5a333d6339d2864f15c
+layoff-2026-222_work_units_0,layoff-2026-222,Google GBike service,"Accessible original reporting identifies the bike-service site; it does not establish whether workers are mechanics, drivers or other occupations.",src_e442fef5c3b7bb14baea
+layoff-2026-232_work_units_0,layoff-2026-232,2XKO development team,"Game-development team is identified but not an occupational split between code, art, production and other work.",src_531add8a2d93bce798f7

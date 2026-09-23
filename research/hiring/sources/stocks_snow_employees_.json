@@ -1,0 +1,70 @@
+{
+  "company": "Snowflake",
+  "source_url": "https://stockanalysis.com/stocks/snow/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Snowflake (SNOW) Number of Employees 2020-2026",
+  "rows": [
+    [
+      "Jan 31, 2026",
+      "9,060"
+    ],
+    [
+      "Jan 31, 2025",
+      "7,834"
+    ],
+    [
+      "Jan 31, 2024",
+      "7,004"
+    ],
+    [
+      "Jan 31, 2023",
+      "5,884"
+    ],
+    [
+      "Jan 31, 2022",
+      "3,992"
+    ],
+    [
+      "Jan 31, 2021",
+      "2,495"
+    ],
+    [
+      "Jul 31, 2020",
+      "2,037"
+    ],
+    [
+      "SAP SE",
+      "111,397"
+    ],
+    [
+      "Salesforce",
+      "83,334"
+    ],
+    [
+      "Automatic Data Processing",
+      "67,000"
+    ],
+    [
+      "Uber Technologies",
+      "34,000"
+    ],
+    [
+      "Adobe",
+      "31,360"
+    ],
+    [
+      "ServiceNow",
+      "29,187"
+    ],
+    [
+      "Intuit",
+      "18,600"
+    ],
+    [
+      "Cadence Design Systems",
+      "13,800"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

@@ -1,0 +1,82 @@
+{
+  "company": "WiseTech",
+  "source_url": "https://stockanalysis.com/quote/asx/WTC/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "WiseTech Global (ASX:WTC) Number of Employees",
+  "rows": [
+    [
+      "Jun 30, 2026",
+      "5,500"
+    ],
+    [
+      "Jun 30, 2025",
+      "3,600"
+    ],
+    [
+      "Jun 30, 2024",
+      "3,500"
+    ],
+    [
+      "Jun 30, 2023",
+      "3,000"
+    ],
+    [
+      "Jun 30, 2022",
+      "2,000"
+    ],
+    [
+      "Jun 30, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2016",
+      "Upgrade Pro"
+    ],
+    [
+      "Xero Limited",
+      "5,114"
+    ],
+    [
+      "Hansen Technologies",
+      "1,516"
+    ],
+    [
+      "Technology One",
+      "1,500"
+    ],
+    [
+      "Iress",
+      "1,153"
+    ],
+    [
+      "Bravura Solutions",
+      "955"
+    ],
+    [
+      "PEXA Group",
+      "825"
+    ],
+    [
+      "Netwealth Group",
+      "790"
+    ],
+    [
+      "Chrysos Corporation",
+      "215"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

@@ -1,0 +1,4 @@
+account_id,record_id,value,workforce_fraction,attribution,note,source_id
+layoff-2026-181_headcount_accounts_0,layoff-2026-181,100.0,0.7,press_reported,Anonymous sources estimate roughly 100 departures; approximate prior workforce 150.,src_e3ddd1803a49b0050846
+layoff-2026-181_headcount_accounts_1,layoff-2026-181,,0.3,company_stated,CEO disputes reported scale and says remaining workforce exceeds 200.,src_e3ddd1803a49b0050846
+layoff-2026-225_headcount_accounts_0,layoff-2026-225,104.0,,press_reported,Updated body combines April 2 and April 15 notices; original caption says 66; tracker value was 60. Do not assign the combined total to one April 9 event.,src_46c5757bb0ed92d2dd8c

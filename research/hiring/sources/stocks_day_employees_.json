@@ -1,0 +1,42 @@
+{
+  "company": "Dayforce",
+  "source_url": "https://stockanalysis.com/stocks/day/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Dayforce (DAY) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2024",
+      "9,600"
+    ],
+    [
+      "Dec 31, 2023",
+      "9,084"
+    ],
+    [
+      "Dec 31, 2022",
+      "8,526"
+    ],
+    [
+      "Dec 31, 2021",
+      "7,462"
+    ],
+    [
+      "Dec 31, 2020",
+      "5,974"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

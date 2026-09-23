@@ -1,0 +1,17 @@
+"""Reproduce current evidence counts and the complete record register."""
+import collections,itertools
+from validate_causes import ROOT,read,stats,announcement_records
+D=read('2026-categorized.json');E=announcement_records(D);S=stats(D)
+counts=collections.Counter(c for r in E for c in r['causes']);pairs=collections.Counter(p for r in E for p in itertools.combinations(sorted(r['causes']),2))
+names=lambda c:c.replace('_',' ').replace('ai ','AI ')
+lines=['# Evidence counts — reviewed through 2026-09-17','',f"{len(D)} records; {S['h1_records']} H1 records; {len(E)} H1 announcement records. Five period/annual reports and two July entries are kept outside announcement counts.",'','All 231 H1 entries from the 2026-09-17 Layoffs.fyi snapshot are reconciled. Oracle’s March event and PayPal’s May plan are two additional retained H1 records. Coverage of a tracker is not a census of layoffs worldwide. See `coverage/reconciliation-2026-09-17.json`.','',f"Source status: {S['review_all']}. A reviewed source is not independent corroboration.",'',f"{S['multiple_causes']} announcements have multiple attributed reasons; {S['ai_reason_recorded']} have an attributed AI reason, of which {S['ai_and_other_reason']} also have another reason.",'',f"Mechanism status: {S['cause_status_h1_announcements']}",'','## Attributed explanations, concrete and generic — categories overlap','','| Mechanism | Records |','|---|---:|']
+lines += [f'| {names(c)} | {n} |' for c,n in counts.most_common()]
+lines += ['','## Most frequent pairs, all specificity levels','','| Pair | Records |','|---|---:|']+[f'| {names(a)} + {names(b)} | {n} |' for (a,b),n in pairs.most_common(10)]
+lines += ['','## Limits','','Counts describe attributed explanations, not independently established causal effects. No chart assigns every job in an announcement to a cause. Public/private status, comparable employment histories and source access are incomplete. Missing causes or denials are not proof of no AI involvement. Possible overlapping rounds remain flagged.','', 'Oracle’s June workforce report is an annual net change; it does not establish a new June layoff round or allocate March cuts to AI. SoundThinking’s March 31 date is a quarter-end marker, not an announcement date.','', 'Historical review chain: `full-review-2026-09-16.json`. Coverage extension and each added assessment: `coverage/extension-audit-2026-09-17.json`.']
+(ROOT/'verificacion.md').write_text('\n'.join(lines)+'\n')
+lines=['# Individual evidence review — '+str(len(D))+' records','','Source-reviewed means relevant source material was inspected. Partial and unavailable sources are retained explicitly. Review dates are stored on each record.','','| ID | Company / date | Review | Causes | Assessment and source |','|---|---|---|---|---|']
+for r in D:
+ source=r['source_used'] or r['source_url'];source=f'[Source]({source})' if source.startswith('http') else 'No accessible public source';issues='; '.join(r['review']['issues']).replace('_',' ');note=r['review']['note'].replace('|','/');label=r['record_type'].replace('_',' ')
+ lines.append(f"| {r['record_id']} | {r['company']} · {r['date']} | {r['review']['status']} | {', '.join(names(c) for c in r['causes']) or 'Not specified'} | {note} {source}. Type: {label}."+(f' Issues: {issues}.' if issues else '')+' |')
+(ROOT/'source-review-2026.md').write_text('\n'.join(lines)+'\n')
+print(f'Rebuilt counts and {len(D)} individual assessments.')

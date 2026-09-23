@@ -1,0 +1,86 @@
+{
+  "company": "Jumia",
+  "source_url": "https://stockanalysis.com/stocks/jmia/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Jumia Technologies AG (JMIA) Number of Employees",
+  "rows": [
+    [
+      "Jun 30, 2026",
+      "1,770"
+    ],
+    [
+      "Mar 31, 2026",
+      "1,980"
+    ],
+    [
+      "Dec 31, 2025",
+      "2,016"
+    ],
+    [
+      "Sep 30, 2025",
+      "2,010"
+    ],
+    [
+      "Dec 31, 2024",
+      "2,163"
+    ],
+    [
+      "Dec 31, 2023",
+      "2,915"
+    ],
+    [
+      "Dec 31, 2022",
+      "4,318"
+    ],
+    [
+      "Dec 31, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Baozun",
+      "6,626"
+    ],
+    [
+      "D-Market Elektronik Hizmetler ve Ticaret A.S.",
+      "3,611"
+    ],
+    [
+      "ZKH Group",
+      "2,933"
+    ],
+    [
+      "ATRenew",
+      "2,438"
+    ],
+    [
+      "Pattern Group",
+      "2,300"
+    ],
+    [
+      "ThredUp",
+      "2,132"
+    ],
+    [
+      "Revolve Group",
+      "1,664"
+    ],
+    [
+      "Global-E Online",
+      "1,219"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

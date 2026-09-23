@@ -1,0 +1,62 @@
+{
+  "company": "eToro",
+  "source_url": "https://stockanalysis.com/stocks/etor/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "eToro Group (ETOR) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "1,520"
+    ],
+    [
+      "Dec 31, 2024",
+      "1,501"
+    ],
+    [
+      "Dec 31, 2021",
+      "1,800"
+    ],
+    [
+      "Sep 30, 2021",
+      "1,414"
+    ],
+    [
+      "Jun 30, 2021",
+      "1,414"
+    ],
+    [
+      "Lazard",
+      "3,279"
+    ],
+    [
+      "Oppenheimer Holdings",
+      "3,062"
+    ],
+    [
+      "Lincoln International",
+      "1,453"
+    ],
+    [
+      "Gold.com",
+      "1,355"
+    ],
+    [
+      "Perella Weinberg Partners",
+      "736"
+    ],
+    [
+      "Miami International Holdings",
+      "439"
+    ],
+    [
+      "CleanSpark",
+      "314"
+    ],
+    [
+      "TOP Financial Group",
+      "30"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

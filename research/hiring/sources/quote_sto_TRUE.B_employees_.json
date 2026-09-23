@@ -1,0 +1,130 @@
+{
+  "company": "Truecaller",
+  "source_url": "https://stockanalysis.com/quote/sto/TRUE.B/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Truecaller AB (STO:TRUE.B) Number of Employees",
+  "rows": [
+    [
+      "Jun 30, 2026",
+      "429"
+    ],
+    [
+      "Mar 31, 2026",
+      "463"
+    ],
+    [
+      "Dec 31, 2025",
+      "467"
+    ],
+    [
+      "Sep 30, 2025",
+      "454"
+    ],
+    [
+      "Jun 30, 2025",
+      "440"
+    ],
+    [
+      "Mar 31, 2025",
+      "423"
+    ],
+    [
+      "Dec 31, 2024",
+      "418"
+    ],
+    [
+      "Sep 30, 2024",
+      "410"
+    ],
+    [
+      "Jun 30, 2024",
+      "415"
+    ],
+    [
+      "Mar 31, 2024",
+      "420"
+    ],
+    [
+      "Dec 31, 2023",
+      "422"
+    ],
+    [
+      "Sep 30, 2023",
+      "406"
+    ],
+    [
+      "Jun 30, 2023",
+      "400"
+    ],
+    [
+      "Mar 31, 2023",
+      "400"
+    ],
+    [
+      "Dec 31, 2022",
+      "395"
+    ],
+    [
+      "Sep 30, 2022",
+      "374"
+    ],
+    [
+      "Jun 30, 2022",
+      "351"
+    ],
+    [
+      "Mar 31, 2022",
+      "321"
+    ],
+    [
+      "Dec 31, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Vitec Software Group AB",
+      "1,870"
+    ],
+    [
+      "Better Collective",
+      "1,559"
+    ],
+    [
+      "Lime Technologies AB",
+      "512"
+    ],
+    [
+      "Smart Eye AB",
+      "277"
+    ],
+    [
+      "SmartCraft Group AB",
+      "270"
+    ],
+    [
+      "Micro Systemation AB",
+      "215"
+    ],
+    [
+      "Done.ai Group AB",
+      "175"
+    ],
+    [
+      "BIMobject AB",
+      "149"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

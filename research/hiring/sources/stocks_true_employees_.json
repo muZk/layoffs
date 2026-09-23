@@ -1,0 +1,50 @@
+{
+  "company": "TrueCar",
+  "source_url": "https://stockanalysis.com/stocks/true/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "TrueCar (TRUE) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2024",
+      "349"
+    ],
+    [
+      "Dec 31, 2023",
+      "325"
+    ],
+    [
+      "Dec 31, 2022",
+      "441"
+    ],
+    [
+      "Dec 31, 2021",
+      "428"
+    ],
+    [
+      "Dec 31, 2020",
+      "435"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2016",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2015",
+      "Upgrade Pro"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

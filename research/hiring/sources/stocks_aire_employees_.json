@@ -1,0 +1,58 @@
+{
+  "company": "reAlpha",
+  "source_url": "https://stockanalysis.com/stocks/aire/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "reAlpha Tech (AIRE) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "113"
+    ],
+    [
+      "Dec 31, 2024",
+      "132"
+    ],
+    [
+      "Dec 31, 2023",
+      "14"
+    ],
+    [
+      "Apr 30, 2023",
+      "17"
+    ],
+    [
+      "Fathom Holdings",
+      "281"
+    ],
+    [
+      "Fangdd Network Group",
+      "144"
+    ],
+    [
+      "Offerpad Solutions",
+      "140"
+    ],
+    [
+      "EUDA Health Holdings",
+      "123"
+    ],
+    [
+      "TDH Holdings",
+      "12"
+    ],
+    [
+      "Gyrodyne, LLC",
+      "6"
+    ],
+    [
+      "New Concept Energy",
+      "2"
+    ],
+    [
+      "Change Agents",
+      "2"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

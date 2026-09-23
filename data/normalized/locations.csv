@@ -1,0 +1,242 @@
+record_id,position,location_label
+layoff-2026-001,0,London
+layoff-2026-001,1,Non-U.S.
+layoff-2026-002,0,Indianapolis
+layoff-2026-003,0,Tel Aviv
+layoff-2026-003,1,Non-U.S.
+layoff-2026-004,0,Tel Aviv
+layoff-2026-004,1,Non-U.S.
+layoff-2026-005,0,Miami
+layoff-2026-006,0,Oklahoma City
+layoff-2026-007,0,SF Bay Area
+layoff-2026-008,0,Buenos Aires
+layoff-2026-008,1,Non-U.S.
+layoff-2026-009,0,SF Bay Area
+layoff-2026-010,0,Tel Aviv
+layoff-2026-010,1,Non-U.S.
+layoff-2026-011,0,Tel Aviv
+layoff-2026-011,1,Non-U.S.
+layoff-2026-012,0,Frankfurt
+layoff-2026-012,1,Non-U.S.
+layoff-2026-013,0,Tel Aviv
+layoff-2026-013,1,Non-U.S.
+layoff-2026-014,0,Stockholm
+layoff-2026-014,1,Non-U.S.
+layoff-2026-015,0,SF Bay Area
+layoff-2026-016,0,Cayman Islands
+layoff-2026-016,1,Non-U.S.
+layoff-2026-017,0,New York City
+layoff-2026-018,0,SF Bay Area
+layoff-2026-019,0,Ottawa
+layoff-2026-019,1,Non-U.S.
+layoff-2026-020,0,Istanbul
+layoff-2026-020,1,Non-U.S.
+layoff-2026-021,0,New York City
+layoff-2026-022,0,Seattle
+layoff-2026-023,0,Tel Aviv
+layoff-2026-023,1,Non-U.S.
+layoff-2026-024,0,SF Bay Area
+layoff-2026-025,0,Veldhoven
+layoff-2026-025,1,Non-U.S.
+layoff-2026-026,0,Seattle
+layoff-2026-027,0,Boulder
+layoff-2026-028,0,Brno
+layoff-2026-028,1,Non-U.S.
+layoff-2026-029,0,New York City
+layoff-2026-030,0,New Delhi
+layoff-2026-030,1,Non-U.S.
+layoff-2026-031,0,Seattle
+layoff-2026-032,0,Seattle
+layoff-2026-033,0,Boston
+layoff-2026-034,0,Tel Aviv
+layoff-2026-034,1,Non-U.S.
+layoff-2026-035,0,Seattle
+layoff-2026-036,0,SF Bay Area
+layoff-2026-037,0,SF Bay Area
+layoff-2026-038,0,Bengaluru
+layoff-2026-038,1,Non-U.S.
+layoff-2026-039,0,Toronto
+layoff-2026-039,1,Non-U.S.
+layoff-2026-040,0,New York City
+layoff-2026-041,0,SF Bay Area
+layoff-2026-042,0,New York City
+layoff-2026-043,0,Tel Aviv
+layoff-2026-043,1,Non-U.S.
+layoff-2026-044,0,Tel Aviv
+layoff-2026-044,1,Non-U.S.
+layoff-2026-045,0,Boston
+layoff-2026-046,0,New York City
+layoff-2026-047,0,Bengaluru
+layoff-2026-047,1,Non-U.S.
+layoff-2026-048,0,SF Bay Area
+layoff-2026-049,0,Boston
+layoff-2026-050,0,Los Angeles
+layoff-2026-051,0,Sydney
+layoff-2026-051,1,Non-U.S.
+layoff-2026-052,0,SF Bay Area
+layoff-2026-053,0,London
+layoff-2026-053,1,Non-U.S.
+layoff-2026-054,0,SF Bay Area
+layoff-2026-055,0,London
+layoff-2026-055,1,Non-U.S.
+layoff-2026-056,0,SF Bay Area
+layoff-2026-057,0,Lagos
+layoff-2026-057,1,Non-U.S.
+layoff-2026-058,0,New York City
+layoff-2026-059,0,Seattle
+layoff-2026-060,0,Seattle
+layoff-2026-061,0,Tel Aviv
+layoff-2026-061,1,Non-U.S.
+layoff-2026-062,0,Melbourne
+layoff-2026-062,1,Non-U.S.
+layoff-2026-063,0,Los Angeles
+layoff-2026-064,0,Montreal
+layoff-2026-064,1,Non-U.S.
+layoff-2026-065,0,Bengaluru
+layoff-2026-065,1,Non-U.S.
+layoff-2026-066,0,Los Angeles
+layoff-2026-067,0,Sydney
+layoff-2026-067,1,Non-U.S.
+layoff-2026-068,0,New York City
+layoff-2026-069,0,Toronto
+layoff-2026-069,1,Non-U.S.
+layoff-2026-070,0,Sao Paulo
+layoff-2026-070,1,Non-U.S.
+layoff-2026-071,0,Austin
+layoff-2026-072,0,Chicago
+layoff-2026-073,0,Singapore
+layoff-2026-073,1,Non-U.S.
+layoff-2026-074,0,SF Bay Area
+layoff-2026-075,0,New York City
+layoff-2026-076,0,Stockholm
+layoff-2026-076,1,Non-U.S.
+layoff-2026-077,0,Raleigh
+layoff-2026-078,0,Waterloo
+layoff-2026-078,1,Non-U.S.
+layoff-2026-079,0,SF Bay Area
+layoff-2026-080,0,SF Bay Area
+layoff-2026-081,0,SF Bay Area
+layoff-2026-082,0,Berlin
+layoff-2026-082,1,Non-U.S.
+layoff-2026-083,0,Berlin
+layoff-2026-083,1,Non-U.S.
+layoff-2026-084,0,Bengaluru
+layoff-2026-084,1,Non-U.S.
+layoff-2026-085,0,London
+layoff-2026-085,1,Non-U.S.
+layoff-2026-086,0,SF Bay Area
+layoff-2026-087,0,Seattle
+layoff-2026-088,0,SF Bay Area
+layoff-2026-089,0,Santa Barbara
+layoff-2026-090,0,Miami
+layoff-2026-091,0,SF Bay Area
+layoff-2026-092,0,Bengaluru
+layoff-2026-092,1,Non-U.S.
+layoff-2026-093,0,New York City
+layoff-2026-094,0,Limassol
+layoff-2026-094,1,Non-U.S.
+layoff-2026-095,0,SF Bay Area
+layoff-2026-096,0,SF Bay Area
+layoff-2026-097,0,Raleigh
+layoff-2026-098,0,New York City
+layoff-2026-099,0,Chicago
+layoff-2026-100,0,Miami
+layoff-2026-101,0,SF Bay Area
+layoff-2026-102,0,Tel Aviv
+layoff-2026-102,1,Non-U.S.
+layoff-2026-103,0,SF Bay Area
+layoff-2026-104,0,Tel Aviv
+layoff-2026-104,1,Non-U.S.
+layoff-2026-105,0,London
+layoff-2026-105,1,Non-U.S.
+layoff-2026-106,0,Tel Aviv
+layoff-2026-106,1,Non-U.S.
+layoff-2026-107,0,SF Bay Area
+layoff-2026-108,0,Los Angeles
+layoff-2026-109,0,Brisbane
+layoff-2026-109,1,Non-U.S.
+layoff-2026-110,0,New York City
+layoff-2026-111,0,Boston
+layoff-2026-112,0,SF Bay Area
+layoff-2026-113,0,Nairobi
+layoff-2026-113,1,Non-U.S.
+layoff-2026-114,0,Haifa
+layoff-2026-114,1,Non-U.S.
+layoff-2026-115,0,Mumbai
+layoff-2026-115,1,Non-U.S.
+layoff-2026-116,0,Stockholm
+layoff-2026-116,1,Non-U.S.
+layoff-2026-117,0,Vancouver
+layoff-2026-117,1,Non-U.S.
+layoff-2026-118,0,Oslo
+layoff-2026-118,1,Non-U.S.
+layoff-2026-119,0,Chennai
+layoff-2026-119,1,Non-U.S.
+layoff-2026-120,0,Boston
+layoff-2026-121,0,Ottawa
+layoff-2026-121,1,Non-U.S.
+layoff-2026-122,0,SF Bay Area
+layoff-2026-123,0,Dubai
+layoff-2026-123,1,Non-U.S.
+layoff-2026-124,0,SF Bay Area
+layoff-2026-125,0,SF Bay Area
+layoff-2026-126,0,SF Bay Area
+layoff-2026-127,0,Bengaluru
+layoff-2026-127,1,Non-U.S.
+layoff-2026-128,0,Minneapolis
+layoff-2026-129,0,Tel Aviv
+layoff-2026-129,1,Non-U.S.
+layoff-2026-130,0,Bengaluru
+layoff-2026-130,1,Non-U.S.
+layoff-2026-131,0,Columbus
+layoff-2026-132,0,SF Bay Area
+layoff-2026-133,0,SF Bay Area
+layoff-2026-134,0,Cologne
+layoff-2026-134,1,Non-U.S.
+layoff-2026-135,0,Los Angeles
+layoff-2026-136,0,Stockholm
+layoff-2026-136,1,Non-U.S.
+layoff-2026-137,0,SF Bay Area
+layoff-2026-138,0,Chemnitz
+layoff-2026-138,1,Non-U.S.
+layoff-2026-139,0,New York City
+layoff-2026-140,0,Gurugram
+layoff-2026-140,1,Non-U.S.
+layoff-2026-141,0,Cleveland
+layoff-2026-142,0,Amsterdam
+layoff-2026-142,1,Non-U.S.
+layoff-2026-143,0,Dresden
+layoff-2026-143,1,Non-U.S.
+layoff-2026-144,0,Portland
+layoff-2026-145,0,Cairo
+layoff-2026-145,1,Non-U.S.
+layoff-2026-146,0,SF Bay Area
+layoff-2026-147,0,Tel Aviv
+layoff-2026-147,1,Non-U.S.
+layoff-2026-148,0,Lagos
+layoff-2026-148,1,Non-U.S.
+layoff-2026-149,0,SF Bay Area
+layoff-2026-150,0,Oslo
+layoff-2026-150,1,Non-U.S.
+layoff-2026-151,0,Dublin
+layoff-2026-151,1,Non-U.S.
+layoff-2026-152,0,SF Bay Area
+layoff-2026-153,0,SF Bay Area
+layoff-2026-154,0,Tel Aviv
+layoff-2026-154,1,Non-U.S.
+layoff-2026-155,0,SF Bay Area
+layoff-2026-156,0,SF Bay Area
+layoff-2026-157,0,San Diego
+layoff-2026-158,0,Tel Aviv
+layoff-2026-158,1,Non-U.S.
+layoff-2026-159,0,SF Bay Area
+layoff-2026-160,0,Menlo Park
+layoff-2026-161,0,Bellevue
+layoff-2026-162,0,Seattle
+layoff-2026-163,0,Seattle
+layoff-2026-173,0,Santa Barbara
+layoff-2026-180,0,SF Bay Area
+layoff-2026-183,0,SF Bay Area
+layoff-2026-198,0,SF Bay Area
+layoff-2026-199,0,Tel Aviv
+layoff-2026-199,1,Non-U.S.

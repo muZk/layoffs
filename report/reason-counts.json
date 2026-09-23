@@ -1,0 +1,273 @@
+{
+  "announcement_records": 228,
+  "with_attributed_reason": 201,
+  "reasons": [
+    {
+      "cause": "cost_cutting",
+      "count": 45,
+      "detail": "change_described"
+    },
+    {
+      "cause": "organizational_consolidation",
+      "count": 43,
+      "detail": "change_described"
+    },
+    {
+      "cause": "strategic_pivot",
+      "count": 29,
+      "detail": "change_described"
+    },
+    {
+      "cause": "ai_productivity",
+      "count": 24,
+      "detail": "change_described"
+    },
+    {
+      "cause": "ai_investment_reallocation",
+      "count": 14,
+      "detail": "change_described"
+    },
+    {
+      "cause": "shutdown",
+      "count": 14,
+      "detail": "change_described"
+    },
+    {
+      "cause": "ai_transition",
+      "count": 13,
+      "detail": "general_reason"
+    },
+    {
+      "cause": "operational_efficiency",
+      "count": 11,
+      "detail": "general_reason"
+    },
+    {
+      "cause": "organizational_realignment",
+      "count": 11,
+      "detail": "general_reason"
+    },
+    {
+      "cause": "strategic_priorities",
+      "count": 11,
+      "detail": "general_reason"
+    },
+    {
+      "cause": "unit_closure",
+      "count": 11,
+      "detail": "change_described"
+    },
+    {
+      "cause": "ai_work_redesign",
+      "count": 10,
+      "detail": "change_described"
+    },
+    {
+      "cause": "financial_distress",
+      "count": 10,
+      "detail": "change_described"
+    },
+    {
+      "cause": "demand_decline",
+      "count": 9,
+      "detail": "change_described"
+    },
+    {
+      "cause": "work_relocation",
+      "count": 9,
+      "detail": "change_described"
+    },
+    {
+      "cause": "ai_substitution",
+      "count": 8,
+      "detail": "change_described"
+    },
+    {
+      "cause": "m_and_a",
+      "count": 8,
+      "detail": "change_described"
+    },
+    {
+      "cause": "ai_market_disruption",
+      "count": 7,
+      "detail": "change_described"
+    },
+    {
+      "cause": "market_conditions",
+      "count": 5,
+      "detail": "general_reason"
+    },
+    {
+      "cause": "market_exit",
+      "count": 4,
+      "detail": "change_described"
+    },
+    {
+      "cause": "performance_cull",
+      "count": 4,
+      "detail": "change_described"
+    },
+    {
+      "cause": "lost_contract",
+      "count": 2,
+      "detail": "change_described"
+    },
+    {
+      "cause": "ipo_prep",
+      "count": 1,
+      "detail": "change_described"
+    },
+    {
+      "cause": "regulatory",
+      "count": 1,
+      "detail": "change_described"
+    }
+  ],
+  "ai_pairs": [
+    {
+      "ai": "ai_productivity",
+      "other": "cost_cutting",
+      "count": 12
+    },
+    {
+      "ai": "ai_productivity",
+      "other": "organizational_consolidation",
+      "count": 8
+    },
+    {
+      "ai": "ai_investment_reallocation",
+      "other": "cost_cutting",
+      "count": 5
+    },
+    {
+      "ai": "ai_market_disruption",
+      "other": "strategic_pivot",
+      "count": 4
+    },
+    {
+      "ai": "ai_investment_reallocation",
+      "other": "organizational_consolidation",
+      "count": 3
+    },
+    {
+      "ai": "ai_productivity",
+      "other": "strategic_pivot",
+      "count": 3
+    },
+    {
+      "ai": "ai_transition",
+      "other": "operational_efficiency",
+      "count": 3
+    },
+    {
+      "ai": "ai_work_redesign",
+      "other": "cost_cutting",
+      "count": 3
+    },
+    {
+      "ai": "ai_market_disruption",
+      "other": "organizational_consolidation",
+      "count": 2
+    },
+    {
+      "ai": "ai_substitution",
+      "other": "organizational_consolidation",
+      "count": 2
+    },
+    {
+      "ai": "ai_substitution",
+      "other": "work_relocation",
+      "count": 2
+    },
+    {
+      "ai": "ai_transition",
+      "other": "market_conditions",
+      "count": 2
+    },
+    {
+      "ai": "ai_work_redesign",
+      "other": "organizational_consolidation",
+      "count": 2
+    },
+    {
+      "ai": "ai_investment_reallocation",
+      "other": "strategic_pivot",
+      "count": 1
+    },
+    {
+      "ai": "ai_investment_reallocation",
+      "other": "unit_closure",
+      "count": 1
+    },
+    {
+      "ai": "ai_investment_reallocation",
+      "other": "work_relocation",
+      "count": 1
+    },
+    {
+      "ai": "ai_market_disruption",
+      "other": "financial_distress",
+      "count": 1
+    },
+    {
+      "ai": "ai_market_disruption",
+      "other": "shutdown",
+      "count": 1
+    },
+    {
+      "ai": "ai_productivity",
+      "other": "demand_decline",
+      "count": 1
+    },
+    {
+      "ai": "ai_productivity",
+      "other": "ipo_prep",
+      "count": 1
+    },
+    {
+      "ai": "ai_productivity",
+      "other": "m_and_a",
+      "count": 1
+    },
+    {
+      "ai": "ai_productivity",
+      "other": "market_exit",
+      "count": 1
+    },
+    {
+      "ai": "ai_productivity",
+      "other": "unit_closure",
+      "count": 1
+    },
+    {
+      "ai": "ai_productivity",
+      "other": "work_relocation",
+      "count": 1
+    },
+    {
+      "ai": "ai_substitution",
+      "other": "cost_cutting",
+      "count": 1
+    },
+    {
+      "ai": "ai_substitution",
+      "other": "m_and_a",
+      "count": 1
+    },
+    {
+      "ai": "ai_transition",
+      "other": "organizational_consolidation",
+      "count": 1
+    },
+    {
+      "ai": "ai_transition",
+      "other": "strategic_priorities",
+      "count": 1
+    },
+    {
+      "ai": "ai_work_redesign",
+      "other": "strategic_pivot",
+      "count": 1
+    }
+  ]
+}

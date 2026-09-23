@@ -1,0 +1,2758 @@
+[
+  {
+    "company": "Angi",
+    "record_ids": [
+      "layoff-2026-002"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/angi/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Foretellix",
+    "record_ids": [
+      "layoff-2026-003"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Hailo",
+    "record_ids": [
+      "layoff-2026-004",
+      "layoff-2026-199"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Kaseya",
+    "record_ids": [
+      "layoff-2026-005"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Tailwind Labs",
+    "record_ids": [
+      "layoff-2026-006"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_market_disruption",
+      "financial_distress"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "FormFactor",
+    "record_ids": [
+      "layoff-2026-007"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/form/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "MercadoLibre",
+    "record_ids": [
+      "layoff-2026-008"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_work_redesign",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/meli/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Meta",
+    "record_ids": [
+      "layoff-2026-009",
+      "layoff-2026-080",
+      "layoff-2026-091",
+      "layoff-2026-156"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_investment_reallocation",
+      "cost_cutting",
+      "strategic_pivot"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/meta/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "StoreDot",
+    "record_ids": [
+      "layoff-2026-010"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "eToro",
+    "record_ids": [
+      "layoff-2026-011"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/etor/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Aleph Alpha",
+    "record_ids": [
+      "layoff-2026-012"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Playtika",
+    "record_ids": [
+      "layoff-2026-013"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "strategic_pivot"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/pltk/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Ericsson",
+    "record_ids": [
+      "layoff-2026-014"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/eric/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Tipalti",
+    "record_ids": [
+      "layoff-2026-015"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Polygon",
+    "record_ids": [
+      "layoff-2026-016"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "m_and_a"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Vimeo",
+    "record_ids": [
+      "layoff-2026-017",
+      "layoff-2026-093"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/vmeo/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Autodesk",
+    "record_ids": [
+      "layoff-2026-018"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_investment_reallocation",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/adsk/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Shopify",
+    "record_ids": [
+      "layoff-2026-019",
+      "layoff-2026-121"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/shop/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Roof Stacks",
+    "record_ids": [
+      "layoff-2026-020"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "unit_closure"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Entropy",
+    "record_ids": [
+      "layoff-2026-021"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "shutdown"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Expedia",
+    "record_ids": [
+      "layoff-2026-022",
+      "layoff-2026-031"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/expe/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Moon Active",
+    "record_ids": [
+      "layoff-2026-023"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Pinterest",
+    "record_ids": [
+      "layoff-2026-024"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_investment_reallocation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/pins/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "ASML",
+    "record_ids": [
+      "layoff-2026-025"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/asml/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Amazon",
+    "record_ids": [
+      "layoff-2026-026",
+      "layoff-2026-060"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/amzn/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Gloo",
+    "record_ids": [
+      "layoff-2026-027"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/gloo/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Kiwi.com",
+    "record_ids": [
+      "layoff-2026-028"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Peloton",
+    "record_ids": [
+      "layoff-2026-029"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/pton/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Zupee",
+    "record_ids": [
+      "layoff-2026-030"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting",
+      "regulatory",
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Zillow",
+    "record_ids": [
+      "layoff-2026-032"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "performance_cull"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/z/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Zipcar",
+    "record_ids": [
+      "layoff-2026-033"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Rewire",
+    "record_ids": [
+      "layoff-2026-034"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "work_relocation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Smartsheet",
+    "record_ids": [
+      "layoff-2026-035"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/smar/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Workday",
+    "record_ids": [
+      "layoff-2026-036"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/wday/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Salesforce",
+    "record_ids": [
+      "layoff-2026-037",
+      "layoff-2026-198"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/crm/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Fi.Money",
+    "record_ids": [
+      "layoff-2026-038"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Dayforce",
+    "record_ids": [
+      "layoff-2026-039"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/day/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Glossier",
+    "record_ids": [
+      "layoff-2026-040"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Clari",
+    "record_ids": [
+      "layoff-2026-041"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Axonius",
+    "record_ids": [
+      "layoff-2026-042"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Firebolt",
+    "record_ids": [
+      "layoff-2026-043"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Huawei",
+    "record_ids": [
+      "layoff-2026-044"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Cyberark",
+    "record_ids": [
+      "layoff-2026-045"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "m_and_a"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/cybr/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Codecademy",
+    "record_ids": [
+      "layoff-2026-046"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Livspace",
+    "record_ids": [
+      "layoff-2026-047"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_substitution"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Lucid Motors",
+    "record_ids": [
+      "layoff-2026-048",
+      "layoff-2026-183"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/lcid/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "DraftKings",
+    "record_ids": [
+      "layoff-2026-049"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/dkng/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "TrueCar",
+    "record_ids": [
+      "layoff-2026-050"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/true/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "WiseTech",
+    "record_ids": [
+      "layoff-2026-051"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_substitution",
+      "m_and_a"
+    ],
+    "series_url": "https://stockanalysis.com/quote/asx/WTC/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "C3.ai",
+    "record_ids": [
+      "layoff-2026-052"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/ai/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Deliveroo",
+    "record_ids": [
+      "layoff-2026-053"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "market_exit"
+    ],
+    "series_url": "https://stockanalysis.com/quote/lon/ROO/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Block",
+    "record_ids": [
+      "layoff-2026-054"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/xyz/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Ocado",
+    "record_ids": [
+      "layoff-2026-055"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "cost_cutting",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/quote/lon/OCDO/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "eBay",
+    "record_ids": [
+      "layoff-2026-056"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/ebay/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Zap Africa",
+    "record_ids": [
+      "layoff-2026-057"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "cost_cutting"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Verint Systems",
+    "record_ids": [
+      "layoff-2026-058"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "m_and_a"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/vrnt/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "MicroVision",
+    "record_ids": [
+      "layoff-2026-059"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/mvis/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "At-Bay",
+    "record_ids": [
+      "layoff-2026-061"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Envato",
+    "record_ids": [
+      "layoff-2026-062"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_investment_reallocation",
+      "cost_cutting",
+      "organizational_consolidation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Supernal",
+    "record_ids": [
+      "layoff-2026-063"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting",
+      "organizational_consolidation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "SSense",
+    "record_ids": [
+      "layoff-2026-064"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Flipkart",
+    "record_ids": [
+      "layoff-2026-065"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "performance_cull"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "InvestCloud",
+    "record_ids": [
+      "layoff-2026-066"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Atlassian",
+    "record_ids": [
+      "layoff-2026-067"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_investment_reallocation",
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/team/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Digg",
+    "record_ids": [
+      "layoff-2026-068"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_market_disruption",
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Loopio",
+    "record_ids": [
+      "layoff-2026-069"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Stone",
+    "record_ids": [
+      "layoff-2026-070"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/stne/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "FranShares",
+    "record_ids": [
+      "layoff-2026-072"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "financial_distress",
+      "shutdown"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Crypto.com",
+    "record_ids": [
+      "layoff-2026-073"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_work_redesign"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Snowflake",
+    "record_ids": [
+      "layoff-2026-074"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/snow/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Gemini",
+    "record_ids": [
+      "layoff-2026-075"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "cost_cutting",
+      "market_exit"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/gemi/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Spotify",
+    "record_ids": [
+      "layoff-2026-076"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/spot/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Epic Games",
+    "record_ids": [
+      "layoff-2026-077"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting",
+      "demand_decline"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "OpenText",
+    "record_ids": [
+      "layoff-2026-078"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/otex/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Zendesk",
+    "record_ids": [
+      "layoff-2026-079"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "unit_closure"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Monte Carlo",
+    "record_ids": [
+      "layoff-2026-081"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "organizational_consolidation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Quandoo",
+    "record_ids": [
+      "layoff-2026-082"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "shutdown"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Enpal",
+    "record_ids": [
+      "layoff-2026-083"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "unit_closure"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Covrzy",
+    "record_ids": [
+      "layoff-2026-084"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "financial_distress",
+      "shutdown"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Monzo",
+    "record_ids": [
+      "layoff-2026-085"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "market_exit"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Oracle",
+    "record_ids": [
+      "layoff-2026-086"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/orcl/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Rec Room",
+    "record_ids": [
+      "layoff-2026-087"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "financial_distress",
+      "shutdown"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Yupp",
+    "record_ids": [
+      "layoff-2026-088"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_market_disruption",
+      "shutdown"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Sonos",
+    "record_ids": [
+      "layoff-2026-089",
+      "layoff-2026-173"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/sono/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "MARA",
+    "record_ids": [
+      "layoff-2026-090"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/mara/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "NeuroPixel.AI",
+    "record_ids": [
+      "layoff-2026-092"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "financial_distress",
+      "lost_contract",
+      "shutdown"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Welltech",
+    "record_ids": [
+      "layoff-2026-094"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Bolt",
+    "record_ids": [
+      "layoff-2026-095"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "GoPro",
+    "record_ids": [
+      "layoff-2026-096"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/gpro/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Pendo",
+    "record_ids": [
+      "layoff-2026-097"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "IAC",
+    "record_ids": [
+      "layoff-2026-098"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/iac/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Cars.com",
+    "record_ids": [
+      "layoff-2026-099"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/cars/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Pepper Pay",
+    "record_ids": [
+      "layoff-2026-100"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "financial_distress",
+      "shutdown"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Life360",
+    "record_ids": [
+      "layoff-2026-101"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_investment_reallocation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/lif/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Esh Group",
+    "record_ids": [
+      "layoff-2026-102"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Eventbrite",
+    "record_ids": [
+      "layoff-2026-103"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/eb/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "StarkWare",
+    "record_ids": [
+      "layoff-2026-104"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Nayax",
+    "record_ids": [
+      "layoff-2026-106"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/nyax/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Productboard",
+    "record_ids": [
+      "layoff-2026-107"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_market_disruption",
+      "ai_productivity",
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Snap",
+    "record_ids": [
+      "layoff-2026-108"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/snap/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Swyftx",
+    "record_ids": [
+      "layoff-2026-109"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "m_and_a"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Taboola",
+    "record_ids": [
+      "layoff-2026-110"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/tbla/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "UKG",
+    "record_ids": [
+      "layoff-2026-111"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Quora",
+    "record_ids": [
+      "layoff-2026-112"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Sama",
+    "record_ids": [
+      "layoff-2026-113"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "lost_contract"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Shutterfly",
+    "record_ids": [
+      "layoff-2026-114"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "unit_closure"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/sfly/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Acko",
+    "record_ids": [
+      "layoff-2026-115"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_work_redesign"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Epidemic Sound",
+    "record_ids": [
+      "layoff-2026-116"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "GeoComply",
+    "record_ids": [
+      "layoff-2026-117"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Remarkable",
+    "record_ids": [
+      "layoff-2026-118"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "demand_decline"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "SuperOps",
+    "record_ids": [
+      "layoff-2026-119"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Pentera",
+    "record_ids": [
+      "layoff-2026-120"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "0G",
+    "record_ids": [
+      "layoff-2026-122"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Careem",
+    "record_ids": [
+      "layoff-2026-123"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Coinbase",
+    "record_ids": [
+      "layoff-2026-124"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "cost_cutting",
+      "demand_decline",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/coin/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Freshworks",
+    "record_ids": [
+      "layoff-2026-125"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_substitution",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/frsh/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "PayPal",
+    "record_ids": [
+      "layoff-2026-126"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_work_redesign",
+      "cost_cutting",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/pypl/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "ApnaMart",
+    "record_ids": [
+      "layoff-2026-127"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_substitution",
+      "work_relocation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Arctic Wolf",
+    "record_ids": [
+      "layoff-2026-128"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_investment_reallocation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "LSports",
+    "record_ids": [
+      "layoff-2026-129"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "cost_cutting"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Pocket FM",
+    "record_ids": [
+      "layoff-2026-130"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "performance_cull"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "reAlpha",
+    "record_ids": [
+      "layoff-2026-131"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "cost_cutting",
+      "work_relocation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/aire/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Bill.com",
+    "record_ids": [
+      "layoff-2026-132"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/bill/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Cloudflare",
+    "record_ids": [
+      "layoff-2026-133"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_work_redesign"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/net/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "DeepL",
+    "record_ids": [
+      "layoff-2026-134"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "organizational_consolidation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Ticketmaster",
+    "record_ids": [
+      "layoff-2026-135"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Truecaller",
+    "record_ids": [
+      "layoff-2026-136"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting",
+      "demand_decline",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/quote/sto/TRUE.B/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Upwork",
+    "record_ids": [
+      "layoff-2026-137"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "cost_cutting",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/upwk/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Staffbase",
+    "record_ids": [
+      "layoff-2026-138"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Parker",
+    "record_ids": [
+      "layoff-2026-139"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "financial_distress",
+      "shutdown"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Adda247",
+    "record_ids": [
+      "layoff-2026-140"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting",
+      "unit_closure"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "MRI Software",
+    "record_ids": [
+      "layoff-2026-141"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "MessageBird",
+    "record_ids": [
+      "layoff-2026-142"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_substitution",
+      "work_relocation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "One Identity",
+    "record_ids": [
+      "layoff-2026-143"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "work_relocation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "ZoomInfo",
+    "record_ids": [
+      "layoff-2026-144"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot",
+      "work_relocation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/gtm/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Breadfast",
+    "record_ids": [
+      "layoff-2026-145"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Cisco",
+    "record_ids": [
+      "layoff-2026-146"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_investment_reallocation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/csco/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Guesty",
+    "record_ids": [
+      "layoff-2026-147"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Jumia",
+    "record_ids": [
+      "layoff-2026-148"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/jmia/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "LinkedIn",
+    "record_ids": [
+      "layoff-2026-149"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Dune",
+    "record_ids": [
+      "layoff-2026-150"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Gambling.com Group",
+    "record_ids": [
+      "layoff-2026-151"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_work_redesign",
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/gamb/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Innovaccer",
+    "record_ids": [
+      "layoff-2026-152"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Kraken",
+    "record_ids": [
+      "layoff-2026-153"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "ipo_prep"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "AI21 Labs",
+    "record_ids": [
+      "layoff-2026-154"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_market_disruption",
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Intuit",
+    "record_ids": [
+      "layoff-2026-155"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/intu/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "ClickUp",
+    "record_ids": [
+      "layoff-2026-157"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_work_redesign"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Wix",
+    "record_ids": [
+      "layoff-2026-158"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/wix/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "GitLab",
+    "record_ids": [
+      "layoff-2026-159"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_investment_reallocation",
+      "organizational_consolidation",
+      "work_relocation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/gtlb/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Robinhood",
+    "record_ids": [
+      "layoff-2026-160"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/hood/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Bungie",
+    "record_ids": [
+      "layoff-2026-161"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "demand_decline",
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "PlaxidityX",
+    "record_ids": [
+      "layoff-2026-164"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "demand_decline",
+      "shutdown"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Elementor",
+    "record_ids": [
+      "layoff-2026-165"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_market_disruption",
+      "organizational_consolidation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Equip Health",
+    "record_ids": [
+      "layoff-2026-166"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "ADP",
+    "record_ids": [
+      "layoff-2026-167"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/adp/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "SAS",
+    "record_ids": [
+      "layoff-2026-168"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "CompanyCam",
+    "record_ids": [
+      "layoff-2026-169"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "JiviAI",
+    "record_ids": [
+      "layoff-2026-170"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Culture Amp",
+    "record_ids": [
+      "layoff-2026-171"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Amperity",
+    "record_ids": [
+      "layoff-2026-172"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "BitGo",
+    "record_ids": [
+      "layoff-2026-174"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/btgo/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Snyk",
+    "record_ids": [
+      "layoff-2026-175"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Elastic",
+    "record_ids": [
+      "layoff-2026-176"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_productivity",
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/estc/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Cyberbit",
+    "record_ids": [
+      "layoff-2026-177"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "unit_closure"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Lazada Group",
+    "record_ids": [
+      "layoff-2026-178"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Ethereum Foundation",
+    "record_ids": [
+      "layoff-2026-179"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "91Trucks",
+    "record_ids": [
+      "layoff-2026-181"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Tractive",
+    "record_ids": [
+      "layoff-2026-182"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Optimove",
+    "record_ids": [
+      "layoff-2026-184"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Lastminute",
+    "record_ids": [
+      "layoff-2026-185"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_investment_reallocation",
+      "ai_work_redesign",
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/quote/swx/LMN/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Matter Labs",
+    "record_ids": [
+      "layoff-2026-186"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Artlist",
+    "record_ids": [
+      "layoff-2026-187"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_substitution",
+      "organizational_consolidation"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "FNZ",
+    "record_ids": [
+      "layoff-2026-188"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Rackspace",
+    "record_ids": [
+      "layoff-2026-189"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/rxt/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Rivian",
+    "record_ids": [
+      "layoff-2026-190"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/rivn/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Pleo",
+    "record_ids": [
+      "layoff-2026-191"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "ServiceNow",
+    "record_ids": [
+      "layoff-2026-192"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/now/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Shopee",
+    "record_ids": [
+      "layoff-2026-193"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Opendoor",
+    "record_ids": [
+      "layoff-2026-194"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "unit_closure",
+      "work_relocation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/open/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Veritone",
+    "record_ids": [
+      "layoff-2026-195"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/veri/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Paytm",
+    "record_ids": [
+      "layoff-2026-196"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "performance_cull"
+    ],
+    "series_url": "https://stockanalysis.com/quote/nse/PAYTM/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Verily",
+    "record_ids": [
+      "layoff-2026-197"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Tools for Humanity",
+    "record_ids": [
+      "layoff-2026-200"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Zencity",
+    "record_ids": [
+      "layoff-2026-201"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "FanDuel",
+    "record_ids": [
+      "layoff-2026-202"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Quizlet",
+    "record_ids": [
+      "layoff-2026-203"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Google",
+    "record_ids": [
+      "layoff-2026-204"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Uber",
+    "record_ids": [
+      "layoff-2026-205"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/uber/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Skai",
+    "record_ids": [
+      "layoff-2026-206"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Aleph Farms",
+    "record_ids": [
+      "layoff-2026-207"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting",
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Manhattan Associates",
+    "record_ids": [
+      "layoff-2026-208"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/manh/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Lightricks",
+    "record_ids": [
+      "layoff-2026-209"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_work_redesign",
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Credit Karma",
+    "record_ids": [
+      "layoff-2026-210"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Interview Kickstart",
+    "record_ids": [
+      "layoff-2026-211"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "demand_decline"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "SentinelOne",
+    "record_ids": [
+      "layoff-2026-212"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "strategic_pivot"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/s/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Rapyd",
+    "record_ids": [
+      "layoff-2026-213"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_investment_reallocation",
+      "ai_productivity",
+      "unit_closure"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Amdocs",
+    "record_ids": [
+      "layoff-2026-214"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/dox/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "BenchSci",
+    "record_ids": [
+      "layoff-2026-215"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Webflow",
+    "record_ids": [
+      "layoff-2026-216"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_market_disruption",
+      "organizational_consolidation",
+      "strategic_pivot"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "NetApp",
+    "record_ids": [
+      "layoff-2026-217"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/ntap/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Picnic",
+    "record_ids": [
+      "layoff-2026-218"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Groupon",
+    "record_ids": [
+      "layoff-2026-219"
+    ],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_investment_reallocation",
+      "cost_cutting"
+    ],
+    "series_url": "https://stockanalysis.com/stocks/grpn/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "BigID",
+    "record_ids": [
+      "layoff-2026-220"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Trend Micro",
+    "record_ids": [
+      "layoff-2026-221"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "organizational_consolidation",
+      "unit_closure",
+      "work_relocation"
+    ],
+    "series_url": "https://stockanalysis.com/quote/tyo/4704/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Noa Technologies",
+    "record_ids": [
+      "layoff-2026-222"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Zondacrypto",
+    "record_ids": [
+      "layoff-2026-223"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Qt Company",
+    "record_ids": [
+      "layoff-2026-224"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "cost_cutting",
+      "m_and_a"
+    ],
+    "series_url": "https://stockanalysis.com/quote/hel/QTCOM/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Qualcomm",
+    "record_ids": [
+      "layoff-2026-225"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/qcom/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Flex AI",
+    "record_ids": [
+      "layoff-2026-227"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "financial_distress",
+      "shutdown"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Algorand Foundation",
+    "record_ids": [
+      "layoff-2026-228"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "OP Labs",
+    "record_ids": [
+      "layoff-2026-229"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Marketsource",
+    "record_ids": [
+      "layoff-2026-230"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Xero",
+    "record_ids": [
+      "layoff-2026-231"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/quote/asx/XRO/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Riot Games",
+    "record_ids": [
+      "layoff-2026-232"
+    ],
+    "ai_mechanism": false,
+    "causes": [
+      "demand_decline"
+    ],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Informatica",
+    "record_ids": [
+      "layoff-2026-233"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": "https://stockanalysis.com/stocks/infa/employees/",
+    "screen_status": "candidate_historical_public_reporting",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Alle",
+    "record_ids": [
+      "layoff-2026-234"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  },
+  {
+    "company": "Dandy",
+    "record_ids": [
+      "layoff-2026-235"
+    ],
+    "ai_mechanism": false,
+    "causes": [],
+    "series_url": null,
+    "screen_status": "no_standalone_listed_series_mapped",
+    "note": "Subsidiary workforce is not replaced by parent-company headcount."
+  }
+]

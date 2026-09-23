@@ -1,0 +1,46 @@
+{
+  "company": "Deliveroo",
+  "source_url": "https://stockanalysis.com/quote/lon/ROO/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Deliveroo (LON:ROO) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2024",
+      "3,839"
+    ],
+    [
+      "Dec 31, 2023",
+      "3,630"
+    ],
+    [
+      "Dec 31, 2022",
+      "4,046"
+    ],
+    [
+      "Dec 31, 2021",
+      "3,108"
+    ],
+    [
+      "Dec 31, 2020",
+      "2,060"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2016",
+      "Upgrade Pro"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

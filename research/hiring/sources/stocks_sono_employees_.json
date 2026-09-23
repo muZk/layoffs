@@ -1,0 +1,82 @@
+{
+  "company": "Sonos",
+  "source_url": "https://stockanalysis.com/stocks/sono/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Sonos (SONO) Number of Employees",
+  "rows": [
+    [
+      "Sep 27, 2025",
+      "1,404"
+    ],
+    [
+      "Sep 28, 2024",
+      "1,708"
+    ],
+    [
+      "Sep 30, 2023",
+      "1,867"
+    ],
+    [
+      "Oct 1, 2022",
+      "1,844"
+    ],
+    [
+      "Oct 2, 2021",
+      "1,525"
+    ],
+    [
+      "Oct 3, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 28, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 29, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Sony Group",
+      "94,900"
+    ],
+    [
+      "LG Display",
+      "23,490"
+    ],
+    [
+      "Universal Electronics",
+      "3,099"
+    ],
+    [
+      "Zepp Health",
+      "763"
+    ],
+    [
+      "GoPro",
+      "636"
+    ],
+    [
+      "Turtle Beach",
+      "268"
+    ],
+    [
+      "Vuzix",
+      "88"
+    ],
+    [
+      "UTime",
+      "34"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

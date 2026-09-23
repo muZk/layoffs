@@ -1,0 +1,66 @@
+{
+  "company": "GitLab",
+  "source_url": "https://stockanalysis.com/stocks/gtlb/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "GitLab (GTLB) Number of Employees 2021-2026",
+  "rows": [
+    [
+      "Jan 31, 2026",
+      "2,580"
+    ],
+    [
+      "Jan 31, 2025",
+      "2,375"
+    ],
+    [
+      "Jan 31, 2024",
+      "2,130"
+    ],
+    [
+      "Jan 31, 2023",
+      "2,170"
+    ],
+    [
+      "Jan 31, 2022",
+      "1,630"
+    ],
+    [
+      "Jul 31, 2021",
+      "1,350"
+    ],
+    [
+      "Amdocs",
+      "26,969"
+    ],
+    [
+      "WEX Inc.",
+      "6,600"
+    ],
+    [
+      "UiPath",
+      "3,981"
+    ],
+    [
+      "Mobility Global",
+      "3,522"
+    ],
+    [
+      "Zeta Global Holdings",
+      "3,300"
+    ],
+    [
+      "SailPoint",
+      "3,229"
+    ],
+    [
+      "SentinelOne",
+      "2,900"
+    ],
+    [
+      "Qualys",
+      "2,718"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

@@ -1,0 +1,78 @@
+{
+  "company": "Veritone",
+  "source_url": "https://stockanalysis.com/stocks/veri/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Veritone (VERI) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "446"
+    ],
+    [
+      "Dec 31, 2024",
+      "487"
+    ],
+    [
+      "Dec 31, 2023",
+      "696"
+    ],
+    [
+      "Dec 31, 2022",
+      "661"
+    ],
+    [
+      "Dec 31, 2021",
+      "546"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Endava",
+      "11,225"
+    ],
+    [
+      "Tucows",
+      "759"
+    ],
+    [
+      "Sangoma Technologies",
+      "645"
+    ],
+    [
+      "ZenaTech",
+      "260"
+    ],
+    [
+      "FatPipe",
+      "172"
+    ],
+    [
+      "VivoPower",
+      "41"
+    ],
+    [
+      "Axe Compute",
+      "14"
+    ],
+    [
+      "Eva Live",
+      "3"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

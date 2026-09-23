@@ -1,0 +1,411 @@
+[
+  {
+    "record_id": "layoff-2026-010",
+    "company": "StoreDot",
+    "date": "2026-01-13",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "Original reporting confirms cuts and a pending SPAC transaction but gives no attributed reason. Funding concerns found in later coverage do not establish why this January round occurred.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/sjkqkmeb11x"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-017",
+    "company": "Vimeo",
+    "date": "2026-01-21",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "January reporting confirms layoffs following the acquisition. The March leadership letter discusses the operating model, but does not explicitly attribute this January reduction to a particular reason. Acquisition timing alone is insufficient.",
+    "sources": [
+      "https://www.businessinsider.com/vimeo-laying-off-staff-after-billion-sale-to-bending-spoons-2026-1",
+      "https://techcrunch.com/2026/01/22/vimeo-starts-layoffs-after-acquisition-by-bending-spoons/",
+      "https://vimeo.com/blog/post/what-comes-next-vimeo"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-037",
+    "company": "Salesforce",
+    "date": "2026-02-09",
+    "outcome": "concrete",
+    "causes": [
+      "ai_substitution"
+    ],
+    "details": {
+      "ai_substitution": {
+        "summary": "Forrester analyst Charlie Dai interprets this fresh round as AI/automation replacing workers. This is an external analyst inference, not a company admission or independently established displacement; the company response discusses support staffing over the preceding year.",
+        "source_url": "https://www.cio.com/article/4130028/salesforce-lays-off-staffers-as-executive-leadership-churn-continues.html",
+        "specificity": "concrete",
+        "attribution": "reported_inference",
+        "scope": "event",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Forrester analyst Charlie Dai interprets this fresh round as AI/automation replacing workers. This is an external analyst inference, not a company admission or independently established displacement; the company response discusses support staffing over the preceding year.",
+    "sources": [
+      "https://www.businessinsider.com/salesforce-cuts-jobs-executive-changes-2026-2",
+      "https://www.salesforceben.com/salesforce-lays-off-nearly-1000-employees-in-early-2026-cuts/",
+      "https://www.cio.com/article/4130028/salesforce-lays-off-staffers-as-executive-leadership-churn-continues.html"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-042",
+    "company": "Axonius",
+    "date": "2026-02-15",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "Reporting identifies sales/marketing cuts and leadership changes. IPO preparation refers to the preceding November round; acquisition talks do not establish the reason for February cuts.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/s1xchi1oze"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-046",
+    "company": "Codecademy",
+    "date": "2026-02-19",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "The curriculum leader confirms the team was laid off. Reporting explicitly says Skillsoft did not give a detailed rationale. A secondary workplace summary links parent cost plans, but no event-specific primary link was recovered.",
+    "sources": [
+      "https://www.edtechinnovationhub.com/news/skillsoft-lays-off-entire-codecademy-curriculum-team-senior-leader-confirms",
+      "https://builtin.com/company/codecademy-skillsoft-company/faq/workplace-perception"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-086",
+    "company": "Oracle",
+    "date": "2026-03-31",
+    "outcome": "generic",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "The March termination email attributes role elimination to a broader organizational change following a review of business needs. It does not specify an AI mechanism.",
+        "source_url": "https://www.moneycontrol.com/news/trends/full-text-of-the-email-oracle-sent-to-30-000-laid-off-employees-at-6-am-13876386.html",
+        "specificity": "generic",
+        "attribution": "company_stated",
+        "scope": "event",
+        "evidence_access": "full"
+      }
+    },
+    "note": "El correo de marzo habla de reorganización. El informe anual vincula IA con un plan más amplio, sin asignar el recorte de marzo. No se convierte ese contexto en mecanismo del evento.",
+    "sources": [
+      "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+      "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm",
+      "https://www.moneycontrol.com/news/trends/full-text-of-the-email-oracle-sent-to-30-000-laid-off-employees-at-6-am-13876386.html"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists.",
+    "subsequent_review": {
+      "review_date": "2026-09-17",
+      "outcome": "published_reason_remains_general",
+      "note_es": "El correo de marzo habla de reorganización. El informe anual vincula IA con un plan más amplio, sin asignar el recorte de marzo. No se convierte ese contexto en mecanismo del evento.",
+      "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+      "sources": [
+        "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+        "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm",
+        "https://www.moneycontrol.com/news/trends/full-text-of-the-email-oracle-sent-to-30-000-laid-off-employees-at-6-am-13876386.html"
+      ],
+      "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+    }
+  },
+  {
+    "record_id": "layoff-2026-091",
+    "company": "Meta",
+    "date": "2026-04-02",
+    "outcome": "generic",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "A Meta spokesperson explains the reported reductions through regular team restructuring to achieve organizational goals; no concrete operating mechanism is given.",
+        "source_url": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php",
+        "specificity": "generic",
+        "attribution": "company_stated",
+        "scope": "event",
+        "evidence_access": "full"
+      }
+    },
+    "note": "La declaración de reorganización es general. El aviso local puede solaparse con marzo; no se traslada el motivo de otra ronda ni se supone un evento independiente.",
+    "sources": [
+      "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists.",
+    "subsequent_review": {
+      "review_date": "2026-09-17",
+      "outcome": "published_reason_remains_general",
+      "note_es": "La declaración de reorganización es general. El aviso local puede solaparse con marzo; no se traslada el motivo de otra ronda ni se supone un evento independiente.",
+      "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+      "sources": [
+        "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+      ],
+      "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+    }
+  },
+  {
+    "record_id": "layoff-2026-093",
+    "company": "Vimeo",
+    "date": "2026-04-03",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "April WARN reporting confirms the local reduction without an attributed rationale. Ownership changes and the January cuts may overlap; neither establishes a separate April explanation.",
+    "sources": [
+      "https://hoodline.com/2026/04/vimeo-axes-quarter-of-midtown-staff-after-billion-dollar-takeover/",
+      "https://whatnow.com/new-york/local-news/new-york-based-video-platform-to-layoff-130-employees/",
+      "https://vimeo.com/blog/post/what-comes-next-vimeo"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-110",
+    "company": "Taboola",
+    "date": "2026-04-15",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "The Q1 filing confirms the April workforce reduction in subsequent events. Product launches, parallel hiring and stock-price commentary do not provide a sufficiently attributed reason for these cuts.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/hku03an3bg",
+      "https://www.sec.gov/Archives/edgar/data/1840502/000184050226000009/tbla-20260331.htm",
+      "https://en.globes.co.il/en/article-taboola-lays-off-5-of-workforce-1001540177"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-145",
+    "company": "Breadfast",
+    "date": "2026-05-12",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "Reporting contains a company explanation of contract expiry/nonrenewal, which describes how employment ended rather than why those roles were eliminated. Financing and AI investment remain context.",
+    "sources": [
+      "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-167",
+    "company": "ADP",
+    "date": "2026-06-26",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "The New Jersey WARN archive and June 29 local reporting establish 76 planned exits. No event-specific reason recovered; ADP employment surveys and anonymous discussions cannot establish the cause of this notice.",
+    "sources": [
+      "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf",
+      "https://finance.yahoo.com/economy/articles/more-200-layoffs-planned-tech-160244643.html"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-192",
+    "company": "ServiceNow",
+    "date": "2026-06-11",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "June WARN-based coverage establishes 54 Santa Clara cuts. Later July notices and broad AI-product reporting do not establish a reason for this specific event.",
+    "sources": [
+      "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-197",
+    "company": "Verily",
+    "date": "2026-06-09",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "June WARN-based reporting identifies the San Bruno reduction. Searches surfaced earlier Verily rounds and different company Veritone; these cannot explain this event.",
+    "sources": [
+      "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html",
+      "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-198",
+    "company": "Salesforce",
+    "date": "2026-06-09",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "The Register confirms the June notice and says Salesforce had not responded. Acquisitions, buybacks and earlier AI support cuts are context, not an attributed mechanism for the 86 positions.",
+    "sources": [
+      "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6",
+      "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+      "https://www.theregister.com/saas/2026/06/09/salesforce-layoffs-hit-amid-m3ter-acquisition-and-stock-buyback/5253162"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-201",
+    "company": "Zencity",
+    "date": "2026-06-07",
+    "outcome": "generic",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "CTech frames the current cuts as an efficiency effort in its headline. The article supplies no company explanation or concrete mechanism; this is the publication’s attribution.",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg",
+        "specificity": "generic",
+        "attribution": "press_reported",
+        "scope": "event",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Eficiencia es la atribución del titular de CTech; el cuerpo no aporta una declaración ni un mecanismo. La adquisición de Commonplace y el producto de IA son contexto.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists.",
+    "subsequent_review": {
+      "review_date": "2026-09-17",
+      "outcome": "published_reason_remains_general",
+      "note_es": "Eficiencia es la atribución del titular de CTech; el cuerpo no aporta una declaración ni un mecanismo. La adquisición de Commonplace y el producto de IA son contexto.",
+      "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+      "sources": [
+        "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
+      ],
+      "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+    }
+  },
+  {
+    "record_id": "layoff-2026-203",
+    "company": "Quizlet",
+    "date": "2026-06-05",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "June reporting and WARN summaries establish the reduction; no attributable event-specific rationale recovered in the additional search.",
+    "sources": [
+      "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-210",
+    "company": "Credit Karma",
+    "date": "2026-05-30",
+    "outcome": "concrete",
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "details": {
+      "organizational_consolidation": {
+        "summary": "Intuit’s May 20 employee letter explicitly identifies elimination of overlapping TurboTax and Credit Karma roles following integration. Local reporting places this notice within that plan; it does not show that each of the 117 positions had the same rationale.",
+        "source_url": "https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm",
+        "specificity": "concrete",
+        "attribution": "company_stated",
+        "scope": "named_subsidiary_within_announced_plan",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Intuit’s May 20 employee letter explicitly identifies elimination of overlapping TurboTax and Credit Karma roles following integration. Local reporting places this notice within that plan; it does not show that each of the 117 positions had the same rationale.",
+    "sources": [
+      "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump",
+      "https://www.aol.com/articles/credit-karma-lays-off-hundreds-153300000.html",
+      "https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-217",
+    "company": "NetApp",
+    "date": "2026-05-27",
+    "outcome": "concrete",
+    "causes": [
+      "strategic_priorities",
+      "strategic_pivot"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "NetApp’s statement to CRN links the reduction to aligning investment and staffing with evolving customer priorities and growth opportunities. It does not specify which operating change removes these roles.",
+        "source_url": "https://www.crn.com/news/storage/2026/netapp-layoffs-will-impact-77-in-california-amid-strategic-realignment",
+        "specificity": "generic",
+        "attribution": "company_stated",
+        "scope": "event",
+        "evidence_access": "full"
+      },
+      "strategic_pivot": {
+        "summary": "CRN reports a support manager’s account that cancellation of his project led to his layoff. This is a worker-reported explanation for part of the event, not a reason established for all 77 positions.",
+        "source_url": "https://www.crn.com/news/storage/2026/netapp-layoffs-will-impact-77-in-california-amid-strategic-realignment",
+        "attribution": "worker_reported",
+        "scope": "reported_worker_subset",
+        "specificity": "concrete",
+        "evidence_access": "full"
+      }
+    },
+    "note": "CRN recoge a un responsable de soporte que atribuye su despido a la cancelación de su proyecto. Se registra un cambio de actividad limitado a ese testimonio; no se generaliza a los 77 puestos ni se adopta la conjetura de un socio comercial.",
+    "sources": [
+      "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/",
+      "https://www.crn.com/news/storage/2026/netapp-layoffs-will-impact-77-in-california-amid-strategic-realignment"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists.",
+    "subsequent_review": {
+      "review_date": "2026-09-17",
+      "outcome": "mechanism_recovered",
+      "note_es": "CRN recoge a un responsable de soporte que atribuye su despido a la cancelación de su proyecto. Se registra un cambio de actividad limitado a ese testimonio; no se generaliza a los 77 puestos ni se adopta la conjetura de un socio comercial.",
+      "open_question_es": "¿Qué proyecto se canceló y a cuántos de los 77 puestos afecta esa decisión?",
+      "sources": [
+        "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/",
+        "https://www.crn.com/news/storage/2026/netapp-layoffs-will-impact-77-in-california-amid-strategic-realignment"
+      ],
+      "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+    }
+  },
+  {
+    "record_id": "layoff-2026-223",
+    "company": "Zondacrypto",
+    "date": "2026-04-21",
+    "outcome": "concrete",
+    "causes": [
+      "unit_closure"
+    ],
+    "details": {
+      "unit_closure": {
+        "summary": "Termination-agreement templates reported by Polish media cite liquidation of employer Orion Software, a Zondacrypto group company. This supports closure of that employing entity, not a claim that the entire exchange formally entered bankruptcy.",
+        "source_url": "https://www.bankier.pl/wiadomosc/To-oficjalny-koniec-Zondacrypto-Rozwiazane-umowy-oswiadczenie-prezesa-i-zarzuty-do-sledczych-9120791.html",
+        "specificity": "concrete",
+        "attribution": "company_stated",
+        "scope": "named_employing_entity",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Termination-agreement templates reported by Polish media cite liquidation of employer Orion Software, a Zondacrypto group company. This supports closure of that employing entity, not a claim that the entire exchange formally entered bankruptcy.",
+    "sources": [
+      "https://tvpworld.com/92834466/zonadcrypto-staff-report-chaos-and-mass-layoffs",
+      "https://2digital.news/zondacrypto-chief-disappears-employees-receive-termination-emails-as-company-descends-into-chaos/",
+      "https://www.bankier.pl/wiadomosc/To-oficjalny-koniec-Zondacrypto-Rozwiazane-umowy-oswiadczenie-prezesa-i-zarzuty-do-sledczych-9120791.html"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  },
+  {
+    "record_id": "layoff-2026-225",
+    "company": "Qualcomm",
+    "date": "2026-04-09",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "April San Diego reporting confirms cuts but reuses an older company statement. The 2024 explanation and broader quarterly results cannot be assigned to this round; the headcount discrepancy remains flagged.",
+    "sources": [
+      "https://www.sandiegouniontribune.com/2026/04/09/qualcomm-lays-off-dozens-of-senior-positions-in-san-diego/"
+    ],
+    "search_scope": "Company, announcement month, layoff rationale; original reporting and alternative coverage. Unsuccessful searches are not evidence that no explanation exists."
+  }
+]

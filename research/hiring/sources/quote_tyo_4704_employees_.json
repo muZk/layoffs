@@ -1,0 +1,82 @@
+{
+  "company": "Trend Micro",
+  "source_url": "https://stockanalysis.com/quote/tyo/4704/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Trend Micro (TYO:4704) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "6,717"
+    ],
+    [
+      "Dec 31, 2024",
+      "6,869"
+    ],
+    [
+      "Dec 31, 2023",
+      "7,432"
+    ],
+    [
+      "Dec 31, 2022",
+      "7,669"
+    ],
+    [
+      "Dec 31, 2021",
+      "7,024"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2016",
+      "Upgrade Pro"
+    ],
+    [
+      "Japan Business Systems",
+      "2,839"
+    ],
+    [
+      "TDC SOFT",
+      "2,473"
+    ],
+    [
+      "Oracle Corporation Japan",
+      "2,097"
+    ],
+    [
+      "GMO internet",
+      "1,826"
+    ],
+    [
+      "GMO Payment Gateway",
+      "882"
+    ],
+    [
+      "Soliton Systems K.K.",
+      "655"
+    ],
+    [
+      "Finatext Holdings",
+      "414"
+    ],
+    [
+      "Hennge K.K.",
+      "390"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

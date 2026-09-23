@@ -1,0 +1,82 @@
+{
+  "company": "Xero",
+  "source_url": "https://stockanalysis.com/quote/asx/XRO/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Xero Limited (ASX:XRO) Number of Employees",
+  "rows": [
+    [
+      "Mar 31, 2026",
+      "5,114"
+    ],
+    [
+      "Mar 31, 2025",
+      "4,610"
+    ],
+    [
+      "Mar 31, 2024",
+      "4,322"
+    ],
+    [
+      "Mar 31, 2023",
+      "5,080"
+    ],
+    [
+      "Mar 31, 2022",
+      "4,784"
+    ],
+    [
+      "Mar 31, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "WiseTech Global",
+      "5,500"
+    ],
+    [
+      "Hansen Technologies",
+      "1,516"
+    ],
+    [
+      "Technology One",
+      "1,500"
+    ],
+    [
+      "Iress",
+      "1,153"
+    ],
+    [
+      "Bravura Solutions",
+      "955"
+    ],
+    [
+      "PEXA Group",
+      "825"
+    ],
+    [
+      "Netwealth Group",
+      "790"
+    ],
+    [
+      "Chrysos Corporation",
+      "215"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

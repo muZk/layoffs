@@ -1,0 +1,66 @@
+{
+  "company": "Rivian",
+  "source_url": "https://stockanalysis.com/stocks/rivn/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Rivian Automotive (RIVN) Number of Employees 2021-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "15,232"
+    ],
+    [
+      "Dec 31, 2024",
+      "14,861"
+    ],
+    [
+      "Dec 31, 2023",
+      "16,790"
+    ],
+    [
+      "Dec 31, 2022",
+      "14,122"
+    ],
+    [
+      "Dec 31, 2021",
+      "10,422"
+    ],
+    [
+      "Jun 30, 2021",
+      "6,274"
+    ],
+    [
+      "Toyota Motor",
+      "390,927"
+    ],
+    [
+      "Stellantis",
+      "258,668"
+    ],
+    [
+      "Honda Motor",
+      "195,109"
+    ],
+    [
+      "Ford Motor Company",
+      "169,000"
+    ],
+    [
+      "General Motors Company",
+      "156,000"
+    ],
+    [
+      "NIO Inc.",
+      "35,032"
+    ],
+    [
+      "Li Auto",
+      "30,728"
+    ],
+    [
+      "VinFast Auto",
+      "29,878"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

@@ -1,0 +1,82 @@
+{
+  "company": "Lastminute",
+  "source_url": "https://stockanalysis.com/quote/swx/LMN/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "lastminute.com (SWX:LMN) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "1,628"
+    ],
+    [
+      "Dec 31, 2024",
+      "1,639"
+    ],
+    [
+      "Dec 31, 2023",
+      "1,652"
+    ],
+    [
+      "Dec 31, 2022",
+      "1,599"
+    ],
+    [
+      "Dec 31, 2021",
+      "1,150"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2016",
+      "Upgrade Pro"
+    ],
+    [
+      "Avolta AG",
+      "69,278"
+    ],
+    [
+      "Compagnie Financi\u00c3\u00a8re Richemont",
+      "39,601"
+    ],
+    [
+      "The Swatch Group AG",
+      "31,331"
+    ],
+    [
+      "Autoneum Holding AG",
+      "16,101"
+    ],
+    [
+      "SIG Group AG",
+      "9,700"
+    ],
+    [
+      "Vetropack Holding AG",
+      "3,392"
+    ],
+    [
+      "V-ZUG Holding AG",
+      "2,037"
+    ],
+    [
+      "CALIDA Holding AG",
+      "1,810"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

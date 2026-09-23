@@ -1,0 +1,121 @@
+[
+  {
+    "company": "Block",
+    "date": "2019-12-31",
+    "value": 3835,
+    "definition": "full-time employees",
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NYSE_SQ_2019.pdf"
+  },
+  {
+    "company": "Block",
+    "date": "2022-12-31",
+    "value": 12428,
+    "definition": "full-time employees",
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NYSE_SQ_2023.pdf"
+  },
+  {
+    "company": "Block",
+    "date": "2025-12-31",
+    "value": 10205,
+    "definition": "full-time employees",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm"
+  },
+  {
+    "company": "Cloudflare",
+    "date": "2019-12-31",
+    "value": 1270,
+    "definition": "full-time employees",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733320000010/cloud-20191231.htm"
+  },
+  {
+    "company": "Cloudflare",
+    "date": "2022-12-31",
+    "value": 3217,
+    "definition": "full-time employees",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733323000017/cloud-20221231.htm"
+  },
+  {
+    "company": "Angi",
+    "date": "2019-12-31",
+    "value": 5000,
+    "definition": "full-time employees",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1705110/000170511020000003/angi-20193112x10k.htm"
+  },
+  {
+    "company": "Atlassian",
+    "date": "2019-06-30",
+    "value": 3616,
+    "definition": "employees",
+    "source_url": "https://investors.atlassian.com/files/doc_downloads/agm/2019/FY19-UK-Annual-Report-final.pdf"
+  },
+  {
+    "company": "Upwork",
+    "date": "2019-12-31",
+    "value": 570,
+    "definition": "employees, freelancers separately disclosed",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1627475/000162747520000006/upwk-20191231.htm"
+  },
+  {
+    "company": "Salesforce",
+    "date": "2019-01-31",
+    "value": 35000,
+    "definition": "more than 35000 employees, rounded lower bound",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852419000009/crmq4fy1910-k.htm"
+  },
+  {
+    "company": "Snap",
+    "date": "2019-12-31",
+    "value": 3195,
+    "definition": "full-time employees",
+    "source_url": "https://investor.snap.com/files/doc_financials/2020/q3/Q3%E2%80%9920-Earnings-Release-Draft_Final_10.20.20.pdf"
+  },
+  {
+    "company": "Snap",
+    "date": "2022-12-31",
+    "value": 5288,
+    "definition": "full-time employees",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1564408/000156440823000013/snap-20221231.htm"
+  },
+  {
+    "company": "Meta",
+    "date": "2019-12-31",
+    "value": 44942,
+    "definition": "headcount",
+    "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2020/Facebook-Reports-Fourth-Quarter-and-Full-Year-2019-Results/default.aspx"
+  },
+  {
+    "company": "Meta",
+    "date": "2022-12-31",
+    "value": 86482,
+    "definition": "headcount; includes most employees affected by November 2022 announced layoffs",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm"
+  },
+  {
+    "company": "Shopify",
+    "date": "2019-12-31",
+    "value": 5000,
+    "definition": "more than 5000 employees and contractors, rounded lower bound",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480520000020/ex991shopify2020circular.htm"
+  },
+  {
+    "company": "Shopify",
+    "date": "2022-12-31",
+    "value": 11600,
+    "definition": "approximately 11600 employees and contractors",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480523000011/exhibit11annualinformation.htm"
+  },
+  {
+    "company": "MercadoLibre",
+    "date": "2022-12-31",
+    "value": 40548,
+    "definition": "employees; includes shipping network and technology teams",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959023000007/meli-20221231.htm"
+  },
+  {
+    "company": "ASML",
+    "date": "2019-12-31",
+    "value": 24900,
+    "definition": "workforce FTE including temporary employees",
+    "source_url": "https://www.asml.com/en/investors/annual-report/2019/highlights"
+  }
+]

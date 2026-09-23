@@ -1,0 +1,2892 @@
+{
+  "year": "2026",
+  "totalEmployees": 128873,
+  "totalCompanies": 304,
+  "totalEvents": 339,
+  "peakMonth": {
+    "key": "2026-06",
+    "label": "Jun '26",
+    "employees": 26460,
+    "events": 50
+  },
+  "monthly": [
+    {
+      "key": "2026-01",
+      "label": "Jan '26",
+      "employees": 25183,
+      "events": 32
+    },
+    {
+      "key": "2026-02",
+      "label": "Feb '26",
+      "employees": 11349,
+      "events": 29
+    },
+    {
+      "key": "2026-03",
+      "label": "Mar '26",
+      "employees": 16698,
+      "events": 35
+    },
+    {
+      "key": "2026-04",
+      "label": "Apr '26",
+      "employees": 5085,
+      "events": 36
+    },
+    {
+      "key": "2026-05",
+      "label": "May '26",
+      "employees": 24242,
+      "events": 49
+    },
+    {
+      "key": "2026-06",
+      "label": "Jun '26",
+      "employees": 26460,
+      "events": 50
+    },
+    {
+      "key": "2026-07",
+      "label": "Jul '26",
+      "employees": 11000,
+      "events": 46
+    },
+    {
+      "key": "2026-08",
+      "label": "Aug '26",
+      "employees": 3555,
+      "events": 42
+    },
+    {
+      "key": "2026-09",
+      "label": "Sep '26",
+      "employees": 5301,
+      "events": 20
+    },
+    {
+      "key": "2026-10",
+      "label": "Oct '26",
+      "employees": 0,
+      "events": 0
+    },
+    {
+      "key": "2026-11",
+      "label": "Nov '26",
+      "employees": 0,
+      "events": 0
+    },
+    {
+      "key": "2026-12",
+      "label": "Dec '26",
+      "employees": 0,
+      "events": 0
+    }
+  ],
+  "topCompanies": [
+    {
+      "name": "Oracle",
+      "slug": "oracle",
+      "count": 21000,
+      "events": 2
+    },
+    {
+      "name": "Amazon",
+      "slug": "amazon",
+      "count": 17536,
+      "events": 7
+    },
+    {
+      "name": "Dell",
+      "slug": "dell",
+      "count": 11000,
+      "events": 1
+    },
+    {
+      "name": "Meta",
+      "slug": "meta",
+      "count": 10400,
+      "events": 4
+    },
+    {
+      "name": "Microsoft",
+      "slug": "microsoft",
+      "count": 4800,
+      "events": 1
+    },
+    {
+      "name": "Block",
+      "slug": "block",
+      "count": 4000,
+      "events": 1
+    },
+    {
+      "name": "Cisco",
+      "slug": "cisco",
+      "count": 4000,
+      "events": 1
+    },
+    {
+      "name": "Uber",
+      "slug": "uber",
+      "count": 3300,
+      "events": 3
+    },
+    {
+      "name": "Intuit",
+      "slug": "intuit",
+      "count": 3000,
+      "events": 1
+    },
+    {
+      "name": "WiseTech",
+      "slug": "wisetech",
+      "count": 2000,
+      "events": 1
+    },
+    {
+      "name": "ASML",
+      "slug": "asml",
+      "count": 1700,
+      "events": 1
+    },
+    {
+      "name": "Atlassian",
+      "slug": "atlassian",
+      "count": 1600,
+      "events": 1
+    },
+    {
+      "name": "Ericsson",
+      "slug": "ericsson",
+      "count": 1600,
+      "events": 1
+    },
+    {
+      "name": "Lucid Motors",
+      "slug": "lucid-motors",
+      "count": 1500,
+      "events": 2
+    },
+    {
+      "name": "Sama",
+      "slug": "sama",
+      "count": 1108,
+      "events": 1
+    }
+  ],
+  "layoffEvents": [
+    {
+      "company": "Pulley",
+      "slug": "pulley",
+      "date": "2026-09-15",
+      "count": null,
+      "percent": 1,
+      "source": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9"
+    },
+    {
+      "company": "Oracle",
+      "slug": "oracle",
+      "date": "2026-09-14",
+      "count": null,
+      "percent": null,
+      "source": "https://www.businessinsider.com/oracle-begins-new-round-of-layoffs-2026-9"
+    },
+    {
+      "company": "Bitcoin Suisse",
+      "slug": "bitcoin-suisse",
+      "date": "2026-09-11",
+      "count": 60,
+      "percent": 0.5,
+      "source": "https://www.reuters.com/business/world-at-work/crypto-firm-bitcoin-suisse-cut-up-half-jobs-switzerland-2026-09-11/"
+    },
+    {
+      "company": "Booksy",
+      "slug": "booksy",
+      "date": "2026-09-10",
+      "count": 200,
+      "percent": 0.2,
+      "source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/"
+    },
+    {
+      "company": "PhonePe",
+      "slug": "phonepe",
+      "date": "2026-09-10",
+      "count": 7,
+      "percent": null,
+      "source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms"
+    },
+    {
+      "company": "Neo Financial",
+      "slug": "neo-financial",
+      "date": "2026-09-08",
+      "count": 102,
+      "percent": 0.1,
+      "source": "https://www.linkedin.com/pulse/important-changes-our-busines-neo-financial-3fdsc"
+    },
+    {
+      "company": "Samsung",
+      "slug": "samsung",
+      "date": "2026-09-08",
+      "count": 80,
+      "percent": null,
+      "source": "https://timesofindia.indiatimes.com/business/india-business/samsung-india-cuts-80-100-jobs-as-chip-prices-more-than-double-and-smartphone-volumes-fall-11-12-another-round-may-come-after-diwali-up-to-25-of-electronics-sales-and-marketing-staff-at-risk/articleshow/133911104.cms"
+    },
+    {
+      "company": "Harrison.ai",
+      "slug": "harrisonai",
+      "date": "2026-09-07",
+      "count": null,
+      "percent": null,
+      "source": "https://www.abc.net.au/news/2026-09-08/harrison-ai-lays-off-australian-staff-after-32m-investment/107110480"
+    },
+    {
+      "company": "PayPal",
+      "slug": "paypal",
+      "date": "2026-09-06",
+      "count": 70,
+      "percent": null,
+      "source": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-907722"
+    },
+    {
+      "company": "The Trade Desk",
+      "slug": "the-trade-desk",
+      "date": "2026-09-03",
+      "count": 585,
+      "percent": 0.15,
+      "source": "https://www.adweek.com/programmatic/the-trade-desk-sheds-15-of-staff-on-heels-of-lackluster-q2-showing/"
+    },
+    {
+      "company": "PayPal",
+      "slug": "paypal",
+      "date": "2026-09-03",
+      "count": 251,
+      "percent": null,
+      "source": "https://www.sfchronicle.com/tech/article/paypal-san-jose-layoffs-tech-jobs-22416617.php"
+    },
+    {
+      "company": "Orionx",
+      "slug": "orionx",
+      "date": "2026-09-03",
+      "count": null,
+      "percent": 1,
+      "source": "https://cryptobriefing.com/orionx-shuts-down-7m-custody-gap/"
+    },
+    {
+      "company": "Hale",
+      "slug": "hale",
+      "date": "2026-09-03",
+      "count": null,
+      "percent": 1,
+      "source": "https://femtechinsider.com/pelvic-pain-startup-hale-announces-closure/"
+    },
+    {
+      "company": "Zscaler",
+      "slug": "zscaler",
+      "date": "2026-09-03",
+      "count": null,
+      "percent": 0.03,
+      "source": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02"
+    },
+    {
+      "company": "Bizzabo",
+      "slug": "bizzabo",
+      "date": "2026-09-02",
+      "count": null,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/duz577shb"
+    },
+    {
+      "company": "PayPal",
+      "slug": "paypal",
+      "date": "2026-09-02",
+      "count": 220,
+      "percent": null,
+      "source": "https://www.reuters.com/world/india/paypal-cuts-220-india-jobs-part-previously-announced-restructuring-plan-source-2026-09-03/"
+    },
+    {
+      "company": "Uber",
+      "slug": "uber",
+      "date": "2026-09-02",
+      "count": 3300,
+      "percent": 0.1,
+      "source": "https://www.bloomberg.com/news/articles/2026-09-02/uber-to-cut-3-300-jobs-in-company-overhaul-to-reduce-management-layers"
+    },
+    {
+      "company": "Amazon",
+      "slug": "amazon",
+      "date": "2026-09-01",
+      "count": 148,
+      "percent": null,
+      "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+    },
+    {
+      "company": "Wonder",
+      "slug": "wonder",
+      "date": "2026-09-01",
+      "count": 150,
+      "percent": 0.07,
+      "source": "https://www.nrn.com/restaurant-technology/wonder-lays-off-7-of-staff-in-streamlining-effort"
+    },
+    {
+      "company": "Synopsys",
+      "slug": "synopsys",
+      "date": "2026-09-01",
+      "count": 128,
+      "percent": null,
+      "source": "https://www.sfchronicle.com/tech/article/amazon-synopsys-tech-layoffs-22413103.php"
+    },
+    {
+      "company": "Zomato",
+      "slug": "zomato",
+      "date": "2026-08-31",
+      "count": 250,
+      "percent": null,
+      "source": "https://timesofindia.indiatimes.com/technology/tech-news/zomato-layoffs-250-jobs-cut-as-company-shuts-customer-support-centre-in-hyderabad/articleshow/133644813.cms"
+    },
+    {
+      "company": "Amazon",
+      "slug": "amazon",
+      "date": "2026-08-31",
+      "count": 121,
+      "percent": null,
+      "source": "https://www.geekwire.com/2026/amazon-lays-off-121-workers-across-corporate-and-fulfillment-jobs-in-washington-state/"
+    },
+    {
+      "company": "Satvacart",
+      "slug": "satvacart",
+      "date": "2026-08-31",
+      "count": null,
+      "percent": 1,
+      "source": "https://inc42.com/buzz/online-grocery-startup-satvacart-shuts-down-after-12-year-run/"
+    },
+    {
+      "company": "PayPal",
+      "slug": "paypal",
+      "date": "2026-08-31",
+      "count": 164,
+      "percent": null,
+      "source": "https://www.thejournal.ie/paypal-ireland-layoffs-7147657-Aug2026/"
+    },
+    {
+      "company": "Cubic3",
+      "slug": "cubic3",
+      "date": "2026-08-28",
+      "count": 70,
+      "percent": null,
+      "source": "https://www.businesspost.ie/tech/softbank-backed-cubic3-to-axe-70-jobs-most-of-them-in-dublin/"
+    },
+    {
+      "company": "Even Healthcare",
+      "slug": "even-healthcare",
+      "date": "2026-08-27",
+      "count": 350,
+      "percent": 0.3,
+      "source": "https://entrackr.com/exclusive/exclusive-even-healthcare-lays-off-350-employees-12443475"
+    },
+    {
+      "company": "PagerDuty",
+      "slug": "pagerduty",
+      "date": "2026-08-26",
+      "count": null,
+      "percent": 0.15,
+      "source": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001568100/ef65be69-91be-46e6-b592-f9f5e7e1feab.pdf"
+    },
+    {
+      "company": "MonieWorld",
+      "slug": "monieworld",
+      "date": "2026-08-26",
+      "count": null,
+      "percent": 1,
+      "source": "https://thecondia.com/moniepoint-monieworld-uk-remittance-shutdown/"
+    },
+    {
+      "company": "Laybuy",
+      "slug": "laybuy",
+      "date": "2026-08-24",
+      "count": null,
+      "percent": 1,
+      "source": "https://www.calcalistech.com/ctechnews/article/bj0s5ikdmx"
+    },
+    {
+      "company": "SanDisk",
+      "slug": "sandisk",
+      "date": "2026-08-24",
+      "count": null,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/bjhjpyfdfl"
+    },
+    {
+      "company": "Wi-Charge",
+      "slug": "wi-charge",
+      "date": "2026-08-23",
+      "count": null,
+      "percent": 1,
+      "source": "https://www.calcalistech.com/ctechnews/article/ry3w7nodgg"
+    },
+    {
+      "company": "Apple",
+      "slug": "apple",
+      "date": "2026-08-21",
+      "count": 200,
+      "percent": null,
+      "source": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams"
+    },
+    {
+      "company": "Motive",
+      "slug": "motive",
+      "date": "2026-08-19",
+      "count": 251,
+      "percent": 0.05,
+      "source": "Internal memo"
+    },
+    {
+      "company": "Tiktok",
+      "slug": "tiktok",
+      "date": "2026-08-19",
+      "count": 75,
+      "percent": null,
+      "source": "https://www.geekwire.com/2026/tiktok-cuts-75-jobs-in-seattle-area-hitting-e-commerce-teams/"
+    },
+    {
+      "company": "Vast",
+      "slug": "vast",
+      "date": "2026-08-19",
+      "count": 46,
+      "percent": 0.04,
+      "source": "https://www.businessinsider.com/space-station-startup-vast-cuts-jobs-layoffs-2026-8"
+    },
+    {
+      "company": "BlocPower",
+      "slug": "blocpower",
+      "date": "2026-08-19",
+      "count": null,
+      "percent": 1,
+      "source": "https://www.latitudemedia.com/news/scoop-blocpower-is-shutting-down/"
+    },
+    {
+      "company": "Qualtrics",
+      "slug": "qualtrics",
+      "date": "2026-08-19",
+      "count": 117,
+      "percent": null,
+      "source": "https://mynorthwest.com/local/qualtrics-seattle-employees/4272070"
+    },
+    {
+      "company": "Pentera",
+      "slug": "pentera",
+      "date": "2026-08-17",
+      "count": 60,
+      "percent": 0.14,
+      "source": "https://www.calcalistech.com/ctechnews/article/cri3dnoqo"
+    },
+    {
+      "company": "Relay",
+      "slug": "relay",
+      "date": "2026-08-17",
+      "count": null,
+      "percent": 1,
+      "source": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/"
+    },
+    {
+      "company": "Netflix",
+      "slug": "netflix",
+      "date": "2026-08-13",
+      "count": null,
+      "percent": null,
+      "source": "https://www.polygon.com/netflix-shutting-down-game-studios/"
+    },
+    {
+      "company": "Anaconda",
+      "slug": "anaconda",
+      "date": "2026-08-13",
+      "count": null,
+      "percent": 0.14,
+      "source": "https://www.anaconda.com/blog/open-letter-to-our-community-customers-and-partners"
+    },
+    {
+      "company": "Convictional",
+      "slug": "convictional",
+      "date": "2026-08-12",
+      "count": null,
+      "percent": 1,
+      "source": "https://betakit.com/convictional-to-shut-down-return-investor-money-after-ai-era-pivot-falls-short/"
+    },
+    {
+      "company": "Bitwise",
+      "slug": "bitwise",
+      "date": "2026-08-12",
+      "count": 25,
+      "percent": 0.14,
+      "source": "https://www.theblock.co/news/business/2026-08-12-bitwise-layoffs-411522"
+    },
+    {
+      "company": "LinkedIn",
+      "slug": "linkedin",
+      "date": "2026-08-11",
+      "count": 50,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/rjrwxydizg"
+    },
+    {
+      "company": "Validient",
+      "slug": "validient",
+      "date": "2026-08-10",
+      "count": null,
+      "percent": 1,
+      "source": "https://www.linkedin.com/posts/ieuanleigh_my-first-startup-validient-has-officially-activity-7492505033595432961-ZHdE"
+    },
+    {
+      "company": "N-able Technologies",
+      "slug": "n-able-technologies",
+      "date": "2026-08-10",
+      "count": 120,
+      "percent": 0.06,
+      "source": "https://www.marketbeat.com/instant-alerts/n-able-q2-earnings-call-highlights-2026-08-10/"
+    },
+    {
+      "company": "Rapid7",
+      "slug": "rapid7",
+      "date": "2026-08-10",
+      "count": 313,
+      "percent": 0.12,
+      "source": "https://www.bizjournals.com/boston/news/2026/08/10/rapid7-layoffs-new-ceo.html"
+    },
+    {
+      "company": "ClimateAI",
+      "slug": "climateai",
+      "date": "2026-08-08",
+      "count": null,
+      "percent": 1,
+      "source": "https://agfundernews.com/climate-resilience-platform-climateai-winds-down-operations"
+    },
+    {
+      "company": "VideoAmp",
+      "slug": "videoamp",
+      "date": "2026-08-07",
+      "count": 50,
+      "percent": 0.2,
+      "source": "https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"
+    },
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "date": "2026-08-07",
+      "count": 133,
+      "percent": null,
+      "source": "https://thenextweb.com/news/salesforce-133-layoffs-washington-california-ai-restructuring"
+    },
+    {
+      "company": "Infineon",
+      "slug": "infineon",
+      "date": "2026-08-06",
+      "count": 98,
+      "percent": null,
+      "source": "https://www.abc15.com/news/business/german-semiconductor-firm-shutters-mesa-plant-lays-off-workers"
+    },
+    {
+      "company": "TikTok",
+      "slug": "tiktok",
+      "date": "2026-08-06",
+      "count": 250,
+      "percent": null,
+      "source": "https://www.nytimes.com/2026/08/05/technology/tiktok-layoffs-nashville.html"
+    },
+    {
+      "company": "Proof of Play",
+      "slug": "proof-of-play",
+      "date": "2026-08-05",
+      "count": null,
+      "percent": 1,
+      "source": "https://www.blockchaingamer.biz/amp/news/42740/proof-of-play-shuts-down/"
+    },
+    {
+      "company": "Etsy",
+      "slug": "etsy",
+      "date": "2026-08-05",
+      "count": 220,
+      "percent": 0.12,
+      "source": "https://www.cnbc.com/2026/08/05/etsy-layoffs-q2-earnings.html"
+    },
+    {
+      "company": "Google",
+      "slug": "google",
+      "date": "2026-08-05",
+      "count": 52,
+      "percent": null,
+      "source": "https://www.geekwire.com/2026/google-to-cut-52-employees-in-washington-state/"
+    },
+    {
+      "company": "LegalZoom",
+      "slug": "legalzoom",
+      "date": "2026-08-05",
+      "count": null,
+      "percent": 0.13,
+      "source": "https://finance.yahoo.com/markets/stocks/articles/legalzoom-com-inc-q2-2026-025809440.html"
+    },
+    {
+      "company": "Zillow",
+      "slug": "zillow",
+      "date": "2026-08-04",
+      "count": 500,
+      "percent": 0.07,
+      "source": "https://www.geekwire.com/2026/zillow-cuts-more-than-500-jobs-in-its-largest-layoff-of-the-year/"
+    },
+    {
+      "company": "80 Acres Farms",
+      "slug": "80-acres-farms",
+      "date": "2026-08-04",
+      "count": null,
+      "percent": 1,
+      "source": "https://agfundernews.com/indoor-ag-heavyweight-80-acres-farms-to-cease-operations"
+    },
+    {
+      "company": "Nutanix",
+      "slug": "nutanix",
+      "date": "2026-08-04",
+      "count": null,
+      "percent": 0.05,
+      "source": "https://www.crn.com/news/cloud/2026/nutanix-to-layoff-5-percent-of-global-workforce-here-s-why"
+    },
+    {
+      "company": "jalebi.io",
+      "slug": "jalebiio",
+      "date": "2026-08-04",
+      "count": null,
+      "percent": 1,
+      "source": "https://jawlah.co/en/61711"
+    },
+    {
+      "company": "FalconX",
+      "slug": "falconx",
+      "date": "2026-08-03",
+      "count": null,
+      "percent": 0.1,
+      "source": "https://cryptobriefing.com/falconx-cuts-workforce-market-downturn/"
+    },
+    {
+      "company": "Pump.fun",
+      "slug": "pumpfun",
+      "date": "2026-08-01",
+      "count": 40,
+      "percent": null,
+      "source": "https://www.kucoin.com/news/flash/pump-fun-employees-allegedly-laid-off-before-token-vesting-team-unlocks-102m-in-pump-tokens"
+    },
+    {
+      "company": "Lightspeed Commerce",
+      "slug": "lightspeed-commerce",
+      "date": "2026-07-31",
+      "count": 100,
+      "percent": 0.03,
+      "source": "https://betakit.com/lightspeed-narrows-net-loss-beats-revenue-expectations-in-fiscal-q1/"
+    },
+    {
+      "company": "Chime",
+      "slug": "chime",
+      "date": "2026-07-31",
+      "count": 150,
+      "percent": 0.1,
+      "source": "https://www.bankingdive.com/news/chime-cut-workforce-10-percent-150-employees-ai-smaller-teams-chris-britt/826730/"
+    },
+    {
+      "company": "ChargePoint",
+      "slug": "chargepoint",
+      "date": "2026-07-31",
+      "count": 144,
+      "percent": 0.1,
+      "source": "https://www.marketwatch.com/story/chargepoint-holdings-to-cut-10-of-workforce-b0dd44f1"
+    },
+    {
+      "company": "Reforged Labs",
+      "slug": "reforged-labs",
+      "date": "2026-07-31",
+      "count": null,
+      "percent": 1,
+      "source": "https://www.techinasia.com/ai-ad-startup-reforged-labs-winds-years"
+    },
+    {
+      "company": "GoLemon",
+      "slug": "golemon",
+      "date": "2026-07-30",
+      "count": 33,
+      "percent": 1,
+      "source": "https://nairametrics.com/2026/07/30/nigerian-startup-golemon-shuts-down-33-jobs-affected/"
+    },
+    {
+      "company": "Luno",
+      "slug": "luno",
+      "date": "2026-07-28",
+      "count": null,
+      "percent": 0.2,
+      "source": "https://www.bloomberg.com/news/articles/2026-07-28/cryptocurrency-exchange-luno-to-cut-20-of-global-staff"
+    },
+    {
+      "company": "ServiceNow",
+      "slug": "servicenow",
+      "date": "2026-07-28",
+      "count": null,
+      "percent": null,
+      "source": "https://www.businessinsider.com/servicenow-cuts-jobs-amid-global-restructuring-and-ai-focus-2026-7"
+    },
+    {
+      "company": "Krutrim",
+      "slug": "krutrim",
+      "date": "2026-07-28",
+      "count": 20,
+      "percent": 0.5,
+      "source": "https://yourstory.com/2026/07/krutrim-lays-off-nearly-half-workforce"
+    },
+    {
+      "company": "BitMart",
+      "slug": "bitmart",
+      "date": "2026-07-27",
+      "count": null,
+      "percent": 1,
+      "source": "https://decrypt.co/374346/bitmart-becomes-latest-crypto-exchange-to-shut-down"
+    },
+    {
+      "company": "BuzzFeed",
+      "slug": "buzzfeed",
+      "date": "2026-07-27",
+      "count": 180,
+      "percent": 0.35,
+      "source": "https://www.hollywoodreporter.com/business/business-news/buzzfeed-huffpost-layoffs-1236657384/"
+    },
+    {
+      "company": "Dutch",
+      "slug": "dutch",
+      "date": "2026-07-26",
+      "count": null,
+      "percent": null,
+      "source": "https://startupfortune.com/hims-cofounder-joe-spector-replaced-dutchs-marketing-team-with-ai-and-cut-acquisition-costs-20/"
+    },
+    {
+      "company": "Papaya Gaming",
+      "slug": "papaya-gaming",
+      "date": "2026-07-26",
+      "count": 30,
+      "percent": 0.07,
+      "source": "https://www.calcalistech.com/ctechnews/article/hyrsiu7hfg"
+    },
+    {
+      "company": "Nothing",
+      "slug": "nothing",
+      "date": "2026-07-26",
+      "count": 100,
+      "percent": 0.12,
+      "source": "https://sifted.eu/articles/nothing-to-cut-around-100-jobs-in-cost-cutting-push-reports-say"
+    },
+    {
+      "company": "BitMEX",
+      "slug": "bitmex",
+      "date": "2026-07-23",
+      "count": null,
+      "percent": 1,
+      "source": "https://www.cnbc.com/2026/07/23/cryptocurrency-exchange-bitmex-shut-down.html"
+    },
+    {
+      "company": "Patreon",
+      "slug": "patreon",
+      "date": "2026-07-23",
+      "count": 93,
+      "percent": 0.2,
+      "source": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/"
+    },
+    {
+      "company": "Amazon",
+      "slug": "amazon",
+      "date": "2026-07-22",
+      "count": null,
+      "percent": null,
+      "source": "https://www.reuters.com/business/world-at-work/amazon-cuts-jobs-its-artificial-general-intelligence-group-2026-07-22/"
+    },
+    {
+      "company": "Uber",
+      "slug": "uber",
+      "date": "2026-07-22",
+      "count": null,
+      "percent": null,
+      "source": "https://www.bloomberg.com/news/articles/2026-07-22/uber-cuts-10-of-customer-service-jobs-citing-embrace-of-ai"
+    },
+    {
+      "company": "Amazon",
+      "slug": "amazon",
+      "date": "2026-07-22",
+      "count": 1110,
+      "percent": null,
+      "source": "https://www.msn.com/en-us/money/companies/amazon-to-renovate-two-florida-warehouses-for-400m-cut-1-100-jobs/ar-AA28s48O"
+    },
+    {
+      "company": "Monday.com",
+      "slug": "mondaycom",
+      "date": "2026-07-22",
+      "count": 630,
+      "percent": 0.2,
+      "source": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/"
+    },
+    {
+      "company": "Movement Labs",
+      "slug": "movement-labs",
+      "date": "2026-07-21",
+      "count": null,
+      "percent": 1,
+      "source": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul"
+    },
+    {
+      "company": "WSC",
+      "slug": "wsc",
+      "date": "2026-07-21",
+      "count": 70,
+      "percent": 0.1,
+      "source": "https://www.calcalistech.com/ctechnews/article/skknlch4zl"
+    },
+    {
+      "company": "Intel",
+      "slug": "intel",
+      "date": "2026-07-20",
+      "count": null,
+      "percent": null,
+      "source": "https://www.oregonlive.com/silicon-forest/2026/07/intel-plans-fresh-layoffs-this-time-in-its-data-center-group.html"
+    },
+    {
+      "company": "Magic Leap",
+      "slug": "magic-leap",
+      "date": "2026-07-20",
+      "count": 193,
+      "percent": null,
+      "source": "https://roadtovr.com/magic-leap-lay-off-2026-waveguide-pivot/"
+    },
+    {
+      "company": "Samsung",
+      "slug": "samsung",
+      "date": "2026-07-19",
+      "count": 100,
+      "percent": null,
+      "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+    },
+    {
+      "company": "Samsung",
+      "slug": "samsung",
+      "date": "2026-07-19",
+      "count": 739,
+      "percent": null,
+      "source": "https://www.cnbc.com/2026/07/19/samsung-cuts-us-jobs-offers-relocations-ahead-of-hq-move-reuters.html"
+    },
+    {
+      "company": "Polygon",
+      "slug": "polygon",
+      "date": "2026-07-16",
+      "count": null,
+      "percent": null,
+      "source": "https://www.thestreet.com/crypto/markets/polygon-cuts-jobs-for-second-time-this-year-in-a-bold-pivot"
+    },
+    {
+      "company": "Sprout Social",
+      "slug": "sprout-social",
+      "date": "2026-07-15",
+      "count": 260,
+      "percent": 0.2,
+      "source": "https://www.marketwatch.com/story/sprout-social-to-cut-20-of-workforce-as-ai-fueled-tech-layoffs-continue-7e2b1b17"
+    },
+    {
+      "company": "Rapid7",
+      "slug": "rapid7",
+      "date": "2026-07-14",
+      "count": 21,
+      "percent": 0.01,
+      "source": "https://www.bostonglobe.com/2026/07/14/business/rapid7-layoffs-snyk-cybersecurity-jobs/"
+    },
+    {
+      "company": "Redis",
+      "slug": "redis",
+      "date": "2026-07-13",
+      "count": 200,
+      "percent": null,
+      "source": "https://redis.io/blog/ceo-rowan-trollopes-organizational-announcement-to-redis-employees/"
+    },
+    {
+      "company": "Gigbanc",
+      "slug": "gigbanc",
+      "date": "2026-07-13",
+      "count": null,
+      "percent": 1,
+      "source": "https://africabusinesscommunities.com/tech-24/nigerian-fintech-startup-gigbanc-winds-down-operations/"
+    },
+    {
+      "company": "Alarum",
+      "slug": "alarum",
+      "date": "2026-07-12",
+      "count": null,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/4gnx3zo23"
+    },
+    {
+      "company": "GoKwik",
+      "slug": "gokwik",
+      "date": "2026-07-11",
+      "count": 100,
+      "percent": null,
+      "source": "https://inc42.com/buzz/exclusive-gokwik-lays-off-around-120-employees-amid-ai-push/"
+    },
+    {
+      "company": "MyHeritage",
+      "slug": "myheritage",
+      "date": "2026-07-08",
+      "count": 75,
+      "percent": 0.15,
+      "source": "https://en.globes.co.il/en/article-myheritage-to-lay-off-15-of-workforce-1001548761"
+    },
+    {
+      "company": "OpenText",
+      "slug": "opentext",
+      "date": "2026-07-08",
+      "count": 400,
+      "percent": 0.02,
+      "source": "https://betakit.com/opentext-lays-off-two-percent-of-its-workforce/"
+    },
+    {
+      "company": "Darrow",
+      "slug": "darrow",
+      "date": "2026-07-07",
+      "count": 60,
+      "percent": 0.33,
+      "source": "https://www.calcalistech.com/ctechnews/article/hy7svt97ge"
+    },
+    {
+      "company": "PokerStars",
+      "slug": "pokerstars",
+      "date": "2026-07-07",
+      "count": null,
+      "percent": null,
+      "source": "https://sbcamericas.com/2026/07/07/pokerstars-layoffs-fanduel-restructure/"
+    },
+    {
+      "company": "Billion Hearts",
+      "slug": "billion-hearts",
+      "date": "2026-07-07",
+      "count": null,
+      "percent": 1,
+      "source": "https://inc42.com/buzz/koo-cofounder-mayank-bidawatka-shuts-new-startup-picsee/"
+    },
+    {
+      "company": "Mews",
+      "slug": "mews",
+      "date": "2026-07-07",
+      "count": 200,
+      "percent": 0.15,
+      "source": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai/"
+    },
+    {
+      "company": "Microsoft",
+      "slug": "microsoft",
+      "date": "2026-07-06",
+      "count": 4800,
+      "percent": 0.02,
+      "source": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"
+    },
+    {
+      "company": "Amazon",
+      "slug": "amazon",
+      "date": "2026-07-06",
+      "count": 57,
+      "percent": null,
+      "source": "https://www.geekwire.com/2026/filing-shows-amazon-cut-57-tech-jobs-in-washington-state-in-recent-weeks/"
+    },
+    {
+      "company": "Yield Guild Games",
+      "slug": "yield-guild-games",
+      "date": "2026-07-06",
+      "count": 35,
+      "percent": null,
+      "source": "https://cointelegraph.com/news/yield-guild-games-cuts-35-staff-shuts-game-publisher-to-focus-on-ai"
+    },
+    {
+      "company": "Hotmart",
+      "slug": "hotmart",
+      "date": "2026-07-06",
+      "count": null,
+      "percent": 0.1,
+      "source": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/07/06/hotmart-faz-layoff-e-demite-cerca-de-10percent-dos-funcionarios-em-reestruturacao.ghtml"
+    },
+    {
+      "company": "Coursera",
+      "slug": "coursera",
+      "date": "2026-07-06",
+      "count": null,
+      "percent": null,
+      "source": "https://www.reuters.com/sustainability/coursera-cut-jobs-post-udemy-merger-restructuring-2026-07-06/"
+    },
+    {
+      "company": "CorroHealth",
+      "slug": "corrohealth",
+      "date": "2026-07-03",
+      "count": 800,
+      "percent": null,
+      "source": "https://www.onmanorama.com/news/kerala/2026/07/03/kerala-job-cuts-protest.html"
+    },
+    {
+      "company": "TikTok",
+      "slug": "tiktok",
+      "date": "2026-07-01",
+      "count": 300,
+      "percent": null,
+      "source": "https://startupfortune.com/tiktok-confirms-layoffs-in-singapore-and-three-other-cities-in-one-day/"
+    },
+    {
+      "company": "Tokopedia",
+      "slug": "tokopedia",
+      "date": "2026-07-01",
+      "count": null,
+      "percent": 0.9,
+      "source": "https://www.techinasia.com/tiktok-confirms-layoffs-in-indonesia"
+    },
+    {
+      "company": "PlaxidityX",
+      "slug": "plaxidityx",
+      "date": "2026-06-30",
+      "count": 80,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/rj3q6xzmfg"
+    },
+    {
+      "company": "Elementor",
+      "slug": "elementor",
+      "date": "2026-06-29",
+      "count": 100,
+      "percent": 0.3,
+      "source": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
+    },
+    {
+      "company": "Equip Health",
+      "slug": "equip-health",
+      "date": "2026-06-29",
+      "count": null,
+      "percent": 0.04,
+      "source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
+    },
+    {
+      "company": "ADP",
+      "slug": "adp",
+      "date": "2026-06-26",
+      "count": 76,
+      "percent": null,
+      "source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
+    },
+    {
+      "company": "SAS",
+      "slug": "sas",
+      "date": "2026-06-26",
+      "count": 300,
+      "percent": null,
+      "source": "https://www.newsobserver.com/news/business/article316281262.html"
+    },
+    {
+      "company": "CompanyCam",
+      "slug": "companycam",
+      "date": "2026-06-26",
+      "count": null,
+      "percent": null,
+      "source": "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html"
+    },
+    {
+      "company": "JiviAI",
+      "slug": "jiviai",
+      "date": "2026-06-26",
+      "count": null,
+      "percent": 1,
+      "source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
+    },
+    {
+      "company": "Culture Amp",
+      "slug": "culture-amp",
+      "date": "2026-06-26",
+      "count": 70,
+      "percent": 0.09,
+      "source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
+    },
+    {
+      "company": "Bungie",
+      "slug": "bungie",
+      "date": "2026-06-25",
+      "count": 292,
+      "percent": null,
+      "source": "https://www.geekwire.com/2026/sony-cuts-significant-number-of-jobs-at-bungie-following-end-of-destiny-2-development/"
+    },
+    {
+      "company": "Amperity",
+      "slug": "amperity",
+      "date": "2026-06-25",
+      "count": null,
+      "percent": null,
+      "source": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
+    },
+    {
+      "company": "Sonos",
+      "slug": "sonos",
+      "date": "2026-06-25",
+      "count": null,
+      "percent": 0.03,
+      "source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams"
+    },
+    {
+      "company": "BitGo",
+      "slug": "bitgo",
+      "date": "2026-06-25",
+      "count": 90,
+      "percent": 0.15,
+      "source": "https://x.com/mikebelshe/status/2070240967479996463"
+    },
+    {
+      "company": "Snyk",
+      "slug": "snyk",
+      "date": "2026-06-24",
+      "count": null,
+      "percent": null,
+      "source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+    },
+    {
+      "company": "Elastic",
+      "slug": "elastic",
+      "date": "2026-06-24",
+      "count": null,
+      "percent": 0.07,
+      "source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
+    },
+    {
+      "company": "Cyberbit",
+      "slug": "cyberbit",
+      "date": "2026-06-24",
+      "count": null,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/r1wrssfffg"
+    },
+    {
+      "company": "Lazada Group ",
+      "slug": "lazada-group",
+      "date": "2026-06-23",
+      "count": null,
+      "percent": 0.05,
+      "source": "https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review"
+    },
+    {
+      "company": "Ethereum Foundation",
+      "slug": "ethereum-foundation",
+      "date": "2026-06-23",
+      "count": 54,
+      "percent": 0.2,
+      "source": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
+    },
+    {
+      "company": "Oracle",
+      "slug": "oracle",
+      "date": "2026-06-23",
+      "count": 21000,
+      "percent": 0.13,
+      "source": "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html"
+    },
+    {
+      "company": "91Trucks",
+      "slug": "91trucks",
+      "date": "2026-06-22",
+      "count": 100,
+      "percent": 0.7,
+      "source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
+    },
+    {
+      "company": "Tractive",
+      "slug": "tractive",
+      "date": "2026-06-22",
+      "count": null,
+      "percent": null,
+      "source": "https://ooe.orf.at/stories/3359562/"
+    },
+    {
+      "company": "Lucid Motors",
+      "slug": "lucid-motors",
+      "date": "2026-06-22",
+      "count": 1500,
+      "percent": 0.18,
+      "source": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/"
+    },
+    {
+      "company": "Optimove",
+      "slug": "optimove",
+      "date": "2026-06-17",
+      "count": null,
+      "percent": 0.1,
+      "source": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai"
+    },
+    {
+      "company": "Lastminute",
+      "slug": "lastminute",
+      "date": "2026-06-17",
+      "count": 400,
+      "percent": 0.25,
+      "source": "https://res.cloudinary.com/lastminute-contenthub/image/upload/v1781669340/DAM/Artwork/lastminute.com/press_release/2026/20260617%20lastminute.com%20Announces%20AI%20Powered%20Transformation%20to%20Drive%20Its%20Next%20Phase%20of%20Growth_EN.pdf"
+    },
+    {
+      "company": "Matter Labs",
+      "slug": "matter-labs",
+      "date": "2026-06-16",
+      "count": null,
+      "percent": null,
+      "source": "https://x.com/gluk64/status/2066964567884747146"
+    },
+    {
+      "company": "Robinhood",
+      "slug": "robinhood",
+      "date": "2026-06-16",
+      "count": 290,
+      "percent": 0.1,
+      "source": "https://www.forbes.com/sites/tylerroush/2026/06/16/robinhood-cuts-10-of-workforce-citing-heavily-layered-operations/"
+    },
+    {
+      "company": "Artlist",
+      "slug": "artlist",
+      "date": "2026-06-16",
+      "count": 200,
+      "percent": 0.4,
+      "source": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
+    },
+    {
+      "company": "FNZ",
+      "slug": "fnz",
+      "date": "2026-06-16",
+      "count": null,
+      "percent": null,
+      "source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053"
+    },
+    {
+      "company": "Rackspace",
+      "slug": "rackspace",
+      "date": "2026-06-16",
+      "count": null,
+      "percent": 0.15,
+      "source": "https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html"
+    },
+    {
+      "company": "Rivian",
+      "slug": "rivian",
+      "date": "2026-06-16",
+      "count": null,
+      "percent": 0.02,
+      "source": "https://techcrunch.com/2026/06/16/rivian-cuts-hundreds-of-workers-after-r2-deliveries-start/"
+    },
+    {
+      "company": "Pleo",
+      "slug": "pleo",
+      "date": "2026-06-12",
+      "count": 50,
+      "percent": null,
+      "source": "https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/"
+    },
+    {
+      "company": "ServiceNow",
+      "slug": "servicenow",
+      "date": "2026-06-11",
+      "count": 54,
+      "percent": null,
+      "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+    },
+    {
+      "company": "Shopee",
+      "slug": "shopee",
+      "date": "2026-06-10",
+      "count": null,
+      "percent": 0.08,
+      "source": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
+    },
+    {
+      "company": "Opendoor",
+      "slug": "opendoor",
+      "date": "2026-06-10",
+      "count": 250,
+      "percent": null,
+      "source": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+    },
+    {
+      "company": "Veritone",
+      "slug": "veritone",
+      "date": "2026-06-10",
+      "count": 111,
+      "percent": 0.25,
+      "source": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb"
+    },
+    {
+      "company": "Paytm",
+      "slug": "paytm",
+      "date": "2026-06-09",
+      "count": 400,
+      "percent": 0.01,
+      "source": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
+    },
+    {
+      "company": "Verily",
+      "slug": "verily",
+      "date": "2026-06-09",
+      "count": 58,
+      "percent": null,
+      "source": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html"
+    },
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "date": "2026-06-09",
+      "count": 86,
+      "percent": null,
+      "source": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6"
+    },
+    {
+      "company": "Hailo",
+      "slug": "hailo",
+      "date": "2026-06-08",
+      "count": 110,
+      "percent": 0.5,
+      "source": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+    },
+    {
+      "company": "Tools for Humanity",
+      "slug": "tools-for-humanity",
+      "date": "2026-06-08",
+      "count": null,
+      "percent": null,
+      "source": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
+    },
+    {
+      "company": "Zencity",
+      "slug": "zencity",
+      "date": "2026-06-07",
+      "count": 15,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
+    },
+    {
+      "company": "FanDuel",
+      "slug": "fanduel",
+      "date": "2026-06-05",
+      "count": null,
+      "percent": null,
+      "source": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
+    },
+    {
+      "company": "Quizlet",
+      "slug": "quizlet",
+      "date": "2026-06-05",
+      "count": 79,
+      "percent": null,
+      "source": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+    },
+    {
+      "company": "Google",
+      "slug": "google",
+      "date": "2026-06-04",
+      "count": null,
+      "percent": null,
+      "source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
+    },
+    {
+      "company": "Uber",
+      "slug": "uber",
+      "date": "2026-06-03",
+      "count": null,
+      "percent": 0.01,
+      "source": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
+    },
+    {
+      "company": "Skai",
+      "slug": "skai",
+      "date": "2026-06-03",
+      "count": 100,
+      "percent": 0.2,
+      "source": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
+    },
+    {
+      "company": "Dandy",
+      "slug": "dandy",
+      "date": "2026-06-03",
+      "count": 160,
+      "percent": null,
+      "source": "Internal memo"
+    },
+    {
+      "company": "Aleph Farms",
+      "slug": "aleph-farms",
+      "date": "2026-06-02",
+      "count": 10,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/ppgzisqav"
+    },
+    {
+      "company": "Manhattan Associates",
+      "slug": "manhattan-associates",
+      "date": "2026-06-02",
+      "count": null,
+      "percent": 0.06,
+      "source": "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a"
+    },
+    {
+      "company": "GitLab",
+      "slug": "gitlab",
+      "date": "2026-06-02",
+      "count": 350,
+      "percent": 0.14,
+      "source": "https://www.wsj.com/business/earnings/gitlab-to-cut-14-of-workforce-as-part-of-ai-pivot-493b9813"
+    },
+    {
+      "company": "Lightricks",
+      "slug": "lightricks",
+      "date": "2026-06-01",
+      "count": 75,
+      "percent": 0.17,
+      "source": "https://www.calcalistech.com/ctechnews/article/r1dgjt5gmg"
+    },
+    {
+      "company": "Credit Karma",
+      "slug": "credit-karma",
+      "date": "2026-05-30",
+      "count": 117,
+      "percent": null,
+      "source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump"
+    },
+    {
+      "company": "Interview Kickstart",
+      "slug": "interview-kickstart",
+      "date": "2026-05-29",
+      "count": 50,
+      "percent": null,
+      "source": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
+    },
+    {
+      "company": "SentinelOne",
+      "slug": "sentinelone",
+      "date": "2026-05-29",
+      "count": 230,
+      "percent": 0.08,
+      "source": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+    },
+    {
+      "company": "Rapyd",
+      "slug": "rapyd",
+      "date": "2026-05-28",
+      "count": null,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/h1r00jfrgzl"
+    },
+    {
+      "company": "Amdocs",
+      "slug": "amdocs",
+      "date": "2026-05-28",
+      "count": null,
+      "percent": 0.07,
+      "source": "https://www.calcalistech.com/ctechnews/article/u4qmp07cv"
+    },
+    {
+      "company": "BenchSci",
+      "slug": "benchsci",
+      "date": "2026-05-28",
+      "count": 68,
+      "percent": 0.3,
+      "source": "https://thelogic.co/briefing/benchsci-lays-off-another-30-of-staff-as-it-embraces-ai-agents/"
+    },
+    {
+      "company": "Webflow",
+      "slug": "webflow",
+      "date": "2026-05-27",
+      "count": null,
+      "percent": null,
+      "source": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
+    },
+    {
+      "company": "NetApp",
+      "slug": "netapp",
+      "date": "2026-05-27",
+      "count": 77,
+      "percent": null,
+      "source": "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+    },
+    {
+      "company": "Picnic",
+      "slug": "picnic",
+      "date": "2026-05-26",
+      "count": null,
+      "percent": 1,
+      "source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html"
+    },
+    {
+      "company": "Groupon",
+      "slug": "groupon",
+      "date": "2026-05-26",
+      "count": 400,
+      "percent": 0.25,
+      "source": "https://www.wsj.com/business/groupon-to-cut-nearly-a-quarter-of-workforce-in-restructuring-a286bcd5"
+    },
+    {
+      "company": "BigID",
+      "slug": "bigid",
+      "date": "2026-05-26",
+      "count": null,
+      "percent": 0.2,
+      "source": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
+    },
+    {
+      "company": "Wix",
+      "slug": "wix",
+      "date": "2026-05-25",
+      "count": 1000,
+      "percent": 0.2,
+      "source": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
+    },
+    {
+      "company": "ClickUp",
+      "slug": "clickup",
+      "date": "2026-05-21",
+      "count": null,
+      "percent": 0.22,
+      "source": "https://x.com/DJ_CURFEW/status/2057522382315929802?s=20"
+    },
+    {
+      "company": "Meta",
+      "slug": "meta",
+      "date": "2026-05-20",
+      "count": 8000,
+      "percent": 0.1,
+      "source": "https://www.cnbc.com/2026/05/20/meta-layoffs-zuckerberg-says-success-isnt-a-given-in-memo.html"
+    },
+    {
+      "company": "Intuit",
+      "slug": "intuit",
+      "date": "2026-05-20",
+      "count": 3000,
+      "percent": 0.17,
+      "source": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/"
+    },
+    {
+      "company": "AI21 Labs",
+      "slug": "ai21-labs",
+      "date": "2026-05-18",
+      "count": 110,
+      "percent": 0.61,
+      "source": "https://en.globes.co.il/en/article-shashuas-ai21-labs-laying-off-60-of-employees-1001543241"
+    },
+    {
+      "company": "Kraken",
+      "slug": "kraken",
+      "date": "2026-05-15",
+      "count": 150,
+      "percent": null,
+      "source": "https://www.bloomberg.com/news/articles/2026-05-15/kraken-cuts-150-workers-after-deploying-ai-ipo-may-slip-to-2027"
+    },
+    {
+      "company": "Dune",
+      "slug": "dune",
+      "date": "2026-05-14",
+      "count": null,
+      "percent": 0.25,
+      "source": "https://x.com/hagaetc/status/2054937771811192837?s=20"
+    },
+    {
+      "company": "Gambling.com Group",
+      "slug": "gamblingcom-group",
+      "date": "2026-05-14",
+      "count": null,
+      "percent": null,
+      "source": "https://finance.yahoo.com/markets/stocks/articles/gambling-com-group-reports-first-200500152.html"
+    },
+    {
+      "company": "Innovaccer",
+      "slug": "innovaccer",
+      "date": "2026-05-14",
+      "count": 340,
+      "percent": null,
+      "source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
+    },
+    {
+      "company": "Jumia",
+      "slug": "jumia",
+      "date": "2026-05-13",
+      "count": 200,
+      "percent": null,
+      "source": "https://thekenyatimes.com/latest-kenya-times-news/jumia-announces-job-cuts-as-company-expands-ai-use/"
+    },
+    {
+      "company": "Cisco",
+      "slug": "cisco",
+      "date": "2026-05-13",
+      "count": 4000,
+      "percent": 0.05,
+      "source": "https://blogs.cisco.com/news/our-path-forward"
+    },
+    {
+      "company": "Guesty",
+      "slug": "guesty",
+      "date": "2026-05-13",
+      "count": 20,
+      "percent": 0.02,
+      "source": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
+    },
+    {
+      "company": "LinkedIn",
+      "slug": "linkedin",
+      "date": "2026-05-13",
+      "count": 875,
+      "percent": 0.05,
+      "source": "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/"
+    },
+    {
+      "company": "Trend Micro",
+      "slug": "trend-micro",
+      "date": "2026-05-12",
+      "count": 45,
+      "percent": null,
+      "source": "https://www.itnews.com.au/news/trend-micros-enterprise-unit-shuts-sydney-engineering-team-625788"
+    },
+    {
+      "company": "Breadfast",
+      "slug": "breadfast",
+      "date": "2026-05-12",
+      "count": 58,
+      "percent": null,
+      "source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
+    },
+    {
+      "company": "One Identity",
+      "slug": "one-identity",
+      "date": "2026-05-11",
+      "count": 41,
+      "percent": null,
+      "source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
+    },
+    {
+      "company": "MRI Software",
+      "slug": "mri-software",
+      "date": "2026-05-11",
+      "count": 200,
+      "percent": null,
+      "source": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
+    },
+    {
+      "company": "MessageBird",
+      "slug": "messagebird",
+      "date": "2026-05-11",
+      "count": null,
+      "percent": 0.2,
+      "source": "https://www.linkedin.com/posts/robertvis_this-is-a-note-i-sent-earlier-today-to-all-share-7459557337901645826-VIus/"
+    },
+    {
+      "company": "Adda247",
+      "slug": "adda247",
+      "date": "2026-05-10",
+      "count": 200,
+      "percent": 0.2,
+      "source": "https://www.whalesbook.com/news/English/tech/Adda247-Cuts-Staff-Ahead-of-IPO-Signals-Profitability-Push/6a00cbb0707d23e84421af77"
+    },
+    {
+      "company": "ZoomInfo",
+      "slug": "zoominfo",
+      "date": "2026-05-10",
+      "count": 600,
+      "percent": 0.2,
+      "source": "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html"
+    },
+    {
+      "company": "Parker",
+      "slug": "parker",
+      "date": "2026-05-09",
+      "count": null,
+      "percent": 1,
+      "source": "https://techcrunch.com/2026/05/09/fintech-startup-parker-files-for-bankruptcy/"
+    },
+    {
+      "company": "Staffbase",
+      "slug": "staffbase",
+      "date": "2026-05-08",
+      "count": 176,
+      "percent": 0.22,
+      "source": "https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv"
+    },
+    {
+      "company": "Truecaller",
+      "slug": "truecaller",
+      "date": "2026-05-07",
+      "count": 70,
+      "percent": null,
+      "source": "https://uk.investing.com/news/earnings/toast-shares-tumble-6-as-q1-earnings-fall-short-of-analyst-expectations-93CH-4660610"
+    },
+    {
+      "company": "Ticketmaster",
+      "slug": "ticketmaster",
+      "date": "2026-05-07",
+      "count": 350,
+      "percent": 0.08,
+      "source": "https://hoodline.com/2026/05/ticketmaster-axes-350-jobs-as-it-fast-tracks-new-tech/"
+    },
+    {
+      "company": "Cloudflare",
+      "slug": "cloudflare",
+      "date": "2026-05-07",
+      "count": 1100,
+      "percent": 0.2,
+      "source": "https://blog.cloudflare.com/building-for-the-future/"
+    },
+    {
+      "company": "Bill.com",
+      "slug": "billcom",
+      "date": "2026-05-07",
+      "count": 709,
+      "percent": 0.3,
+      "source": "https://www.bill.com/blog/a-message-to-bill-employees"
+    },
+    {
+      "company": "Upwork",
+      "slug": "upwork",
+      "date": "2026-05-07",
+      "count": 151,
+      "percent": 0.24,
+      "source": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
+    },
+    {
+      "company": "DeepL",
+      "slug": "deepl",
+      "date": "2026-05-07",
+      "count": 250,
+      "percent": 0.21,
+      "source": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
+    },
+    {
+      "company": "reAlpha",
+      "slug": "realpha",
+      "date": "2026-05-06",
+      "count": null,
+      "percent": 0.25,
+      "source": "https://markets.businessinsider.com/news/stocks/realpha-reduces-workforce-by-approximately-25-and-consolidates-vendor-spend-targeting-2-million-in-annualized-savings-as-ai-advancements-drive-organizational-efficiency-1036115751"
+    },
+    {
+      "company": "Pocket FM",
+      "slug": "pocket-fm",
+      "date": "2026-05-06",
+      "count": 100,
+      "percent": 0.1,
+      "source": "https://entrackr.com/exclusive/exclusive-pocket-fm-lets-go-of-over-100-employees-more-job-cuts-may-follow-11806323"
+    },
+    {
+      "company": "Arctic Wolf",
+      "slug": "arctic-wolf",
+      "date": "2026-05-06",
+      "count": 250,
+      "percent": 0.1,
+      "source": "https://www.theregister.com/ai-and-ml/2026/05/06/arctic-wolf-cuts-250-jobs-in-ai-push/5231213"
+    },
+    {
+      "company": "LSports",
+      "slug": "lsports",
+      "date": "2026-05-06",
+      "count": 40,
+      "percent": 0.2,
+      "source": "https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/"
+    },
+    {
+      "company": "ApnaMart",
+      "slug": "apnamart",
+      "date": "2026-05-06",
+      "count": 35,
+      "percent": 0.1,
+      "source": "https://entrackr.com/news/apna-mart-lays-off-10-of-workforce-shifts-base-from-bengaluru-to-gurugram-11805807"
+    },
+    {
+      "company": "Freshworks",
+      "slug": "freshworks",
+      "date": "2026-05-05",
+      "count": 500,
+      "percent": 0.11,
+      "source": "https://www.reuters.com/business/freshworks-cut-11-jobs-ai-reshapes-software-sector-2026-05-05/"
+    },
+    {
+      "company": "Careem",
+      "slug": "careem",
+      "date": "2026-05-05",
+      "count": null,
+      "percent": null,
+      "source": "https://en.dailypakistan.com.pk/05-May-2026/careem-layoffs-intensify-after-exit-from-ride-hailing-services-in-pakistan"
+    },
+    {
+      "company": "0G",
+      "slug": "0g",
+      "date": "2026-05-05",
+      "count": null,
+      "percent": 0.25,
+      "source": "https://www.businessinsider.com/0g-labs-layoffs-ai-integration-2026-5"
+    },
+    {
+      "company": "Coinbase",
+      "slug": "coinbase",
+      "date": "2026-05-05",
+      "count": 700,
+      "percent": 0.14,
+      "source": "https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/"
+    },
+    {
+      "company": "Shopify",
+      "slug": "shopify",
+      "date": "2026-05-04",
+      "count": 30,
+      "percent": null,
+      "source": "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/"
+    },
+    {
+      "company": "Pentera",
+      "slug": "pentera",
+      "date": "2026-04-27",
+      "count": 40,
+      "percent": 0.08,
+      "source": "https://www.calcalistech.com/ctechnews/article/b1ioncnpzl"
+    },
+    {
+      "company": "SuperOps",
+      "slug": "superops",
+      "date": "2026-04-24",
+      "count": 60,
+      "percent": 0.3,
+      "source": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
+    },
+    {
+      "company": "Remarkable",
+      "slug": "remarkable",
+      "date": "2026-04-22",
+      "count": 200,
+      "percent": null,
+      "source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff"
+    },
+    {
+      "company": "Noa Technologies",
+      "slug": "noa-technologies",
+      "date": "2026-04-22",
+      "count": 69,
+      "percent": null,
+      "source": "https://www.bizjournals.com/sanjose/news/2026/04/22/noa-technologies-gbike-layoffs.html"
+    },
+    {
+      "company": "Zondacrypto",
+      "slug": "zondacrypto",
+      "date": "2026-04-21",
+      "count": null,
+      "percent": null,
+      "source": "https://tvpworld.com/92834466/zonadcrypto-staff-report-chaos-and-mass-layoffs"
+    },
+    {
+      "company": "GeoComply",
+      "slug": "geocomply",
+      "date": "2026-04-21",
+      "count": 68,
+      "percent": 0.15,
+      "source": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
+    },
+    {
+      "company": "Epidemic Sound",
+      "slug": "epidemic-sound",
+      "date": "2026-04-21",
+      "count": 150,
+      "percent": 0.33,
+      "source": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
+    },
+    {
+      "company": "Qt Company",
+      "slug": "qt-company",
+      "date": "2026-04-20",
+      "count": 200,
+      "percent": null,
+      "source": "https://www.qt.io/releases/release?slug=insider-information-qt-group-launches-operational-reorganization-to-improve-efficiency"
+    },
+    {
+      "company": "Acko",
+      "slug": "acko",
+      "date": "2026-04-20",
+      "count": 60,
+      "percent": 0.05,
+      "source": "https://inc42.com/buzz/acko-cuts-5-workforce-in-pre-ipo-restructuring/"
+    },
+    {
+      "company": "Quora",
+      "slug": "quora",
+      "date": "2026-04-16",
+      "count": null,
+      "percent": null,
+      "source": "https://quorablog.quora.com/Update?ch=10&oid=246876762&share=572b9cd0&srid=57WTZa&target_type=post"
+    },
+    {
+      "company": "Shutterfly",
+      "slug": "shutterfly",
+      "date": "2026-04-16",
+      "count": 80,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/rkx2avanzg"
+    },
+    {
+      "company": "Sama",
+      "slug": "sama",
+      "date": "2026-04-16",
+      "count": 1108,
+      "percent": null,
+      "source": "https://thekenyatimes.com/latest-kenya-times-news/nairobi-based-data-firm-announces-lay-off-of-1108-employees/"
+    },
+    {
+      "company": "Snap",
+      "slug": "snap",
+      "date": "2026-04-15",
+      "count": 1000,
+      "percent": 0.16,
+      "source": "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html"
+    },
+    {
+      "company": "Nayax",
+      "slug": "nayax",
+      "date": "2026-04-15",
+      "count": 32,
+      "percent": 0.03,
+      "source": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
+    },
+    {
+      "company": "Productboard",
+      "slug": "productboard",
+      "date": "2026-04-15",
+      "count": null,
+      "percent": 0.3,
+      "source": "https://www.linkedin.com/pulse/productboard-going-ai-only-heres-what-means-hubert-palan-h1ozc/?trackingId=xrFN60pCTAaxJwMPkmzg1Q%3D%3D"
+    },
+    {
+      "company": "UKG",
+      "slug": "ukg",
+      "date": "2026-04-15",
+      "count": 950,
+      "percent": null,
+      "source": "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/"
+    },
+    {
+      "company": "Swyftx",
+      "slug": "swyftx",
+      "date": "2026-04-15",
+      "count": 37,
+      "percent": 0.15,
+      "source": "https://finance.yahoo.com/markets/crypto/articles/major-crypto-firm-replaces-ceo-233517857.html"
+    },
+    {
+      "company": "Taboola",
+      "slug": "taboola",
+      "date": "2026-04-15",
+      "count": 100,
+      "percent": 0.05,
+      "source": "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
+    },
+    {
+      "company": "GoCardless",
+      "slug": "gocardless",
+      "date": "2026-04-14",
+      "count": 90,
+      "percent": null,
+      "source": "https://www.cityam.com/gocardless-to-axe-90-jobs-as-uk-fintech-eyes-profitability/"
+    },
+    {
+      "company": "StarkWare",
+      "slug": "starkware",
+      "date": "2026-04-13",
+      "count": null,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/sy7u2uq3wx"
+    },
+    {
+      "company": "Eventbrite",
+      "slug": "eventbrite",
+      "date": "2026-04-13",
+      "count": null,
+      "percent": null,
+      "source": "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/"
+    },
+    {
+      "company": "Esh Group",
+      "slug": "esh-group",
+      "date": "2026-04-12",
+      "count": null,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
+    },
+    {
+      "company": "Life360",
+      "slug": "life360",
+      "date": "2026-04-10",
+      "count": null,
+      "percent": null,
+      "source": "https://www.9news.com.au/national/life360-culls-jobs-in-restructure-to-ainative-company/17cc5c9f-d081-44fc-95e2-970e4f36a89b"
+    },
+    {
+      "company": "Pepper Pay",
+      "slug": "pepper-pay",
+      "date": "2026-04-09",
+      "count": null,
+      "percent": 1,
+      "source": "https://www.americanbanker.com/news/payments-fintech-pepper-pay-declares-bankruptcy"
+    },
+    {
+      "company": "Cars.com",
+      "slug": "carscom",
+      "date": "2026-04-09",
+      "count": null,
+      "percent": 0.11,
+      "source": "https://www.marketwatch.com/story/cars-com-to-lay-off-11-of-full-time-workforce-amid-ai-push-update-bb0c9f35"
+    },
+    {
+      "company": "Qualcomm",
+      "slug": "qualcomm",
+      "date": "2026-04-09",
+      "count": 104,
+      "percent": null,
+      "source": "https://www.sandiegouniontribune.com/2026/04/09/qualcomm-lays-off-dozens-of-senior-positions-in-san-diego/"
+    },
+    {
+      "company": "IAC",
+      "slug": "iac",
+      "date": "2026-04-08",
+      "count": 77,
+      "percent": 0.02,
+      "source": "https://variety.com/2026/digital/news/barry-diller-iac-name-people-incorporated-layoffs-1236732057/"
+    },
+    {
+      "company": "GoPro",
+      "slug": "gopro",
+      "date": "2026-04-07",
+      "count": 145,
+      "percent": 0.23,
+      "source": "https://www.wsj.com/business/gopro-to-eliminate-23-of-workforce-in-cost-cutting-move-ca5ba06b"
+    },
+    {
+      "company": "Pendo",
+      "slug": "pendo",
+      "date": "2026-04-07",
+      "count": 90,
+      "percent": 0.1,
+      "source": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+    },
+    {
+      "company": "Bolt",
+      "slug": "bolt",
+      "date": "2026-04-05",
+      "count": null,
+      "percent": 0.33,
+      "source": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/"
+    },
+    {
+      "company": "NeuroPixel.AI",
+      "slug": "neuropixelai",
+      "date": "2026-04-03",
+      "count": null,
+      "percent": 1,
+      "source": "https://entrackr.com/news/flipkart-backed-neuropixelai-shuts-operations-amid-financial-strain-11448982"
+    },
+    {
+      "company": "Welltech",
+      "slug": "welltech",
+      "date": "2026-04-03",
+      "count": 225,
+      "percent": 0.3,
+      "source": "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022"
+    },
+    {
+      "company": "Vimeo",
+      "slug": "vimeo",
+      "date": "2026-04-03",
+      "count": null,
+      "percent": null,
+      "source": "https://hoodline.com/2026/04/vimeo-axes-quarter-of-midtown-staff-after-billion-dollar-takeover/"
+    },
+    {
+      "company": "MARA",
+      "slug": "mara",
+      "date": "2026-04-02",
+      "count": null,
+      "percent": 0.15,
+      "source": "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/"
+    },
+    {
+      "company": "Meta",
+      "slug": "meta",
+      "date": "2026-04-02",
+      "count": 200,
+      "percent": null,
+      "source": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+    },
+    {
+      "company": "Sonos",
+      "slug": "sonos",
+      "date": "2026-04-01",
+      "count": null,
+      "percent": null,
+      "source": "https://www.bloomberg.com/news/articles/2026-04-01/sonos-makes-marketing-cuts-as-new-cmo-reshapes-division"
+    },
+    {
+      "company": "Yupp",
+      "slug": "yupp",
+      "date": "2026-03-31",
+      "count": null,
+      "percent": 1,
+      "source": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/"
+    },
+    {
+      "company": "SoundThinking",
+      "slug": "soundthinking",
+      "date": "2026-03-31",
+      "count": 15,
+      "percent": null,
+      "source": "https://ir.soundthinking.com/sec-filings/all-sec-filings/content/0001351636-26-000006/0001351636-26-000006.pdf"
+    },
+    {
+      "company": "Rec Room",
+      "slug": "rec-room",
+      "date": "2026-03-31",
+      "count": null,
+      "percent": 1,
+      "source": "https://techcrunch.com/2026/03/31/social-gaming-platform-rec-room-once-valued-at-3-5b-is-shutting-down/"
+    },
+    {
+      "company": "Monzo",
+      "slug": "monzo",
+      "date": "2026-03-31",
+      "count": 50,
+      "percent": null,
+      "source": "https://www.bloomberg.com/news/articles/2026-03-31/fintech-monzo-shutting-down-us-operations-to-focus-on-uk-europe"
+    },
+    {
+      "company": "Covrzy",
+      "slug": "covrzy",
+      "date": "2026-03-31",
+      "count": null,
+      "percent": 1,
+      "source": "https://inc42.com/buzz/antler-backed-covrzy-shuts-down-due-to-cash-crunch/"
+    },
+    {
+      "company": "Enpal",
+      "slug": "enpal",
+      "date": "2026-03-27",
+      "count": 100,
+      "percent": null,
+      "source": "https://www.businessinsider.de/gruenderszene/business/enpal-alle-zugaenge-kurz-nach-bekanntgabe-gesperrt-fast-100-mitarbeiter-entlassen/"
+    },
+    {
+      "company": "Monte Carlo",
+      "slug": "monte-carlo",
+      "date": "2026-03-26",
+      "count": null,
+      "percent": 0.3,
+      "source": "https://www.linkedin.com/feed/update/urn:li:activity:7442678720647184385/"
+    },
+    {
+      "company": "Quandoo",
+      "slug": "quandoo",
+      "date": "2026-03-26",
+      "count": null,
+      "percent": 1,
+      "source": "https://finance.yahoo.com/markets/stocks/articles/quandoo-shut-restaurant-booking-platform-112913577.html"
+    },
+    {
+      "company": "Meta",
+      "slug": "meta",
+      "date": "2026-03-25",
+      "count": 700,
+      "percent": 0.01,
+      "source": "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE"
+    },
+    {
+      "company": "OpenText",
+      "slug": "opentext",
+      "date": "2026-03-24",
+      "count": null,
+      "percent": null,
+      "source": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
+    },
+    {
+      "company": "Epic Games",
+      "slug": "epic-games",
+      "date": "2026-03-24",
+      "count": 1000,
+      "percent": null,
+      "source": "https://www.epicgames.com/site/en-US/news/todays-layoffs"
+    },
+    {
+      "company": "Zendesk",
+      "slug": "zendesk",
+      "date": "2026-03-24",
+      "count": 100,
+      "percent": null,
+      "source": "Internal memo"
+    },
+    {
+      "company": "Flex AI",
+      "slug": "flex-ai",
+      "date": "2026-03-24",
+      "count": null,
+      "percent": 1,
+      "source": "https://betakit.com/personal-training-app-flex-ai-is-shutting-down/"
+    },
+    {
+      "company": "Spotify",
+      "slug": "spotify",
+      "date": "2026-03-23",
+      "count": 15,
+      "percent": null,
+      "source": "https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/"
+    },
+    {
+      "company": "Gemini",
+      "slug": "gemini",
+      "date": "2026-03-20",
+      "count": null,
+      "percent": 0.3,
+      "source": "https://www.bloomberg.com/news/articles/2026-03-19/winklevosses-says-jobs-cuts-at-gemini-exchange-reach-30?embedded-checkout=true"
+    },
+    {
+      "company": "Snowflake",
+      "slug": "snowflake",
+      "date": "2026-03-19",
+      "count": 70,
+      "percent": null,
+      "source": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
+    },
+    {
+      "company": "Crypto.com",
+      "slug": "cryptocom",
+      "date": "2026-03-19",
+      "count": null,
+      "percent": 0.12,
+      "source": "https://www.cnbc.com/2026/03/19/crypto-com-layoffs-12percent-ai-job-loss.html"
+    },
+    {
+      "company": "Algorand Foundation",
+      "slug": "algorand-foundation",
+      "date": "2026-03-18",
+      "count": null,
+      "percent": 0.25,
+      "source": "https://x.com/AlgoFoundation/status/2034298850878652616"
+    },
+    {
+      "company": "FranShares",
+      "slug": "franshares",
+      "date": "2026-03-17",
+      "count": null,
+      "percent": 1,
+      "source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
+    },
+    {
+      "company": "Dell",
+      "slug": "dell",
+      "date": "2026-03-16",
+      "count": 11000,
+      "percent": 0.1,
+      "source": "https://www.reuters.com/business/world-at-work/dell-workforce-drops-10-fiscal-2026-filing-shows-2026-03-16/"
+    },
+    {
+      "company": "Digg",
+      "slug": "digg",
+      "date": "2026-03-13",
+      "count": null,
+      "percent": null,
+      "source": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/"
+    },
+    {
+      "company": "Stone",
+      "slug": "stone",
+      "date": "2026-03-13",
+      "count": 400,
+      "percent": 0.03,
+      "source": "https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html"
+    },
+    {
+      "company": "Loopio",
+      "slug": "loopio",
+      "date": "2026-03-13",
+      "count": 36,
+      "percent": 0.12,
+      "source": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
+    },
+    {
+      "company": "OP Labs",
+      "slug": "op-labs",
+      "date": "2026-03-12",
+      "count": 20,
+      "percent": null,
+      "source": "https://www.cryptotimes.io/2026/03/12/op-labs-lays-off-employees/"
+    },
+    {
+      "company": "Atlassian",
+      "slug": "atlassian",
+      "date": "2026-03-11",
+      "count": 1600,
+      "percent": 0.1,
+      "source": "https://au.finance.yahoo.com/news/atlassian-lay-off-1-600-212610757.html?guccounter=1"
+    },
+    {
+      "company": "InvestCloud",
+      "slug": "investcloud",
+      "date": "2026-03-10",
+      "count": 150,
+      "percent": null,
+      "source": "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606"
+    },
+    {
+      "company": "Flipkart",
+      "slug": "flipkart",
+      "date": "2026-03-06",
+      "count": 500,
+      "percent": null,
+      "source": "https://inc42.com/buzz/flipkart-lays-off-about-500-employees-post-annual-performance-review/"
+    },
+    {
+      "company": "Marketsource",
+      "slug": "marketsource",
+      "date": "2026-03-05",
+      "count": 57,
+      "percent": 0.11,
+      "source": "https://www.bizjournals.com/atlanta/news/2026/03/05/sales-accelerator-to-lay-off-dozens.html"
+    },
+    {
+      "company": "SSense",
+      "slug": "ssense",
+      "date": "2026-03-05",
+      "count": 215,
+      "percent": null,
+      "source": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
+    },
+    {
+      "company": "Amazon",
+      "slug": "amazon",
+      "date": "2026-03-04",
+      "count": 100,
+      "percent": null,
+      "source": "https://finance.yahoo.com/news/amazon-cuts-more-jobs-time-212928090.html"
+    },
+    {
+      "company": "At-Bay",
+      "slug": "at-bay",
+      "date": "2026-03-04",
+      "count": 25,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/bye11uubkwe"
+    },
+    {
+      "company": "Envato",
+      "slug": "envato",
+      "date": "2026-03-04",
+      "count": 200,
+      "percent": 0.3,
+      "source": "https://www.startupdaily.net/advice/business-strategy/shutterstock-owned-envato-is-slashing-its-workforce/"
+    },
+    {
+      "company": "Supernal",
+      "slug": "supernal",
+      "date": "2026-03-04",
+      "count": 296,
+      "percent": 0.8,
+      "source": "https://www.latimes.com/business/story/2026-03-04/irvine-startup-lays-off-close-to-300-employees"
+    },
+    {
+      "company": "MicroVision",
+      "slug": "microvision",
+      "date": "2026-03-03",
+      "count": 49,
+      "percent": null,
+      "source": "https://www.bizjournals.com/seattle/news/2026/03/03/microvision-lidar-redmond-layoffs-warn-cars.html"
+    },
+    {
+      "company": "Verint Systems",
+      "slug": "verint-systems",
+      "date": "2026-03-02",
+      "count": null,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/rjpmvvqf11l"
+    },
+    {
+      "company": "Zap Africa",
+      "slug": "zap-africa",
+      "date": "2026-02-28",
+      "count": null,
+      "percent": 0.44,
+      "source": "https://techcabal.com/2026/02/28/zap-africa-layoffs/"
+    },
+    {
+      "company": "eBay",
+      "slug": "ebay",
+      "date": "2026-02-26",
+      "count": 800,
+      "percent": 0.06,
+      "source": "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html"
+    },
+    {
+      "company": "Ocado",
+      "slug": "ocado",
+      "date": "2026-02-26",
+      "count": 1000,
+      "percent": 0.05,
+      "source": "https://www.theguardian.com/business/2026/feb/26/ocado-to-cut-1000-jobs-in-150m-cost-cutting-drive"
+    },
+    {
+      "company": "Block",
+      "slug": "block",
+      "date": "2026-02-26",
+      "count": 4000,
+      "percent": 0.4,
+      "source": "https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html"
+    },
+    {
+      "company": "Deliveroo",
+      "slug": "deliveroo",
+      "date": "2026-02-25",
+      "count": 187,
+      "percent": null,
+      "source": "https://in.investing.com/news/company-news/doordash-closes-deliveroo-operations-in-qatar-and-singapore-93CH-5256077"
+    },
+    {
+      "company": "C3.ai",
+      "slug": "c3ai",
+      "date": "2026-02-25",
+      "count": 280,
+      "percent": 0.26,
+      "source": "https://www.morningstar.com/stocks/xnys/ai/earnings-transcript"
+    },
+    {
+      "company": "WiseTech",
+      "slug": "wisetech",
+      "date": "2026-02-24",
+      "count": 2000,
+      "percent": 0.3,
+      "source": "https://www.bloomberg.com/news/articles/2026-02-24/wisetech-to-cut-2-000-jobs-as-ai-ends-era-of-manual-coding"
+    },
+    {
+      "company": "TrueCar",
+      "slug": "truecar",
+      "date": "2026-02-24",
+      "count": 100,
+      "percent": 0.3,
+      "source": "https://aimgroup.com/2026/02/24/truecar-cuts-30-of-staff/"
+    },
+    {
+      "company": "DraftKings",
+      "slug": "draftkings",
+      "date": "2026-02-24",
+      "count": null,
+      "percent": null,
+      "source": "https://next.io/news/people/draftkings-reduces-workforce-company-embraces-ai/"
+    },
+    {
+      "company": "Lucid Motors",
+      "slug": "lucid-motors",
+      "date": "2026-02-20",
+      "count": null,
+      "percent": 0.12,
+      "source": "https://techcrunch.com/2026/02/20/lucid-motors-slashes-12-of-its-workforce-as-it-seeks-profitability/"
+    },
+    {
+      "company": "Livspace",
+      "slug": "livspace",
+      "date": "2026-02-20",
+      "count": 1000,
+      "percent": 0.12,
+      "source": "https://inc42.com/buzz/livspace-fires-1000-employees-cofounder-quits/"
+    },
+    {
+      "company": "Codecademy",
+      "slug": "codecademy",
+      "date": "2026-02-19",
+      "count": null,
+      "percent": null,
+      "source": "https://www.edtechinnovationhub.com/news/skillsoft-lays-off-entire-codecademy-curriculum-team-senior-leader-confirms"
+    },
+    {
+      "company": "Xero",
+      "slug": "xero",
+      "date": "2026-02-18",
+      "count": 250,
+      "percent": null,
+      "source": "https://businessdesk.co.nz/article/markets/xero-restructures-with-250-jobs-on-the-line"
+    },
+    {
+      "company": "Cyberark",
+      "slug": "cyberark",
+      "date": "2026-02-17",
+      "count": 500,
+      "percent": 0.12,
+      "source": "https://www.calcalistech.com/ctechnews/article/hy707511ube"
+    },
+    {
+      "company": "Huawei",
+      "slug": "huawei",
+      "date": "2026-02-15",
+      "count": 50,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/bkmmdojuwx"
+    },
+    {
+      "company": "Firebolt",
+      "slug": "firebolt",
+      "date": "2026-02-15",
+      "count": null,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/r1cj0csuwl"
+    },
+    {
+      "company": "Axonius",
+      "slug": "axonius",
+      "date": "2026-02-15",
+      "count": 40,
+      "percent": 0.04,
+      "source": "https://www.calcalistech.com/ctechnews/article/s1xchi1oze"
+    },
+    {
+      "company": "Clari",
+      "slug": "clari",
+      "date": "2026-02-12",
+      "count": 76,
+      "percent": null,
+      "source": "https://www.bizjournals.com/sanjose/news/2026/02/12/clari-salesloft-merger-ai-investments-layoffs.html"
+    },
+    {
+      "company": "Glossier",
+      "slug": "glossier",
+      "date": "2026-02-11",
+      "count": 50,
+      "percent": 0.33,
+      "source": "https://www.businessoffashion.com/news/cosmetics/glossier-layoffs-2026/"
+    },
+    {
+      "company": "Dayforce",
+      "slug": "dayforce",
+      "date": "2026-02-11",
+      "count": null,
+      "percent": 0.05,
+      "source": "Internal memo"
+    },
+    {
+      "company": "Fi.Money",
+      "slug": "fimoney",
+      "date": "2026-02-10",
+      "count": null,
+      "percent": 0.4,
+      "source": "https://www.moneycontrol.com/technology/neobanking-fintech-fimoney-pivots-to-b2b-lays-off-staff-in-consumer-business-article-13822324.html#goog_rewarded"
+    },
+    {
+      "company": "Salesforce",
+      "slug": "salesforce",
+      "date": "2026-02-09",
+      "count": null,
+      "percent": null,
+      "source": "https://www.businessinsider.com/salesforce-cuts-jobs-executive-changes-2026-2"
+    },
+    {
+      "company": "Riot Games",
+      "slug": "riot-games",
+      "date": "2026-02-09",
+      "count": 80,
+      "percent": null,
+      "source": "https://www.gamedeveloper.com/business/riot-games-lays-off-roughly-80-employees-from-2xko-team"
+    },
+    {
+      "company": "Smartsheet",
+      "slug": "smartsheet",
+      "date": "2026-02-04",
+      "count": null,
+      "percent": null,
+      "source": "https://www.geekwire.com/2026/smartsheet-layoffs-enterprise-software-giant-cuts-staff/"
+    },
+    {
+      "company": "Workday",
+      "slug": "workday",
+      "date": "2026-02-04",
+      "count": 400,
+      "percent": 0.02,
+      "source": "https://www.bloomberg.com/news/articles/2026-02-04/workday-to-cut-about-400-employees-focused-on-customer-support"
+    },
+    {
+      "company": "Rewire",
+      "slug": "rewire",
+      "date": "2026-02-04",
+      "count": 110,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/bkxy2fwv11g"
+    },
+    {
+      "company": "Zipcar",
+      "slug": "zipcar",
+      "date": "2026-02-02",
+      "count": 126,
+      "percent": null,
+      "source": "https://www.boston.com/news/business/2026/02/02/zipcar-to-close-seaport-headquarters-cut-more-than-100-jobs/"
+    },
+    {
+      "company": "Zillow",
+      "slug": "zillow",
+      "date": "2026-02-02",
+      "count": 200,
+      "percent": null,
+      "source": "https://www.seattletimes.com/business/real-estate/seattle-based-zillow-lays-off-200-employees/"
+    },
+    {
+      "company": "Expedia",
+      "slug": "expedia",
+      "date": "2026-02-01",
+      "count": 100,
+      "percent": null,
+      "source": "https://finance.yahoo.com/news/expedia-cut-100-jobs-austin-161917994.html?guccounter=1"
+    },
+    {
+      "company": "Peloton",
+      "slug": "peloton",
+      "date": "2026-01-30",
+      "count": null,
+      "percent": 0.11,
+      "source": "https://www.reuters.com/business/peloton-cuts-11-staff-including-engineering-teams-bloomberg-news-reports-2026-01-30/"
+    },
+    {
+      "company": "Zupee",
+      "slug": "zupee",
+      "date": "2026-01-30",
+      "count": 200,
+      "percent": null,
+      "source": "https://yourstory.com/2026/01/zupee-cuts-about-200-jobs-in-second-layoff-after-money-gaming-ban"
+    },
+    {
+      "company": "Kiwi.com",
+      "slug": "kiwicom",
+      "date": "2026-01-29",
+      "count": 250,
+      "percent": 0.36,
+      "source": "https://forbes.cz/kiwi-pokracuje-v-propousteni-odchazi-tretina-zamestnancu/"
+    },
+    {
+      "company": "Gloo",
+      "slug": "gloo",
+      "date": "2026-01-29",
+      "count": null,
+      "percent": null,
+      "source": "https://www.bizjournals.com/denver/news/2026/01/29/ai-company-cuts-staff-reduces-executive-salaries.html"
+    },
+    {
+      "company": "ASML",
+      "slug": "asml",
+      "date": "2026-01-28",
+      "count": 1700,
+      "percent": null,
+      "source": "https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation"
+    },
+    {
+      "company": "Amazon",
+      "slug": "amazon",
+      "date": "2026-01-28",
+      "count": 16000,
+      "percent": null,
+      "source": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026"
+    },
+    {
+      "company": "Pinterest",
+      "slug": "pinterest",
+      "date": "2026-01-27",
+      "count": 700,
+      "percent": 0.15,
+      "source": "https://www.theverge.com/news/868531/pinterest-layoffs-cuts-15-percent-ai-transformation"
+    },
+    {
+      "company": "Moon Active",
+      "slug": "moon-active",
+      "date": "2026-01-27",
+      "count": 110,
+      "percent": 0.05,
+      "source": "https://www.calcalistech.com/ctechnews/article/jvbqyjznm"
+    },
+    {
+      "company": "Expedia",
+      "slug": "expedia",
+      "date": "2026-01-26",
+      "count": null,
+      "percent": null,
+      "source": "https://www.bizjournals.com/seattle/news/2026/01/26/expedia-layoffs-tech-team-interbay-travel.html"
+    },
+    {
+      "company": "Entropy",
+      "slug": "entropy",
+      "date": "2026-01-25",
+      "count": null,
+      "percent": 1,
+      "source": "https://www.theblock.co/post/386942/entropy-a16z-backed-decentralized-custody-startup-is-winding-down-and-returning-capital-to-investors"
+    },
+    {
+      "company": "Roof Stacks",
+      "slug": "roof-stacks",
+      "date": "2026-01-24",
+      "count": 220,
+      "percent": null,
+      "source": "https://www.yenicaggazetesi.com/erdoganin-mektup-arkadasinin-sirketinde-skandal-olay-yuzlerce-kisi-isten-cikarildi-995293h.htm"
+    },
+    {
+      "company": "Autodesk",
+      "slug": "autodesk",
+      "date": "2026-01-22",
+      "count": 1000,
+      "percent": 0.07,
+      "source": "https://www.reuters.com/business/world-at-work/autodesk-lay-off-about-7-workforce-2026-01-22/"
+    },
+    {
+      "company": "Shopify",
+      "slug": "shopify",
+      "date": "2026-01-22",
+      "count": null,
+      "percent": null,
+      "source": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
+    },
+    {
+      "company": "Vimeo",
+      "slug": "vimeo",
+      "date": "2026-01-21",
+      "count": null,
+      "percent": null,
+      "source": "https://www.businessinsider.com/vimeo-laying-off-staff-after-billion-sale-to-bending-spoons-2026-1"
+    },
+    {
+      "company": "Polygon",
+      "slug": "polygon",
+      "date": "2026-01-16",
+      "count": 60,
+      "percent": null,
+      "source": "https://www.coindesk.com/business/2026/01/16/polygon-labs-said-to-have-laid-off-60-staff-following-new-usd250-million-acquisition"
+    },
+    {
+      "company": "Ericsson",
+      "slug": "ericsson",
+      "date": "2026-01-15",
+      "count": 1600,
+      "percent": null,
+      "source": "https://www.reuters.com/business/world-at-work/ericsson-shed-1600-jobs-sweden-2026-01-15/"
+    },
+    {
+      "company": "Informatica",
+      "slug": "informatica",
+      "date": "2026-01-15",
+      "count": 35,
+      "percent": null,
+      "source": "https://www.bizjournals.com/sanjose/news/2026/01/15/informatica-acquisition-layoffs-redwood-ity-salesf.html"
+    },
+    {
+      "company": "Tipalti",
+      "slug": "tipalti",
+      "date": "2026-01-15",
+      "count": 100,
+      "percent": null,
+      "source": "https://en.globes.co.il/en/article-tipalti-laying-off-dozens-of-employees-1001532153"
+    },
+    {
+      "company": "Playtika",
+      "slug": "playtika",
+      "date": "2026-01-14",
+      "count": 500,
+      "percent": 0.15,
+      "source": "https://www.calcalistech.com/ctechnews/article/bkl6xzhswe"
+    },
+    {
+      "company": "Aleph Alpha",
+      "slug": "aleph-alpha",
+      "date": "2026-01-14",
+      "count": 50,
+      "percent": 0.16,
+      "source": "https://www.startbase.com/news/aleph-alpha-baut-rund-50-stellen-ab/"
+    },
+    {
+      "company": "StoreDot",
+      "slug": "storedot",
+      "date": "2026-01-13",
+      "count": null,
+      "percent": null,
+      "source": "https://www.calcalistech.com/ctechnews/article/sjkqkmeb11x"
+    },
+    {
+      "company": "Alle",
+      "slug": "alle",
+      "date": "2026-01-13",
+      "count": null,
+      "percent": 1,
+      "source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
+    },
+    {
+      "company": "eToro",
+      "slug": "etoro",
+      "date": "2026-01-13",
+      "count": 105,
+      "percent": 0.07,
+      "source": "https://www.calcalistech.com/ctechnews/article/sjedi1vh11x"
+    },
+    {
+      "company": "Meta",
+      "slug": "meta",
+      "date": "2026-01-13",
+      "count": 1500,
+      "percent": 0.02,
+      "source": "https://www.nytimes.com/2026/01/12/technology/meta-layoffs-reality-labs.html?unlocked_article_code=1.D1A.ckee.3ANQhKMxi5Ld&smid=url-share"
+    },
+    {
+      "company": "MercadoLibre",
+      "slug": "mercadolibre",
+      "date": "2026-01-12",
+      "count": 116,
+      "percent": null,
+      "source": "https://eleconomista.com.ar/economia/despidos-mercado-libre-entrenamos-ia-nos-reemplazo-n91871"
+    },
+    {
+      "company": "FormFactor",
+      "slug": "formfactor",
+      "date": "2026-01-09",
+      "count": 220,
+      "percent": 0.11,
+      "source": "https://www.latimes.com/business/story/2026-01-09/bay-area-semiconductor-testing-company-to-lay-off-more-than-200-workers"
+    },
+    {
+      "company": "Hailo",
+      "slug": "hailo",
+      "date": "2026-01-08",
+      "count": 30,
+      "percent": 0.1,
+      "source": "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx"
+    },
+    {
+      "company": "Tailwind Labs",
+      "slug": "tailwind-labs",
+      "date": "2026-01-08",
+      "count": 3,
+      "percent": null,
+      "source": "https://www.businessinsider.com/tailwind-engineer-layoffs-ai-github-2026-1"
+    },
+    {
+      "company": "Kaseya",
+      "slug": "kaseya",
+      "date": "2026-01-08",
+      "count": 250,
+      "percent": 0.05,
+      "source": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams?itc=refresh"
+    },
+    {
+      "company": "Foretellix",
+      "slug": "foretellix",
+      "date": "2026-01-08",
+      "count": 29,
+      "percent": 0.18,
+      "source": "https://www.calcalistech.com/ctechnews/article/hjjj7b6vzx"
+    },
+    {
+      "company": "Angi",
+      "slug": "angi",
+      "date": "2026-01-07",
+      "count": 350,
+      "percent": null,
+      "source": "https://ir.angi.com/node/12951/html"
+    },
+    {
+      "company": "Multiverse",
+      "slug": "multiverse",
+      "date": "2026-01-05",
+      "count": 55,
+      "percent": null,
+      "source": "https://sifted.eu/articles/multiverse-job-cuts-euan-blair"
+    }
+  ]
+}

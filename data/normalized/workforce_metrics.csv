@@ -1,0 +1,9 @@
+record_id,value,metric,period,source_min,source_max,note,source_id
+layoff-2026-001,55.0,paid_separations,FY ended March 2025,,,,src_26fdadf2a563b8d6c079
+layoff-2026-007,220.0,tracker_estimate,2026 consolidation,200.0,300.0,Filing says affected workers may be severed or retained.,src_0192f963683e2dc43f9c
+layoff-2026-025,1700.0,planned_net_workforce_reduction,2026 reorganization,,,,src_36171da3c2e2b8cdbf13
+layoff-2026-071,11000.0,net_workforce_reduction,FY ended January 2026,,,,src_aa07b1752e98cdd7fcb9
+layoff-2026-086,21000.0,net_workforce_reduction,FY ended May 2026,,,,src_399ce87c8e72f98c2a3a
+layoff-2026-105,90.0,reported_prior_year_layoffs,2025,,,,src_822ac29cb111e3ac910d
+layoff-2026-180,21000.0,net_workforce_decrease,FY2026,,,,src_a74c98c112d8219e917c
+layoff-2026-226,15.0,reported_departures,Q1 2026,,,,src_05dd6d8e75abb7678ef1

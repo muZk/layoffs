@@ -1,0 +1,30 @@
+{
+  "company": "Informatica",
+  "source_url": "https://stockanalysis.com/stocks/infa/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Informatica (INFA) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2024",
+      "5,200"
+    ],
+    [
+      "Dec 31, 2023",
+      "5,000"
+    ],
+    [
+      "Dec 31, 2022",
+      "6,000"
+    ],
+    [
+      "Dec 31, 2021",
+      "5,500"
+    ],
+    [
+      "Dec 31, 2020",
+      "4,926"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

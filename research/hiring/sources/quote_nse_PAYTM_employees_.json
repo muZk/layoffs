@@ -1,0 +1,66 @@
+{
+  "company": "Paytm",
+  "source_url": "https://stockanalysis.com/quote/nse/PAYTM/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "One97 Communications (NSE:PAYTM) Number of Employees",
+  "rows": [
+    [
+      "Mar 31, 2026",
+      "47,826"
+    ],
+    [
+      "Mar 31, 2025",
+      "39,368"
+    ],
+    [
+      "Mar 31, 2024",
+      "43,960"
+    ],
+    [
+      "Mar 31, 2023",
+      "32,798"
+    ],
+    [
+      "Mar 31, 2022",
+      "17,964"
+    ],
+    [
+      "Mar 31, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Fractal Analytics",
+      "5,868"
+    ],
+    [
+      "Pine Labs",
+      "5,007"
+    ],
+    [
+      "Newgen Software Technologies",
+      "3,788"
+    ],
+    [
+      "AGS Transact Technologies",
+      "1,106"
+    ],
+    [
+      "Seshaasai Technologies",
+      "874"
+    ],
+    [
+      "One MobiKwik Systems",
+      "789"
+    ],
+    [
+      "C. E. Info Systems",
+      "408"
+    ],
+    [
+      "Zaggle Prepaid Ocean Services",
+      "312"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

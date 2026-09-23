@@ -1,0 +1,66 @@
+{
+  "company": "Playtika",
+  "source_url": "https://stockanalysis.com/stocks/pltk/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Playtika Holding (PLTK) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "3,175"
+    ],
+    [
+      "Dec 31, 2024",
+      "3,500"
+    ],
+    [
+      "Dec 31, 2023",
+      "3,600"
+    ],
+    [
+      "Dec 31, 2022",
+      "3,800"
+    ],
+    [
+      "Dec 31, 2021",
+      "4,000"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Sohu.com",
+      "4,000"
+    ],
+    [
+      "Roblox",
+      "3,065"
+    ],
+    [
+      "PLAYSTUDIOS",
+      "543"
+    ],
+    [
+      "GDEV Inc.",
+      "488"
+    ],
+    [
+      "Gravity",
+      "400"
+    ],
+    [
+      "Firy Inc.",
+      "370"
+    ],
+    [
+      "CTW",
+      "350"
+    ],
+    [
+      "DoubleDown Interactive",
+      "260"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

@@ -1,0 +1,146 @@
+{
+  "company": "Atlassian",
+  "source_url": "https://stockanalysis.com/stocks/team/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Atlassian (TEAM) Number of Employees",
+  "rows": [
+    [
+      "Jun 30, 2026",
+      "13,301"
+    ],
+    [
+      "Jun 30, 2025",
+      "13,813"
+    ],
+    [
+      "Jun 30, 2024",
+      "12,157"
+    ],
+    [
+      "Jun 30, 2023",
+      "10,726"
+    ],
+    [
+      "Jun 30, 2022",
+      "8,813"
+    ],
+    [
+      "Mar 31, 2022",
+      "8,179"
+    ],
+    [
+      "Dec 31, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Fiserv",
+      "38,000"
+    ],
+    [
+      "Workday",
+      "21,000"
+    ],
+    [
+      "Roper Technologies",
+      "19,400"
+    ],
+    [
+      "Intuit",
+      "18,600"
+    ],
+    [
+      "Paychex",
+      "17,600"
+    ],
+    [
+      "Autodesk",
+      "14,300"
+    ],
+    [
+      "Cadence Design Systems",
+      "13,800"
+    ],
+    [
+      "Datadog",
+      "8,100"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

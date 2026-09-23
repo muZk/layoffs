@@ -1,0 +1,21 @@
+{
+  "review_date": "2026-09-17",
+  "tracker_url": "https://layoffs.fyi/2026-layoffs/",
+  "snapshot_api": "https://layoffsfyi-production.up.railway.app/api/year/2026",
+  "tracker_h1_entries": 231,
+  "matched_existing": 159,
+  "added_records": 72,
+  "h1_records": 233,
+  "h1_announcement_records": 228,
+  "outside_announcement_counts": {
+    "period_or_annual_reports": 5,
+    "july": 2
+  },
+  "additional_h1_records": [
+    "Oracle 2026-03-31",
+    "PayPal 2026-05-05"
+  ],
+  "note": "Published JSON, CSV, figures and explorer contain only 228 H1 announcement records. Seven excluded records remain in the internal source collection for auditability.",
+  "internal_archive_records": 235,
+  "published_records": 228
+}

@@ -1,0 +1,78 @@
+{
+  "company": "Bill.com",
+  "source_url": "https://stockanalysis.com/stocks/bill/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "BILL Holdings (BILL) Number of Employees",
+  "rows": [
+    [
+      "Jun 30, 2026",
+      "1,683"
+    ],
+    [
+      "Jun 30, 2025",
+      "2,364"
+    ],
+    [
+      "Jun 30, 2024",
+      "2,187"
+    ],
+    [
+      "Jun 30, 2023",
+      "2,521"
+    ],
+    [
+      "Jun 30, 2022",
+      "2,269"
+    ],
+    [
+      "Jun 30, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "NCR Atleos",
+      "20,000"
+    ],
+    [
+      "Sportradar Group AG",
+      "4,882"
+    ],
+    [
+      "monday.com",
+      "3,155"
+    ],
+    [
+      "Workiva",
+      "2,887"
+    ],
+    [
+      "Q2 Holdings",
+      "2,549"
+    ],
+    [
+      "Klaviyo",
+      "2,368"
+    ],
+    [
+      "CCC Intelligent Solutions Holdings",
+      "2,185"
+    ],
+    [
+      "Webull",
+      "1,396"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

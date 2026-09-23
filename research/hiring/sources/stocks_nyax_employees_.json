@@ -1,0 +1,70 @@
+{
+  "company": "Nayax",
+  "source_url": "https://stockanalysis.com/stocks/nyax/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Nayax (NYAX) Number of Employees",
+  "rows": [
+    [
+      "Mar 31, 2026",
+      "1,250"
+    ],
+    [
+      "Dec 31, 2025",
+      "1,200"
+    ],
+    [
+      "Dec 31, 2024",
+      "1,100"
+    ],
+    [
+      "Dec 31, 2023",
+      "870"
+    ],
+    [
+      "Dec 31, 2022",
+      "800"
+    ],
+    [
+      "Dec 31, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "EVERTEC",
+      "5,327"
+    ],
+    [
+      "PicS N.V.",
+      "4,644"
+    ],
+    [
+      "Progress Software",
+      "2,801"
+    ],
+    [
+      "Calix",
+      "1,921"
+    ],
+    [
+      "GigaCloud Technology",
+      "1,644"
+    ],
+    [
+      "Flywire",
+      "1,500"
+    ],
+    [
+      "Bandwidth",
+      "1,100"
+    ],
+    [
+      "Marqeta",
+      "938"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

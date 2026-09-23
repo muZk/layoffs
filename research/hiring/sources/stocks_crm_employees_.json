@@ -1,0 +1,134 @@
+{
+  "company": "Salesforce",
+  "source_url": "https://stockanalysis.com/stocks/crm/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Salesforce (CRM) Number of Employees 2004-2026",
+  "rows": [
+    [
+      "Jan 31, 2026",
+      "83,334"
+    ],
+    [
+      "Jan 31, 2025",
+      "76,453"
+    ],
+    [
+      "Jan 31, 2024",
+      "72,682"
+    ],
+    [
+      "Jan 31, 2023",
+      "79,390"
+    ],
+    [
+      "Jan 31, 2022",
+      "73,541"
+    ],
+    [
+      "Jan 31, 2021",
+      "56,606"
+    ],
+    [
+      "Jan 1, 2020",
+      "49,000"
+    ],
+    [
+      "Jan 1, 2019",
+      "35,000"
+    ],
+    [
+      "Jan 1, 2018",
+      "29,000"
+    ],
+    [
+      "Jan 1, 2017",
+      "25,000"
+    ],
+    [
+      "Jan 1, 2016",
+      "19,000"
+    ],
+    [
+      "Jan 1, 2015",
+      "16,000"
+    ],
+    [
+      "Jan 1, 2014",
+      "13,300"
+    ],
+    [
+      "Jan 31, 2013",
+      "9,800"
+    ],
+    [
+      "Jan 31, 2012",
+      "7,785"
+    ],
+    [
+      "Jan 31, 2011",
+      "5,306"
+    ],
+    [
+      "Jan 31, 2010",
+      "3,969"
+    ],
+    [
+      "Jan 31, 2009",
+      "3,566"
+    ],
+    [
+      "Jan 31, 2008",
+      "2,606"
+    ],
+    [
+      "Jan 31, 2007",
+      "2,070"
+    ],
+    [
+      "Jan 31, 2006",
+      "1,304"
+    ],
+    [
+      "Jan 31, 2005",
+      "767"
+    ],
+    [
+      "Apr 30, 2004",
+      "518"
+    ],
+    [
+      "SAP SE",
+      "111,397"
+    ],
+    [
+      "Automatic Data Processing",
+      "67,000"
+    ],
+    [
+      "Uber Technologies",
+      "34,000"
+    ],
+    [
+      "Adobe",
+      "31,360"
+    ],
+    [
+      "ServiceNow",
+      "29,187"
+    ],
+    [
+      "Intuit",
+      "18,600"
+    ],
+    [
+      "Cadence Design Systems",
+      "13,800"
+    ],
+    [
+      "Snowflake",
+      "9,060"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

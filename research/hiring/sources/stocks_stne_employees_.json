@@ -1,0 +1,54 @@
+{
+  "company": "Stone",
+  "source_url": "https://stockanalysis.com/stocks/stne/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "StoneCo (STNE) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2020",
+      "7,239"
+    ],
+    [
+      "Jun 30, 2018",
+      "3,171"
+    ],
+    [
+      "Dec 31, 2017",
+      "2,806"
+    ],
+    [
+      "Euronet Worldwide",
+      "10,800"
+    ],
+    [
+      "PagSeguro Digital",
+      "6,751"
+    ],
+    [
+      "Five9",
+      "2,910"
+    ],
+    [
+      "Payoneer Global",
+      "2,540"
+    ],
+    [
+      "Calix",
+      "1,921"
+    ],
+    [
+      "GigaCloud Technology",
+      "1,644"
+    ],
+    [
+      "Flywire",
+      "1,500"
+    ],
+    [
+      "LiveRamp Holdings",
+      "1,300"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

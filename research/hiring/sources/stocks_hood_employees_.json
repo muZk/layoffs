@@ -1,0 +1,66 @@
+{
+  "company": "Robinhood",
+  "source_url": "https://stockanalysis.com/stocks/hood/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Robinhood Markets (HOOD) Number of Employees 2020-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "2,900"
+    ],
+    [
+      "Dec 31, 2024",
+      "2,300"
+    ],
+    [
+      "Dec 31, 2023",
+      "2,200"
+    ],
+    [
+      "Dec 31, 2022",
+      "2,300"
+    ],
+    [
+      "Dec 31, 2021",
+      "3,800"
+    ],
+    [
+      "Dec 31, 2020",
+      "2,100"
+    ],
+    [
+      "Morgan Stanley",
+      "83,000"
+    ],
+    [
+      "The Goldman Sachs Group",
+      "47,400"
+    ],
+    [
+      "The Charles Schwab Corporation",
+      "33,000"
+    ],
+    [
+      "Nomura Holdings",
+      "28,677"
+    ],
+    [
+      "LPL Financial Holdings",
+      "10,099"
+    ],
+    [
+      "Futu Holdings",
+      "3,540"
+    ],
+    [
+      "Interactive Brokers Group",
+      "3,182"
+    ],
+    [
+      "Tradeweb Markets",
+      "1,569"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

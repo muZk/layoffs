@@ -1,0 +1,8 @@
+record_id,company_label,record_date,record_type,exclusion_reason
+layoff-2026-001,Multiverse,2026-01-05,historical_report,not_new_announcement
+layoff-2026-071,Dell,2026-03-16,annual_workforce_change,not_new_announcement
+layoff-2026-105,GoCardless,2026-04-14,historical_report,not_new_announcement
+layoff-2026-162,Microsoft (Xbox),2026-07-06,announcement,outside_2026_h1
+layoff-2026-163,Microsoft (corporate),2026-07-06,announcement,outside_2026_h1
+layoff-2026-180,Oracle,2026-06-23,annual_workforce_change,not_new_announcement
+layoff-2026-226,SoundThinking,2026-03-31,historical_report,not_new_announcement

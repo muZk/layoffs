@@ -1,0 +1,86 @@
+{
+  "company": "Snap",
+  "source_url": "https://stockanalysis.com/stocks/snap/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Snap Inc. (SNAP) Number of Employees 2015-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "5,261"
+    ],
+    [
+      "Dec 31, 2024",
+      "4,911"
+    ],
+    [
+      "Dec 31, 2023",
+      "5,289"
+    ],
+    [
+      "Dec 31, 2022",
+      "5,288"
+    ],
+    [
+      "Dec 31, 2021",
+      "5,661"
+    ],
+    [
+      "Dec 31, 2020",
+      "3,863"
+    ],
+    [
+      "Dec 31, 2019",
+      "3,195"
+    ],
+    [
+      "Dec 31, 2018",
+      "2,884"
+    ],
+    [
+      "Dec 31, 2017",
+      "3,069"
+    ],
+    [
+      "Dec 31, 2016",
+      "1,859"
+    ],
+    [
+      "Dec 31, 2015",
+      "600"
+    ],
+    [
+      "Baidu",
+      "33,500"
+    ],
+    [
+      "Bilibili",
+      "8,423"
+    ],
+    [
+      "Zillow Group",
+      "7,068"
+    ],
+    [
+      "Tencent Music Entertainment Group",
+      "5,690"
+    ],
+    [
+      "JOYY Inc.",
+      "5,421"
+    ],
+    [
+      "Pinterest",
+      "5,265"
+    ],
+    [
+      "Kanzhun",
+      "4,884"
+    ],
+    [
+      "Reddit",
+      "2,555"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

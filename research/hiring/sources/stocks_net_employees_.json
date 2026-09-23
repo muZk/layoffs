@@ -1,0 +1,78 @@
+{
+  "company": "Cloudflare",
+  "source_url": "https://stockanalysis.com/stocks/net/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Cloudflare (NET) Number of Employees 2017-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "5,156"
+    ],
+    [
+      "Dec 31, 2024",
+      "4,263"
+    ],
+    [
+      "Dec 31, 2023",
+      "3,682"
+    ],
+    [
+      "Dec 31, 2022",
+      "3,217"
+    ],
+    [
+      "Dec 31, 2021",
+      "2,440"
+    ],
+    [
+      "Dec 31, 2020",
+      "1,788"
+    ],
+    [
+      "Dec 31, 2019",
+      "1,270"
+    ],
+    [
+      "Dec 31, 2018",
+      "865"
+    ],
+    [
+      "Dec 31, 2017",
+      "540"
+    ],
+    [
+      "Oracle",
+      "141,000"
+    ],
+    [
+      "Synopsys",
+      "28,000"
+    ],
+    [
+      "Palo Alto Networks",
+      "16,068"
+    ],
+    [
+      "Fortinet",
+      "15,109"
+    ],
+    [
+      "NetApp",
+      "11,700"
+    ],
+    [
+      "CrowdStrike Holdings",
+      "10,698"
+    ],
+    [
+      "Block",
+      "10,205"
+    ],
+    [
+      "Okta, Inc.",
+      "6,366"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

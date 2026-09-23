@@ -1,0 +1,82 @@
+{
+  "company": "ADP",
+  "source_url": "https://stockanalysis.com/stocks/adp/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Automatic Data Processing (ADP) Number of Employees",
+  "rows": [
+    [
+      "Jun 30, 2026",
+      "67,000"
+    ],
+    [
+      "Jun 30, 2025",
+      "67,000"
+    ],
+    [
+      "Jun 30, 2024",
+      "64,000"
+    ],
+    [
+      "Jun 30, 2023",
+      "63,000"
+    ],
+    [
+      "Jun 30, 2022",
+      "60,000"
+    ],
+    [
+      "Jun 30, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Salesforce",
+      "83,334"
+    ],
+    [
+      "Uber Technologies",
+      "34,000"
+    ],
+    [
+      "Adobe",
+      "31,360"
+    ],
+    [
+      "ServiceNow",
+      "29,187"
+    ],
+    [
+      "Intuit",
+      "18,200"
+    ],
+    [
+      "Cadence Design Systems",
+      "13,800"
+    ],
+    [
+      "Atlassian",
+      "13,301"
+    ],
+    [
+      "Snowflake",
+      "9,060"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

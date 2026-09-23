@@ -1,0 +1,2 @@
+# Preserve exact CSV bytes used by the data manifest checksums.
+*.csv -text

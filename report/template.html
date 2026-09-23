@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What do companies say when they cut jobs? — Layoff research</title>
+<link rel="stylesheet" href="report.css">
+</head>
+<body>
+<a class="skip" href="#article">Skip to report</a>
+<header class="masthead"><span>Layoff research</span><a href="draft.md" download>Download the report</a></header>
+<nav aria-label="Report sections"><a href="index-es.html" lang="es">Español</a><a href="explore.html">Explore the data</a><a href="#first-what-are-we-counting">The data</a><a href="#the-explanations-overlap">The matrix</a><a href="#what-does-an-ai-denial-actually-deny">Denials</a><a href="#the-gaps-are-part-of-the-findings">Open questions</a><a href="#register">Every record</a></nav>
+<main>
+<article id="article"><!--ARTICLE--></article>
+<section id="register" class="register" aria-labelledby="register-heading">
+<h2 id="register-heading">Read the evidence</h2>
+<p>Every record remains accessible. Open an entry for its attributed causes, sources and unresolved issues.</p>
+<div class="controls"><label>Scope<select id="scope"><option value="h1">H1 announcement records</option><option value="gaps">Partial / unavailable sources</option><option value="selection" hidden>Selected matrix or chapter records</option></select></label><label>Mechanism<select id="cause-filter"><option value="">All mechanisms</option></select></label><label>Evidence category<select id="evidence-filter"><option value="">All evidence categories</option><option value="specified">Mechanism specified</option><option value="generic">Generic explanation only</option><option value="unspecified">No explanation identified</option><option value="unresolved">Evidence limited</option><option value="unavailable">No causal source recovered</option></select></label><label>Find a company<input id="search" type="search" placeholder="Company name" autocomplete="off"></label><button id="clear" type="button">Show all H1 announcements</button></div>
+<div class="controls"><label><span data-function-label>Affected function</span><select id="function-filter"><option value="">All functions and unknowns</option></select></label></div>
+<p id="selection" aria-live="polite"></p><div id="records"></div>
+<noscript><p>Interactive exploration requires JavaScript. <a href="records.json">Download every record</a> or <a href="records.csv">open the CSV</a>.</p></noscript>
+</section>
+</main>
+<footer>Counts describe recorded explanations, not verified causal effects.<br><a href="records.json" download>Reviewed data</a> · <a href="schema.md">Definitions</a> · <a href="methodology.md">Methodology</a> · <a href="draft.md" download>Editable prose</a></footer>
+<script id="data" type="application/json">/*DATA*/</script>
+<script src="report.js"></script>
+</body></html>

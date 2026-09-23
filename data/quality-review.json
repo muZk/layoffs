@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-09-22",
+  "coverage_snapshot": "2026-09-17",
+  "external_refresh_performed": false,
+  "canonical_sha256": "bd415eab18f85b3e02bd4006bc784883acc65f46661bdec9970940030c503544",
+  "publication_matches_canonical": true,
+  "all_records": 235,
+  "public_announcements": 228,
+  "duplicate_record_ids": 0,
+  "same_company_date_groups": [],
+  "public_missing": {
+    "industry": 66,
+    "stage": 88,
+    "laid_off": 82,
+    "pct": 105,
+    "raised_mm": 94
+  },
+  "public_source_status": {
+    "source_reviewed": 212,
+    "partial": 14,
+    "unavailable": 2
+  },
+  "public_without_identified_function": 168,
+  "public_reason_count": 304
+}

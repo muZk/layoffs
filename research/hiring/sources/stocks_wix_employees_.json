@@ -1,0 +1,106 @@
+{
+  "company": "Wix",
+  "source_url": "https://stockanalysis.com/stocks/wix/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Wix.com (WIX) Number of Employees 2010-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "5,340"
+    ],
+    [
+      "Dec 31, 2024",
+      "5,283"
+    ],
+    [
+      "Dec 31, 2023",
+      "5,302"
+    ],
+    [
+      "Dec 31, 2022",
+      "4,472"
+    ],
+    [
+      "Dec 31, 2021",
+      "5,057"
+    ],
+    [
+      "Dec 31, 2020",
+      "3,934"
+    ],
+    [
+      "Dec 31, 2019",
+      "2,562"
+    ],
+    [
+      "Dec 31, 2018",
+      "2,133"
+    ],
+    [
+      "Dec 31, 2017",
+      "1,813"
+    ],
+    [
+      "Dec 31, 2016",
+      "1,284"
+    ],
+    [
+      "Dec 31, 2015",
+      "1,067"
+    ],
+    [
+      "Dec 31, 2014",
+      "851"
+    ],
+    [
+      "Dec 31, 2013",
+      "548"
+    ],
+    [
+      "Dec 31, 2012",
+      "366"
+    ],
+    [
+      "Dec 31, 2011",
+      "261"
+    ],
+    [
+      "Dec 31, 2010",
+      "170"
+    ],
+    [
+      "PagSeguro Digital",
+      "6,751"
+    ],
+    [
+      "Shift4 Payments",
+      "6,300"
+    ],
+    [
+      "Teradata",
+      "5,100"
+    ],
+    [
+      "AvePoint",
+      "3,443"
+    ],
+    [
+      "Appian",
+      "2,149"
+    ],
+    [
+      "NetScout Systems",
+      "2,073"
+    ],
+    [
+      "Tenable Holdings",
+      "1,995"
+    ],
+    [
+      "Cellebrite DI",
+      "1,285"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

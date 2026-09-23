@@ -1,0 +1,122 @@
+{
+  "company": "MercadoLibre",
+  "source_url": "https://stockanalysis.com/stocks/meli/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "MercadoLibre (MELI) Number of Employees 2006-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "123,670"
+    ],
+    [
+      "Dec 31, 2024",
+      "18,282"
+    ],
+    [
+      "Dec 31, 2023",
+      "58,313"
+    ],
+    [
+      "Dec 31, 2022",
+      "40,548"
+    ],
+    [
+      "Dec 31, 2021",
+      "29,957"
+    ],
+    [
+      "Dec 31, 2020",
+      "15,546"
+    ],
+    [
+      "Dec 31, 2019",
+      "9,703"
+    ],
+    [
+      "Dec 31, 2018",
+      "7,239"
+    ],
+    [
+      "Dec 31, 2017",
+      "5,582"
+    ],
+    [
+      "Dec 31, 2016",
+      "4,146"
+    ],
+    [
+      "Dec 31, 2015",
+      "3,298"
+    ],
+    [
+      "Dec 31, 2014",
+      "2,599"
+    ],
+    [
+      "Dec 31, 2013",
+      "2,171"
+    ],
+    [
+      "Dec 31, 2012",
+      "1,892"
+    ],
+    [
+      "Dec 31, 2011",
+      "1,633"
+    ],
+    [
+      "Dec 31, 2010",
+      "1,567"
+    ],
+    [
+      "Dec 31, 2009",
+      "1,466"
+    ],
+    [
+      "Dec 31, 2008",
+      "1,295"
+    ],
+    [
+      "Dec 31, 2007",
+      "932"
+    ],
+    [
+      "Dec 31, 2006",
+      "778"
+    ],
+    [
+      "JD.com",
+      "776,682"
+    ],
+    [
+      "Alibaba Group Holding",
+      "131,462"
+    ],
+    [
+      "Coupang",
+      "108,000"
+    ],
+    [
+      "Sea Limited",
+      "102,700"
+    ],
+    [
+      "DoorDash",
+      "31,400"
+    ],
+    [
+      "PDD Holdings",
+      "25,474"
+    ],
+    [
+      "Chewy",
+      "18,000"
+    ],
+    [
+      "Wayfair",
+      "12,800"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

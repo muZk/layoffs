@@ -1,0 +1,70 @@
+{
+  "company": "IAC",
+  "source_url": "https://stockanalysis.com/stocks/iac/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "People (PPLI) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "5,156"
+    ],
+    [
+      "Dec 31, 2024",
+      "8,300"
+    ],
+    [
+      "Dec 31, 2023",
+      "9,500"
+    ],
+    [
+      "Dec 31, 2022",
+      "11,000"
+    ],
+    [
+      "Dec 31, 2021",
+      "13,200"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Bilibili",
+      "8,423"
+    ],
+    [
+      "Weibo",
+      "5,651"
+    ],
+    [
+      "JOYY Inc.",
+      "5,421"
+    ],
+    [
+      "Autohome",
+      "3,839"
+    ],
+    [
+      "Genius Sports",
+      "2,000"
+    ],
+    [
+      "WEBTOON Entertainment",
+      "1,800"
+    ],
+    [
+      "CarGurus",
+      "1,218"
+    ],
+    [
+      "StubHub Holdings",
+      "900"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

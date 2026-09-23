@@ -1,0 +1,62 @@
+{
+  "company": "Lucid Motors",
+  "source_url": "https://stockanalysis.com/stocks/lcid/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Lucid Group (LCID) Number of Employees 2021-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "9,000"
+    ],
+    [
+      "Dec 31, 2024",
+      "6,800"
+    ],
+    [
+      "Dec 31, 2023",
+      "6,500"
+    ],
+    [
+      "Dec 31, 2022",
+      "7,200"
+    ],
+    [
+      "Dec 31, 2021",
+      "3,900"
+    ],
+    [
+      "Stellantis",
+      "258,668"
+    ],
+    [
+      "NIO Inc.",
+      "35,032"
+    ],
+    [
+      "Li Auto",
+      "30,728"
+    ],
+    [
+      "VinFast Auto",
+      "29,878"
+    ],
+    [
+      "XPeng",
+      "19,884"
+    ],
+    [
+      "Rivian Automotive",
+      "15,232"
+    ],
+    [
+      "China Yuchai International",
+      "9,189"
+    ],
+    [
+      "Polestar Automotive Holding UK",
+      "1,686"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

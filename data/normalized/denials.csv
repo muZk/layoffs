@@ -1,0 +1,10 @@
+denial_id,record_id,target,speaker,summary,source_id
+layoff-2026-018_denials_0,layoff-2026-018,replacement,company,Denies replacing people with AI while describing AI-related reinvestment.,src_4828391f332e6f02a96d
+layoff-2026-067_denials_0,layoff-2026-067,replacement,company,Rejects direct replacement framing while funding AI and enterprise sales.,src_bbefc935918809022f3d
+layoff-2026-077_denials_0,layoff-2026-077,all_ai,company,Company explicitly says the layoffs are unrelated to AI.,src_9513906047389ea1d637
+layoff-2026-149_denials_0,layoff-2026-149,replacement,anonymous_source,An anonymous source rejects AI automation as the cause; this is not an official denial.,src_10964fc555ea7a4fcb0f
+layoff-2026-155_denials_0,layoff-2026-155,all_ai,company,CEO denies an AI cause.,src_f2b6fb6ddc60a115002a
+layoff-2026-159_denials_0,layoff-2026-159,ai_optimization,company,"CEO denies AI optimization or cost cutting as the purpose, while naming AI reinvestment.",src_64ae35e88aaefe95db70
+layoff-2026-163_denials_0,layoff-2026-163,replacement,company,Company denies AI replacement.,src_432c3ecf1f6e1a7c65fc
+layoff-2026-205_denials_0,layoff-2026-205,ai_cause_broadly,company,Company says these cuts did not result from AI.,src_b344c4c6792b172edfe5
+layoff-2026-221_denials_0,layoff-2026-221,ai_cause_broadly,anonymous_source,Unnamed TrendAI source says the R&D closure is not due to AI.,src_5333ae047537a0071339

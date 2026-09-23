@@ -1,0 +1,70 @@
+{
+  "company": "ZoomInfo",
+  "source_url": "https://stockanalysis.com/stocks/gtm/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "ZoomInfo Technologies (GTM) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "3,180"
+    ],
+    [
+      "Dec 31, 2024",
+      "3,508"
+    ],
+    [
+      "Dec 31, 2023",
+      "3,516"
+    ],
+    [
+      "Dec 31, 2022",
+      "3,540"
+    ],
+    [
+      "Dec 31, 2021",
+      "2,742"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Upbound Group",
+      "12,050"
+    ],
+    [
+      "Lightspeed Commerce",
+      "3,400"
+    ],
+    [
+      "Sprinklr",
+      "3,258"
+    ],
+    [
+      "EverCommerce",
+      "1,800"
+    ],
+    [
+      "Donnelley Financial Solutions",
+      "1,750"
+    ],
+    [
+      "PagerDuty",
+      "1,155"
+    ],
+    [
+      "Ibotta",
+      "800"
+    ],
+    [
+      "Digital Turbine",
+      "620"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

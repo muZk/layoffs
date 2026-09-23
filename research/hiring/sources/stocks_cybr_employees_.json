@@ -1,0 +1,66 @@
+{
+  "company": "Cyberark",
+  "source_url": "https://stockanalysis.com/stocks/cybr/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "CyberArk Software (CYBR) Number of Employees 2011-2024",
+  "rows": [
+    [
+      "Dec 31, 2024",
+      "1,205"
+    ],
+    [
+      "Dec 31, 2023",
+      "3,018"
+    ],
+    [
+      "Dec 31, 2022",
+      "2,768"
+    ],
+    [
+      "Dec 31, 2021",
+      "2,140"
+    ],
+    [
+      "Dec 31, 2020",
+      "1,689"
+    ],
+    [
+      "Dec 31, 2019",
+      "1,380"
+    ],
+    [
+      "Dec 31, 2018",
+      "1,146"
+    ],
+    [
+      "Dec 31, 2017",
+      "1,015"
+    ],
+    [
+      "Dec 31, 2016",
+      "823"
+    ],
+    [
+      "Dec 31, 2015",
+      "644"
+    ],
+    [
+      "Dec 31, 2014",
+      "430"
+    ],
+    [
+      "Dec 31, 2013",
+      "317"
+    ],
+    [
+      "Dec 31, 2012",
+      "239"
+    ],
+    [
+      "Dec 31, 2011",
+      "170"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

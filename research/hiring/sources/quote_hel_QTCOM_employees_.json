@@ -1,0 +1,194 @@
+{
+  "company": "Qt Company",
+  "source_url": "https://stockanalysis.com/quote/hel/QTCOM/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Qt Group Oyj (HEL:QTCOM) Number of Employees",
+  "rows": [
+    [
+      "Jun 30, 2026",
+      "1,034"
+    ],
+    [
+      "Mar 31, 2026",
+      "1,120"
+    ],
+    [
+      "Dec 31, 2025",
+      "1,068"
+    ],
+    [
+      "Sep 30, 2025",
+      "922"
+    ],
+    [
+      "Jun 30, 2025",
+      "915"
+    ],
+    [
+      "Mar 31, 2025",
+      "888"
+    ],
+    [
+      "Dec 31, 2024",
+      "869"
+    ],
+    [
+      "Sep 30, 2024",
+      "824"
+    ],
+    [
+      "Jun 30, 2024",
+      "813"
+    ],
+    [
+      "Mar 31, 2024",
+      "806"
+    ],
+    [
+      "Dec 31, 2023",
+      "732"
+    ],
+    [
+      "Sep 30, 2023",
+      "746"
+    ],
+    [
+      "Jun 30, 2023",
+      "708"
+    ],
+    [
+      "Mar 31, 2023",
+      "706"
+    ],
+    [
+      "Dec 31, 2022",
+      "688"
+    ],
+    [
+      "Sep 30, 2022",
+      "651"
+    ],
+    [
+      "Jun 30, 2022",
+      "585"
+    ],
+    [
+      "Mar 31, 2022",
+      "555"
+    ],
+    [
+      "Dec 31, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Tecnotree Oyj",
+      "753"
+    ],
+    [
+      "Reaktor Group",
+      "697"
+    ],
+    [
+      "Vincit Oyj",
+      "460"
+    ],
+    [
+      "Admicom Oyj",
+      "287"
+    ],
+    [
+      "Lemonsoft Oyj",
+      "207"
+    ],
+    [
+      "LeadDesk Oyj",
+      "207"
+    ],
+    [
+      "Witted Megacorp Oyj",
+      "143"
+    ],
+    [
+      "Digitalist Group",
+      "115"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

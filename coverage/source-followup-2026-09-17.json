@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-17",
+  "events": [
+    {
+      "before": {
+        "record_id": "layoff-2026-028",
+        "company": "Kiwi.com",
+        "date": "2026-01-29",
+        "laid_off": 250,
+        "pct": 0.36,
+        "industry": "Travel",
+        "stage": "Unknown",
+        "country": "Czech Republic",
+        "location_hq": [
+          "Brno",
+          "Non-U.S."
+        ],
+        "raised_mm": 107,
+        "source_url": "https://forbes.cz/kiwi-pokracuje-v-propousteni-odchazi-tretina-zamestnancu/",
+        "source_used": "https://skift.com/2026/01/29/online-travel-agency-kiwi-lays-off-staff-in-latest-round-of-cuts/",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [],
+        "cause_details": {},
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-16",
+          "status": "partial",
+          "note": "Accessible preview describes autonomy and speed without a specific mechanism; full report restricted.",
+          "sources": [
+            "https://forbes.cz/kiwi-pokracuje-v-propousteni-odchazi-tretina-zamestnancu/",
+            "https://skift.com/2026/01/29/online-travel-agency-kiwi-lays-off-staff-in-latest-round-of-cuts/"
+          ],
+          "issues": []
+        },
+        "cause_status": "unresolved",
+        "reason": "Accessible preview describes autonomy and speed without a specific mechanism; full report restricted.",
+        "schema_version": 2
+      },
+      "after": {
+        "record_id": "layoff-2026-028",
+        "company": "Kiwi.com",
+        "date": "2026-01-29",
+        "laid_off": 250,
+        "pct": 0.36,
+        "industry": "Travel",
+        "stage": "Unknown",
+        "country": "Czech Republic",
+        "location_hq": [
+          "Brno",
+          "Non-U.S."
+        ],
+        "raised_mm": 107,
+        "source_url": "https://forbes.cz/kiwi-pokracuje-v-propousteni-odchazi-tretina-zamestnancu/",
+        "source_used": "https://media.kiwi.com/company-news/kiwi-com-update/",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [],
+        "cause_details": {},
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-17",
+          "status": "source_reviewed",
+          "note": "Official January 29 statement reviewed in full: it describes rightsizing teams, agility and faster decisions, without identifying a specific operational mechanism. The statement does not substantiate the reported headcount.",
+          "sources": [
+            "https://forbes.cz/kiwi-pokracuje-v-propousteni-odchazi-tretina-zamestnancu/",
+            "https://skift.com/2026/01/29/online-travel-agency-kiwi-lays-off-staff-in-latest-round-of-cuts/",
+            "https://media.kiwi.com/company-news/kiwi-com-update/"
+          ],
+          "issues": []
+        },
+        "cause_status": "unspecified",
+        "reason": "Official January 29 statement reviewed in full: it describes rightsizing teams, agility and faster decisions, without identifying a specific operational mechanism. The statement does not substantiate the reported headcount.",
+        "schema_version": 2
+      },
+      "reason": "Recovered event-specific official statement; access limitation resolved, explanation remains nonspecific."
+    }
+  ]
+}

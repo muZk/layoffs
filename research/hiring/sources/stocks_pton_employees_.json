@@ -1,0 +1,74 @@
+{
+  "company": "Peloton",
+  "source_url": "https://stockanalysis.com/stocks/pton/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Peloton Interactive (PTON) Number of Employees",
+  "rows": [
+    [
+      "Jun 30, 2026",
+      "2,262"
+    ],
+    [
+      "Jun 30, 2025",
+      "2,656"
+    ],
+    [
+      "Jun 30, 2024",
+      "2,918"
+    ],
+    [
+      "Jun 30, 2023",
+      "3,584"
+    ],
+    [
+      "Jun 30, 2022",
+      "6,195"
+    ],
+    [
+      "Jun 30, 2021",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Life Time Group Holdings",
+      "52,000"
+    ],
+    [
+      "Mattel",
+      "31,000"
+    ],
+    [
+      "Callaway Golf Company",
+      "28,000"
+    ],
+    [
+      "United Parks & Resorts",
+      "16,200"
+    ],
+    [
+      "Lucky Strike Entertainment",
+      "14,457"
+    ],
+    [
+      "Acushnet Holdings",
+      "7,300"
+    ],
+    [
+      "OneSpaWorld Holdings",
+      "5,395"
+    ],
+    [
+      "Six Flags Entertainment",
+      "4,225"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

@@ -1,0 +1,1326 @@
+[
+  {
+    "record_id": "layoff-2026-011",
+    "company": "eToro",
+    "date": "2026-01-13",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La declaración vincula la estructura con las necesidades del negocio; no identifica duplicidades, procesos ni áreas abandonadas. La salida a bolsa no demuestra una causa del recorte.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/sjedi1vh11x"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company links the reduction to aligning its organizational structure with business needs and long-term growth.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/sjedi1vh11x",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-012",
+    "company": "Aleph Alpha",
+    "date": "2026-01-14",
+    "review_date": "2026-09-17",
+    "outcome": "investigation_limited",
+    "note_es": "Eurofound conserva el anuncio, pero el enlace al comunicado original ahora redirige a la portada. La estrategia posterior de modelos especializados no basta para atribuir ese giro a los puestos eliminados en enero.",
+    "open_question_es": "¿Qué detalle contenía el comunicado original y qué áreas concretas perdieron recursos?",
+    "sources": [
+      "https://www.startbase.com/news/aleph-alpha-baut-rund-50-stellen-ab/",
+      "https://apps.eurofound.europa.eu/restructuring-events/detail/203961",
+      "https://aleph-alpha.com/aleph-alpha-aligns-its-organization-with-strategic-priorities/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company says the cuts concentrate capabilities and resources on customer priorities and areas with greater growth potential.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/203961",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-023",
+    "company": "Moon Active",
+    "date": "2026-01-27",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La empresa identifica dos unidades sujetas a revisión interna, pero no detalla qué cambia en sus procesos. Los ingresos récord son contexto, no el mecanismo.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/jvbqyjznm"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company describes targeted streamlining in two units after reviewing operations and internal processes.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/jvbqyjznm",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-028",
+    "company": "Kiwi.com",
+    "date": "2026-01-29",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "El comunicado original y la cobertura adicional mantienen agilidad y rapidez de decisión. No identifican niveles eliminados ni tareas redistribuidas; los conflictos con aerolíneas no se convierten en causa por proximidad.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://forbes.cz/kiwi-pokracuje-v-propousteni-odchazi-tretina-zamestnancu/",
+      "https://skift.com/2026/01/29/online-travel-agency-kiwi-lays-off-staff-in-latest-round-of-cuts/",
+      "https://media.kiwi.com/company-news/kiwi-com-update/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company attributes the changes to greater agility, simpler work and faster decisions.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://media.kiwi.com/company-news/kiwi-com-update/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-035",
+    "company": "Smartsheet",
+    "date": "2026-02-04",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La declaración recuperada en GeekWire solo habla de prioridades a largo plazo. La compra por fondos y el recorte de octubre corresponden a contexto y otra ronda.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.geekwire.com/2026/smartsheet-layoffs-enterprise-software-giant-cuts-staff/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company says organizational changes align resources with long-term business priorities.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.geekwire.com/2026/smartsheet-layoffs-enterprise-software-giant-cuts-staff/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-036",
+    "company": "Workday",
+    "date": "2026-02-04",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "El aviso describe puestos que no generan ingresos en Global Customer Operations. Identificar el área y contabilizar indemnizaciones o deterioros de oficinas no demuestra un mecanismo de ahorro ni una consolidación específica.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.bloomberg.com/news/articles/2026-02-04/workday-to-cut-about-400-employees-focused-on-customer-support",
+      "https://www.theregister.com/2026/02/04/workday_layoffs_400_jobs/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company links the reduction to aligning resources with its highest priorities.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.theregister.com/2026/02/04/workday_layoffs_400_jobs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-040",
+    "company": "Glossier",
+    "date": "2026-02-11",
+    "review_date": "2026-09-17",
+    "outcome": "mechanism_recovered",
+    "note_es": "Puck atribuye el recorte de febrero a alcanzar rentabilidad; se conserva como atribución periodística de reducción de costos. La empresa, por separado, habla de agilidad. Solo se recuperó la parte pública del artículo de Puck.",
+    "open_question_es": "¿Qué ahorro buscaba la dirección y qué parte corresponde al recorte de febrero?",
+    "sources": [
+      "https://www.businessoffashion.com/news/cosmetics/glossier-layoffs-2026/",
+      "https://cosmeticsbusiness.com/glossier-to-cut-more-than-50-jobs",
+      "https://puck.news/glossier-layoffs-signal-brand-reset/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "operational_efficiency",
+      "cost_cutting"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company says smaller, more agile teams will accelerate decisions and execution.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://cosmeticsbusiness.com/glossier-to-cut-more-than-50-jobs",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "cost_cutting": {
+        "summary": "Puck attributes the February reduction to management seeking profitability. This is the publication’s causal account, separate from the company’s general agility explanation; no savings amount is established.",
+        "source_url": "https://puck.news/glossier-layoffs-signal-brand-reset/",
+        "attribution": "press_reported",
+        "scope": "event",
+        "specificity": "concrete",
+        "evidence_access": "partial"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-049",
+    "company": "DraftKings",
+    "date": "2026-02-24",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La empresa mantiene una explicación de prioridades. Un analista calcula ahorros posibles; calcular el efecto salarial del recorte no establece su motivo. Los usos de IA citados no se vinculan directamente a los puestos de esta ronda.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://next.io/news/people/draftkings-reduces-workforce-company-embraces-ai/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company says teams are being reorganized around its highest priorities and investment areas.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://next.io/news/people/draftkings-reduces-workforce-company-embraces-ai/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-060",
+    "company": "Amazon",
+    "date": "2026-03-04",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La cobertura confirma una revisión organizacional. El cierre de Blue Jay ocurrió antes y no se identifica de forma suficiente qué despidos de marzo responden a él. Tampoco se traslada la explicación de otras rondas de Amazon.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://finance.yahoo.com/news/amazon-cuts-more-jobs-time-212928090.html",
+      "https://www.investing.com/news/stock-market-news/amazon-cuts-more-jobs-this-time-in-robotics-unit-4542244",
+      "https://www.moneycontrol.com/technology/amazon-cuts-over-100-jobs-in-robotics-division-as-it-shifts-warehouse-automation-strategy-article-13851339.html"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company describes a regular organizational review to position teams to innovate and deliver for customers.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://finance.yahoo.com/news/amazon-cuts-more-jobs-time-212928090.html",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-064",
+    "company": "SSense",
+    "date": "2026-03-05",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "El aviso cita razones económicas. La insolvencia y la caída de ventas están documentadas como contexto, pero no se recuperó una atribución suficientemente específica para estos puestos.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "market_conditions"
+    ],
+    "details": {
+      "market_conditions": {
+        "summary": "Company reported economic reasons for the layoffs to the provincial government; the reason is not further specified.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-069",
+    "company": "Loopio",
+    "date": "2026-03-13",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La respuesta a BetaKit mantiene mercado y prioridades. No identifica un contrato perdido, una caída de demanda medida ni una línea de producto que se abandone.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "market_conditions",
+      "strategic_priorities"
+    ],
+    "details": {
+      "market_conditions": {
+        "summary": "Company connects the restructuring to its review of market conditions and evolving business needs.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "strategic_priorities": {
+        "summary": "Company says the restructuring aligns resources with product development, customer experience and sustainable growth.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-070",
+    "company": "Stone",
+    "date": "2026-03-13",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La declaración empresarial confirma eficiencia; el vínculo con IA procede de una fuente anónima. Las republicaciones del mismo despacho no aportan un mecanismo independiente.",
+    "open_question_es": "¿Qué tareas cambian con IA y cómo modifica eso la necesidad de personal en esta ronda?",
+    "sources": [
+      "https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html",
+      "https://jovempan.com.br/economia/macroeconomia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios/",
+      "https://www.cnnbrasil.com.br/economia/money/negocios/stone-demite-cerca-de-3-dos-funcionarios-e-elimina-vagas-de-tecnologia/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "operational_efficiency",
+      "ai_transition"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company describes structural adjustments as part of simplification and efficiency efforts.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://jovempan.com.br/economia/macroeconomia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "ai_transition": {
+        "summary": "An unnamed source says progress in AI initiatives contributed to the decision; no concrete mechanism is given.",
+        "attribution": "press_reported",
+        "scope": "event",
+        "source_url": "https://jovempan.com.br/economia/macroeconomia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-074",
+    "company": "Snowflake",
+    "date": "2026-03-19",
+    "review_date": "2026-09-17",
+    "outcome": "investigation_limited",
+    "note_es": "La fuente original de Business Insider no se recuperó íntegramente. Hay resúmenes y afirmaciones secundarias sobre automatización de documentación, pero no se verificó una fuente original que las vincule al recorte. Se mantiene la explicación general.",
+    "open_question_es": "¿Quién asume la documentación y existe evidencia original que vincule esos puestos con automatización?",
+    "sources": [
+      "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+      "https://cncbnews.com/article/2026/03/snowflake-makes-cuts-as-part-of-targeted-adjustments-to-the-companys-strategy",
+      "https://www.kore1.com/snowflake-layoffs-2026/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company attributes targeted cuts to alignment with its long-term strategy.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-078",
+    "company": "OpenText",
+    "date": "2026-03-24",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "El testimonio sobre un equipo de soporte aporta funciones afectadas, pero no dice que el producto se cierre. El plan plurianual de optimización no se asigna automáticamente a cada puesto de marzo.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company explains the cuts through organizational alignment with strategic priorities and long-term growth.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-080",
+    "company": "Meta",
+    "date": "2026-03-25",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La declaración empresarial habla de reorganizar equipos para alcanzar sus objetivos. El gasto en IA y el recorte posterior de mayo no especifican el mecanismo de esta ronda.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE",
+      "https://dataconomy.com/2026/03/26/meta-layoffs-hundreds-2026/",
+      "https://techcrunch.com/2026/03/25/meta-is-cutting-several-hundred-jobs/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company says team restructurings are intended to help achieve their goals.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://techcrunch.com/2026/03/25/meta-is-cutting-several-hundred-jobs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-086",
+    "company": "Oracle",
+    "date": "2026-03-31",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "El correo de marzo habla de reorganización. El informe anual vincula IA con un plan más amplio, sin asignar el recorte de marzo. No se convierte ese contexto en mecanismo del evento.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+      "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm",
+      "https://www.moneycontrol.com/news/trends/full-text-of-the-email-oracle-sent-to-30-000-laid-off-employees-at-6-am-13876386.html"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "The March termination email attributes role elimination to a broader organizational change following a review of business needs. It does not specify an AI mechanism.",
+        "source_url": "https://www.moneycontrol.com/news/trends/full-text-of-the-email-oracle-sent-to-30-000-laid-off-employees-at-6-am-13876386.html",
+        "specificity": "generic",
+        "attribution": "company_stated",
+        "scope": "event",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-091",
+    "company": "Meta",
+    "date": "2026-04-02",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La declaración de reorganización es general. El aviso local puede solaparse con marzo; no se traslada el motivo de otra ronda ni se supone un evento independiente.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "A Meta spokesperson explains the reported reductions through regular team restructuring to achieve organizational goals; no concrete operating mechanism is given.",
+        "source_url": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php",
+        "specificity": "generic",
+        "attribution": "company_stated",
+        "scope": "event",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-094",
+    "company": "Welltech",
+    "date": "2026-04-03",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La fuente original recoge una versión anónima de reorganización y cambio de foco. Otras opiniones anónimas hablan de problemas de gestión, pero no aportan un mecanismo contrastable para este anuncio.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022",
+      "https://www.glassdoor.com/Reviews/Employee-Review-Welltech-E7450280-RVW103391266.htm"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "An anonymous account describes reorganization and a change of focus as the reason communicated for the cuts. This is not a verified company statement.",
+        "attribution": "press_reported",
+        "scope": "event",
+        "source_url": "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-095",
+    "company": "Bolt",
+    "date": "2026-04-05",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "El mensaje del CEO anuncia una organización más pequeña y centrada en IA sin describir tareas o procesos. La entrevista posterior sobre eliminar RR. HH. no permite situar esa decisión dentro de esta ronda de abril.",
+    "open_question_es": "¿Qué tareas cambian con IA y cómo modifica eso la necesidad de personal en esta ronda?",
+    "sources": [
+      "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/",
+      "https://www.paymentsdive.com/news/bolt-layoffs-ai-30-percent-breslow-valuation-drop/817040/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "CEO connects the cuts to becoming a leaner, AI-centered organization, without naming affected tasks.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-102",
+    "company": "Esh Group",
+    "date": "2026-04-12",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La empresa vincula ajustes con acuerdos y clientes futuros. El periodista plantea dos posibilidades —alineación tras la venta y madurez tecnológica— sin establecer cuál explica el recorte.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company says eOS is restructuring to align with technology developments, signed agreements and anticipated customers.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-103",
+    "company": "Eventbrite",
+    "date": "2026-04-13",
+    "review_date": "2026-09-17",
+    "outcome": "mechanism_recovered",
+    "note_es": "El responsable de Eventbrite vincula la reducción del equipo previo a la compra con el modelo posterior e incorporación de personal de Bending Spoons para desarrollo. Se registra integración tras adquisición; no sustitución por IA ni duplicidades no declaradas.",
+    "open_question_es": "¿Qué trabajo asume el equipo del comprador y qué capacidades deja de realizar el equipo anterior?",
+    "sources": [
+      "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/",
+      "https://www.heise.de/en/news/Event-platform-Eventbrite-lays-off-a-large-part-of-its-employees-11257427.html",
+      "https://www.marketscreener.com/news/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-ce7e50dedf8df62c",
+      "https://www.eventbrite.com/blog/whats-next-at-eventbrite/",
+      "https://www.iqmagazine.com/2026/04/eventbrite-makes-layoffs-following-bending-spoons-acquisition/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "m_and_a"
+    ],
+    "details": {
+      "m_and_a": {
+        "summary": "The new lead links a reduction of the pre-acquisition workforce with the post-acquisition operating model and incoming Bending Spoons product-development staff. This supports acquisition integration, without asserting duplicate roles or AI substitution.",
+        "source_url": "https://www.eventbrite.com/blog/whats-next-at-eventbrite/",
+        "attribution": "company_stated",
+        "scope": "event",
+        "specificity": "concrete",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-106",
+    "company": "Nayax",
+    "date": "2026-04-15",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La respuesta actual sigue siendo general. La disciplina de costos citada corresponde a julio de 2025; no se traslada a abril de 2026.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company describes ongoing workforce adjustments in response to market developments and customer needs.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-111",
+    "company": "UKG",
+    "date": "2026-04-15",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "El comunicado de abril conserva cambios de mercado e IA. La cobertura menciona deslocalización dentro de la transformación más amplia, pero no identifica qué parte de los 950 puestos se traslada. Los foros anónimos no resuelven ese alcance.",
+    "open_question_es": "¿Qué tareas cambian con IA y cómo modifica eso la necesidad de personal en esta ronda?",
+    "sources": [
+      "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/",
+      "https://cbs12.com/news/florida/ukg-announces-950-layoffs-affecting-a-large-number-of-workers-in-south-florida-offices-ultimate-kronos-group-jobs-reductions-restructuring-",
+      "https://finance.yahoo.com/markets/stocks/articles/ukg-formerly-ultimate-software-lays-205200750.html"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "ai_transition",
+      "market_conditions"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Company includes AI-driven technological changes among market shifts motivating the restructuring.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://cbs12.com/news/florida/ukg-announces-950-layoffs-affecting-a-large-number-of-workers-in-south-florida-offices-ultimate-kronos-group-jobs-reductions-restructuring-",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "market_conditions": {
+        "summary": "Company also cites changing customer expectations and software competition as reasons for the restructuring.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://cbs12.com/news/florida/ukg-announces-950-layoffs-affecting-a-large-number-of-workers-in-south-florida-offices-ultimate-kronos-group-jobs-reductions-restructuring-",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-117",
+    "company": "GeoComply",
+    "date": "2026-04-21",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La declaración de GeoComply describe adaptación y eficiencia con IA sin nombrar tareas sustituidas o un flujo de trabajo concreto. La lista de competidores no demuestra pérdida de demanda.",
+    "open_question_es": "¿Qué tareas cambian con IA y cómo modifica eso la necesidad de personal en esta ronda?",
+    "sources": [
+      "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/",
+      "https://sbcamericas.com/2026/04/17/geocomply-job-cuts-global-workforce/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "ai_transition",
+      "operational_efficiency"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Company frames the cuts around technology change and greater use of AI for operational efficiency; affected tasks are not specified.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "operational_efficiency": {
+        "summary": "Company describes internal streamlining and optimization of how it works.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-120",
+    "company": "Pentera",
+    "date": "2026-04-27",
+    "review_date": "2026-09-17",
+    "outcome": "mechanism_recovered",
+    "note_es": "CTech atribuye explícitamente el movimiento a destinar más recursos a IA y desarrollo. La empresa confirma ajustes de estructura y asignación de recursos alrededor de sus productos de IA y contratación en esas áreas. Se registra reasignación de inversión, no sustitución.",
+    "open_question_es": "¿Cuánto presupuesto se transfiere a IA y qué actividades dejan de recibirlo?",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/b1ioncnpzl"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "ai_investment_reallocation"
+    ],
+    "details": {
+      "ai_investment_reallocation": {
+        "summary": "CTech reports that these cuts redirect resources toward AI and product development; the company statement links organizational and resource changes to AI-driven products while continuing to recruit in product, engineering and AI. No amount is assigned to the transfer.",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/b1ioncnpzl",
+        "attribution": "press_reported",
+        "scope": "event",
+        "specificity": "concrete",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-141",
+    "company": "MRI Software",
+    "date": "2026-05-11",
+    "review_date": "2026-09-17",
+    "outcome": "investigation_limited",
+    "note_es": "Se conserva la declaración reproducida por Propmodo. No se pudo acceder al artículo original de Crain’s Cleveland; la afirmación de mayor escalabilidad no identifica tareas ni una relación medida entre producción y plantilla.",
+    "open_question_es": "¿Qué tareas cambian con IA y cómo modifica eso la necesidad de personal en esta ronda?",
+    "sources": [
+      "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Company attributes cuts broadly to increased AI adoption across products and operations, without detailing which work changes.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-147",
+    "company": "Guesty",
+    "date": "2026-05-13",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La declaración original en hebreo confirma preparación para la era de IA y rehúsa detallar puestos específicos. La automatización ofrecida a clientes por el producto no demuestra automatización del trabajo interno.",
+    "open_question_es": "¿Qué tareas cambian con IA y cómo modifica eso la necesidad de personal en esta ronda?",
+    "sources": [
+      "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Company attributes role adjustments to preparing for the AI era, without specifying an operating mechanism.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-149",
+    "company": "LinkedIn",
+    "date": "2026-05-13",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La empresa habla de planificación regular; una fuente anónima menciona trasladar personal hacia áreas de crecimiento sin precisar cuáles. Se conserva por separado la negación anónima del reemplazo por IA.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/",
+      "https://www.hcamag.com/us/news/general/linkedin-cuts-5-of-staff-despite-record-revenue-reuters-reports/575160"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company describes regular business planning intended to position it for future success.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.hcamag.com/us/news/general/linkedin-cuts-5-of-staff-despite-record-revenue-reuters-reports/575160",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-152",
+    "company": "Innovaccer",
+    "date": "2026-05-14",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "El correo reproducido y la declaración confirman una transición AI-native. Los artículos que describen grandes equipos manuales sustituidos no aportan una base primaria recuperada para ese detalle; no se adopta como mecanismo.",
+    "open_question_es": "¿Qué tareas cambian con IA y cómo modifica eso la necesidad de personal en esta ronda?",
+    "sources": [
+      "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/",
+      "https://www.moneycontrol.com/news/trends/some-of-our-colleagues-indian-origin-ceo-announces-fresh-layoffs-at-3-45-billion-startup-13921433.html"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "ai_transition",
+      "strategic_priorities"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "CEO describes a transition to an AI-native company in the internal communication about the cuts.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "strategic_priorities": {
+        "summary": "Company says it is aligning its team with current business priorities.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-168",
+    "company": "SAS",
+    "date": "2026-06-26",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "SAS nombra destinos de recursos —nube, ventas y producto—, pero no concreta qué actividad se reduce o qué presupuesto se transfiere. Su inversión anterior en IA no explica por sí sola esta ronda.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.newsobserver.com/news/business/article316281262.html",
+      "https://finance.yahoo.com/technology/ai/articles/cary-sas-cuts-300-positions-133919519.html"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company frames the cuts as redirecting resources toward cloud computing, sales and product development.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://finance.yahoo.com/technology/ai/articles/cary-sas-cuts-300-positions-133919519.html",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-169",
+    "company": "CompanyCam",
+    "date": "2026-06-26",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "Los testimonios públicos identifican una reorganización de marketing. La empresa no respondió a la publicación; no se especifican equipos fusionados o funciones eliminadas.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html",
+      "https://siliconprairienews.com/2026/06/companycam-conducts-round-of-layoffs-amidst-indicators-of-continued-traction/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Employee accounts describe a marketing reorganization; no company rationale is available.",
+        "attribution": "worker_reported",
+        "scope": "event",
+        "source_url": "https://siliconprairienews.com/2026/06/companycam-conducts-round-of-layoffs-amidst-indicators-of-continued-traction/",
+        "specificity": "generic",
+        "evidence_access": "prior_review"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-172",
+    "company": "Amperity",
+    "date": "2026-06-25",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "El portavoz confirma que la IA cambia inversiones y composición del equipo. No identifica tareas, herramientas, ratios de productividad ni transferencias concretas de presupuesto.",
+    "open_question_es": "¿Qué tareas cambian con IA y cómo modifica eso la necesidad de personal en esta ronda?",
+    "sources": [
+      "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Company says broader adoption of AI changes its investment priorities and team needs; the concrete staffing mechanism is unspecified.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-178",
+    "company": "Lazada Group",
+    "date": "2026-06-23",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La revisión de roles se explica por eficiencia y necesidades del negocio. No se publican funciones o cambios concretos; la atribución de que no es IA procede de información periodística, no de una nueva declaración empresarial.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review",
+      "https://production.humanresourcesonline.net/lazada-to-undertake-workforce-reduction-across-southeast-asia-amid-organisational-review"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company says its role review seeks a focused, efficient organization aligned with current business needs.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://production.humanresourcesonline.net/lazada-to-undertake-workforce-reduction-across-southeast-asia-amid-organisational-review",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-182",
+    "company": "Tractive",
+    "date": "2026-06-22",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La revisión posterior a la adquisición concluye que una organización menor será más flexible. No describe integración de equipos del comprador, duplicidades ni productos abandonados; adquirir la empresa no basta para clasificar integración.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://ooe.orf.at/stories/3359562/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company says a leaner organization will allow greater focus and flexibility following its review.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://ooe.orf.at/stories/3359562/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-184",
+    "company": "Optimove",
+    "date": "2026-06-17",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "Se recuperó el mensaje original del CEO: anuncia formación y herramientas de IA, pero no describe qué tareas o estructura pasan a otro modelo. Mejor acceso no equivale a mayor detalle causal.",
+    "open_question_es": "¿Qué tareas cambian con IA y cómo modifica eso la necesidad de personal en esta ronda?",
+    "sources": [
+      "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai",
+      "https://www.linkedin.com/posts/piniyakuel_the-ai-era-is-changing-what-it-takes-to-build-activity-7472616123805405185-p-j_"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "CEO presents the cuts as part of an AI push and plans AI training for remaining staff; displaced work is not identified.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-191",
+    "company": "Pleo",
+    "date": "2026-06-12",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La declaración menciona foco, decisiones y entrega de producto. Identifica el área Offering, pero no describe capas suprimidas. El lanzamiento simultáneo de agentes de IA es contexto.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/",
+      "https://thenextweb.com/news/pleo-layoffs-ai-agents-finance"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company attributes the changes to stronger focus, simpler decisions and faster product delivery.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-193",
+    "company": "Shopee",
+    "date": "2026-06-10",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La cobertura distingue expresamente entre el recorte y una conexión con IA que sigue incierta. El área de QA afectada no demuestra que sus tareas se automatizaran.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company describes regular review and adjustment of staffing needs; the report explicitly leaves an AI connection unclear.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-200",
+    "company": "Tools for Humanity",
+    "date": "2026-06-08",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "El correo remite a un town hall posterior para explicar la estrategia. No se recuperó una comunicación pública de esa reunión que detalle el motivo de los puestos eliminados.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company email links changes in roles and teams to its next stage of strategy and operating priorities.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-201",
+    "company": "Zencity",
+    "date": "2026-06-07",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "Eficiencia es la atribución del titular de CTech; el cuerpo no aporta una declaración ni un mecanismo. La adquisición de Commonplace y el producto de IA son contexto.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "CTech frames the current cuts as an efficiency effort in its headline. The article supplies no company explanation or concrete mechanism; this is the publication’s attribution.",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg",
+        "specificity": "generic",
+        "attribution": "press_reported",
+        "scope": "event",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-202",
+    "company": "FanDuel",
+    "date": "2026-06-05",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La empresa describe agilidad; trabajadores señalan IA, competencia e incertidumbre sin un mecanismo específico. El cierre de FanDuel TV pertenece a otra actividad/ronda y no se asigna a todo este anuncio.",
+    "open_question_es": "¿Qué tareas cambian con IA y cómo modifica eso la necesidad de personal en esta ronda?",
+    "sources": [
+      "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "operational_efficiency",
+      "market_conditions",
+      "ai_transition"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company says the changes seek agility, focus and execution of its long-term strategy.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "market_conditions": {
+        "summary": "Laid-off employees attribute the cuts partly to prediction-market competition and economic uncertainty.",
+        "attribution": "worker_reported",
+        "scope": "event",
+        "source_url": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "ai_transition": {
+        "summary": "Laid-off employees identify greater emphasis on AI among the reasons they believe led to the cuts; no concrete staffing mechanism is specified.",
+        "attribution": "worker_reported",
+        "scope": "event",
+        "source_url": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-206",
+    "company": "Skai",
+    "date": "2026-06-03",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "La empresa declara cambios en cómo trabaja con IA, pero no especifica qué proceso, tareas o responsabilidades cambian. La fórmula de flujos más rápidos sigue siendo general.",
+    "open_question_es": "¿Qué tareas cambian con IA y cómo modifica eso la necesidad de personal en esta ronda?",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Company links its workforce adjustment to AI-related changes in how work is conducted, without specifying the tasks or roles transformed.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-208",
+    "company": "Manhattan Associates",
+    "date": "2026-06-02",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "El 10-Q confirma el recorte del 1 de junio y repite eficiencia y prioridades. Los gastos de reestructuración describen el costo del despido, no qué cambio operativo lo motiva.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a",
+      "https://ir.manh.com/static-files/88023415-72b4-44d1-abb5-d995fcfd2fc0",
+      "https://www.sec.gov/Archives/edgar/data/1056696/000119312526327591/manh-20260630.htm"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company filing describes general efficiency and investment priorities without identifying an operating mechanism.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://ir.manh.com/static-files/88023415-72b4-44d1-abb5-d995fcfd2fc0",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-214",
+    "company": "Amdocs",
+    "date": "2026-05-28",
+    "review_date": "2026-09-17",
+    "outcome": "mechanism_recovered",
+    "note_es": "Globes vincula la ronda actual con reducir jerarquías y adaptar procesos a la era de IA. Se registra consolidación organizacional y una atribución genérica de IA a la prensa; la división de GenAI y las declaraciones de inversión citadas después son de 2025.",
+    "open_question_es": "¿Cuántas capas se eliminan y qué responsabilidades cambian?",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/u4qmp07cv",
+      "https://en.globes.co.il/en/article-amdocs-to-lay-off-3000-employees-1001544263"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "organizational_consolidation",
+      "ai_transition"
+    ],
+    "details": {
+      "organizational_consolidation": {
+        "summary": "Globes attributes the May round to a strategy that includes a less hierarchical organization. It does not quantify layers or assign individual positions.",
+        "source_url": "https://en.globes.co.il/en/article-amdocs-to-lay-off-3000-employees-1001544263",
+        "attribution": "press_reported",
+        "scope": "event",
+        "specificity": "concrete",
+        "evidence_access": "full"
+      },
+      "ai_transition": {
+        "summary": "Globes also frames the current strategy around adapting work processes to the AI era, without specifying those processes. The separate GenAI division and investment statements later in the article refer to 2025 and are not transferred to this round.",
+        "source_url": "https://en.globes.co.il/en/article-amdocs-to-lay-off-3000-employees-1001544263",
+        "attribution": "press_reported",
+        "scope": "event",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-217",
+    "company": "NetApp",
+    "date": "2026-05-27",
+    "review_date": "2026-09-17",
+    "outcome": "mechanism_recovered",
+    "note_es": "CRN recoge a un responsable de soporte que atribuye su despido a la cancelación de su proyecto. Se registra un cambio de actividad limitado a ese testimonio; no se generaliza a los 77 puestos ni se adopta la conjetura de un socio comercial.",
+    "open_question_es": "¿Qué proyecto se canceló y a cuántos de los 77 puestos afecta esa decisión?",
+    "sources": [
+      "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/",
+      "https://www.crn.com/news/storage/2026/netapp-layoffs-will-impact-77-in-california-amid-strategic-realignment"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "strategic_priorities",
+      "strategic_pivot"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "NetApp’s statement to CRN links the reduction to aligning investment and staffing with evolving customer priorities and growth opportunities. It does not specify which operating change removes these roles.",
+        "source_url": "https://www.crn.com/news/storage/2026/netapp-layoffs-will-impact-77-in-california-amid-strategic-realignment",
+        "specificity": "generic",
+        "attribution": "company_stated",
+        "scope": "event",
+        "evidence_access": "full"
+      },
+      "strategic_pivot": {
+        "summary": "CRN reports a support manager’s account that cancellation of his project led to his layoff. This is a worker-reported explanation for part of the event, not a reason established for all 77 positions.",
+        "source_url": "https://www.crn.com/news/storage/2026/netapp-layoffs-will-impact-77-in-california-amid-strategic-realignment",
+        "attribution": "worker_reported",
+        "scope": "reported_worker_subset",
+        "specificity": "concrete",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-220",
+    "company": "BigID",
+    "date": "2026-05-26",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "El fundador nombra desarrollo y operaciones como ámbitos de adopción AI-first, pero no describe el cambio en tareas o dotación. El producto de gobernanza de datos no demuestra sustitución interna.",
+    "open_question_es": "¿Qué tareas cambian con IA y cómo modifica eso la necesidad de personal en esta ronda?",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Founder attributes workforce adjustments to a transition toward AI-first software development and operations.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  },
+  {
+    "record_id": "layoff-2026-228",
+    "company": "Algorand Foundation",
+    "date": "2026-03-18",
+    "review_date": "2026-09-17",
+    "outcome": "published_reason_remains_general",
+    "note_es": "El comunicado y el informe trimestral permiten confirmar el recorte. La unificación de actividades y los activos del informe no se presentan como razones de los despidos; no se infiere insolvencia a partir del precio del token.",
+    "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+    "sources": [
+      "https://x.com/AlgoFoundation/status/2034298850878652616",
+      "https://algorand.co/hubfs/Algorand%20Transparency%20Report%20Q1-2026.pdf"
+    ],
+    "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
+    "causes": [
+      "market_conditions"
+    ],
+    "details": {
+      "market_conditions": {
+        "summary": "Foundation attributes the reduction to macroeconomic uncertainty and the broader crypto-market downturn.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://x.com/AlgoFoundation/status/2034298850878652616",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    }
+  }
+]

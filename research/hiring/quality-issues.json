@@ -1,0 +1,50 @@
+[
+  {
+    "company": "MicroVision",
+    "exclude_windows": [
+      "2019_2022",
+      "2022_2025",
+      "2019_2025"
+    ],
+    "note": "Secondary series labels 350 employees as Dec 31 2022; the primary report explicitly dates them Feb 24 2023, after Ibeo acquisition. Excluded pending comparable dates.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/65770/000119312523056723/d461483d10k.htm"
+  },
+  {
+    "company": "Salesforce",
+    "drop_dates": [
+      "2019-01-01"
+    ],
+    "note": "Secondary source misdates the 35000 employee observation January 1 instead of January 31; primary date corrected.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852419000009/crmq4fy1910-k.htm"
+  },
+  {
+    "company": "Spotify",
+    "strict_exclusion": true,
+    "note": "Reported series uses annual average employees, not point-in-time year-end headcount. Kept only in broad reported-workforce comparison.",
+    "source_url": "https://companiesmarketcap.com/spotify/sec-reports-20f/0001639920-23-000004/"
+  },
+  {
+    "company": "ASML",
+    "strict_exclusion": true,
+    "note": "Workforce FTE includes temporary staff; not directly equivalent to employee headcount.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/937966/000093796623000014/asml-20221231.htm"
+  },
+  {
+    "company": "Shopify",
+    "strict_exclusion": true,
+    "note": "Includes contractors; 2019 is a rounded lower bound.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480523000011/exhibit11annualinformation.htm"
+  },
+  {
+    "company": "Amazon",
+    "strict_exclusion": true,
+    "note": "Company-wide workforce includes fulfillment staff; corporate layoff population is narrower.",
+    "source_url": "https://stockanalysis.com/stocks/amzn/employees/"
+  },
+  {
+    "company": "MercadoLibre",
+    "strict_exclusion": true,
+    "note": "Company-wide growth includes expansion of shipping operations; cannot be equated to technology-team growth.",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959023000007/meli-20221231.htm"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "company": "GoPro",
+  "source_url": "https://stockanalysis.com/stocks/gpro/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "GoPro (GPRO) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "636"
+    ],
+    [
+      "Dec 31, 2024",
+      "696"
+    ],
+    [
+      "Dec 31, 2023",
+      "930"
+    ],
+    [
+      "Dec 31, 2022",
+      "877"
+    ],
+    [
+      "Dec 31, 2021",
+      "766"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2016",
+      "Upgrade Pro"
+    ],
+    [
+      "LG Display",
+      "23,490"
+    ],
+    [
+      "Universal Electronics",
+      "3,099"
+    ],
+    [
+      "Sonos",
+      "1,404"
+    ],
+    [
+      "Zepp Health",
+      "763"
+    ],
+    [
+      "Turtle Beach",
+      "268"
+    ],
+    [
+      "Vuzix",
+      "88"
+    ],
+    [
+      "UTime",
+      "34"
+    ],
+    [
+      "Koss Corporation",
+      "30"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

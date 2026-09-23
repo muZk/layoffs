@@ -1,0 +1,86 @@
+{
+  "company": "PayPal",
+  "source_url": "https://stockanalysis.com/stocks/pypl/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "PayPal Holdings (PYPL) Number of Employees 2015-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "23,800"
+    ],
+    [
+      "Dec 31, 2024",
+      "24,400"
+    ],
+    [
+      "Dec 31, 2023",
+      "27,200"
+    ],
+    [
+      "Dec 31, 2022",
+      "29,900"
+    ],
+    [
+      "Dec 31, 2021",
+      "30,900"
+    ],
+    [
+      "Dec 31, 2020",
+      "26,500"
+    ],
+    [
+      "Dec 31, 2019",
+      "23,200"
+    ],
+    [
+      "Dec 31, 2018",
+      "21,800"
+    ],
+    [
+      "Dec 31, 2017",
+      "18,700"
+    ],
+    [
+      "Dec 31, 2016",
+      "18,100"
+    ],
+    [
+      "Dec 31, 2015",
+      "16,800"
+    ],
+    [
+      "American Express Company",
+      "76,800"
+    ],
+    [
+      "Capital One Financial",
+      "76,300"
+    ],
+    [
+      "Synchrony Financial",
+      "20,000"
+    ],
+    [
+      "FirstCash Holdings",
+      "20,000"
+    ],
+    [
+      "Ally Financial",
+      "10,300"
+    ],
+    [
+      "OneMain Holdings",
+      "9,300"
+    ],
+    [
+      "SoFi Technologies",
+      "6,100"
+    ],
+    [
+      "Klarna Group",
+      "2,831"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

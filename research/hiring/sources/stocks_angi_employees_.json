@@ -1,0 +1,86 @@
+{
+  "company": "Angi",
+  "source_url": "https://stockanalysis.com/stocks/angi/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Angi Inc. (ANGI) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "2,300"
+    ],
+    [
+      "Dec 31, 2024",
+      "2,800"
+    ],
+    [
+      "Dec 31, 2023",
+      "3,800"
+    ],
+    [
+      "Dec 31, 2022",
+      "4,600"
+    ],
+    [
+      "Dec 31, 2021",
+      "5,200"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Mar 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Getty Images Holdings",
+      "1,650"
+    ],
+    [
+      "Shutterstock",
+      "1,565"
+    ],
+    [
+      "Zhihu",
+      "1,149"
+    ],
+    [
+      "trivago",
+      "893"
+    ],
+    [
+      "Cheetah Mobile",
+      "851"
+    ],
+    [
+      "ZipRecruiter",
+      "800"
+    ],
+    [
+      "Fiverr International",
+      "762"
+    ],
+    [
+      "Bumble",
+      "580"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

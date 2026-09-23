@@ -1,0 +1,495 @@
+[
+  {
+    "record_id": "layoff-2026-027",
+    "company": "Gloo",
+    "date": "2026-01-29",
+    "search_scope": "Gloo, 2026-01: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.bizjournals.com/denver/news/2026/01/29/ai-company-cuts-staff-reduces-executive-salaries.html",
+    "reviewed_sources": [
+      "https://www.bizjournals.com/denver/news/2026/01/29/ai-company-cuts-staff-reduces-executive-salaries.html",
+      "https://investors.gloo.com/static-files/6a6cee16-3074-4288-83a4-ce6487c4267f"
+    ],
+    "outcome": "source_recovered",
+    "note": "Investor letter directly links targeted workforce reductions to acquisition efficiencies, AI workflows and removing duplication. IT/marketing savings are described, but the letter does not identify the terminated occupations.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-031",
+    "company": "Expedia",
+    "date": "2026-02-01",
+    "search_scope": "Expedia, 2026-02: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://finance.yahoo.com/news/expedia-cut-100-jobs-austin-161917994.html?guccounter=1",
+    "reviewed_sources": [
+      "https://finance.yahoo.com/news/expedia-cut-100-jobs-austin-161917994.html?guccounter=1",
+      "https://www.bizjournals.com/austin/news/2026/02/05/expedia-is-planning-layoffs.html"
+    ],
+    "outcome": "still_partial",
+    "note": "Austin notice is accessible only in limited coverage. The January company-wide explanation is not automatically evidence for this record.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-039",
+    "company": "Dayforce",
+    "date": "2026-02-11",
+    "search_scope": "Dayforce, 2026-02: original source retry and event-specific alternative reporting/statements",
+    "original_source": "Internal memo",
+    "reviewed_sources": [],
+    "outcome": "no_event_source_recovered",
+    "note": "The listed internal memo is unavailable; searches did not recover event-specific causal evidence.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-040",
+    "company": "Glossier",
+    "date": "2026-02-11",
+    "search_scope": "Glossier, 2026-02: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.businessoffashion.com/news/cosmetics/glossier-layoffs-2026/",
+    "reviewed_sources": [
+      "https://www.businessoffashion.com/news/cosmetics/glossier-layoffs-2026/",
+      "https://cosmeticsbusiness.com/glossier-to-cut-more-than-50-jobs"
+    ],
+    "outcome": "source_recovered",
+    "note": "Full alternative report includes company confirmation of 54 cuts. Smaller teams and a leadership reset do not specify which work disappears or a concrete causal mechanism.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-041",
+    "company": "Clari",
+    "date": "2026-02-12",
+    "search_scope": "Clari, 2026-02: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.bizjournals.com/sanjose/news/2026/02/12/clari-salesloft-merger-ai-investments-layoffs.html",
+    "reviewed_sources": [
+      "https://www.bizjournals.com/sanjose/news/2026/02/12/clari-salesloft-merger-ai-investments-layoffs.html"
+    ],
+    "outcome": "still_partial",
+    "note": "A merger and AI-investment headline is insufficient to verify the previously asserted duplicate roles.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-057",
+    "company": "Zap Africa",
+    "date": "2026-02-28",
+    "search_scope": "Zap Africa, 2026-02: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://techcabal.com/2026/02/28/zap-africa-layoffs/",
+    "reviewed_sources": [
+      "https://techcabal.com/2026/02/28/zap-africa-layoffs/"
+    ],
+    "outcome": "source_recovered",
+    "note": "Full report recovered: CTO attributes the February reduction from 18 to 10 to AI efficiency and cost alignment; former staff separately report support automation making roles redundant.",
+    "function_status": "identified"
+  },
+  {
+    "record_id": "layoff-2026-066",
+    "company": "InvestCloud",
+    "date": "2026-03-10",
+    "search_scope": "InvestCloud, 2026-03: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606",
+    "reviewed_sources": [
+      "https://citywire.com/ria/news/investcloud-lays-off-150-sources/a2485606",
+      "https://wealthtechtoday.com/2026/03/09/investcloud-layoffs-2026/"
+    ],
+    "outcome": "source_recovered",
+    "note": "Direct CEO interview and reviewed staff communication connect Digital Wealth cuts to AI productivity, fewer operating centers and a move from bespoke implementations to standardized products.",
+    "function_status": "unit_only"
+  },
+  {
+    "record_id": "layoff-2026-072",
+    "company": "FranShares",
+    "date": "2026-03-17",
+    "search_scope": "FranShares, 2026-03: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html",
+    "reviewed_sources": [
+      "https://www.bizjournals.com/chicago/news/2026/03/17/franshares-chicago-startup-shuts-down.html"
+    ],
+    "outcome": "still_partial",
+    "note": "Accessible report quotes founder on insufficient funding and closing the marketplace; full report restricted.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-076",
+    "company": "Spotify",
+    "date": "2026-03-23",
+    "search_scope": "Spotify, 2026-03: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/",
+    "reviewed_sources": [
+      "https://variety.com/2026/digital/news/spotify-podcast-layoffs-the-ringer-spotify-studios-1236697019/",
+      "https://finance.yahoo.com/markets/stocks/articles/spotify-layoffs-podcast-group-cut-200111630.html",
+      "https://news.bloomberglaw.com/human-resources-news/spotify-lays-off-15-people-about-3-of-podcasting-staff"
+    ],
+    "outcome": "source_recovered",
+    "note": "Full syndicated Variety report identifies the affected podcast group and editorial staff. Bloomberg separately reports fewer management layers; the mechanism is attributed to reporting, not a company admission.",
+    "function_status": "identified"
+  },
+  {
+    "record_id": "layoff-2026-118",
+    "company": "Remarkable",
+    "date": "2026-04-22",
+    "search_scope": "Remarkable, 2026-04: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff",
+    "reviewed_sources": [
+      "https://goodereader.com/blog/remarkable-news/remarkable-is-firing-hundreds-of-staff",
+      "https://layoffcheck.com/companies/remarkable/",
+      "https://www.golem.de/news/e-paper-tablets-remarkable-soll-40-prozent-der-mitarbeiter-entlassen-2604-207992.html"
+    ],
+    "outcome": "source_recovered",
+    "note": "Golem reproduces the chairman’s explanation of weaker demand and falling revenue, and obtained a fresh company response about the difficult environment and component costs.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-121",
+    "company": "Shopify",
+    "date": "2026-05-04",
+    "search_scope": "Shopify, 2026-05: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/",
+    "reviewed_sources": [
+      "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/"
+    ],
+    "outcome": "still_partial",
+    "note": "Revenue-operations report remains restricted; no event-specific explanation recovered.",
+    "function_status": "identified"
+  },
+  {
+    "record_id": "layoff-2026-138",
+    "company": "Staffbase",
+    "date": "2026-05-08",
+    "search_scope": "Staffbase, 2026-05: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv",
+    "reviewed_sources": [
+      "https://www.msn.com/de-de/finanzen/top-stories/harter-einschnitt-bei-sachsens-einhorn-staffbase-streicht-jede-f%C3%BCnfte-stelle/ar-AA22HHQv"
+    ],
+    "outcome": "still_partial",
+    "note": "Previously used alternate source describes 2023, not 2026. Current count appears in trackers; current causal explanation remains unverified.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-143",
+    "company": "One Identity",
+    "date": "2026-05-11",
+    "search_scope": "One Identity, 2026-05: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html",
+    "reviewed_sources": [
+      "https://www.heise.de/news/Verlagerung-ins-Ausland-One-Identity-schliesst-Entwicklung-in-Deutschland-11287793.html"
+    ],
+    "outcome": "still_partial",
+    "note": "Indexed original report identifies development and support relocation to Budapest. Full page access remains unavailable; retrieved extracts add function detail but do not establish the complete causal account.",
+    "function_status": "identified"
+  },
+  {
+    "record_id": "layoff-2026-145",
+    "company": "Breadfast",
+    "date": "2026-05-12",
+    "search_scope": "Breadfast, 2026-05: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise",
+    "reviewed_sources": [
+      "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
+    ],
+    "outcome": "source_recovered",
+    "note": "Full article recovered. Company confirms 58 fixed-term contracts were not renewed in engineering, product and data. It does not answer the questions about an AI-related motive; the explanation remains nonspecific.",
+    "function_status": "identified"
+  },
+  {
+    "record_id": "layoff-2026-152",
+    "company": "Innovaccer",
+    "date": "2026-05-14",
+    "search_scope": "Innovaccer, 2026-05: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/",
+    "reviewed_sources": [
+      "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
+    ],
+    "outcome": "source_recovered",
+    "note": "Full original report recovered. CEO describes an AI-native transition, but neither the statement nor reporting identifies what work is automated or how AI requires these particular cuts.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-166",
+    "company": "Equip Health",
+    "date": "2026-06-29",
+    "search_scope": "Equip Health, 2026-06: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/",
+    "reviewed_sources": [
+      "https://bhbusiness.com/2026/06/29/digital-eating-disorder-treatment-startup-equip-health-rolls-out-layoffs/"
+    ],
+    "outcome": "still_partial",
+    "note": "Indexed original reporting recovers a company statement about market dynamics and priorities. No specific function or mechanism is established; full article access remains incomplete.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-167",
+    "company": "ADP",
+    "date": "2026-06-26",
+    "search_scope": "ADP, 2026-06: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf",
+    "reviewed_sources": [
+      "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
+    ],
+    "outcome": "source_recovered",
+    "note": "State archive lists Automatic Data Processing, Roseland, 76 affected workers, posted in June and effective September 25. It gives no functions or causal explanation.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-168",
+    "company": "SAS",
+    "date": "2026-06-26",
+    "search_scope": "SAS, 2026-06: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.newsobserver.com/news/business/article316281262.html",
+    "reviewed_sources": [
+      "https://www.newsobserver.com/news/business/article316281262.html",
+      "https://finance.yahoo.com/technology/ai/articles/cary-sas-cuts-300-positions-133919519.html"
+    ],
+    "outcome": "source_recovered",
+    "note": "Full syndicated News & Observer report recovered. Company describes resource priorities, including cloud, sales and product development; these are investment destinations, not identified occupations cut.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-170",
+    "company": "JiviAI",
+    "date": "2026-06-26",
+    "search_scope": "JiviAI, 2026-06: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207",
+    "reviewed_sources": [
+      "https://entrackr.com/exclusive/exclusive-jiviai-shuts-down-founder-ankur-jain-may-rejoin-bharatpe-12108207"
+    ],
+    "outcome": "source_recovered",
+    "note": "Full original report recovered. Sources connect the shutdown to funding and infrastructure-cost pressure, with failed acquisition discussions. Employees were asked to leave as operations wound down.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-171",
+    "company": "Culture Amp",
+    "date": "2026-06-26",
+    "search_scope": "Culture Amp, 2026-06: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/",
+    "reviewed_sources": [
+      "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
+    ],
+    "outcome": "still_partial",
+    "note": "Accessible company comments mention strategic priorities and organizational change; the full report is restricted. Reasons for earlier rounds are not transferred.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-173",
+    "company": "Sonos",
+    "date": "2026-06-25",
+    "search_scope": "Sonos, 2026-06: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams",
+    "reviewed_sources": [
+      "https://www.bloomberg.com/news/articles/2026-06-25/sonos-cuts-3-of-staff-across-user-experience-product-teams",
+      "https://finance.yahoo.com/markets/stocks/articles/market-chatter-sonos-cuts-3-195105247.html"
+    ],
+    "outcome": "source_recovered",
+    "note": "MT Newswires reproduces the company response confirming removal of layers and identifies product, design and user-experience teams. April marketing cuts are a separate event.",
+    "function_status": "identified"
+  },
+  {
+    "record_id": "layoff-2026-178",
+    "company": "Lazada Group",
+    "date": "2026-06-23",
+    "search_scope": "Lazada Group, 2026-06: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review",
+    "reviewed_sources": [
+      "https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review",
+      "https://production.humanresourcesonline.net/lazada-to-undertake-workforce-reduction-across-southeast-asia-amid-organisational-review"
+    ],
+    "outcome": "source_recovered",
+    "note": "Full report includes a direct company response but no concrete mechanism or affected functions. It also relays a report that cuts are unrelated to AI; the original speaker is not identified.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-181",
+    "company": "91Trucks",
+    "date": "2026-06-22",
+    "search_scope": "91Trucks, 2026-06: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133",
+    "reviewed_sources": [
+      "https://entrackr.com/exclusive/exclusive-91trucks-lays-off-nearly-70-workforce-shuts-stores-as-growth-slows-12061133"
+    ],
+    "outcome": "source_recovered",
+    "note": "Updated original report contradicts the tracker’s 70% figure: CEO says approximately 30%, while anonymous sources estimate 100 departures from a 150-person team. Keep both accounts, not a single settled count.",
+    "function_status": "unit_only"
+  },
+  {
+    "record_id": "layoff-2026-188",
+    "company": "FNZ",
+    "date": "2026-06-16",
+    "search_scope": "FNZ, 2026-06: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053",
+    "reviewed_sources": [
+      "https://citywire.com/new-model-adviser/news/exclusive-fnz-to-cut-jobs-in-turnaround-plan-after-1-4bn-loss/a2492053"
+    ],
+    "outcome": "still_partial",
+    "note": "Tracker identifies the event, but the linked source could not be read in full during this review. A specific mechanism remains unverified.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-189",
+    "company": "Rackspace",
+    "date": "2026-06-16",
+    "search_scope": "Rackspace, 2026-06: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html",
+    "reviewed_sources": [
+      "https://www.bizjournals.com/sanantonio/news/2026/06/16/rackspace-slashes-local-workforce.html",
+      "https://www.sec.gov/Archives/edgar/data/1810019/000181001926000058/rxt-20260610.htm"
+    ],
+    "outcome": "source_recovered",
+    "note": "June 16 filing links a 15% reduction to legacy Public Cloud service delivery, resource reallocation toward enterprise AI and expected annual savings. It does not say all affected workers are replaced by AI.",
+    "function_status": "identified"
+  },
+  {
+    "record_id": "layoff-2026-204",
+    "company": "Google",
+    "date": "2026-06-04",
+    "search_scope": "Google, 2026-06: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6",
+    "reviewed_sources": [
+      "https://www.businessinsider.com/google-clouds-quiet-layoffs-hit-cybersecurity-teams-2026-6"
+    ],
+    "outcome": "still_partial",
+    "note": "Tracker identifies the event, but the linked source could not be read in full during this review. A specific mechanism remains unverified.",
+    "function_status": "identified"
+  },
+  {
+    "record_id": "layoff-2026-210",
+    "company": "Credit Karma",
+    "date": "2026-05-30",
+    "search_scope": "Credit Karma, 2026-05: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump",
+    "reviewed_sources": [
+      "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump",
+      "https://www.aol.com/articles/credit-karma-lays-off-hundreds-153300000.html"
+    ],
+    "outcome": "source_recovered",
+    "note": "Full syndicated report lists occupations in the WARN notice and places the 117 Credit Karma cuts within Intuit’s broader 3,000-person plan. Parent-level commentary is not treated as a separately verified subsidiary mechanism.",
+    "function_status": "identified"
+  },
+  {
+    "record_id": "layoff-2026-215",
+    "company": "BenchSci",
+    "date": "2026-05-28",
+    "search_scope": "BenchSci, 2026-05: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://thelogic.co/briefing/benchsci-lays-off-another-30-of-staff-as-it-embraces-ai-agents/",
+    "reviewed_sources": [
+      "https://thelogic.co/briefing/benchsci-lays-off-another-30-of-staff-as-it-embraces-ai-agents/",
+      "https://www.linkedin.com/posts/liranbelenzon_the-company-were-building-at-benchsci-activity-7465420965041139714-rYRF"
+    ],
+    "outcome": "source_recovered",
+    "note": "CEO statement directly connects the 30% reduction to redesigning teams around human–agent collaboration. Listed workflows are not an explicit inventory of terminated roles.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-218",
+    "company": "Picnic",
+    "date": "2026-05-26",
+    "search_scope": "Picnic, 2026-05: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html",
+    "reviewed_sources": [
+      "https://www.bizjournals.com/seattle/news/2026/05/26/picnic-works-cmbg-advisors-abc-baer-inting-bridges.html",
+      "https://www.nrn.com/restaurant-technology/pizza-robot-company-picnic-shuts-down"
+    ],
+    "outcome": "source_recovered",
+    "note": "Restaurant Business reporting confirms closure and an assignment of assets for creditor repayment on May 11. The public announcement is in May; functions are not broken down.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-222",
+    "company": "Noa Technologies",
+    "date": "2026-04-22",
+    "search_scope": "Noa Technologies, 2026-04: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.bizjournals.com/sanjose/news/2026/04/22/noa-technologies-gbike-layoffs.html",
+    "reviewed_sources": [
+      "https://www.bizjournals.com/sanjose/news/2026/04/22/noa-technologies-gbike-layoffs.html"
+    ],
+    "outcome": "still_partial",
+    "note": "Tracker identifies the event, but the linked source could not be read in full during this review. A specific mechanism remains unverified.",
+    "function_status": "unit_only"
+  },
+  {
+    "record_id": "layoff-2026-223",
+    "company": "Zondacrypto",
+    "date": "2026-04-21",
+    "search_scope": "Zondacrypto, 2026-04: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://tvpworld.com/92834466/zonadcrypto-staff-report-chaos-and-mass-layoffs",
+    "reviewed_sources": [
+      "https://tvpworld.com/92834466/zonadcrypto-staff-report-chaos-and-mass-layoffs",
+      "https://2digital.news/zondacrypto-chief-disappears-employees-receive-termination-emails-as-company-descends-into-chaos/"
+    ],
+    "outcome": "source_recovered",
+    "note": "Alternative report describes employee terminations amid payment disruption. Financial and legal turmoil are reported context, but the causal account for the specific workforce action remains nonspecific.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-225",
+    "company": "Qualcomm",
+    "date": "2026-04-09",
+    "search_scope": "Qualcomm, 2026-04: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.sandiegouniontribune.com/2026/04/09/qualcomm-lays-off-dozens-of-senior-positions-in-san-diego/",
+    "reviewed_sources": [
+      "https://www.sandiegouniontribune.com/2026/04/09/qualcomm-lays-off-dozens-of-senior-positions-in-san-diego/"
+    ],
+    "outcome": "source_recovered",
+    "note": "Original article recovered, but its April 17 update combines April 2 and April 15 notices: headline/caption and body totals conflict. Functions are reported; a single event headcount cannot be reconciled.",
+    "function_status": "identified"
+  },
+  {
+    "record_id": "layoff-2026-230",
+    "company": "Marketsource",
+    "date": "2026-03-05",
+    "search_scope": "Marketsource, 2026-03: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.bizjournals.com/atlanta/news/2026/03/05/sales-accelerator-to-lay-off-dozens.html",
+    "reviewed_sources": [
+      "https://www.bizjournals.com/atlanta/news/2026/03/05/sales-accelerator-to-lay-off-dozens.html"
+    ],
+    "outcome": "still_partial",
+    "note": "Tracker identifies the event, but the linked source could not be read in full during this review. A specific mechanism remains unverified.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-231",
+    "company": "Xero",
+    "date": "2026-02-18",
+    "search_scope": "Xero, 2026-02: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://businessdesk.co.nz/article/markets/xero-restructures-with-250-jobs-on-the-line",
+    "reviewed_sources": [
+      "https://businessdesk.co.nz/article/markets/xero-restructures-with-250-jobs-on-the-line"
+    ],
+    "outcome": "still_partial",
+    "note": "Accessible preview confirms a proposed restructure and general simplification language; full article is restricted, and a concrete mechanism is not established.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-233",
+    "company": "Informatica",
+    "date": "2026-01-15",
+    "search_scope": "Informatica, 2026-01: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://www.bizjournals.com/sanjose/news/2026/01/15/informatica-acquisition-layoffs-redwood-ity-salesf.html",
+    "reviewed_sources": [
+      "https://www.bizjournals.com/sanjose/news/2026/01/15/informatica-acquisition-layoffs-redwood-ity-salesf.html"
+    ],
+    "outcome": "still_partial",
+    "note": "Tracker identifies the event, but the linked source could not be read in full during this review. A specific mechanism remains unverified.",
+    "function_status": "identified"
+  },
+  {
+    "record_id": "layoff-2026-234",
+    "company": "Alle",
+    "date": "2026-01-13",
+    "search_scope": "Alle, 2026-01: original source retry and event-specific alternative reporting/statements",
+    "original_source": "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop",
+    "reviewed_sources": [
+      "https://yourstory.com/2026/01/elevation-capital-backed-ai-stylist-alle-shuts-shop"
+    ],
+    "outcome": "source_recovered",
+    "note": "Full reporting of founder’s announcement confirms closure after unsuccessful product-market-fit attempts. The public announcement is January 2026, but the decision was made in October 2025.",
+    "function_status": "not_identified"
+  },
+  {
+    "record_id": "layoff-2026-235",
+    "company": "Dandy",
+    "date": "2026-06-03",
+    "search_scope": "Dandy, 2026-06: original source retry and event-specific alternative reporting/statements",
+    "original_source": "Internal memo",
+    "reviewed_sources": [],
+    "outcome": "no_event_source_recovered",
+    "note": "Tracker cites an internal memo. Search found general third-party commentary, but no usable event-specific causal source.",
+    "function_status": "not_identified"
+  }
+]

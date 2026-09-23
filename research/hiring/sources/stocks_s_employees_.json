@@ -1,0 +1,66 @@
+{
+  "company": "SentinelOne",
+  "source_url": "https://stockanalysis.com/stocks/s/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "SentinelOne (S) Number of Employees 2021-2026",
+  "rows": [
+    [
+      "Jan 31, 2026",
+      "2,900"
+    ],
+    [
+      "Jan 31, 2025",
+      "2,800"
+    ],
+    [
+      "Jan 31, 2024",
+      "2,300"
+    ],
+    [
+      "Jan 31, 2023",
+      "2,100"
+    ],
+    [
+      "Jan 31, 2022",
+      "1,200"
+    ],
+    [
+      "Apr 30, 2021",
+      "850"
+    ],
+    [
+      "Amdocs",
+      "26,969"
+    ],
+    [
+      "WEX Inc.",
+      "6,600"
+    ],
+    [
+      "UiPath",
+      "3,981"
+    ],
+    [
+      "Mobility Global",
+      "3,522"
+    ],
+    [
+      "Zeta Global Holdings",
+      "3,300"
+    ],
+    [
+      "SailPoint",
+      "3,229"
+    ],
+    [
+      "Qualys",
+      "2,718"
+    ],
+    [
+      "GitLab",
+      "2,580"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

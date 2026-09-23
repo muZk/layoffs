@@ -1,0 +1,74 @@
+{
+  "company": "Pinterest",
+  "source_url": "https://stockanalysis.com/stocks/pins/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Pinterest (PINS) Number of Employees 2018-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "5,265"
+    ],
+    [
+      "Dec 31, 2024",
+      "4,666"
+    ],
+    [
+      "Dec 31, 2023",
+      "4,014"
+    ],
+    [
+      "Dec 31, 2022",
+      "3,987"
+    ],
+    [
+      "Dec 31, 2021",
+      "3,225"
+    ],
+    [
+      "Dec 31, 2020",
+      "2,545"
+    ],
+    [
+      "Dec 31, 2019",
+      "2,217"
+    ],
+    [
+      "Dec 31, 2018",
+      "1,797"
+    ],
+    [
+      "Baidu",
+      "33,500"
+    ],
+    [
+      "Bilibili",
+      "8,423"
+    ],
+    [
+      "Zillow Group",
+      "7,068"
+    ],
+    [
+      "Tencent Music Entertainment Group",
+      "5,690"
+    ],
+    [
+      "JOYY Inc.",
+      "5,421"
+    ],
+    [
+      "Snap Inc.",
+      "5,261"
+    ],
+    [
+      "Kanzhun",
+      "4,884"
+    ],
+    [
+      "Reddit",
+      "2,555"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

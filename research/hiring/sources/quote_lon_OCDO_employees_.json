@@ -1,0 +1,82 @@
+{
+  "company": "Ocado",
+  "source_url": "https://stockanalysis.com/quote/lon/OCDO/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Ocado Group (LON:OCDO) Number of Employees",
+  "rows": [
+    [
+      "Nov 30, 2025",
+      "21,367"
+    ],
+    [
+      "Dec 1, 2024",
+      "20,261"
+    ],
+    [
+      "Dec 3, 2023",
+      "18,869"
+    ],
+    [
+      "Nov 27, 2022",
+      "19,744"
+    ],
+    [
+      "Nov 28, 2021",
+      "19,347"
+    ],
+    [
+      "Nov 29, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 1, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 2, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 3, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Nov 27, 2016",
+      "Upgrade Pro"
+    ],
+    [
+      "Unilever",
+      "93,733"
+    ],
+    [
+      "British American Tobacco p.l.c.",
+      "47,797"
+    ],
+    [
+      "B&M European Value Retail",
+      "39,054"
+    ],
+    [
+      "Reckitt Benckiser Group",
+      "36,200"
+    ],
+    [
+      "Greencore Group",
+      "28,000"
+    ],
+    [
+      "Diageo",
+      "27,972"
+    ],
+    [
+      "Cranswick",
+      "13,325"
+    ],
+    [
+      "M.P. Evans Group",
+      "12,900"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

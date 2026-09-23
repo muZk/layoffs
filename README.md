@@ -1,43 +1,66 @@
-# 2026 Tech Layoffs: dataset categorizado
+# Despidos tecnológicos de 2026: datos, evidencia y análisis
 
-Dataset auditable de los layoffs tech del primer semestre de 2026 (enero a
-junio, 161 eventos en la ventana `date < 2026-07-01`). Cada evento tiene
-causas clasificadas (`causes`), el papel que juega la IA en el anuncio
-(`papel_ia`, con `fuente_ia`, `nego_ia` y `es_causa_ia`) y un veredicto sobre
-el reclamo de sustitución por IA (`ai_claim_verdict`), sobre los ejes base
-`reason_primary`, `ai_link`, `ai_link_basis`, `narrative_source`, `ai_mention`.
-De los 161 anuncios, la IA es causa real en 16; de los 6 donde la empresa dice
-que la IA reemplaza personas, uno se sostiene (MercadoLibre, 116 personas). El dataset parte de un scrape de
-[layoffs.fyi](https://layoffs.fyi) y luego se curó a mano, evento por evento. Cada dato
-del análisis y su consulta están en `verificacion.md` y `auditoria-sobrecontratacion.md`.
+La **fuente de verdad es [2026-categorized.json](2026-categorized.json)**: 235 registros curados, con razones atribuidas, fuentes, alcance y revisión. El informe utiliza **228 anuncios de enero–junio**. Cinco medidas históricas o de período y dos entradas de julio quedan fuera de ese análisis, pero se conservan para trazabilidad.
 
-Este repo contiene el dataset y la metodología. El reporte construido
-sobre estos datos será publicado en [trabajoremoto.cl](https://trabajoremoto.cl).
+**Última conciliación con Layoffs.fyi y revisión de evidencia: 17 de septiembre de 2026.** Los archivos publicados coinciden con la fuente curada. Esto no significa que se hayan incorporado cambios posteriores del rastreador. El snapshot de cobertura utilizado es `coverage/layoffs-fyi-2026-09-17.json`.
 
-## Estructura
+## Elegir el archivo adecuado
 
-| Archivo | Qué es |
+| Necesidad | Recurso |
 |---|---|
-| `methodology.md` | Cómo se construyó el dataset, paso a paso |
-| `schema.md` | Definición de los ejes y tags de clasificación |
-| `verificacion.md` | Cada dato agregado del análisis, con su consulta |
-| `auditoria-sobrecontratacion.md` | La sobre-contratación como trayectoria (por qué no es un porcentaje) |
-| `sources.md` | Fuente original (URL) de cada evento del dataset |
-| `2026-airtable-raw.json` | Snapshot del Airtable de layoffs.fyi |
-| `2026-reasons.json` | Razones públicas recuperadas por empresa |
-| `2026_recovery_round2_results.json` | Recovery de URLs con paywall |
-| `2026-enriched.json` | Fuente de verdad: raw + razones + overrides |
-| `2026-categorized.json` / `.csv` | Dataset curado a mano (fuente de verdad) |
-| `airtable-labels.json` | Etiquetas de campos del Airtable original |
+| Leer hallazgos | [Artículo](report/index-es.html) |
+| Explorar anuncios y evidencia | [Explorador](report/explorar.html) |
+| Aprender con un ejemplo ejecutado | [Notebook exploratorio](notebooks/explorar_despidos.ipynb) · [HTML](notebooks/explorar_despidos.html) |
+| Analizar con SQL, pandas, R o BI | [Exportación normalizada](data/normalized/README.md) |
+| Una tabla plana de los 228 anuncios | [announcements.csv](data/normalized/announcements.csv) |
+| Base relacional con todas las tablas | [layoffs.sqlite](data/normalized/layoffs.sqlite) |
+| Consultar o editar las clasificaciones completas | [JSON canónico](2026-categorized.json) |
+| Definiciones y límites | [Esquema](schema.md) · [Método](methodology.md) |
+| Estado de calidad y organización | [Auditoría del repositorio](data/quality-review.md) |
 
-## Sobre el dataset
+## Qué está vigente
 
-`2026-categorized.json` es un dataset curado a mano y final, no la salida de
-un script. El método completo (reglas de clasificación, overrides manuales,
-adjudicación con fuentes primarias) está descrito paso a paso en
-`methodology.md`.
+Se cuentan **todas las razones atribuidas**, incluidas las generales: 201 anuncios tienen alguna explicación, 72 incluyen una razón de IA, 48 combinan IA con otra razón y 79 tienen varias razones. Los otros 27 no tienen una explicación clasificable. No son cifras de puestos causados por IA ni causas verificadas de forma independiente.
+
+En los 235 registros internos hay 219 con fuentes revisadas, 14 parciales y 2 no recuperadas; dentro de los 228 del informe son 212, 14 y 2. El estado de revisión no implica corroboración independiente. Contexto, negaciones y causas permanecen separados.
+
+La especificidad de una explicación se conserva en los datos para auditoría; no excluye casos del artículo, el explorador ni el estudio de contratación. [Ver análisis reproducible](research/full-analysis/README.md).
+
+## Organización
+
+- `2026-categorized.json`: base curada. Su CSV es una copia de compatibilidad con objetos anidados serializados; para DS usar `data/normalized/`.
+- `data/normalized/`: tablas escalares, SQLite, SQL de ejemplo, esquema y manifest con hashes. Generado; no editar a mano.
+- `report/`: artículos, explorador, figuras, descargas y sus generadores. `records.json` es una selección exacta del JSON canónico.
+- `research/`: decisiones de revisión, fuentes recuperadas, taxonomías y análisis. Se utiliza para reproducir y justificar clasificaciones.
+- `coverage/` y auditorías JSON: cadena de cambios y conciliación; necesarios para validar los registros.
+- `notebooks/`: ejemplo exploratorio vigente en Jupyter, con resultados y versión HTML.
+- `scripts/`: validación, exportación normalizada y resúmenes de revisión.
+- El material histórico, los notebooks anteriores y las visualizaciones antiguas quedan fuera de Git; pueden conservarse localmente mediante las exclusiones de `.gitignore`.
+
+Se conservan `2026-legacy-classifications.json`, las auditorías y `coverage/` porque el validador utiliza esa cadena para reconstruir la base actual. Los snapshots antiguos de ingestión sin dependencias en el pipeline vigente quedan excluidos de Git. Los ZIP se generan como entregables locales; no se versionan. El resumen vigente `top-findings-es.md/html` sí forma parte del material publicable.
+
+## Reproducir y comprobar
+
+```sh
+python3 scripts/validate_causes.py
+python3 scripts/build_review_report.py
+python3 scripts/build_normalized.py
+python3 report/build.py
+```
+
+La validación comprueba la cadena de auditoría, el JSON y su CSV. El build del informe regenera ambos idiomas, las figuras, el estudio de contratación y la exportación normalizada. Requiere las dependencias de visualización del proyecto; el exportador normalizado usa únicamente la biblioteca estándar de Python.
+
+Cambiar el JSON es una decisión de curación: debe quedar respaldada por una fuente y registrada en la cadena de auditoría. Regenerar archivos no actualiza automáticamente las fuentes externas.
+
+El informe está destinado a [trabajoremoto.cl](https://trabajoremoto.cl).
 
 ## Licencia
 
 Datos: dominio público / fair use (citas de prensa pública).
 Código: MIT.
+
+## Trazabilidad de los hallazgos
+
+El [notebook independiente](notebooks/explorar_despidos.html) reproduce recuentos, cruces, atribuciones, negaciones, cobertura y crecimiento previo; permite consultar evidencia de los ejemplos. El [mapa de respaldo](notebooks/respaldo-editorial.md) enlaza las afirmaciones de los artículos con esas consultas. El [resumen de hallazgos en español](top-findings-es.html) utiliza la misma población.
+
+Después de regenerar los datos y artículos, ejecutar `python3 scripts/build_notebooks.py` para actualizar resultados, HTML y paquete independiente. Las comprobaciones de referencia fallan si cambian valores publicados; hay que revisar los textos antes de cambiar las expectativas.

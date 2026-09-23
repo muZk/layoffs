@@ -1,0 +1,86 @@
+{
+  "company": "Spotify",
+  "source_url": "https://stockanalysis.com/stocks/spot/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Spotify Technology (SPOT) Number of Employees 2015-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "7,323"
+    ],
+    [
+      "Dec 31, 2024",
+      "7,691"
+    ],
+    [
+      "Dec 31, 2023",
+      "9,123"
+    ],
+    [
+      "Dec 31, 2022",
+      "8,359"
+    ],
+    [
+      "Dec 31, 2021",
+      "6,617"
+    ],
+    [
+      "Dec 31, 2020",
+      "5,584"
+    ],
+    [
+      "Dec 31, 2019",
+      "4,405"
+    ],
+    [
+      "Dec 31, 2018",
+      "3,651"
+    ],
+    [
+      "Dec 31, 2017",
+      "2,960"
+    ],
+    [
+      "Dec 31, 2016",
+      "2,084"
+    ],
+    [
+      "Dec 31, 2015",
+      "1,534"
+    ],
+    [
+      "Meta Platforms",
+      "78,865"
+    ],
+    [
+      "Baidu",
+      "33,500"
+    ],
+    [
+      "Bilibili",
+      "8,423"
+    ],
+    [
+      "Zillow Group",
+      "7,068"
+    ],
+    [
+      "Tencent Music Entertainment Group",
+      "5,690"
+    ],
+    [
+      "Pinterest",
+      "5,265"
+    ],
+    [
+      "Snap Inc.",
+      "5,261"
+    ],
+    [
+      "Kanzhun",
+      "4,884"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

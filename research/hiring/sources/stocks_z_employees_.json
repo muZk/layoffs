@@ -1,0 +1,102 @@
+{
+  "company": "Zillow",
+  "source_url": "https://stockanalysis.com/stocks/z/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Zillow Group (Z) Number of Employees 2011-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "7,068"
+    ],
+    [
+      "Dec 31, 2024",
+      "6,856"
+    ],
+    [
+      "Dec 31, 2023",
+      "6,263"
+    ],
+    [
+      "Dec 31, 2022",
+      "5,724"
+    ],
+    [
+      "Dec 31, 2021",
+      "8,005"
+    ],
+    [
+      "Dec 31, 2020",
+      "5,504"
+    ],
+    [
+      "Dec 31, 2019",
+      "5,249"
+    ],
+    [
+      "Dec 31, 2018",
+      "4,336"
+    ],
+    [
+      "Dec 31, 2017",
+      "3,181"
+    ],
+    [
+      "Dec 31, 2016",
+      "2,776"
+    ],
+    [
+      "Dec 31, 2015",
+      "2,204"
+    ],
+    [
+      "Dec 31, 2014",
+      "1,215"
+    ],
+    [
+      "Dec 31, 2013",
+      "817"
+    ],
+    [
+      "Dec 31, 2012",
+      "560"
+    ],
+    [
+      "Dec 31, 2011",
+      "329"
+    ],
+    [
+      "Bilibili",
+      "8,423"
+    ],
+    [
+      "Tencent Music Entertainment Group",
+      "5,690"
+    ],
+    [
+      "JOYY Inc.",
+      "5,421"
+    ],
+    [
+      "Pinterest",
+      "5,265"
+    ],
+    [
+      "Snap Inc.",
+      "5,261"
+    ],
+    [
+      "People",
+      "5,156"
+    ],
+    [
+      "Kanzhun",
+      "4,884"
+    ],
+    [
+      "Autohome",
+      "3,839"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

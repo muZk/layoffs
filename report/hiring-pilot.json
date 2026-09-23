@@ -1,0 +1,28 @@
+{
+  "company": "Block",
+  "reviewed": "2026-09-17",
+  "status": "illustrative_pilot_not_cross_company_analysis",
+  "metric": "full_time_employees_at_year_end",
+  "scope": "consolidated_company",
+  "observations": [
+    {
+      "date": "2019-12-31",
+      "value": 3835,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NYSE_SQ_2019.pdf"
+    },
+    {
+      "date": "2022-12-31",
+      "value": 12428,
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NYSE_SQ_2023.pdf"
+    },
+    {
+      "date": "2025-12-31",
+      "value": 10205,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026012254/xyz-20251231.htm"
+    }
+  ],
+  "acquisition_adjusted": false,
+  "business_growth_comparison_complete": false,
+  "event_cause_inferred_from_series": false,
+  "comparability_note": "Afterpay acquired January 31, 2022; headcount changes are net movements, not gross hiring or layoffs. This pilot does not establish excess hiring."
+}

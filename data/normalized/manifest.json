@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "canonical_source": "../../2026-categorized.json",
+  "canonical_sha256": "bd415eab18f85b3e02bd4006bc784883acc65f46661bdec9970940030c503544",
+  "builder_sha256": "613a22f7e24c5c4803e3a4260f9e332b998b1ce006e3b822fda1bb946dd8d739",
+  "latest_record_review": "2026-09-17",
+  "coverage_snapshot": "2026-09-17",
+  "report_window": [
+    "2026-01-01",
+    "2026-06-30"
+  ],
+  "unknown_policy": "Unknown and empty dimensions become NULL; unknown numeric values remain NULL, never zero. CSV empty cells represent NULL.",
+  "company_policy": "Exact source labels only; no inferred parent/entity merging. IDs are stable hashes of labels.",
+  "boolean_encoding": "0/1",
+  "percent_encoding": "Fraction in [0,1], e.g. 0.1 = 10%.",
+  "tables": {
+    "companies": {
+      "rows": 223,
+      "columns": [
+        "company_id",
+        "company_label"
+      ],
+      "kind": "table"
+    },
+    "sources": {
+      "rows": 359,
+      "columns": [
+        "source_id",
+        "url"
+      ],
+      "kind": "table"
+    },
+    "causes": {
+      "rows": 24,
+      "columns": [
+        "cause_code",
+        "is_ai",
+        "specificity"
+      ],
+      "kind": "table"
+    },
+    "functions": {
+      "rows": 12,
+      "columns": [
+        "function_code",
+        "label_es"
+      ],
+      "kind": "table"
+    },
+    "records": {
+      "rows": 235,
+      "columns": [
+        "record_id",
+        "company_id",
+        "record_date",
+        "record_type",
+        "in_report",
+        "exclusion_reason",
+        "laid_off",
+        "workforce_fraction",
+        "raised_millions",
+        "industry",
+        "funding_stage",
+        "country",
+        "headcount_scope",
+        "source_id",
+        "source_used_id",
+        "review_date",
+        "review_status",
+        "review_note",
+        "cause_status",
+        "affected_work_status",
+        "work_review_date",
+        "work_review_method",
+        "work_review_note",
+        "schema_version"
+      ],
+      "kind": "table"
+    },
+    "record_causes": {
+      "rows": 313,
+      "columns": [
+        "record_id",
+        "cause_code",
+        "attribution",
+        "scope",
+        "summary",
+        "source_id",
+        "evidence_access"
+      ],
+      "kind": "table"
+    },
+    "record_functions": {
+      "rows": 116,
+      "columns": [
+        "record_id",
+        "function_code"
+      ],
+      "kind": "table"
+    },
+    "function_evidence": {
+      "rows": 60,
+      "columns": [
+        "evidence_id",
+        "record_id",
+        "attribution",
+        "summary",
+        "source_id",
+        "evidence_access"
+      ],
+      "kind": "table"
+    },
+    "function_evidence_functions": {
+      "rows": 116,
+      "columns": [
+        "evidence_id",
+        "function_code"
+      ],
+      "kind": "table"
+    },
+    "record_sources": {
+      "rows": 748,
+      "columns": [
+        "record_id",
+        "source_id",
+        "role"
+      ],
+      "kind": "table"
+    },
+    "review_issues": {
+      "rows": 66,
+      "columns": [
+        "record_id",
+        "issue"
+      ],
+      "kind": "table"
+    },
+    "locations": {
+      "rows": 241,
+      "columns": [
+        "record_id",
+        "position",
+        "location_label"
+      ],
+      "kind": "table"
+    },
+    "context": {
+      "rows": 35,
+      "columns": [
+        "context_id",
+        "record_id",
+        "kind",
+        "summary",
+        "source_id"
+      ],
+      "kind": "table"
+    },
+    "denials": {
+      "rows": 9,
+      "columns": [
+        "denial_id",
+        "record_id",
+        "target",
+        "speaker",
+        "summary",
+        "source_id"
+      ],
+      "kind": "table"
+    },
+    "work_units": {
+      "rows": 15,
+      "columns": [
+        "unit_id",
+        "record_id",
+        "name",
+        "summary",
+        "source_id"
+      ],
+      "kind": "table"
+    },
+    "work_levels": {
+      "rows": 11,
+      "columns": [
+        "record_id",
+        "level"
+      ],
+      "kind": "table"
+    },
+    "headcount_accounts": {
+      "rows": 3,
+      "columns": [
+        "account_id",
+        "record_id",
+        "value",
+        "workforce_fraction",
+        "attribution",
+        "note",
+        "source_id"
+      ],
+      "kind": "table"
+    },
+    "workforce_metrics": {
+      "rows": 8,
+      "columns": [
+        "record_id",
+        "value",
+        "metric",
+        "period",
+        "source_min",
+        "source_max",
+        "note",
+        "source_id"
+      ],
+      "kind": "table"
+    },
+    "related_records": {
+      "rows": 2,
+      "columns": [
+        "record_id",
+        "related_record_id",
+        "relationship",
+        "source_id"
+      ],
+      "kind": "table"
+    },
+    "coverage": {
+      "rows": 72,
+      "columns": [
+        "record_id",
+        "tracker",
+        "retrieved_date",
+        "tracker_date"
+      ],
+      "kind": "table"
+    },
+    "announcements": {
+      "rows": 228,
+      "columns": [
+        "record_id",
+        "company_id",
+        "record_date",
+        "record_type",
+        "in_report",
+        "exclusion_reason",
+        "laid_off",
+        "workforce_fraction",
+        "raised_millions",
+        "industry",
+        "funding_stage",
+        "country",
+        "headcount_scope",
+        "source_id",
+        "source_used_id",
+        "review_date",
+        "review_status",
+        "review_note",
+        "cause_status",
+        "affected_work_status",
+        "work_review_date",
+        "work_review_method",
+        "work_review_note",
+        "schema_version",
+        "company_label",
+        "reason_count",
+        "has_ai_reason",
+        "function_count"
+      ],
+      "kind": "view"
+    },
+    "announcement_causes": {
+      "rows": 304,
+      "columns": [
+        "record_id",
+        "cause_code",
+        "attribution",
+        "scope",
+        "summary",
+        "source_id",
+        "evidence_access"
+      ],
+      "kind": "view"
+    },
+    "announcement_functions": {
+      "rows": 116,
+      "columns": [
+        "record_id",
+        "function_code"
+      ],
+      "kind": "view"
+    },
+    "excluded_records": {
+      "rows": 7,
+      "columns": [
+        "record_id",
+        "company_label",
+        "record_date",
+        "record_type",
+        "exclusion_reason"
+      ],
+      "kind": "view"
+    }
+  },
+  "checks": [
+    "SQLite integrity",
+    "foreign keys",
+    "unique keys",
+    "scalar-only CSV fields",
+    "all record IDs preserved",
+    "per-record causes/functions preserved",
+    "all H1 cause counts match canonical JSON",
+    "228 public announcements",
+    "72 announcements with attributed AI reason"
+  ],
+  "files": {
+    "announcement_causes.csv": "30fd7fd6e5c5b64ab385a0d0ccff897f37d610a38ade8203630a8172a82029e9",
+    "announcement_functions.csv": "31e8a2abdfbc90b6a27069d0cc29bd94eb402e23762cbbaa7ecfb70d06c208a8",
+    "announcements.csv": "a71bcd3d3892f42f7906a408d1dc1ebbb2ea9e5d92e56634e92e7844f4f5c48b",
+    "causes.csv": "9c5acd4d1d584bc8309b8c7054a7474f06bbc5bb1d9fe8faa5aa6249c81200fa",
+    "companies.csv": "faffbf3854cb2a9c15177efad59a26d55eb33ee9d047e06a885492f0ffcfddb8",
+    "context.csv": "06bedda990b6878067034d47f04876b98fea215c875c11ecdaf8493d8c67d7e8",
+    "coverage.csv": "e2553b1c958f02f28f6e751b00875ffd27d966acd8ce10cef6e54175811d98af",
+    "denials.csv": "1d631f9de6826e06b47f301746deff44e49931412ca56fba6588bef6a99a9a7c",
+    "examples.sql": "cc7020c9b29af44e8ec2b78bb6b8fb568e0419b230430f83745f016802db7514",
+    "excluded_records.csv": "71d75cb24f71c4bcf2259910ad8009447ec1b93cfc8c21e7b56eb4b1fea0336d",
+    "function_evidence.csv": "70595f2b11a90382218d3b0a89f8aac7dbf331b7394727a9e10c20e761743f46",
+    "function_evidence_functions.csv": "fad056bc458d1d96002afdb31677c98809a5efff30224540467e34a71b54b101",
+    "functions.csv": "96d4125d68adb2a5edf544efb69da99f8e4c668f8dba0f0ada77a745586389a3",
+    "headcount_accounts.csv": "05a7ccd089e1b8209f58e0d89245f09e95c6b2f47e1e354531d69242cfcb5584",
+    "layoffs.sqlite": "719a6217ed41a8e0dc6007465c3ff3d7ca219bc902f6e0422f247f5d74191c9d",
+    "locations.csv": "e25db1154c0bbe2b583c736958c4e245054c76a48bab808df4ed2d1dbedb4684",
+    "record_causes.csv": "cb1f92e6b257ae2d7e276d945a06d4b7e5250d714bd7fc9864fb6f7154f867a7",
+    "record_functions.csv": "31e8a2abdfbc90b6a27069d0cc29bd94eb402e23762cbbaa7ecfb70d06c208a8",
+    "record_sources.csv": "c0018f09d1dec8c1241941b1ea106a2b0a8e37fc945a503651459e662d40c0ef",
+    "records.csv": "f8fa5df0391bebeb3c9ea73a71dc64320f739f19381165e26ebadeaf0459c79b",
+    "related_records.csv": "077e973d94c5359979ec46d0c53e8cc04738d43080a857f4954e12bd11fa2886",
+    "review_issues.csv": "ae6a21bef4a0599a7d2bc55067ea3bdbe760434b68c41cd7a151f754438f5a5b",
+    "schema.sql": "3b32c0e8bc5c9f7b538b5b3039e5b9136dd68c695c2d73e157837a1b25dbd675",
+    "sources.csv": "bf930d3ed85b13ab1367e4edffd57608bfaeaae86a26dd6541a941dff7e4c404",
+    "work_levels.csv": "70ecbcc859d346d960db444e87b12e79d0674a98023b0760404900c014cb4c06",
+    "work_units.csv": "c57c9fbe5dcde882d2116dc26cb5bbc04b4285877234cb25779e37bf638564b8",
+    "workforce_metrics.csv": "08ee66c7daab81a0838fe2d3db51b4b23020cfc0904c2fe046a7acf5b8d2264b"
+  }
+}

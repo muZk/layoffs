@@ -1,0 +1,66 @@
+{
+  "company": "Taboola",
+  "source_url": "https://stockanalysis.com/stocks/tbla/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Taboola.com (TBLA) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "2,000"
+    ],
+    [
+      "Dec 31, 2024",
+      "2,000"
+    ],
+    [
+      "Dec 31, 2023",
+      "1,900"
+    ],
+    [
+      "Dec 31, 2022",
+      "1,815"
+    ],
+    [
+      "Dec 31, 2021",
+      "1,800"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Weibo",
+      "5,651"
+    ],
+    [
+      "Yelp Inc.",
+      "5,168"
+    ],
+    [
+      "WEBTOON Entertainment",
+      "1,800"
+    ],
+    [
+      "Groupon",
+      "1,734"
+    ],
+    [
+      "Cars.com",
+      "1,700"
+    ],
+    [
+      "Hello Group",
+      "1,400"
+    ],
+    [
+      "Upwork",
+      "630"
+    ],
+    [
+      "Opera",
+      "605"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

@@ -1,0 +1,66 @@
+{
+  "company": "Coinbase",
+  "source_url": "https://stockanalysis.com/stocks/coin/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Coinbase Global (COIN) Number of Employees 2020-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "4,951"
+    ],
+    [
+      "Dec 31, 2024",
+      "3,772"
+    ],
+    [
+      "Dec 31, 2023",
+      "3,416"
+    ],
+    [
+      "Dec 31, 2022",
+      "4,510"
+    ],
+    [
+      "Dec 31, 2021",
+      "3,730"
+    ],
+    [
+      "Dec 31, 2020",
+      "1,249"
+    ],
+    [
+      "S&P Global",
+      "44,500"
+    ],
+    [
+      "Moody's",
+      "16,076"
+    ],
+    [
+      "TransUnion",
+      "13,500"
+    ],
+    [
+      "Intercontinental Exchange",
+      "12,844"
+    ],
+    [
+      "FactSet Research Systems",
+      "12,800"
+    ],
+    [
+      "Morningstar",
+      "10,937"
+    ],
+    [
+      "Nasdaq",
+      "9,525"
+    ],
+    [
+      "MSCI Inc.",
+      "6,286"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

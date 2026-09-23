@@ -1,0 +1,114 @@
+{
+  "company": "MARA",
+  "source_url": "https://stockanalysis.com/stocks/mara/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "MARA Holdings (MARA) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "266"
+    ],
+    [
+      "Sep 30, 2025",
+      "228"
+    ],
+    [
+      "Jun 30, 2025",
+      "201"
+    ],
+    [
+      "Mar 31, 2025",
+      "171"
+    ],
+    [
+      "Dec 31, 2024",
+      "152"
+    ],
+    [
+      "Sep 30, 2024",
+      "130"
+    ],
+    [
+      "Jun 30, 2024",
+      "109"
+    ],
+    [
+      "Mar 31, 2024",
+      "60"
+    ],
+    [
+      "Dec 31, 2023",
+      "60"
+    ],
+    [
+      "Sep 30, 2023",
+      "48"
+    ],
+    [
+      "Jun 30, 2023",
+      "40"
+    ],
+    [
+      "Dec 31, 2022",
+      "30"
+    ],
+    [
+      "Dec 31, 2021",
+      "10"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2016",
+      "Upgrade Pro"
+    ],
+    [
+      "BGC Group",
+      "4,560"
+    ],
+    [
+      "Marex Group",
+      "3,347"
+    ],
+    [
+      "Lazard",
+      "3,279"
+    ],
+    [
+      "Piper Sandler Companies",
+      "1,858"
+    ],
+    [
+      "Lincoln International",
+      "1,453"
+    ],
+    [
+      "Moelis & Company",
+      "1,416"
+    ],
+    [
+      "PJT Partners",
+      "1,224"
+    ],
+    [
+      "MarketAxess Holdings",
+      "868"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

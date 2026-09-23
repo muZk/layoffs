@@ -1,0 +1,74 @@
+{
+  "company": "Uber",
+  "source_url": "https://stockanalysis.com/stocks/uber/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Uber Technologies (UBER) Number of Employees 2018-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "34,000"
+    ],
+    [
+      "Dec 31, 2024",
+      "31,100"
+    ],
+    [
+      "Dec 31, 2023",
+      "30,400"
+    ],
+    [
+      "Dec 31, 2022",
+      "32,800"
+    ],
+    [
+      "Dec 31, 2021",
+      "29,300"
+    ],
+    [
+      "Dec 31, 2020",
+      "22,800"
+    ],
+    [
+      "Dec 31, 2019",
+      "26,900"
+    ],
+    [
+      "Dec 31, 2018",
+      "22,263"
+    ],
+    [
+      "SAP SE",
+      "111,397"
+    ],
+    [
+      "Salesforce",
+      "83,334"
+    ],
+    [
+      "Automatic Data Processing",
+      "67,000"
+    ],
+    [
+      "Adobe",
+      "31,360"
+    ],
+    [
+      "ServiceNow",
+      "29,187"
+    ],
+    [
+      "Intuit",
+      "18,600"
+    ],
+    [
+      "Cadence Design Systems",
+      "13,800"
+    ],
+    [
+      "Snowflake",
+      "9,060"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

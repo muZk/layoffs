@@ -1,36 +1,58 @@
-# --- Reporte (publicado en trabajoremoto.cl, no en este repo) ---
-top-findings*.md
-top-findings*.html
-top-findings-es/
-fintualist-*.md
-fintualist-*.html
-results.md
-meta-profile-breakdown.md
-other-profiles-breakdown.md
-ai-cost-reality.md
+# Historical drafts and research: retained locally, outside the active repository.
+/archive/
+/2026-airtable-raw.json
+/2026-enriched.json
+/2026-reasons.json
+/2026_recovery_round2_results.json
+/airtable-labels.json
+/sources.md
+/auditoria-sobrecontratacion.md
+/explore.ipynb
+/explore_stats.ipynb
+/top-findings.md
+/top-findings.html
+/top-findings-es/
+/fintualist-*.md
+/fintualist-*.html
+/results.md
+/meta-profile-breakdown.md
+/other-profiles-breakdown.md
+/ai-cost-reality.md
+/lenny.md
+/market-2026.md
+/latam.md
+/youtube-inputs.md
+/videos.md
+/healthtech/
+/getonboard/
 
-# --- Pipeline de visualización (no parte del dataset reproducible) ---
-charts.py
-build_all.py
-build_html.py
-charts/
-assets/
-getonboard/
+# Previous visualization pipeline; report/assets remains part of the current site.
+/charts.py
+/build_all.py
+/build_html.py
+/charts/
+/charts_marca/
+/assets/
 
-# --- Material de trabajo / texto ajeno ---
-lenny.md
-market-2026.md
-latam.md
-youtube-inputs.md
-videos.md
-healthtech/
+# Local design research and generated download bundles.
+/.impeccable/
+/DESIGN.md
+/PRODUCT.md
+/layoff-report-draft.zip
+/data/layoffs-normalized.zip
+/notebooks/ejemplo-exploratorio.zip
 
-# --- Python / OS ---
+# Python, operating system and editor artifacts.
 __pycache__/
 *.pyc
 .DS_Store
-
-# --- Editor / IDE ---
 .claude/
 .vscode/
 .idea/
+.ipynb_checkpoints/
+*.sqlite.tmp
+
+# Local credentials.
+.env
+.env.*
+!.env.example

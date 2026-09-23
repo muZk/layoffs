@@ -1,0 +1,70 @@
+{
+  "company": "Life360",
+  "source_url": "https://stockanalysis.com/stocks/lif/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Life360 (LIF) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "547"
+    ],
+    [
+      "Dec 31, 2024",
+      "455"
+    ],
+    [
+      "Dec 31, 2023",
+      "383"
+    ],
+    [
+      "Dec 31, 2022",
+      "400"
+    ],
+    [
+      "Sep 30, 2022",
+      "600"
+    ],
+    [
+      "Jun 30, 2022",
+      "600"
+    ],
+    [
+      "Mar 31, 2022",
+      "400"
+    ],
+    [
+      "NCR Atleos",
+      "20,000"
+    ],
+    [
+      "Sportradar Group AG",
+      "4,882"
+    ],
+    [
+      "Freshworks",
+      "4,500"
+    ],
+    [
+      "monday.com",
+      "3,155"
+    ],
+    [
+      "SPS Commerce",
+      "2,948"
+    ],
+    [
+      "Q2 Holdings",
+      "2,549"
+    ],
+    [
+      "Agilysys",
+      "2,413"
+    ],
+    [
+      "CCC Intelligent Solutions Holdings",
+      "2,185"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

@@ -1,0 +1,61 @@
+evidence_id,record_id,attribution,summary,source_id,evidence_access
+layoff-2026-005_function_0,layoff-2026-005,company_stated,Company identifies go-to-market roles and customer segmentation/account coverage.,src_5dc19f42157b3dd423e5,full
+layoff-2026-006_function_0,layoff-2026-006,company_stated,"The existing event review identifies three of four engineering staff, not three quarters of all staff.",src_a1f9637478ae489e6a2d,prior_review
+layoff-2026-007_function_0,layoff-2026-007,company_stated,Manufacturing facilities and their workers are affected; some may be retained rather than laid off.,src_0192f963683e2dc43f9c,prior_review
+layoff-2026-008_function_0,layoff-2026-008,press_reported,The corrected report identifies UX writing/content roles being integrated with design.,src_65ec8191d5f8a27c21c1,prior_review
+layoff-2026-015_function_0,layoff-2026-015,company_stated,CEO identifies reductions in sales and development divisions.,src_bb15daf6933140109bf9,full
+layoff-2026-018_function_0,layoff-2026-018,company_stated,Employee message says most impact falls on customer-facing sales teams.,src_4828391f332e6f02a96d,full
+layoff-2026-019_function_0,layoff-2026-019,press_reported,Existing source review identifies partnership roles in the January event.,src_34ff43ba7842985f4104,prior_review
+layoff-2026-025_function_0,layoff-2026-025,company_stated,"Proposed changes affect Technology and IT/Data, especially leadership; new engineering roles are also planned.",src_36171da3c2e2b8cdbf13,full
+layoff-2026-029_function_0,layoff-2026-029,press_reported,Report identifies engineers on technology and enterprise efforts.,src_ac1213bc7efe6b81b75f,full
+layoff-2026-034_function_0,layoff-2026-034,company_stated,"Company closes the local R&D center, retaining sales/business roles.",src_921f15a1a841b788f477,full
+layoff-2026-036_function_0,layoff-2026-036,press_reported,Non-revenue-generating Global Customer Operations roles are identified. Do not assume all are support agents.,src_3e73a3a62029148bd200,full
+layoff-2026-037_function_0,layoff-2026-037,press_reported,"Report identifies marketing, product management and data analytics roles.",src_d21b69d2d71b0dfab628,full
+layoff-2026-042_function_0,layoff-2026-042,press_reported,Most affected employees are described as relatively senior marketing and sales staff.,src_41435b45d764e14ac2e1,full
+layoff-2026-043_function_0,layoff-2026-043,press_reported,Report describes the reduced development organization and only a small remaining developer team.,src_dd660c455e5eb4fbfc46,full
+layoff-2026-044_function_0,layoff-2026-044,press_reported,Cuts concern the cloud division of Huawei’s Israeli development center.,src_644bae172dd33ca77884,full
+layoff-2026-046_function_0,layoff-2026-046,worker_reported,Curriculum team producing interactive learning content was eliminated.,src_a8adb8d4c879bf194c33,full
+layoff-2026-047_function_0,layoff-2026-047,company_stated,"Company explicitly names sales, operations, design and marketing in the multi-month reduction.",src_742535d001dc0091b706,full
+layoff-2026-049_function_0,layoff-2026-049,worker_reported,Reporting cites employees in software engineering and recruitment who say they were laid off.,src_54164919725949b8ef86,full
+layoff-2026-051_function_0,layoff-2026-051,company_stated,"Company plan initially targets product/development and customer service, including e2open.",src_379d0a01b5956f8e2e41,full
+layoff-2026-057_function_0,layoff-2026-057,press_reported,"Design, operations, marketing and support are reported; CTO confirms design, operations and support. This is the February eight-person round.",src_c886730b84a3bd34b5f4,full
+layoff-2026-061_function_0,layoff-2026-061,press_reported,Original report explicitly identifies development employees.,src_0d6531b964054f702222,full
+layoff-2026-067_function_0,layoff-2026-067,company_stated,Company spokesperson identifies more than 900 software R&D positions.,src_f3bba61627d4b24d006b,full
+layoff-2026-074_function_0,layoff-2026-074,press_reported,Existing event review identifies technical-writing cuts without establishing AI replacement.,src_a80359751eea71d6a200,prior_review
+layoff-2026-076_function_0,layoff-2026-076,press_reported,Variety identifies a staff writer and special-projects/editorial work among those eliminated.,src_6cf274223009e3fd1c3e,full
+layoff-2026-078_function_0,layoff-2026-078,worker_reported,Employee account says all support engineers for one product were terminated.,src_39e1db3f128e3c2a5ff0,full
+layoff-2026-089_function_0,layoff-2026-089,press_reported,The April report identifies Sonos marketing cuts; separate from the June product/design round.,src_5ab96e0322d7e436d131,full
+layoff-2026-094_function_0,layoff-2026-094,worker_reported,Employee account identifies product and development as the main affected teams.,src_33e46c7c9d3e6887de73,full
+layoff-2026-098_function_0,layoff-2026-098,company_stated,Filing describes the consolidation of corporate functions.,src_da4bda79776c12ff6fea,prior_review
+layoff-2026-102_function_0,layoff-2026-102,press_reported,Sources identify development roles as the main target.,src_b723ef0d1f4e2a7d6c81,full
+layoff-2026-112_function_0,layoff-2026-112,press_reported,Report identifies shared SG&A functions. Their broad label is not split into unsupported sales/finance occupations.,src_56c0b778351308d86dee,full
+layoff-2026-120_function_0,layoff-2026-120,press_reported,Original report identifies marketing and headquarters roles.,src_4ec39c36255e9760769a,full
+layoff-2026-121_function_0,layoff-2026-121,press_reported,"Accessible title identifies revenue operations; normalized to commercial/sales operations, with limited source access.",src_237fff67c60240c9353f,partial
+layoff-2026-123_function_0,layoff-2026-123,press_reported,Report explicitly identifies developers among the affected staff.,src_3fea76e3b2d9b4582dec,full
+layoff-2026-128_function_0,layoff-2026-128,press_reported,"Reporting names sales, product development and marketing, with affected systems and sales engineers.",src_e5e74306d1778e72ff99,full
+layoff-2026-131_function_0,layoff-2026-131,company_stated,"Company names marketing, technology, product/design, real-estate and mortgage functions; the latter are grouped as operating services.",src_0083f955493f078c45f3,full
+layoff-2026-135_function_0,layoff-2026-135,press_reported,"Reported cuts primarily affect engineering, product and design.",src_d346324db4d16699f565,full
+layoff-2026-140_function_0,layoff-2026-140,worker_reported,"Sources identify product, design, content, teaching and business operations; CUET/UPSC/judiciary are program areas.",src_b5686f5afca4bae25d18,full
+layoff-2026-143_function_0,layoff-2026-143,press_reported,Indexed original report explicitly identifies development and support moving to Budapest.,src_65450c84608c0fc540c1,partial
+layoff-2026-144_function_0,layoff-2026-144,press_reported,Reporting identifies R&D and downmarket sales/marketing cuts.,src_b1a19d370a12d44668e9,full
+layoff-2026-145_function_0,layoff-2026-145,company_stated,"Company confirms non-renewal of 58 contracts in engineering, product and data.",src_2bd54121c9b7e1e3953e,full
+layoff-2026-149_function_0,layoff-2026-149,press_reported,"Report relays Reuters identification of engineering, product and marketing staff.",src_10964fc555ea7a4fcb0f,full
+layoff-2026-169_function_0,layoff-2026-169,worker_reported,Affected employees identify a marketing reorganization.,src_3236a0dee522ea1ef6c8,prior_review
+layoff-2026-173_function_0,layoff-2026-173,press_reported,"The June report identifies user experience, product and design; includes leadership positions.",src_e26f62684c1eaf13ca99,full
+layoff-2026-183_function_0,layoff-2026-183,press_reported,Report connects this June reduction with ending a factory second shift; do not transfer exclusions from February.,src_f3654349be631abb06d7,full
+layoff-2026-189_function_0,layoff-2026-189,company_stated,"Filing identifies legacy service delivery, primarily in the Public Cloud unit.",src_7bdfca1cc0dcf738164b,full
+layoff-2026-191_function_0,layoff-2026-191,press_reported,"Reporting identifies Offering teams spanning product, technology, design and data; most affected held engineering/data roles.",src_59991296728e256cc344,full
+layoff-2026-193_function_0,layoff-2026-193,press_reported,Reporting identifies developer jobs.,src_e8d2380fa646607ebb1b,full
+layoff-2026-194_function_0,layoff-2026-194,company_stated,CEO identifies operating work being brought back to the United States.,src_f3e47acb4975baeb91bf,full
+layoff-2026-199_function_0,layoff-2026-199,company_stated,Company connects the reduction to lower need for internal customer support and deployment teams.,src_5e33a00d835bdb81a9ed,full
+layoff-2026-201_function_0,layoff-2026-201,press_reported,"Original reporting names development, product and professional services.",src_bb141036792f577bd771,full
+layoff-2026-202_function_0,layoff-2026-202,press_reported,"Sources identify software engineering, customer service and business development.",src_0cda71f0a2b5c176bd48,full
+layoff-2026-204_function_0,layoff-2026-204,press_reported,Original report title and corroborating reporting identify cybersecurity teams; complete original access remains limited.,src_88888ece26fb39472cf7,partial
+layoff-2026-205_function_0,layoff-2026-205,company_stated,"Reporting and company memo identify the People division, including HR and recruitment.",src_b344c4c6792b172edfe5,full
+layoff-2026-209_function_0,layoff-2026-209,press_reported,Most affected employees are described as working in core software and product development.,src_20ec1377074925cc83ff,full
+layoff-2026-210_function_0,layoff-2026-210,press_reported,"WARN-based reporting names engineering, product/design, legal/finance/procurement, marketing, security, talent acquisition, editorial and member success.",src_3d54d761b791dbb9abc9,full
+layoff-2026-217_function_0,layoff-2026-217,press_reported,"Report identifies software engineering, product management and sales.",src_243088ba6f62abcd317a,full
+layoff-2026-221_function_0,layoff-2026-221,press_reported,Report identifies all positions in the Sydney R&D/engineering team.,src_5333ae047537a0071339,full
+layoff-2026-225_function_0,layoff-2026-225,press_reported,"Updated article names IT, engineering, cybersecurity, marketing and customer service. Scope spans two April notices.",src_46c5757bb0ed92d2dd8c,full
+layoff-2026-229_function_0,layoff-2026-229,company_stated,"CEO describes departing staff as engineers and operators, among other builders.",src_6b908a863b572c9dda2d,full
+layoff-2026-233_function_0,layoff-2026-233,press_reported,"Accessible original caption names executives in HR, corporate development, product development, legal and procurement; full causal report remains restricted.",src_7f186b4a35766c1190a2,partial

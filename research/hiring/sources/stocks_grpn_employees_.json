@@ -1,0 +1,82 @@
+{
+  "company": "Groupon",
+  "source_url": "https://stockanalysis.com/stocks/grpn/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Groupon (GRPN) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "1,734"
+    ],
+    [
+      "Dec 31, 2024",
+      "2,079"
+    ],
+    [
+      "Dec 31, 2023",
+      "2,213"
+    ],
+    [
+      "Dec 31, 2022",
+      "2,904"
+    ],
+    [
+      "Dec 31, 2021",
+      "3,675"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2016",
+      "Upgrade Pro"
+    ],
+    [
+      "Yelp Inc.",
+      "5,168"
+    ],
+    [
+      "Taboola.com",
+      "2,000"
+    ],
+    [
+      "Cars.com",
+      "1,700"
+    ],
+    [
+      "Hello Group",
+      "1,400"
+    ],
+    [
+      "trivago",
+      "893"
+    ],
+    [
+      "NerdWallet",
+      "650"
+    ],
+    [
+      "Upwork",
+      "630"
+    ],
+    [
+      "Bumble",
+      "580"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

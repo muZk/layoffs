@@ -1,0 +1,78 @@
+{
+  "company": "Freshworks",
+  "source_url": "https://stockanalysis.com/stocks/frsh/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Freshworks (FRSH) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "4,500"
+    ],
+    [
+      "Dec 31, 2024",
+      "4,400"
+    ],
+    [
+      "Dec 31, 2023",
+      "4,900"
+    ],
+    [
+      "Dec 31, 2022",
+      "5,400"
+    ],
+    [
+      "Dec 31, 2021",
+      "4,600"
+    ],
+    [
+      "Sep 30, 2021",
+      "4,427"
+    ],
+    [
+      "Jun 30, 2021",
+      "4,130"
+    ],
+    [
+      "Mar 31, 2021",
+      "3,884"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "NCR Atleos",
+      "20,000"
+    ],
+    [
+      "monday.com",
+      "3,155"
+    ],
+    [
+      "SPS Commerce",
+      "2,948"
+    ],
+    [
+      "Q2 Holdings",
+      "2,549"
+    ],
+    [
+      "Agilysys",
+      "2,413"
+    ],
+    [
+      "CCC Intelligent Solutions Holdings",
+      "2,185"
+    ],
+    [
+      "Braze",
+      "1,988"
+    ],
+    [
+      "Fastly",
+      "1,140"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

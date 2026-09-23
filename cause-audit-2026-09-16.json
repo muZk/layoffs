@@ -1,0 +1,5375 @@
+{
+  "scope": "All 163 records; review of existing recorded evidence, not a fresh source verification.",
+  "definition": "Mechanism explicitly linked to the cut in the recorded explanation. Attribution basis is separate; inclusion does not establish independent proof.",
+  "events": [
+    {
+      "company": "Multiverse",
+      "date": "2026-01-05",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "'revenue per employee' target, rising staff costs"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "Strategy to employ slightly fewer people while increasing compensation and productivity, citing rising staff costs and efforts to improve revenue per employee."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Angi",
+      "date": "2026-01-07",
+      "before": {
+        "causes": [
+          "ai_substitution_claim"
+        ],
+        "cause_evidence": {
+          "ai_substitution_claim": "ai_link=direct_substitution, basis=company_informal (informal channel: tweet/LinkedIn/spokesperson)"
+        }
+      },
+      "after": {
+        "causes": [
+          "ai_substitution",
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ai_substitution": "Angi announced ~350 layoffs to 'reduce operating expenses and optimize the organizational structure in support of long-term growth and in light of AI-driven efficiency improvements.' Expected to save $70-80M annually with ~$30M in restructuring charges. Most engineers among affected; ML algorithms now handle 'a substantial portion of what was once manual labor.'",
+          "cost_cutting": "The announcement explicitly links the cuts to reducing operating expenses and targets $70–80M in annual savings."
+        },
+        "cause_basis": {
+          "ai_substitution": "company_stated",
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Foretellix",
+      "date": "2026-01-08",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Hailo",
+      "date": "2026-01-08",
+      "before": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_evidence": {
+          "strategic_pivot": "reason_primary=strategic_pivot"
+        }
+      },
+      "after": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "strategic_pivot": "Strategic repositioning to expand into robotics and Physical AI while reducing investment in other areas adopting the technology more slowly; not financial distress."
+        },
+        "cause_basis": {
+          "strategic_pivot": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Kaseya",
+      "date": "2026-01-08",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "Account-management teams are being reorganized by customer segment as part of a redesigned go-to-market structure."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Tailwind Labs",
+      "date": "2026-01-08",
+      "before": {
+        "causes": [
+          "unknown"
+        ],
+        "cause_evidence": {
+          "unknown": "reason_primary=unknown"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "unknown",
+          "previous_evidence": "reason_primary=unknown",
+          "disposition": "unresolved",
+          "rationale": "Unknown is an evidence status, not a cause."
+        }
+      ]
+    },
+    {
+      "company": "FormFactor",
+      "date": "2026-01-09",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [
+          "regulatory"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "regulatory": "The company cites import tariffs as a driver of the cuts and facility closures."
+        },
+        "cause_basis": {
+          "regulatory": "reported_mechanism"
+        },
+        "observations": [
+          "market_change"
+        ],
+        "observation_evidence": {
+          "market_change": "The company cites changes in market demand, but the recorded text does not establish a decline. No demand-collapse cause is inferred."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "reason_primary=cost_cutting",
+          "disposition": "unresolved",
+          "rationale": "Restructuring charges are a consequence, not a savings target; the recorded drivers are tariffs and market demand."
+        }
+      ]
+    },
+    {
+      "company": "MercadoLibre",
+      "date": "2026-01-12",
+      "before": {
+        "causes": [
+          "ai_substitution_claim"
+        ],
+        "cause_evidence": {
+          "ai_substitution_claim": "narrow claim (UX writers) while net-adding ~42k jobs; affected workers trained the replacing AI"
+        }
+      },
+      "after": {
+        "causes": [
+          "ai_substitution"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ai_substitution": "MercadoLibre laid off 119 people (originally 116 reported) due to AI expansion, primarily UX writers - the team behind app/website copy. Affected 38 in Brazil and 32 in Argentina. Cofounder Marcos Galperin said his focus would shift to AI projects and mastering 'this transition to the world of agents.' Some affected workers reported training the AI that replaced them."
+        },
+        "cause_basis": {
+          "ai_substitution": "company_and_worker_reported"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Meta",
+      "date": "2026-01-13",
+      "before": {
+        "causes": [
+          "strategic_pivot",
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "strategic_pivot": "reason_primary=strategic_pivot",
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "strategic_pivot",
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "strategic_pivot": "CTO Andrew Bosworth memo: Meta is 'shifting some of our investment from Metaverse toward Wearables' to make the business 'more sustainable,' reinvesting savings into wearables/AR (smart glasses, controllers). ~10% of Reality Labs cut; AR roles were preserved while VR/metaverse investment was scaled back. Reflects the broader pivot from metaverse to AI.",
+          "cost_cutting": "CTO Andrew Bosworth memo: Meta is 'shifting some of our investment from Metaverse toward Wearables' to make the business 'more sustainable,' reinvesting savings into wearables/AR (smart glasses, controllers). ~10% of Reality Labs cut; AR roles were preserved while VR/metaverse investment was scaled back. Reflects the broader pivot from metaverse to AI."
+        },
+        "cause_basis": {
+          "strategic_pivot": "reported_mechanism",
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "StoreDot",
+      "date": "2026-01-13",
+      "before": {
+        "causes": [
+          "ipo_prep"
+        ],
+        "cause_evidence": {
+          "ipo_prep": "reason_primary=ipo_prep"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "ipo_prep",
+          "previous_evidence": "reason_primary=ipo_prep",
+          "disposition": "unresolved",
+          "rationale": "IPO proximity is described as a suggestion, not a stated or documented driver."
+        }
+      ]
+    },
+    {
+      "company": "eToro",
+      "date": "2026-01-13",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Aleph Alpha",
+      "date": "2026-01-14",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Playtika",
+      "date": "2026-01-14",
+      "before": {
+        "causes": [
+          "restructuring_unspecified",
+          "offshoring",
+          "demand_collapse"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague",
+          "offshoring": "Israel -> Bucharest (thin)",
+          "demand_collapse": "6th round of secular decline; focus on fewer games"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified",
+          "unverified_work_relocation",
+          "market_weakness"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately.",
+          "unverified_work_relocation": "Israel -> Bucharest (thin) Review: The offshoring evidence is explicitly marked thin; repeated cuts and fewer games do not establish demand decline as the cause of this round.",
+          "market_weakness": "6th round of secular decline; focus on fewer games Review: The offshoring evidence is explicitly marked thin; repeated cuts and fewer games do not establish demand decline as the cause of this round."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        },
+        {
+          "previous_tag": "offshoring",
+          "previous_evidence": "Israel -> Bucharest (thin)",
+          "disposition": "unverified_work_relocation",
+          "rationale": "The offshoring evidence is explicitly marked thin; repeated cuts and fewer games do not establish demand decline as the cause of this round."
+        },
+        {
+          "previous_tag": "demand_collapse",
+          "previous_evidence": "6th round of secular decline; focus on fewer games",
+          "disposition": "market_weakness",
+          "rationale": "The offshoring evidence is explicitly marked thin; repeated cuts and fewer games do not establish demand decline as the cause of this round."
+        }
+      ]
+    },
+    {
+      "company": "Ericsson",
+      "date": "2026-01-15",
+      "before": {
+        "causes": [
+          "demand_collapse"
+        ],
+        "cause_evidence": {
+          "demand_collapse": "reason_primary=demand_collapse"
+        }
+      },
+      "after": {
+        "causes": [
+          "demand_collapse"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "demand_collapse": "Press manager Ralf Begner cited competitive pressure in telecom: 'the market has not shown any growth while inflationary pressure continues, and the company must continue to work on reducing its costs to ensure its long-term technology leadership.' Driven by a sharp decline in 5G network investments globally as carriers shift from rollout to monetization. Cuts hit core business and R&D in Sweden (>1 in 10 of 12,600 Swedish staff)."
+        },
+        "cause_basis": {
+          "demand_collapse": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Tipalti",
+      "date": "2026-01-15",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "Israeli fintech Tipalti began another layoff round (industry estimates: 100+ employees) primarily affecting customer success, sales development, and engineering, with ~40% in R&D in Tel Aviv. Company cited economic headwinds and need to optimize operational efficiency. This was the second wave in ~2 months following a sales-restructuring round."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Polygon",
+      "date": "2026-01-16",
+      "before": {
+        "causes": [
+          "m_and_a"
+        ],
+        "cause_evidence": {
+          "m_and_a": "reason_primary=m_and_a_consolidation"
+        }
+      },
+      "after": {
+        "causes": [
+          "m_and_a"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "m_and_a": "Layoffs were due to role overlaps from the Coinme and Sequence acquisitions being integrated into Polygon Labs, while keeping overall headcount flat."
+        },
+        "cause_basis": {
+          "m_and_a": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Vimeo",
+      "date": "2026-01-21",
+      "before": {
+        "causes": [
+          "cost_cutting",
+          "m_and_a"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting",
+          "m_and_a": "two months after Bending Spoons' $1.38B acquisition; matches WeTransfer/Filmic post-acquisition pattern"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "acquisition_context"
+        ],
+        "observation_evidence": {
+          "acquisition_context": "two months after Bending Spoons' $1.38B acquisition; matches WeTransfer/Filmic post-acquisition pattern Review: Acquisition timing and a buyer’s historical pattern do not establish the mechanism of this specific round; no separate cost target is recorded."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "reason_primary=cost_cutting",
+          "disposition": "unresolved",
+          "rationale": "Acquisition timing and a buyer’s historical pattern do not establish the mechanism of this specific round; no separate cost target is recorded."
+        },
+        {
+          "previous_tag": "m_and_a",
+          "previous_evidence": "two months after Bending Spoons' $1.38B acquisition; matches WeTransfer/Filmic post-acquisition pattern",
+          "disposition": "acquisition_context",
+          "rationale": "Acquisition timing and a buyer’s historical pattern do not establish the mechanism of this specific round; no separate cost target is recorded."
+        }
+      ]
+    },
+    {
+      "company": "Autodesk",
+      "date": "2026-01-22",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "The cuts, mainly in customer-facing sales, complete a multi-year go-to-market transformation."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Shopify",
+      "date": "2026-01-22",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "strategic_pivot": "The partnerships division is being restructured to concentrate on agentic commerce."
+        },
+        "cause_basis": {
+          "strategic_pivot": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Roof Stacks",
+      "date": "2026-01-24",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Entropy",
+      "date": "2026-01-25",
+      "before": {
+        "causes": [
+          "shutdown"
+        ],
+        "cause_evidence": {
+          "shutdown": "reason_primary=shutdown_bankruptcy"
+        }
+      },
+      "after": {
+        "causes": [
+          "shutdown"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "shutdown": "Entropy is winding down because the company wasn't venture scale; after multiple pivots and layoffs, the founder couldn't find a viable business model supporting venture-level growth."
+        },
+        "cause_basis": {
+          "shutdown": "reported_closure"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Expedia",
+      "date": "2026-01-26",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "The company explicitly links role eliminations and new roles to simplifying its structure and reducing organizational layers."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "Expedia filed WARN notice Jan 28 cutting 162 tech roles at Seattle Interbay HQ (~10% of tech team) - software engineers, data engineers, product/program managers. Statement: 'We are eliminating roles as well as opening some new roles as we remain disciplined about assessing the skills we need for the future. We are also simplifying our structure and reducing organizational layers to move faster and with more accountability.' Cited competition and need to enhance AI-driven experiences. Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": null,
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Moon Active",
+      "date": "2026-01-27",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "The cuts are described as cost optimization following an internal operational review."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Pinterest",
+      "date": "2026-01-27",
+      "before": {
+        "causes": [
+          "ai_capex_reallocation"
+        ],
+        "cause_evidence": {
+          "ai_capex_reallocation": "ai_link=capex_funding, basis=company_stated"
+        }
+      },
+      "after": {
+        "causes": [
+          "ai_investment_reallocation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ai_investment_reallocation": "CEO Bill Ready told staff the cuts were to 'double down on an AI-forward approach,' redirecting resources to AI-focused roles and prioritizing AI-powered products. Also scaling back office space, with $35-45M in pre-tax restructuring charges expected by end of Q3. Stock plummeted on the news. Notable aftermath: Pinterest later fired engineers who built an internal layoff-tracking tool."
+        },
+        "cause_basis": {
+          "ai_investment_reallocation": "company_stated"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "ASML",
+      "date": "2026-01-28",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "Technology and IT organizations are being streamlined to reduce process inefficiencies and allow engineers to focus on engineering."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Amazon",
+      "date": "2026-01-28",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "The memo links corporate reductions to reducing layers, increasing ownership, and removing bureaucracy."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Gloo",
+      "date": "2026-01-29",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "reason_primary=cost_cutting",
+          "disposition": "unresolved",
+          "rationale": "Source inaccessible; no causal evidence beyond the legacy label."
+        }
+      ]
+    },
+    {
+      "company": "Kiwi.com",
+      "date": "2026-01-29",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Peloton",
+      "date": "2026-01-30",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "Peloton cut 11% of staff in a cost-cutting move primarily affecting engineering and enterprise teams. CEO Peter Stern informed staffers; second major reduction in six months after a 6% August 2025 cut. Targeting at least $100M in annual spending cuts through 2026. Came months after the weak-selling October 2025 Cross Training Series launch with Peloton IQ AI hardware."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Zupee",
+      "date": "2026-01-30",
+      "before": {
+        "causes": [
+          "regulatory"
+        ],
+        "cause_evidence": {
+          "regulatory": "reason_primary=regulatory"
+        }
+      },
+      "after": {
+        "causes": [
+          "regulatory"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "regulatory": "Zupee cut ~200 employees in a second phase of cost rationalization following India's August 2025 Promotion and Regulation of Online Gaming Act, which banned real-money gaming. Total cuts now ~370 across two rounds. Primarily affected tech and customer support; Zupee Studio (micro-drama vertical) was spared. Continuing health insurance and offering career transition support."
+        },
+        "cause_basis": {
+          "regulatory": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Expedia",
+      "date": "2026-02-01",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "The company links the cuts to simplifying its structure and reducing organizational layers."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Zillow",
+      "date": "2026-02-02",
+      "before": {
+        "causes": [
+          "restructuring_unspecified",
+          "performance_cull"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague",
+          "performance_cull": "performance-review framing in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "performance_cull"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "performance_cull": "Zillow let go ~200 employees (about 2%) in performance-based reductions tied to its annual review process. Spokesperson: 'After thoughtful consideration, we made the decision to separate a small number of employees whose performance did not meet expectations,' adding 'This decision is not connected to market conditions or recent business developments.' Primarily engineering, product, and sales."
+        },
+        "cause_basis": {
+          "performance_cull": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Zipcar",
+      "date": "2026-02-02",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "Boston headquarters functions are being consolidated into New Jersey as part of the restructuring."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Rewire",
+      "date": "2026-02-04",
+      "before": {
+        "causes": [
+          "restructuring_unspecified",
+          "offshoring"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "work_relocation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "work_relocation": "Parent Remitly is consolidating R&D to other global locations to streamline operations, reduce complexity, and focus on its most significant growth engines in cross-border money transfers."
+        },
+        "cause_basis": {
+          "work_relocation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Smartsheet",
+      "date": "2026-02-04",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "reason_primary=cost_cutting",
+          "disposition": "unresolved",
+          "rationale": "The actual statement is generic alignment; an investor’s reputation for higher margins is not an event-specific cost-cutting attribution."
+        }
+      ]
+    },
+    {
+      "company": "Workday",
+      "date": "2026-02-04",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Salesforce",
+      "date": "2026-02-09",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Fi.Money",
+      "date": "2026-02-10",
+      "before": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_evidence": {
+          "strategic_pivot": "reason_primary=strategic_pivot"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "strategic_pivot",
+          "previous_evidence": "reason_primary=strategic_pivot",
+          "disposition": "unresolved",
+          "rationale": "Source inaccessible; no causal evidence beyond the legacy label."
+        }
+      ]
+    },
+    {
+      "company": "Dayforce",
+      "date": "2026-02-11",
+      "before": {
+        "causes": [
+          "unknown"
+        ],
+        "cause_evidence": {
+          "unknown": "reason_primary=unknown"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "unknown",
+          "previous_evidence": "reason_primary=unknown",
+          "disposition": "unresolved",
+          "rationale": "Unknown is an evidence status, not a cause."
+        }
+      ]
+    },
+    {
+      "company": "Glossier",
+      "date": "2026-02-11",
+      "before": {
+        "causes": [
+          "new_ceo_turnaround"
+        ],
+        "cause_evidence": {
+          "new_ceo_turnaround": "reason_primary=new_ceo_turnaround"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "leadership_change"
+        ],
+        "observation_evidence": {
+          "leadership_change": "reason_primary=new_ceo_turnaround Review: A leadership change is context, not a causal mechanism by itself."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "new_ceo_turnaround",
+          "previous_evidence": "reason_primary=new_ceo_turnaround",
+          "disposition": "leadership_change",
+          "rationale": "A leadership change is context, not a causal mechanism by itself."
+        }
+      ]
+    },
+    {
+      "company": "Clari",
+      "date": "2026-02-12",
+      "before": {
+        "causes": [
+          "m_and_a"
+        ],
+        "cause_evidence": {
+          "m_and_a": "reason_primary=m_and_a_consolidation"
+        }
+      },
+      "after": {
+        "causes": [
+          "m_and_a"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "m_and_a": "Restructuring after the SalesLoft merger to eliminate overlapping sales, marketing, and engineering roles and accelerate investment in AI-powered revenue intelligence capabilities."
+        },
+        "cause_basis": {
+          "m_and_a": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Axonius",
+      "date": "2026-02-15",
+      "before": {
+        "causes": [
+          "ipo_prep"
+        ],
+        "cause_evidence": {
+          "ipo_prep": "reason_primary=ipo_prep"
+        }
+      },
+      "after": {
+        "causes": [
+          "ipo_prep"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ipo_prep": "Company said the cuts were part of refining its organizational structure and ensuring operational discipline and efficiency as it matures and prepares for an IPO."
+        },
+        "cause_basis": {
+          "ipo_prep": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Firebolt",
+      "date": "2026-02-15",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "Management said expanded AI-driven capabilities now reduce the need for a large engineering organization, citing a strategic shift to improve efficiency in a new technological era. Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": null,
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Huawei",
+      "date": "2026-02-15",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Cyberark",
+      "date": "2026-02-17",
+      "before": {
+        "causes": [
+          "m_and_a"
+        ],
+        "cause_evidence": {
+          "m_and_a": "reason_primary=m_and_a_consolidation"
+        }
+      },
+      "after": {
+        "causes": [
+          "m_and_a"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "m_and_a": "No explicit public statement; layoffs appear tied to post-merger consolidation with Palo Alto Networks, focused on overlapping sales, operational, and administrative roles created by the combination."
+        },
+        "cause_basis": {
+          "m_and_a": "reported_inference"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Codecademy",
+      "date": "2026-02-19",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Livspace",
+      "date": "2026-02-20",
+      "before": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "strategic_pivot",
+          "previous_evidence": null,
+          "disposition": "unresolved",
+          "rationale": "An AI-first statement does not identify a product or market pivot in this record."
+        }
+      ]
+    },
+    {
+      "company": "Lucid Motors",
+      "date": "2026-02-20",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "Interim CEO Marc Winterhoff said the cuts will 'improve operational effectiveness and optimize our resources' as Lucid pursues profitability."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "DraftKings",
+      "date": "2026-02-24",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "Company is reducing general and administrative costs amid a broader reorganization; AI is central to its evolving cost structure (automated RFPs, coding assistance, chatbots) and prediction market competition pressures."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "TrueCar",
+      "date": "2026-02-24",
+      "before": {
+        "causes": [
+          "restructuring_unspecified",
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague",
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting",
+          "strategic_pivot"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "After going private under founder Scott Painter, TrueCar refocused on profitability and its core mission, eliminating unprofitable initiatives (TrueCar+, TCMS, TCWS) that had consumed over half of company resources.",
+          "strategic_pivot": "The company is eliminating the named unprofitable TrueCar+, TCMS and TCWS initiatives to refocus on its core business."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism",
+          "strategic_pivot": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "WiseTech",
+      "date": "2026-02-24",
+      "before": {
+        "causes": [
+          "ai_substitution_claim",
+          "m_and_a"
+        ],
+        "cause_evidence": {
+          "ai_substitution_claim": "ASX release + CEO Appoo: 'the era of manually writing code... is over'; only ~500 of 2,000 executed in H1 FY26",
+          "m_and_a": "~$2.1B e2open acquisition doubled headcount to ~7,000; up to ~half the 2,000 cuts land on e2open (merger integration in AI clothing)"
+        }
+      },
+      "after": {
+        "causes": [
+          "ai_substitution",
+          "m_and_a"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ai_substitution": "CEO Zubin Appoo declared 'the era of manually writing code as the core act of engineering is over,' with AI displacing software development and customer service work across 40 countries. Context (verified 2026-07): the 2,000 cuts (~29%) are a two-year program, with ~500 executed in H1 FY26. They were announced following WiseTech's ~$2.1B acquisition of e2open (agreed 25-May-2025, closing 1H26), which roughly doubled global headcount from ~3,600 (Jun-2025) to ~7,000 — the ~29-30% figure only reconciles against that larger base, and reporting indicates up to ~half of the cuts land on e2open. WiseTech's own headcount was near-flat FY21-FY22 (1,860-2,000) and grew organically subsequently, so a substantial share is merger integration rather than pandemic-era over-hiring; AI substitution is the company's stated framing.",
+          "m_and_a": "The recorded reporting links up to approximately half of the planned cuts to integration of e2open. This is a reported allocation, not independently verified headcount."
+        },
+        "cause_basis": {
+          "ai_substitution": "company_stated",
+          "m_and_a": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "C3.ai",
+      "date": "2026-02-25",
+      "before": {
+        "causes": [
+          "financial_distress",
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "financial_distress": "wider loss, stock drop; CEO: cost structure 'simply too high'",
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "CEO Stephen Ehikian said the cost structure was 'simply too high' after aggressive 2024-25 hiring outpaced slower enterprise AI adoption; also cites AI-driven efficiency. Came alongside a wider loss and stock drop."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [
+          "financial_weakness"
+        ],
+        "observation_evidence": {
+          "financial_weakness": "wider loss, stock drop; CEO: cost structure 'simply too high' Review: Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "financial_distress",
+          "previous_evidence": "wider loss, stock drop; CEO: cost structure 'simply too high'",
+          "disposition": "financial_weakness",
+          "rationale": "Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      ]
+    },
+    {
+      "company": "Deliveroo",
+      "date": "2026-02-25",
+      "before": {
+        "causes": [
+          "market_exit"
+        ],
+        "cause_evidence": {
+          "market_exit": "reason_primary=lost_contract_market_exit"
+        }
+      },
+      "after": {
+        "causes": [
+          "market_exit"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "market_exit": "DoorDash, which acquired Deliveroo, closed Qatar and Singapore operations following a review of country-specific conditions, framed as aligning with long-term value for customers, merchants, and riders."
+        },
+        "cause_basis": {
+          "market_exit": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Block",
+      "date": "2026-02-26",
+      "before": {
+        "causes": [
+          "rehiring_same_roles",
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "rehiring_same_roles": "Business Insider (2026-03): at least 4 named laid-off employees rehired into the same roles within weeks (backfill_verdict left at ai_only by the July pass; the named rehires are the harder fact)"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "rehiring_same_roles",
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "rehiring_same_roles": "Business Insider (2026-03): at least 4 named laid-off employees rehired into the same roles within weeks (backfill_verdict left at ai_only by the July pass; the named rehires are the harder fact) Review: Post-cut hiring is an observation, not a cause of the earlier cuts.",
+          "restructuring_unspecified": "CEO Jack Dorsey said Block is shifting to operate with 'smaller, highly talented teams using AI to automate more work,' explicitly stating the business is strong and the cuts are an AI-driven structural change. Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "rehiring_same_roles",
+          "previous_evidence": "Business Insider (2026-03): at least 4 named laid-off employees rehired into the same roles within weeks (backfill_verdict left at ai_only by the July pass; the named rehires are the harder fact)",
+          "disposition": "rehiring_same_roles",
+          "rationale": "Post-cut hiring is an observation, not a cause of the earlier cuts."
+        },
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": null,
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Ocado",
+      "date": "2026-02-26",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "Targeting GBP150M in technology and support cost savings to achieve cash-flow positivity in fiscal 2025/26; cuts focused on UK head-office tech and back-office roles, including roughly half from R&D."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "eBay",
+      "date": "2026-02-26",
+      "before": {
+        "causes": [
+          "restructuring_unspecified",
+          "m_and_a"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague",
+          "m_and_a": "followed $1.2B Depop acquisition; 'areas of duplication'"
+        }
+      },
+      "after": {
+        "causes": [
+          "m_and_a"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "m_and_a": "Company said it is reinvesting and aligning its structure with strategic priorities, based on operating model needs and areas of duplication; cuts followed eBay's $1.2B Depop acquisition."
+        },
+        "cause_basis": {
+          "m_and_a": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Zap Africa",
+      "date": "2026-02-28",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "CTO described it as an 'AI-driven efficiency shift,' aligning operating costs with revenue-generating activities and trimming the team from 18 to 10 to match product priorities."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Verint Systems",
+      "date": "2026-03-02",
+      "before": {
+        "causes": [
+          "m_and_a"
+        ],
+        "cause_evidence": {
+          "m_and_a": "reason_primary=m_and_a_consolidation"
+        }
+      },
+      "after": {
+        "causes": [
+          "m_and_a"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "m_and_a": "Post-Thoma Bravo acquisition consolidation: Verint is being combined with Calabrio to build an AI-driven CX platform, with cuts focused on overlapping roles, overhead, and tightening R&D/go-to-market budgets."
+        },
+        "cause_basis": {
+          "m_and_a": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "MicroVision",
+      "date": "2026-03-03",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation",
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "Engineering, manufacturing, supply-chain and quality activities in Redmond are being consolidated into Orlando.",
+          "cost_cutting": "The consolidation plan explicitly aims to reduce operating expenses."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism",
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Amazon",
+      "date": "2026-03-04",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "At-Bay",
+      "date": "2026-03-04",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=path_to_profitability"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "CEO Rotem Iram said the R&D layoffs were part of a transition to operating profit while maintaining At-Bay's position in cyber insurance."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Envato",
+      "date": "2026-03-04",
+      "before": {
+        "causes": [
+          "restructuring_unspecified",
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague",
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "CEO Hichame Assi cited the need to respond to rapidly changing customer expectations and to reduce operating costs in order to invest further in product, marketing, and AI."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Supernal",
+      "date": "2026-03-04",
+      "before": {
+        "causes": [
+          "strategic_pivot",
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "strategic_pivot": "reason_primary=strategic_pivot",
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "Hyundai-backed eVTOL startup called the cuts 'a strategic pivot to ensure our staffing and cost structures are optimized for the long-term delivery of our market-aligned aircraft design' after lagging competitors and pausing flight testing."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "strategic_pivot",
+          "previous_evidence": "reason_primary=strategic_pivot",
+          "disposition": "unresolved",
+          "rationale": "The statement calls this a pivot but does not identify what product or market changes; staffing cost optimization is explicit and retained."
+        }
+      ]
+    },
+    {
+      "company": "SSense",
+      "date": "2026-03-05",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "reason_primary=cost_cutting",
+          "disposition": "unresolved",
+          "rationale": "Economic reasons are too broad to identify a specific mechanism."
+        }
+      ]
+    },
+    {
+      "company": "Flipkart",
+      "date": "2026-03-06",
+      "before": {
+        "causes": [
+          "restructuring_unspecified",
+          "performance_cull"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague",
+          "performance_cull": "performance-review framing in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "performance_cull"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "performance_cull": "Company said the cuts were part of its regular annual performance review process, through which a small percentage of employees transition out."
+        },
+        "cause_basis": {
+          "performance_cull": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "InvestCloud",
+      "date": "2026-03-10",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Atlassian",
+      "date": "2026-03-11",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "CEO Mike Cannon-Brookes said the company is pivoting toward AI and reorganizing for the AI era, changing the mix of skills and roles needed. Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": null,
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Digg",
+      "date": "2026-03-13",
+      "before": {
+        "causes": [
+          "strategic_pivot",
+          "financial_distress"
+        ],
+        "cause_evidence": {
+          "strategic_pivot": "reason_primary=strategic_pivot",
+          "financial_distress": "revenue_health=weakness (last quarter before the cut)"
+        }
+      },
+      "after": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "strategic_pivot": "CEO Justin Mezzell said sophisticated AI agents and bot spam had overwhelmed Digg's user-voting model, making it impossible to trust content rankings, forcing a retool and app shutdown."
+        },
+        "cause_basis": {
+          "strategic_pivot": "reported_mechanism"
+        },
+        "observations": [
+          "financial_weakness"
+        ],
+        "observation_evidence": {
+          "financial_weakness": "revenue_health=weakness (last quarter before the cut) Review: Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "financial_distress",
+          "previous_evidence": "revenue_health=weakness (last quarter before the cut)",
+          "disposition": "financial_weakness",
+          "rationale": "Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      ]
+    },
+    {
+      "company": "Loopio",
+      "date": "2026-03-13",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "reason_primary=cost_cutting",
+          "disposition": "unresolved",
+          "rationale": "Market conditions and sustainable growth do not specify cost cutting as the driver."
+        }
+      ]
+    },
+    {
+      "company": "Stone",
+      "date": "2026-03-13",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Dell",
+      "date": "2026-03-16",
+      "before": {
+        "causes": [
+          "cost_cutting",
+          "restructuring_unspecified",
+          "demand_collapse"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "Annual filing attributed the 10% workforce reduction to ongoing restructuring and cost controls (reorganizations, limited external hiring) amid weak PC demand. The 10-K Human Capital section contains no AI language; the widely-repeated 'shifting investment toward AI-optimized servers' framing was press inference, not filing text (adjudicated 2026-07-10)."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified",
+          "market_weakness"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "Annual filing attributed the 10% workforce reduction to ongoing restructuring and cost controls (reorganizations, limited external hiring) amid weak PC demand. The 10-K Human Capital section contains no AI language; the widely-repeated 'shifting investment toward AI-optimized servers' framing was press inference, not filing text (adjudicated 2026-07-10). Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately.",
+          "market_weakness": "Annual filing attributed the 10% workforce reduction to ongoing restructuring and cost controls (reorganizations, limited external hiring) amid weak PC demand. The 10-K Human Capital section contains no AI language; the widely-repeated 'shifting investment toward AI-optimized servers' framing was press inference, not filing text (adjudicated 2026-07-10). Review: Weak PC demand is contextual here; the filing attribution recorded in this row identifies cost controls, not an event-specific demand explanation."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": null,
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        },
+        {
+          "previous_tag": "demand_collapse",
+          "previous_evidence": null,
+          "disposition": "market_weakness",
+          "rationale": "Weak PC demand is contextual here; the filing attribution recorded in this row identifies cost controls, not an event-specific demand explanation."
+        }
+      ]
+    },
+    {
+      "company": "FranShares",
+      "date": "2026-03-17",
+      "before": {
+        "causes": [
+          "shutdown"
+        ],
+        "cause_evidence": {
+          "shutdown": "reason_primary=shutdown_bankruptcy"
+        }
+      },
+      "after": {
+        "causes": [
+          "shutdown"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "shutdown": "Chicago franchise-investing startup shut down operations (100% staff impacted); specific public rationale was not detailed beyond the company-wide closure."
+        },
+        "cause_basis": {
+          "shutdown": "reported_closure"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Crypto.com",
+      "date": "2026-03-19",
+      "before": {
+        "causes": [
+          "strategic_pivot",
+          "financial_distress",
+          "demand_collapse"
+        ],
+        "cause_evidence": {
+          "strategic_pivot": "reason_primary=strategic_pivot",
+          "financial_distress": "revenue_health=weakness (last quarter before the cut)",
+          "demand_collapse": "3rd round since 2022, crypto-cycle downturn"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "financial_weakness",
+          "market_weakness"
+        ],
+        "observation_evidence": {
+          "financial_weakness": "revenue_health=weakness (last quarter before the cut) Review: Weak results, losses or guidance changes alone do not link financial distress to this layoff.",
+          "market_weakness": "3rd round since 2022, crypto-cycle downturn Review: Repeated rounds and a sector downturn alone do not establish the cause of this round."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "financial_distress",
+          "previous_evidence": "revenue_health=weakness (last quarter before the cut)",
+          "disposition": "financial_weakness",
+          "rationale": "Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        },
+        {
+          "previous_tag": "demand_collapse",
+          "previous_evidence": "3rd round since 2022, crypto-cycle downturn",
+          "disposition": "market_weakness",
+          "rationale": "Repeated rounds and a sector downturn alone do not establish the cause of this round."
+        },
+        {
+          "previous_tag": "strategic_pivot",
+          "previous_evidence": "reason_primary=strategic_pivot",
+          "disposition": "unresolved",
+          "rationale": "Changing skill requirements for AI does not specify a product or market pivot."
+        }
+      ]
+    },
+    {
+      "company": "Snowflake",
+      "date": "2026-03-19",
+      "before": {
+        "causes": [
+          "ai_substitution_claim",
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "ai_substitution_claim": "ai_link=direct_substitution, basis=company_informal (informal channel: tweet/LinkedIn/spokesperson)",
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "ai_substitution"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ai_substitution": "Eliminated its entire technical writing and documentation team (~70 roles) as 'targeted adjustments' tied to its AI strategy, freeing budget for AI talent and Cortex agents following a $200M OpenAI partnership that automated documentation work."
+        },
+        "cause_basis": {
+          "ai_substitution": "company_stated"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Gemini",
+      "date": "2026-03-20",
+      "before": {
+        "causes": [
+          "market_exit",
+          "cost_cutting",
+          "financial_distress"
+        ],
+        "cause_evidence": {
+          "market_exit": "reason_primary=lost_contract_market_exit",
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "market_exit",
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "market_exit": "Company cited deploying AI tools to increase productivity amid heavy losses (~$587M-$602M for 2025), market exits (UK, EEA, Australia), and a pivot to prediction markets and a 'super app' model to support a path to profitability.",
+          "cost_cutting": "Company cited deploying AI tools to increase productivity amid heavy losses (~$587M-$602M for 2025), market exits (UK, EEA, Australia), and a pivot to prediction markets and a 'super app' model to support a path to profitability."
+        },
+        "cause_basis": {
+          "market_exit": "reported_mechanism",
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [
+          "financial_weakness"
+        ],
+        "observation_evidence": {
+          "financial_weakness": "Company cited deploying AI tools to increase productivity amid heavy losses (~$587M-$602M for 2025), market exits (UK, EEA, Australia), and a pivot to prediction markets and a 'super app' model to support a path to profitability. Review: Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "financial_distress",
+          "previous_evidence": null,
+          "disposition": "financial_weakness",
+          "rationale": "Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      ]
+    },
+    {
+      "company": "Spotify",
+      "date": "2026-03-23",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "Spotify said the podcast group cuts were intended to improve execution, speed, and alignment across teams, and were 'not about cost-cutting,' with continued investment in multiformat content and video. Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": null,
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Epic Games",
+      "date": "2026-03-24",
+      "before": {
+        "causes": [
+          "demand_collapse"
+        ],
+        "cause_evidence": {
+          "demand_collapse": "reason_primary=demand_collapse"
+        }
+      },
+      "after": {
+        "causes": [
+          "demand_collapse"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "demand_collapse": "Cited a downturn in Fortnite engagement starting in 2025 that caused spending to outpace revenue, along with industry-wide headwinds (slower growth, weaker spending, console softness); Epic explicitly said the cuts were not AI-related."
+        },
+        "cause_basis": {
+          "demand_collapse": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "OpenText",
+      "date": "2026-03-24",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Zendesk",
+      "date": "2026-03-24",
+      "before": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "strategic_pivot",
+          "previous_evidence": null,
+          "disposition": "unresolved",
+          "rationale": "The record itself says the event has no public source; broader AI strategy does not establish an event-specific pivot."
+        }
+      ]
+    },
+    {
+      "company": "Meta",
+      "date": "2026-03-25",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Monte Carlo",
+      "date": "2026-03-26",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "The recorded explanation links the cuts to a flatter organization; AI productivity remains a separate narrative."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "Restructuring to align with AI-driven productivity gains, reorganizing to be flatter and faster with AI-first products and workflows. Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": null,
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Quandoo",
+      "date": "2026-03-26",
+      "before": {
+        "causes": [
+          "shutdown"
+        ],
+        "cause_evidence": {
+          "shutdown": "reason_primary=shutdown_bankruptcy"
+        }
+      },
+      "after": {
+        "causes": [
+          "shutdown"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "shutdown": "Decision to cease operations in a planned and orderly manner; underlying business factors not disclosed in the article."
+        },
+        "cause_basis": {
+          "shutdown": "reported_closure"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Enpal",
+      "date": "2026-03-27",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "The customer-service subsidiary was dissolved and reorganized, and affected workers were asked to reapply."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Covrzy",
+      "date": "2026-03-31",
+      "before": {
+        "causes": [
+          "shutdown"
+        ],
+        "cause_evidence": {
+          "shutdown": "reason_primary=shutdown_bankruptcy"
+        }
+      },
+      "after": {
+        "causes": [
+          "shutdown",
+          "financial_distress"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "shutdown": "Persistent cash crunch and inability to secure funding, compounded by the CTO's resignation and two attempted acquisition deals falling through.",
+          "financial_distress": "The recorded explanation directly links the shutdown to a persistent cash crunch and inability to secure funding after acquisition attempts failed."
+        },
+        "cause_basis": {
+          "shutdown": "reported_closure",
+          "financial_distress": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Monzo",
+      "date": "2026-03-31",
+      "before": {
+        "causes": [
+          "market_exit"
+        ],
+        "cause_evidence": {
+          "market_exit": "reason_primary=lost_contract_market_exit"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "market_exit",
+          "previous_evidence": "reason_primary=lost_contract_market_exit",
+          "disposition": "unresolved",
+          "rationale": "Source inaccessible; no causal evidence beyond the legacy label."
+        }
+      ]
+    },
+    {
+      "company": "Oracle",
+      "date": "2026-03-31",
+      "before": {
+        "causes": [
+          "cost_cutting",
+          "m_and_a"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "Note 7: 2026 Restructuring Plan 'to further improve operational efficiencies', $1.78B FY26 expense, up to $2.1B; press framed the cut as funding the ~$50B AI capex push (the viral Catz/Ellison capex quotes are untraceable)",
+          "m_and_a": "the only headcount Oracle added FY22->FY23 came from Cerner (~25k); Oracle Health/Cerner cut every year since; the 539-person KC WARN is the only company-confirmed unit figure (the 8-10k Health number is a TD Cowen estimate)"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "The recorded FY26 restructuring-plan rationale is improving operational efficiencies. This is a plan-level attribution, not a count of March layoffs attributable to any one mechanism."
+        },
+        "cause_basis": {
+          "cost_cutting": "company_stated_plan_level"
+        },
+        "observations": [
+          "acquisition_context"
+        ],
+        "observation_evidence": {
+          "acquisition_context": "the only headcount Oracle added FY22->FY23 came from Cerner (~25k); Oracle Health/Cerner cut every year since; the 539-person KC WARN is the only company-confirmed unit figure (the 8-10k Health number is a TD Cowen estimate) Review: Cerner ownership and historical cuts do not establish merger integration as the cause of this round; a site-level WARN count does not establish the reason."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "m_and_a",
+          "previous_evidence": "the only headcount Oracle added FY22->FY23 came from Cerner (~25k); Oracle Health/Cerner cut every year since; the 539-person KC WARN is the only company-confirmed unit figure (the 8-10k Health number is a TD Cowen estimate)",
+          "disposition": "acquisition_context",
+          "rationale": "Cerner ownership and historical cuts do not establish merger integration as the cause of this round; a site-level WARN count does not establish the reason."
+        }
+      ]
+    },
+    {
+      "company": "Rec Room",
+      "date": "2026-03-31",
+      "before": {
+        "causes": [
+          "shutdown",
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "shutdown": "reason_primary=shutdown_bankruptcy",
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "shutdown",
+          "financial_distress"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "shutdown": "Shutdown due to inability to reach profitability amid the shift in the VR market and broader gaming headwinds, with expenses outpacing revenue despite 150M players.",
+          "financial_distress": "The recorded explanation directly links closure to expenses exceeding revenue and inability to reach profitability."
+        },
+        "cause_basis": {
+          "shutdown": "reported_closure",
+          "financial_distress": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "explicit savings/margin/profitability language in the public reason",
+          "disposition": "unresolved",
+          "rationale": "A shutdown due to inability to sustain operations is not a separate operating-cost optimization program."
+        }
+      ]
+    },
+    {
+      "company": "Yupp",
+      "date": "2026-03-31",
+      "before": {
+        "causes": [
+          "shutdown"
+        ],
+        "cause_evidence": {
+          "shutdown": "reason_primary=shutdown_bankruptcy"
+        }
+      },
+      "after": {
+        "causes": [
+          "shutdown"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "shutdown": "Shutdown due to failure to reach strong product-market fit as AI models improved rapidly and the industry shifted toward specialized experts rather than crowdsourced feedback."
+        },
+        "cause_basis": {
+          "shutdown": "reported_closure"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Sonos",
+      "date": "2026-04-01",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "Marketing is being consolidated into five global functions to remove overlapping roles and handoffs."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "Sonos cut numerous marketing staff as new CMO Colleen DeCourcy consolidated marketing into five core global functions. DeCourcy described the prior structure as 'overly fragmented, with overlapping roles and multiple handoffs.' Framed as simplification rather than cost-cutting; not performance related. Coincided with launch of first new consumer hardware in over a year. Specific headcount not disclosed. Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": null,
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "MARA",
+      "date": "2026-04-02",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "reason_primary=cost_cutting",
+          "disposition": "unresolved",
+          "rationale": "Source inaccessible; no causal evidence beyond the legacy label."
+        }
+      ]
+    },
+    {
+      "company": "Meta",
+      "date": "2026-04-02",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "NeuroPixel.AI",
+      "date": "2026-04-03",
+      "before": {
+        "causes": [
+          "shutdown"
+        ],
+        "cause_evidence": {
+          "shutdown": "reason_primary=shutdown_bankruptcy"
+        }
+      },
+      "after": {
+        "causes": [
+          "shutdown",
+          "lost_contract"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "shutdown": "Shutdown due to limited business penetration, rising competition from large tech players' advanced image generation models, and financial strain from a lost major client.",
+          "lost_contract": "The shutdown explanation identifies the loss of a major client as a source of financial strain."
+        },
+        "cause_basis": {
+          "shutdown": "reported_closure",
+          "lost_contract": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Vimeo",
+      "date": "2026-04-03",
+      "before": {
+        "causes": [
+          "cost_cutting",
+          "m_and_a"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting",
+          "m_and_a": "second reduction since the Bending Spoons acquisition"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "acquisition_context"
+        ],
+        "observation_evidence": {
+          "acquisition_context": "second reduction since the Bending Spoons acquisition Review: A post-acquisition WARN notice establishes cuts, not their cause; timing alone does not demonstrate merger integration or a cost target."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "reason_primary=cost_cutting",
+          "disposition": "unresolved",
+          "rationale": "A post-acquisition WARN notice establishes cuts, not their cause; timing alone does not demonstrate merger integration or a cost target."
+        },
+        {
+          "previous_tag": "m_and_a",
+          "previous_evidence": "second reduction since the Bending Spoons acquisition",
+          "disposition": "acquisition_context",
+          "rationale": "A post-acquisition WARN notice establishes cuts, not their cause; timing alone does not demonstrate merger integration or a cost target."
+        }
+      ]
+    },
+    {
+      "company": "Welltech",
+      "date": "2026-04-03",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Bolt",
+      "date": "2026-04-05",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "GoPro",
+      "date": "2026-04-07",
+      "before": {
+        "causes": [
+          "cost_cutting",
+          "financial_distress"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting",
+          "financial_distress": "2025 revenue decline, $9M Q4 loss; weighing a sale"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "GoPro board approved a restructuring plan eliminating 145 jobs (23% of 631-person workforce) to lower costs and improve operating margins. Plan costs $11.5-15M in severance/healthcare. Follows 2025 revenue decline including $9M Q4 loss. Company is also reportedly weighing a sale or merger."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [
+          "financial_weakness"
+        ],
+        "observation_evidence": {
+          "financial_weakness": "2025 revenue decline, $9M Q4 loss; weighing a sale Review: Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "financial_distress",
+          "previous_evidence": "2025 revenue decline, $9M Q4 loss; weighing a sale",
+          "disposition": "financial_weakness",
+          "rationale": "Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      ]
+    },
+    {
+      "company": "Pendo",
+      "date": "2026-04-07",
+      "before": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "strategic_pivot": "Reorganization amid a dramatically changing technology landscape, 'refounding' the company to move quickly and serve clients building AI agents."
+        },
+        "cause_basis": {
+          "strategic_pivot": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "IAC",
+      "date": "2026-04-08",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation",
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "Corporate functions are being consolidated with People Inc.",
+          "cost_cutting": "The consolidation is expected to save approximately $40M annually."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism",
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Cars.com",
+      "date": "2026-04-09",
+      "before": {
+        "causes": [
+          "unknown"
+        ],
+        "cause_evidence": {
+          "unknown": "reason_primary=unknown"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "unknown",
+          "previous_evidence": "reason_primary=unknown",
+          "disposition": "unresolved",
+          "rationale": "Unknown is an evidence status, not a cause."
+        }
+      ]
+    },
+    {
+      "company": "Pepper Pay",
+      "date": "2026-04-09",
+      "before": {
+        "causes": [
+          "shutdown"
+        ],
+        "cause_evidence": {
+          "shutdown": "reason_primary=shutdown_bankruptcy"
+        }
+      },
+      "after": {
+        "causes": [
+          "shutdown",
+          "financial_distress"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "shutdown": "Bankruptcy filing; company had only $665K in assets against $3.4M in liabilities, including approximately $2.9M owed to TSYS/Global Payments.",
+          "financial_distress": "Bankruptcy follows disclosed assets of $665K against liabilities of $3.4M."
+        },
+        "cause_basis": {
+          "shutdown": "reported_closure",
+          "financial_distress": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Life360",
+      "date": "2026-04-10",
+      "before": {
+        "causes": [
+          "unknown"
+        ],
+        "cause_evidence": {
+          "unknown": "reason_primary=unknown"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "unknown",
+          "previous_evidence": "reason_primary=unknown",
+          "disposition": "unresolved",
+          "rationale": "Unknown is an evidence status, not a cause."
+        }
+      ]
+    },
+    {
+      "company": "Esh Group",
+      "date": "2026-04-12",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Eventbrite",
+      "date": "2026-04-13",
+      "before": {
+        "causes": [
+          "m_and_a"
+        ],
+        "cause_evidence": {
+          "m_and_a": "reason_primary=m_and_a_consolidation"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "acquisition_context"
+        ],
+        "observation_evidence": {
+          "acquisition_context": "reason_primary=m_and_a_consolidation Review: Source inaccessible; no causal evidence beyond the legacy label."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "m_and_a",
+          "previous_evidence": "reason_primary=m_and_a_consolidation",
+          "disposition": "acquisition_context",
+          "rationale": "Source inaccessible; no causal evidence beyond the legacy label."
+        }
+      ]
+    },
+    {
+      "company": "StarkWare",
+      "date": "2026-04-13",
+      "before": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_evidence": {
+          "strategic_pivot": "reason_primary=strategic_pivot"
+        }
+      },
+      "after": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "strategic_pivot": "Shifting focus from infrastructure and research toward revenue-generating products, becoming more agile and commercially focused."
+        },
+        "cause_basis": {
+          "strategic_pivot": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "GoCardless",
+      "date": "2026-04-14",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=path_to_profitability"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "Restructuring to achieve profitability, with the company targeting cash-generative status by June 2026."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Nayax",
+      "date": "2026-04-15",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Productboard",
+      "date": "2026-04-15",
+      "before": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_evidence": {
+          "strategic_pivot": "reason_primary=strategic_pivot"
+        }
+      },
+      "after": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "strategic_pivot": "Transformation into an AI-only organization focused on its Productboard Spark product, citing that AI is collapsing the process layer of building software."
+        },
+        "cause_basis": {
+          "strategic_pivot": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Snap",
+      "date": "2026-04-15",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "$500M+ annualized savings target; stock jumped on the news"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "CEO Evan Spiegel: company has reached 'a crucible moment' requiring 'a new way of working that is faster and more efficient.' Cited AI as helping staff work faster, reducing 'repetitive work' and enabling smaller teams. 16% of global workforce plus ~300 open roles closed; targets $500M+ in annualized cost savings by H2 2026. Stock jumped on the news."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Swyftx",
+      "date": "2026-04-15",
+      "before": {
+        "causes": [
+          "m_and_a"
+        ],
+        "cause_evidence": {
+          "m_and_a": "reason_primary=m_and_a_consolidation"
+        }
+      },
+      "after": {
+        "causes": [
+          "m_and_a"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "m_and_a": "Restructuring to remove duplication, simplify operations, and capture efficiencies following two major acquisitions that increased company size and complexity."
+        },
+        "cause_basis": {
+          "m_and_a": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Taboola",
+      "date": "2026-04-15",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "UKG",
+      "date": "2026-04-15",
+      "before": {
+        "causes": [
+          "new_ceo_turnaround",
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "new_ceo_turnaround": "reason_primary=new_ceo_turnaround"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "leadership_change",
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "leadership_change": "reason_primary=new_ceo_turnaround Review: A leadership change is context, not a causal mechanism by itself.",
+          "restructuring_unspecified": "CEO Jennifer Morgan (joined 2024) is restructuring UKG; a spokesperson attributed the layoffs to 'market shifts — including changes in technology driven by AI, customer expectations, and how software companies compete.' ('AI-first company' is UKG brand positioning, not layoff language; no direct Morgan quote about the cuts exists.) ~600 employees left immediately, ~350 stayed for transition. Hits Sunrise and Weston, FL offices hard; follows a prior 2,200-person (14%) cut in late 2024. Owned by PE firm Hellman & Friedman since 2019. Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "new_ceo_turnaround",
+          "previous_evidence": "reason_primary=new_ceo_turnaround",
+          "disposition": "leadership_change",
+          "rationale": "A leadership change is context, not a causal mechanism by itself."
+        },
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": null,
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Quora",
+      "date": "2026-04-16",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "The CEO links smaller teams to ending Quora subsidies for Poe and requiring each product to fund its own growth."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Sama",
+      "date": "2026-04-16",
+      "before": {
+        "causes": [
+          "market_exit"
+        ],
+        "cause_evidence": {
+          "market_exit": "reason_primary=lost_contract_market_exit"
+        }
+      },
+      "after": {
+        "causes": [
+          "lost_contract"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "lost_contract": "Meta terminated a major contract with Sama; the company unsuccessfully tried to retain the workstream, forcing redundancies for its Nairobi staff."
+        },
+        "cause_basis": {
+          "lost_contract": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Shutterfly",
+      "date": "2026-04-16",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "work_relocation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "work_relocation": "Web and app development work is being consolidated in the US instead of Israel."
+        },
+        "cause_basis": {
+          "work_relocation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Acko",
+      "date": "2026-04-20",
+      "before": {
+        "causes": [
+          "ipo_prep",
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "ipo_prep": "reason_primary=ipo_prep",
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "ipo_prep"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ipo_prep": "Structural realignment to reset internal operations around AI, framed as a pre-IPO restructuring rather than cost-cutting."
+        },
+        "cause_basis": {
+          "ipo_prep": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "explicit savings/margin/profitability language in the public reason",
+          "disposition": "unresolved",
+          "rationale": "The recorded explanation explicitly frames the cuts as pre-IPO rather than cost cutting."
+        }
+      ]
+    },
+    {
+      "company": "Epidemic Sound",
+      "date": "2026-04-21",
+      "before": {
+        "causes": [
+          "restructuring_unspecified",
+          "financial_distress"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague",
+          "financial_distress": "2025 growth 29% -> 3%, negative EBITDA, despite 'not financially driven' line"
+        }
+      },
+      "after": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "strategic_pivot": "The company links its staffing changes to broadening its offering toward AI-supported and eventually AI-generated music."
+        },
+        "cause_basis": {
+          "strategic_pivot": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified",
+          "financial_weakness"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately.",
+          "financial_weakness": "2025 growth 29% -> 3%, negative EBITDA, despite 'not financially driven' line Review: Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        },
+        {
+          "previous_tag": "financial_distress",
+          "previous_evidence": "2025 growth 29% -> 3%, negative EBITDA, despite 'not financially driven' line",
+          "disposition": "financial_weakness",
+          "rationale": "Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      ]
+    },
+    {
+      "company": "GeoComply",
+      "date": "2026-04-21",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Remarkable",
+      "date": "2026-04-22",
+      "before": {
+        "causes": [
+          "restructuring_unspecified",
+          "demand_collapse"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "demand_collapse"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "demand_collapse": "Declining demand and challenging macroeconomic conditions, including weaker sales and rising component costs driven by the AI industry."
+        },
+        "cause_basis": {
+          "demand_collapse": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "SuperOps",
+      "date": "2026-04-24",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Pentera",
+      "date": "2026-04-27",
+      "before": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "strategic_pivot",
+          "previous_evidence": null,
+          "disposition": "unresolved",
+          "rationale": "Continuing development of existing products does not identify a change of product or market."
+        }
+      ]
+    },
+    {
+      "company": "Shopify",
+      "date": "2026-05-04",
+      "before": {
+        "causes": [
+          "unknown"
+        ],
+        "cause_evidence": {
+          "unknown": "reason_primary=unknown"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "unknown",
+          "previous_evidence": "reason_primary=unknown",
+          "disposition": "unresolved",
+          "rationale": "Unknown is an evidence status, not a cause."
+        }
+      ]
+    },
+    {
+      "company": "0G",
+      "date": "2026-05-05",
+      "before": {
+        "causes": [
+          "unknown"
+        ],
+        "cause_evidence": {
+          "unknown": "reason_primary=unknown"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "unknown",
+          "previous_evidence": "reason_primary=unknown",
+          "disposition": "unresolved",
+          "rationale": "Unknown is an evidence status, not a cause."
+        }
+      ]
+    },
+    {
+      "company": "Careem",
+      "date": "2026-05-05",
+      "before": {
+        "causes": [
+          "demand_collapse",
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "demand_collapse": "reason_primary=demand_collapse",
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "demand_collapse",
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "demand_collapse": "Citing rising inflation, weakening demand, intense competition, and global capital constraints; exiting Pakistan ride-hailing and broader global cost-cutting restructure.",
+          "cost_cutting": "Citing rising inflation, weakening demand, intense competition, and global capital constraints; exiting Pakistan ride-hailing and broader global cost-cutting restructure."
+        },
+        "cause_basis": {
+          "demand_collapse": "reported_mechanism",
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Coinbase",
+      "date": "2026-05-05",
+      "before": {
+        "causes": [
+          "cost_cutting",
+          "demand_collapse"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason",
+          "demand_collapse": "company-stated crypto market downturn as co-driver"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting",
+          "demand_collapse"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "Adjusting cost structure amid crypto market downturn while leveraging AI tools so smaller teams can do more.",
+          "demand_collapse": "Adjusting cost structure amid crypto market downturn while leveraging AI tools so smaller teams can do more."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism",
+          "demand_collapse": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Freshworks",
+      "date": "2026-05-05",
+      "before": {
+        "causes": [
+          "ai_substitution_claim",
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "ai_substitution",
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ai_substitution": "Freshworks cut 11% of its workforce (about 500 jobs) to 'streamline organizational efforts and product development, and increase leverage of AI and automation.' CEO Dennis Woodside said 'over half of our code is written by AI' and that automation reduced 'rote work that technology can take care of.' Cuts span global teams and aim to reduce management layers; announced same day as Q1 2026 earnings beat.",
+          "organizational_consolidation": "The announced global cuts explicitly aim to reduce management layers."
+        },
+        "cause_basis": {
+          "ai_substitution": "company_stated",
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "PayPal",
+      "date": "2026-05-05",
+      "before": {
+        "causes": [
+          "new_ceo_turnaround",
+          "cost_cutting",
+          "financial_distress"
+        ],
+        "cause_evidence": {
+          "new_ceo_turnaround": "Lores took over March 1, 2026; cut announced 9 weeks in",
+          "cost_cutting": ">= $1.5B annualized run-rate savings target, 2-3 year program",
+          "financial_distress": "announced alongside weaker-than-expected Q1 profit; EPS guided down same day"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "New CEO Enrique Lores (ex-HP Inc., took the helm March 1, 2026) announced cutting ~20% of the 23,800-person workforce as part of a 2-3 year reorg targeting at least $1.5B in annualized run-rate savings and a shift to an 'AI-native operating model.' Announced alongside weaker-than-expected Q1 profit."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [
+          "leadership_change",
+          "financial_weakness"
+        ],
+        "observation_evidence": {
+          "leadership_change": "Lores took over March 1, 2026; cut announced 9 weeks in Review: A leadership change is context, not a causal mechanism by itself.",
+          "financial_weakness": "announced alongside weaker-than-expected Q1 profit; EPS guided down same day Review: Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "new_ceo_turnaround",
+          "previous_evidence": "Lores took over March 1, 2026; cut announced 9 weeks in",
+          "disposition": "leadership_change",
+          "rationale": "A leadership change is context, not a causal mechanism by itself."
+        },
+        {
+          "previous_tag": "financial_distress",
+          "previous_evidence": "announced alongside weaker-than-expected Q1 profit; EPS guided down same day",
+          "disposition": "financial_weakness",
+          "rationale": "Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      ]
+    },
+    {
+      "company": "ApnaMart",
+      "date": "2026-05-06",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [
+          "work_relocation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "work_relocation": "The recorded explanation links cuts to moving product and technology teams from Bengaluru to Gurugram."
+        },
+        "cause_basis": {
+          "work_relocation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "AI-led automation rendering some roles redundant, combined with relocation of product and technology teams from Bengaluru to Gurugram. Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": null,
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Arctic Wolf",
+      "date": "2026-05-06",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "ai_investment_reallocation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ai_investment_reallocation": "The recorded explanation links the cuts to redirecting resources to the Superintelligence platform and Agentic SOC; this attribution is press-reported."
+        },
+        "cause_basis": {
+          "ai_investment_reallocation": "press_reported"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "LSports",
+      "date": "2026-05-06",
+      "before": {
+        "causes": [
+          "unknown"
+        ],
+        "cause_evidence": {
+          "unknown": "reason_primary=unknown"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "unknown",
+          "previous_evidence": "reason_primary=unknown",
+          "disposition": "unresolved",
+          "rationale": "Unknown is an evidence status, not a cause."
+        }
+      ]
+    },
+    {
+      "company": "Pocket FM",
+      "date": "2026-05-06",
+      "before": {
+        "causes": [
+          "cost_cutting",
+          "performance_cull"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting",
+          "performance_cull": "framed as regular performance-based reviews"
+        }
+      },
+      "after": {
+        "causes": [
+          "performance_cull"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "performance_cull": "Framed as regular performance-based reviews leading to role-specific changes; reportedly aimed at increasing revenue per employee."
+        },
+        "cause_basis": {
+          "performance_cull": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "reason_primary=cost_cutting",
+          "disposition": "unresolved",
+          "rationale": "Revenue-per-employee improvement alone does not establish cost cutting; performance reviews are the explicitly recorded reason."
+        }
+      ]
+    },
+    {
+      "company": "reAlpha",
+      "date": "2026-05-06",
+      "before": {
+        "causes": [
+          "unknown"
+        ],
+        "cause_evidence": {
+          "unknown": "reason_primary=unknown"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "unknown",
+          "previous_evidence": "reason_primary=unknown",
+          "disposition": "unresolved",
+          "rationale": "Unknown is an evidence status, not a cause."
+        }
+      ]
+    },
+    {
+      "company": "Bill.com",
+      "date": "2026-05-07",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "Aligning cost structure and talent with growth trajectory, investing more deliberately in highest-impact areas to improve organizational agility."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Cloudflare",
+      "date": "2026-05-07",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "DeepL",
+      "date": "2026-05-07",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "Restructuring as an enduring global AI company with smaller, AI-embedded teams to match accelerating pace of AI advancement. Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": null,
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Ticketmaster",
+      "date": "2026-05-07",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "The president explicitly links the reorganization to flattening organizational layers and faster decisions."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Truecaller",
+      "date": "2026-05-07",
+      "before": {
+        "causes": [
+          "unknown"
+        ],
+        "cause_evidence": {
+          "unknown": "reason_primary=unknown"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "unknown",
+          "previous_evidence": "reason_primary=unknown",
+          "disposition": "unresolved",
+          "rationale": "Unknown is an evidence status, not a cause."
+        }
+      ]
+    },
+    {
+      "company": "Upwork",
+      "date": "2026-05-07",
+      "before": {
+        "causes": [
+          "restructuring_unspecified",
+          "cost_cutting",
+          "financial_distress"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague",
+          "cost_cutting": "profitability goals cited",
+          "financial_distress": "same-day ~9% guidance cut on +1% growth"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting",
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "Upwork cut ~24% of workforce. CEO Hayden Brown's memo: 'Two pizza teams are dead. AI means smaller, differently resourced teams in product and engineering can make a bigger impact than ever.' Also: 'Fewer layers means faster decisions. Flatter is better.' Cited slower near-term growth in Q1 and profitability goals.",
+          "organizational_consolidation": "The CEO memo explicitly calls for fewer layers and a flatter organization."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism",
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified",
+          "financial_weakness"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately.",
+          "financial_weakness": "same-day ~9% guidance cut on +1% growth Review: Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        },
+        {
+          "previous_tag": "financial_distress",
+          "previous_evidence": "same-day ~9% guidance cut on +1% growth",
+          "disposition": "financial_weakness",
+          "rationale": "Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      ]
+    },
+    {
+      "company": "Staffbase",
+      "date": "2026-05-08",
+      "before": {
+        "causes": [
+          "cost_cutting",
+          "m_and_a"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting",
+          "m_and_a": "'reducing complexity after three acquisitions'; sites consolidated to Berlin/Saxony"
+        }
+      },
+      "after": {
+        "causes": [
+          "m_and_a"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "m_and_a": "Chemnitz-based unicorn Staffbase cut 176 people (22%) - 'every fifth position' - driven by economic pressure (inflation, investor caution), shifts in industry demand, and internal restructuring. Company is consolidating product development to Berlin and Saxony, closing other sites. Frames it as reducing complexity after three acquisitions."
+        },
+        "cause_basis": {
+          "m_and_a": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "reason_primary=cost_cutting",
+          "disposition": "unresolved",
+          "rationale": "Economic pressure is context; the concrete recorded mechanism is post-acquisition consolidation, which is retained."
+        }
+      ]
+    },
+    {
+      "company": "Parker",
+      "date": "2026-05-09",
+      "before": {
+        "causes": [
+          "shutdown"
+        ],
+        "cause_evidence": {
+          "shutdown": "reason_primary=shutdown_bankruptcy"
+        }
+      },
+      "after": {
+        "causes": [
+          "shutdown"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "shutdown": "Filed for bankruptcy after failed acquisition negotiations; CEO hinted at over-hiring and reactive decisions as contributing factors."
+        },
+        "cause_basis": {
+          "shutdown": "reported_closure"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Adda247",
+      "date": "2026-05-10",
+      "before": {
+        "causes": [
+          "ipo_prep"
+        ],
+        "cause_evidence": {
+          "ipo_prep": "reason_primary=ipo_prep"
+        }
+      },
+      "after": {
+        "causes": [
+          "ipo_prep"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ipo_prep": "Structural adjustments to optimize financial performance and operational execution ahead of planned IPO."
+        },
+        "cause_basis": {
+          "ipo_prep": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "MRI Software",
+      "date": "2026-05-11",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "MessageBird",
+      "date": "2026-05-11",
+      "before": {
+        "causes": [
+          "offshoring"
+        ],
+        "cause_evidence": {
+          "offshoring": "reason_primary=geographic_relocation"
+        }
+      },
+      "after": {
+        "causes": [
+          "work_relocation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "work_relocation": "Reducing European headcount by 20% to relocate closer to US-headquartered customers, who now account for 75% of revenue."
+        },
+        "cause_basis": {
+          "work_relocation": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "One Identity",
+      "date": "2026-05-11",
+      "before": {
+        "causes": [
+          "offshoring"
+        ],
+        "cause_evidence": {
+          "offshoring": "reason_primary=geographic_relocation"
+        }
+      },
+      "after": {
+        "causes": [
+          "work_relocation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "work_relocation": "Closing German development office, relocating work abroad; CTO claimed German team was not open enough to new development approaches and the company needed to act quickly."
+        },
+        "cause_basis": {
+          "work_relocation": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "ZoomInfo",
+      "date": "2026-05-11",
+      "before": {
+        "causes": [
+          "ai_capex_reallocation",
+          "offshoring",
+          "financial_distress",
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "ai_capex_reallocation": "ai_link=capex_funding, basis=company_stated",
+          "offshoring": "own 8-K: Israel R&D closed, roles reallocated incl. to India",
+          "financial_distress": "guidance cut to ~1% growth",
+          "cost_cutting": "~$60M annual savings target"
+        }
+      },
+      "after": {
+        "causes": [
+          "ai_investment_reallocation",
+          "work_relocation",
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ai_investment_reallocation": "Restructuring to redirect spending toward AI-enabled engineering and data infrastructure, targeting ~$60M in annual savings; cuts concentrated in R&D and downmarket sales.",
+          "work_relocation": "The recorded 8-K evidence says Israel R&D was closed and roles reallocated, including to India.",
+          "cost_cutting": "Restructuring to redirect spending toward AI-enabled engineering and data infrastructure, targeting ~$60M in annual savings; cuts concentrated in R&D and downmarket sales."
+        },
+        "cause_basis": {
+          "ai_investment_reallocation": "company_stated",
+          "work_relocation": "company_stated",
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [
+          "financial_weakness"
+        ],
+        "observation_evidence": {
+          "financial_weakness": "guidance cut to ~1% growth Review: Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "financial_distress",
+          "previous_evidence": "guidance cut to ~1% growth",
+          "disposition": "financial_weakness",
+          "rationale": "Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      ]
+    },
+    {
+      "company": "Breadfast",
+      "date": "2026-05-12",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Cisco",
+      "date": "2026-05-13",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "Restructuring to shift investment toward areas of strongest demand in the AI era, including silicon, optics, security, and AI. Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": null,
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Guesty",
+      "date": "2026-05-13",
+      "before": {
+        "causes": [
+          "unknown"
+        ],
+        "cause_evidence": {
+          "unknown": "reason_primary=unknown"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "not_accessible",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "unknown",
+          "previous_evidence": "reason_primary=unknown",
+          "disposition": "unresolved",
+          "rationale": "Unknown is an evidence status, not a cause."
+        }
+      ]
+    },
+    {
+      "company": "Jumia",
+      "date": "2026-05-13",
+      "before": {
+        "causes": [
+          "restructuring_unspecified",
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague",
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "Reducing headcount and process automation through expansion of AI tools to improve operational efficiency and cut costs."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "LinkedIn",
+      "date": "2026-05-13",
+      "before": {
+        "causes": [
+          "new_ceo_turnaround"
+        ],
+        "cause_evidence": {
+          "new_ceo_turnaround": "reason_primary=new_ceo_turnaround"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "leadership_change"
+        ],
+        "observation_evidence": {
+          "leadership_change": "reason_primary=new_ceo_turnaround Review: A leadership change is context, not a causal mechanism by itself."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "new_ceo_turnaround",
+          "previous_evidence": "reason_primary=new_ceo_turnaround",
+          "disposition": "leadership_change",
+          "rationale": "A leadership change is context, not a causal mechanism by itself."
+        }
+      ]
+    },
+    {
+      "company": "Dune",
+      "date": "2026-05-14",
+      "before": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "strategic_pivot": "Dune Analytics cut 25% of staff (~35 of 143) as cofounder Fredrik Haga restructures around AI agents and institutional onchain finance adoption. Pivot leans on Dune MCP (open-standard server launched March 2026) that lets AI agents query its data warehouse via natural language. Company says it remains well capitalized after $79M total raised."
+        },
+        "cause_basis": {
+          "strategic_pivot": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Gambling.com Group",
+      "date": "2026-05-14",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "reason_primary=cost_cutting"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "AI Transformation-led restructure making AI the foundation of team structures and processes, targeting $13M in annual savings."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Innovaccer",
+      "date": "2026-05-14",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Kraken",
+      "date": "2026-05-15",
+      "before": {
+        "causes": [
+          "ai_substitution_claim",
+          "restructuring_unspecified",
+          "demand_collapse",
+          "financial_distress"
+        ],
+        "cause_evidence": {
+          "ai_substitution_claim": "ai_link=direct_substitution, basis=company_stated",
+          "restructuring_unspecified": "reason_primary=restructuring_vague",
+          "demand_collapse": "crypto market decline; IPO filing paused",
+          "financial_distress": "Q1 EBITDA -90% disclosed 3 days post-layoff"
+        }
+      },
+      "after": {
+        "causes": [
+          "ai_substitution"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ai_substitution": "Kraken parent Payward cut ~150 workers after deploying AI that improved efficiency, primarily in customer service, compliance, and trading support. Kraken's AI chatbot now handles ~80% of customer inquiries. IPO timeline may slip from late 2026 to 2027 due to crypto market decline; Kraken paused its confidential SEC filing in March."
+        },
+        "cause_basis": {
+          "ai_substitution": "company_stated"
+        },
+        "observations": [
+          "restructuring_unspecified",
+          "market_weakness",
+          "financial_weakness"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "reason_primary=restructuring_vague Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately.",
+          "market_weakness": "crypto market decline; IPO filing paused Review: The downturn is linked to IPO timing in the recorded evidence, not explicitly to the layoffs.",
+          "financial_weakness": "Q1 EBITDA -90% disclosed 3 days post-layoff Review: Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "reason_primary=restructuring_vague",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        },
+        {
+          "previous_tag": "demand_collapse",
+          "previous_evidence": "crypto market decline; IPO filing paused",
+          "disposition": "market_weakness",
+          "rationale": "The downturn is linked to IPO timing in the recorded evidence, not explicitly to the layoffs."
+        },
+        {
+          "previous_tag": "financial_distress",
+          "previous_evidence": "Q1 EBITDA -90% disclosed 3 days post-layoff",
+          "disposition": "financial_weakness",
+          "rationale": "Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      ]
+    },
+    {
+      "company": "AI21 Labs",
+      "date": "2026-05-18",
+      "before": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_evidence": {
+          "strategic_pivot": "reason_primary=strategic_pivot"
+        }
+      },
+      "after": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "strategic_pivot": "Israeli AI startup AI21 Labs (Amnon Shashua) cut 110 of 180 employees (~61%) and pivoted away from selling foundation models toward its Maestro AI agent orchestration platform. Remaining staff are mostly research and product. Cited inability of foundation models to be a sufficient source of income; revenue agreements include deals with Nebius and Wix."
+        },
+        "cause_basis": {
+          "strategic_pivot": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Intuit",
+      "date": "2026-05-20",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": {
+          "restructuring_unspecified": "hub consolidation (Reno, Woodland Hills wound down)"
+        }
+      },
+      "after": {
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "organizational_consolidation": "The memo links cuts to reducing complexity and consolidating teams in hubs, including winding down Reno and Woodland Hills offices."
+        },
+        "cause_basis": {
+          "organizational_consolidation": "reported_mechanism"
+        },
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "hub consolidation (Reno, Woodland Hills wound down) Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": "hub consolidation (Reno, Woodland Hills wound down)",
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Meta",
+      "date": "2026-05-20",
+      "before": {
+        "causes": [
+          "ai_capex_reallocation"
+        ],
+        "cause_evidence": {
+          "ai_capex_reallocation": "~7,000 redeployed into AI orgs; capex raised — money goes where the story says"
+        }
+      },
+      "after": {
+        "causes": [
+          "ai_investment_reallocation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ai_investment_reallocation": "Zuckerberg memo: 'Success isn't a given' and 'AI is the most consequential technology of our lifetimes.' Roughly 10% of staff cut while ~7,000 employees were redeployed into new AI-focused roles (Applied AI Engineering, Agent Transformation Accelerator, Central Analytics). AI infrastructure, foundation-model, and AI monetization teams were explicitly protected. Zuckerberg said no further companywide layoffs were expected in 2026."
+        },
+        "cause_basis": {
+          "ai_investment_reallocation": "company_stated"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "ClickUp",
+      "date": "2026-05-21",
+      "before": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+        }
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "explicit savings/margin/profitability language in the public reason",
+          "disposition": "unresolved",
+          "rationale": "The recorded explanation explicitly rejects cost cutting; the old generic evidence note contradicts the reason text."
+        }
+      ]
+    },
+    {
+      "company": "Wix",
+      "date": "2026-05-25",
+      "before": {
+        "causes": [
+          "financial_distress",
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "financial_distress": "weak earnings, ~50% stock decline",
+          "cost_cutting": "rising AI compute costs from Base44 acquisition"
+        }
+      },
+      "after": {
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "cost_cutting": "The recorded explanation links cost pressure to rising AI compute costs following the Base44 acquisition; weak earnings and share-price movements are retained only as context."
+        },
+        "cause_basis": {
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [
+          "financial_weakness"
+        ],
+        "observation_evidence": {
+          "financial_weakness": "weak earnings, ~50% stock decline Review: Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "financial_distress",
+          "previous_evidence": "weak earnings, ~50% stock decline",
+          "disposition": "financial_weakness",
+          "rationale": "Weak results, losses or guidance changes alone do not link financial distress to this layoff."
+        }
+      ]
+    },
+    {
+      "company": "GitLab",
+      "date": "2026-06-03",
+      "before": {
+        "causes": [
+          "ai_capex_reallocation",
+          "cost_cutting",
+          "market_exit"
+        ],
+        "cause_evidence": {
+          "ai_capex_reallocation": "narrative flip: May 11 'not an AI optimization or cost cutting exercise' -> June 3 'fund AI infrastructure buildout'",
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason",
+          "market_exit": "exit from 22 countries"
+        }
+      },
+      "after": {
+        "causes": [
+          "ai_investment_reallocation",
+          "market_exit"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ai_investment_reallocation": "14% workforce reduction and exit from 22 countries to fund AI infrastructure buildout and platform re-architecture for agentic workloads. CEO Bill Staples: partnered with an AI lab to rebuild infra for AI-scale traffic. Cuts announced alongside +23% YoY Q1 revenue ($264.2M) with positive non-GAAP margin. Supersedes the May 11 announcement of a 7% cut, which Staples then called 'not an AI optimization or cost cutting exercise' (stock fell >8%).",
+          "market_exit": "14% workforce reduction and exit from 22 countries to fund AI infrastructure buildout and platform re-architecture for agentic workloads. CEO Bill Staples: partnered with an AI lab to rebuild infra for AI-scale traffic. Cuts announced alongside +23% YoY Q1 revenue ($264.2M) with positive non-GAAP margin. Supersedes the May 11 announcement of a 7% cut, which Staples then called 'not an AI optimization or cost cutting exercise' (stock fell >8%)."
+        },
+        "cause_basis": {
+          "ai_investment_reallocation": "company_stated",
+          "market_exit": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": [
+        {
+          "previous_tag": "cost_cutting",
+          "previous_evidence": "explicit savings/margin/profitability language in the public reason",
+          "disposition": "unresolved",
+          "rationale": "Restructuring charges are not savings evidence; AI investment reallocation and market exit already describe the recorded mechanisms."
+        }
+      ]
+    },
+    {
+      "company": "Robinhood",
+      "date": "2026-06-16",
+      "before": {
+        "causes": [
+          "restructuring_unspecified"
+        ],
+        "cause_evidence": null
+      },
+      "after": {
+        "causes": [],
+        "cause_status": "unspecified",
+        "cause_evidence": {},
+        "cause_basis": {},
+        "observations": [
+          "restructuring_unspecified"
+        ],
+        "observation_evidence": {
+          "restructuring_unspecified": "CEO Vlad Tenev memo cut ~10% of workforce (290 people) framed as forward-looking use of 'frontier technologies to push our execution even further'. $28M restructuring charge. Headcount had grown 2,300 (Dec 2024) to ~2,900 (2025), a 26% jump before the cut — classic AI-era hire-then-correct pattern. Review: Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      },
+      "review": [
+        {
+          "previous_tag": "restructuring_unspecified",
+          "previous_evidence": null,
+          "disposition": "restructuring_unspecified",
+          "rationale": "Unspecified restructuring names no causal mechanism; any concrete mechanism is reviewed separately."
+        }
+      ]
+    },
+    {
+      "company": "Bungie",
+      "date": "2026-06-25",
+      "before": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_evidence": {
+          "strategic_pivot": "reason_primary=strategic_pivot"
+        }
+      },
+      "after": {
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "strategic_pivot": "Sony-owned Bungie (Destiny, Halo legacy) cut ~50% of remaining staff as Destiny 2 winds down and studio reorganizes around Marathon and future titles. Franchise decline, not AI-related."
+        },
+        "cause_basis": {
+          "strategic_pivot": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Microsoft (Xbox)",
+      "date": "2026-07-06",
+      "before": {
+        "causes": [
+          "strategic_pivot",
+          "cost_cutting"
+        ],
+        "cause_evidence": {
+          "strategic_pivot": "reason_primary=strategic_pivot",
+          "cost_cutting": "explicit savings/margin/profitability language in the public reason"
+        }
+      },
+      "after": {
+        "causes": [
+          "strategic_pivot",
+          "cost_cutting"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "strategic_pivot": "Xbox division restructuring: 3,200 cuts (1,600 immediate + 1,600 to follow) plus divestment of 4-5 studios (Ninja Theory, Undead Labs, Compulsion Games, Double Fine). Xbox CEO Asha Sharma: 'our business today is not healthy', operating margins 3-10x lower than comparable businesses. Called the 'most significant restructure in Xbox history'.",
+          "cost_cutting": "Xbox division restructuring: 3,200 cuts (1,600 immediate + 1,600 to follow) plus divestment of 4-5 studios (Ninja Theory, Undead Labs, Compulsion Games, Double Fine). Xbox CEO Asha Sharma: 'our business today is not healthy', operating margins 3-10x lower than comparable businesses. Called the 'most significant restructure in Xbox history'."
+        },
+        "cause_basis": {
+          "strategic_pivot": "reported_mechanism",
+          "cost_cutting": "reported_mechanism"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    },
+    {
+      "company": "Microsoft (corporate)",
+      "date": "2026-07-06",
+      "before": {
+        "causes": [
+          "ai_capex_reallocation"
+        ],
+        "cause_evidence": {
+          "ai_capex_reallocation": "ai_link=capex_funding, basis=company_stated"
+        }
+      },
+      "after": {
+        "causes": [
+          "ai_investment_reallocation"
+        ],
+        "cause_status": "specified",
+        "cause_evidence": {
+          "ai_investment_reallocation": "Sales, consulting, and back-office cuts (~1,600 of the 4,800 total July 6 announcement, remainder is Xbox). Timed to fiscal year start (FY26). Corporate rationale: free capital for AI capex; FY26 forecast >$100B vs $80B in FY25."
+        },
+        "cause_basis": {
+          "ai_investment_reallocation": "company_stated"
+        },
+        "observations": [],
+        "observation_evidence": {}
+      },
+      "review": []
+    }
+  ]
+}

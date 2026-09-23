@@ -1,0 +1,66 @@
+{
+  "company": "DraftKings",
+  "source_url": "https://stockanalysis.com/stocks/dkng/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "DraftKings (DKNG) Number of Employees 2019-2024",
+  "rows": [
+    [
+      "Dec 31, 2024",
+      "5,100"
+    ],
+    [
+      "Dec 31, 2023",
+      "4,400"
+    ],
+    [
+      "Dec 31, 2022",
+      "4,200"
+    ],
+    [
+      "Dec 31, 2021",
+      "3,400"
+    ],
+    [
+      "Dec 31, 2020",
+      "2,600"
+    ],
+    [
+      "Dec 31, 2019",
+      "869"
+    ],
+    [
+      "Flutter Entertainment",
+      "28,518"
+    ],
+    [
+      "Churchill Downs",
+      "9,000"
+    ],
+    [
+      "Brightstar Lottery",
+      "5,746"
+    ],
+    [
+      "Super Group (SGHC)",
+      "2,726"
+    ],
+    [
+      "Accel Entertainment",
+      "1,600"
+    ],
+    [
+      "Meridian Holdings",
+      "1,200"
+    ],
+    [
+      "Inspired Entertainment",
+      "1,020"
+    ],
+    [
+      "Rush Street Interactive",
+      "912"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

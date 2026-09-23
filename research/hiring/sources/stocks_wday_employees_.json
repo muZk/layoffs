@@ -1,0 +1,98 @@
+{
+  "company": "Workday",
+  "source_url": "https://stockanalysis.com/stocks/wday/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Workday (WDAY) Number of Employees 2013-2026",
+  "rows": [
+    [
+      "Jan 31, 2026",
+      "21,000"
+    ],
+    [
+      "Jan 31, 2025",
+      "20,400"
+    ],
+    [
+      "Jan 31, 2024",
+      "18,800"
+    ],
+    [
+      "Jan 31, 2023",
+      "17,700"
+    ],
+    [
+      "Jan 31, 2022",
+      "15,200"
+    ],
+    [
+      "Jan 31, 2021",
+      "12,500"
+    ],
+    [
+      "Jan 31, 2020",
+      "12,200"
+    ],
+    [
+      "Jan 31, 2019",
+      "10,500"
+    ],
+    [
+      "Jan 31, 2018",
+      "8,200"
+    ],
+    [
+      "Jan 31, 2017",
+      "6,600"
+    ],
+    [
+      "Jan 31, 2016",
+      "5,200"
+    ],
+    [
+      "Jan 31, 2015",
+      "3,750"
+    ],
+    [
+      "Jan 31, 2014",
+      "2,600"
+    ],
+    [
+      "Jan 31, 2013",
+      "1,750"
+    ],
+    [
+      "Fiserv",
+      "38,000"
+    ],
+    [
+      "Roper Technologies",
+      "19,400"
+    ],
+    [
+      "Intuit",
+      "18,600"
+    ],
+    [
+      "Paychex",
+      "17,600"
+    ],
+    [
+      "Autodesk",
+      "14,300"
+    ],
+    [
+      "Cadence Design Systems",
+      "13,800"
+    ],
+    [
+      "Atlassian",
+      "13,301"
+    ],
+    [
+      "Datadog",
+      "8,100"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

@@ -1,0 +1,82 @@
+{
+  "company": "MicroVision",
+  "source_url": "https://stockanalysis.com/stocks/mvis/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "MicroVision (MVIS) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "190"
+    ],
+    [
+      "Dec 31, 2024",
+      "185"
+    ],
+    [
+      "Dec 31, 2023",
+      "340"
+    ],
+    [
+      "Dec 31, 2022",
+      "350"
+    ],
+    [
+      "Dec 31, 2021",
+      "96"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2016",
+      "Upgrade Pro"
+    ],
+    [
+      "Genasys",
+      "187"
+    ],
+    [
+      "MIND Technology",
+      "157"
+    ],
+    [
+      "Arbe Robotics",
+      "136"
+    ],
+    [
+      "Sono-Tek",
+      "89"
+    ],
+    [
+      "Odysight.ai",
+      "52"
+    ],
+    [
+      "Arrive AI",
+      "50"
+    ],
+    [
+      "Ainos",
+      "41"
+    ],
+    [
+      "Astrotech",
+      "32"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

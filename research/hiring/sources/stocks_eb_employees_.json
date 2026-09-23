@@ -1,0 +1,50 @@
+{
+  "company": "Eventbrite",
+  "source_url": "https://stockanalysis.com/stocks/eb/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Eventbrite (EB) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2024",
+      "748"
+    ],
+    [
+      "Dec 31, 2023",
+      "866"
+    ],
+    [
+      "Dec 31, 2022",
+      "881"
+    ],
+    [
+      "Dec 31, 2021",
+      "707"
+    ],
+    [
+      "Dec 31, 2020",
+      "611"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Sep 30, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Jun 30, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

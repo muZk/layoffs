@@ -1,0 +1,66 @@
+{
+  "company": "Rackspace",
+  "source_url": "https://stockanalysis.com/stocks/rxt/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Rackspace Technology (RXT) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "5,000"
+    ],
+    [
+      "Dec 31, 2024",
+      "5,100"
+    ],
+    [
+      "Dec 31, 2023",
+      "5,800"
+    ],
+    [
+      "Dec 31, 2022",
+      "6,800"
+    ],
+    [
+      "Dec 31, 2021",
+      "6,600"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Sabre",
+      "4,650"
+    ],
+    [
+      "Rapid7",
+      "2,613"
+    ],
+    [
+      "Rezolve AI",
+      "573"
+    ],
+    [
+      "Consensus Cloud Solutions",
+      "520"
+    ],
+    [
+      "Backblaze",
+      "320"
+    ],
+    [
+      "Aeva Technologies",
+      "239"
+    ],
+    [
+      "Paysign",
+      "226"
+    ],
+    [
+      "Katapult Holdings",
+      "87"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

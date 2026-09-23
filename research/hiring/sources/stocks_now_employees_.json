@@ -1,0 +1,98 @@
+{
+  "company": "ServiceNow",
+  "source_url": "https://stockanalysis.com/stocks/now/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "ServiceNow (NOW) Number of Employees 2012-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "29,187"
+    ],
+    [
+      "Dec 31, 2024",
+      "26,293"
+    ],
+    [
+      "Dec 31, 2023",
+      "22,668"
+    ],
+    [
+      "Dec 31, 2022",
+      "20,433"
+    ],
+    [
+      "Dec 31, 2021",
+      "16,881"
+    ],
+    [
+      "Dec 31, 2020",
+      "13,096"
+    ],
+    [
+      "Dec 31, 2019",
+      "10,371"
+    ],
+    [
+      "Dec 31, 2018",
+      "8,154"
+    ],
+    [
+      "Dec 31, 2017",
+      "6,222"
+    ],
+    [
+      "Dec 31, 2016",
+      "4,801"
+    ],
+    [
+      "Dec 31, 2015",
+      "3,686"
+    ],
+    [
+      "Dec 31, 2014",
+      "2,826"
+    ],
+    [
+      "Dec 31, 2013",
+      "1,830"
+    ],
+    [
+      "Dec 31, 2012",
+      "1,077"
+    ],
+    [
+      "SAP SE",
+      "111,397"
+    ],
+    [
+      "Salesforce",
+      "83,334"
+    ],
+    [
+      "Automatic Data Processing",
+      "67,000"
+    ],
+    [
+      "Uber Technologies",
+      "34,000"
+    ],
+    [
+      "Adobe",
+      "31,360"
+    ],
+    [
+      "Intuit",
+      "18,600"
+    ],
+    [
+      "Cadence Design Systems",
+      "13,800"
+    ],
+    [
+      "Snowflake",
+      "9,060"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "company": "Block",
+    "date": "2022-01-31",
+    "event": "Afterpay acquisition",
+    "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/b/NYSE_SQ_2022.pdf",
+    "headcount_adjustment": null
+  },
+  {
+    "company": "Intuit",
+    "date": "2021-11-01",
+    "event": "Mailchimp acquisition",
+    "source_url": "https://investors.intuit.com/news-events/press-releases/detail/154/intuit-completes-acquisition-of-mailchimp",
+    "headcount_adjustment": null
+  },
+  {
+    "company": "Intuit",
+    "date": "2020-12-03",
+    "event": "Credit Karma acquisition",
+    "source_url": "https://investors.intuit.com/news-events/press-releases/detail/202/intuit-completes-acquisition-of-credit-karma",
+    "headcount_adjustment": null
+  },
+  {
+    "company": "Salesforce",
+    "date": "2021-07-21",
+    "event": "Slack acquisition",
+    "source_url": "https://www.salesforce.com/news/press-releases/2021/07/21/salesforce-slack-deal-close/",
+    "headcount_adjustment": null
+  },
+  {
+    "company": "Expedia",
+    "date": "2021-11-01",
+    "event": "Egencia disposal",
+    "source_url": "https://ir.expediagroup.com/news-and-events/news/news-details/2021/Expedia-Group-Reports-Third-Quarter-2021-Results/default.aspx",
+    "headcount_adjustment": null
+  },
+  {
+    "company": "eBay",
+    "date": "2021-06-25",
+    "event": "Classifieds disposal",
+    "source_url": "https://www.ebayinc.com/stories/news/ebay-completes-transfer-of-classifieds-business-to-adevinta/",
+    "headcount_adjustment": null
+  },
+  {
+    "company": "Cisco",
+    "date": "2024-03-18",
+    "event": "Splunk acquisition",
+    "source_url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2024/m03/cisco-completes-acquisition-of-splunk.html",
+    "headcount_adjustment": null
+  },
+  {
+    "company": "Oracle",
+    "date": "2022-06-08",
+    "event": "Cerner acquisition; after May 2022 workforce observation",
+    "source_url": "https://www.oracle.com/corporate/acquisitions/cerner/",
+    "headcount_adjustment": null
+  },
+  {
+    "company": "OpenText",
+    "date": "2023-01-31",
+    "event": "Micro Focus acquisition",
+    "source_url": "https://s23.q4cdn.com/197378439/files/doc_news/OpenText-Buys-Micro-Focus-2023.pdf",
+    "headcount_adjustment": null
+  },
+  {
+    "company": "Life360",
+    "date": "2022-01-05",
+    "event": "Tile acquisition",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1581760/000158176023000031/lifx-20221231.htm",
+    "headcount_adjustment": null
+  },
+  {
+    "company": "Shopify",
+    "date": "2022-07-08",
+    "event": "Deliverr acquisition",
+    "source_url": "https://www.shopify.com/news/shopify-announces-fourth-quarter-and-full-year-2022-financial-results",
+    "headcount_adjustment": null
+  },
+  {
+    "company": "Shopify",
+    "date": "2023-06-06",
+    "event": "Sale of majority of Shopify Logistics to Flexport",
+    "source_url": "https://www.shopify.com/news/shopify-completes-sale-of-shopify-logistics-to-flexport",
+    "headcount_adjustment": null
+  }
+]

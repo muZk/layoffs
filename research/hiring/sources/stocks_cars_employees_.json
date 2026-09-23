@@ -1,0 +1,78 @@
+{
+  "company": "Cars.com",
+  "source_url": "https://stockanalysis.com/stocks/cars/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Cars.com (CARS) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "1,700"
+    ],
+    [
+      "Dec 31, 2024",
+      "1,800"
+    ],
+    [
+      "Dec 31, 2023",
+      "1,700"
+    ],
+    [
+      "Dec 31, 2022",
+      "1,700"
+    ],
+    [
+      "Dec 31, 2021",
+      "1,600"
+    ],
+    [
+      "Dec 31, 2020",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2019",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2018",
+      "Upgrade Pro"
+    ],
+    [
+      "Dec 31, 2017",
+      "Upgrade Pro"
+    ],
+    [
+      "Taboola.com",
+      "2,000"
+    ],
+    [
+      "Groupon",
+      "1,734"
+    ],
+    [
+      "Hello Group",
+      "1,400"
+    ],
+    [
+      "trivago",
+      "893"
+    ],
+    [
+      "NerdWallet",
+      "650"
+    ],
+    [
+      "Upwork",
+      "630"
+    ],
+    [
+      "Bumble",
+      "580"
+    ],
+    [
+      "Perion Network",
+      "511"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

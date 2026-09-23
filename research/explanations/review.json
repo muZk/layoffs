@@ -1,0 +1,1366 @@
+[
+  {
+    "record_id": "layoff-2026-010",
+    "company": "StoreDot",
+    "date": "2026-01-13",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/sjkqkmeb11x"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-011",
+    "company": "eToro",
+    "date": "2026-01-13",
+    "outcome": "generic",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company links the reduction to aligning its organizational structure with business needs and long-term growth.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/sjedi1vh11x",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/sjedi1vh11x"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-012",
+    "company": "Aleph Alpha",
+    "date": "2026-01-14",
+    "outcome": "generic",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company says the cuts concentrate capabilities and resources on customer priorities and areas with greater growth potential.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://apps.eurofound.europa.eu/restructuring-events/detail/203961",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.startbase.com/news/aleph-alpha-baut-rund-50-stellen-ab/",
+      "https://apps.eurofound.europa.eu/restructuring-events/detail/203961"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-017",
+    "company": "Vimeo",
+    "date": "2026-01-21",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.businessinsider.com/vimeo-laying-off-staff-after-billion-sale-to-bending-spoons-2026-1",
+      "https://techcrunch.com/2026/01/22/vimeo-starts-layoffs-after-acquisition-by-bending-spoons/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-023",
+    "company": "Moon Active",
+    "date": "2026-01-27",
+    "outcome": "generic",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company describes targeted streamlining in two units after reviewing operations and internal processes.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/jvbqyjznm",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/jvbqyjznm"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-028",
+    "company": "Kiwi.com",
+    "date": "2026-01-29",
+    "outcome": "generic",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company attributes the changes to greater agility, simpler work and faster decisions.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://media.kiwi.com/company-news/kiwi-com-update/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://forbes.cz/kiwi-pokracuje-v-propousteni-odchazi-tretina-zamestnancu/",
+      "https://skift.com/2026/01/29/online-travel-agency-kiwi-lays-off-staff-in-latest-round-of-cuts/",
+      "https://media.kiwi.com/company-news/kiwi-com-update/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-035",
+    "company": "Smartsheet",
+    "date": "2026-02-04",
+    "outcome": "generic",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company says organizational changes align resources with long-term business priorities.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.geekwire.com/2026/smartsheet-layoffs-enterprise-software-giant-cuts-staff/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.geekwire.com/2026/smartsheet-layoffs-enterprise-software-giant-cuts-staff/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-036",
+    "company": "Workday",
+    "date": "2026-02-04",
+    "outcome": "generic",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company links the reduction to aligning resources with its highest priorities.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.theregister.com/2026/02/04/workday_layoffs_400_jobs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.bloomberg.com/news/articles/2026-02-04/workday-to-cut-about-400-employees-focused-on-customer-support",
+      "https://www.theregister.com/2026/02/04/workday_layoffs_400_jobs/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-037",
+    "company": "Salesforce",
+    "date": "2026-02-09",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.businessinsider.com/salesforce-cuts-jobs-executive-changes-2026-2",
+      "https://www.salesforceben.com/salesforce-lays-off-nearly-1000-employees-in-early-2026-cuts/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-040",
+    "company": "Glossier",
+    "date": "2026-02-11",
+    "outcome": "generic",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company says smaller, more agile teams will accelerate decisions and execution.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://cosmeticsbusiness.com/glossier-to-cut-more-than-50-jobs",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.businessoffashion.com/news/cosmetics/glossier-layoffs-2026/",
+      "https://cosmeticsbusiness.com/glossier-to-cut-more-than-50-jobs"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-042",
+    "company": "Axonius",
+    "date": "2026-02-15",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/s1xchi1oze"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-046",
+    "company": "Codecademy",
+    "date": "2026-02-19",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.edtechinnovationhub.com/news/skillsoft-lays-off-entire-codecademy-curriculum-team-senior-leader-confirms"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-049",
+    "company": "DraftKings",
+    "date": "2026-02-24",
+    "outcome": "generic",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company says teams are being reorganized around its highest priorities and investment areas.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://next.io/news/people/draftkings-reduces-workforce-company-embraces-ai/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://next.io/news/people/draftkings-reduces-workforce-company-embraces-ai/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-056",
+    "company": "eBay",
+    "date": "2026-02-26",
+    "outcome": "concrete",
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "details": {
+      "organizational_consolidation": {
+        "summary": "Company identifies areas of duplication among the criteria for the current cuts.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html",
+        "specificity": "concrete",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html",
+      "https://www.investing.com/news/stock-market-news/ebay-slashes-6-of-workforce-as-ecommerce-firm-realigns-operations-4528171"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-060",
+    "company": "Amazon",
+    "date": "2026-03-04",
+    "outcome": "generic",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company describes a regular organizational review to position teams to innovate and deliver for customers.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://finance.yahoo.com/news/amazon-cuts-more-jobs-time-212928090.html",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://finance.yahoo.com/news/amazon-cuts-more-jobs-time-212928090.html",
+      "https://www.investing.com/news/stock-market-news/amazon-cuts-more-jobs-this-time-in-robotics-unit-4542244"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-064",
+    "company": "SSense",
+    "date": "2026-03-05",
+    "outcome": "generic",
+    "causes": [
+      "market_conditions"
+    ],
+    "details": {
+      "market_conditions": {
+        "summary": "Company reported economic reasons for the layoffs to the provincial government; the reason is not further specified.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-069",
+    "company": "Loopio",
+    "date": "2026-03-13",
+    "outcome": "generic",
+    "causes": [
+      "market_conditions",
+      "strategic_priorities"
+    ],
+    "details": {
+      "market_conditions": {
+        "summary": "Company connects the restructuring to its review of market conditions and evolving business needs.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "strategic_priorities": {
+        "summary": "Company says the restructuring aligns resources with product development, customer experience and sustainable growth.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://betakit.com/citing-market-conditions-loopio-cuts-12-percent-of-staff/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-070",
+    "company": "Stone",
+    "date": "2026-03-13",
+    "outcome": "generic",
+    "causes": [
+      "operational_efficiency",
+      "ai_transition"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company describes structural adjustments as part of simplification and efficiency efforts.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://jovempan.com.br/economia/macroeconomia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "ai_transition": {
+        "summary": "An unnamed source says progress in AI initiatives contributed to the decision; no concrete mechanism is given.",
+        "attribution": "press_reported",
+        "scope": "event",
+        "source_url": "https://jovempan.com.br/economia/macroeconomia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://jovempan.com.br/noticias/economia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios.html",
+      "https://jovempan.com.br/economia/macroeconomia/stone-faz-demissao-em-massa-e-desliga-cerca-de-400-funcionarios/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-074",
+    "company": "Snowflake",
+    "date": "2026-03-19",
+    "outcome": "generic",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company attributes targeted cuts to alignment with its long-term strategy.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-078",
+    "company": "OpenText",
+    "date": "2026-03-24",
+    "outcome": "generic",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company explains the cuts through organizational alignment with strategic priorities and long-term growth.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://betakit.com/opentext-employees-report-job-cuts-tied-to-apparent-restructuring/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-080",
+    "company": "Meta",
+    "date": "2026-03-25",
+    "outcome": "generic",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company says team restructurings are intended to help achieve their goals.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://techcrunch.com/2026/03/25/meta-is-cutting-several-hundred-jobs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE",
+      "https://dataconomy.com/2026/03/26/meta-layoffs-hundreds-2026/",
+      "https://techcrunch.com/2026/03/25/meta-is-cutting-several-hundred-jobs/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-086",
+    "company": "Oracle",
+    "date": "2026-03-31",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+      "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-091",
+    "company": "Meta",
+    "date": "2026-04-02",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-093",
+    "company": "Vimeo",
+    "date": "2026-04-03",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://hoodline.com/2026/04/vimeo-axes-quarter-of-midtown-staff-after-billion-dollar-takeover/",
+      "https://whatnow.com/new-york/local-news/new-york-based-video-platform-to-layoff-130-employees/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-094",
+    "company": "Welltech",
+    "date": "2026-04-03",
+    "outcome": "generic",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "An anonymous account describes reorganization and a change of focus as the reason communicated for the cuts. This is not a verified company statement.",
+        "attribution": "press_reported",
+        "scope": "event",
+        "source_url": "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://dev.ua/en/news/potentsiini-zvilnennia-u-welltech-1775220022"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-095",
+    "company": "Bolt",
+    "date": "2026-04-05",
+    "outcome": "generic",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "CEO connects the cuts to becoming a leaner, AI-centered organization, without naming affected tasks.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.pymnts.com/digital-payments/2026/bolt-cuts-third-of-staff-amid-new-ai-focus/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-102",
+    "company": "Esh Group",
+    "date": "2026-04-12",
+    "outcome": "generic",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company says eOS is restructuring to align with technology developments, signed agreements and anticipated customers.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/rjyjkbf2zl"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-103",
+    "company": "Eventbrite",
+    "date": "2026-04-13",
+    "outcome": "generic",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "New leadership says cuts follow its review after the acquisition; no duplicate-role or savings mechanism is attributed.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.marketscreener.com/news/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-ce7e50dedf8df62c",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.reuters.com/technology/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-2026-04-13/",
+      "https://www.heise.de/en/news/Event-platform-Eventbrite-lays-off-a-large-part-of-its-employees-11257427.html",
+      "https://www.marketscreener.com/news/bending-spoons-cuts-eventbrite-staff-rolls-out-product-changes-after-takeover-ce7e50dedf8df62c"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-106",
+    "company": "Nayax",
+    "date": "2026-04-15",
+    "outcome": "generic",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company describes ongoing workforce adjustments in response to market developments and customer needs.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/h1edoi6nbl"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-110",
+    "company": "Taboola",
+    "date": "2026-04-15",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/hku03an3bg"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-111",
+    "company": "UKG",
+    "date": "2026-04-15",
+    "outcome": "generic",
+    "causes": [
+      "ai_transition",
+      "market_conditions"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Company includes AI-driven technological changes among market shifts motivating the restructuring.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://cbs12.com/news/florida/ukg-announces-950-layoffs-affecting-a-large-number-of-workers-in-south-florida-offices-ultimate-kronos-group-jobs-reductions-restructuring-",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "market_conditions": {
+        "summary": "Company also cites changing customer expectations and software competition as reasons for the restructuring.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://cbs12.com/news/florida/ukg-announces-950-layoffs-affecting-a-large-number-of-workers-in-south-florida-offices-ultimate-kronos-group-jobs-reductions-restructuring-",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.sun-sentinel.com/2026/04/16/ukg-formerly-ultimate-software-lays-off-950-employees-many-from-south-florida-offices/",
+      "https://cbs12.com/news/florida/ukg-announces-950-layoffs-affecting-a-large-number-of-workers-in-south-florida-offices-ultimate-kronos-group-jobs-reductions-restructuring-"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-117",
+    "company": "GeoComply",
+    "date": "2026-04-21",
+    "outcome": "generic",
+    "causes": [
+      "ai_transition",
+      "operational_efficiency"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Company frames the cuts around technology change and greater use of AI for operational efficiency; affected tasks are not specified.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "operational_efficiency": {
+        "summary": "Company describes internal streamlining and optimization of how it works.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.casino.org/news/canadian-gaming-geocomply-workforce-layoffs/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-120",
+    "company": "Pentera",
+    "date": "2026-04-27",
+    "outcome": "generic",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company links adjustments to core activities, resource allocation and technological focus. AI product development alone is not a workforce mechanism.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/b1ioncnpzl",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/b1ioncnpzl"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-141",
+    "company": "MRI Software",
+    "date": "2026-05-11",
+    "outcome": "generic",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Company attributes cuts broadly to increased AI adoption across products and operations, without detailing which work changes.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://propmodo.com/private-equity-backed-proptech-firm-cuts-200-jobs-cites-ai-adoption/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-145",
+    "company": "Breadfast",
+    "date": "2026-05-12",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.fwdstart.me/p/egyptian-grocery-delivery-startup-breadfast-cuts-58-tech-staff-months-after-50m-raise"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-147",
+    "company": "Guesty",
+    "date": "2026-05-13",
+    "outcome": "generic",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Company attributes role adjustments to preparing for the AI era, without specifying an operating mechanism.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.geektime.co.il/guesty-lays-off-20-employees-in-israel/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-149",
+    "company": "LinkedIn",
+    "date": "2026-05-13",
+    "outcome": "generic",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company describes regular business planning intended to position it for future success.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.hcamag.com/us/news/general/linkedin-cuts-5-of-staff-despite-record-revenue-reuters-reports/575160",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/",
+      "https://www.hcamag.com/us/news/general/linkedin-cuts-5-of-staff-despite-record-revenue-reuters-reports/575160"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-152",
+    "company": "Innovaccer",
+    "date": "2026-05-14",
+    "outcome": "generic",
+    "causes": [
+      "ai_transition",
+      "strategic_priorities"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "CEO describes a transition to an AI-native company in the internal communication about the cuts.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "strategic_priorities": {
+        "summary": "Company says it is aligning its team with current business priorities.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://inc42.com/buzz/exclusive-healthtech-unicorn-innovaccer-lays-off-340-employees-in-another-restructuring-round/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-160",
+    "company": "Robinhood",
+    "date": "2026-06-16",
+    "outcome": "concrete",
+    "causes": [
+      "organizational_consolidation"
+    ],
+    "details": {
+      "organizational_consolidation": {
+        "summary": "CEO links the cuts to flatter organizational structures and avoiding a heavily layered organization.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/",
+        "specificity": "concrete",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-167",
+    "company": "ADP",
+    "date": "2026-06-26",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.nj.gov/labor/assets/PDFs/WARN/2026_WARN_Notice_Archive.pdf"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-168",
+    "company": "SAS",
+    "date": "2026-06-26",
+    "outcome": "generic",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company frames the cuts as redirecting resources toward cloud computing, sales and product development.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://finance.yahoo.com/technology/ai/articles/cary-sas-cuts-300-positions-133919519.html",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.newsobserver.com/news/business/article316281262.html",
+      "https://finance.yahoo.com/technology/ai/articles/cary-sas-cuts-300-positions-133919519.html"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-169",
+    "company": "CompanyCam",
+    "date": "2026-06-26",
+    "outcome": "generic",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Employee accounts describe a marketing reorganization; no company rationale is available.",
+        "attribution": "worker_reported",
+        "scope": "event",
+        "source_url": "https://siliconprairienews.com/2026/06/companycam-conducts-round-of-layoffs-amidst-indicators-of-continued-traction/",
+        "specificity": "generic",
+        "evidence_access": "prior_review"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://journalstar.com/news/local/business/article_8361d6df-899e-4843-a5ed-634232e5c917.html",
+      "https://siliconprairienews.com/2026/06/companycam-conducts-round-of-layoffs-amidst-indicators-of-continued-traction/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-172",
+    "company": "Amperity",
+    "date": "2026-06-25",
+    "outcome": "generic",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Company says broader adoption of AI changes its investment priorities and team needs; the concrete staffing mechanism is unspecified.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.geekwire.com/2026/amperity-hit-with-layoffs-as-ai-changes-the-shape-of-the-customer-data-startup-and-how-it-operates/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-178",
+    "company": "Lazada Group",
+    "date": "2026-06-23",
+    "outcome": "generic",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company says its role review seeks a focused, efficient organization aligned with current business needs.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://production.humanresourcesonline.net/lazada-to-undertake-workforce-reduction-across-southeast-asia-amid-organisational-review",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.techinasia.com/lazada-cuts-5-workforce-sea-market-review",
+      "https://production.humanresourcesonline.net/lazada-to-undertake-workforce-reduction-across-southeast-asia-amid-organisational-review"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-182",
+    "company": "Tractive",
+    "date": "2026-06-22",
+    "outcome": "generic",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company says a leaner organization will allow greater focus and flexibility following its review.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://ooe.orf.at/stories/3359562/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://ooe.orf.at/stories/3359562/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-184",
+    "company": "Optimove",
+    "date": "2026-06-17",
+    "outcome": "generic",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "CEO presents the cuts as part of an AI push and plans AI training for remaining staff; displaced work is not identified.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.intergameonline.com/igaming/news/optimove-cut-jobs-artificial-intelligence-ai"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-191",
+    "company": "Pleo",
+    "date": "2026-06-12",
+    "outcome": "generic",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company attributes the changes to stronger focus, simpler decisions and faster product delivery.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://tech.eu/2026/06/12/pleo-undertakes-fresh-round-of-job-cuts-around-50-laid-off/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-192",
+    "company": "ServiceNow",
+    "date": "2026-06-11",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-193",
+    "company": "Shopee",
+    "date": "2026-06-10",
+    "outcome": "generic",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company describes regular review and adjustment of staffing needs; the report explicitly leaves an AI connection unclear.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-197",
+    "company": "Verily",
+    "date": "2026-06-09",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html",
+      "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-198",
+    "company": "Salesforce",
+    "date": "2026-06-09",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6",
+      "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-200",
+    "company": "Tools for Humanity",
+    "date": "2026-06-08",
+    "outcome": "generic",
+    "causes": [
+      "strategic_priorities"
+    ],
+    "details": {
+      "strategic_priorities": {
+        "summary": "Company email links changes in roles and teams to its next stage of strategy and operating priorities.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://africa.businessinsider.com/news/sam-altmans-eye-scanning-startup-is-laying-off-employees/xwm6hxe"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-201",
+    "company": "Zencity",
+    "date": "2026-06-07",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/rkxkiagbgg"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-202",
+    "company": "FanDuel",
+    "date": "2026-06-05",
+    "outcome": "generic",
+    "causes": [
+      "operational_efficiency",
+      "market_conditions",
+      "ai_transition"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company says the changes seek agility, focus and execution of its long-term strategy.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "market_conditions": {
+        "summary": "Laid-off employees attribute the cuts partly to prediction-market competition and economic uncertainty.",
+        "attribution": "worker_reported",
+        "scope": "event",
+        "source_url": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      },
+      "ai_transition": {
+        "summary": "Laid-off employees identify greater emphasis on AI among the reasons they believe led to the cuts; no concrete staffing mechanism is specified.",
+        "attribution": "worker_reported",
+        "scope": "event",
+        "source_url": "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://frontofficesports.com/fanduel-is-latest-gambling-company-to-cut-jobs/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-203",
+    "company": "Quizlet",
+    "date": "2026-06-05",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-206",
+    "company": "Skai",
+    "date": "2026-06-03",
+    "outcome": "generic",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Company links its workforce adjustment to AI-related changes in how work is conducted, without specifying the tasks or roles transformed.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/jmjuqzfe6"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-208",
+    "company": "Manhattan Associates",
+    "date": "2026-06-02",
+    "outcome": "generic",
+    "causes": [
+      "operational_efficiency"
+    ],
+    "details": {
+      "operational_efficiency": {
+        "summary": "Company filing describes general efficiency and investment priorities without identifying an operating mechanism.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://ir.manh.com/static-files/88023415-72b4-44d1-abb5-d995fcfd2fc0",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.marketwatch.com/story/manhattan-associates-to-cut-6-of-workforce-1ff43c4a",
+      "https://ir.manh.com/static-files/88023415-72b4-44d1-abb5-d995fcfd2fc0"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-210",
+    "company": "Credit Karma",
+    "date": "2026-05-30",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.thestreet.com/employment/credit-karma-lays-off-hundreds-despite-631m-revenue-jump",
+      "https://www.aol.com/articles/credit-karma-lays-off-hundreds-153300000.html"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-214",
+    "company": "Amdocs",
+    "date": "2026-05-28",
+    "outcome": "generic",
+    "causes": [
+      "organizational_realignment"
+    ],
+    "details": {
+      "organizational_realignment": {
+        "summary": "Company says its new leadership is redesigning its operating model, while withholding specific details.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/u4qmp07cv",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/u4qmp07cv"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-217",
+    "company": "NetApp",
+    "date": "2026-05-27",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://hoodline.com/2026/05/san-jose-mainstay-netapp-axes-77-jobs-as-bay-area-tech-cuts-deepen/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-220",
+    "company": "BigID",
+    "date": "2026-05-26",
+    "outcome": "generic",
+    "causes": [
+      "ai_transition"
+    ],
+    "details": {
+      "ai_transition": {
+        "summary": "Founder attributes workforce adjustments to a transition toward AI-first software development and operations.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/b1lzc87ezl"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-223",
+    "company": "Zondacrypto",
+    "date": "2026-04-21",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://tvpworld.com/92834466/zonadcrypto-staff-report-chaos-and-mass-layoffs",
+      "https://2digital.news/zondacrypto-chief-disappears-employees-receive-termination-emails-as-company-descends-into-chaos/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-225",
+    "company": "Qualcomm",
+    "date": "2026-04-09",
+    "outcome": "no_explanation_identified",
+    "causes": [],
+    "details": {},
+    "note": "No event-specific attributed reason identified in reviewed material. Context alone is not a cause; this does not assert that no explanation exists elsewhere.",
+    "sources": [
+      "https://www.sandiegouniontribune.com/2026/04/09/qualcomm-lays-off-dozens-of-senior-positions-in-san-diego/"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-228",
+    "company": "Algorand Foundation",
+    "date": "2026-03-18",
+    "outcome": "generic",
+    "causes": [
+      "market_conditions"
+    ],
+    "details": {
+      "market_conditions": {
+        "summary": "Foundation attributes the reduction to macroeconomic uncertainty and the broader crypto-market downturn.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://x.com/AlgoFoundation/status/2034298850878652616",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://x.com/AlgoFoundation/status/2034298850878652616"
+    ]
+  },
+  {
+    "record_id": "layoff-2026-229",
+    "company": "OP Labs",
+    "date": "2026-03-12",
+    "outcome": "concrete",
+    "causes": [
+      "strategic_pivot"
+    ],
+    "details": {
+      "strategic_pivot": {
+        "summary": "CEO explicitly says the company will stop workstreams and do fewer things, rather than redistribute the same workload across fewer staff.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.cryptotimes.io/2026/03/12/op-labs-lays-off-employees/",
+        "specificity": "concrete",
+        "evidence_access": "full"
+      }
+    },
+    "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect.",
+    "sources": [
+      "https://www.cryptotimes.io/2026/03/12/op-labs-lays-off-employees/"
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "company": "Shopify",
+  "source_url": "https://stockanalysis.com/stocks/shop/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Shopify (SHOP) Number of Employees 2013-2025",
+  "rows": [
+    [
+      "Dec 31, 2025",
+      "7,600"
+    ],
+    [
+      "Dec 31, 2024",
+      "8,100"
+    ],
+    [
+      "Dec 31, 2023",
+      "8,300"
+    ],
+    [
+      "Dec 31, 2022",
+      "11,600"
+    ],
+    [
+      "Dec 31, 2021",
+      "10,000"
+    ],
+    [
+      "Dec 31, 2020",
+      "7,000"
+    ],
+    [
+      "Dec 31, 2019",
+      "5,000"
+    ],
+    [
+      "Dec 31, 2018",
+      "4,000"
+    ],
+    [
+      "Dec 31, 2017",
+      "3,000"
+    ],
+    [
+      "Dec 31, 2016",
+      "1,900"
+    ],
+    [
+      "Dec 31, 2015",
+      "1,048"
+    ],
+    [
+      "Dec 31, 2014",
+      "535"
+    ],
+    [
+      "Dec 31, 2013",
+      "131"
+    ],
+    [
+      "Dec 31, 2013",
+      "334"
+    ],
+    [
+      "SAP SE",
+      "111,397"
+    ],
+    [
+      "Salesforce",
+      "83,334"
+    ],
+    [
+      "Automatic Data Processing",
+      "67,000"
+    ],
+    [
+      "Uber Technologies",
+      "34,000"
+    ],
+    [
+      "Adobe",
+      "31,360"
+    ],
+    [
+      "ServiceNow",
+      "29,187"
+    ],
+    [
+      "Intuit",
+      "18,600"
+    ],
+    [
+      "Cadence Design Systems",
+      "13,800"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

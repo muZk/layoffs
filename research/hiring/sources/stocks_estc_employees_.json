@@ -1,0 +1,78 @@
+{
+  "company": "Elastic",
+  "source_url": "https://stockanalysis.com/stocks/estc/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Elastic (ESTC) Number of Employees 2018-2026",
+  "rows": [
+    [
+      "Apr 30, 2026",
+      "4,019"
+    ],
+    [
+      "Apr 30, 2025",
+      "3,537"
+    ],
+    [
+      "Apr 30, 2024",
+      "3,187"
+    ],
+    [
+      "Apr 30, 2023",
+      "2,886"
+    ],
+    [
+      "Apr 30, 2022",
+      "2,978"
+    ],
+    [
+      "Apr 30, 2021",
+      "2,179"
+    ],
+    [
+      "Apr 30, 2020",
+      "1,936"
+    ],
+    [
+      "Apr 30, 2019",
+      "1,442"
+    ],
+    [
+      "Jul 31, 2018",
+      "994"
+    ],
+    [
+      "Grab Holdings",
+      "12,012"
+    ],
+    [
+      "Full Truck Alliance",
+      "8,251"
+    ],
+    [
+      "Paylocity Holding",
+      "6,900"
+    ],
+    [
+      "Bentley Systems",
+      "5,800"
+    ],
+    [
+      "Paycom Software",
+      "5,770"
+    ],
+    [
+      "Procore Technologies",
+      "4,421"
+    ],
+    [
+      "The Descartes Systems Group",
+      "2,083"
+    ],
+    [
+      "JFrog",
+      "1,800"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}

@@ -1,0 +1,30 @@
+{
+  "company": "Vimeo",
+  "source_url": "https://stockanalysis.com/stocks/vmeo/employees/",
+  "retrieved": "2026-09-17",
+  "http_status": 200,
+  "title": "Vimeo.com (VMEO) Number of Employees",
+  "rows": [
+    [
+      "Dec 31, 2024",
+      "1,102"
+    ],
+    [
+      "Dec 31, 2023",
+      "1,070"
+    ],
+    [
+      "Dec 31, 2022",
+      "1,236"
+    ],
+    [
+      "Dec 31, 2021",
+      "1,219"
+    ],
+    [
+      "Dec 31, 2020",
+      "702"
+    ]
+  ],
+  "source_note": "Secondary compilation by Stock Analysis; see primary checks separately."
+}
