@@ -1,0 +1,815 @@
+{
+  "period_company_groups": {
+    "2019_2022": {
+      "IA": [
+        [
+          "Angi",
+          -7.9999999999999964
+        ],
+        [
+          "MercadoLibre",
+          317.89137380191687
+        ],
+        [
+          "Meta",
+          92.4302434248587
+        ],
+        [
+          "Autodesk",
+          31.25
+        ],
+        [
+          "Pinterest",
+          79.83761840324763
+        ],
+        [
+          "Salesforce",
+          110.11714285714285
+        ],
+        [
+          "Block",
+          224.0677966101695
+        ],
+        [
+          "Atlassian",
+          143.72234513274336
+        ],
+        [
+          "Snap",
+          65.50860719874805
+        ],
+        [
+          "PayPal",
+          28.87931034482758
+        ],
+        [
+          "Cloudflare",
+          153.30708661417324
+        ],
+        [
+          "Upwork",
+          49.122807017543856
+        ],
+        [
+          "Cisco",
+          9.74967061923584
+        ],
+        [
+          "Elastic",
+          106.51872399445215
+        ],
+        [
+          "Amdocs",
+          23.543808125305922
+        ]
+      ],
+      "Otras razones": [
+        [
+          "Ericsson",
+          6.147841918384178
+        ],
+        [
+          "Shopify",
+          131.99999999999997
+        ],
+        [
+          "Expedia",
+          -35.03937007874016
+        ],
+        [
+          "ASML",
+          56.9718875502008
+        ],
+        [
+          "Amazon",
+          93.10776942355889
+        ],
+        [
+          "Zillow",
+          9.04934273194895
+        ],
+        [
+          "Smartsheet",
+          130.60853769300635
+        ],
+        [
+          "Workday",
+          44.76190476190476
+        ],
+        [
+          "Cyberark",
+          100.57971014492755
+        ],
+        [
+          "DraftKings",
+          383.3141542002301
+        ],
+        [
+          "eBay",
+          -12.781954887218049
+        ],
+        [
+          "Spotify",
+          89.7616345062429
+        ],
+        [
+          "Oracle",
+          5.147058823529416
+        ],
+        [
+          "Intuit",
+          84.04255319148936
+        ],
+        [
+          "Wix",
+          74.5511319281811
+        ],
+        [
+          "Uber",
+          21.933085501858727
+        ],
+        [
+          "Manhattan Associates",
+          22.058823529411775
+        ],
+        [
+          "NetApp",
+          14.28571428571428
+        ]
+      ]
+    },
+    "2022_2025": {
+      "IA": [
+        [
+          "Angi",
+          -50.0
+        ],
+        [
+          "MercadoLibre",
+          204.9965473019631
+        ],
+        [
+          "Meta",
+          -8.807613144931892
+        ],
+        [
+          "Playtika",
+          -16.447368421052634
+        ],
+        [
+          "Autodesk",
+          21.42857142857142
+        ],
+        [
+          "Pinterest",
+          32.05417607223475
+        ],
+        [
+          "Salesforce",
+          3.9596959519179853
+        ],
+        [
+          "WiseTech",
+          80.0
+        ],
+        [
+          "C3.ai",
+          67.75568181818181
+        ],
+        [
+          "Block",
+          -17.887029288702927
+        ],
+        [
+          "Ocado",
+          8.220218800648293
+        ],
+        [
+          "Atlassian",
+          56.73436968115284
+        ],
+        [
+          "Life360",
+          36.74999999999999
+        ],
+        [
+          "Snap",
+          -0.510590015128598
+        ],
+        [
+          "Coinbase",
+          9.778270509977837
+        ],
+        [
+          "Freshworks",
+          -16.666666666666664
+        ],
+        [
+          "PayPal",
+          -20.40133779264214
+        ],
+        [
+          "Cloudflare",
+          60.273546782716814
+        ],
+        [
+          "Upwork",
+          -25.882352941176467
+        ],
+        [
+          "Cisco",
+          3.4813925570228
+        ],
+        [
+          "Jumia",
+          -53.31171838814266
+        ],
+        [
+          "Gambling.com Group",
+          51.64556962025317
+        ],
+        [
+          "GitLab",
+          45.70552147239264
+        ],
+        [
+          "Elastic",
+          18.77098723975823
+        ],
+        [
+          "Lastminute",
+          1.813633520950586
+        ],
+        [
+          "Rackspace",
+          -26.470588235294112
+        ],
+        [
+          "Amdocs",
+          -10.958135235076593
+        ],
+        [
+          "Groupon",
+          -40.28925619834711
+        ]
+      ],
+      "Otras razones": [
+        [
+          "FormFactor",
+          2.280285035629448
+        ],
+        [
+          "Ericsson",
+          -15.827876697400711
+        ],
+        [
+          "Shopify",
+          -34.48275862068966
+        ],
+        [
+          "Expedia",
+          -3.0303030303030276
+        ],
+        [
+          "ASML",
+          13.020007163690316
+        ],
+        [
+          "Amazon",
+          2.2712524334847606
+        ],
+        [
+          "Peloton",
+          -57.126715092816795
+        ],
+        [
+          "Zillow",
+          23.48008385744236
+        ],
+        [
+          "Workday",
+          34.210526315789465
+        ],
+        [
+          "Lucid Motors",
+          25.0
+        ],
+        [
+          "eBay",
+          6.034482758620685
+        ],
+        [
+          "Verint Systems",
+          -13.636363636363635
+        ],
+        [
+          "Snowflake",
+          96.24248496993988
+        ],
+        [
+          "Spotify",
+          -12.393827012800573
+        ],
+        [
+          "OpenText",
+          47.91666666666667
+        ],
+        [
+          "Oracle",
+          13.286713286713292
+        ],
+        [
+          "Sonos",
+          -23.86117136659436
+        ],
+        [
+          "MARA",
+          786.6666666666667
+        ],
+        [
+          "GoPro",
+          -27.48004561003421
+        ],
+        [
+          "IAC",
+          -53.12727272727273
+        ],
+        [
+          "Cars.com",
+          0.0
+        ],
+        [
+          "Nayax",
+          50.0
+        ],
+        [
+          "Bill.com",
+          4.1868664609960415
+        ],
+        [
+          "Truecaller",
+          18.22784810126583
+        ],
+        [
+          "ZoomInfo",
+          -10.169491525423723
+        ],
+        [
+          "Intuit",
+          5.202312138728327
+        ],
+        [
+          "Wix",
+          19.40966010733454
+        ],
+        [
+          "Robinhood",
+          26.086956521739136
+        ],
+        [
+          "Rivian",
+          7.860076476419775
+        ],
+        [
+          "Opendoor",
+          -59.45525291828794
+        ],
+        [
+          "Veritone",
+          -32.52647503782148
+        ],
+        [
+          "Paytm",
+          119.14940993097306
+        ],
+        [
+          "Uber",
+          3.658536585365857
+        ],
+        [
+          "Manhattan Associates",
+          5.301204819277117
+        ],
+        [
+          "SentinelOne",
+          133.33333333333334
+        ],
+        [
+          "NetApp",
+          -2.500000000000002
+        ],
+        [
+          "Trend Micro",
+          -12.413613248141875
+        ],
+        [
+          "Qt Company",
+          55.232558139534895
+        ]
+      ]
+    }
+  },
+  "other_reasons_with_ai": [
+    [
+      "cost_cutting",
+      19
+    ],
+    [
+      "organizational_consolidation",
+      18
+    ],
+    [
+      "strategic_pivot",
+      8
+    ],
+    [
+      "work_relocation",
+      4
+    ],
+    [
+      "operational_efficiency",
+      3
+    ],
+    [
+      "m_and_a",
+      2
+    ],
+    [
+      "market_conditions",
+      2
+    ],
+    [
+      "demand_decline",
+      1
+    ],
+    [
+      "financial_distress",
+      1
+    ],
+    [
+      "ipo_prep",
+      1
+    ],
+    [
+      "market_exit",
+      1
+    ],
+    [
+      "shutdown",
+      1
+    ],
+    [
+      "strategic_priorities",
+      1
+    ],
+    [
+      "unit_closure",
+      1
+    ],
+    [
+      "lost_contract",
+      0
+    ],
+    [
+      "organizational_realignment",
+      0
+    ],
+    [
+      "performance_cull",
+      0
+    ],
+    [
+      "regulatory",
+      0
+    ]
+  ],
+  "ai_reasons": [
+    [
+      "ai_productivity",
+      24
+    ],
+    [
+      "ai_investment_reallocation",
+      14
+    ],
+    [
+      "ai_transition",
+      13
+    ],
+    [
+      "ai_work_redesign",
+      10
+    ],
+    [
+      "ai_substitution",
+      8
+    ],
+    [
+      "ai_market_disruption",
+      7
+    ]
+  ],
+  "organizational_consolidation": [
+    {
+      "record_id": "layoff-2026-005",
+      "company_label": "Kaseya",
+      "has_ai_reason": 0,
+      "summary": "Company reorganizes go-to-market teams around customer segments and account management.",
+      "url": "https://www.crn.com/news/channel-news/2026/kaseya-lays-off-5-percent-of-workforce-to-align-our-go-to-market-teams"
+    },
+    {
+      "record_id": "layoff-2026-007",
+      "company_label": "FormFactor",
+      "has_ai_reason": 0,
+      "summary": "Filing describes facility consolidation and margin improvement. Prior regulatory attribution is unsupported.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000002/form-20260105.htm"
+    },
+    {
+      "record_id": "layoff-2026-008",
+      "company_label": "MercadoLibre",
+      "has_ai_reason": 1,
+      "summary": "Company describes integrating content and design within user experience.",
+      "url": "https://economia.uol.com.br/noticias/estadao-conteudo/2026/01/13/correcao-mercado-livre-demite-119-pessoas-na-al-sendo-38-no-brasil-apos-avanco-da-ia.htm"
+    },
+    {
+      "record_id": "layoff-2026-018",
+      "company_label": "Autodesk",
+      "has_ai_reason": 1,
+      "summary": "The cuts, mainly in customer-facing sales, complete a multi-year go-to-market transformation.",
+      "url": "https://adsknews.autodesk.com/en/news/012226-employee-message/"
+    },
+    {
+      "record_id": "layoff-2026-022",
+      "company_label": "Expedia",
+      "has_ai_reason": 0,
+      "summary": "The company explicitly links role eliminations and new roles to simplifying its structure and reducing organizational layers.",
+      "url": "https://www.geekwire.com/2026/expedia-group-lays-off-employees-in-latest-cuts-at-seattle-travel-giant/"
+    },
+    {
+      "record_id": "layoff-2026-025",
+      "company_label": "ASML",
+      "has_ai_reason": 0,
+      "summary": "Company replaces matrix organization with dedicated product/module teams and removes associated management roles.",
+      "url": "https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation"
+    },
+    {
+      "record_id": "layoff-2026-026",
+      "company_label": "Amazon",
+      "has_ai_reason": 0,
+      "summary": "Current company memo identifies management layers and bureaucracy. AI attribution cannot be imported from another round.",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026"
+    },
+    {
+      "record_id": "layoff-2026-027",
+      "company_label": "Gloo",
+      "has_ai_reason": 1,
+      "summary": "The letter says targeted reductions eliminate duplication.",
+      "url": "https://investors.gloo.com/static-files/6a6cee16-3074-4288-83a4-ce6487c4267f"
+    },
+    {
+      "record_id": "layoff-2026-033",
+      "company_label": "Zipcar",
+      "has_ai_reason": 0,
+      "summary": "Company consolidates office operations in New Jersey.",
+      "url": "https://www.boston.com/news/business/2026/02/02/zipcar-to-close-seaport-headquarters-cut-more-than-100-jobs/"
+    },
+    {
+      "record_id": "layoff-2026-044",
+      "company_label": "Huawei",
+      "has_ai_reason": 0,
+      "summary": "Reported integration of staff and work into other organizational units identifies consolidation.",
+      "url": "https://www.calcalistech.com/ctechnews/article/bkmmdojuwx"
+    },
+    {
+      "record_id": "layoff-2026-055",
+      "company_label": "Ocado",
+      "has_ai_reason": 1,
+      "summary": "Company combines Solutions and Automation operations.",
+      "url": "https://www.rns-pdf.londonstockexchange.com/rns/5025U_1-2026-2-26.pdf"
+    },
+    {
+      "record_id": "layoff-2026-056",
+      "company_label": "eBay",
+      "has_ai_reason": 0,
+      "summary": "Company identifies areas of duplication among the criteria for the current cuts.",
+      "url": "https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html"
+    },
+    {
+      "record_id": "layoff-2026-059",
+      "company_label": "MicroVision",
+      "has_ai_reason": 0,
+      "summary": "Filing explicitly links consolidation of Redmond activities into Orlando to lower operating costs.",
+      "url": "https://www.sec.gov/Archives/edgar/data/65770/000149315226008898/R28.htm"
+    },
+    {
+      "record_id": "layoff-2026-062",
+      "company_label": "Envato",
+      "has_ai_reason": 1,
+      "summary": "The CEO describes removing management layers and reorganizing around smaller teams and individual contributors.",
+      "url": "https://www.startupdaily.net/advice/business-strategy/shutterstock-owned-envato-is-slashing-its-workforce/"
+    },
+    {
+      "record_id": "layoff-2026-063",
+      "company_label": "Supernal",
+      "has_ai_reason": 0,
+      "summary": "Company consolidates operations in Irvine.",
+      "url": "https://www.latimes.com/business/story/2026-03-04/irvine-startup-lays-off-close-to-300-employees"
+    },
+    {
+      "record_id": "layoff-2026-066",
+      "company_label": "InvestCloud",
+      "has_ai_reason": 1,
+      "summary": "Digital Wealth operations are being concentrated into fewer centers.",
+      "url": "https://wealthtechtoday.com/2026/03/09/investcloud-layoffs-2026/"
+    },
+    {
+      "record_id": "layoff-2026-076",
+      "company_label": "Spotify",
+      "has_ai_reason": 0,
+      "summary": "Bloomberg reports the podcast reorganization removes management layers.",
+      "url": "https://news.bloomberglaw.com/human-resources-news/spotify-lays-off-15-people-about-3-of-podcasting-staff"
+    },
+    {
+      "record_id": "layoff-2026-081",
+      "company_label": "Monte Carlo",
+      "has_ai_reason": 1,
+      "summary": "The recorded explanation links the cuts to a flatter organization; AI productivity remains a separate narrative.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7442678720647184385/"
+    },
+    {
+      "record_id": "layoff-2026-089",
+      "company_label": "Sonos",
+      "has_ai_reason": 0,
+      "summary": "Reporting describes eliminating fragmentation across marketing teams.",
+      "url": "https://startuptalky.com/news/sonos-cuts-marketing-jobs/"
+    },
+    {
+      "record_id": "layoff-2026-098",
+      "company_label": "IAC",
+      "has_ai_reason": 0,
+      "summary": "Filing describes corporate-function consolidation and savings. Announcement was April 28, not April 8.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1800227/000110465926049837/tm2612831d1_8k.htm"
+    },
+    {
+      "record_id": "layoff-2026-099",
+      "company_label": "Cars.com",
+      "has_ai_reason": 0,
+      "summary": "Filing links changes to a simpler organization and lower costs; AI product work is a separate initiative.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1683606/000119312526149752/cars-ex99_pressrelease.htm"
+    },
+    {
+      "record_id": "layoff-2026-124",
+      "company_label": "Coinbase",
+      "has_ai_reason": 1,
+      "summary": "The CEO specifies a maximum of five management layers below the CEO/COO and larger manager spans as part of the restructuring.",
+      "url": "https://www.coinbase.com/blog/building-a-leaner-and-faster-coinbase"
+    },
+    {
+      "record_id": "layoff-2026-125",
+      "company_label": "Freshworks",
+      "has_ai_reason": 1,
+      "summary": "CEO identifies overlapping commercial roles, centralized functions and fewer management layers.",
+      "url": "https://www.freshworks.com/theworks/company-news/message-from-ceo-may-2026/"
+    },
+    {
+      "record_id": "layoff-2026-126",
+      "company_label": "PayPal",
+      "has_ai_reason": 1,
+      "summary": "Company removes duplicated responsibilities and management layers.",
+      "url": "https://s205.q4cdn.com/875401827/files/doc_financials/2026/ar/2026-Annual-Meeting-Posted-Q-A-FINAL.pdf"
+    },
+    {
+      "record_id": "layoff-2026-134",
+      "company_label": "DeepL",
+      "has_ai_reason": 1,
+      "summary": "The founder describes reducing organizational layers as part of the workforce restructuring.",
+      "url": "https://www.linkedin.com/pulse/important-update-deepl-jarek-kutylowski-66yxe/"
+    },
+    {
+      "record_id": "layoff-2026-135",
+      "company_label": "Ticketmaster",
+      "has_ai_reason": 0,
+      "summary": "Company describes fewer management layers and consolidated teams. Earlier AI product strategy is context.",
+      "url": "https://www.musicbusinessworldwide.com/ticketmaster-cuts-around-350-jobs-8-of-global-workforce-in-engineering-product-and-design-restructuring-report/"
+    },
+    {
+      "record_id": "layoff-2026-136",
+      "company_label": "Truecaller",
+      "has_ai_reason": 0,
+      "summary": "Company describes a simpler organization.",
+      "url": "https://corporate.truecaller.com/newsroom/press-release/user-and-premium-growth-continue%2C-while-we-strengthen-the-platform-for-the-future?id=787D9F8369CBBE33"
+    },
+    {
+      "record_id": "layoff-2026-137",
+      "company_label": "Upwork",
+      "has_ai_reason": 1,
+      "summary": "The CEO memo explicitly calls for fewer layers and a flatter organization.",
+      "url": "https://www.upwork.com/press/releases/upwork-ceo-hayden-brown-shared-the-following-message-with-employees-on-may-7-2026"
+    },
+    {
+      "record_id": "layoff-2026-155",
+      "company_label": "Intuit",
+      "has_ai_reason": 0,
+      "summary": "Company simplifies management and consolidates teams.",
+      "url": "https://www.indiatoday.in/jobs/story/software-maker-intuit-to-cut-3000-jobs-ceo-says-layoff-has-nothing-to-do-with-ai-tchc-2914758-2026-05-21"
+    },
+    {
+      "record_id": "layoff-2026-159",
+      "company_label": "GitLab",
+      "has_ai_reason": 1,
+      "summary": "Company reduces layers and handoffs.",
+      "url": "https://about.gitlab.com/blog/gitlab-act-2/"
+    },
+    {
+      "record_id": "layoff-2026-160",
+      "company_label": "Robinhood",
+      "has_ai_reason": 0,
+      "summary": "CEO links the cuts to flatter organizational structures and avoiding a heavily layered organization.",
+      "url": "https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/"
+    },
+    {
+      "record_id": "layoff-2026-165",
+      "company_label": "Elementor",
+      "has_ai_reason": 1,
+      "summary": "Company specifies a flatter structure with fewer management layers.",
+      "url": "https://www.calcalistech.com/ctechnews/article/sycgn6yxze"
+    },
+    {
+      "record_id": "layoff-2026-173",
+      "company_label": "Sonos",
+      "has_ai_reason": 0,
+      "summary": "Company says the cuts remove layers and streamline teams.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-sonos-cuts-3-195105247.html"
+    },
+    {
+      "record_id": "layoff-2026-175",
+      "company_label": "Snyk",
+      "has_ai_reason": 0,
+      "summary": "R&D and go-to-market are unified and leadership is flattened.",
+      "url": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+    },
+    {
+      "record_id": "layoff-2026-176",
+      "company_label": "Elastic",
+      "has_ai_reason": 1,
+      "summary": "Fewer management layers and three engineering areas under senior leaders.",
+      "url": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees"
+    },
+    {
+      "record_id": "layoff-2026-179",
+      "company_label": "Ethereum Foundation",
+      "has_ai_reason": 0,
+      "summary": "Work is grouped into five clusters as part of the restructuring.",
+      "url": "https://www.coindesk.com/tech/2026/06/23/ethereum-foundation-cuts-20-of-staff-amid-leadership-exodus"
+    },
+    {
+      "record_id": "layoff-2026-183",
+      "company_label": "Lucid Motors",
+      "has_ai_reason": 0,
+      "summary": "COO position is eliminated as the organizational structure is streamlined.",
+      "url": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/"
+    },
+    {
+      "record_id": "layoff-2026-187",
+      "company_label": "Artlist",
+      "has_ai_reason": 1,
+      "summary": "Company flattens the organization to reduce delivery delays.",
+      "url": "https://www.calcalistech.com/ctechnews/article/xrqudqiq6"
+    },
+    {
+      "record_id": "layoff-2026-205",
+      "company_label": "Uber",
+      "has_ai_reason": 0,
+      "summary": "Company removes overlap and fragmentation in its people organization.",
+      "url": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html"
+    },
+    {
+      "record_id": "layoff-2026-210",
+      "company_label": "Credit Karma",
+      "has_ai_reason": 0,
+      "summary": "Intuit’s May 20 employee letter explicitly identifies elimination of overlapping TurboTax and Credit Karma roles following integration. Local reporting places this notice within that plan; it does not show that each of the 117 positions had the same rationale.",
+      "url": "https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm"
+    },
+    {
+      "record_id": "layoff-2026-214",
+      "company_label": "Amdocs",
+      "has_ai_reason": 1,
+      "summary": "Globes attributes the May round to a strategy that includes a less hierarchical organization. It does not quantify layers or assign individual positions.",
+      "url": "https://en.globes.co.il/en/article-amdocs-to-lay-off-3000-employees-1001544263"
+    },
+    {
+      "record_id": "layoff-2026-216",
+      "company_label": "Webflow",
+      "has_ai_reason": 1,
+      "summary": "Simpler structure reduces handoffs and approvals.",
+      "url": "https://webflow.com/blog/evolving-webflow-for-the-agentic-web"
+    },
+    {
+      "record_id": "layoff-2026-221",
+      "company_label": "Trend Micro",
+      "has_ai_reason": 0,
+      "summary": "R&D locations are consolidated across global sites.",
+      "url": "https://www.itnews.com.au/news/trend-micros-enterprise-unit-shuts-sydney-engineering-team-625788"
+    }
+  ]
+}
