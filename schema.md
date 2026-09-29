@@ -95,8 +95,8 @@ classifications and old charts/notebooks are historical and require migration be
 
 ## Affected work (reviewed 2026-09-17)
 
-All 228 H1 announcement records have `affected_work`. `status` is `identified` (60),
-`unit_only` (8), or `not_identified` (160). `functions` uses the 12 keys in
+All 228 H1 announcement records have `affected_work`. `status` is `identified` (62),
+`unit_only` (8), or `not_identified` (158). `functions` uses the 12 keys in
 `research/functions/taxonomy.json`; multiple functions may apply. `details` supplies
 source URL, attribution, summary and `evidence_access` (`full`, `partial`, or
 `prior_review`). Four identified records rely on partial extracts; seven retain
@@ -128,16 +128,13 @@ market_conditions, ai_transition. Event-specific AI transition language is diffe
 from background AI products or investment. The latter stays in context. Transferred
 AI claims are removed from ai_link_unspecified context to avoid duplicate axes.
 
-Current H1 coverage: 160 announcements with at least one concrete mechanism,
-41 with generic reasons only, 13 with no reason identified, 12 with insufficient
+Current H1 coverage: 163 announcements with at least one concrete mechanism,
+43 with generic reasons only, 11 with no reason identified, 9 with insufficient
 causal evidence and 2 without a recovered causal source (228 total).
-Generic-only counts cover those 41 records; generic language is not exhaustively
+Generic-only counts cover those 43 records; generic language is not exhaustively
 coded alongside previously concrete explanations across the whole collection.
 
-Concrete AI mechanisms occur in 59 records. Another 13 have only generic AI
-attributions: 12 generic-only records and Amdocs, which also has a concrete non-AI
-mechanism. All-explanation mode counts 72 AI-attributed records. Neither measure
-counts verified AI job replacement. Hiring comparisons include all attributed causes, matching the narrative and explorer.
+Concrete AI mechanisms occur in 74 records; the other 34 AI-linked records have only a general AI attribution. All-explanation mode counts 108 AI-attributed records, including 11 whose general link is retained from the tracker without separate mechanism corroboration. Neither measure counts verified replacement. Hiring comparisons use all attributed reasons.
 
 `generic_review` documents the follow-up of all 46 announcements initially carrying
 only generic reasons: `outcome` = mechanism_recovered (5),
@@ -152,3 +149,20 @@ Reproduction order: research/explanations/curate.py, research/explanations/reche
 research/generic-review/curate.py, then report/build.py. Each curation step reads its
 immutable baseline. The source-review audit chain includes all three follow-ups;
 the published explanation ledgers reflect the current classifications.
+
+## AI consistency rule — 2026-09-28
+
+An event-linked attribution is sufficient; independently measured replacement is not required. Explicit redirection of people or investment toward AI qualifies as `ai_investment_reallocation`, including mixed investment programs. A source linking this reduction to an AI-oriented organizational or product transition qualifies as `ai_transition` when no more specific mechanism is established. Our own additions require a documented attribution; AI product ownership alone is insufficient. Existing tracker event labels are retained under the tracker-first policy below, while a documented different-event explanation can justify an exception. Company denials do not erase a separately documented attribution; preserve both with their respective scope.
+
+A product pivot can also have an AI reason when the same source explicitly connects the staffing decision to that AI direction. These are overlapping descriptions of one decision, not independent causes or a count of twice as many affected people. The September 28 consistency screen adds 16 such missing attributions, retaining all headcounts and population exclusions. See `research/ai-tracker-comparison/consistency-review.json` and the before/after audit in `coverage/ai-consistency-2026-09-28.json`.
+
+
+## Tracker-first AI attribution policy (September 28, 2026)
+
+Layoffs.fyi’s event-level AI classifications are the baseline. Lack of access to its linked source, lack of company confirmation, or a more general corporate explanation is not enough to remove a classification. We preserve additional AI attributions documented in other sources, and diverge only for a documented event or scope mismatch, correction, or later clarification. A later publication must concern the same event.
+
+Twelve general AI links are retained from the tracker without independently corroborating its detailed mechanism. They use `ai_transition`, `reported_inference`, and the tracker as `source_url`; summaries explicitly identify this provenance. Full access to the tracker is not full access to its underlying article. These cases are counted as attributed AI links, not confirmed replacement or company statements. Seven other additions have additional source or plan-level context. Verily remains excluded from AI classification because the tracker names a devices closure announced in August 2025 for a June 2026 notice. The 16 additional AI announcements absent from the tracker remain included. See `coverage/ai-tracker-baseline-2026-09-28.json`.
+
+## Evidence follow-up (2026-09-29)
+
+`evidence_followup` records the latest targeted investigation, its outcome, remaining limit and research-log path. It does not independently change a cause or a source-access status. Historical `generic_review` notes describe their dated investigation; consult this newer field for current follow-up. Fourteen records were reviewed. The before/after chain is stored in `coverage/evidence-followup-2026-09-29.json`.

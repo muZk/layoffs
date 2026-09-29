@@ -27,7 +27,7 @@ INK='#252333';ACC='#6741bd';GRAY='#777281';PAPER='#fbfafc';LINE='#dedbe5'
 plt.rcParams.update({'font.family':'Jost','font.size':11,'text.color':INK,'axes.labelcolor':INK,'xtick.color':GRAY,'ytick.color':INK,'svg.fonttype':'path','axes.spines.top':False,'axes.spines.right':False,'axes.spines.left':False,'axes.edgecolor':LINE,'figure.facecolor':PAPER,'axes.facecolor':PAPER,'savefig.facecolor':PAPER})
 def save(fig,name):
  _brand['stamp'](fig,name)
- for ext in ['svg','png']:fig.savefig(P/'assets'/f'{name}.{ext}',dpi=180,bbox_inches='tight',metadata={'Creator':'Layoff evidence report; generated from 2026-categorized.json, reviewed 2026-09-17'})
+ for ext in ['svg','png']:fig.savefig(P/'assets'/f'{name}.{ext}',dpi=180,bbox_inches='tight',metadata={'Creator':'Layoff evidence report; generated from 2026-categorized.json, reviewed 2026-09-28'})
  plt.close(fig)
 def bars(name,items,title,colors=None):
  fig,ax=plt.subplots(figsize=(10,max(2,len(items)*.4+.8)));labs=[a for a,b in items];vals=[b for a,b in items];y=range(len(items));ax.barh(y,vals,color=colors or ACC,height=.58);ax.set_yticks(list(y),labs);ax.invert_yaxis();ax.tick_params(axis='y',length=0,pad=12);ax.set_xlim(0,max(vals)*1.14);ax.xaxis.set_major_locator(matplotlib.ticker.MaxNLocator(integer=True,nbins=5));ax.set_xlabel('Announcement records');ax.grid(axis='x',alpha=.22);ax.set_axisbelow(True)
@@ -91,7 +91,7 @@ for name,values in mobile_sets.items():
         chart+='<div class="mobile-bar-row"><div class="mobile-bar-label"><span>'+html.escape(a)+'</span><strong>'+str(n)+'</strong></div><div class="mobile-track"><div style="width:'+str(n/ceiling*100)+'%"></div></div></div>'
     chart+='<div class="chart-author">'+html.escape(_brand['AUTHOR'])+'</div></div>'
     body=body.replace('src="assets/'+name+'.svg">','src="assets/'+name+'.svg">'+chart)
-for needle,tag,label in [('Smaller teams, lower costs','ai_productivity','Explore all 24 productivity records'),('Changing where the money goes','ai_investment_reallocation','Explore all 14 investment records'),('When AI changes the business','ai_market_disruption','Explore all 7 market-disruption records')]:
+for needle,tag,label in [('Smaller teams, lower costs','ai_productivity','Explore all 24 productivity records'),('Changing where the money goes','ai_investment_reallocation','Explore all 24 investment records'),('When AI changes the business','ai_market_disruption','Explore all 7 market-disruption records')]:
  pat=r'(<h2[^>]*>'+re.escape(needle)+r'</h2>)';body=re.sub(pat,r'\1<button class="chapter-link" data-cause="'+tag+'">'+label+'</button>',body)
 # Full prose tables remain horizontally scrollable at narrow widths.
 body=re.sub(r'<table>(.*?)</table>',lambda m:'<table'+(' class="count-table"' if any(t in m[1] for t in ['Available detail','Detalle disponible','Attributed generic explanation','Explicación genérica atribuida']) else '')+'>'+m[1]+'</table>',body,flags=re.S)
@@ -104,7 +104,7 @@ with (P/'records.csv').open('w',newline='') as f:
  writer=csv.DictWriter(f,fieldnames=list(dict.fromkeys(k for r in PUBLIC for k in r)))
  writer.writeheader()
  writer.writerows({k:json.dumps(v,ensure_ascii=False) if isinstance(v,(list,dict)) else v for k,v in r.items()} for r in PUBLIC)
-(P/'assets'/'provenance.json').write_text(json.dumps({'source':'../records.json','review_date':'2026-09-17','unit':'retained H1 announcement records','denominator':len(E),'generated_by':'../build.py','explanation_basis':'all attributed reasons, including general reasons','figures':['all-reasons','mechanisms','overlap','matrix','ai-mechanisms','evidence-gaps']},indent=2))
+(P/'assets'/'provenance.json').write_text(json.dumps({'source':'../records.json','review_date':'2026-09-28','unit':'retained H1 announcement records','denominator':len(E),'generated_by':'../build.py','explanation_basis':'all attributed reasons, including general reasons','figures':['all-reasons','mechanisms','overlap','matrix','ai-mechanisms','evidence-gaps']},indent=2))
 print('Built report, 6 SVG + 6 PNG figures, downloadable prose and 228 H1 announcement records.')
 
 import runpy

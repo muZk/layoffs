@@ -1,0 +1,2560 @@
+{
+  "date": "2026-09-28",
+  "method": "Consistency screen of all 235 stored record assessments, with targeted source rereads; not a fresh retrieval of every source. Event-linked AI investment and general transitions count without proof of task replacement. Denials remain separate. Period measures remain excluded.",
+  "events": [
+    {
+      "before": {
+        "record_id": "layoff-2026-004",
+        "company": "Hailo",
+        "date": "2026-01-08",
+        "laid_off": 30,
+        "pct": 0.1,
+        "industry": "Manufacturing",
+        "stage": "Series C",
+        "country": "Israel",
+        "location_hq": [
+          "Tel Aviv",
+          "Non-U.S."
+        ],
+        "raised_mm": 344,
+        "source_url": "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Company redirects effort toward robotics and Physical AI; this is a product-market pivot, not employee replacement.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx",
+            "specificity": "concrete"
+          }
+        },
+        "context": [
+          {
+            "kind": "ai_product_strategy",
+            "summary": "Physical AI is the destination of the product pivot, not a second layoff mechanism.",
+            "source_url": "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-16",
+          "status": "source_reviewed",
+          "note": "Company redirects effort toward robotics and Physical AI; this is a product-market pivot, not employee replacement.",
+          "sources": [
+            "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Company redirects effort toward robotics and Physical AI; this is a product-market pivot, not employee replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-004",
+        "company": "Hailo",
+        "date": "2026-01-08",
+        "laid_off": 30,
+        "pct": 0.1,
+        "industry": "Manufacturing",
+        "stage": "Series C",
+        "country": "Israel",
+        "location_hq": [
+          "Tel Aviv",
+          "Non-U.S."
+        ],
+        "raised_mm": 344,
+        "source_url": "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot",
+          "ai_investment_reallocation"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Company redirects effort toward robotics and Physical AI; this is a product-market pivot, not employee replacement.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx",
+            "specificity": "concrete"
+          },
+          "ai_investment_reallocation": {
+            "summary": "Company explicitly reallocates investment from slower-adopting segments toward robotics and Physical AI and links the staffing adjustment to that reallocation.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "Company explicitly reallocates investment from slower-adopting segments toward robotics and Physical AI and links the staffing adjustment to that reallocation. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Company redirects effort toward robotics and Physical AI; this is a product-market pivot, not employee replacement. Company explicitly reallocates investment from slower-adopting segments toward robotics and Physical AI and links the staffing adjustment to that reallocation.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "Company explicitly reallocates investment from slower-adopting segments toward robotics and Physical AI and links the staffing adjustment to that reallocation.",
+          "source_url": "https://www.calcalistech.com/ctechnews/article/hyzk11etvwx"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-019",
+        "company": "Shopify",
+        "date": "2026-01-22",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Retail",
+        "stage": "Post-IPO",
+        "country": "Canada",
+        "location_hq": [
+          "Ottawa",
+          "Non-U.S."
+        ],
+        "raised_mm": 122,
+        "source_url": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Reporting connects partnership cuts with changed commerce priorities; this does not describe AI doing employees' work.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/",
+            "specificity": "concrete"
+          }
+        },
+        "context": [
+          {
+            "kind": "ai_product_strategy",
+            "summary": "AI commerce is a business priority; internal employee automation is not described.",
+            "source_url": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-16",
+          "status": "source_reviewed",
+          "note": "Reporting connects partnership cuts with changed commerce priorities; this does not describe AI doing employees' work.",
+          "sources": [
+            "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Reporting connects partnership cuts with changed commerce priorities; this does not describe AI doing employees' work.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "sales"
+          ],
+          "details": [
+            {
+              "functions": [
+                "sales"
+              ],
+              "summary": "Existing source review identifies partnership roles in the January event.",
+              "attribution": "press_reported",
+              "source_url": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/",
+              "evidence_access": "prior_review"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-019",
+        "company": "Shopify",
+        "date": "2026-01-22",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Retail",
+        "stage": "Post-IPO",
+        "country": "Canada",
+        "location_hq": [
+          "Ottawa",
+          "Non-U.S."
+        ],
+        "raised_mm": 122,
+        "source_url": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Reporting connects partnership cuts with changed commerce priorities; this does not describe AI doing employees' work.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/",
+            "specificity": "concrete"
+          },
+          "ai_transition": {
+            "summary": "Reporting links the partnerships restructuring to a stronger agentic-commerce focus. This is a product-strategy transition, not evidence of employee task automation.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/",
+            "specificity": "generic"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "Reporting links the partnerships restructuring to a stronger agentic-commerce focus. This is a product-strategy transition, not evidence of employee task automation. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Reporting connects partnership cuts with changed commerce priorities; this does not describe AI doing employees' work. Reporting links the partnerships restructuring to a stronger agentic-commerce focus. This is a product-strategy transition, not evidence of employee task automation.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "sales"
+          ],
+          "details": [
+            {
+              "functions": [
+                "sales"
+              ],
+              "summary": "Existing source review identifies partnership roles in the January event.",
+              "attribution": "press_reported",
+              "source_url": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/",
+              "evidence_access": "prior_review"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "Reporting links the partnerships restructuring to a stronger agentic-commerce focus. This is a product-strategy transition, not evidence of employee task automation.",
+          "source_url": "https://betakit.com/shopify-makes-more-job-cuts-this-time-targeting-partnerships-division/"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-079",
+        "company": "Zendesk",
+        "date": "2026-03-24",
+        "laid_off": 100,
+        "pct": null,
+        "industry": "Support",
+        "stage": "Acquired",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": 85,
+        "source_url": "Internal memo",
+        "source_used": "https://startit.rs/usred-pojacanog-fokusa-na-ai-zendesk-krajem-nedelje-gasi-svoju-kancelariju-u-srbiji-gde-imaju-60-zaposlenih/",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "unit_closure"
+        ],
+        "cause_details": {
+          "unit_closure": {
+            "summary": "Alternate report confirms Serbian office closure. Company discusses AI-enabled services but does not identify employee replacement.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://startit.rs/usred-pojacanog-fokusa-na-ai-zendesk-krajem-nedelje-gasi-svoju-kancelariju-u-srbiji-gde-imaju-60-zaposlenih/",
+            "specificity": "concrete"
+          }
+        },
+        "context": [
+          {
+            "kind": "ai_product_strategy",
+            "summary": "Company discusses prioritizing AI-enabled services without explaining employee substitution.",
+            "source_url": "https://startit.rs/usred-pojacanog-fokusa-na-ai-zendesk-krajem-nedelje-gasi-svoju-kancelariju-u-srbiji-gde-imaju-60-zaposlenih/"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-16",
+          "status": "source_reviewed",
+          "note": "Alternate report confirms Serbian office closure. Company discusses AI-enabled services but does not identify employee replacement.",
+          "sources": [
+            "https://startit.rs/usred-pojacanog-fokusa-na-ai-zendesk-krajem-nedelje-gasi-svoju-kancelariju-u-srbiji-gde-imaju-60-zaposlenih/"
+          ],
+          "issues": [
+            "wrong_source_replaced"
+          ]
+        },
+        "cause_status": "specified",
+        "reason": "Alternate report confirms Serbian office closure. Company discusses AI-enabled services but does not identify employee replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://startit.rs/usred-pojacanog-fokusa-na-ai-zendesk-krajem-nedelje-gasi-svoju-kancelariju-u-srbiji-gde-imaju-60-zaposlenih/"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-079",
+        "company": "Zendesk",
+        "date": "2026-03-24",
+        "laid_off": 100,
+        "pct": null,
+        "industry": "Support",
+        "stage": "Acquired",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": 85,
+        "source_url": "Internal memo",
+        "source_used": "https://startit.rs/usred-pojacanog-fokusa-na-ai-zendesk-krajem-nedelje-gasi-svoju-kancelariju-u-srbiji-gde-imaju-60-zaposlenih/",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "unit_closure",
+          "ai_investment_reallocation"
+        ],
+        "cause_details": {
+          "unit_closure": {
+            "summary": "Alternate report confirms Serbian office closure. Company discusses AI-enabled services but does not identify employee replacement.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://startit.rs/usred-pojacanog-fokusa-na-ai-zendesk-krajem-nedelje-gasi-svoju-kancelariju-u-srbiji-gde-imaju-60-zaposlenih/",
+            "specificity": "concrete"
+          },
+          "ai_investment_reallocation": {
+            "summary": "In its response about this reorganization and closure, the company links the changes to reallocating talent and resources toward priorities including AI-enabled services.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://startit.rs/usred-pojacanog-fokusa-na-ai-zendesk-krajem-nedelje-gasi-svoju-kancelariju-u-srbiji-gde-imaju-60-zaposlenih/",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "In its response about this reorganization and closure, the company links the changes to reallocating talent and resources toward priorities including AI-enabled services. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://startit.rs/usred-pojacanog-fokusa-na-ai-zendesk-krajem-nedelje-gasi-svoju-kancelariju-u-srbiji-gde-imaju-60-zaposlenih/"
+          ],
+          "issues": [
+            "wrong_source_replaced"
+          ]
+        },
+        "cause_status": "specified",
+        "reason": "Alternate report confirms Serbian office closure. Company discusses AI-enabled services but does not identify employee replacement. In its response about this reorganization and closure, the company links the changes to reallocating talent and resources toward priorities including AI-enabled services.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://startit.rs/usred-pojacanog-fokusa-na-ai-zendesk-krajem-nedelje-gasi-svoju-kancelariju-u-srbiji-gde-imaju-60-zaposlenih/"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "In its response about this reorganization and closure, the company links the changes to reallocating talent and resources toward priorities including AI-enabled services.",
+          "source_url": "https://startit.rs/usred-pojacanog-fokusa-na-ai-zendesk-krajem-nedelje-gasi-svoju-kancelariju-u-srbiji-gde-imaju-60-zaposlenih/"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-090",
+        "company": "MARA",
+        "date": "2026-04-02",
+        "laid_off": null,
+        "pct": 0.15,
+        "industry": "Crypto",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "Miami"
+        ],
+        "raised_mm": 4100,
+        "source_url": "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Company shifts from pure Bitcoin mining toward energy and digital infrastructure.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-16",
+          "status": "source_reviewed",
+          "note": "Company shifts from pure Bitcoin mining toward energy and digital infrastructure.",
+          "sources": [
+            "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Company shifts from pure Bitcoin mining toward energy and digital infrastructure.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-090",
+        "company": "MARA",
+        "date": "2026-04-02",
+        "laid_off": null,
+        "pct": 0.15,
+        "industry": "Crypto",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "Miami"
+        ],
+        "raised_mm": 4100,
+        "source_url": "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot",
+          "ai_investment_reallocation"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Company shifts from pure Bitcoin mining toward energy and digital infrastructure.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/",
+            "specificity": "concrete"
+          },
+          "ai_investment_reallocation": {
+            "summary": "The CEO links the reduction to redirecting the business and resources toward the Starwood and Exaion initiatives, identified in the same report as AI and HPC infrastructure.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "The CEO links the reduction to redirecting the business and resources toward the Starwood and Exaion initiatives, identified in the same report as AI and HPC infrastructure. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Company shifts from pure Bitcoin mining toward energy and digital infrastructure. The CEO links the reduction to redirecting the business and resources toward the Starwood and Exaion initiatives, identified in the same report as AI and HPC infrastructure.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "The CEO links the reduction to redirecting the business and resources toward the Starwood and Exaion initiatives, identified in the same report as AI and HPC infrastructure.",
+          "source_url": "https://blockspace.media/insight/bitcoin-miner-mara-conducts-company-wide-layoffs/"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-097",
+        "company": "Pendo",
+        "date": "2026-04-07",
+        "laid_off": 90,
+        "pct": 0.1,
+        "industry": "Product",
+        "stage": "Series F",
+        "country": "United States",
+        "location_hq": [
+          "Raleigh"
+        ],
+        "raised_mm": 469,
+        "source_url": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "CEO describes refocusing the product for customers building AI agents.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs",
+            "specificity": "concrete"
+          }
+        },
+        "context": [
+          {
+            "kind": "ai_product_strategy",
+            "summary": "AI agents are a customer/product direction.",
+            "source_url": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-16",
+          "status": "source_reviewed",
+          "note": "CEO describes refocusing the product for customers building AI agents.",
+          "sources": [
+            "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "CEO describes refocusing the product for customers building AI agents.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-097",
+        "company": "Pendo",
+        "date": "2026-04-07",
+        "laid_off": 90,
+        "pct": 0.1,
+        "industry": "Product",
+        "stage": "Series F",
+        "country": "United States",
+        "location_hq": [
+          "Raleigh"
+        ],
+        "raised_mm": 469,
+        "source_url": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "CEO describes refocusing the product for customers building AI agents.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs",
+            "specificity": "concrete"
+          },
+          "ai_transition": {
+            "summary": "The CEO connects this restructuring to adapting the company for customers building and using AI agents; no internal task replacement is established.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs",
+            "specificity": "generic"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "The CEO connects this restructuring to adapting the company for customers building and using AI agents; no internal task replacement is established. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "CEO describes refocusing the product for customers building AI agents. The CEO connects this restructuring to adapting the company for customers building and using AI agents; no internal task replacement is established.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "The CEO connects this restructuring to adapting the company for customers building and using AI agents; no internal task replacement is established.",
+          "source_url": "https://www.axios.com/local/raleigh/2026/04/07/raleigh-software-unicorn-pendo-layoffs-jobs"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-116",
+        "company": "Epidemic Sound",
+        "date": "2026-04-21",
+        "laid_off": 150,
+        "pct": 0.33,
+        "industry": "Media",
+        "stage": "Private Equity",
+        "country": "Sweden",
+        "location_hq": [
+          "Stockholm",
+          "Non-U.S."
+        ],
+        "raised_mm": 509,
+        "source_url": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20",
+        "source_used": "https://corporate.epidemicsound.com/press-and-media/press-releases/2026/epidemic-sound-expands-beyond-music-catalog-as-it-builds-the-next-generation-creative-platform/",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Company changes its creative-product offering; AI business transition is not employee replacement.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://corporate.epidemicsound.com/press-and-media/press-releases/2026/epidemic-sound-expands-beyond-music-catalog-as-it-builds-the-next-generation-creative-platform/",
+            "specificity": "concrete"
+          }
+        },
+        "context": [
+          {
+            "kind": "ai_product_strategy",
+            "summary": "AI is part of the new creative-product offering.",
+            "source_url": "https://corporate.epidemicsound.com/press-and-media/press-releases/2026/epidemic-sound-expands-beyond-music-catalog-as-it-builds-the-next-generation-creative-platform/"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-16",
+          "status": "source_reviewed",
+          "note": "Company changes its creative-product offering; AI business transition is not employee replacement.",
+          "sources": [
+            "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20",
+            "https://corporate.epidemicsound.com/press-and-media/press-releases/2026/epidemic-sound-expands-beyond-music-catalog-as-it-builds-the-next-generation-creative-platform/"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Company changes its creative-product offering; AI business transition is not employee replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20",
+              "https://corporate.epidemicsound.com/press-and-media/press-releases/2026/epidemic-sound-expands-beyond-music-catalog-as-it-builds-the-next-generation-creative-platform/"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-116",
+        "company": "Epidemic Sound",
+        "date": "2026-04-21",
+        "laid_off": 150,
+        "pct": 0.33,
+        "industry": "Media",
+        "stage": "Private Equity",
+        "country": "Sweden",
+        "location_hq": [
+          "Stockholm",
+          "Non-U.S."
+        ],
+        "raised_mm": 509,
+        "source_url": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20",
+        "source_used": "https://corporate.epidemicsound.com/press-and-media/press-releases/2026/epidemic-sound-expands-beyond-music-catalog-as-it-builds-the-next-generation-creative-platform/",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Company changes its creative-product offering; AI business transition is not employee replacement.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://corporate.epidemicsound.com/press-and-media/press-releases/2026/epidemic-sound-expands-beyond-music-catalog-as-it-builds-the-next-generation-creative-platform/",
+            "specificity": "concrete"
+          },
+          "ai_transition": {
+            "summary": "The acting CEO attributes the reduction to aligning the company with AI developments and an expanded creative offering; this does not establish automation of employee jobs.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20",
+            "specificity": "generic"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "The acting CEO attributes the reduction to aligning the company with AI developments and an expanded creative offering; this does not establish automation of employee jobs. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20",
+            "https://corporate.epidemicsound.com/press-and-media/press-releases/2026/epidemic-sound-expands-beyond-music-catalog-as-it-builds-the-next-generation-creative-platform/"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Company changes its creative-product offering; AI business transition is not employee replacement. The acting CEO attributes the reduction to aligning the company with AI developments and an expanded creative offering; this does not establish automation of employee jobs.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20",
+              "https://corporate.epidemicsound.com/press-and-media/press-releases/2026/epidemic-sound-expands-beyond-music-catalog-as-it-builds-the-next-generation-creative-platform/"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "The acting CEO attributes the reduction to aligning the company with AI developments and an expanded creative offering; this does not establish automation of employee jobs.",
+          "source_url": "https://www.marketscreener.com/news/eqt-backed-epidemic-sound-to-cut-150-jobs-in-ai-pivot-di-ce7f59dad18efe20"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-119",
+        "company": "SuperOps",
+        "date": "2026-04-24",
+        "laid_off": 60,
+        "pct": 0.3,
+        "industry": "Other",
+        "stage": "Series C",
+        "country": "India",
+        "location_hq": [
+          "Chennai",
+          "Non-U.S."
+        ],
+        "raised_mm": 54,
+        "source_url": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/",
+        "source_used": "https://www.moneycontrol.com/news/business/startup/superops-lays-off-30-workforce-cuts-60-roles-in-engineering-amid-ai-first-shift-13898590.html",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Reporting describes a changed AI product roadmap and organization, not demonstrated internal productivity gains.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://www.moneycontrol.com/news/business/startup/superops-lays-off-30-workforce-cuts-60-roles-in-engineering-amid-ai-first-shift-13898590.html",
+            "specificity": "concrete"
+          }
+        },
+        "context": [
+          {
+            "kind": "ai_product_strategy",
+            "summary": "AI product roadmap is the strategy change; internal productivity is not demonstrated.",
+            "source_url": "https://www.moneycontrol.com/news/business/startup/superops-lays-off-30-workforce-cuts-60-roles-in-engineering-amid-ai-first-shift-13898590.html"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-16",
+          "status": "source_reviewed",
+          "note": "Reporting describes a changed AI product roadmap and organization, not demonstrated internal productivity gains.",
+          "sources": [
+            "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/",
+            "https://www.moneycontrol.com/news/business/startup/superops-lays-off-30-workforce-cuts-60-roles-in-engineering-amid-ai-first-shift-13898590.html"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Reporting describes a changed AI product roadmap and organization, not demonstrated internal productivity gains.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/",
+              "https://www.moneycontrol.com/news/business/startup/superops-lays-off-30-workforce-cuts-60-roles-in-engineering-amid-ai-first-shift-13898590.html"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-119",
+        "company": "SuperOps",
+        "date": "2026-04-24",
+        "laid_off": 60,
+        "pct": 0.3,
+        "industry": "Other",
+        "stage": "Series C",
+        "country": "India",
+        "location_hq": [
+          "Chennai",
+          "Non-U.S."
+        ],
+        "raised_mm": 54,
+        "source_url": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/",
+        "source_used": "https://www.moneycontrol.com/news/business/startup/superops-lays-off-30-workforce-cuts-60-roles-in-engineering-amid-ai-first-shift-13898590.html",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Reporting describes a changed AI product roadmap and organization, not demonstrated internal productivity gains.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://www.moneycontrol.com/news/business/startup/superops-lays-off-30-workforce-cuts-60-roles-in-engineering-amid-ai-first-shift-13898590.html",
+            "specificity": "concrete"
+          },
+          "ai_transition": {
+            "summary": "Reporting links this restructuring to accelerating an AI-first organizational and product roadmap; no internal productivity gain is demonstrated.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/",
+            "specificity": "generic"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "Reporting links this restructuring to accelerating an AI-first organizational and product roadmap; no internal productivity gain is demonstrated. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/",
+            "https://www.moneycontrol.com/news/business/startup/superops-lays-off-30-workforce-cuts-60-roles-in-engineering-amid-ai-first-shift-13898590.html"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Reporting describes a changed AI product roadmap and organization, not demonstrated internal productivity gains. Reporting links this restructuring to accelerating an AI-first organizational and product roadmap; no internal productivity gain is demonstrated.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/",
+              "https://www.moneycontrol.com/news/business/startup/superops-lays-off-30-workforce-cuts-60-roles-in-engineering-amid-ai-first-shift-13898590.html"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "Reporting links this restructuring to accelerating an AI-first organizational and product roadmap; no internal productivity gain is demonstrated.",
+          "source_url": "https://inc42.com/buzz/superops-lays-off-30-staff-in-ai-led-restructuring-push/"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-150",
+        "company": "Dune",
+        "date": "2026-05-14",
+        "laid_off": 35,
+        "pct": 0.25,
+        "industry": "Crypto",
+        "stage": "Series B",
+        "country": "Norway",
+        "location_hq": [
+          "Oslo",
+          "Non-U.S."
+        ],
+        "raised_mm": 79,
+        "source_url": "https://x.com/hagaetc/status/2054937771811192837?s=20",
+        "source_used": "https://www.theblock.co/news/business/2026-05-14-crypto-data-firm-dune-cuts-25-of-staff-citing-ai-efficiencies-401322",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "CEO describes refocusing on core data products and institutional customers; AI tooling is product strategy, not proven internal job replacement.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.theblock.co/news/business/2026-05-14-crypto-data-firm-dune-cuts-25-of-staff-citing-ai-efficiencies-401322",
+            "specificity": "concrete"
+          }
+        },
+        "context": [
+          {
+            "kind": "ai_product_strategy",
+            "summary": "AI-enabled customer tooling is part of the product strategy.",
+            "source_url": "https://www.theblock.co/news/business/2026-05-14-crypto-data-firm-dune-cuts-25-of-staff-citing-ai-efficiencies-401322"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-16",
+          "status": "source_reviewed",
+          "note": "CEO describes refocusing on core data products and institutional customers; AI tooling is product strategy, not proven internal job replacement.",
+          "sources": [
+            "https://x.com/hagaetc/status/2054937771811192837?s=20",
+            "https://www.theblock.co/news/business/2026-05-14-crypto-data-firm-dune-cuts-25-of-staff-citing-ai-efficiencies-401322"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "CEO describes refocusing on core data products and institutional customers; AI tooling is product strategy, not proven internal job replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://x.com/hagaetc/status/2054937771811192837?s=20",
+              "https://www.theblock.co/news/business/2026-05-14-crypto-data-firm-dune-cuts-25-of-staff-citing-ai-efficiencies-401322"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-150",
+        "company": "Dune",
+        "date": "2026-05-14",
+        "laid_off": 35,
+        "pct": 0.25,
+        "industry": "Crypto",
+        "stage": "Series B",
+        "country": "Norway",
+        "location_hq": [
+          "Oslo",
+          "Non-U.S."
+        ],
+        "raised_mm": 79,
+        "source_url": "https://x.com/hagaetc/status/2054937771811192837?s=20",
+        "source_used": "https://www.theblock.co/news/business/2026-05-14-crypto-data-firm-dune-cuts-25-of-staff-citing-ai-efficiencies-401322",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot",
+          "ai_investment_reallocation"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "CEO describes refocusing on core data products and institutional customers; AI tooling is product strategy, not proven internal job replacement.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.theblock.co/news/business/2026-05-14-crypto-data-firm-dune-cuts-25-of-staff-citing-ai-efficiencies-401322",
+            "specificity": "concrete"
+          },
+          "ai_investment_reallocation": {
+            "summary": "The report explicitly identifies investment in AI-powered products as a motivating force for the reduction. It does not establish automation of the affected employees.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://www.theblock.co/news/business/2026-05-14-crypto-data-firm-dune-cuts-25-of-staff-citing-ai-efficiencies-401322",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "The report explicitly identifies investment in AI-powered products as a motivating force for the reduction. It does not establish automation of the affected employees. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://x.com/hagaetc/status/2054937771811192837?s=20",
+            "https://www.theblock.co/news/business/2026-05-14-crypto-data-firm-dune-cuts-25-of-staff-citing-ai-efficiencies-401322"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "CEO describes refocusing on core data products and institutional customers; AI tooling is product strategy, not proven internal job replacement. The report explicitly identifies investment in AI-powered products as a motivating force for the reduction. It does not establish automation of the affected employees.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://x.com/hagaetc/status/2054937771811192837?s=20",
+              "https://www.theblock.co/news/business/2026-05-14-crypto-data-firm-dune-cuts-25-of-staff-citing-ai-efficiencies-401322"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "The report explicitly identifies investment in AI-powered products as a motivating force for the reduction. It does not establish automation of the affected employees.",
+          "source_url": "https://www.theblock.co/news/business/2026-05-14-crypto-data-firm-dune-cuts-25-of-staff-citing-ai-efficiencies-401322"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-155",
+        "company": "Intuit",
+        "date": "2026-05-20",
+        "laid_off": 3000,
+        "pct": 0.17,
+        "industry": "Finance",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": 18,
+        "source_url": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/",
+        "source_used": "https://www.indiatoday.in/jobs/story/software-maker-intuit-to-cut-3000-jobs-ceo-says-layoff-has-nothing-to-do-with-ai-tchc-2914758-2026-05-21",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_details": {
+          "organizational_consolidation": {
+            "summary": "Company simplifies management and consolidates teams.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.indiatoday.in/jobs/story/software-maker-intuit-to-cut-3000-jobs-ceo-says-layoff-has-nothing-to-do-with-ai-tchc-2914758-2026-05-21",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [
+          {
+            "target": "all_ai",
+            "speaker": "company",
+            "summary": "CEO denies an AI cause.",
+            "source_url": "https://www.indiatoday.in/jobs/story/software-maker-intuit-to-cut-3000-jobs-ceo-says-layoff-has-nothing-to-do-with-ai-tchc-2914758-2026-05-21"
+          }
+        ],
+        "review": {
+          "date": "2026-09-16",
+          "status": "source_reviewed",
+          "note": "Company describes simpler structure and consolidated teams; CEO publicly denies an AI cause.",
+          "sources": [
+            "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/",
+            "https://www.indiatoday.in/jobs/story/software-maker-intuit-to-cut-3000-jobs-ceo-says-layoff-has-nothing-to-do-with-ai-tchc-2914758-2026-05-21",
+            "https://www.aol.com/articles/credit-karma-lays-off-hundreds-153300000.html"
+          ],
+          "issues": [
+            "includes_credit_karma_notice"
+          ]
+        },
+        "cause_status": "specified",
+        "reason": "Company describes simpler structure and consolidated teams; CEO publicly denies an AI cause.",
+        "schema_version": 2,
+        "related_records": [
+          {
+            "record_id": "layoff-2026-210",
+            "relationship": "reported_parent_plan",
+            "source_url": "https://www.aol.com/articles/credit-karma-lays-off-hundreds-153300000.html"
+          }
+        ],
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [
+            "leadership"
+          ],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Removal of management layers and coordination-heavy roles does not identify an occupational function.",
+            "sources": [
+              "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/",
+              "https://www.indiatoday.in/jobs/story/software-maker-intuit-to-cut-3000-jobs-ceo-says-layoff-has-nothing-to-do-with-ai-tchc-2914758-2026-05-21",
+              "https://www.aol.com/articles/credit-karma-lays-off-hundreds-153300000.html"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-155",
+        "company": "Intuit",
+        "date": "2026-05-20",
+        "laid_off": 3000,
+        "pct": 0.17,
+        "industry": "Finance",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": 18,
+        "source_url": "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/",
+        "source_used": "https://www.indiatoday.in/jobs/story/software-maker-intuit-to-cut-3000-jobs-ceo-says-layoff-has-nothing-to-do-with-ai-tchc-2914758-2026-05-21",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "organizational_consolidation",
+          "ai_investment_reallocation"
+        ],
+        "cause_details": {
+          "organizational_consolidation": {
+            "summary": "Company simplifies management and consolidates teams.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.indiatoday.in/jobs/story/software-maker-intuit-to-cut-3000-jobs-ceo-says-layoff-has-nothing-to-do-with-ai-tchc-2914758-2026-05-21",
+            "specificity": "concrete"
+          },
+          "ai_investment_reallocation": {
+            "summary": "The employee letter links the announced reduction to reallocating resources toward three strategic priorities, including scaling an AI-native platform. This mixed plan does not assign every eliminated role to AI; the separate CEO denial is retained.",
+            "attribution": "company_stated",
+            "scope": "announced_plan",
+            "source_url": "https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [
+          {
+            "target": "all_ai",
+            "speaker": "company",
+            "summary": "CEO denies an AI cause.",
+            "source_url": "https://www.indiatoday.in/jobs/story/software-maker-intuit-to-cut-3000-jobs-ceo-says-layoff-has-nothing-to-do-with-ai-tchc-2914758-2026-05-21"
+          }
+        ],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "The employee letter links the announced reduction to reallocating resources toward three strategic priorities, including scaling an AI-native platform. This mixed plan does not assign every eliminated role to AI; the separate CEO denial is retained. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/",
+            "https://www.indiatoday.in/jobs/story/software-maker-intuit-to-cut-3000-jobs-ceo-says-layoff-has-nothing-to-do-with-ai-tchc-2914758-2026-05-21",
+            "https://www.aol.com/articles/credit-karma-lays-off-hundreds-153300000.html",
+            "https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm"
+          ],
+          "issues": [
+            "includes_credit_karma_notice"
+          ]
+        },
+        "cause_status": "specified",
+        "reason": "Company simplifies management and consolidates teams. The employee letter links the announced reduction to reallocating resources toward three strategic priorities, including scaling an AI-native platform. This mixed plan does not assign every eliminated role to AI; the separate CEO denial is retained.",
+        "schema_version": 2,
+        "related_records": [
+          {
+            "record_id": "layoff-2026-210",
+            "relationship": "reported_parent_plan",
+            "source_url": "https://www.aol.com/articles/credit-karma-lays-off-hundreds-153300000.html"
+          }
+        ],
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [
+            "leadership"
+          ],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Removal of management layers and coordination-heavy roles does not identify an occupational function.",
+            "sources": [
+              "https://www.reuters.com/business/world-at-work/intuit-cut-17-global-jobs-streamline-operations-memo-shows-2026-05-20/",
+              "https://www.indiatoday.in/jobs/story/software-maker-intuit-to-cut-3000-jobs-ceo-says-layoff-has-nothing-to-do-with-ai-tchc-2914758-2026-05-21",
+              "https://www.aol.com/articles/credit-karma-lays-off-hundreds-153300000.html"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "The employee letter links the announced reduction to reallocating resources toward three strategic priorities, including scaling an AI-native platform. This mixed plan does not assign every eliminated role to AI; the separate CEO denial is retained.",
+          "source_url": "https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-158",
+        "company": "Wix",
+        "date": "2026-05-25",
+        "laid_off": 1000,
+        "pct": 0.2,
+        "industry": "Marketing",
+        "stage": "Post-IPO",
+        "country": "Israel",
+        "location_hq": [
+          "Tel Aviv",
+          "Non-U.S."
+        ],
+        "raised_mm": 58,
+        "source_url": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_details": {
+          "cost_cutting": {
+            "summary": "CTech frames the reduction as a response to cost pressure; Wix declined comment.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-16",
+          "status": "source_reviewed",
+          "note": "Company declined comment. Cost explanation is attributed to reporting, not company admission.",
+          "sources": [
+            "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Company declined comment. Cost explanation is attributed to reporting, not company admission.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-158",
+        "company": "Wix",
+        "date": "2026-05-25",
+        "laid_off": 1000,
+        "pct": 0.2,
+        "industry": "Marketing",
+        "stage": "Post-IPO",
+        "country": "Israel",
+        "location_hq": [
+          "Tel Aviv",
+          "Non-U.S."
+        ],
+        "raised_mm": 58,
+        "source_url": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "cost_cutting",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "cost_cutting": {
+            "summary": "CTech frames the reduction as a response to cost pressure; Wix declined comment.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge",
+            "specificity": "concrete"
+          },
+          "ai_transition": {
+            "summary": "CTech interprets this round in relation to AI-era role redundancy and AI-related pressures. The company declined comment; the report does not identify the tasks replaced.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge",
+            "specificity": "generic"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "CTech interprets this round in relation to AI-era role redundancy and AI-related pressures. The company declined comment; the report does not identify the tasks replaced. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "CTech frames the reduction as a response to cost pressure; Wix declined comment. CTech interprets this round in relation to AI-era role redundancy and AI-related pressures. The company declined comment; the report does not identify the tasks replaced.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "CTech interprets this round in relation to AI-era role redundancy and AI-related pressures. The company declined comment; the report does not identify the tasks replaced.",
+          "source_url": "https://www.calcalistech.com/ctechnews/article/b1oebi11xge"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-174",
+        "company": "BitGo",
+        "date": "2026-06-25",
+        "laid_off": 90,
+        "pct": 0.15,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://x.com/mikebelshe/status/2070240967479996463",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "CEO narrows focus to named financial-services priorities.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://x.com/mikebelshe/status/2070240967479996463",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-17",
+          "status": "source_reviewed",
+          "note": "CEO connects reductions to concentrating resources on specified businesses, including security, trading and stablecoins. Mentioning AI-powered infrastructure does not establish a separate AI mechanism.",
+          "sources": [
+            "https://x.com/mikebelshe/status/2070240967479996463"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "CEO connects reductions to concentrating resources on specified businesses, including security, trading and stablecoins. Mentioning AI-powered infrastructure does not establish a separate AI mechanism.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-25"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://x.com/mikebelshe/status/2070240967479996463"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-174",
+        "company": "BitGo",
+        "date": "2026-06-25",
+        "laid_off": 90,
+        "pct": 0.15,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://x.com/mikebelshe/status/2070240967479996463",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot",
+          "ai_investment_reallocation"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "CEO narrows focus to named financial-services priorities.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://x.com/mikebelshe/status/2070240967479996463",
+            "specificity": "concrete"
+          },
+          "ai_investment_reallocation": {
+            "summary": "The CEO links the reduction to concentrating people and resources on security, trading, stablecoins, settlement and AI-powered infrastructure. AI is one destination within a mixed resource-allocation decision.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.otcmarkets.com/filing/html?guid=L8F-kao64zjBB3h&id=19564086",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "The CEO links the reduction to concentrating people and resources on security, trading, stablecoins, settlement and AI-powered infrastructure. AI is one destination within a mixed resource-allocation decision. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://x.com/mikebelshe/status/2070240967479996463",
+            "https://www.otcmarkets.com/filing/html?guid=L8F-kao64zjBB3h&id=19564086"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "CEO narrows focus to named financial-services priorities. The CEO links the reduction to concentrating people and resources on security, trading, stablecoins, settlement and AI-powered infrastructure. AI is one destination within a mixed resource-allocation decision.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-25"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://x.com/mikebelshe/status/2070240967479996463"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "The CEO links the reduction to concentrating people and resources on security, trading, stablecoins, settlement and AI-powered infrastructure. AI is one destination within a mixed resource-allocation decision.",
+          "source_url": "https://www.otcmarkets.com/filing/html?guid=L8F-kao64zjBB3h&id=19564086"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-175",
+        "company": "Snyk",
+        "date": "2026-06-24",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://snyk.io/blog/a-note-to-our-customers-and-partners/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "organizational_consolidation"
+        ],
+        "cause_details": {
+          "organizational_consolidation": {
+            "summary": "R&D and go-to-market are unified and leadership is flattened.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://snyk.io/blog/a-note-to-our-customers-and-partners/",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-17",
+          "status": "source_reviewed",
+          "note": "Company specifies unified R&D leadership, flatter leadership and unified go-to-market. AI security is the product context, not evidence of automated employee tasks.",
+          "sources": [
+            "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Company specifies unified R&D leadership, flatter leadership and unified go-to-market. AI security is the product context, not evidence of automated employee tasks.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-24"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Product strategy and agent-oriented investment do not supply an occupation inventory.",
+            "sources": [
+              "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-175",
+        "company": "Snyk",
+        "date": "2026-06-24",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://snyk.io/blog/a-note-to-our-customers-and-partners/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "organizational_consolidation",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "organizational_consolidation": {
+            "summary": "R&D and go-to-market are unified and leadership is flattened.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://snyk.io/blog/a-note-to-our-customers-and-partners/",
+            "specificity": "concrete"
+          },
+          "ai_transition": {
+            "summary": "The CEO connects team reductions and restructuring to the speed and security needs of AI-driven software development. This is adaptation to the AI market, not a claim that AI performs eliminated jobs.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://snyk.io/blog/a-note-to-our-customers-and-partners/",
+            "specificity": "generic"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "The CEO connects team reductions and restructuring to the speed and security needs of AI-driven software development. This is adaptation to the AI market, not a claim that AI performs eliminated jobs. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "R&D and go-to-market are unified and leadership is flattened. The CEO connects team reductions and restructuring to the speed and security needs of AI-driven software development. This is adaptation to the AI market, not a claim that AI performs eliminated jobs.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-24"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Product strategy and agent-oriented investment do not supply an occupation inventory.",
+            "sources": [
+              "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "The CEO connects team reductions and restructuring to the speed and security needs of AI-driven software development. This is adaptation to the AI market, not a claim that AI performs eliminated jobs.",
+          "source_url": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-194",
+        "company": "Opendoor",
+        "date": "2026-06-10",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "uncertain",
+        "causes": [
+          "work_relocation",
+          "unit_closure"
+        ],
+        "cause_details": {
+          "work_relocation": {
+            "summary": "Operational work is brought back to the US.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+            "specificity": "concrete"
+          },
+          "unit_closure": {
+            "summary": "India operations are shut down.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-17",
+          "status": "source_reviewed",
+          "note": "CEO links closure to bringing operational work back to the US and smaller AI-native teams. The cited 250 employees describes 2024 staffing, not confirmed June departures.",
+          "sources": [
+            "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+          ],
+          "issues": [
+            "headcount_denominator_uncertain"
+          ]
+        },
+        "cause_status": "specified",
+        "reason": "CEO links closure to bringing operational work back to the US and smaller AI-native teams. The cited 250 employees describes 2024 staffing, not confirmed June departures.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-10"
+        },
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "operations"
+          ],
+          "details": [
+            {
+              "functions": [
+                "operations"
+              ],
+              "summary": "CEO identifies operating work being brought back to the United States.",
+              "attribution": "company_stated",
+              "source_url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+              "evidence_access": "full"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-194",
+        "company": "Opendoor",
+        "date": "2026-06-10",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "uncertain",
+        "causes": [
+          "work_relocation",
+          "unit_closure",
+          "ai_work_redesign"
+        ],
+        "cause_details": {
+          "work_relocation": {
+            "summary": "Operational work is brought back to the US.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+            "specificity": "concrete"
+          },
+          "unit_closure": {
+            "summary": "India operations are shut down.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+            "specificity": "concrete"
+          },
+          "ai_work_redesign": {
+            "summary": "The CEO links the India closure to returning operational work to the US and reorganizing into smaller AI-native teams; AI contribution and affected headcount are not quantified.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "The CEO links the India closure to returning operational work to the US and reorganizing into smaller AI-native teams; AI contribution and affected headcount are not quantified. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+          ],
+          "issues": [
+            "headcount_denominator_uncertain"
+          ]
+        },
+        "cause_status": "specified",
+        "reason": "Operational work is brought back to the US. India operations are shut down. The CEO links the India closure to returning operational work to the US and reorganizing into smaller AI-native teams; AI contribution and affected headcount are not quantified.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-10"
+        },
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "operations"
+          ],
+          "details": [
+            {
+              "functions": [
+                "operations"
+              ],
+              "summary": "CEO identifies operating work being brought back to the United States.",
+              "attribution": "company_stated",
+              "source_url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+              "evidence_access": "full"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "The CEO links the India closure to returning operational work to the US and reorganizing into smaller AI-native teams; AI contribution and affected headcount are not quantified.",
+          "source_url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-195",
+        "company": "Veritone",
+        "date": "2026-06-10",
+        "laid_off": null,
+        "pct": 0.25,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb",
+        "source_used": "https://investors.veritone.com/sec-filings/all-sec-filings/content/0001628280-26-056828/veri-20260630.htm",
+        "record_type": "announcement",
+        "headcount_scope": "uncertain",
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_details": {
+          "cost_cutting": {
+            "summary": "June Expense Reduction Plan targets lower workforce and third-party operating costs.",
+            "attribution": "company_stated",
+            "scope": "announced_plan",
+            "source_url": "https://investors.veritone.com/sec-filings/all-sec-filings/content/0001628280-26-056828/veri-20260630.htm",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-17",
+          "status": "source_reviewed",
+          "note": "June plan targets operating-cost reductions. Later filing links this plan to AI tools and agents, but does not specify what work was displaced. The 111 estimate uses an older workforce denominator.",
+          "sources": [
+            "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb",
+            "https://investors.veritone.com/sec-filings/all-sec-filings/content/0001628280-26-056828/veri-20260630.htm"
+          ],
+          "issues": [
+            "headcount_denominator_uncertain"
+          ]
+        },
+        "cause_status": "specified",
+        "reason": "June plan targets operating-cost reductions. Later filing links this plan to AI tools and agents, but does not specify what work was displaced. The 111 estimate uses an older workforce denominator.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-10"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb",
+              "https://investors.veritone.com/sec-filings/all-sec-filings/content/0001628280-26-056828/veri-20260630.htm"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-195",
+        "company": "Veritone",
+        "date": "2026-06-10",
+        "laid_off": null,
+        "pct": 0.25,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb",
+        "source_used": "https://investors.veritone.com/sec-filings/all-sec-filings/content/0001628280-26-056828/veri-20260630.htm",
+        "record_type": "announcement",
+        "headcount_scope": "uncertain",
+        "causes": [
+          "cost_cutting"
+        ],
+        "cause_details": {
+          "cost_cutting": {
+            "summary": "June Expense Reduction Plan targets lower workforce and third-party operating costs.",
+            "attribution": "company_stated",
+            "scope": "announced_plan",
+            "source_url": "https://investors.veritone.com/sec-filings/all-sec-filings/content/0001628280-26-056828/veri-20260630.htm",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "June plan targets operating-cost reductions. The later filing mentions AI tools in a broader initiative announced in May; it does not explicitly allocate the June reduction to that AI initiative. The 111 estimate uses an older workforce denominator.",
+          "sources": [
+            "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb",
+            "https://investors.veritone.com/sec-filings/all-sec-filings/content/0001628280-26-056828/veri-20260630.htm"
+          ],
+          "issues": [
+            "headcount_denominator_uncertain"
+          ]
+        },
+        "cause_status": "specified",
+        "reason": "June plan targets operating-cost reductions. The later filing mentions AI tools in a broader initiative announced in May; it does not explicitly allocate the June reduction to that AI initiative. The 111 estimate uses an older workforce denominator.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-10"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.marketwatch.com/story/veritone-to-cut-at-least-25-of-workforce-64eca1cb",
+              "https://investors.veritone.com/sec-filings/all-sec-filings/content/0001628280-26-056828/veri-20260630.htm"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "retain_non_ai_correct_scope_note",
+          "note": "June plan targets operating-cost reductions. The later filing mentions AI tools in a broader initiative announced in May; it does not explicitly allocate the June reduction to that AI initiative. The 111 estimate uses an older workforce denominator.",
+          "source_url": "https://investors.veritone.com/sec-filings/all-sec-filings/content/0001628280-26-056828/veri-20260630.htm"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-199",
+        "company": "Hailo",
+        "date": "2026-06-08",
+        "laid_off": 110,
+        "pct": 0.5,
+        "industry": "Manufacturing",
+        "stage": "Series C",
+        "country": "Israel",
+        "location_hq": [
+          "Tel Aviv",
+          "Non-U.S."
+        ],
+        "raised_mm": 344,
+        "source_url": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Company redirects its focus toward Physical AI markets and a partner-led distribution model.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-17",
+          "status": "source_reviewed",
+          "note": "Company specifies a pivot toward robotics and drones and reliance on distribution partners that reduces internal support needs. Funding problems are context without an explicit event-level attribution.",
+          "sources": [
+            "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Company specifies a pivot toward robotics and drones and reliance on distribution partners that reduces internal support needs. Funding problems are context without an explicit event-level attribution.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-08"
+        },
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "support",
+            "operations"
+          ],
+          "details": [
+            {
+              "functions": [
+                "support",
+                "operations"
+              ],
+              "summary": "Company connects the reduction to lower need for internal customer support and deployment teams.",
+              "attribution": "company_stated",
+              "source_url": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj",
+              "evidence_access": "full"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-199",
+        "company": "Hailo",
+        "date": "2026-06-08",
+        "laid_off": 110,
+        "pct": 0.5,
+        "industry": "Manufacturing",
+        "stage": "Series C",
+        "country": "Israel",
+        "location_hq": [
+          "Tel Aviv",
+          "Non-U.S."
+        ],
+        "raised_mm": 344,
+        "source_url": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Company redirects its focus toward Physical AI markets and a partner-led distribution model.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj",
+            "specificity": "concrete"
+          },
+          "ai_transition": {
+            "summary": "The announcement links the reduction to a sharper focus on Physical AI, robotics and drones, alongside a changed distribution model; selling AI alone is not the inclusion criterion.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj",
+            "specificity": "generic"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "The announcement links the reduction to a sharper focus on Physical AI, robotics and drones, alongside a changed distribution model; selling AI alone is not the inclusion criterion. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Company redirects its focus toward Physical AI markets and a partner-led distribution model. The announcement links the reduction to a sharper focus on Physical AI, robotics and drones, alongside a changed distribution model; selling AI alone is not the inclusion criterion.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-08"
+        },
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "support",
+            "operations"
+          ],
+          "details": [
+            {
+              "functions": [
+                "support",
+                "operations"
+              ],
+              "summary": "Company connects the reduction to lower need for internal customer support and deployment teams.",
+              "attribution": "company_stated",
+              "source_url": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj",
+              "evidence_access": "full"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "The announcement links the reduction to a sharper focus on Physical AI, robotics and drones, alongside a changed distribution model; selling AI alone is not the inclusion criterion.",
+          "source_url": "https://www.calcalistech.com/ctechnews/article/3hmpcioxj"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-211",
+        "company": "Interview Kickstart",
+        "date": "2026-05-29",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "uncertain",
+        "causes": [
+          "demand_decline"
+        ],
+        "cause_details": {
+          "demand_decline": {
+            "summary": "Anonymous accounts link cuts to lower enrollment; the company disputes that decline.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/",
+            "specificity": "concrete"
+          }
+        },
+        "context": [
+          {
+            "kind": "disputed_explanation",
+            "summary": "Cofounder disputes the anonymous enrollment-decline claim and says fewer than 50 employees were affected. Anonymous sources report 80–100.",
+            "source_url": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-17",
+          "status": "source_reviewed",
+          "note": "Anonymous accounts attribute restructuring to AI automation and weaker enrollment; cofounder disputes the enrollment claim and reports fewer than 50 affected. The source does not identify the tasks automated.",
+          "sources": [
+            "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
+          ],
+          "issues": [
+            "conflicting_headcounts"
+          ]
+        },
+        "cause_status": "specified",
+        "reason": "Anonymous accounts attribute restructuring to AI automation and weaker enrollment; cofounder disputes the enrollment claim and reports fewer than 50 affected. The source does not identify the tasks automated.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-05-29"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-211",
+        "company": "Interview Kickstart",
+        "date": "2026-05-29",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "uncertain",
+        "causes": [
+          "demand_decline",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "demand_decline": {
+            "summary": "Anonymous accounts link cuts to lower enrollment; the company disputes that decline.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/",
+            "specificity": "concrete"
+          },
+          "ai_transition": {
+            "summary": "Anonymous sources attribute the restructuring to increased AI automation, without specifying automated tasks. The cofounder disputes enrollment decline and the reported headcount; this is not his confirmation of AI displacement.",
+            "attribution": "press_reported",
+            "scope": "event",
+            "source_url": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/",
+            "specificity": "generic"
+          }
+        },
+        "context": [
+          {
+            "kind": "disputed_explanation",
+            "summary": "Cofounder disputes the anonymous enrollment-decline claim and says fewer than 50 employees were affected. Anonymous sources report 80–100.",
+            "source_url": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "Anonymous sources attribute the restructuring to increased AI automation, without specifying automated tasks. The cofounder disputes enrollment decline and the reported headcount; this is not his confirmation of AI displacement. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
+          ],
+          "issues": [
+            "conflicting_headcounts"
+          ]
+        },
+        "cause_status": "specified",
+        "reason": "Anonymous accounts link cuts to lower enrollment; the company disputes that decline. Anonymous sources attribute the restructuring to increased AI automation, without specifying automated tasks. The cofounder disputes enrollment decline and the reported headcount; this is not his confirmation of AI displacement.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-05-29"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "Anonymous sources attribute the restructuring to increased AI automation, without specifying automated tasks. The cofounder disputes enrollment decline and the reported headcount; this is not his confirmation of AI displacement.",
+          "source_url": "https://inc42.com/buzz/blume-backed-interview-kickstart-lays-off-nearly-50-employees-amid-ai-automation-push/"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-212",
+        "company": "SentinelOne",
+        "date": "2026-05-29",
+        "laid_off": 230,
+        "pct": 0.08,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Company redirects focus toward its more profitable AI and data businesses.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-17",
+          "status": "source_reviewed",
+          "note": "CEO links cuts to concentrating on more profitable AI and data operations, a specified change in business focus; no employee replacement mechanism is established.",
+          "sources": [
+            "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "CEO links cuts to concentrating on more profitable AI and data operations, a specified change in business focus; no employee replacement mechanism is established.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-05-29"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+            ]
+          }
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-212",
+        "company": "SentinelOne",
+        "date": "2026-05-29",
+        "laid_off": 230,
+        "pct": 0.08,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_pivot",
+          "ai_investment_reallocation"
+        ],
+        "cause_details": {
+          "strategic_pivot": {
+            "summary": "Company redirects focus toward its more profitable AI and data businesses.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx",
+            "specificity": "concrete"
+          },
+          "ai_investment_reallocation": {
+            "summary": "The CEO links the reduction to concentrating the company on its more profitable AI and data operations. The destination of resources supports AI investment reallocation, not employee replacement.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx",
+            "specificity": "concrete"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "The CEO links the reduction to concentrating the company on its more profitable AI and data operations. The destination of resources supports AI investment reallocation, not employee replacement. Other count, scope and overlap caveats remain applicable.",
+          "sources": [
+            "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Company redirects focus toward its more profitable AI and data businesses. The CEO links the reduction to concentrating the company on its more profitable AI and data operations. The destination of resources supports AI investment reallocation, not employee replacement.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-05-29"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+            ]
+          }
+        },
+        "consistency_review": {
+          "date": "2026-09-28",
+          "decision": "add_attributed_ai_reason",
+          "note": "The CEO links the reduction to concentrating the company on its more profitable AI and data operations. The destination of resources supports AI investment reallocation, not employee replacement.",
+          "source_url": "https://www.calcalistech.com/ctechnews/article/r1goyeuxgx"
+        }
+      }
+    }
+  ]
+}

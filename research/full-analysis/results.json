@@ -1,34 +1,34 @@
 {
   "basis": "All attributed causes, including general reasons. Counts are announcements, not jobs or independently proven causes.",
   "n": 228,
-  "with_explanation": 201,
-  "ai": 72,
+  "with_explanation": 206,
+  "ai": 108,
   "groups": {
-    "ai_and_other": 48,
-    "ai_only": 24,
-    "other_only": 129,
-    "no_classifiable_explanation": 27
+    "ai_and_other": 80,
+    "ai_only": 28,
+    "other_only": 98,
+    "no_classifiable_explanation": 22
   },
-  "multiple_explanations": 79,
+  "multiple_explanations": 108,
   "reason_counts": {
-    "cost_cutting": 45,
+    "cost_cutting": 46,
     "organizational_consolidation": 43,
+    "ai_transition": 34,
     "strategic_pivot": 29,
-    "ai_productivity": 24,
-    "ai_investment_reallocation": 14,
+    "ai_productivity": 25,
+    "ai_investment_reallocation": 25,
     "shutdown": 14,
-    "ai_transition": 13,
+    "ai_work_redesign": 13,
+    "strategic_priorities": 12,
     "organizational_realignment": 11,
-    "strategic_priorities": 11,
     "unit_closure": 11,
     "operational_efficiency": 11,
     "financial_distress": 10,
-    "ai_work_redesign": 10,
     "work_relocation": 9,
     "demand_decline": 9,
+    "ai_market_disruption": 8,
     "m_and_a": 8,
     "ai_substitution": 8,
-    "ai_market_disruption": 7,
     "market_conditions": 5,
     "performance_cull": 4,
     "market_exit": 4,
@@ -37,6 +37,28 @@
     "ipo_prep": 1
   },
   "pairs": [
+    {
+      "reasons": [
+        "ai_productivity",
+        "cost_cutting"
+      ],
+      "announcements": 13,
+      "record_ids": [
+        "layoff-2026-002",
+        "layoff-2026-027",
+        "layoff-2026-052",
+        "layoff-2026-055",
+        "layoff-2026-057",
+        "layoff-2026-075",
+        "layoff-2026-108",
+        "layoff-2026-124",
+        "layoff-2026-129",
+        "layoff-2026-131",
+        "layoff-2026-137",
+        "layoff-2026-144",
+        "layoff-2026-148"
+      ]
+    },
     {
       "reasons": [
         "cost_cutting",
@@ -57,27 +79,6 @@
         "layoff-2026-136",
         "layoff-2026-137",
         "layoff-2026-183"
-      ]
-    },
-    {
-      "reasons": [
-        "ai_productivity",
-        "cost_cutting"
-      ],
-      "announcements": 12,
-      "record_ids": [
-        "layoff-2026-002",
-        "layoff-2026-027",
-        "layoff-2026-052",
-        "layoff-2026-055",
-        "layoff-2026-057",
-        "layoff-2026-075",
-        "layoff-2026-108",
-        "layoff-2026-124",
-        "layoff-2026-129",
-        "layoff-2026-131",
-        "layoff-2026-137",
-        "layoff-2026-148"
       ]
     },
     {
@@ -118,10 +119,27 @@
     {
       "reasons": [
         "ai_investment_reallocation",
+        "strategic_pivot"
+      ],
+      "announcements": 7,
+      "record_ids": [
+        "layoff-2026-004",
+        "layoff-2026-009",
+        "layoff-2026-090",
+        "layoff-2026-150",
+        "layoff-2026-174",
+        "layoff-2026-189",
+        "layoff-2026-212"
+      ]
+    },
+    {
+      "reasons": [
+        "ai_investment_reallocation",
         "cost_cutting"
       ],
-      "announcements": 5,
+      "announcements": 6,
       "record_ids": [
+        "layoff-2026-009",
         "layoff-2026-062",
         "layoff-2026-067",
         "layoff-2026-185",
@@ -131,15 +149,44 @@
     },
     {
       "reasons": [
+        "ai_investment_reallocation",
+        "organizational_consolidation"
+      ],
+      "announcements": 5,
+      "record_ids": [
+        "layoff-2026-018",
+        "layoff-2026-062",
+        "layoff-2026-155",
+        "layoff-2026-159",
+        "layoff-2026-210"
+      ]
+    },
+    {
+      "reasons": [
         "ai_market_disruption",
         "strategic_pivot"
       ],
-      "announcements": 4,
+      "announcements": 5,
       "record_ids": [
         "layoff-2026-068",
         "layoff-2026-107",
+        "layoff-2026-144",
         "layoff-2026-154",
         "layoff-2026-216"
+      ]
+    },
+    {
+      "reasons": [
+        "ai_transition",
+        "strategic_pivot"
+      ],
+      "announcements": 5,
+      "record_ids": [
+        "layoff-2026-019",
+        "layoff-2026-097",
+        "layoff-2026-116",
+        "layoff-2026-119",
+        "layoff-2026-199"
       ]
     },
     {
@@ -147,24 +194,13 @@
         "cost_cutting",
         "strategic_pivot"
       ],
-      "announcements": 4,
+      "announcements": 5,
       "record_ids": [
         "layoff-2026-009",
         "layoff-2026-030",
+        "layoff-2026-144",
         "layoff-2026-189",
         "layoff-2026-207"
-      ]
-    },
-    {
-      "reasons": [
-        "ai_investment_reallocation",
-        "organizational_consolidation"
-      ],
-      "announcements": 3,
-      "record_ids": [
-        "layoff-2026-018",
-        "layoff-2026-062",
-        "layoff-2026-159"
       ]
     },
     {
@@ -172,11 +208,50 @@
         "ai_productivity",
         "strategic_pivot"
       ],
-      "announcements": 3,
+      "announcements": 4,
       "record_ids": [
         "layoff-2026-013",
         "layoff-2026-066",
-        "layoff-2026-107"
+        "layoff-2026-107",
+        "layoff-2026-144"
+      ]
+    },
+    {
+      "reasons": [
+        "ai_transition",
+        "organizational_consolidation"
+      ],
+      "announcements": 4,
+      "record_ids": [
+        "layoff-2026-026",
+        "layoff-2026-135",
+        "layoff-2026-175",
+        "layoff-2026-214"
+      ]
+    },
+    {
+      "reasons": [
+        "ai_transition",
+        "strategic_priorities"
+      ],
+      "announcements": 4,
+      "record_ids": [
+        "layoff-2026-049",
+        "layoff-2026-074",
+        "layoff-2026-152",
+        "layoff-2026-171"
+      ]
+    },
+    {
+      "reasons": [
+        "ai_transition",
+        "market_conditions"
+      ],
+      "announcements": 3,
+      "record_ids": [
+        "layoff-2026-064",
+        "layoff-2026-111",
+        "layoff-2026-202"
       ]
     },
     {
@@ -217,6 +292,39 @@
     },
     {
       "reasons": [
+        "ai_investment_reallocation",
+        "organizational_realignment"
+      ],
+      "announcements": 2,
+      "record_ids": [
+        "layoff-2026-080",
+        "layoff-2026-086"
+      ]
+    },
+    {
+      "reasons": [
+        "ai_investment_reallocation",
+        "unit_closure"
+      ],
+      "announcements": 2,
+      "record_ids": [
+        "layoff-2026-079",
+        "layoff-2026-213"
+      ]
+    },
+    {
+      "reasons": [
+        "ai_market_disruption",
+        "ai_productivity"
+      ],
+      "announcements": 2,
+      "record_ids": [
+        "layoff-2026-107",
+        "layoff-2026-144"
+      ]
+    },
+    {
+      "reasons": [
         "ai_market_disruption",
         "organizational_consolidation"
       ],
@@ -224,6 +332,17 @@
       "record_ids": [
         "layoff-2026-165",
         "layoff-2026-216"
+      ]
+    },
+    {
+      "reasons": [
+        "ai_productivity",
+        "work_relocation"
+      ],
+      "announcements": 2,
+      "record_ids": [
+        "layoff-2026-131",
+        "layoff-2026-144"
       ]
     },
     {
@@ -251,12 +370,12 @@
     {
       "reasons": [
         "ai_transition",
-        "market_conditions"
+        "organizational_realignment"
       ],
       "announcements": 2,
       "record_ids": [
-        "layoff-2026-111",
-        "layoff-2026-202"
+        "layoff-2026-091",
+        "layoff-2026-193"
       ]
     },
     {
@@ -272,6 +391,17 @@
     },
     {
       "reasons": [
+        "ai_work_redesign",
+        "work_relocation"
+      ],
+      "announcements": 2,
+      "record_ids": [
+        "layoff-2026-143",
+        "layoff-2026-194"
+      ]
+    },
+    {
+      "reasons": [
         "cost_cutting",
         "m_and_a"
       ],
@@ -279,6 +409,17 @@
       "record_ids": [
         "layoff-2026-027",
         "layoff-2026-224"
+      ]
+    },
+    {
+      "reasons": [
+        "cost_cutting",
+        "work_relocation"
+      ],
+      "announcements": 2,
+      "record_ids": [
+        "layoff-2026-131",
+        "layoff-2026-144"
       ]
     },
     {
@@ -348,26 +489,6 @@
     {
       "reasons": [
         "ai_investment_reallocation",
-        "strategic_pivot"
-      ],
-      "announcements": 1,
-      "record_ids": [
-        "layoff-2026-189"
-      ]
-    },
-    {
-      "reasons": [
-        "ai_investment_reallocation",
-        "unit_closure"
-      ],
-      "announcements": 1,
-      "record_ids": [
-        "layoff-2026-213"
-      ]
-    },
-    {
-      "reasons": [
-        "ai_investment_reallocation",
         "work_relocation"
       ],
       "announcements": 1,
@@ -378,11 +499,11 @@
     {
       "reasons": [
         "ai_market_disruption",
-        "ai_productivity"
+        "cost_cutting"
       ],
       "announcements": 1,
       "record_ids": [
-        "layoff-2026-107"
+        "layoff-2026-144"
       ]
     },
     {
@@ -403,6 +524,16 @@
       "announcements": 1,
       "record_ids": [
         "layoff-2026-088"
+      ]
+    },
+    {
+      "reasons": [
+        "ai_market_disruption",
+        "work_relocation"
+      ],
+      "announcements": 1,
+      "record_ids": [
+        "layoff-2026-144"
       ]
     },
     {
@@ -467,16 +598,6 @@
     },
     {
       "reasons": [
-        "ai_productivity",
-        "work_relocation"
-      ],
-      "announcements": 1,
-      "record_ids": [
-        "layoff-2026-131"
-      ]
-    },
-    {
-      "reasons": [
         "ai_substitution",
         "cost_cutting"
       ],
@@ -498,21 +619,41 @@
     {
       "reasons": [
         "ai_transition",
-        "organizational_consolidation"
+        "cost_cutting"
       ],
       "announcements": 1,
       "record_ids": [
-        "layoff-2026-214"
+        "layoff-2026-158"
       ]
     },
     {
       "reasons": [
         "ai_transition",
-        "strategic_priorities"
+        "demand_decline"
       ],
       "announcements": 1,
       "record_ids": [
-        "layoff-2026-152"
+        "layoff-2026-211"
+      ]
+    },
+    {
+      "reasons": [
+        "ai_transition",
+        "performance_cull"
+      ],
+      "announcements": 1,
+      "record_ids": [
+        "layoff-2026-196"
+      ]
+    },
+    {
+      "reasons": [
+        "ai_work_redesign",
+        "organizational_realignment"
+      ],
+      "announcements": 1,
+      "record_ids": [
+        "layoff-2026-149"
       ]
     },
     {
@@ -523,6 +664,16 @@
       "announcements": 1,
       "record_ids": [
         "layoff-2026-209"
+      ]
+    },
+    {
+      "reasons": [
+        "ai_work_redesign",
+        "unit_closure"
+      ],
+      "announcements": 1,
+      "record_ids": [
+        "layoff-2026-194"
       ]
     },
     {
@@ -563,16 +714,6 @@
       "announcements": 1,
       "record_ids": [
         "layoff-2026-140"
-      ]
-    },
-    {
-      "reasons": [
-        "cost_cutting",
-        "work_relocation"
-      ],
-      "announcements": 1,
-      "record_ids": [
-        "layoff-2026-131"
       ]
     },
     {
@@ -718,7 +859,7 @@
   ],
   "by_reason": {
     "cost_cutting": {
-      "announcements": 45,
+      "announcements": 46,
       "record_ids": [
         "layoff-2026-002",
         "layoff-2026-007",
@@ -754,6 +895,7 @@
         "layoff-2026-136",
         "layoff-2026-137",
         "layoff-2026-140",
+        "layoff-2026-144",
         "layoff-2026-148",
         "layoff-2026-151",
         "layoff-2026-158",
@@ -767,17 +909,17 @@
         "layoff-2026-224"
       ],
       "attribution": {
-        "company_stated": 32,
+        "company_stated": 33,
         "press_reported": 12,
         "worker_reported": 1
       },
       "scope": {
-        "event": 39,
+        "event": 40,
         "announced_plan": 4,
         "year_to_date": 1,
         "multi_year_plan": 1
       },
-      "functions_identified": 12
+      "functions_identified": 13
     },
     "organizational_consolidation": {
       "announcements": 43,
@@ -838,6 +980,55 @@
       },
       "functions_identified": 15
     },
+    "ai_transition": {
+      "announcements": 34,
+      "record_ids": [
+        "layoff-2026-019",
+        "layoff-2026-026",
+        "layoff-2026-041",
+        "layoff-2026-049",
+        "layoff-2026-064",
+        "layoff-2026-070",
+        "layoff-2026-074",
+        "layoff-2026-091",
+        "layoff-2026-095",
+        "layoff-2026-097",
+        "layoff-2026-111",
+        "layoff-2026-116",
+        "layoff-2026-117",
+        "layoff-2026-119",
+        "layoff-2026-121",
+        "layoff-2026-135",
+        "layoff-2026-141",
+        "layoff-2026-147",
+        "layoff-2026-152",
+        "layoff-2026-158",
+        "layoff-2026-171",
+        "layoff-2026-172",
+        "layoff-2026-175",
+        "layoff-2026-184",
+        "layoff-2026-192",
+        "layoff-2026-193",
+        "layoff-2026-196",
+        "layoff-2026-198",
+        "layoff-2026-199",
+        "layoff-2026-202",
+        "layoff-2026-206",
+        "layoff-2026-211",
+        "layoff-2026-214",
+        "layoff-2026-220"
+      ],
+      "attribution": {
+        "company_stated": 14,
+        "reported_inference": 13,
+        "press_reported": 6,
+        "worker_reported": 1
+      },
+      "scope": {
+        "event": 34
+      },
+      "functions_identified": 9
+    },
     "strategic_pivot": {
       "announcements": 29,
       "record_ids": [
@@ -883,7 +1074,7 @@
       "functions_identified": 8
     },
     "ai_productivity": {
-      "announcements": 24,
+      "announcements": 25,
       "record_ids": [
         "layoff-2026-002",
         "layoff-2026-003",
@@ -905,49 +1096,61 @@
         "layoff-2026-131",
         "layoff-2026-134",
         "layoff-2026-137",
+        "layoff-2026-144",
         "layoff-2026-148",
         "layoff-2026-153",
         "layoff-2026-176",
         "layoff-2026-213"
       ],
       "attribution": {
-        "company_stated": 22,
+        "company_stated": 23,
         "reported_inference": 1,
         "press_reported": 1
       },
       "scope": {
-        "event": 23,
+        "event": 24,
         "year_to_date": 1
       },
-      "functions_identified": 3
+      "functions_identified": 4
     },
     "ai_investment_reallocation": {
-      "announcements": 14,
+      "announcements": 25,
       "record_ids": [
+        "layoff-2026-004",
+        "layoff-2026-009",
         "layoff-2026-018",
         "layoff-2026-024",
         "layoff-2026-062",
         "layoff-2026-067",
+        "layoff-2026-079",
+        "layoff-2026-080",
+        "layoff-2026-086",
+        "layoff-2026-090",
         "layoff-2026-101",
         "layoff-2026-120",
         "layoff-2026-128",
         "layoff-2026-146",
+        "layoff-2026-150",
+        "layoff-2026-155",
         "layoff-2026-156",
         "layoff-2026-159",
+        "layoff-2026-174",
         "layoff-2026-185",
         "layoff-2026-189",
+        "layoff-2026-210",
+        "layoff-2026-212",
         "layoff-2026-213",
         "layoff-2026-219"
       ],
       "attribution": {
-        "company_stated": 12,
-        "press_reported": 2
+        "company_stated": 19,
+        "press_reported": 6
       },
       "scope": {
-        "event": 11,
-        "announced_plan": 3
+        "event": 19,
+        "announced_plan": 6
       },
-      "functions_identified": 5
+      "functions_identified": 6
     },
     "shutdown": {
       "announcements": 14,
@@ -976,32 +1179,57 @@
       },
       "functions_identified": 0
     },
-    "ai_transition": {
+    "ai_work_redesign": {
       "announcements": 13,
       "record_ids": [
-        "layoff-2026-070",
-        "layoff-2026-095",
-        "layoff-2026-111",
-        "layoff-2026-117",
-        "layoff-2026-141",
-        "layoff-2026-147",
-        "layoff-2026-152",
-        "layoff-2026-172",
-        "layoff-2026-184",
-        "layoff-2026-202",
-        "layoff-2026-206",
-        "layoff-2026-214",
-        "layoff-2026-220"
+        "layoff-2026-008",
+        "layoff-2026-073",
+        "layoff-2026-115",
+        "layoff-2026-126",
+        "layoff-2026-133",
+        "layoff-2026-143",
+        "layoff-2026-149",
+        "layoff-2026-151",
+        "layoff-2026-157",
+        "layoff-2026-185",
+        "layoff-2026-194",
+        "layoff-2026-209",
+        "layoff-2026-215"
       ],
       "attribution": {
         "company_stated": 10,
-        "press_reported": 2,
-        "worker_reported": 1
+        "press_reported": 3
       },
       "scope": {
-        "event": 13
+        "event": 11,
+        "multi_year_plan": 1,
+        "announced_plan": 1
       },
-      "functions_identified": 1
+      "functions_identified": 5
+    },
+    "strategic_priorities": {
+      "announcements": 12,
+      "record_ids": [
+        "layoff-2026-012",
+        "layoff-2026-035",
+        "layoff-2026-036",
+        "layoff-2026-049",
+        "layoff-2026-069",
+        "layoff-2026-074",
+        "layoff-2026-078",
+        "layoff-2026-152",
+        "layoff-2026-168",
+        "layoff-2026-171",
+        "layoff-2026-200",
+        "layoff-2026-217"
+      ],
+      "attribution": {
+        "company_stated": 12
+      },
+      "scope": {
+        "event": 12
+      },
+      "functions_identified": 5
     },
     "organizational_realignment": {
       "announcements": 11,
@@ -1022,29 +1250,6 @@
         "company_stated": 9,
         "press_reported": 1,
         "worker_reported": 1
-      },
-      "scope": {
-        "event": 11
-      },
-      "functions_identified": 5
-    },
-    "strategic_priorities": {
-      "announcements": 11,
-      "record_ids": [
-        "layoff-2026-012",
-        "layoff-2026-035",
-        "layoff-2026-036",
-        "layoff-2026-049",
-        "layoff-2026-069",
-        "layoff-2026-074",
-        "layoff-2026-078",
-        "layoff-2026-152",
-        "layoff-2026-168",
-        "layoff-2026-200",
-        "layoff-2026-217"
-      ],
-      "attribution": {
-        "company_stated": 11
       },
       "scope": {
         "event": 11
@@ -1124,31 +1329,6 @@
       },
       "functions_identified": 1
     },
-    "ai_work_redesign": {
-      "announcements": 10,
-      "record_ids": [
-        "layoff-2026-008",
-        "layoff-2026-073",
-        "layoff-2026-115",
-        "layoff-2026-126",
-        "layoff-2026-133",
-        "layoff-2026-151",
-        "layoff-2026-157",
-        "layoff-2026-185",
-        "layoff-2026-209",
-        "layoff-2026-215"
-      ],
-      "attribution": {
-        "company_stated": 8,
-        "press_reported": 2
-      },
-      "scope": {
-        "event": 8,
-        "multi_year_plan": 1,
-        "announced_plan": 1
-      },
-      "functions_identified": 2
-    },
     "work_relocation": {
       "announcements": 9,
       "record_ids": [
@@ -1193,6 +1373,26 @@
         "event": 9
       },
       "functions_identified": 0
+    },
+    "ai_market_disruption": {
+      "announcements": 8,
+      "record_ids": [
+        "layoff-2026-006",
+        "layoff-2026-068",
+        "layoff-2026-088",
+        "layoff-2026-107",
+        "layoff-2026-144",
+        "layoff-2026-154",
+        "layoff-2026-165",
+        "layoff-2026-216"
+      ],
+      "attribution": {
+        "company_stated": 8
+      },
+      "scope": {
+        "event": 8
+      },
+      "functions_identified": 2
     },
     "m_and_a": {
       "announcements": 8,
@@ -1240,25 +1440,6 @@
         "multi_year_plan": 1
       },
       "functions_identified": 4
-    },
-    "ai_market_disruption": {
-      "announcements": 7,
-      "record_ids": [
-        "layoff-2026-006",
-        "layoff-2026-068",
-        "layoff-2026-088",
-        "layoff-2026-107",
-        "layoff-2026-154",
-        "layoff-2026-165",
-        "layoff-2026-216"
-      ],
-      "attribution": {
-        "company_stated": 7
-      },
-      "scope": {
-        "event": 7
-      },
-      "functions_identified": 1
     },
     "market_conditions": {
       "announcements": 5,
@@ -1355,23 +1536,23 @@
   "functions": {
     "content": {
       "announcements": 6,
-      "with_ai": 1
+      "with_ai": 3
     },
     "corporate": {
-      "announcements": 5,
-      "with_ai": 1
+      "announcements": 7,
+      "with_ai": 3
     },
     "data": {
-      "announcements": 3,
+      "announcements": 4,
       "with_ai": 1
     },
     "engineering": {
-      "announcements": 31,
-      "with_ai": 8
+      "announcements": 32,
+      "with_ai": 15
     },
     "it_security": {
       "announcements": 4,
-      "with_ai": 0
+      "with_ai": 1
     },
     "manufacturing": {
       "announcements": 2,
@@ -1379,31 +1560,31 @@
     },
     "marketing": {
       "announcements": 13,
-      "with_ai": 6
+      "with_ai": 9
     },
     "operations": {
       "announcements": 10,
-      "with_ai": 4
+      "with_ai": 6
     },
     "people": {
       "announcements": 4,
-      "with_ai": 0
+      "with_ai": 2
     },
     "product_design": {
-      "announcements": 19,
-      "with_ai": 8
+      "announcements": 20,
+      "with_ai": 12
     },
     "sales": {
-      "announcements": 11,
-      "with_ai": 4
+      "announcements": 12,
+      "with_ai": 8
     },
     "support": {
       "announcements": 8,
-      "with_ai": 3
+      "with_ai": 6
     }
   },
-  "ai_without_identified_functions": 57,
-  "no_ai_without_identified_functions": 111,
+  "ai_without_identified_functions": 80,
+  "no_ai_without_identified_functions": 86,
   "industry": {
     "AI": {
       "announcements": 6,
@@ -1411,15 +1592,15 @@
     },
     "Consumer": {
       "announcements": 29,
-      "with_ai": 9
+      "with_ai": 14
     },
     "Crypto": {
       "announcements": 11,
-      "with_ai": 5
+      "with_ai": 7
     },
     "Data": {
       "announcements": 6,
-      "with_ai": 4
+      "with_ai": 5
     },
     "Education": {
       "announcements": 2,
@@ -1431,7 +1612,7 @@
     },
     "Finance": {
       "announcements": 21,
-      "with_ai": 7
+      "with_ai": 8
     },
     "Fitness": {
       "announcements": 2,
@@ -1463,23 +1644,23 @@
     },
     "Manufacturing": {
       "announcements": 4,
-      "with_ai": 0
+      "with_ai": 2
     },
     "Marketing": {
       "announcements": 3,
-      "with_ai": 1
+      "with_ai": 2
     },
     "Media": {
       "announcements": 3,
-      "with_ai": 0
+      "with_ai": 1
     },
     "Other": {
       "announcements": 13,
-      "with_ai": 6
+      "with_ai": 8
     },
     "Product": {
       "announcements": 3,
-      "with_ai": 2
+      "with_ai": 3
     },
     "Real Estate": {
       "announcements": 3,
@@ -1487,23 +1668,23 @@
     },
     "Recruiting": {
       "announcements": 1,
-      "with_ai": 0
+      "with_ai": 1
     },
     "Retail": {
       "announcements": 11,
-      "with_ai": 2
+      "with_ai": 6
     },
     "Sales": {
       "announcements": 5,
-      "with_ai": 1
+      "with_ai": 4
     },
     "Security": {
       "announcements": 10,
-      "with_ai": 4
+      "with_ai": 5
     },
     "Support": {
       "announcements": 2,
-      "with_ai": 1
+      "with_ai": 2
     },
     "Transportation": {
       "announcements": 8,
@@ -1515,7 +1696,7 @@
     },
     "Unknown": {
       "announcements": 66,
-      "with_ai": 16
+      "with_ai": 26
     }
   },
   "source_status": {

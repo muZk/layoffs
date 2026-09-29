@@ -1,6 +1,6 @@
 # Explore the explanations behind the cuts
 
-*Evidence and coverage reviewed 17 September 2026*
+*General coverage: September 17, 2026 · Classifications reviewed: September 28, 2026*
 
 228 announcement records. One question at a time, with every count connected to its evidence.
 
@@ -20,23 +20,28 @@ We count the reasons sources attribute to each reduction: savings, reorganizatio
 
 <!--REASONS-->
 
-**Cost cutting appears in 45 announcements, organizational consolidation in 43, and product or business pivots in 29.** Meanwhile, AI transition appears in 13; organizational realignment, strategic priorities and efficiency each appear in 11.
+**Cost cutting appears in 46 announcements, organizational consolidation in 43, and product or business pivots in 29.** Meanwhile, AI transition appears in 34; organizational realignment and efficiency each appear in 11; strategic priorities appears in 12.
 
-These bars contain explanations from **201 of 228 announcements**. The other **27** have no classifiable explanation: 13 have no reason identified, 12 have insufficient evidence and 2 have no causal source recovered. An announcement can appear in several bars; adding them does not produce a total of unique announcements.
+These bars contain explanations from **206 of 228 announcements**. The other **22** have no classifiable explanation: 11 have no reason identified, 9 have insufficient evidence and 2 have no causal source recovered. An announcement can appear in several bars; adding them does not produce a total of unique announcements.
+
+A pivot toward AI products can appear as a business change and as AI investment or transition. These are overlapping descriptions, not necessarily independent motives.
 
 ## How many announcements link cuts to AI?
 
-**In 72 announcements, a source links the cuts to AI.** Reasons include productivity (24), investment reallocation (14), AI transition without further detail (13), work redesign (10), task substitution (8) and AI market disruption (7). An announcement can appear in several categories.
+**In 108 announcements, a source links the cuts to AI.** Reasons include productivity (25), investment reallocation (25), AI transition without further detail (34), work redesign (13), task substitution (8) and AI market disruption (8). An announcement can appear in several categories.
 
-These describe different relationships: funding AI products is not the same as replacing tasks with AI. “AI transition, without further detail” preserves the connection expressed by the source without assuming one of those decisions. The 72 are announcements with an attributed connection, not demonstrated replacements.
+These describe different relationships: funding AI products is not the same as replacing tasks with AI. “AI transition, without further detail” preserves the connection expressed by the source without assuming one of those decisions. The 108 are announcements with an attributed connection, not demonstrated replacements.
 
 ## What appears together?
 
 These are the most frequent pairs of **an AI explanation and another reason**. We show the first five positions, including every tie at the fifth. Each count opens its announcements. Pairs overlap: one announcement can contribute to several.
 
+
+We retain Layoffs.fyi’s AI labels and add other documented attributions. Eleven general links depend on the tracker classification; we did not independently corroborate its detailed mechanism. [Inspect provenance and differences](index.html#how-do-we-extend-layoffsfyis-data).
+
 <!--AI-PAIRS-->
 
-**AI productivity and cost cutting appear together in 12 of the 24 announcements with an attributed AI productivity mechanism.** That is half of this group. The sources combine a spending objective with the expectation of producing with fewer people; these data do not measure whether that productivity was achieved.
+**AI productivity and cost cutting appear together in 13 of the 25 announcements with an attributed AI productivity mechanism.** That is just over half of this group. The sources combine a spending objective with the expectation of producing with fewer people; these data do not measure whether that productivity was achieved.
 
 <!--GROUPS-->
 
@@ -47,7 +52,7 @@ The matrix crosses non-AI reasons with AI explanations. The final row and column
 
 <!--FUNCTIONS-->
 
-Engineering and R&D appears in **31 records**; 8 include an AI explanation. This does not establish that these jobs were replaced by AI. **57 of the 72 announcements with AI explanations** have no specific affected function identified.
+Engineering and R&D appears in **32 records**; 15 include an AI explanation. This does not establish that these jobs were replaced by AI. **80 of the 108 announcements with AI explanations** have no specific affected function identified.
 
 Three examples show why the questions are separate: **Breadfast** identifies engineering, product and data, but no specific cause; **Atlassian** identifies R&D and investment reallocation toward AI; **Zap Africa** includes customer support and a worker's substitution claim alongside the company's productivity explanation. Each record preserves the attribution.
 
@@ -57,9 +62,9 @@ Three examples show why the questions are separate: **Breadfast** identifies eng
 
 **No causal source recovered** applies to Dayforce, for example: the listing points to an internal memo unavailable for review.
 
-**“No explanation identified” describes our search result.** For those 13 records, we did not recover a reason attributable to the announcement; that does not establish that none exists. [Inspect the individual review and its limits](explanation-recheck.json).
+**“No explanation identified” describes our search result.** For those 11 records, we did not recover a reason attributable to the announcement; that does not establish that none exists. [Inspect the individual review and its limits](explanation-recheck.json).
 
-The incomplete-source review recovered sufficient material in **21 of 37 cases**. Fourteen remain partial and two unavailable. Four of the 60 records with identified functions rely on partial extracts; another seven retain evidence from the prior review, marked in each record. [Inspect all 37 reviewed cases](source-recovery.json).
+The incomplete-source review recovered sufficient material in **21 of 37 cases**. Fourteen remain partial and two unavailable. Four of the 62 records with identified functions rely on partial extracts; another six retain evidence from the prior review, marked in each record. [Inspect all 37 reviewed cases](source-recovery.json).
 
 <!--EVIDENCE-->
 
@@ -75,7 +80,7 @@ Counts include company statements, press attributions and external inferences. E
 
 ## Had companies linking cuts to AI grown faster?
 
-We linked announcements to workforce histories: 71 companies have usable 2022–2025 observations and 35 have 2019–2022 observations. In the earlier window, median workforce growth was +80% among companies with attributed AI explanations versus +51% among those with only other mechanisms. In 2022–2025, the medians are +3.7% and +4.7% respectively: the ordering reverses.
+We linked announcements to workforce histories: 71 companies have usable 2022–2025 observations and 35 have 2019–2022 observations. In the earlier window, median workforce growth was +88.2% among companies with attributed AI explanations versus +22.0% among those with only other mechanisms. In 2022–2025, the medians are +6.7% and +3.7% respectively: the medians are close.
 
 The study provides distributions, coverage, sensitivity checks and business-growth case studies. It uses a secondary compilation with partial checks against original filings; it does not measure excess hiring.
 

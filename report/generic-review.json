@@ -210,7 +210,8 @@
     ],
     "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
     "causes": [
-      "strategic_priorities"
+      "strategic_priorities",
+      "ai_transition"
     ],
     "details": {
       "strategic_priorities": {
@@ -220,7 +221,37 @@
         "source_url": "https://next.io/news/people/draftkings-reduces-workforce-company-embraces-ai/",
         "specificity": "generic",
         "evidence_access": "full"
+      },
+      "ai_transition": {
+        "summary": "NEXT.io places this reduction in an AI-led operating-cost strategy. This is the publication interpretation, not a company statement that specific jobs were automated.",
+        "attribution": "reported_inference",
+        "scope": "event",
+        "source_url": "https://next.io/news/people/draftkings-reduces-workforce-company-embraces-ai/",
+        "specificity": "generic",
+        "evidence_access": "full"
       }
+    },
+    "historical_causes": [
+      "strategic_priorities"
+    ],
+    "historical_details": {
+      "strategic_priorities": {
+        "summary": "Company says teams are being reorganized around its highest priorities and investment areas.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://next.io/news/people/draftkings-reduces-workforce-company-embraces-ai/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "current_update": {
+      "date": "2026-09-28",
+      "note": "NEXT.io places this reduction in an AI-led operating-cost strategy. This is the publication interpretation, not a company statement that specific jobs were automated.",
+      "decision": "aligned_with_additional_context",
+      "sources": [
+        "https://next.io/news/people/draftkings-reduces-workforce-company-embraces-ai/",
+        "https://layoffs.fyi/ai-layoffs/"
+      ]
     }
   },
   {
@@ -264,7 +295,8 @@
     ],
     "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
     "causes": [
-      "market_conditions"
+      "market_conditions",
+      "ai_transition"
     ],
     "details": {
       "market_conditions": {
@@ -274,7 +306,34 @@
         "source_url": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/",
         "specificity": "generic",
         "evidence_access": "full"
+      },
+      "ai_transition": {
+        "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. Later reporting on the visuals team may concern a different round; that timing remains unresolved, so no substitution mechanism is assigned to this February reduction reported in March.",
+        "attribution": "reported_inference",
+        "scope": "event",
+        "source_url": "https://layoffs.fyi/ai-layoffs/",
+        "specificity": "generic",
+        "evidence_access": "full"
       }
+    },
+    "historical_causes": [
+      "market_conditions"
+    ],
+    "historical_details": {
+      "market_conditions": {
+        "summary": "Company reported economic reasons for the layoffs to the provincial government; the reason is not further specified.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "current_update": {
+      "date": "2026-09-29",
+      "outcome": "unresolved_after_targeted_search",
+      "note": "February cuts and later visual-team allegation cannot yet be matched to the same round. Gazette article remained unavailable; search did not resolve timing.",
+      "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
     }
   },
   {
@@ -364,7 +423,8 @@
     ],
     "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
     "causes": [
-      "strategic_priorities"
+      "strategic_priorities",
+      "ai_transition"
     ],
     "details": {
       "strategic_priorities": {
@@ -374,7 +434,34 @@
         "source_url": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
         "specificity": "generic",
         "evidence_access": "full"
+      },
+      "ai_transition": {
+        "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "attribution": "reported_inference",
+        "scope": "event",
+        "source_url": "https://layoffs.fyi/ai-layoffs/",
+        "specificity": "generic",
+        "evidence_access": "full"
       }
+    },
+    "historical_causes": [
+      "strategic_priorities"
+    ],
+    "historical_details": {
+      "strategic_priorities": {
+        "summary": "Company attributes targeted cuts to alignment with its long-term strategy.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "current_update": {
+      "date": "2026-09-29",
+      "outcome": "evidence_improved_mechanism_open",
+      "note": "Full Business Insider article retrieved. Documentation functions confirmed; AI task replacement not established.",
+      "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
     }
   },
   {
@@ -418,7 +505,8 @@
     ],
     "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
     "causes": [
-      "organizational_realignment"
+      "organizational_realignment",
+      "ai_investment_reallocation"
     ],
     "details": {
       "organizational_realignment": {
@@ -428,7 +516,40 @@
         "source_url": "https://techcrunch.com/2026/03/25/meta-is-cutting-several-hundred-jobs/",
         "specificity": "generic",
         "evidence_access": "full"
+      },
+      "ai_investment_reallocation": {
+        "summary": "Reuters connects the March restructuring to offsetting AI investment costs. This supports an AI funding link rather than a claim that AI replaced the affected roles.",
+        "attribution": "press_reported",
+        "scope": "event",
+        "source_url": "https://finance.yahoo.com/markets/stocks/articles/meta-lay-off-hundreds-employees-141106014.html",
+        "specificity": "concrete",
+        "evidence_access": "full"
       }
+    },
+    "historical_causes": [
+      "organizational_realignment"
+    ],
+    "historical_details": {
+      "organizational_realignment": {
+        "summary": "Company says team restructurings are intended to help achieve their goals.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://techcrunch.com/2026/03/25/meta-is-cutting-several-hundred-jobs/",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "current_update": {
+      "date": "2026-09-28",
+      "note": "Reuters connects the March restructuring to offsetting AI investment costs. This supports an AI funding link rather than a claim that AI replaced the affected roles.",
+      "decision": "aligned_with_additional_context",
+      "sources": [
+        "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html?unlocked_article_code=1.V1A.GoAa.Bb73ytbBTorE",
+        "https://dataconomy.com/2026/03/26/meta-layoffs-hundreds-2026/",
+        "https://techcrunch.com/2026/03/25/meta-is-cutting-several-hundred-jobs/",
+        "https://layoffs.fyi/ai-layoffs/",
+        "https://finance.yahoo.com/markets/stocks/articles/meta-lay-off-hundreds-employees-141106014.html"
+      ]
     }
   },
   {
@@ -446,7 +567,8 @@
     ],
     "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
     "causes": [
-      "organizational_realignment"
+      "organizational_realignment",
+      "ai_investment_reallocation"
     ],
     "details": {
       "organizational_realignment": {
@@ -457,6 +579,15 @@
         "scope": "event",
         "evidence_access": "full"
       }
+    },
+    "historical_causes": [
+      "organizational_realignment"
+    ],
+    "current_update": {
+      "date": "2026-09-29",
+      "outcome": "additional_attributed_plan",
+      "note": "The March email gives organizational realignment. Contemporaneous press links the planned March cuts to AI infrastructure financing; the March 10 company statement supports productivity at broader development-plan scope. No annual net figure is treated as the size of this event.",
+      "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
     }
   },
   {
@@ -472,7 +603,8 @@
     ],
     "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
     "causes": [
-      "organizational_realignment"
+      "organizational_realignment",
+      "ai_transition"
     ],
     "details": {
       "organizational_realignment": {
@@ -482,7 +614,34 @@
         "attribution": "company_stated",
         "scope": "event",
         "evidence_access": "full"
+      },
+      "ai_transition": {
+        "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "attribution": "reported_inference",
+        "scope": "event",
+        "source_url": "https://layoffs.fyi/ai-layoffs/",
+        "specificity": "generic",
+        "evidence_access": "full"
       }
+    },
+    "historical_causes": [
+      "organizational_realignment"
+    ],
+    "historical_details": {
+      "organizational_realignment": {
+        "summary": "A Meta spokesperson explains the reported reductions through regular team restructuring to achieve organizational goals; no concrete operating mechanism is given.",
+        "source_url": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php",
+        "specificity": "generic",
+        "attribution": "company_stated",
+        "scope": "event",
+        "evidence_access": "full"
+      }
+    },
+    "current_update": {
+      "date": "2026-09-29",
+      "outcome": "unresolved_after_targeted_search",
+      "note": "April notice reporting reviewed; company AI spending remains context and overlap with adjacent rounds remains unresolved.",
+      "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
     }
   },
   {
@@ -786,7 +945,8 @@
     ],
     "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
     "causes": [
-      "organizational_realignment"
+      "organizational_realignment",
+      "ai_work_redesign"
     ],
     "details": {
       "organizational_realignment": {
@@ -796,7 +956,39 @@
         "source_url": "https://www.hcamag.com/us/news/general/linkedin-cuts-5-of-staff-despite-record-revenue-reuters-reports/575160",
         "specificity": "generic",
         "evidence_access": "full"
+      },
+      "ai_work_redesign": {
+        "summary": "Internal communications reported by ET connect the May 13 restructuring with changing engineering work under AI-led development. Preserve the separate anonymous denial of replacing jobs with AI; redesign and replacement are different claims.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://hr.economictimes.indiatimes.com/amp/news/workplace-4-0/talent-management/linkedin-cuts-350-jobs-in-india-amid-global-restructuring/131303309",
+        "specificity": "concrete",
+        "evidence_access": "full"
       }
+    },
+    "historical_causes": [
+      "organizational_realignment"
+    ],
+    "historical_details": {
+      "organizational_realignment": {
+        "summary": "Company describes regular business planning intended to position it for future success.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.hcamag.com/us/news/general/linkedin-cuts-5-of-staff-despite-record-revenue-reuters-reports/575160",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "current_update": {
+      "date": "2026-09-28",
+      "note": "Internal communications reported by ET connect the May 13 restructuring with changing engineering work under AI-led development. Preserve the separate anonymous denial of replacing jobs with AI; redesign and replacement are different claims.",
+      "decision": "aligned_with_additional_context",
+      "sources": [
+        "https://www.reuters.com/business/world-at-work/linkedin-is-planning-lay-off-5-staff-latest-tech-sector-cuts-source-says-2026-05-13/",
+        "https://www.hcamag.com/us/news/general/linkedin-cuts-5-of-staff-despite-record-revenue-reuters-reports/575160",
+        "https://layoffs.fyi/ai-layoffs/",
+        "https://hr.economictimes.indiatimes.com/amp/news/workplace-4-0/talent-management/linkedin-cuts-350-jobs-in-india-amid-global-restructuring/131303309"
+      ]
     }
   },
   {
@@ -1035,7 +1227,8 @@
     ],
     "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found.",
     "causes": [
-      "organizational_realignment"
+      "organizational_realignment",
+      "ai_transition"
     ],
     "details": {
       "organizational_realignment": {
@@ -1045,7 +1238,34 @@
         "source_url": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
         "specificity": "generic",
         "evidence_access": "full"
+      },
+      "ai_transition": {
+        "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The linked article explicitly leaves the causal link uncertain; retain that uncertainty alongside the tracker label.",
+        "attribution": "reported_inference",
+        "scope": "event",
+        "source_url": "https://layoffs.fyi/ai-layoffs/",
+        "specificity": "generic",
+        "evidence_access": "full"
       }
+    },
+    "historical_causes": [
+      "organizational_realignment"
+    ],
+    "historical_details": {
+      "organizational_realignment": {
+        "summary": "Company describes regular review and adjustment of staffing needs; the report explicitly leaves an AI connection unclear.",
+        "attribution": "company_stated",
+        "scope": "event",
+        "source_url": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
+        "specificity": "generic",
+        "evidence_access": "full"
+      }
+    },
+    "current_update": {
+      "date": "2026-09-29",
+      "outcome": "unresolved_after_targeted_search",
+      "note": "Original article explicitly leaves direct AI connection uncertain; tracker attribution retained.",
+      "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
     }
   },
   {

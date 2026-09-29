@@ -1,0 +1,2673 @@
+{
+  "date": "2026-09-29",
+  "method": "Targeted source recovery and event-scope review; preserve unresolved tracker attributions and document remaining gaps.",
+  "events": [
+    {
+      "before": {
+        "record_id": "layoff-2026-026",
+        "company": "Amazon",
+        "date": "2026-01-28",
+        "laid_off": 16000,
+        "pct": null,
+        "industry": "Retail",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "Seattle"
+        ],
+        "raised_mm": 8100,
+        "source_url": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "organizational_consolidation",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "organizational_consolidation": {
+            "summary": "Current company memo identifies management layers and bureaucracy. AI attribution cannot be imported from another round.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026",
+            "specificity": "concrete"
+          },
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "Current company memo identifies management layers and bureaucracy. AI attribution cannot be imported from another round. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": [
+            "earlier_denial_needs_source_verification"
+          ]
+        },
+        "cause_status": "specified",
+        "reason": "Current company memo identifies management layers and bureaucracy. AI attribution cannot be imported from another round. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026"
+            ]
+          }
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-026",
+        "company": "Amazon",
+        "date": "2026-01-28",
+        "laid_off": 16000,
+        "pct": null,
+        "industry": "Retail",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "Seattle"
+        ],
+        "raised_mm": 8100,
+        "source_url": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "organizational_consolidation",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "organizational_consolidation": {
+            "summary": "Current company memo identifies management layers and bureaucracy. AI attribution cannot be imported from another round.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026",
+            "specificity": "concrete"
+          },
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "source_reviewed",
+          "note": "Current company memo identifies management layers and bureaucracy. AI attribution cannot be imported from another round. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": [
+            "earlier_denial_needs_source_verification"
+          ]
+        },
+        "cause_status": "specified",
+        "reason": "Current company memo identifies management layers and bureaucracy. AI attribution cannot be imported from another round. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026"
+            ]
+          }
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "unresolved_after_targeted_search",
+          "note": "Company statement reviewed: organizational layers and bureaucracy; no recovered event-specific AI mechanism.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-041",
+        "company": "Clari",
+        "date": "2026-02-12",
+        "laid_off": 76,
+        "pct": null,
+        "industry": "Sales",
+        "stage": "Acquired",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": 496,
+        "source_url": "https://www.bizjournals.com/sanjose/news/2026/02/12/clari-salesloft-merger-ai-investments-layoffs.html",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "ai_transition"
+        ],
+        "cause_details": {
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [
+          {
+            "kind": "acquisition",
+            "summary": "Clari/Salesloft merger is documented; mechanism remains unverified.",
+            "source_url": "https://www.bizjournals.com/sanjose/news/2026/02/12/clari-salesloft-merger-ai-investments-layoffs.html"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "partial",
+          "note": "A merger and AI-investment headline is insufficient to verify the previously asserted duplicate roles. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://www.bizjournals.com/sanjose/news/2026/02/12/clari-salesloft-merger-ai-investments-layoffs.html",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": [
+            "causal_evidence_unverified"
+          ]
+        },
+        "cause_status": "generic",
+        "reason": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.bizjournals.com/sanjose/news/2026/02/12/clari-salesloft-merger-ai-investments-layoffs.html"
+            ]
+          }
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-041",
+        "company": "Clari",
+        "date": "2026-02-12",
+        "laid_off": 76,
+        "pct": null,
+        "industry": "Sales",
+        "stage": "Acquired",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": 496,
+        "source_url": "https://www.bizjournals.com/sanjose/news/2026/02/12/clari-salesloft-merger-ai-investments-layoffs.html",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "ai_transition"
+        ],
+        "cause_details": {
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [
+          {
+            "kind": "acquisition",
+            "summary": "Clari/Salesloft merger is documented; mechanism remains unverified.",
+            "source_url": "https://www.bizjournals.com/sanjose/news/2026/02/12/clari-salesloft-merger-ai-investments-layoffs.html"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "partial",
+          "note": "A merger and AI-investment headline is insufficient to verify the previously asserted duplicate roles. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://www.bizjournals.com/sanjose/news/2026/02/12/clari-salesloft-merger-ai-investments-layoffs.html",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": [
+            "causal_evidence_unverified"
+          ]
+        },
+        "cause_status": "generic",
+        "reason": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.bizjournals.com/sanjose/news/2026/02/12/clari-salesloft-merger-ai-investments-layoffs.html"
+            ]
+          }
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "unresolved_after_targeted_search",
+          "note": "Merger statement and article preview reviewed; no recovered link from AI investment to the 76 roles.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-064",
+        "company": "SSense",
+        "date": "2026-03-05",
+        "laid_off": 215,
+        "pct": null,
+        "industry": "Retail",
+        "stage": "Series A",
+        "country": "Canada",
+        "location_hq": [
+          "Montreal",
+          "Non-U.S."
+        ],
+        "raised_mm": null,
+        "source_url": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "market_conditions",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "market_conditions": {
+            "summary": "Company reported economic reasons for the layoffs to the provincial government; the reason is not further specified.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          },
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. Later reporting on the visuals team may concern a different round; that timing remains unresolved, so no substitution mechanism is assigned to this February reduction reported in March.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "Reported economic reasons are nonspecific. Insolvency background alone does not establish the mechanism for each cut. Explanation review: attributed reasons are recorded below with explicit specificity. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. Later reporting on the visuals team may concern a different round; that timing remains unresolved, so no substitution mechanism is assigned to this February reduction reported in March.",
+          "sources": [
+            "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": [
+            "date_uncertain"
+          ]
+        },
+        "cause_status": "generic",
+        "reason": "Company reported economic reasons for the layoffs to the provincial government; the reason is not further specified. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. Later reporting on the visuals team may concern a different round; that timing remains unresolved, so no substitution mechanism is assigned to this February reduction reported in March.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "generic",
+          "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect."
+        },
+        "generic_review": {
+          "review_date": "2026-09-17",
+          "outcome": "published_reason_remains_general",
+          "note_es": "El aviso cita razones económicas. La insolvencia y la caída de ventas están documentadas como contexto, pero no se recuperó una atribución suficientemente específica para estos puestos.",
+          "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+          "sources": [
+            "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
+          ],
+          "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. Later reporting on the visuals team may concern a different round; that timing remains unresolved, so no substitution mechanism is assigned to this February reduction reported in March.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-064",
+        "company": "SSense",
+        "date": "2026-03-05",
+        "laid_off": 215,
+        "pct": null,
+        "industry": "Retail",
+        "stage": "Series A",
+        "country": "Canada",
+        "location_hq": [
+          "Montreal",
+          "Non-U.S."
+        ],
+        "raised_mm": null,
+        "source_url": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "market_conditions",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "market_conditions": {
+            "summary": "Company reported economic reasons for the layoffs to the provincial government; the reason is not further specified.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          },
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. Later reporting on the visuals team may concern a different round; that timing remains unresolved, so no substitution mechanism is assigned to this February reduction reported in March.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "source_reviewed",
+          "note": "Reported economic reasons are nonspecific. Insolvency background alone does not establish the mechanism for each cut. Explanation review: attributed reasons are recorded below with explicit specificity. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. Later reporting on the visuals team may concern a different round; that timing remains unresolved, so no substitution mechanism is assigned to this February reduction reported in March.",
+          "sources": [
+            "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": [
+            "date_uncertain"
+          ]
+        },
+        "cause_status": "generic",
+        "reason": "Company reported economic reasons for the layoffs to the provincial government; the reason is not further specified. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. Later reporting on the visuals team may concern a different round; that timing remains unresolved, so no substitution mechanism is assigned to this February reduction reported in March.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "generic",
+          "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect."
+        },
+        "generic_review": {
+          "review_date": "2026-09-17",
+          "outcome": "published_reason_remains_general",
+          "note_es": "El aviso cita razones económicas. La insolvencia y la caída de ventas están documentadas como contexto, pero no se recuperó una atribución suficientemente específica para estos puestos.",
+          "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+          "sources": [
+            "https://betakit.com/ssense-cut-more-than-200-jobs-days-after-founders-won-bid-to-buy-back-company/"
+          ],
+          "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. Later reporting on the visuals team may concern a different round; that timing remains unresolved, so no substitution mechanism is assigned to this February reduction reported in March.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "unresolved_after_targeted_search",
+          "note": "February cuts and later visual-team allegation cannot yet be matched to the same round. Gazette article remained unavailable; search did not resolve timing.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-074",
+        "company": "Snowflake",
+        "date": "2026-03-19",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Data",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": 2900,
+        "source_url": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_priorities",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "strategic_priorities": {
+            "summary": "Company attributes targeted cuts to alignment with its long-term strategy.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+            "specificity": "generic",
+            "evidence_access": "full"
+          },
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [
+          {
+            "kind": "ai_product_strategy",
+            "summary": "Earlier CEO comments describe developing AI products; current replacement attribution is absent.",
+            "source_url": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "Company gives a general explanation. Technical-writing cuts plus earlier AI strategy do not establish AI replacement. Explanation review: attributed reasons are recorded below with explicit specificity. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": []
+        },
+        "cause_status": "generic",
+        "reason": "Company attributes targeted cuts to alignment with its long-term strategy. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "content"
+          ],
+          "details": [
+            {
+              "functions": [
+                "content"
+              ],
+              "summary": "Existing event review identifies technical-writing cuts without establishing AI replacement.",
+              "attribution": "press_reported",
+              "source_url": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+              "evidence_access": "prior_review"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "generic",
+          "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect."
+        },
+        "generic_review": {
+          "review_date": "2026-09-17",
+          "outcome": "investigation_limited",
+          "note_es": "La fuente original de Business Insider no se recuperó íntegramente. Hay resúmenes y afirmaciones secundarias sobre automatización de documentación, pero no se verificó una fuente original que las vincule al recorte. Se mantiene la explicación general.",
+          "open_question_es": "¿Quién asume la documentación y existe evidencia original que vincule esos puestos con automatización?",
+          "sources": [
+            "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+            "https://cncbnews.com/article/2026/03/snowflake-makes-cuts-as-part-of-targeted-adjustments-to-the-companys-strategy",
+            "https://www.kore1.com/snowflake-layoffs-2026/"
+          ],
+          "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-074",
+        "company": "Snowflake",
+        "date": "2026-03-19",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Data",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": 2900,
+        "source_url": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "strategic_priorities",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "strategic_priorities": {
+            "summary": "Company attributes targeted cuts to alignment with its long-term strategy.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+            "specificity": "generic",
+            "evidence_access": "full"
+          },
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [
+          {
+            "kind": "ai_product_strategy",
+            "summary": "Earlier CEO comments describe developing AI products; current replacement attribution is absent.",
+            "source_url": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "source_reviewed",
+          "note": "Company gives a general explanation. Technical-writing cuts plus earlier AI strategy do not establish AI replacement. Explanation review: attributed reasons are recorded below with explicit specificity. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": []
+        },
+        "cause_status": "generic",
+        "reason": "Company attributes targeted cuts to alignment with its long-term strategy. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "content"
+          ],
+          "details": [
+            {
+              "functions": [
+                "content"
+              ],
+              "summary": "Existing event review identifies technical-writing cuts without establishing AI replacement.",
+              "attribution": "press_reported",
+              "source_url": "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+              "evidence_access": "full"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-29",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "generic",
+          "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect."
+        },
+        "generic_review": {
+          "review_date": "2026-09-17",
+          "outcome": "investigation_limited",
+          "note_es": "La fuente original de Business Insider no se recuperó íntegramente. Hay resúmenes y afirmaciones secundarias sobre automatización de documentación, pero no se verificó una fuente original que las vincule al recorte. Se mantiene la explicación general.",
+          "open_question_es": "¿Quién asume la documentación y existe evidencia original que vincule esos puestos con automatización?",
+          "sources": [
+            "https://www.businessinsider.com/snowflake-layoffs-strategy-ai-growth-2026-3",
+            "https://cncbnews.com/article/2026/03/snowflake-makes-cuts-as-part-of-targeted-adjustments-to-the-companys-strategy",
+            "https://www.kore1.com/snowflake-layoffs-2026/"
+          ],
+          "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "evidence_improved_mechanism_open",
+          "note": "Full Business Insider article retrieved. Documentation functions confirmed; AI task replacement not established.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-086",
+        "company": "Oracle",
+        "date": "2026-03-31",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Other",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": null,
+        "source_url": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+        "source_used": "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm",
+        "record_type": "announcement",
+        "headcount_scope": "event_size_unverified",
+        "causes": [
+          "organizational_realignment"
+        ],
+        "cause_details": {
+          "organizational_realignment": {
+            "summary": "The March termination email attributes role elimination to a broader organizational change following a review of business needs. It does not specify an AI mechanism.",
+            "source_url": "https://www.moneycontrol.com/news/trends/full-text-of-the-email-oracle-sent-to-30-000-laid-off-employees-at-6-am-13876386.html",
+            "specificity": "generic",
+            "attribution": "company_stated",
+            "scope": "event",
+            "evidence_access": "full"
+          }
+        },
+        "context": [
+          {
+            "kind": "broader_plan",
+            "summary": "FY2026 10-K Risk Factors acknowledges past AI-related reductions; Note 7 includes AI efficiencies in a broader plan. Neither allocates the March cuts or an AI headcount.",
+            "source_url": "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-16",
+          "status": "source_reviewed",
+          "note": "The March termination email attributes role elimination to a broader organizational change following a review of business needs. It does not specify an AI mechanism. Existing overlap, count and plan-scope caveats remain applicable.",
+          "sources": [
+            "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+            "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm",
+            "https://www.moneycontrol.com/news/trends/full-text-of-the-email-oracle-sent-to-30-000-laid-off-employees-at-6-am-13876386.html"
+          ],
+          "issues": [
+            "net_not_gross",
+            "plan_not_event_attribution"
+          ]
+        },
+        "cause_status": "generic",
+        "reason": "The March termination email attributes role elimination to a broader organizational change following a review of business needs. It does not specify an AI mechanism.",
+        "reported_workforce_change": {
+          "value": 21000,
+          "metric": "net_workforce_reduction",
+          "period": "FY ended May 2026",
+          "source_url": "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm"
+        },
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+              "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "generic",
+          "method": "individual_source_reread_and_alternative_source_search",
+          "note": "The March termination email attributes role elimination to a broader organizational change following a review of business needs. It does not specify an AI mechanism."
+        },
+        "generic_review": {
+          "review_date": "2026-09-17",
+          "outcome": "published_reason_remains_general",
+          "note_es": "El correo de marzo habla de reorganización. El informe anual vincula IA con un plan más amplio, sin asignar el recorte de marzo. No se convierte ese contexto en mecanismo del evento.",
+          "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+          "sources": [
+            "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+            "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm",
+            "https://www.moneycontrol.com/news/trends/full-text-of-the-email-oracle-sent-to-30-000-laid-off-employees-at-6-am-13876386.html"
+          ],
+          "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-086",
+        "company": "Oracle",
+        "date": "2026-03-31",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Other",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": null,
+        "source_url": "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+        "source_used": "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm",
+        "record_type": "announcement",
+        "headcount_scope": "event_size_unverified",
+        "causes": [
+          "organizational_realignment",
+          "ai_investment_reallocation"
+        ],
+        "cause_details": {
+          "organizational_realignment": {
+            "summary": "The March termination email attributes role elimination to a broader organizational change following a review of business needs. It does not specify an AI mechanism.",
+            "source_url": "https://www.moneycontrol.com/news/trends/full-text-of-the-email-oracle-sent-to-30-000-laid-off-employees-at-6-am-13876386.html",
+            "specificity": "generic",
+            "attribution": "company_stated",
+            "scope": "event",
+            "evidence_access": "full"
+          },
+          "ai_investment_reallocation": {
+            "summary": "Reuters relays Bloomberg reporting that the planned March cuts respond to financing pressure from AI data-center expansion. Matching this announced March plan to the March 31 execution is a documented inference; neither source allocates all affected jobs to AI.",
+            "source_url": "https://www.investing.com/news/stock-market-news/oracle-plans-thousands-of-job-cuts-as-data-center-costs-rise-bloomberg-news-reports-4544997",
+            "attribution": "press_reported",
+            "scope": "announced_plan",
+            "specificity": "concrete",
+            "evidence_access": "full"
+          }
+        },
+        "context": [
+          {
+            "kind": "broader_plan",
+            "summary": "FY2026 10-K Risk Factors acknowledges past AI-related reductions; Note 7 includes AI efficiencies in a broader plan. Neither allocates the March cuts or an AI headcount.",
+            "source_url": "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm"
+          },
+          {
+            "kind": "broader_plan_ai_productivity",
+            "summary": "Oracle states on March 10 that AI code generation enables smaller development teams. This is direct company evidence for the development plan, not a job-by-job allocation of the March 31 round.",
+            "source_url": "https://www.oracle.com/news/announcement/q3fy26-earnings-release-2026-03-10/"
+          }
+        ],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "source_reviewed",
+          "note": "The March email gives organizational realignment. Contemporaneous press links the planned March cuts to AI infrastructure financing; the March 10 company statement supports productivity at broader development-plan scope. No annual net figure is treated as the size of this event.",
+          "sources": [
+            "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+            "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm",
+            "https://www.moneycontrol.com/news/trends/full-text-of-the-email-oracle-sent-to-30-000-laid-off-employees-at-6-am-13876386.html",
+            "https://www.investing.com/news/stock-market-news/oracle-plans-thousands-of-job-cuts-as-data-center-costs-rise-bloomberg-news-reports-4544997",
+            "https://www.oracle.com/news/announcement/q3fy26-earnings-release-2026-03-10/",
+            "https://www.investing.com/news/stock-market-news/oracle-begins-cutting-thousands-of-jobs-cnbc-reports-4591147"
+          ],
+          "issues": [
+            "net_not_gross",
+            "plan_not_event_attribution"
+          ]
+        },
+        "cause_status": "specified",
+        "reason": "The March termination email attributes role elimination to a broader organizational change following a review of business needs. It does not specify an AI mechanism. Reuters relays Bloomberg reporting that the planned March cuts respond to financing pressure from AI data-center expansion. Matching this announced March plan to the March 31 execution is a documented inference; neither source allocates all affected jobs to AI.",
+        "reported_workforce_change": {
+          "value": 21000,
+          "metric": "net_workforce_reduction",
+          "period": "FY ended May 2026",
+          "source_url": "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm"
+        },
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+              "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "generic",
+          "method": "individual_source_reread_and_alternative_source_search",
+          "note": "The March termination email attributes role elimination to a broader organizational change following a review of business needs. It does not specify an AI mechanism."
+        },
+        "generic_review": {
+          "review_date": "2026-09-17",
+          "outcome": "published_reason_remains_general",
+          "note_es": "El correo de marzo habla de reorganización. El informe anual vincula IA con un plan más amplio, sin asignar el recorte de marzo. No se convierte ese contexto en mecanismo del evento.",
+          "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+          "sources": [
+            "https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html",
+            "https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm",
+            "https://www.moneycontrol.com/news/trends/full-text-of-the-email-oracle-sent-to-30-000-laid-off-employees-at-6-am-13876386.html"
+          ],
+          "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "additional_attributed_plan",
+          "note": "The March email gives organizational realignment. Contemporaneous press links the planned March cuts to AI infrastructure financing; the March 10 company statement supports productivity at broader development-plan scope. No annual net figure is treated as the size of this event.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-091",
+        "company": "Meta",
+        "date": "2026-04-02",
+        "laid_off": 200,
+        "pct": null,
+        "industry": "Consumer",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": 26000,
+        "source_url": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "organizational_realignment",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "organizational_realignment": {
+            "summary": "A Meta spokesperson explains the reported reductions through regular team restructuring to achieve organizational goals; no concrete operating mechanism is given.",
+            "source_url": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php",
+            "specificity": "generic",
+            "attribution": "company_stated",
+            "scope": "event",
+            "evidence_access": "full"
+          },
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "A Meta spokesperson explains the reported reductions through regular team restructuring to achieve organizational goals; no concrete operating mechanism is given. Existing overlap, count and plan-scope caveats remain applicable. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": [
+            "possible_overlap"
+          ]
+        },
+        "cause_status": "generic",
+        "reason": "A Meta spokesperson explains the reported reductions through regular team restructuring to achieve organizational goals; no concrete operating mechanism is given. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "generic",
+          "method": "individual_source_reread_and_alternative_source_search",
+          "note": "A Meta spokesperson explains the reported reductions through regular team restructuring to achieve organizational goals; no concrete operating mechanism is given."
+        },
+        "generic_review": {
+          "review_date": "2026-09-17",
+          "outcome": "published_reason_remains_general",
+          "note_es": "La declaración de reorganización es general. El aviso local puede solaparse con marzo; no se traslada el motivo de otra ronda ni se supone un evento independiente.",
+          "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+          "sources": [
+            "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+          ],
+          "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-091",
+        "company": "Meta",
+        "date": "2026-04-02",
+        "laid_off": 200,
+        "pct": null,
+        "industry": "Consumer",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": 26000,
+        "source_url": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "organizational_realignment",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "organizational_realignment": {
+            "summary": "A Meta spokesperson explains the reported reductions through regular team restructuring to achieve organizational goals; no concrete operating mechanism is given.",
+            "source_url": "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php",
+            "specificity": "generic",
+            "attribution": "company_stated",
+            "scope": "event",
+            "evidence_access": "full"
+          },
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "source_reviewed",
+          "note": "A Meta spokesperson explains the reported reductions through regular team restructuring to achieve organizational goals; no concrete operating mechanism is given. Existing overlap, count and plan-scope caveats remain applicable. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": [
+            "possible_overlap"
+          ]
+        },
+        "cause_status": "generic",
+        "reason": "A Meta spokesperson explains the reported reductions through regular team restructuring to achieve organizational goals; no concrete operating mechanism is given. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "generic",
+          "method": "individual_source_reread_and_alternative_source_search",
+          "note": "A Meta spokesperson explains the reported reductions through regular team restructuring to achieve organizational goals; no concrete operating mechanism is given."
+        },
+        "generic_review": {
+          "review_date": "2026-09-17",
+          "outcome": "published_reason_remains_general",
+          "note_es": "La declaración de reorganización es general. El aviso local puede solaparse con marzo; no se traslada el motivo de otra ronda ni se supone un evento independiente.",
+          "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+          "sources": [
+            "https://www.sfchronicle.com/tech/article/meta-layoffs-silicon-valley-22186184.php"
+          ],
+          "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "unresolved_after_targeted_search",
+          "note": "April notice reporting reviewed; company AI spending remains context and overlap with adjacent rounds remains unresolved.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-121",
+        "company": "Shopify",
+        "date": "2026-05-04",
+        "laid_off": 30,
+        "pct": null,
+        "industry": "Retail",
+        "stage": "Post-IPO",
+        "country": "Canada",
+        "location_hq": [
+          "Ottawa",
+          "Non-U.S."
+        ],
+        "raised_mm": 122,
+        "source_url": "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "ai_transition"
+        ],
+        "cause_details": {
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "partial",
+          "note": "Revenue-operations report remains restricted; no event-specific explanation recovered. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": []
+        },
+        "cause_status": "generic",
+        "reason": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "sales"
+          ],
+          "details": [
+            {
+              "functions": [
+                "sales"
+              ],
+              "summary": "Accessible title identifies revenue operations; normalized to commercial/sales operations, with limited source access.",
+              "attribution": "press_reported",
+              "source_url": "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/",
+              "evidence_access": "partial"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/"
+            ]
+          }
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-121",
+        "company": "Shopify",
+        "date": "2026-05-04",
+        "laid_off": 30,
+        "pct": null,
+        "industry": "Retail",
+        "stage": "Post-IPO",
+        "country": "Canada",
+        "location_hq": [
+          "Ottawa",
+          "Non-U.S."
+        ],
+        "raised_mm": 122,
+        "source_url": "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "ai_transition"
+        ],
+        "cause_details": {
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "partial",
+          "note": "Revenue-operations report remains restricted; no event-specific explanation recovered. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": []
+        },
+        "cause_status": "generic",
+        "reason": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "sales"
+          ],
+          "details": [
+            {
+              "functions": [
+                "sales"
+              ],
+              "summary": "Accessible title identifies revenue operations; normalized to commercial/sales operations, with limited source access.",
+              "attribution": "press_reported",
+              "source_url": "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/",
+              "evidence_access": "partial"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://thelogic.co/news/exclusive/shopify-layoffs-revenue-operations-restructure/"
+            ]
+          }
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "unresolved_after_targeted_search",
+          "note": "Identified worker blog located via indexed passage; technological advancements wording does not independently establish AI substitution. Full post not retrieved.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-144",
+        "company": "ZoomInfo",
+        "date": "2026-05-11",
+        "laid_off": 600,
+        "pct": 0.2,
+        "industry": "Sales",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "Portland"
+        ],
+        "raised_mm": 7,
+        "source_url": "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html",
+        "source_used": "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000033/gtm-8kex991x20260505.htm",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "work_relocation",
+          "strategic_pivot",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "work_relocation": {
+            "summary": "CEO closes the Israeli site and transfers some positions to other countries.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000033/gtm-8kex991x20260505.htm",
+            "specificity": "concrete"
+          },
+          "strategic_pivot": {
+            "summary": "CEO redirects resources from smaller customers toward enterprise customers and customer-facing engineering.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000033/gtm-8kex991x20260505.htm",
+            "specificity": "concrete"
+          },
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "CEO identifies closing a site and moving upmarket. Reinvestment destination is not explicitly AI in the cited letter. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html",
+            "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000033/gtm-8kex991x20260505.htm",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "CEO closes the Israeli site and transfers some positions to other countries. CEO redirects resources from smaller customers toward enterprise customers and customer-facing engineering. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "engineering",
+            "sales",
+            "marketing"
+          ],
+          "details": [
+            {
+              "functions": [
+                "engineering",
+                "sales",
+                "marketing"
+              ],
+              "summary": "Reporting identifies R&D and downmarket sales/marketing cuts.",
+              "attribution": "press_reported",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000033/gtm-8kex991x20260505.htm",
+              "evidence_access": "full"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html",
+              "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000033/gtm-8kex991x20260505.htm"
+            ]
+          }
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-144",
+        "company": "ZoomInfo",
+        "date": "2026-05-11",
+        "laid_off": 600,
+        "pct": 0.2,
+        "industry": "Sales",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "Portland"
+        ],
+        "raised_mm": 7,
+        "source_url": "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html",
+        "source_used": "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000033/gtm-8kex991x20260505.htm",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "work_relocation",
+          "strategic_pivot",
+          "ai_productivity",
+          "ai_market_disruption",
+          "cost_cutting"
+        ],
+        "cause_details": {
+          "work_relocation": {
+            "summary": "CEO closes the Israeli site and transfers some positions to other countries.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000033/gtm-8kex991x20260505.htm",
+            "specificity": "concrete"
+          },
+          "strategic_pivot": {
+            "summary": "CEO redirects resources from smaller customers toward enterprise customers and customer-facing engineering.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000033/gtm-8kex991x20260505.htm",
+            "specificity": "concrete"
+          },
+          "ai_productivity": {
+            "summary": "In the May 11 earnings call, executives explain the 600-role restructuring alongside AI-enabled productivity and reduced need for front-end developers. This is an attributed operating rationale, not independently measured replacement of all 600 positions.",
+            "source_url": "https://www.fool.com/earnings/call-transcripts/2026/05/11/zoominfo-gtm-q1-2026-earnings-call-transcript/",
+            "attribution": "company_stated",
+            "scope": "event",
+            "specificity": "concrete",
+            "evidence_access": "full"
+          },
+          "ai_market_disruption": {
+            "summary": "The CEO connects reduced guidance and restructuring to AI-driven purchasing uncertainty and pressure on seat-based software, with a shift toward data consumption.",
+            "source_url": "https://www.fool.com/earnings/call-transcripts/2026/05/11/zoominfo-gtm-q1-2026-earnings-call-transcript/",
+            "attribution": "company_stated",
+            "scope": "event",
+            "specificity": "concrete",
+            "evidence_access": "full"
+          },
+          "cost_cutting": {
+            "summary": "The CFO states that the announced restructuring is expected to reduce annual operating expenses by about $60 million.",
+            "source_url": "https://www.fool.com/earnings/call-transcripts/2026/05/11/zoominfo-gtm-q1-2026-earnings-call-transcript/",
+            "attribution": "company_stated",
+            "scope": "event",
+            "specificity": "concrete",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "source_reviewed",
+          "note": "May 11 earnings-call testimony corroborates AI productivity and market change for this restructuring, alongside cost reduction, relocation and a business pivot. Replaces the tracker-only general AI attribution.",
+          "sources": [
+            "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html",
+            "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000033/gtm-8kex991x20260505.htm",
+            "https://layoffs.fyi/ai-layoffs/",
+            "https://www.fool.com/earnings/call-transcripts/2026/05/11/zoominfo-gtm-q1-2026-earnings-call-transcript/"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "CEO closes the Israeli site and transfers some positions to other countries. CEO redirects resources from smaller customers toward enterprise customers and customer-facing engineering. In the May 11 earnings call, executives explain the 600-role restructuring alongside AI-enabled productivity and reduced need for front-end developers. This is an attributed operating rationale, not independently measured replacement of all 600 positions. The CEO connects reduced guidance and restructuring to AI-driven purchasing uncertainty and pressure on seat-based software, with a shift toward data consumption. The CFO states that the announced restructuring is expected to reduce annual operating expenses by about $60 million.",
+        "schema_version": 2,
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "engineering",
+            "sales",
+            "marketing"
+          ],
+          "details": [
+            {
+              "functions": [
+                "engineering",
+                "sales",
+                "marketing"
+              ],
+              "summary": "Reporting identifies R&D and downmarket sales/marketing cuts.",
+              "attribution": "press_reported",
+              "source_url": "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000033/gtm-8kex991x20260505.htm",
+              "evidence_access": "full"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://finance.yahoo.com/news/zoominfo-stock-plunges-company-slashes-133002815.html",
+              "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000033/gtm-8kex991x20260505.htm"
+            ]
+          }
+        },
+        "tracker_review": {
+          "date": "2026-09-29",
+          "decision": "aligned_with_additional_context",
+          "note": "May 11 earnings-call testimony corroborates AI productivity and market change for this restructuring, alongside cost reduction, relocation and a business pivot. Replaces the tracker-only general AI attribution.",
+          "source_url": "https://www.fool.com/earnings/call-transcripts/2026/05/11/zoominfo-gtm-q1-2026-earnings-call-transcript/",
+          "source_publication_date": "2026-05-11",
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "mechanism_corroborated",
+          "note": "May 11 earnings-call testimony corroborates AI productivity and market change for this restructuring, alongside cost reduction, relocation and a business pivot. Replaces the tracker-only general AI attribution.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-171",
+        "company": "Culture Amp",
+        "date": "2026-06-26",
+        "laid_off": 70,
+        "pct": 0.09,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "ai_transition"
+        ],
+        "cause_details": {
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "partial",
+          "note": "Accessible company comments mention strategic priorities and organizational change; the full report is restricted. Reasons for earlier rounds are not transferred. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": [
+            "limited_source_access"
+          ]
+        },
+        "cause_status": "generic",
+        "reason": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-26"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
+            ]
+          }
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-171",
+        "company": "Culture Amp",
+        "date": "2026-06-26",
+        "laid_off": 70,
+        "pct": 0.09,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "ai_transition",
+          "strategic_priorities"
+        ],
+        "cause_details": {
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          },
+          "strategic_priorities": {
+            "summary": "CEO Caroline Rawlinson attributes the June organizational changes across teams to aligning investment with refreshed strategic priorities. The same article explicitly locates the AI-product pivot in the separate November 2025 round.",
+            "source_url": "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/",
+            "attribution": "company_stated",
+            "scope": "event",
+            "specificity": "generic",
+            "evidence_access": "partial"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "partial",
+          "note": "Retrieved public article passage contains the CEO rationale for June. AI-product explanation explicitly concerns November 2025; June tracker AI label remains attributed to the tracker without an independently confirmed mechanism.",
+          "sources": [
+            "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": [
+            "limited_source_access"
+          ]
+        },
+        "cause_status": "generic",
+        "reason": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. CEO Caroline Rawlinson attributes the June organizational changes across teams to aligning investment with refreshed strategic priorities. The same article explicitly locates the AI-product pivot in the separate November 2025 round.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-26"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.capitalbrief.com/article/culture-amp-cuts-70-jobs-9-of-its-workforce-in-third-round-of-layoffs-in-3-years-400d7e8e-c8d8-4c82-b4c2-3bb36bdfb5d5/"
+            ]
+          }
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "evidence_improved_mechanism_open",
+          "note": "Retrieved public article passage contains the CEO rationale for June. AI-product explanation explicitly concerns November 2025; June tracker AI label remains attributed to the tracker without an independently confirmed mechanism.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-192",
+        "company": "ServiceNow",
+        "date": "2026-06-11",
+        "laid_off": 54,
+        "pct": null,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "ai_transition"
+        ],
+        "cause_details": {
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "WARN-based reporting identifies 54 planned August departures but gives no causal explanation for the ServiceNow event. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": []
+        },
+        "cause_status": "generic",
+        "reason": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-11"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "no_explanation_identified",
+          "method": "individual_source_reread_and_alternative_source_search",
+          "note": "June WARN-based coverage establishes 54 Santa Clara cuts. Later July notices and broad AI-product reporting do not establish a reason for this specific event."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-192",
+        "company": "ServiceNow",
+        "date": "2026-06-11",
+        "laid_off": 54,
+        "pct": null,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "ai_transition"
+        ],
+        "cause_details": {
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "source_reviewed",
+          "note": "WARN-based reporting identifies 54 planned August departures but gives no causal explanation for the ServiceNow event. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": []
+        },
+        "cause_status": "generic",
+        "reason": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-11"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "no_explanation_identified",
+          "method": "individual_source_reread_and_alternative_source_search",
+          "note": "June WARN-based coverage establishes 54 Santa Clara cuts. Later July notices and broad AI-product reporting do not establish a reason for this specific event."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "unresolved_after_targeted_search",
+          "note": "Additional recruiter report and July results located; no verified mechanism for the specific June 54-role notice. Anonymous estimates not used as event size.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-193",
+        "company": "Shopee",
+        "date": "2026-06-10",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "organizational_realignment",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "organizational_realignment": {
+            "summary": "Company describes regular review and adjustment of staffing needs; the report explicitly leaves an AI connection unclear.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
+            "specificity": "generic",
+            "evidence_access": "full"
+          },
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The linked article explicitly leaves the causal link uncertain; retain that uncertainty alongside the tracker label.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "Report explicitly says a direct AI connection is unclear. The 8% figure concerns developers, not all employees. Explanation review: attributed reasons are recorded below with explicit specificity. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The linked article explicitly leaves the causal link uncertain; retain that uncertainty alongside the tracker label.",
+          "sources": [
+            "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": [
+            "percentage_not_company_wide"
+          ]
+        },
+        "cause_status": "generic",
+        "reason": "Company describes regular review and adjustment of staffing needs; the report explicitly leaves an AI connection unclear. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The linked article explicitly leaves the causal link uncertain; retain that uncertainty alongside the tracker label.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-10"
+        },
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "engineering"
+          ],
+          "details": [
+            {
+              "functions": [
+                "engineering"
+              ],
+              "summary": "Reporting identifies developer jobs.",
+              "attribution": "press_reported",
+              "source_url": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
+              "evidence_access": "full"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "generic",
+          "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect."
+        },
+        "generic_review": {
+          "review_date": "2026-09-17",
+          "outcome": "published_reason_remains_general",
+          "note_es": "La cobertura distingue expresamente entre el recorte y una conexión con IA que sigue incierta. El área de QA afectada no demuestra que sus tareas se automatizaran.",
+          "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+          "sources": [
+            "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
+          ],
+          "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The linked article explicitly leaves the causal link uncertain; retain that uncertainty alongside the tracker label.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-193",
+        "company": "Shopee",
+        "date": "2026-06-10",
+        "laid_off": null,
+        "pct": null,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "organizational_realignment",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "organizational_realignment": {
+            "summary": "Company describes regular review and adjustment of staffing needs; the report explicitly leaves an AI connection unclear.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
+            "specificity": "generic",
+            "evidence_access": "full"
+          },
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The linked article explicitly leaves the causal link uncertain; retain that uncertainty alongside the tracker label.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "source_reviewed",
+          "note": "Report explicitly says a direct AI connection is unclear. The 8% figure concerns developers, not all employees. Explanation review: attributed reasons are recorded below with explicit specificity. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The linked article explicitly leaves the causal link uncertain; retain that uncertainty alongside the tracker label.",
+          "sources": [
+            "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": [
+            "percentage_not_company_wide"
+          ]
+        },
+        "cause_status": "generic",
+        "reason": "Company describes regular review and adjustment of staffing needs; the report explicitly leaves an AI connection unclear. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The linked article explicitly leaves the causal link uncertain; retain that uncertainty alongside the tracker label.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-10"
+        },
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "engineering"
+          ],
+          "details": [
+            {
+              "functions": [
+                "engineering"
+              ],
+              "summary": "Reporting identifies developer jobs.",
+              "attribution": "press_reported",
+              "source_url": "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai",
+              "evidence_access": "full"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Functions explicitly identified for this event; the list is not necessarily exhaustive.",
+            "sources": [
+              "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "generic",
+          "note": "Event-specific attributed explanation retained at its stated level of detail. Generic language does not establish a concrete operating mechanism or verified causal effect."
+        },
+        "generic_review": {
+          "review_date": "2026-09-17",
+          "outcome": "published_reason_remains_general",
+          "note_es": "La cobertura distingue expresamente entre el recorte y una conexión con IA que sigue incierta. El área de QA afectada no demuestra que sus tareas se automatizaran.",
+          "open_question_es": "¿Qué proceso, actividad o criterio conecta la explicación publicada con estos puestos concretos?",
+          "sources": [
+            "https://www.straitstimes.com/business/seas-shopee-cuts-hundreds-of-developer-jobs-during-pivot-to-ai"
+          ],
+          "search_scope": "Individual reread of event sources and search by company, announcement date and stated rationale; targeted primary-document checks where a relevant lead was found."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The linked article explicitly leaves the causal link uncertain; retain that uncertainty alongside the tracker label.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "unresolved_after_targeted_search",
+          "note": "Original article explicitly leaves direct AI connection uncertain; tracker attribution retained.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-196",
+        "company": "Paytm",
+        "date": "2026-06-09",
+        "laid_off": 400,
+        "pct": 0.01,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "performance_cull",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "performance_cull": {
+            "summary": "Departures follow the current employee performance appraisal cycle.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html",
+            "specificity": "concrete"
+          },
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The source separates performance-related exits from new AI hiring; the broader AI link is attributed to the tracker, not the company.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "Company attributes approximately 400 departures to the performance appraisal cycle. AI hiring is separate context, not evidence that AI caused these cuts. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The source separates performance-related exits from new AI hiring; the broader AI link is attributed to the tracker, not the company.",
+          "sources": [
+            "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Departures follow the current employee performance appraisal cycle. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The source separates performance-related exits from new AI hiring; the broader AI link is attributed to the tracker, not the company.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-09"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
+            ]
+          }
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The source separates performance-related exits from new AI hiring; the broader AI link is attributed to the tracker, not the company.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-196",
+        "company": "Paytm",
+        "date": "2026-06-09",
+        "laid_off": 400,
+        "pct": 0.01,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html",
+        "source_used": null,
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "performance_cull",
+          "ai_transition"
+        ],
+        "cause_details": {
+          "performance_cull": {
+            "summary": "Departures follow the current employee performance appraisal cycle.",
+            "attribution": "company_stated",
+            "scope": "event",
+            "source_url": "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html",
+            "specificity": "concrete"
+          },
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The source separates performance-related exits from new AI hiring; the broader AI link is attributed to the tracker, not the company.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "source_reviewed",
+          "note": "Company attributes approximately 400 departures to the performance appraisal cycle. AI hiring is separate context, not evidence that AI caused these cuts. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The source separates performance-related exits from new AI hiring; the broader AI link is attributed to the tracker, not the company.",
+          "sources": [
+            "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": []
+        },
+        "cause_status": "specified",
+        "reason": "Departures follow the current employee performance appraisal cycle. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The source separates performance-related exits from new AI hiring; the broader AI link is attributed to the tracker, not the company.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-09"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.moneycontrol.com/news/business/paytm-plans-10-staff-increase-in-ai-pivot-with-some-roles-cut-13944509.html"
+            ]
+          }
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement. The source separates performance-related exits from new AI hiring; the broader AI link is attributed to the tracker, not the company.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "unresolved_after_targeted_search",
+          "note": "Source distinguishes performance-related exits from new hiring including AI. No recovered event-specific substitution evidence.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-197",
+        "company": "Verily",
+        "date": "2026-06-09",
+        "laid_off": 58,
+        "pct": null,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html",
+        "source_used": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [],
+        "cause_details": {},
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "WARN-based reporting identifies 58 planned August departures at Verily, without a causal explanation. The tracker explanation names the devices-program closure announced in August 2025, while this record is the June 2026 notice for 58 positions. Retain the difference because the cited mechanism belongs to an earlier event; no assertion that AI played no role in 2026.",
+          "sources": [
+            "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html",
+            "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+            "https://layoffs.fyi/ai-layoffs/",
+            "https://techcrunch.com/2025/08/26/verily-is-closing-its-medical-device-program-as-alphabet-shifts-more-resources-to-ai/"
+          ],
+          "issues": []
+        },
+        "cause_status": "unspecified",
+        "reason": "WARN-based reporting identifies 58 planned August departures at Verily, without a causal explanation.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-09"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html",
+              "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "no_explanation_identified",
+          "method": "individual_source_reread_and_alternative_source_search",
+          "note": "June WARN-based reporting identifies the San Bruno reduction. Searches surfaced earlier Verily rounds and different company Veritone; these cannot explain this event."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "different_event_context",
+          "note": "The tracker explanation names the devices-program closure announced in August 2025, while this record is the June 2026 notice for 58 positions. Retain the difference because the cited mechanism belongs to an earlier event; no assertion that AI played no role in 2026.",
+          "source_url": "https://techcrunch.com/2025/08/26/verily-is-closing-its-medical-device-program-as-alphabet-shifts-more-resources-to-ai/",
+          "source_publication_date": "2025-08-26",
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-197",
+        "company": "Verily",
+        "date": "2026-06-09",
+        "laid_off": 58,
+        "pct": null,
+        "industry": "Unknown",
+        "stage": "Unknown",
+        "country": "Unknown",
+        "location_hq": [],
+        "raised_mm": null,
+        "source_url": "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html",
+        "source_used": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [],
+        "cause_details": {},
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "source_reviewed",
+          "note": "WARN-based reporting identifies 58 planned August departures at Verily, without a causal explanation. The tracker explanation names the devices-program closure announced in August 2025, while this record is the June 2026 notice for 58 positions. Retain the difference because the cited mechanism belongs to an earlier event; no assertion that AI played no role in 2026.",
+          "sources": [
+            "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html",
+            "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+            "https://layoffs.fyi/ai-layoffs/",
+            "https://techcrunch.com/2025/08/26/verily-is-closing-its-medical-device-program-as-alphabet-shifts-more-resources-to-ai/",
+            "https://www.sfchronicle.com/tech/article/tech-layoffs-salesforce-22298052.php"
+          ],
+          "issues": []
+        },
+        "cause_status": "unspecified",
+        "reason": "WARN-based reporting identifies 58 planned August departures at Verily, without a causal explanation.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-09"
+        },
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "data",
+            "corporate",
+            "engineering"
+          ],
+          "details": [
+            {
+              "functions": [
+                "data",
+                "corporate",
+                "engineering"
+              ],
+              "summary": "June reporting identifies business data analytics, business management and software engineering among affected divisions.",
+              "attribution": "press_reported",
+              "source_url": "https://www.sfchronicle.com/tech/article/tech-layoffs-salesforce-22298052.php",
+              "evidence_access": "full"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-29",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Affected functions explicitly identified in reporting; not an exhaustive occupational census.",
+            "sources": [
+              "https://www.bizjournals.com/sanfrancisco/news/2026/06/09/sfbt-digest-tuesday-salesforce-layoffs-ucsf-fine.html",
+              "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+              "https://www.sfchronicle.com/tech/article/tech-layoffs-salesforce-22298052.php"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "no_explanation_identified",
+          "method": "individual_source_reread_and_alternative_source_search",
+          "note": "June WARN-based reporting identifies the San Bruno reduction. Searches surfaced earlier Verily rounds and different company Veritone; these cannot explain this event."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "different_event_context",
+          "note": "The tracker explanation names the devices-program closure announced in August 2025, while this record is the June 2026 notice for 58 positions. Retain the difference because the cited mechanism belongs to an earlier event; no assertion that AI played no role in 2026.",
+          "source_url": "https://techcrunch.com/2025/08/26/verily-is-closing-its-medical-device-program-as-alphabet-shifts-more-resources-to-ai/",
+          "source_publication_date": "2025-08-26",
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "evidence_improved_mechanism_open",
+          "note": "Functions recovered. June notice and August 2025 devices closure remain unlinked; different dates do not establish separate plans. Retain unresolved scope exception.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    },
+    {
+      "before": {
+        "record_id": "layoff-2026-198",
+        "company": "Salesforce",
+        "date": "2026-06-09",
+        "laid_off": 86,
+        "pct": null,
+        "industry": "Sales",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": 65,
+        "source_url": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6",
+        "source_used": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "ai_transition"
+        ],
+        "cause_details": {
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-28",
+          "status": "source_reviewed",
+          "note": "Alternative WARN coverage confirms 86 Salesforce departures scheduled for August, but does not specify a mechanism. AI strategy alone does not establish one. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6",
+            "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+            "https://www.theregister.com/saas/2026/06/09/salesforce-layoffs-hit-amid-m3ter-acquisition-and-stock-buyback/5253162",
+            "https://layoffs.fyi/ai-layoffs/"
+          ],
+          "issues": []
+        },
+        "cause_status": "generic",
+        "reason": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-09"
+        },
+        "affected_work": {
+          "status": "not_identified",
+          "functions": [],
+          "details": [],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-17",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "No explicit affected occupation identified in the material reviewed. This does not mean none were affected or that no other source can identify them.",
+            "sources": [
+              "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6",
+              "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "no_explanation_identified",
+          "method": "individual_source_reread_and_alternative_source_search",
+          "note": "The Register confirms the June notice and says Salesforce had not responded. Acquisitions, buybacks and earlier AI support cuts are context, not an attributed mechanism for the 86 positions."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        }
+      },
+      "after": {
+        "record_id": "layoff-2026-198",
+        "company": "Salesforce",
+        "date": "2026-06-09",
+        "laid_off": 86,
+        "pct": null,
+        "industry": "Sales",
+        "stage": "Post-IPO",
+        "country": "United States",
+        "location_hq": [
+          "SF Bay Area"
+        ],
+        "raised_mm": 65,
+        "source_url": "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6",
+        "source_used": "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+        "record_type": "announcement",
+        "headcount_scope": "announced_reduction",
+        "causes": [
+          "ai_transition"
+        ],
+        "cause_details": {
+          "ai_transition": {
+            "summary": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+            "attribution": "reported_inference",
+            "scope": "event",
+            "source_url": "https://layoffs.fyi/ai-layoffs/",
+            "specificity": "generic",
+            "evidence_access": "full"
+          }
+        },
+        "context": [],
+        "denials": [],
+        "review": {
+          "date": "2026-09-29",
+          "status": "source_reviewed",
+          "note": "Alternative WARN coverage confirms 86 Salesforce departures scheduled for August, but does not specify a mechanism. AI strategy alone does not establish one. Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "sources": [
+            "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6",
+            "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+            "https://www.theregister.com/saas/2026/06/09/salesforce-layoffs-hit-amid-m3ter-acquisition-and-stock-buyback/5253162",
+            "https://layoffs.fyi/ai-layoffs/",
+            "https://www.sfchronicle.com/tech/article/tech-layoffs-salesforce-22298052.php"
+          ],
+          "issues": []
+        },
+        "cause_status": "generic",
+        "reason": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+        "schema_version": 2,
+        "coverage_source": {
+          "tracker": "layoffs.fyi",
+          "retrieved": "2026-09-17",
+          "tracker_date": "2026-06-09"
+        },
+        "affected_work": {
+          "status": "identified",
+          "functions": [
+            "product_design",
+            "corporate",
+            "sales"
+          ],
+          "details": [
+            {
+              "functions": [
+                "product_design",
+                "corporate",
+                "sales"
+              ],
+              "summary": "June reporting identifies technology/product, general administration and sales/distribution divisions. Product is coded at division level; this does not establish a count of engineers.",
+              "attribution": "press_reported",
+              "source_url": "https://www.sfchronicle.com/tech/article/tech-layoffs-salesforce-22298052.php",
+              "evidence_access": "full"
+            }
+          ],
+          "units": [],
+          "levels": [],
+          "review": {
+            "date": "2026-09-29",
+            "method": "manual_review_of_retrieved_sources_and_existing_evidence",
+            "note": "Affected functions explicitly identified in reporting; not an exhaustive occupational census.",
+            "sources": [
+              "https://www.businessinsider.com/salesforce-cuts-jobs-agentforce-2026-6",
+              "https://www.siliconvalley.com/2026/06/11/tech-servicenow-jobs-salesforce-layoff-ubisoft-santa-clara-work-ai/amp/",
+              "https://www.sfchronicle.com/tech/article/tech-layoffs-salesforce-22298052.php"
+            ]
+          }
+        },
+        "explanation_review": {
+          "date": "2026-09-17",
+          "outcome": "no_explanation_identified",
+          "method": "individual_source_reread_and_alternative_source_search",
+          "note": "The Register confirms the June notice and says Salesforce had not responded. Acquisitions, buybacks and earlier AI support cuts are context, not an attributed mechanism for the 86 positions."
+        },
+        "tracker_review": {
+          "date": "2026-09-28",
+          "decision": "tracker_label_retained",
+          "note": "Layoffs.fyi classifies this specific event as AI-related. Retained as an attributed general AI link under the tracker-first policy; the precise mechanism in its explanation has not been independently corroborated. This is a tracker classification, not company confirmation or verified task replacement.",
+          "source_url": "https://layoffs.fyi/ai-layoffs/",
+          "source_publication_date": null,
+          "tracker_snapshot": "research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json"
+        },
+        "evidence_followup": {
+          "date": "2026-09-29",
+          "outcome": "evidence_improved_mechanism_open",
+          "note": "Functions recovered through contemporaneous alternative reporting. Cutting an AI-product team is not evidence of AI replacement; earlier support claims are not transferred to June.",
+          "log": "research/ai-tracker-comparison/evidence-followup-2026-09-28.md"
+        }
+      }
+    }
+  ]
+}

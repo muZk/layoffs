@@ -41,6 +41,18 @@ def validate():
   index=next(i for i,r in enumerate(expected_records) if r['record_id']==revision['before']['record_id'])
   check(expected_records[index]==revision['before'],'Generic follow-up audit before mismatch')
   expected_records[index]=revision['after']
+ for revision in read('coverage/ai-consistency-2026-09-28.json')['events']:
+  index=next(i for i,r in enumerate(expected_records) if r['record_id']==revision['before']['record_id'])
+  check(expected_records[index]==revision['before'],'AI consistency audit before mismatch')
+  expected_records[index]=revision['after']
+ for revision in read('coverage/ai-tracker-baseline-2026-09-28.json')['events']:
+  index=next(i for i,r in enumerate(expected_records) if r['record_id']==revision['before']['record_id'])
+  check(expected_records[index]==revision['before'],'Tracker baseline audit before mismatch')
+  expected_records[index]=revision['after']
+ for revision in read('coverage/evidence-followup-2026-09-29.json')['events']:
+  index=next(i for i,r in enumerate(expected_records) if r['record_id']==revision['before']['record_id'])
+  check(expected_records[index]==revision['before'],'Evidence follow-up audit before mismatch')
+  expected_records[index]=revision['after']
  check(data==expected_records,'Reviewed records differ from audit chain')
  check(len(data)==163+len(extension['added']),'Coverage changed')
  check(len({r['record_id'] for r in data})==len(data),'Duplicate IDs')

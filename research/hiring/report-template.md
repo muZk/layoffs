@@ -1,8 +1,8 @@
 # ¿Las empresas que vinculan sus recortes con IA habían crecido más?
 
-*Investigación exploratoria · 17 de septiembre de 2026*
+*Investigación exploratoria · 28 de septiembre de 2026*
 
-**El grupo vinculado con IA creció más en 2019–2022, pero no en 2022–2025.** La expansión previa de plantilla aparece tanto en empresas con explicaciones vinculadas a IA como en empresas cuyos anuncios ofrecen otras explicaciones.
+**El grupo vinculado con IA creció más en 2019–2022, y las medianas son cercanas en 2022–2025.** La expansión previa de plantilla aparece tanto en empresas con explicaciones vinculadas a IA como en empresas cuyos anuncios ofrecen otras explicaciones.
 
 Cruzamos las causas de los anuncios con historiales de plantilla. Recuperamos pares utilizables para **71 empresas en 2022–2025** y **35 en 2019–2022**, de las 217 empresas de la colección. La comparación se basa principalmente en una compilación secundaria, con comprobaciones parciales en documentos originales. Es evidencia exploratoria: las cifras aún no están armonizadas por adquisiciones, tipo de trabajador ni sector.
 
@@ -16,21 +16,21 @@ Mediana del cambio porcentual de la plantilla reportada. Cada empresa pesa una v
 
 **«IA registrada» significa que al menos un anuncio del semestre tiene una razón vinculada con IA atribuida en las fuentes**, incluida la transición hacia IA sin mayor detalle. Se utiliza el mismo criterio que en el artículo y el explorador. No basta con que la empresa venda IA o la mencione como contexto. «Solo otras causas» incluye las demás razones sin un vínculo atribuido con IA; no prueba ausencia de IA. Quienes no tienen una explicación clasificable forman un grupo separado.
 
-La clasificación conserva quién hace la afirmación. Por ejemplo, el vínculo de Salesforce en febrero procede de un analista externo. Amdocs entra en el grupo de IA por la transición atribuida en la cobertura, aunque el papel concreto de la IA siga sin precisarse. Los grupos comparan explicaciones publicadas, no efectos demostrados.
+La clasificación conserva quién hace la afirmación. Por ejemplo, el vínculo de Salesforce en febrero procede de un analista externo. Amdocs entra en el grupo de IA por la transición atribuida en la cobertura, aunque el papel concreto de la IA siga sin precisarse. Los grupos comparan explicaciones publicadas, no efectos demostrados. Incluyen la clasificación de IA del tracker cuando no existe una excepción documentada; no todos los vínculos fueron corroborados con otra fuente.
 
 ![Distribución del crecimiento de plantilla por grupo y período. Cada punto es una empresa y los rombos marcan las medianas.](assets/hiring-distribution.svg)
 
 *Las figuras conservan el inglés. El eje utiliza una escala logarítmica de la razón entre plantillas para mostrar expansiones y contracciones sin ocultar las empresas más pequeñas detrás de los valores extremos. [Abrir la figura](assets/hiring-distribution.svg).* 
 
-Entre 2019 y 2022, **6 de las 15 empresas con IA registrada habían al menos duplicado su plantilla**, frente a **4 de las 18 con otras causas**. Es una diferencia descriptiva que merece atención, pero procede de un subconjunto pequeño y desigual. Angi, por ejemplo, figura en el grupo de IA aunque su plantilla reportada había disminuido en ese período.
+Entre 2019 y 2022, **8 de las 21 empresas con IA registrada habían al menos duplicado su plantilla**, frente a **2 de las 13 con otras causas**. Es una diferencia descriptiva que merece atención, pero procede de un subconjunto pequeño y desigual. Angi, por ejemplo, figura en el grupo de IA aunque su plantilla reportada había disminuido en ese período.
 
-Entre 2022 y 2025, **12 de las 28 empresas con IA registrada ya habían reducido su plantilla neta**. También habían disminuido 14 de las 38 con otras causas. No hay una única trayectoria de expansión continua hasta el anuncio de 2026.
+Entre 2022 y 2025, **15 de las 39 empresas con IA registrada ya habían reducido su plantilla neta**. También habían disminuido 11 de las 28 con otras causas. No hay una única trayectoria de expansión continua hasta el anuncio de 2026.
 
 ## Cuánto depende del período y de las empresas incluidas
 
 <!--SENSITIVITY-->
 
-Al limitar la comparación a observaciones de diciembre, el grupo de IA presenta una mediana negativa y el de otras razones una positiva. Eso no demuestra que el calendario fiscal explique los despidos; **al restringir las fechas también cambia la composición del grupo**. Entre las mismas empresas observables en ambos períodos, las medianas de crecimiento reciente son aproximadamente 3,5% y 5,2%.
+Al limitar la comparación a observaciones de diciembre, el grupo de IA presenta una mediana negativa y el de otras razones una positiva. Eso no demuestra que el calendario fiscal explique los despidos; **al restringir las fechas también cambia la composición del grupo**. Entre las mismas empresas observables en ambos períodos, las medianas de crecimiento reciente son aproximadamente 3,7% y 5,3%.
 
 Las exclusiones por operaciones societarias utilizan solo las operaciones documentadas en esta revisión. No equivalen a un ajuste del crecimiento orgánico ni a una revisión exhaustiva de todas las adquisiciones. Las comprobaciones completas, incluidos tamaños de grupo, están en la descarga JSON.
 
@@ -77,15 +77,15 @@ Son ejemplos de evidencia directa sobre las explicaciones de la dirección, no u
 
 ## Método y cobertura
 
-La colección de 228 anuncios contiene **217 etiquetas de empresa**: 72 con alguna explicación vinculada a IA, 122 con solo otras razones y 23 sin explicación clasificable. No fusionamos subsidiarias con sus matrices ni sustituimos su plantilla por la del grupo. Tampoco garantizamos independencia entre empresas del mismo grupo corporativo.
+La colección de 228 anuncios contiene **217 etiquetas de empresa**: 101 con alguna explicación vinculada a IA, 96 con solo otras razones y 20 sin explicación clasificable. No fusionamos subsidiarias con sus matrices ni sustituimos su plantilla por la del grupo. Tampoco garantizamos independencia entre empresas del mismo grupo corporativo.
 
 Buscamos historiales para **88 empresas con una correspondencia identificada con informes de una entidad cotizada o anteriormente cotizada**, sin limitar la búsqueda a la etiqueta bursátil incompleta del dataset. Recuperamos observaciones numéricas para 84. Las otras 129 etiquetas no se incorporaron a esa recopilación de series públicas: eso no demuestra que sus datos sean inaccesibles. Las empresas privadas y las subsidiarias quedan infrarrepresentadas.
 
 | Grupo en los anuncios | Empresas del conjunto | Con par 2019–2022 | Con par 2022–2025 |
 |---|---:|---:|---:|
-| IA registrada | 72 | 15 | 28 |
-| Solo otras causas | 122 | 18 | 38 |
-| Sin explicación clasificable | 23 | 2 | 5 |
+| IA registrada | 101 | 21 | 39 |
+| Solo otras causas | 96 | 13 | 28 |
+| Sin explicación clasificable | 20 | 1 | 4 |
 | Total | 217 | 35 | 71 |
 
 La base amplia procede de las tablas de plantilla de **Stock Analysis**, que declara recopilar cifras de documentos regulatorios y relaciones con inversionistas. Cada observación enlaza su fuente. Las adiciones y comprobaciones primarias se guardan por separado; no presentamos la compilación completa como verificada contra cada documento original. Las cifras tras acceso restringido se dejan sin recuperar y no se imputan.

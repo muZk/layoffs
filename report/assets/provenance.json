@@ -1,6 +1,6 @@
 {
   "source": "../records.json",
-  "review_date": "2026-09-17",
+  "review_date": "2026-09-28",
   "unit": "retained H1 announcement records",
   "denominator": 228,
   "generated_by": "../build.py",

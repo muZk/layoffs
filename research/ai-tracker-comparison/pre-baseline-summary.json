@@ -1,0 +1,34 @@
+{
+  "retrieved_date": "2026-09-28",
+  "api_updated_at": "2026-09-28T22:53:19.096Z",
+  "counts": {
+    "excluded_period_measure": 3,
+    "tracker_only_ai": 20,
+    "both_ai": 72,
+    "ours_only_ai": 16
+  },
+  "our_announcements": 228,
+  "our_ai": 88,
+  "remaining_difference_reasons": {
+    "event_link_not_established": 12,
+    "evidence_limited": 8
+  },
+  "h1_tracker": {
+    "total_events": 231,
+    "ai_events": 95,
+    "total_emp": 109017,
+    "ai_emp": 90277
+  },
+  "date_adjustments": [
+    {
+      "company": "zoominfo",
+      "tracker_date": "2026-05-10",
+      "our_date": "2026-05-11"
+    },
+    {
+      "company": "gitlab",
+      "tracker_date": "2026-06-02",
+      "our_date": "2026-06-03"
+    }
+  ]
+}

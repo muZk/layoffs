@@ -1,8 +1,6 @@
 context_id,record_id,kind,summary,source_id
-layoff-2026-004_context_0,layoff-2026-004,ai_product_strategy,"Physical AI is the destination of the product pivot, not a second layoff mechanism.",src_21678cbe75c11f754beb
 layoff-2026-012_context_0,layoff-2026-012,ai_product_strategy,The employer builds AI products; that alone does not establish an AI layoff cause.,src_7025b4c16af50c477f9d
 layoff-2026-017_context_0,layoff-2026-017,acquisition,Acquired by Bending Spoons; role duplication is not established.,src_8d34e20228570d0f67c7
-layoff-2026-019_context_0,layoff-2026-019,ai_product_strategy,AI commerce is a business priority; internal employee automation is not described.,src_34ff43ba7842985f4104
 layoff-2026-022_context_0,layoff-2026-022,earlier_period,AI comments in coverage concern earlier earnings commentary.,src_f4b411b12eedfd1a4184
 layoff-2026-037_context_0,layoff-2026-037,earlier_period,Earlier AI customer-support cuts are not this announcement.,src_d21b69d2d71b0dfab628
 layoff-2026-041_context_0,layoff-2026-041,acquisition,Clari/Salesloft merger is documented; mechanism remains unverified.,src_326e8c9218ec8afa5a33
@@ -13,21 +11,17 @@ layoff-2026-056_context_0,layoff-2026-056,acquisition,Recent Depop deal is menti
 layoff-2026-060_context_0,layoff-2026-060,earlier_period,AI discussion describes an earlier company-wide round.,src_349fb60f4bfab723b907
 layoff-2026-074_context_0,layoff-2026-074,ai_product_strategy,Earlier CEO comments describe developing AI products; current replacement attribution is absent.,src_a80359751eea71d6a200
 layoff-2026-078_context_0,layoff-2026-078,earlier_period,AI expectations date from earlier rounds; current statement is general.,src_39e1db3f128e3c2a5ff0
-layoff-2026-079_context_0,layoff-2026-079,ai_product_strategy,Company discusses prioritizing AI-enabled services without explaining employee substitution.,src_18e61470c521c3b388aa
 layoff-2026-080_context_0,layoff-2026-080,broader_ai_investment,"AI expenditure is background, not an event-specific allocation.",src_01ffc3e52f8aedf6b7a6
 layoff-2026-086_context_0,layoff-2026-086,broader_plan,FY2026 10-K Risk Factors acknowledges past AI-related reductions; Note 7 includes AI efficiencies in a broader plan. Neither allocates the March cuts or an AI headcount.,src_399ce87c8e72f98c2a3a
+layoff-2026-086_context_1,layoff-2026-086,broader_plan_ai_productivity,"Oracle states on March 10 that AI code generation enables smaller development teams. This is direct company evidence for the development plan, not a job-by-job allocation of the March 31 round.",src_eddb911a3f59c372ea87
 layoff-2026-092_context_0,layoff-2026-092,ai_product_strategy,Company sells AI services; cited closure explanation identifies client loss and financial pressure.,src_c14f2afdbe675aa17c62
-layoff-2026-097_context_0,layoff-2026-097,ai_product_strategy,AI agents are a customer/product direction.,src_dfe5dd7d499c522e6c5b
 layoff-2026-099_context_0,layoff-2026-099,ai_product_strategy,AI products are described separately from the reorganization.,src_ddf04b1c9ea6ec6db8c7
 layoff-2026-110_context_0,layoff-2026-110,ai_product_strategy,AI development is mentioned without a specified staffing mechanism.,src_353fba4de173cd9f40a4
 layoff-2026-112_context_0,layoff-2026-112,ai_product_strategy,Poe is an AI product supported by company resources; internal job replacement is not established.,src_56c0b778351308d86dee
 layoff-2026-115_context_0,layoff-2026-115,ipo_context,Possible IPO is not identified as the reason for cuts.,src_371b5a14eceac8dafcf4
-layoff-2026-116_context_0,layoff-2026-116,ai_product_strategy,AI is part of the new creative-product offering.,src_37cae645a0168bcd2873
-layoff-2026-119_context_0,layoff-2026-119,ai_product_strategy,AI product roadmap is the strategy change; internal productivity is not demonstrated.,src_bcaf3d8795157fa2ce96
 layoff-2026-132_context_0,layoff-2026-132,broader_ai_investment,Existing AI investment is not an explicit allocation of this cut.,src_71c2e4cf12a32c4fcf5c
 layoff-2026-135_context_0,layoff-2026-135,earlier_period,AI product vision predates the current layoff explanation.,src_d346324db4d16699f565
 layoff-2026-140_context_0,layoff-2026-140,ipo_context,IPO timing does not establish IPO preparation as the cause.,src_b5686f5afca4bae25d18
-layoff-2026-150_context_0,layoff-2026-150,ai_product_strategy,AI-enabled customer tooling is part of the product strategy.,src_aceebbe54f6a89a2dd9c
 layoff-2026-160_context_0,layoff-2026-160,ai_link_unspecified,Technology framing is nonspecific; earlier workforce growth alone does not establish overhiring.,src_d156faaeacc94650ea63
 layoff-2026-163_context_0,layoff-2026-163,broader_ai_investment,Concurrent AI investments do not establish funding from these specific layoffs.,src_432c3ecf1f6e1a7c65fc
 layoff-2026-178_context_0,layoff-2026-178,reported_ai_nonconnection,HRO relays Business Times reporting that the cuts are not related to AI initiatives; this is not recorded as a company denial without a named source.,src_81e498bc1021ac3cfc3f

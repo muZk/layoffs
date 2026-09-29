@@ -1,10 +1,10 @@
 {
   "announcement_records": 228,
-  "with_attributed_reason": 201,
+  "with_attributed_reason": 206,
   "reasons": [
     {
       "cause": "cost_cutting",
-      "count": 45,
+      "count": 46,
       "detail": "change_described"
     },
     {
@@ -13,18 +13,23 @@
       "detail": "change_described"
     },
     {
+      "cause": "ai_transition",
+      "count": 34,
+      "detail": "general_reason"
+    },
+    {
       "cause": "strategic_pivot",
       "count": 29,
       "detail": "change_described"
     },
     {
-      "cause": "ai_productivity",
-      "count": 24,
+      "cause": "ai_investment_reallocation",
+      "count": 25,
       "detail": "change_described"
     },
     {
-      "cause": "ai_investment_reallocation",
-      "count": 14,
+      "cause": "ai_productivity",
+      "count": 25,
       "detail": "change_described"
     },
     {
@@ -33,8 +38,13 @@
       "detail": "change_described"
     },
     {
-      "cause": "ai_transition",
+      "cause": "ai_work_redesign",
       "count": 13,
+      "detail": "change_described"
+    },
+    {
+      "cause": "strategic_priorities",
+      "count": 12,
       "detail": "general_reason"
     },
     {
@@ -48,18 +58,8 @@
       "detail": "general_reason"
     },
     {
-      "cause": "strategic_priorities",
-      "count": 11,
-      "detail": "general_reason"
-    },
-    {
       "cause": "unit_closure",
       "count": 11,
-      "detail": "change_described"
-    },
-    {
-      "cause": "ai_work_redesign",
-      "count": 10,
       "detail": "change_described"
     },
     {
@@ -78,6 +78,11 @@
       "detail": "change_described"
     },
     {
+      "cause": "ai_market_disruption",
+      "count": 8,
+      "detail": "change_described"
+    },
+    {
       "cause": "ai_substitution",
       "count": 8,
       "detail": "change_described"
@@ -85,11 +90,6 @@
     {
       "cause": "m_and_a",
       "count": 8,
-      "detail": "change_described"
-    },
-    {
-      "cause": "ai_market_disruption",
-      "count": 7,
       "detail": "change_described"
     },
     {
@@ -127,7 +127,7 @@
     {
       "ai": "ai_productivity",
       "other": "cost_cutting",
-      "count": 12
+      "count": 13
     },
     {
       "ai": "ai_productivity",
@@ -136,22 +136,47 @@
     },
     {
       "ai": "ai_investment_reallocation",
+      "other": "strategic_pivot",
+      "count": 7
+    },
+    {
+      "ai": "ai_investment_reallocation",
       "other": "cost_cutting",
+      "count": 6
+    },
+    {
+      "ai": "ai_investment_reallocation",
+      "other": "organizational_consolidation",
       "count": 5
     },
     {
       "ai": "ai_market_disruption",
       "other": "strategic_pivot",
-      "count": 4
+      "count": 5
     },
     {
-      "ai": "ai_investment_reallocation",
-      "other": "organizational_consolidation",
-      "count": 3
+      "ai": "ai_transition",
+      "other": "strategic_pivot",
+      "count": 5
     },
     {
       "ai": "ai_productivity",
       "other": "strategic_pivot",
+      "count": 4
+    },
+    {
+      "ai": "ai_transition",
+      "other": "organizational_consolidation",
+      "count": 4
+    },
+    {
+      "ai": "ai_transition",
+      "other": "strategic_priorities",
+      "count": 4
+    },
+    {
+      "ai": "ai_transition",
+      "other": "market_conditions",
       "count": 3
     },
     {
@@ -165,8 +190,23 @@
       "count": 3
     },
     {
+      "ai": "ai_investment_reallocation",
+      "other": "organizational_realignment",
+      "count": 2
+    },
+    {
+      "ai": "ai_investment_reallocation",
+      "other": "unit_closure",
+      "count": 2
+    },
+    {
       "ai": "ai_market_disruption",
       "other": "organizational_consolidation",
+      "count": 2
+    },
+    {
+      "ai": "ai_productivity",
+      "other": "work_relocation",
       "count": 2
     },
     {
@@ -181,7 +221,7 @@
     },
     {
       "ai": "ai_transition",
-      "other": "market_conditions",
+      "other": "organizational_realignment",
       "count": 2
     },
     {
@@ -190,18 +230,18 @@
       "count": 2
     },
     {
-      "ai": "ai_investment_reallocation",
-      "other": "strategic_pivot",
-      "count": 1
-    },
-    {
-      "ai": "ai_investment_reallocation",
-      "other": "unit_closure",
-      "count": 1
+      "ai": "ai_work_redesign",
+      "other": "work_relocation",
+      "count": 2
     },
     {
       "ai": "ai_investment_reallocation",
       "other": "work_relocation",
+      "count": 1
+    },
+    {
+      "ai": "ai_market_disruption",
+      "other": "cost_cutting",
       "count": 1
     },
     {
@@ -212,6 +252,11 @@
     {
       "ai": "ai_market_disruption",
       "other": "shutdown",
+      "count": 1
+    },
+    {
+      "ai": "ai_market_disruption",
+      "other": "work_relocation",
       "count": 1
     },
     {
@@ -240,11 +285,6 @@
       "count": 1
     },
     {
-      "ai": "ai_productivity",
-      "other": "work_relocation",
-      "count": 1
-    },
-    {
       "ai": "ai_substitution",
       "other": "cost_cutting",
       "count": 1
@@ -256,17 +296,32 @@
     },
     {
       "ai": "ai_transition",
-      "other": "organizational_consolidation",
+      "other": "cost_cutting",
       "count": 1
     },
     {
       "ai": "ai_transition",
-      "other": "strategic_priorities",
+      "other": "demand_decline",
+      "count": 1
+    },
+    {
+      "ai": "ai_transition",
+      "other": "performance_cull",
+      "count": 1
+    },
+    {
+      "ai": "ai_work_redesign",
+      "other": "organizational_realignment",
       "count": 1
     },
     {
       "ai": "ai_work_redesign",
       "other": "strategic_pivot",
+      "count": 1
+    },
+    {
+      "ai": "ai_work_redesign",
+      "other": "unit_closure",
       "count": 1
     }
   ]

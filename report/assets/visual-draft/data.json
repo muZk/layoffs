@@ -1,4 +1,120 @@
 {
+  "overview": {
+    "total": 228,
+    "groups": [
+      [
+        "Con alguna razón vinculada con IA",
+        108
+      ],
+      [
+        "Solo otras razones registradas",
+        98
+      ],
+      [
+        "Sin explicación clasificable",
+        22
+      ]
+    ],
+    "multiple_reasons": 108,
+    "reason_frequencies": [
+      [
+        "cost_cutting",
+        46
+      ],
+      [
+        "organizational_consolidation",
+        43
+      ],
+      [
+        "ai_transition",
+        34
+      ],
+      [
+        "strategic_pivot",
+        29
+      ],
+      [
+        "ai_investment_reallocation",
+        25
+      ],
+      [
+        "ai_productivity",
+        25
+      ],
+      [
+        "shutdown",
+        14
+      ],
+      [
+        "ai_work_redesign",
+        13
+      ],
+      [
+        "strategic_priorities",
+        12
+      ],
+      [
+        "operational_efficiency",
+        11
+      ],
+      [
+        "organizational_realignment",
+        11
+      ],
+      [
+        "unit_closure",
+        11
+      ],
+      [
+        "financial_distress",
+        10
+      ],
+      [
+        "demand_decline",
+        9
+      ],
+      [
+        "work_relocation",
+        9
+      ],
+      [
+        "ai_market_disruption",
+        8
+      ],
+      [
+        "ai_substitution",
+        8
+      ],
+      [
+        "m_and_a",
+        8
+      ],
+      [
+        "market_conditions",
+        5
+      ],
+      [
+        "market_exit",
+        4
+      ],
+      [
+        "performance_cull",
+        4
+      ],
+      [
+        "lost_contract",
+        2
+      ],
+      [
+        "ipo_prep",
+        1
+      ],
+      [
+        "regulatory",
+        1
+      ]
+    ]
+  },
   "period_company_groups": {
     "2019_2022": {
       "IA": [
@@ -19,12 +135,24 @@
           31.25
         ],
         [
+          "Shopify",
+          131.99999999999997
+        ],
+        [
           "Pinterest",
           79.83761840324763
         ],
         [
+          "Amazon",
+          93.10776942355889
+        ],
+        [
           "Salesforce",
           110.11714285714285
+        ],
+        [
+          "DraftKings",
+          383.3141542002301
         ],
         [
           "Block",
@@ -33,6 +161,10 @@
         [
           "Atlassian",
           143.72234513274336
+        ],
+        [
+          "Oracle",
+          5.147058823529416
         ],
         [
           "Snap",
@@ -55,8 +187,20 @@
           9.74967061923584
         ],
         [
+          "Intuit",
+          84.04255319148936
+        ],
+        [
+          "Wix",
+          74.5511319281811
+        ],
+        [
           "Elastic",
           106.51872399445215
+        ],
+        [
+          "ServiceNow",
+          97.02053803876194
         ],
         [
           "Amdocs",
@@ -69,20 +213,12 @@
           6.147841918384178
         ],
         [
-          "Shopify",
-          131.99999999999997
-        ],
-        [
           "Expedia",
           -35.03937007874016
         ],
         [
           "ASML",
           56.9718875502008
-        ],
-        [
-          "Amazon",
-          93.10776942355889
         ],
         [
           "Zillow",
@@ -101,28 +237,12 @@
           100.57971014492755
         ],
         [
-          "DraftKings",
-          383.3141542002301
-        ],
-        [
           "eBay",
           -12.781954887218049
         ],
         [
           "Spotify",
           89.7616345062429
-        ],
-        [
-          "Oracle",
-          5.147058823529416
-        ],
-        [
-          "Intuit",
-          84.04255319148936
-        ],
-        [
-          "Wix",
-          74.5511319281811
         ],
         [
           "Uber",
@@ -161,8 +281,16 @@
           21.42857142857142
         ],
         [
+          "Shopify",
+          -34.48275862068966
+        ],
+        [
           "Pinterest",
           32.05417607223475
+        ],
+        [
+          "Amazon",
+          2.2712524334847606
         ],
         [
           "Salesforce",
@@ -187,6 +315,18 @@
         [
           "Atlassian",
           56.73436968115284
+        ],
+        [
+          "Snowflake",
+          96.24248496993988
+        ],
+        [
+          "Oracle",
+          13.286713286713292
+        ],
+        [
+          "MARA",
+          786.6666666666667
         ],
         [
           "Life360",
@@ -217,6 +357,10 @@
           -25.882352941176467
         ],
         [
+          "ZoomInfo",
+          -10.169491525423723
+        ],
+        [
           "Cisco",
           3.4813925570228
         ],
@@ -227,6 +371,14 @@
         [
           "Gambling.com Group",
           51.64556962025317
+        ],
+        [
+          "Intuit",
+          5.202312138728327
+        ],
+        [
+          "Wix",
+          19.40966010733454
         ],
         [
           "GitLab",
@@ -243,6 +395,22 @@
         [
           "Rackspace",
           -26.470588235294112
+        ],
+        [
+          "ServiceNow",
+          42.842460725297315
+        ],
+        [
+          "Opendoor",
+          -59.45525291828794
+        ],
+        [
+          "Paytm",
+          119.14940993097306
+        ],
+        [
+          "SentinelOne",
+          133.33333333333334
         ],
         [
           "Amdocs",
@@ -263,20 +431,12 @@
           -15.827876697400711
         ],
         [
-          "Shopify",
-          -34.48275862068966
-        ],
-        [
           "Expedia",
           -3.0303030303030276
         ],
         [
           "ASML",
           13.020007163690316
-        ],
-        [
-          "Amazon",
-          2.2712524334847606
         ],
         [
           "Peloton",
@@ -303,10 +463,6 @@
           -13.636363636363635
         ],
         [
-          "Snowflake",
-          96.24248496993988
-        ],
-        [
           "Spotify",
           -12.393827012800573
         ],
@@ -315,16 +471,8 @@
           47.91666666666667
         ],
         [
-          "Oracle",
-          13.286713286713292
-        ],
-        [
           "Sonos",
           -23.86117136659436
-        ],
-        [
-          "MARA",
-          786.6666666666667
         ],
         [
           "GoPro",
@@ -351,18 +499,6 @@
           18.22784810126583
         ],
         [
-          "ZoomInfo",
-          -10.169491525423723
-        ],
-        [
-          "Intuit",
-          5.202312138728327
-        ],
-        [
-          "Wix",
-          19.40966010733454
-        ],
-        [
           "Robinhood",
           26.086956521739136
         ],
@@ -371,16 +507,8 @@
           7.860076476419775
         ],
         [
-          "Opendoor",
-          -59.45525291828794
-        ],
-        [
           "Veritone",
           -32.52647503782148
-        ],
-        [
-          "Paytm",
-          119.14940993097306
         ],
         [
           "Uber",
@@ -389,10 +517,6 @@
         [
           "Manhattan Associates",
           5.301204819277117
-        ],
-        [
-          "SentinelOne",
-          133.33333333333334
         ],
         [
           "NetApp",
@@ -411,36 +535,48 @@
   },
   "other_reasons_with_ai": [
     [
-      "cost_cutting",
-      19
+      "organizational_consolidation",
+      23
     ],
     [
-      "organizational_consolidation",
-      18
+      "cost_cutting",
+      22
     ],
     [
       "strategic_pivot",
-      8
+      20
     ],
     [
       "work_relocation",
+      7
+    ],
+    [
+      "organizational_realignment",
+      5
+    ],
+    [
+      "strategic_priorities",
       4
+    ],
+    [
+      "market_conditions",
+      3
     ],
     [
       "operational_efficiency",
       3
     ],
     [
-      "m_and_a",
-      2
-    ],
-    [
-      "market_conditions",
-      2
+      "unit_closure",
+      3
     ],
     [
       "demand_decline",
-      1
+      2
+    ],
+    [
+      "m_and_a",
+      2
     ],
     [
       "financial_distress",
@@ -455,27 +591,15 @@
       1
     ],
     [
+      "performance_cull",
+      1
+    ],
+    [
       "shutdown",
       1
     ],
     [
-      "strategic_priorities",
-      1
-    ],
-    [
-      "unit_closure",
-      1
-    ],
-    [
       "lost_contract",
-      0
-    ],
-    [
-      "organizational_realignment",
-      0
-    ],
-    [
-      "performance_cull",
       0
     ],
     [
@@ -485,28 +609,28 @@
   ],
   "ai_reasons": [
     [
-      "ai_productivity",
-      24
+      "ai_transition",
+      34
     ],
     [
       "ai_investment_reallocation",
-      14
+      25
     ],
     [
-      "ai_transition",
-      13
+      "ai_productivity",
+      25
     ],
     [
       "ai_work_redesign",
-      10
+      13
+    ],
+    [
+      "ai_market_disruption",
+      8
     ],
     [
       "ai_substitution",
       8
-    ],
-    [
-      "ai_market_disruption",
-      7
     ]
   ],
   "organizational_consolidation": [
@@ -555,7 +679,7 @@
     {
       "record_id": "layoff-2026-026",
       "company_label": "Amazon",
-      "has_ai_reason": 0,
+      "has_ai_reason": 1,
       "summary": "Current company memo identifies management layers and bureaucracy. AI attribution cannot be imported from another round.",
       "url": "https://www.aboutamazon.com/news/company-news/amazon-layoffs-corporate-jan-2026"
     },
@@ -688,7 +812,7 @@
     {
       "record_id": "layoff-2026-135",
       "company_label": "Ticketmaster",
-      "has_ai_reason": 0,
+      "has_ai_reason": 1,
       "summary": "Company describes fewer management layers and consolidated teams. Earlier AI product strategy is context.",
       "url": "https://www.musicbusinessworldwide.com/ticketmaster-cuts-around-350-jobs-8-of-global-workforce-in-engineering-product-and-design-restructuring-report/"
     },
@@ -709,7 +833,7 @@
     {
       "record_id": "layoff-2026-155",
       "company_label": "Intuit",
-      "has_ai_reason": 0,
+      "has_ai_reason": 1,
       "summary": "Company simplifies management and consolidates teams.",
       "url": "https://www.indiatoday.in/jobs/story/software-maker-intuit-to-cut-3000-jobs-ceo-says-layoff-has-nothing-to-do-with-ai-tchc-2914758-2026-05-21"
     },
@@ -744,7 +868,7 @@
     {
       "record_id": "layoff-2026-175",
       "company_label": "Snyk",
-      "has_ai_reason": 0,
+      "has_ai_reason": 1,
       "summary": "R&D and go-to-market are unified and leadership is flattened.",
       "url": "https://snyk.io/blog/a-note-to-our-customers-and-partners/"
     },
@@ -786,7 +910,7 @@
     {
       "record_id": "layoff-2026-210",
       "company_label": "Credit Karma",
-      "has_ai_reason": 0,
+      "has_ai_reason": 1,
       "summary": "Intuit’s May 20 employee letter explicitly identifies elimination of overlapping TurboTax and Credit Karma roles following integration. Local reporting places this notice within that plan; it does not show that each of the 117 positions had the same rationale.",
       "url": "https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000024/fy26q3-ex9902.htm"
     },
@@ -811,5 +935,38 @@
       "summary": "R&D locations are consolidated across global sites.",
       "url": "https://www.itnews.com.au/news/trend-micros-enterprise-unit-shuts-sydney-engineering-team-625788"
     }
-  ]
+  ],
+  "tracker_comparison": {
+    "retrieved_date": "2026-09-28",
+    "api_updated_at": "2026-09-28T22:53:19.096Z",
+    "counts": {
+      "excluded_period_measure": 3,
+      "both_ai": 91,
+      "tracker_only_ai": 1,
+      "ours_only_ai": 17
+    },
+    "our_announcements": 228,
+    "our_ai": 108,
+    "remaining_difference_reasons": {
+      "different_event_context": 1
+    },
+    "h1_tracker": {
+      "total_events": 231,
+      "ai_events": 95,
+      "total_emp": 109017,
+      "ai_emp": 90277
+    },
+    "date_adjustments": [
+      {
+        "company": "zoominfo",
+        "tracker_date": "2026-05-10",
+        "our_date": "2026-05-11"
+      },
+      {
+        "company": "gitlab",
+        "tracker_date": "2026-06-02",
+        "our_date": "2026-06-03"
+      }
+    ]
+  }
 }

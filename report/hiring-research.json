@@ -1,6 +1,6 @@
 {
-  "announcement_dataset_sha256": "97f2bc011f2d72f0bb67fa69a094ea191dc3b6947bc2061dd7a30be851a5249d",
-  "reviewed": "2026-09-17",
+  "announcement_dataset_sha256": "d54816421e78c5aee90028783a6d047c8f7d59251e5d25995aa4e434d60c4ff9",
+  "reviewed": "2026-09-28",
   "unit": "dataset company label; no parent-company substitution",
   "coverage": "217 company labels, 88 candidate public histories, 71 usable 2022–2025 pairs and 35 usable 2019–2022 pairs",
   "source_quality": "Secondary compilation with partial primary checks; not a harmonized census",
@@ -118,14 +118,16 @@
         "layoff-2026-004",
         "layoff-2026-199"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_investment_reallocation",
+        "ai_transition",
         "strategic_pivot"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -431,6 +433,7 @@
       "ai_mechanism": true,
       "causes": [
         "ai_investment_reallocation",
+        "ai_transition",
         "cost_cutting",
         "organizational_realignment",
         "strategic_pivot"
@@ -1433,14 +1436,15 @@
         "layoff-2026-019",
         "layoff-2026-121"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "strategic_pivot"
       ],
       "series_url": "https://stockanalysis.com/stocks/shop/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [
         {
           "date": "2013-12-31",
@@ -2129,15 +2133,16 @@
         "layoff-2026-026",
         "layoff-2026-060"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "organizational_consolidation",
         "organizational_realignment"
       ],
       "series_url": "https://stockanalysis.com/stocks/amzn/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [
         {
           "date": "1995-12-31",
@@ -2891,7 +2896,8 @@
       ],
       "ai_mechanism": true,
       "causes": [
-        "ai_substitution"
+        "ai_substitution",
+        "ai_transition"
       ],
       "series_url": "https://stockanalysis.com/stocks/crm/employees/",
       "screen_status": "candidate_historical_public_reporting",
@@ -3191,12 +3197,14 @@
       "record_ids": [
         "layoff-2026-041"
       ],
-      "ai_mechanism": false,
-      "causes": [],
+      "ai_mechanism": true,
+      "causes": [
+        "ai_transition"
+      ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "unresolved",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -3501,14 +3509,15 @@
       "record_ids": [
         "layoff-2026-049"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "strategic_priorities"
       ],
       "series_url": "https://stockanalysis.com/stocks/dkng/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [
         {
           "date": "2019-12-31",
@@ -4488,14 +4497,15 @@
       "record_ids": [
         "layoff-2026-064"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "market_conditions"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -4771,14 +4781,15 @@
       "record_ids": [
         "layoff-2026-074"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "strategic_priorities"
       ],
       "series_url": "https://stockanalysis.com/stocks/snow/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [
         {
           "date": "2020-07-31",
@@ -5166,14 +5177,15 @@
       "record_ids": [
         "layoff-2026-079"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_investment_reallocation",
         "unit_closure"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -5294,14 +5306,15 @@
       "record_ids": [
         "layoff-2026-086"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_investment_reallocation",
         "organizational_realignment"
       ],
       "series_url": "https://stockanalysis.com/stocks/orcl/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [
         {
           "date": "1994-05-31",
@@ -5657,14 +5670,15 @@
       "record_ids": [
         "layoff-2026-090"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_investment_reallocation",
         "strategic_pivot"
       ],
       "series_url": "https://stockanalysis.com/stocks/mara/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [
         {
           "date": "2021-12-31",
@@ -5904,14 +5918,15 @@
       "record_ids": [
         "layoff-2026-097"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "strategic_pivot"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -6669,14 +6684,15 @@
       "record_ids": [
         "layoff-2026-116"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "strategic_pivot"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -6733,14 +6749,15 @@
       "record_ids": [
         "layoff-2026-119"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "strategic_pivot"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -7425,14 +7442,15 @@
       "record_ids": [
         "layoff-2026-135"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "organizational_consolidation"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -7784,14 +7802,15 @@
       "record_ids": [
         "layoff-2026-143"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_work_redesign",
         "work_relocation"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -7805,15 +7824,18 @@
       "record_ids": [
         "layoff-2026-144"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_market_disruption",
+        "ai_productivity",
+        "cost_cutting",
         "strategic_pivot",
         "work_relocation"
       ],
       "series_url": "https://stockanalysis.com/stocks/gtm/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [
         {
           "date": "2021-12-31",
@@ -8238,14 +8260,15 @@
       "record_ids": [
         "layoff-2026-149"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_work_redesign",
         "organizational_realignment"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -8259,14 +8282,15 @@
       "record_ids": [
         "layoff-2026-150"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_investment_reallocation",
         "strategic_pivot"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -8456,14 +8480,15 @@
       "record_ids": [
         "layoff-2026-155"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_investment_reallocation",
         "organizational_consolidation"
       ],
       "series_url": "https://stockanalysis.com/stocks/intu/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [
         {
           "date": "1996-09-30",
@@ -8723,14 +8748,15 @@
       "record_ids": [
         "layoff-2026-158"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "cost_cutting"
       ],
       "series_url": "https://stockanalysis.com/stocks/wix/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [
         {
           "date": "2010-12-31",
@@ -9226,12 +9252,15 @@
       "record_ids": [
         "layoff-2026-171"
       ],
-      "ai_mechanism": false,
-      "causes": [],
+      "ai_mechanism": true,
+      "causes": [
+        "ai_transition",
+        "strategic_priorities"
+      ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "unresolved",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -9266,14 +9295,15 @@
       "record_ids": [
         "layoff-2026-174"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_investment_reallocation",
         "strategic_pivot"
       ],
       "series_url": "https://stockanalysis.com/stocks/btgo/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -9287,14 +9317,15 @@
       "record_ids": [
         "layoff-2026-175"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "organizational_consolidation"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -9830,12 +9861,14 @@
       "record_ids": [
         "layoff-2026-192"
       ],
-      "ai_mechanism": false,
-      "causes": [],
+      "ai_mechanism": true,
+      "causes": [
+        "ai_transition"
+      ],
       "series_url": "https://stockanalysis.com/stocks/now/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "unresolved",
+      "group": "ai_recorded",
       "observations": [
         {
           "date": "2012-12-31",
@@ -9957,14 +9990,15 @@
       "record_ids": [
         "layoff-2026-193"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "organizational_realignment"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -9978,15 +10012,16 @@
       "record_ids": [
         "layoff-2026-194"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_work_redesign",
         "unit_closure",
         "work_relocation"
       ],
       "series_url": "https://stockanalysis.com/stocks/open/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [
         {
           "date": "2021-12-31",
@@ -10113,14 +10148,15 @@
       "record_ids": [
         "layoff-2026-196"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "performance_cull"
       ],
       "series_url": "https://stockanalysis.com/quote/nse/PAYTM/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [
         {
           "date": "2022-03-31",
@@ -10673,14 +10709,15 @@
       "record_ids": [
         "layoff-2026-210"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_investment_reallocation",
         "organizational_consolidation"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -10694,14 +10731,15 @@
       "record_ids": [
         "layoff-2026-211"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_transition",
         "demand_decline"
       ],
       "series_url": null,
       "screen_status": "no_standalone_listed_series_mapped",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [],
       "quality_issues": [],
       "perimeter_events": [],
@@ -10715,14 +10753,15 @@
       "record_ids": [
         "layoff-2026-212"
       ],
-      "ai_mechanism": false,
+      "ai_mechanism": true,
       "causes": [
+        "ai_investment_reallocation",
         "strategic_pivot"
       ],
       "series_url": "https://stockanalysis.com/stocks/s/employees/",
       "screen_status": "candidate_historical_public_reporting",
       "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-      "group": "other_recorded",
+      "group": "ai_recorded",
       "observations": [
         {
           "date": "2021-04-30",
@@ -12155,84 +12194,89 @@
   "summary": {
     "2019_2022": {
       "ai_recorded": {
-        "n": 15,
-        "median": 79.83761840324763,
-        "doubled": 6,
+        "n": 22,
+        "median": 88.23639830817403,
+        "doubled": 8,
         "shrank": 1,
         "companies": [
           "Angi",
           "MercadoLibre",
           "Meta",
           "Autodesk",
+          "Shopify",
           "Pinterest",
+          "Amazon",
           "Salesforce",
+          "DraftKings",
           "Block",
           "Atlassian",
+          "Oracle",
           "Snap",
           "PayPal",
           "Cloudflare",
           "Upwork",
           "Cisco",
+          "Intuit",
+          "Wix",
           "Elastic",
+          "ServiceNow",
           "Amdocs"
         ]
       },
       "other_recorded": {
-        "n": 18,
-        "median": 50.866896156052775,
-        "doubled": 4,
+        "n": 12,
+        "median": 21.99595451563525,
+        "doubled": 2,
         "shrank": 2,
         "companies": [
           "Ericsson",
-          "Shopify",
           "Expedia",
           "ASML",
-          "Amazon",
           "Zillow",
           "Smartsheet",
           "Workday",
           "Cyberark",
-          "DraftKings",
           "eBay",
           "Spotify",
-          "Oracle",
-          "Intuit",
-          "Wix",
           "Uber",
           "Manhattan Associates",
           "NetApp"
         ]
       },
       "unresolved": {
-        "n": 2,
-        "median": 67.42918793829989,
+        "n": 1,
+        "median": 37.83783783783783,
         "doubled": 0,
         "shrank": 0,
         "companies": [
-          "ServiceNow",
           "Qualcomm"
         ]
       }
     },
     "2022_2025": {
       "ai_recorded": {
-        "n": 28,
-        "median": 3.7205442544703926,
-        "doubled": 1,
-        "shrank": 12,
+        "n": 40,
+        "median": 6.7112654696883105,
+        "doubled": 4,
+        "shrank": 15,
         "companies": [
           "Angi",
           "MercadoLibre",
           "Meta",
           "Playtika",
           "Autodesk",
+          "Shopify",
           "Pinterest",
+          "Amazon",
           "Salesforce",
           "WiseTech",
           "C3.ai",
           "Block",
           "Ocado",
           "Atlassian",
+          "Snowflake",
+          "Oracle",
+          "MARA",
           "Life360",
           "Snap",
           "Coinbase",
@@ -12240,72 +12284,67 @@
           "PayPal",
           "Cloudflare",
           "Upwork",
+          "ZoomInfo",
           "Cisco",
           "Jumia",
           "Gambling.com Group",
+          "Intuit",
+          "Wix",
           "GitLab",
           "Elastic",
           "Lastminute",
           "Rackspace",
+          "ServiceNow",
+          "Opendoor",
+          "Paytm",
+          "SentinelOne",
           "Amdocs",
           "Groupon"
         ]
       },
       "other_recorded": {
-        "n": 38,
-        "median": 4.694589299862184,
-        "doubled": 3,
-        "shrank": 14,
+        "n": 27,
+        "median": 3.658536585365857,
+        "doubled": 0,
+        "shrank": 11,
         "companies": [
           "FormFactor",
           "Ericsson",
-          "Shopify",
           "Expedia",
           "ASML",
-          "Amazon",
           "Peloton",
           "Zillow",
           "Workday",
           "Lucid Motors",
           "eBay",
           "Verint Systems",
-          "Snowflake",
           "Spotify",
           "OpenText",
-          "Oracle",
           "Sonos",
-          "MARA",
           "GoPro",
           "IAC",
           "Cars.com",
           "Nayax",
           "Bill.com",
           "Truecaller",
-          "ZoomInfo",
-          "Intuit",
-          "Wix",
           "Robinhood",
           "Rivian",
-          "Opendoor",
           "Veritone",
-          "Paytm",
           "Uber",
           "Manhattan Associates",
-          "SentinelOne",
           "NetApp",
           "Trend Micro",
           "Qt Company"
         ]
       },
       "unresolved": {
-        "n": 5,
-        "median": 10.192837465564741,
+        "n": 4,
+        "median": 6.076810889645112,
         "doubled": 0,
         "shrank": 1,
         "companies": [
           "Taboola",
           "ADP",
-          "ServiceNow",
           "Qualcomm",
           "Xero"
         ]
@@ -12313,58 +12352,58 @@
     },
     "2019_2025": {
       "ai_recorded": {
-        "n": 15,
-        "median": 75.4817320101464,
-        "doubled": 7,
+        "n": 21,
+        "median": 93.61702127659575,
+        "doubled": 9,
         "shrank": 1,
         "companies": [
           "Angi",
           "MercadoLibre",
           "Meta",
           "Autodesk",
+          "Shopify",
           "Pinterest",
+          "Amazon",
           "Salesforce",
           "Block",
           "Atlassian",
+          "Oracle",
           "Snap",
           "PayPal",
           "Cloudflare",
           "Upwork",
           "Cisco",
+          "Intuit",
+          "Wix",
           "Elastic",
+          "ServiceNow",
           "Amdocs"
         ]
       },
       "other_recorded": {
-        "n": 15,
-        "median": 34.65421985140027,
-        "doubled": 1,
+        "n": 10,
+        "median": 27.461731904657782,
+        "doubled": 0,
         "shrank": 3,
         "companies": [
           "Ericsson",
-          "Shopify",
           "Expedia",
           "ASML",
-          "Amazon",
           "Zillow",
           "Workday",
           "eBay",
           "Spotify",
-          "Oracle",
-          "Intuit",
-          "Wix",
           "Uber",
           "Manhattan Associates",
           "NetApp"
         ]
       },
       "unresolved": {
-        "n": 2,
-        "median": 110.98476260466427,
-        "doubled": 1,
+        "n": 1,
+        "median": 40.54054054054055,
+        "doubled": 0,
         "shrank": 0,
         "companies": [
-          "ServiceNow",
           "Qualcomm"
         ]
       }
@@ -12374,144 +12413,144 @@
     "2019_2022": {
       "same_companies_both_windows": {
         "ai_recorded": {
-          "n": 15,
-          "median": 79.83761840324763
+          "n": 21,
+          "median": 84.04255319148936
         },
         "other_recorded": {
-          "n": 15,
-          "median": 22.058823529411775
+          "n": 10,
+          "median": 18.109399893786502
         },
         "unresolved": {
-          "n": 2,
-          "median": 67.42918793829989
+          "n": 1,
+          "median": 37.83783783783783
         }
       },
       "exclude_documented_perimeter_events": {
         "ai_recorded": {
-          "n": 13,
-          "median": 65.50860719874805
+          "n": 18,
+          "median": 77.19437516571438
         },
         "other_recorded": {
-          "n": 14,
-          "median": 50.866896156052775
+          "n": 10,
+          "median": 33.410364145658264
         },
         "unresolved": {
-          "n": 2,
-          "median": 67.42918793829989
+          "n": 1,
+          "median": 37.83783783783783
         }
       },
       "exclude_known_definition_or_scope_mismatch": {
         "ai_recorded": {
-          "n": 14,
-          "median": 72.67311280099784
+          "n": 19,
+          "median": 79.83761840324763
         },
         "other_recorded": {
-          "n": 14,
-          "median": 21.99595451563525
+          "n": 10,
+          "median": 18.109399893786502
         },
         "unresolved": {
-          "n": 2,
-          "median": 67.42918793829989
+          "n": 1,
+          "median": 37.83783783783783
         }
       },
       "december_observations_only": {
         "ai_recorded": {
-          "n": 9,
-          "median": 79.83761840324763
+          "n": 14,
+          "median": 92.7690064242088
         },
         "other_recorded": {
-          "n": 13,
-          "median": 56.9718875502008
+          "n": 9,
+          "median": 21.933085501858727
         },
         "unresolved": {
-          "n": 1,
-          "median": 97.02053803876194
+          "n": 0,
+          "median": null
         }
       },
       "baseline_at_least_1000": {
         "ai_recorded": {
-          "n": 14,
-          "median": 86.13393091405317
+          "n": 20,
+          "median": 88.23639830817403
         },
         "other_recorded": {
-          "n": 17,
-          "median": 44.76190476190476
+          "n": 12,
+          "median": 21.99595451563525
         },
         "unresolved": {
-          "n": 2,
-          "median": 67.42918793829989
+          "n": 1,
+          "median": 37.83783783783783
         }
       }
     },
     "2022_2025": {
       "same_companies_both_windows": {
         "ai_recorded": {
-          "n": 15,
-          "median": 3.4813925570228
+          "n": 21,
+          "median": 3.9596959519179853
         },
         "other_recorded": {
-          "n": 15,
-          "median": 5.202312138728327
+          "n": 10,
+          "median": 4.479870702321486
         },
         "unresolved": {
-          "n": 2,
-          "median": 22.4016225195114
+          "n": 1,
+          "median": 1.9607843137254832
         }
       },
       "exclude_documented_perimeter_events": {
         "ai_recorded": {
-          "n": 27,
-          "median": 3.9596959519179853
+          "n": 37,
+          "median": 8.220218800648293
         },
         "other_recorded": {
-          "n": 35,
-          "median": 4.1868664609960415
+          "n": 26,
+          "median": 2.9694108104976524
         },
         "unresolved": {
-          "n": 5,
-          "median": 10.192837465564741
+          "n": 4,
+          "median": 6.076810889645112
         }
       },
       "exclude_known_definition_or_scope_mismatch": {
         "ai_recorded": {
-          "n": 27,
-          "median": 3.4813925570228
+          "n": 37,
+          "median": 8.220218800648293
         },
         "other_recorded": {
-          "n": 34,
-          "median": 5.251758479002722
+          "n": 25,
+          "median": 3.658536585365857
         },
         "unresolved": {
-          "n": 5,
-          "median": 10.192837465564741
+          "n": 4,
+          "median": 6.076810889645112
         }
       },
       "december_observations_only": {
         "ai_recorded": {
-          "n": 18,
-          "median": -12.627490782992263
+          "n": 25,
+          "median": -8.807613144931892
         },
         "other_recorded": {
-          "n": 27,
-          "median": 3.658536585365857
+          "n": 21,
+          "median": 5.301204819277117
         },
         "unresolved": {
-          "n": 2,
-          "median": 26.51764909543103
+          "n": 1,
+          "median": 10.192837465564741
         }
       },
       "baseline_at_least_1000": {
         "ai_recorded": {
-          "n": 24,
-          "median": 2.647513038986693
+          "n": 35,
+          "median": 3.9596959519179853
         },
         "other_recorded": {
-          "n": 32,
-          "median": 3.9227015231809492
+          "n": 22,
+          "median": 2.9694108104976524
         },
         "unresolved": {
-          "n": 5,
-          "median": 10.192837465564741
+          "n": 4,
+          "median": 6.076810889645112
         }
       }
     }

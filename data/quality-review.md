@@ -1,6 +1,6 @@
 # Estado de los datos y del repositorio
 
-Comprobación local del **22 de septiembre de 2026**. No se realizó una nueva consulta de cobertura externa: el snapshot y la revisión de evidencia más recientes utilizados siguen siendo del **17 de septiembre**.
+Comprobación de consistencia actualizada el **28 de septiembre de 2026**. La cobertura general sigue usando el snapshot del 17 de septiembre; la comparación con el AI Layoffs Tracker usa uno separado del 28 de septiembre. Se revisaron las fichas existentes y se releyeron fuentes seleccionadas.
 
 ## Fuente vigente y coherencia
 
@@ -21,7 +21,7 @@ La base es consistente para los recuentos del informe; no es un conjunto complet
 | Fuente parcial | 14 |
 | Fuente causal no recuperada | 2 |
 
-Hay 201 anuncios con alguna razón clasificable y 27 sin ella. La información de funciones identifica ocupaciones en 60 anuncios; ocho de los restantes solo identifican unidades de negocio. Las razones generales no se recodificaron exhaustivamente junto a todas las decisiones específicas. La exportación conserva estos límites; no los rellena por inferencia.
+Hay 206 anuncios con alguna razón clasificable y 22 sin ella. La información de funciones identifica ocupaciones en 60 anuncios; ocho de los restantes solo identifican unidades de negocio. Las razones generales no se recodificaron exhaustivamente junto a todas las decisiones específicas. La exportación conserva estos límites; no los rellena por inferencia.
 
 Las cifras de plantilla y razones pueden tener alcances distintos. Las variaciones netas, cifras alternativas y relaciones de planes permanecen separadas. No debe sumarse personal después de unir tablas de razones o funciones.
 
@@ -29,7 +29,7 @@ Las cifras de plantilla y razones pueden tener alcances distintos. Las variacion
 
 - El README tenía estados de fuente antiguos (198/35/2) frente a los vigentes (219/14/2 sobre 235 registros), y aún describía una exclusión de razones generales que el informe ya no hace.
 - Referenciaba `full-review-2026-09-17.json`, que no existe. La cadena comienza en `full-review-2026-09-16.json` y continúa en `coverage/`.
-- Los resúmenes auxiliares seguían destacando los 59 casos de IA con explicación específica. Se regeneraron para contar todas las razones: 72 con IA, 48 con IA y otra razón, 79 con varias razones.
+- Los resúmenes auxiliares seguían destacando los 59 casos de IA con explicación específica. Se regeneraron para contar todas las razones: 107 con IA, 78 con IA y otra razón, 106 con varias razones.
 - El CSV canónico incluye JSON dentro de celdas. Sigue disponible como copia de compatibilidad; la nueva exportación relacional contiene campos escalares y tipos explícitos.
 - Las credenciales locales no estaban ignoradas por Git. Se añadieron patrones `.env` sin abrir ni modificar su contenido.
 
@@ -45,7 +45,7 @@ No es necesario reducir todo el repositorio a los 228 anuncios: basta con tener 
 
 ## Exportación para análisis
 
-[Guía de uso](normalized/README.md). Incluye 24 tablas/vistas en CSV y SQLite. Las tablas principales para el informe son 228 anuncios, 304 atribuciones de razones y 116 relaciones anuncio–función. Los nombres de empresa no se fusionaron con matrices ni se deduplicaron por similitud.
+[Guía de uso](normalized/README.md). Incluye 24 tablas/vistas en CSV y SQLite. Las tablas principales para el informe son 228 anuncios, 339 atribuciones de razones y 116 relaciones anuncio–función. Los nombres de empresa no se fusionaron con matrices ni se deduplicaron por similitud.
 
 `manifest.json` registra el hash del JSON canónico y del generador, conteos, columnas, convenciones de nulos y unidades. El build comprueba claves foráneas, unicidad, preservación de causas y funciones por registro, integridad SQLite y concordancia con los recuentos del informe.
 

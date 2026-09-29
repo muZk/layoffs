@@ -6,11 +6,11 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-23T12:08:38.963437</dc:date>
+    <dc:date>2026-09-29T00:31:48.523977</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Layoff evidence report; generated from 2026-categorized.json, reviewed 2026-09-17</dc:title>
+      <dc:title>Layoff evidence report; generated from 2026-categorized.json, reviewed 2026-09-28</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -42,16 +42,16 @@ z
      <g id="line2d_1">
       <path d="M 176.769844 214.319063 
 L 176.769844 40.279063 
-" clip-path="url(#p75cc003ec4)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.22; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#pb49c5a9547)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.22; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
       <defs>
-       <path id="m1ea2dd3bad" d="M 0 0 
+       <path id="m973bb47b46" d="M 0 0 
 L 0 3.5 
 " style="stroke: #777281; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m1ea2dd3bad" x="176.769844" y="214.319063" style="fill: #777281; stroke: #777281; stroke-width: 0.8"/>
+       <use xlink:href="#m973bb47b46" x="176.769844" y="214.319063" style="fill: #777281; stroke: #777281; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
@@ -98,131 +98,18 @@ z
     </g>
     <g id="xtick_2">
      <g id="line2d_3">
-      <path d="M 292.283002 214.319063 
-L 292.283002 40.279063 
-" clip-path="url(#p75cc003ec4)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.22; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 285.48811 214.319063 
+L 285.48811 40.279063 
+" clip-path="url(#pb49c5a9547)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.22; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m1ea2dd3bad" x="292.283002" y="214.319063" style="fill: #777281; stroke: #777281; stroke-width: 0.8"/>
+       <use xlink:href="#m973bb47b46" x="285.48811" y="214.319063" style="fill: #777281; stroke: #777281; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
-      <!-- 6 -->
-      <g style="fill: #777281" transform="translate(289.115345 229.899063) scale(0.11 -0.11)">
-       <defs>
-        <path id="Jost-Regular-36" d="M 838 1472 
-Q 838 1779 969 2019 
-Q 1101 2259 1328 2393 
-Q 1555 2528 1843 2528 
-Q 2131 2528 2358 2393 
-Q 2586 2259 2717 2019 
-Q 2848 1779 2848 1472 
-Q 2848 1165 2717 931 
-Q 2586 698 2358 563 
-Q 2131 429 1843 429 
-Q 1555 429 1328 563 
-Q 1101 698 969 931 
-Q 838 1165 838 1472 
-z
-M 2112 4480 
-L 602 2400 
-Q 474 2221 397 1984 
-Q 320 1747 320 1472 
-Q 320 1011 521 665 
-Q 723 320 1068 128 
-Q 1414 -64 1843 -64 
-Q 2278 -64 2620 128 
-Q 2963 320 3164 665 
-Q 3366 1011 3366 1472 
-Q 3366 1779 3264 2044 
-Q 3162 2310 2979 2508 
-Q 2797 2707 2557 2816 
-Q 2317 2925 2042 2925 
-Q 1824 2925 1654 2873 
-Q 1485 2822 1357 2662 
-L 1395 2630 
-L 2797 4480 
-L 2112 4480 
-z
-" transform="scale(0.015625)"/>
-       </defs>
-       <use xlink:href="#Jost-Regular-36"/>
-      </g>
-     </g>
-    </g>
-    <g id="xtick_3">
-     <g id="line2d_5">
-      <path d="M 407.79616 214.319063 
-L 407.79616 40.279063 
-" clip-path="url(#p75cc003ec4)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.22; stroke-width: 0.8; stroke-linecap: square"/>
-     </g>
-     <g id="line2d_6">
-      <g>
-       <use xlink:href="#m1ea2dd3bad" x="407.79616" y="214.319063" style="fill: #777281; stroke: #777281; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_3">
-      <!-- 12 -->
-      <g style="fill: #777281" transform="translate(402.191316 229.899063) scale(0.11 -0.11)">
-       <defs>
-        <path id="Jost-Regular-31" d="M 512 3597 
-L 1504 3891 
-L 1504 0 
-L 2048 0 
-L 2048 4544 
-L 512 4160 
-L 512 3597 
-z
-" transform="scale(0.015625)"/>
-        <path id="Jost-Regular-32" d="M 128 0 
-L 3290 0 
-L 3290 512 
-L 1248 512 
-L 2675 1965 
-Q 2938 2234 3104 2573 
-Q 3270 2912 3270 3258 
-Q 3270 3462 3187 3686 
-Q 3104 3910 2931 4105 
-Q 2758 4301 2489 4425 
-Q 2221 4550 1850 4550 
-Q 1389 4550 1059 4348 
-Q 730 4147 557 3785 
-Q 384 3424 384 2944 
-L 928 2944 
-Q 928 3283 1037 3529 
-Q 1146 3776 1354 3907 
-Q 1562 4038 1850 4038 
-Q 2054 4038 2214 3968 
-Q 2374 3898 2486 3782 
-Q 2598 3667 2656 3526 
-Q 2714 3386 2714 3238 
-Q 2714 3059 2659 2896 
-Q 2605 2733 2499 2576 
-Q 2394 2419 2246 2259 
-L 128 0 
-z
-" transform="scale(0.015625)"/>
-       </defs>
-       <use xlink:href="#Jost-Regular-31"/>
-       <use xlink:href="#Jost-Regular-32" x="44.999985"/>
-      </g>
-     </g>
-    </g>
-    <g id="xtick_4">
-     <g id="line2d_7">
-      <path d="M 523.309317 214.319063 
-L 523.309317 40.279063 
-" clip-path="url(#p75cc003ec4)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.22; stroke-width: 0.8; stroke-linecap: square"/>
-     </g>
-     <g id="line2d_8">
-      <g>
-       <use xlink:href="#m1ea2dd3bad" x="523.309317" y="214.319063" style="fill: #777281; stroke: #777281; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_4">
-      <!-- 18 -->
-      <g style="fill: #777281" transform="translate(517.831661 229.899063) scale(0.11 -0.11)">
+      <!-- 8 -->
+      <g style="fill: #777281" transform="translate(282.485454 229.899063) scale(0.11 -0.11)">
        <defs>
         <path id="Jost-Regular-38" d="M 512 3398 
 Q 512 3136 601 2928 
@@ -288,26 +175,118 @@ Q 870 1005 870 1280
 z
 " transform="scale(0.015625)"/>
        </defs>
-       <use xlink:href="#Jost-Regular-31"/>
-       <use xlink:href="#Jost-Regular-38" x="44.999985"/>
+       <use xlink:href="#Jost-Regular-38"/>
       </g>
      </g>
     </g>
-    <g id="xtick_5">
-     <g id="line2d_9">
-      <path d="M 638.822475 214.319063 
-L 638.822475 40.279063 
-" clip-path="url(#p75cc003ec4)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.22; stroke-width: 0.8; stroke-linecap: square"/>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 394.206376 214.319063 
+L 394.206376 40.279063 
+" clip-path="url(#pb49c5a9547)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.22; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
-     <g id="line2d_10">
+     <g id="line2d_6">
       <g>
-       <use xlink:href="#m1ea2dd3bad" x="638.822475" y="214.319063" style="fill: #777281; stroke: #777281; stroke-width: 0.8"/>
+       <use xlink:href="#m973bb47b46" x="394.206376" y="214.319063" style="fill: #777281; stroke: #777281; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_5">
-      <!-- 24 -->
-      <g style="fill: #777281" transform="translate(632.486303 229.899063) scale(0.11 -0.11)">
+     <g id="text_3">
+      <!-- 16 -->
+      <g style="fill: #777281" transform="translate(388.56372 229.899063) scale(0.11 -0.11)">
        <defs>
+        <path id="Jost-Regular-31" d="M 512 3597 
+L 1504 3891 
+L 1504 0 
+L 2048 0 
+L 2048 4544 
+L 512 4160 
+L 512 3597 
+z
+" transform="scale(0.015625)"/>
+        <path id="Jost-Regular-36" d="M 838 1472 
+Q 838 1779 969 2019 
+Q 1101 2259 1328 2393 
+Q 1555 2528 1843 2528 
+Q 2131 2528 2358 2393 
+Q 2586 2259 2717 2019 
+Q 2848 1779 2848 1472 
+Q 2848 1165 2717 931 
+Q 2586 698 2358 563 
+Q 2131 429 1843 429 
+Q 1555 429 1328 563 
+Q 1101 698 969 931 
+Q 838 1165 838 1472 
+z
+M 2112 4480 
+L 602 2400 
+Q 474 2221 397 1984 
+Q 320 1747 320 1472 
+Q 320 1011 521 665 
+Q 723 320 1068 128 
+Q 1414 -64 1843 -64 
+Q 2278 -64 2620 128 
+Q 2963 320 3164 665 
+Q 3366 1011 3366 1472 
+Q 3366 1779 3264 2044 
+Q 3162 2310 2979 2508 
+Q 2797 2707 2557 2816 
+Q 2317 2925 2042 2925 
+Q 1824 2925 1654 2873 
+Q 1485 2822 1357 2662 
+L 1395 2630 
+L 2797 4480 
+L 2112 4480 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Jost-Regular-31"/>
+       <use xlink:href="#Jost-Regular-36" x="44.999985"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 502.924643 214.319063 
+L 502.924643 40.279063 
+" clip-path="url(#pb49c5a9547)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.22; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m973bb47b46" x="502.924643" y="214.319063" style="fill: #777281; stroke: #777281; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 24 -->
+      <g style="fill: #777281" transform="translate(496.588471 229.899063) scale(0.11 -0.11)">
+       <defs>
+        <path id="Jost-Regular-32" d="M 128 0 
+L 3290 0 
+L 3290 512 
+L 1248 512 
+L 2675 1965 
+Q 2938 2234 3104 2573 
+Q 3270 2912 3270 3258 
+Q 3270 3462 3187 3686 
+Q 3104 3910 2931 4105 
+Q 2758 4301 2489 4425 
+Q 2221 4550 1850 4550 
+Q 1389 4550 1059 4348 
+Q 730 4147 557 3785 
+Q 384 3424 384 2944 
+L 928 2944 
+Q 928 3283 1037 3529 
+Q 1146 3776 1354 3907 
+Q 1562 4038 1850 4038 
+Q 2054 4038 2214 3968 
+Q 2374 3898 2486 3782 
+Q 2598 3667 2656 3526 
+Q 2714 3386 2714 3238 
+Q 2714 3059 2659 2896 
+Q 2605 2733 2499 2576 
+Q 2394 2419 2246 2259 
+L 128 0 
+z
+" transform="scale(0.015625)"/>
         <path id="Jost-Regular-34" d="M 128 896 
 L 3539 896 
 L 3539 1376 
@@ -327,6 +306,75 @@ z
        </defs>
        <use xlink:href="#Jost-Regular-32"/>
        <use xlink:href="#Jost-Regular-34" x="56.899994"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 611.642909 214.319063 
+L 611.642909 40.279063 
+" clip-path="url(#pb49c5a9547)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.22; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m973bb47b46" x="611.642909" y="214.319063" style="fill: #777281; stroke: #777281; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 32 -->
+      <g style="fill: #777281" transform="translate(605.510409 229.899063) scale(0.11 -0.11)">
+       <defs>
+        <path id="Jost-Regular-33" d="M 1619 2208 
+Q 2054 2208 2380 2361 
+Q 2707 2515 2892 2777 
+Q 3078 3040 3078 3354 
+Q 3078 3674 2928 3942 
+Q 2778 4211 2499 4377 
+Q 2221 4544 1837 4544 
+Q 1472 4544 1187 4393 
+Q 902 4243 739 3980 
+Q 576 3718 576 3366 
+L 1094 3366 
+Q 1094 3661 1312 3856 
+Q 1530 4051 1843 4051 
+Q 2067 4051 2217 3961 
+Q 2368 3872 2445 3709 
+Q 2522 3546 2522 3334 
+Q 2522 3174 2461 3033 
+Q 2400 2893 2285 2787 
+Q 2170 2682 2003 2621 
+Q 1837 2560 1619 2560 
+L 1619 2208 
+z
+M 1811 -64 
+Q 2214 -64 2528 89 
+Q 2842 243 3024 524 
+Q 3206 806 3206 1184 
+Q 3206 1517 3081 1753 
+Q 2957 1990 2736 2140 
+Q 2515 2291 2230 2361 
+Q 1946 2432 1619 2432 
+L 1619 2080 
+Q 1837 2080 2022 2029 
+Q 2208 1978 2349 1872 
+Q 2490 1766 2570 1609 
+Q 2650 1453 2650 1248 
+Q 2650 1005 2547 825 
+Q 2445 646 2256 547 
+Q 2067 448 1811 448 
+Q 1555 448 1356 544 
+Q 1158 640 1046 806 
+Q 934 973 934 1184 
+L 384 1184 
+Q 384 922 486 694 
+Q 589 467 774 297 
+Q 960 128 1222 32 
+Q 1485 -64 1811 -64 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Jost-Regular-33"/>
+       <use xlink:href="#Jost-Regular-32" x="54.599991"/>
       </g>
      </g>
     </g>
@@ -1123,51 +1171,51 @@ z
    </g>
    <g id="patch_3">
     <path d="M 176.769844 48.189972 
-L 638.822475 48.189972 
-L 638.822475 64.635589 
+L 516.514426 48.189972 
+L 516.514426 64.635589 
 L 176.769844 64.635589 
 z
-" clip-path="url(#p75cc003ec4)" style="fill: #6741bd"/>
+" clip-path="url(#pb49c5a9547)" style="fill: #6741bd"/>
    </g>
    <g id="patch_4">
     <path d="M 176.769844 76.544484 
-L 446.300546 76.544484 
-L 446.300546 92.990102 
+L 516.514426 76.544484 
+L 516.514426 92.990102 
 L 176.769844 92.990102 
 z
-" clip-path="url(#p75cc003ec4)" style="fill: #6741bd"/>
+" clip-path="url(#pb49c5a9547)" style="fill: #6741bd"/>
    </g>
    <g id="patch_5">
     <path d="M 176.769844 104.898997 
-L 369.291774 104.898997 
-L 369.291774 121.344615 
+L 353.437026 104.898997 
+L 353.437026 121.344615 
 L 176.769844 121.344615 
 z
-" clip-path="url(#p75cc003ec4)" style="fill: #6741bd"/>
+" clip-path="url(#pb49c5a9547)" style="fill: #6741bd"/>
    </g>
    <g id="patch_6">
     <path d="M 176.769844 133.25351 
-L 330.787388 133.25351 
-L 330.787388 149.699128 
+L 285.48811 133.25351 
+L 285.48811 149.699128 
 L 176.769844 149.699128 
 z
-" clip-path="url(#p75cc003ec4)" style="fill: #6741bd"/>
+" clip-path="url(#pb49c5a9547)" style="fill: #6741bd"/>
    </g>
    <g id="patch_7">
     <path d="M 176.769844 161.608023 
-L 311.535195 161.608023 
-L 311.535195 178.053641 
+L 285.48811 161.608023 
+L 285.48811 178.053641 
 L 176.769844 178.053641 
 z
-" clip-path="url(#p75cc003ec4)" style="fill: #6741bd"/>
+" clip-path="url(#pb49c5a9547)" style="fill: #6741bd"/>
    </g>
    <g id="patch_8">
     <path d="M 176.769844 189.962536 
-L 427.048353 189.962536 
-L 427.048353 206.408153 
+L 638.822475 189.962536 
+L 638.822475 206.408153 
 L 176.769844 206.408153 
 z
-" clip-path="url(#p75cc003ec4)" style="fill: #6741bd"/>
+" clip-path="url(#pb49c5a9547)" style="fill: #6741bd"/>
    </g>
    <g id="patch_9">
     <path d="M 176.769844 214.319063 
@@ -1175,8 +1223,8 @@ L 703.509844 214.319063
 " style="fill: none; stroke: #dedbe5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_13">
-    <!-- 24 -->
-    <g style="fill: #252333" transform="translate(647.485962 59.49278) scale(0.11 -0.11)">
+    <!-- 25 -->
+    <g style="fill: #252333" transform="translate(522.629828 59.49278) scale(0.11 -0.11)">
      <defs>
       <path id="Jost-SemiBold-32" d="M 128 0 
 L 3731 0 
@@ -1206,30 +1254,54 @@ Q 2336 2310 2163 2125
 L 128 0 
 z
 " transform="scale(0.015625)"/>
-      <path id="Jost-SemiBold-34" d="M 102 826 
-L 3994 826 
-L 3994 1606 
-L 3078 1606 
-L 2970 1510 
-L 1370 1510 
-L 2426 3021 
-L 2426 1197 
-L 2349 1126 
-L 2349 0 
-L 3290 0 
-L 3290 4480 
-L 2669 4480 
-L 102 826 
+      <path id="Jost-SemiBold-35" d="M 3712 1446 
+Q 3712 1907 3523 2236 
+Q 3334 2566 3027 2745 
+Q 2720 2925 2355 2925 
+Q 2157 2925 1968 2889 
+Q 1779 2854 1613 2765 
+L 1882 3686 
+L 3642 3686 
+L 3642 4480 
+L 1203 4480 
+L 589 1958 
+Q 819 2086 1027 2153 
+Q 1235 2221 1433 2249 
+Q 1632 2278 1811 2278 
+Q 2054 2278 2262 2192 
+Q 2470 2106 2595 1939 
+Q 2720 1773 2720 1530 
+Q 2720 1280 2611 1110 
+Q 2502 941 2300 851 
+Q 2099 762 1811 762 
+Q 1626 762 1421 835 
+Q 1216 909 1027 1037 
+Q 838 1165 678 1325 
+L 250 614 
+Q 435 429 678 272 
+Q 922 115 1245 19 
+Q 1568 -77 1978 -77 
+Q 2304 -77 2611 12 
+Q 2918 102 3168 288 
+Q 3418 474 3565 762 
+Q 3712 1050 3712 1446 
 z
 " transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#Jost-SemiBold-32"/>
-     <use xlink:href="#Jost-SemiBold-34" x="62.899994"/>
+     <use xlink:href="#Jost-SemiBold-35" x="62.899994"/>
     </g>
    </g>
    <g id="text_14">
-    <!-- 14 -->
-    <g style="fill: #252333" transform="translate(454.964032 87.847293) scale(0.11 -0.11)">
+    <!-- 25 -->
+    <g style="fill: #252333" transform="translate(522.629828 87.847293) scale(0.11 -0.11)">
+     <use xlink:href="#Jost-SemiBold-32"/>
+     <use xlink:href="#Jost-SemiBold-35" x="62.899994"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <!-- 13 -->
+    <g style="fill: #252333" transform="translate(359.552429 116.201806) scale(0.11 -0.11)">
      <defs>
       <path id="Jost-SemiBold-31" d="M 454 3315 
 L 1530 3597 
@@ -1240,56 +1312,62 @@ L 454 4141
 L 454 3315 
 z
 " transform="scale(0.015625)"/>
-     </defs>
-     <use xlink:href="#Jost-SemiBold-31"/>
-     <use xlink:href="#Jost-SemiBold-34" x="49.099991"/>
-    </g>
-   </g>
-   <g id="text_15">
-    <!-- 10 -->
-    <g style="fill: #252333" transform="translate(377.95526 116.201806) scale(0.11 -0.11)">
-     <defs>
-      <path id="Jost-SemiBold-30" d="M 1146 2240 
-Q 1146 2579 1210 2857 
-Q 1274 3136 1395 3337 
-Q 1517 3539 1683 3648 
-Q 1850 3757 2054 3757 
-Q 2266 3757 2432 3648 
-Q 2598 3539 2720 3337 
-Q 2842 3136 2906 2857 
-Q 2970 2579 2970 2240 
-Q 2970 1901 2906 1622 
-Q 2842 1344 2720 1142 
-Q 2598 941 2432 832 
-Q 2266 723 2054 723 
-Q 1850 723 1683 832 
-Q 1517 941 1395 1142 
-Q 1274 1344 1210 1622 
-Q 1146 1901 1146 2240 
+      <path id="Jost-SemiBold-33" d="M 1715 2182 
+Q 2221 2182 2617 2316 
+Q 3014 2451 3244 2710 
+Q 3475 2970 3475 3334 
+Q 3475 3674 3302 3949 
+Q 3130 4224 2800 4390 
+Q 2470 4557 2003 4557 
+Q 1562 4557 1229 4384 
+Q 896 4211 707 3913 
+Q 518 3616 518 3232 
+L 1370 3232 
+Q 1370 3482 1552 3645 
+Q 1734 3808 2003 3808 
+Q 2195 3808 2316 3744 
+Q 2438 3680 2502 3558 
+Q 2566 3437 2566 3277 
+Q 2566 3149 2505 3030 
+Q 2445 2912 2336 2819 
+Q 2227 2726 2070 2675 
+Q 1914 2624 1715 2624 
+L 1715 2182 
 z
-M 256 2240 
-Q 256 1530 483 1011 
-Q 710 493 1116 208 
-Q 1523 -77 2054 -77 
-Q 2605 -77 3008 208 
-Q 3411 493 3635 1011 
-Q 3859 1530 3859 2240 
-Q 3859 2950 3635 3468 
-Q 3411 3987 3008 4272 
-Q 2605 4557 2054 4557 
-Q 1523 4557 1116 4272 
-Q 710 3987 483 3468 
-Q 256 2950 256 2240 
+M 1965 -90 
+Q 2464 -90 2832 73 
+Q 3200 237 3401 531 
+Q 3603 826 3603 1210 
+Q 3603 1549 3462 1789 
+Q 3322 2029 3066 2185 
+Q 2810 2342 2467 2412 
+Q 2125 2483 1715 2483 
+L 1715 1997 
+Q 1952 1997 2134 1949 
+Q 2317 1901 2441 1811 
+Q 2566 1722 2630 1590 
+Q 2694 1459 2694 1306 
+Q 2694 1094 2604 953 
+Q 2515 813 2358 739 
+Q 2202 666 1990 666 
+Q 1786 666 1613 746 
+Q 1440 826 1337 979 
+Q 1235 1133 1235 1350 
+L 326 1350 
+Q 326 1062 441 803 
+Q 557 544 768 342 
+Q 979 141 1280 25 
+Q 1581 -90 1965 -90 
 z
 " transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#Jost-SemiBold-31"/>
-     <use xlink:href="#Jost-SemiBold-30" x="49.099991"/>
+     <use xlink:href="#Jost-SemiBold-33" x="49.099991"/>
     </g>
    </g>
    <g id="text_16">
     <!-- 8 -->
-    <g style="fill: #252333" transform="translate(339.450874 144.556319) scale(0.11 -0.11)">
+    <g style="fill: #252333" transform="translate(291.603512 144.556319) scale(0.11 -0.11)">
      <defs>
       <path id="Jost-SemiBold-38" d="M 499 3398 
 Q 499 3104 617 2883 
@@ -1359,77 +1437,34 @@ z
     </g>
    </g>
    <g id="text_17">
-    <!-- 7 -->
-    <g style="fill: #252333" transform="translate(320.198681 172.910832) scale(0.11 -0.11)">
-     <defs>
-      <path id="Jost-SemiBold-37" d="M 192 3622 
-L 2342 3622 
-L 544 0 
-L 1530 0 
-L 3686 4480 
-L 192 4480 
-L 192 3622 
-z
-" transform="scale(0.015625)"/>
-     </defs>
-     <use xlink:href="#Jost-SemiBold-37"/>
+    <!-- 8 -->
+    <g style="fill: #252333" transform="translate(291.603512 172.910832) scale(0.11 -0.11)">
+     <use xlink:href="#Jost-SemiBold-38"/>
     </g>
    </g>
    <g id="text_18">
-    <!-- 13 -->
-    <g style="fill: #252333" transform="translate(435.711839 201.265345) scale(0.11 -0.11)">
+    <!-- 34 -->
+    <g style="fill: #252333" transform="translate(644.937878 201.265345) scale(0.11 -0.11)">
      <defs>
-      <path id="Jost-SemiBold-33" d="M 1715 2182 
-Q 2221 2182 2617 2316 
-Q 3014 2451 3244 2710 
-Q 3475 2970 3475 3334 
-Q 3475 3674 3302 3949 
-Q 3130 4224 2800 4390 
-Q 2470 4557 2003 4557 
-Q 1562 4557 1229 4384 
-Q 896 4211 707 3913 
-Q 518 3616 518 3232 
-L 1370 3232 
-Q 1370 3482 1552 3645 
-Q 1734 3808 2003 3808 
-Q 2195 3808 2316 3744 
-Q 2438 3680 2502 3558 
-Q 2566 3437 2566 3277 
-Q 2566 3149 2505 3030 
-Q 2445 2912 2336 2819 
-Q 2227 2726 2070 2675 
-Q 1914 2624 1715 2624 
-L 1715 2182 
-z
-M 1965 -90 
-Q 2464 -90 2832 73 
-Q 3200 237 3401 531 
-Q 3603 826 3603 1210 
-Q 3603 1549 3462 1789 
-Q 3322 2029 3066 2185 
-Q 2810 2342 2467 2412 
-Q 2125 2483 1715 2483 
-L 1715 1997 
-Q 1952 1997 2134 1949 
-Q 2317 1901 2441 1811 
-Q 2566 1722 2630 1590 
-Q 2694 1459 2694 1306 
-Q 2694 1094 2604 953 
-Q 2515 813 2358 739 
-Q 2202 666 1990 666 
-Q 1786 666 1613 746 
-Q 1440 826 1337 979 
-Q 1235 1133 1235 1350 
-L 326 1350 
-Q 326 1062 441 803 
-Q 557 544 768 342 
-Q 979 141 1280 25 
-Q 1581 -90 1965 -90 
+      <path id="Jost-SemiBold-34" d="M 102 826 
+L 3994 826 
+L 3994 1606 
+L 3078 1606 
+L 2970 1510 
+L 1370 1510 
+L 2426 3021 
+L 2426 1197 
+L 2349 1126 
+L 2349 0 
+L 3290 0 
+L 3290 4480 
+L 2669 4480 
+L 102 826 
 z
 " transform="scale(0.015625)"/>
      </defs>
-     <use xlink:href="#Jost-SemiBold-31"/>
-     <use xlink:href="#Jost-SemiBold-33" x="49.099991"/>
+     <use xlink:href="#Jost-SemiBold-33"/>
+     <use xlink:href="#Jost-SemiBold-34" x="59.699997"/>
     </g>
    </g>
   </g>
@@ -2117,7 +2152,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p75cc003ec4">
+  <clipPath id="pb49c5a9547">
    <rect x="176.769844" y="40.279063" width="526.74" height="174.04"/>
   </clipPath>
  </defs>

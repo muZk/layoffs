@@ -2,144 +2,144 @@
   "2019_2022": {
     "same_companies_both_windows": {
       "ai_recorded": {
-        "n": 15,
-        "median": 79.83761840324763
+        "n": 21,
+        "median": 84.04255319148936
       },
       "other_recorded": {
-        "n": 15,
-        "median": 22.058823529411775
+        "n": 10,
+        "median": 18.109399893786502
       },
       "unresolved": {
-        "n": 2,
-        "median": 67.42918793829989
+        "n": 1,
+        "median": 37.83783783783783
       }
     },
     "exclude_documented_perimeter_events": {
       "ai_recorded": {
-        "n": 13,
-        "median": 65.50860719874805
+        "n": 18,
+        "median": 77.19437516571438
       },
       "other_recorded": {
-        "n": 14,
-        "median": 50.866896156052775
+        "n": 10,
+        "median": 33.410364145658264
       },
       "unresolved": {
-        "n": 2,
-        "median": 67.42918793829989
+        "n": 1,
+        "median": 37.83783783783783
       }
     },
     "exclude_known_definition_or_scope_mismatch": {
       "ai_recorded": {
-        "n": 14,
-        "median": 72.67311280099784
+        "n": 19,
+        "median": 79.83761840324763
       },
       "other_recorded": {
-        "n": 14,
-        "median": 21.99595451563525
+        "n": 10,
+        "median": 18.109399893786502
       },
       "unresolved": {
-        "n": 2,
-        "median": 67.42918793829989
+        "n": 1,
+        "median": 37.83783783783783
       }
     },
     "december_observations_only": {
       "ai_recorded": {
-        "n": 9,
-        "median": 79.83761840324763
+        "n": 14,
+        "median": 92.7690064242088
       },
       "other_recorded": {
-        "n": 13,
-        "median": 56.9718875502008
+        "n": 9,
+        "median": 21.933085501858727
       },
       "unresolved": {
-        "n": 1,
-        "median": 97.02053803876194
+        "n": 0,
+        "median": null
       }
     },
     "baseline_at_least_1000": {
       "ai_recorded": {
-        "n": 14,
-        "median": 86.13393091405317
+        "n": 20,
+        "median": 88.23639830817403
       },
       "other_recorded": {
-        "n": 17,
-        "median": 44.76190476190476
+        "n": 12,
+        "median": 21.99595451563525
       },
       "unresolved": {
-        "n": 2,
-        "median": 67.42918793829989
+        "n": 1,
+        "median": 37.83783783783783
       }
     }
   },
   "2022_2025": {
     "same_companies_both_windows": {
       "ai_recorded": {
-        "n": 15,
-        "median": 3.4813925570228
+        "n": 21,
+        "median": 3.9596959519179853
       },
       "other_recorded": {
-        "n": 15,
-        "median": 5.202312138728327
+        "n": 10,
+        "median": 4.479870702321486
       },
       "unresolved": {
-        "n": 2,
-        "median": 22.4016225195114
+        "n": 1,
+        "median": 1.9607843137254832
       }
     },
     "exclude_documented_perimeter_events": {
       "ai_recorded": {
-        "n": 27,
-        "median": 3.9596959519179853
+        "n": 37,
+        "median": 8.220218800648293
       },
       "other_recorded": {
-        "n": 35,
-        "median": 4.1868664609960415
+        "n": 26,
+        "median": 2.9694108104976524
       },
       "unresolved": {
-        "n": 5,
-        "median": 10.192837465564741
+        "n": 4,
+        "median": 6.076810889645112
       }
     },
     "exclude_known_definition_or_scope_mismatch": {
       "ai_recorded": {
-        "n": 27,
-        "median": 3.4813925570228
+        "n": 37,
+        "median": 8.220218800648293
       },
       "other_recorded": {
-        "n": 34,
-        "median": 5.251758479002722
+        "n": 25,
+        "median": 3.658536585365857
       },
       "unresolved": {
-        "n": 5,
-        "median": 10.192837465564741
+        "n": 4,
+        "median": 6.076810889645112
       }
     },
     "december_observations_only": {
       "ai_recorded": {
-        "n": 18,
-        "median": -12.627490782992263
+        "n": 25,
+        "median": -8.807613144931892
       },
       "other_recorded": {
-        "n": 27,
-        "median": 3.658536585365857
+        "n": 21,
+        "median": 5.301204819277117
       },
       "unresolved": {
-        "n": 2,
-        "median": 26.51764909543103
+        "n": 1,
+        "median": 10.192837465564741
       }
     },
     "baseline_at_least_1000": {
       "ai_recorded": {
-        "n": 24,
-        "median": 2.647513038986693
+        "n": 35,
+        "median": 3.9596959519179853
       },
       "other_recorded": {
-        "n": 32,
-        "median": 3.9227015231809492
+        "n": 22,
+        "median": 2.9694108104976524
       },
       "unresolved": {
-        "n": 5,
-        "median": 10.192837465564741
+        "n": 4,
+        "median": 6.076810889645112
       }
     }
   }

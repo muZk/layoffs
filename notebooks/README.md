@@ -48,3 +48,5 @@ Las secciones 10–14 permiten revisar autorías, negaciones, ejemplos, Oracle y
 [Mapa de afirmaciones y respaldo](respaldo-editorial.md). La reproducción comprueba cálculos; la evidencia cualitativa sigue requiriendo lectura de las fuentes originales.
 
 Para regenerar la entrega dentro del repositorio: `python3 report/build.py` y después `python3 scripts/build_notebooks.py`. El segundo comando copia el historial actualizado, ejecuta el notebook en una carpeta temporal que solo contiene los datos necesarios y regenera HTML y ZIP. La ejecución aislada evita dependencias ocultas de los artículos o de archivos del repositorio.
+
+La sección `comparacion-tracker` reproduce el cruce con el AI Layoffs Tracker usando `data/layoffs-fyi-ai-2026-09-28.json` y las notas de `data/ai-consistency-review.json`. Estos archivos acompañan al notebook en el ZIP; no requiere los artículos. Las notas son decisiones de revisión, no verificaciones causales automáticas.

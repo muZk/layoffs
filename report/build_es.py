@@ -12,7 +12,7 @@ for name in ['mechanisms','overlap','ai-mechanisms','evidence-gaps']:
 start=english.index('<div id="matrix"');end=english.index('<p><em>Figure 3.',start)
 matrix=english[start:end].replace('Scroll sideways to see every column.','Desliza hacia los lados para ver todas las columnas.').replace('Download figure · SVG','Descargar figura · SVG')
 body=re.sub(r'<p><img alt="[^"]*" src="assets/matrix.svg" /></p>',lambda _:matrix,body)
-for title,cause,label in [('Equipos más pequeños, menores costos','ai_productivity','Explorar los 24 registros de productividad'),('Cambiar el destino del dinero','ai_investment_reallocation','Explorar los 14 registros de inversión'),('Cuando la IA cambia el negocio','ai_market_disruption','Explorar los 7 registros de disrupción del mercado')]:
+for title,cause,label in [('Equipos más pequeños, menores costos','ai_productivity','Explorar los 24 registros de productividad'),('Cambiar el destino del dinero','ai_investment_reallocation','Explorar los 24 registros de inversión'),('Cuando la IA cambia el negocio','ai_market_disruption','Explorar los 7 registros de disrupción del mercado')]:
     body=re.sub(r'(<h2[^>]*>'+re.escape(title)+'</h2>)',lambda m:m[1]+f'<button class="chapter-link" data-cause="{cause}">{label}</button>',body)
 body=re.sub(r'<table>(.*?)</table>',lambda m:'<table'+(' class="count-table"' if any(t in m[1] for t in ['Available detail','Detalle disponible','Attributed generic explanation','Explicación genérica atribuida']) else '')+'>'+m[1]+'</table>',body,flags=re.S)
 body=re.sub(r'(<table(?: class="count-table")?>.*?</table>)',r'<div class="table-scroll wide">\1</div>',body,flags=re.S)

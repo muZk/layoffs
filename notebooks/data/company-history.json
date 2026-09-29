@@ -110,14 +110,16 @@
       "layoff-2026-004",
       "layoff-2026-199"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_investment_reallocation",
+      "ai_transition",
       "strategic_pivot"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -423,6 +425,7 @@
     "ai_mechanism": true,
     "causes": [
       "ai_investment_reallocation",
+      "ai_transition",
       "cost_cutting",
       "organizational_realignment",
       "strategic_pivot"
@@ -1425,14 +1428,15 @@
       "layoff-2026-019",
       "layoff-2026-121"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "strategic_pivot"
     ],
     "series_url": "https://stockanalysis.com/stocks/shop/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [
       {
         "date": "2013-12-31",
@@ -2121,15 +2125,16 @@
       "layoff-2026-026",
       "layoff-2026-060"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "organizational_consolidation",
       "organizational_realignment"
     ],
     "series_url": "https://stockanalysis.com/stocks/amzn/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [
       {
         "date": "1995-12-31",
@@ -2883,7 +2888,8 @@
     ],
     "ai_mechanism": true,
     "causes": [
-      "ai_substitution"
+      "ai_substitution",
+      "ai_transition"
     ],
     "series_url": "https://stockanalysis.com/stocks/crm/employees/",
     "screen_status": "candidate_historical_public_reporting",
@@ -3183,12 +3189,14 @@
     "record_ids": [
       "layoff-2026-041"
     ],
-    "ai_mechanism": false,
-    "causes": [],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_transition"
+    ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "unresolved",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -3493,14 +3501,15 @@
     "record_ids": [
       "layoff-2026-049"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "strategic_priorities"
     ],
     "series_url": "https://stockanalysis.com/stocks/dkng/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [
       {
         "date": "2019-12-31",
@@ -4480,14 +4489,15 @@
     "record_ids": [
       "layoff-2026-064"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "market_conditions"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -4763,14 +4773,15 @@
     "record_ids": [
       "layoff-2026-074"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "strategic_priorities"
     ],
     "series_url": "https://stockanalysis.com/stocks/snow/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [
       {
         "date": "2020-07-31",
@@ -5158,14 +5169,15 @@
     "record_ids": [
       "layoff-2026-079"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_investment_reallocation",
       "unit_closure"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -5286,14 +5298,15 @@
     "record_ids": [
       "layoff-2026-086"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_investment_reallocation",
       "organizational_realignment"
     ],
     "series_url": "https://stockanalysis.com/stocks/orcl/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [
       {
         "date": "1994-05-31",
@@ -5649,14 +5662,15 @@
     "record_ids": [
       "layoff-2026-090"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_investment_reallocation",
       "strategic_pivot"
     ],
     "series_url": "https://stockanalysis.com/stocks/mara/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [
       {
         "date": "2021-12-31",
@@ -5896,14 +5910,15 @@
     "record_ids": [
       "layoff-2026-097"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "strategic_pivot"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -6661,14 +6676,15 @@
     "record_ids": [
       "layoff-2026-116"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "strategic_pivot"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -6725,14 +6741,15 @@
     "record_ids": [
       "layoff-2026-119"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "strategic_pivot"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -7417,14 +7434,15 @@
     "record_ids": [
       "layoff-2026-135"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "organizational_consolidation"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -7776,14 +7794,15 @@
     "record_ids": [
       "layoff-2026-143"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_work_redesign",
       "work_relocation"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -7797,15 +7816,18 @@
     "record_ids": [
       "layoff-2026-144"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_market_disruption",
+      "ai_productivity",
+      "cost_cutting",
       "strategic_pivot",
       "work_relocation"
     ],
     "series_url": "https://stockanalysis.com/stocks/gtm/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [
       {
         "date": "2021-12-31",
@@ -8230,14 +8252,15 @@
     "record_ids": [
       "layoff-2026-149"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_work_redesign",
       "organizational_realignment"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -8251,14 +8274,15 @@
     "record_ids": [
       "layoff-2026-150"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_investment_reallocation",
       "strategic_pivot"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -8448,14 +8472,15 @@
     "record_ids": [
       "layoff-2026-155"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_investment_reallocation",
       "organizational_consolidation"
     ],
     "series_url": "https://stockanalysis.com/stocks/intu/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [
       {
         "date": "1996-09-30",
@@ -8715,14 +8740,15 @@
     "record_ids": [
       "layoff-2026-158"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "cost_cutting"
     ],
     "series_url": "https://stockanalysis.com/stocks/wix/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [
       {
         "date": "2010-12-31",
@@ -9218,12 +9244,15 @@
     "record_ids": [
       "layoff-2026-171"
     ],
-    "ai_mechanism": false,
-    "causes": [],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_transition",
+      "strategic_priorities"
+    ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "unresolved",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -9258,14 +9287,15 @@
     "record_ids": [
       "layoff-2026-174"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_investment_reallocation",
       "strategic_pivot"
     ],
     "series_url": "https://stockanalysis.com/stocks/btgo/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -9279,14 +9309,15 @@
     "record_ids": [
       "layoff-2026-175"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "organizational_consolidation"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -9822,12 +9853,14 @@
     "record_ids": [
       "layoff-2026-192"
     ],
-    "ai_mechanism": false,
-    "causes": [],
+    "ai_mechanism": true,
+    "causes": [
+      "ai_transition"
+    ],
     "series_url": "https://stockanalysis.com/stocks/now/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "unresolved",
+    "group": "ai_recorded",
     "observations": [
       {
         "date": "2012-12-31",
@@ -9949,14 +9982,15 @@
     "record_ids": [
       "layoff-2026-193"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "organizational_realignment"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -9970,15 +10004,16 @@
     "record_ids": [
       "layoff-2026-194"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_work_redesign",
       "unit_closure",
       "work_relocation"
     ],
     "series_url": "https://stockanalysis.com/stocks/open/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [
       {
         "date": "2021-12-31",
@@ -10105,14 +10140,15 @@
     "record_ids": [
       "layoff-2026-196"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "performance_cull"
     ],
     "series_url": "https://stockanalysis.com/quote/nse/PAYTM/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [
       {
         "date": "2022-03-31",
@@ -10665,14 +10701,15 @@
     "record_ids": [
       "layoff-2026-210"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_investment_reallocation",
       "organizational_consolidation"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -10686,14 +10723,15 @@
     "record_ids": [
       "layoff-2026-211"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_transition",
       "demand_decline"
     ],
     "series_url": null,
     "screen_status": "no_standalone_listed_series_mapped",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [],
     "quality_issues": [],
     "perimeter_events": [],
@@ -10707,14 +10745,15 @@
     "record_ids": [
       "layoff-2026-212"
     ],
-    "ai_mechanism": false,
+    "ai_mechanism": true,
     "causes": [
+      "ai_investment_reallocation",
       "strategic_pivot"
     ],
     "series_url": "https://stockanalysis.com/stocks/s/employees/",
     "screen_status": "candidate_historical_public_reporting",
     "note": "Subsidiary workforce is not replaced by parent-company headcount.",
-    "group": "other_recorded",
+    "group": "ai_recorded",
     "observations": [
       {
         "date": "2021-04-30",

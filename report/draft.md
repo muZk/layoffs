@@ -1,20 +1,22 @@
 # What do companies say when they cut jobs?
 
-*Evidence reviewed 17 September 2026*
+*General coverage: September 17, 2026 · Classifications reviewed: September 28, 2026*
 
 228 layoff announcements, all their attributed reasons, and the patterns that emerge when they are counted together.
 
 A company links layoffs to AI, and the headline seems to offer a complete explanation. But it might mean smaller teams producing more, money moving into different products, tasks being replaced, or customers no longer needing the same service.
 
-In this collection, **72 of 228 announcements have an explanation involving AI**. In **48 of those 72—two in three—another reason is also attributed**, such as savings, consolidation or efficiency. AI frequently appears within a decision with several stated motives.
+In this collection, **108 of 228 announcements have an explanation involving AI**. In **80 of those 108—nearly three in four—another reason is also attributed**, such as savings, consolidation or efficiency. AI frequently appears within a decision with several stated motives.
 
-That overlap is the starting point. This analysis counts every reason attributed to the announcement, including an AI transition without further detail. It does not allocate jobs to causes or turn source statements into independently demonstrated causal facts.
+We start with Layoffs.fyi’s AI labels and add documented attributions. Eleven of the 108 links are retained from the tracker without independently corroborating its mechanism. That overlap is the starting point. This analysis counts every reason attributed to the announcement, including an AI transition without further detail. It does not allocate jobs to causes or turn source statements into independently demonstrated causal facts.
 
 Counts and examples can be inspected in the [notebook with code, results and sources](../notebooks/explorar_despidos.html). Reproducing the calculations checks what was recorded; it does not prove the attributed explanations are the actual causes.
 
+The three main findings concern prior workforce trajectories, the routes through which AI can affect employment, and organizational changes described alongside cuts.
+
 ## First, what are we counting?
 
-We analyze **228 announcement records from January–June 2026**. We started with [Layoffs.fyi](https://layoffs.fyi/2026-layoffs/) and checked or supplemented each record using other sources. **201 announcements have a classifiable explanation**; the other **27** remain in the collection and are shown separately.
+We analyze **228 announcement records from January–June 2026**. We started with [Layoffs.fyi](https://layoffs.fyi/2026-layoffs/) and checked or supplemented each record using other sources. **206 announcements have a classifiable explanation**; the other **22** remain in the collection and are shown separately.
 
 The unit is an announcement, not a company or a worker. Possible overlaps remain flagged for Expedia, Meta and Vimeo, plus Credit Karma within Intuit’s plan. Some plans extend beyond June. This is not a census of layoffs or a uniformly sampled monthly series.
 
@@ -22,7 +24,7 @@ The unit is an announcement, not a company or a worker. Possible overlaps remain
 
 ## Savings and organizational changes lead the explanations
 
-**Cost cutting appears in 45 announcements, consolidating teams, layers or sites in 43, and product or business pivots in 29.** These are the collection’s most frequent reasons, ahead of any individual AI explanation.
+**Cost cutting appears in 46 announcements, consolidating teams, layers or sites in 43, and product or business pivots in 29.** Cost cutting and consolidation lead the collection; the general AI link appears in 34 announcements, ahead of product or business pivots.
 
 ![All reasons attributed to the 228 announcements.](assets/mechanisms.svg)
 
@@ -34,26 +36,25 @@ Categories preserve what each source says. Reorganization without further detail
 
 ## The explanations overlap
 
-**79 announcements contain more than one attributed reason.** The most frequent pair is cost cutting and organizational consolidation, in 13 announcements. AI productivity and cost cutting follow in 12, and financial distress and closure in 9.
+**108 announcements contain more than one attributed reason.** The most frequent pair is cost cutting and organizational consolidation, in 13 announcements. AI productivity and cost cutting also appear in 13, and financial distress and closure in 9.
 
-![48 announcements with AI and another reason, 24 with only AI reasons, 129 with only other reasons, and 27 without a classifiable explanation.](assets/overlap.svg)
+A pivot toward AI products can appear as a business change and as AI investment or transition. These are overlapping descriptions, not necessarily independent motives.
+
+![80 announcements with AI and another reason, 28 with only AI reasons, 98 with only other reasons, and 22 without a classifiable explanation.](assets/overlap.svg)
 
 *Figure 2. These four groups count every announcement once. “Only” describes reasons recovered from the sources; it does not establish the only causes that existed.*
 
-Overlap also dominates AI-linked announcements: **48 combine AI with another reason, while 24 have only AI reasons recorded**. The 129 with only other reasons do not establish AI’s absence. Nor are the 27 without a classifiable explanation interpreted as “no AI.”
+Overlap also dominates AI-linked announcements: **80 combine AI with another reason, while 28 have only AI reasons recorded**. The 98 with only other reasons do not establish AI’s absence. Nor are the 22 without a classifiable explanation interpreted as “no AI.”
 
 These are the most frequent AI pairs, including every tie at the fifth position:
 
 | Reasons appearing together | Announcements |
 |---|---:|
-| AI productivity + cost cutting | 12 |
+| AI productivity + cost cutting | 13 |
 | AI productivity + organizational consolidation | 8 |
-| AI investment + cost cutting | 5 |
-| AI market disruption + product or business pivot | 4 |
-| AI investment + organizational consolidation | 3 |
-| AI productivity + product or business pivot | 3 |
-| AI transition + efficiency and agility | 3 |
-| AI work redesign + cost cutting | 3 |
+| AI investment + product or business pivot | 7 |
+| AI investment + cost cutting | 6 |
+| AI transition + product or business pivot | 6 |
 
 These are co-occurrences within an announcement’s explanations. They do not tell us which motive mattered most or establish that a combination is more common than among companies that do not cut jobs. The matrix opens the records behind each pair.
 
@@ -65,15 +66,15 @@ These are co-occurrences within an announcement’s explanations. They do not te
 
 ## AI appears in six kinds of explanation
 
-Productivity is the most frequent AI explanation, in **24 announcements**. It is followed by AI investment (14), AI transition without further detail (13), work redesign (10), task substitution (8) and AI market disruption (7).
+AI transition without a specified mechanism is the most frequent AI category, in **34 announcements**. Productivity appears in 25; other categories include AI investment (25), work redesign (13), task substitution (8) and AI market disruption (8).
 
-![Six AI explanations across 72 announcements.](assets/ai-mechanisms.svg)
+![Six AI explanations across 108 announcements.](assets/ai-mechanisms.svg)
 
-*Figure 4. Bars total 76 assignments across 72 announcements. Productboard, Lastminute, Rapyd and Zap Africa each have two AI explanations.*
+*Figure 4. Bars total 113 assignments across 108 announcements. Productboard, Lastminute, Rapyd, Zap Africa and ZoomInfo each have two AI explanations.*
 
-**A productivity expectation appears three times as often as attributed task substitution: 24 versus 8 announcements.** This describes how the cuts are explained. It does not measure how much replacement happened or whether promised gains materialized.
+**A productivity expectation appears about three times as often as attributed task substitution: 25 versus 8 announcements.** This describes how the cuts are explained. It does not measure how much replacement happened or whether promised gains materialized.
 
-Nor are AI connections constructed only by outside commentators: **22 of the 24 productivity attributions come from the company**, as do 12 of the 14 investment attributions. Ten of the 13 AI transitions without further detail are company statements. Who offers an explanation and whether it is true remain separate questions.
+Nor are AI connections constructed only by outside commentators: **23 of the 25 productivity attributions come from the company**, as do 19 of the 25 investment attributions. Fourteen of the 34 AI transitions without further detail are company statements. Who offers an explanation and whether it is true remain separate questions.
 
 For example, [Optimove’s CEO](https://www.linkedin.com/posts/piniyakuel_the-ai-era-is-changing-what-it-takes-to-build-activity-7472616123805405185-p-j_) connects a 10% cut with an AI-first direction and announces tools and training. That counts as an AI transition. His message does not support assigning it to task replacement through automation.
 
@@ -81,7 +82,7 @@ For example, [Optimove’s CEO](https://www.linkedin.com/posts/piniyakuel_the-ai
 
 ## Smaller teams, lower costs
 
-Productivity appears in **24 announcements**. This is the explanation that AI allows a smaller workforce to do more, or to sustain output. Twenty-two of those accounts are company-attributed; one is press-reported and one is an explicit inference.
+Productivity appears in **25 announcements**. This is the explanation that AI allows a smaller workforce to do more, or to sustain output. Twenty-three of those accounts are company-attributed; one is press-reported and one is an explicit inference.
 
 Specific substitution is attributed in eight announcements, including Salesforce as interpreted by an external analyst. We use that category when the source links AI or automation performing or eliminating work to the affected roles. It is a narrower statement than expecting a smaller team to become more productive. The smaller count should not be read as a census of actual replacement.
 
@@ -89,7 +90,7 @@ Specific substitution is attributed in eight announcements, including Salesforce
 
 [Block’s shareholder letter](https://www.sec.gov/Archives/edgar/data/1512673/000119312526076557/d108590dex991.htm) connects a smaller workforce to output enabled by intelligence tools. That supports a productivity attribution. It does not allocate individual eliminated jobs to particular automated tasks.
 
-[Snap’s employee message](https://newsroom.snap.com/organizational-changes-at-snap) connects smaller teams with AI productivity and operating-cost savings. It is one of the 12 records in which those explanations coexist. The savings objective and the proposed means of achieving it are both worth recording.
+[Snap’s employee message](https://newsroom.snap.com/organizational-changes-at-snap) connects smaller teams with AI productivity and operating-cost savings. It is one of the 13 records in which those explanations coexist. The savings objective and the proposed means of achieving it are both worth recording.
 
 LSports offers a particularly useful variation. Its CEO names AI-enabled work and increased labor costs, and says cuts would have been necessary without AI—but growth would have been slower. In that account, AI changes what the remaining workforce can deliver. It is not presented as the only reason to reduce staffing. [Company interview, via Geektime](https://www.geektime.co.il/l-sports-lays-off-40-employees-in-israel/).
 
@@ -115,6 +116,8 @@ These cases suggest a different line of inquiry from task replacement: **what is
 
 ## When AI changes the business
 
+ZoomInfo illustrates overlapping routes: executives describe AI-enabled development productivity and pressure on the seat-based software business. They connect lower demand for front-end development with a shift toward data consumption. The announcement therefore records productivity and market change alongside savings, relocation and a business pivot; it does not allocate all 600 positions to one reason. [May 11 earnings-call transcript](https://www.fool.com/earnings/call-transcripts/2026/05/11/zoominfo-gtm-q1-2026-earnings-call-transcript/).
+
 Seven records describe AI disrupting the market, distribution or viability of a product. Four also describe a strategic pivot. This is another route through which AI can enter a layoff explanation, even when the affected workers’ tasks have not been automated.
 
 At [Tailwind Labs](https://www.businessinsider.com/tailwind-engineer-layoffs-ai-github-2026-1), the founder connects AI with falling website traffic and paid conversions, then connects the revenue decline with future payroll constraints. The proposed chain runs through the business’s distribution and economics.
@@ -139,7 +142,7 @@ Six H1 records contain a company-attributed AI denial. Three also contain an AI-
 | Atlassian | Direct replacement by AI | Profitability and investment in AI and enterprise sales |
 | GitLab | AI optimization or cost cutting as the purpose | Reinvestment, fewer layers and employment-location changes |
 | Epic Games | An AI cause broadly | Lower engagement and spending exceeding revenue |
-| Intuit | An AI cause broadly | Organizational simplification |
+| Intuit | An AI cause broadly | Simplification and reallocation toward three priorities, including an AI platform |
 | Uber | An AI cause broadly | Removing overlapping responsibilities and fragmented teams |
 
 *Sources: company messages linked above; [Epic Games](https://www.epicgames.com/site/en-US/news/todays-layoffs); [Intuit CEO’s denial, reported by India Today](https://www.indiatoday.in/jobs/story/software-maker-intuit-to-cut-3000-jobs-ceo-says-layoff-has-nothing-to-do-with-ai-tchc-2914758-2026-05-21). [Uber’s company statement, reported by CNBC](https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html). LinkedIn and Trend Micro have anonymous-source denials and are excluded from this company-denial count.*
@@ -152,19 +155,14 @@ Does this happen more often at public companies? The evidence is too thin to ans
 
 ## Oracle shows why scope matters
 
-Oracle’s March announcement illustrates the difference between company-level evidence and an explanation for a specific layoff.
+Oracle illustrates two different links. [Contemporaneous reporting on the March plan](https://www.investing.com/news/stock-market-news/oracle-plans-thousands-of-job-cuts-as-data-center-costs-rise-bloomberg-news-reports-4544997) connects planned cuts to financing AI infrastructure. We record that press attribution at announced-plan scope; matching it to the March 31 execution is an explicit documentary inference.
 
-The March termination email attributes role elimination to a broader organizational change following a review of business needs. We retain that generic explanation; the email does not specify an AI mechanism. [Email reproduced by Moneycontrol](https://www.moneycontrol.com/news/trends/full-text-of-the-email-oracle-sent-to-30-000-laid-off-employees-at-6-am-13876386.html).
+The [March 10 company release](https://www.oracle.com/news/announcement/q3fy26-earnings-release-2026-03-10/) separately describes smaller development teams enabled by AI code generation. It remains plan-level context, without allocating every position in the round to productivity or replacement.
 
-Its FY2026 filing acknowledges past AI-related workforce reductions in Risk Factors. Note 7 also includes AI integration within the broader restructuring plan’s efficiency measures. Together, these passages establish a company-level connection between AI and workforce reductions. [FY2026 10-K, mirrored filing](https://d1f19qmytqk9eo.cloudfront.net/edgar0105/2026/06/22/1341439/000119312526277521/document/orcl-20260531.htm).
+The March record includes general reorganization and a press-attributed AI investment rationale. The annual net decline of 21,000 remains separate and excluded from announcement counts: it combines hiring and departures rather than describing a new layoff round.
 
-What those passages do not establish is an allocation of the March cuts to AI. The filing also describes an annual net workforce decrease of 21,000. A net change includes the effects of hiring and other departures; it is not the gross number laid off in one announcement.
+[Inspect evidence and scope in the notebook](../notebooks/explorar_despidos.html#oracle)
 
-The March record retains a generic organizational explanation, without a specified event-level AI mechanism. The broader-plan evidence remains visible as context, and the annual net change is stored separately. That classification means the event-level link remains unresolved. It is not a finding that AI had no involvement.
-
-Any percentage described as “AI-related” needs a defined population, time window, unit and meaning of “related.” The counts in this report measure announcements with reasons attributed to the event. They do not measure the share of jobs eliminated because of AI.
-
-[Inspect calculations and evidence in the notebook](../notebooks/explorar_despidos.html#oracle)
 
 ## Financial distress mostly appears alongside closures
 
@@ -178,19 +176,19 @@ This pair distinguishes a business situation that matters: **cutting jobs to con
 
 ## What work is being cut?
 
-We identified affected functions in **60 of 228 announcements**. Engineering and R&D appears in 31, product and design in 19, and marketing in 13. Categories overlap because one announcement can affect several functions.
+We identified affected functions in **62 of 228 announcements**. Engineering and R&D appears in 32, product and design in 20, and marketing in 13. Categories overlap because one announcement can affect several functions.
 
-Within these records, engineering co-occurs with an AI explanation in 8 announcements, product and design in 8, and marketing in 6. These counts cannot rank occupational risk: we do not know the total exposed workforce and do not have uniform function coverage.
+Within these records, engineering co-occurs with an AI explanation in 15 announcements, product and design in 11, and marketing in 9. These counts cannot rank occupational risk: we do not know the total exposed workforce and do not have uniform function coverage.
 
-The main limitation comes before any comparison: **57 of the 72 AI-linked announcements have no specific affected function identified**. Knowing a company invokes AI does not tell us which work disappears. [Explore functions × explanations](explore.html#affected-functions).
+The main limitation comes before any comparison: **80 of the 108 AI-linked announcements have no specific affected function identified**. Knowing a company invokes AI does not tell us which work disappears. [Explore functions × explanations](explore.html#affected-functions).
 
 [Inspect calculations and evidence in the notebook](../notebooks/explorar_despidos.html#funciones)
 
 ## The gaps are part of the findings
 
-**27 announcements have no classifiable explanation**: 13 give no reason in the recovered material, 12 have insufficient evidence, and 2 have no causal source recovered. They remain in the denominator of 228.
+**22 announcements have no classifiable explanation**: 11 give no reason in the recovered material, 9 have insufficient evidence, and 2 have no causal source recovered. They remain in the denominator of 228.
 
-![13 announcements without an identified explanation, 12 with limited evidence and 2 without a recovered causal source.](assets/evidence-gaps.svg)
+![11 announcements without an identified explanation, 9 with limited evidence and 2 without a recovered causal source.](assets/evidence-gaps.svg)
 
 *Figure 5. These are limits of the recovered information. They do not establish that the announcements lack a reason or an AI connection.*
 
@@ -202,9 +200,9 @@ Other questions remain unanswered by these cross-tabulations. Industry is unknow
 
 ## Earlier workforce growth does not follow one trajectory
 
-Linking announcement reasons to workforce histories gives median **2019–2022** growth of **+80% for the AI-linked group and +51% for the group with other reasons**, based on 15 and 18 companies respectively.
+Linking announcement reasons to workforce histories gives median **2019–2022** growth of **+88.2% for the AI-linked group and +22.0% for the group with other reasons**, based on 22 and 12 companies respectively.
 
-For **2022–2025**, the ordering reverses: **+3.7% with AI and +4.7% with other reasons**, across 28 and 38 companies. Twelve of those 28 AI-linked companies had already reduced their net workforce during that period. A single story of continuous expansion before the cut does not describe the group.
+For **2022–2025**, the medians are close: **+6.7% with AI and +3.7% with other reasons**, across 40 and 27 companies. Fifteen of those 40 AI-linked companies had already reduced their net workforce during that period. A single story of continuous expansion before the cut does not describe the group.
 
 These comparisons do not establish overhiring: the observable companies change, acquisitions are not fully adjusted, and a larger workforce can accompany a larger business. The [hiring study, in Spanish](contratacion.html), provides sources, distributions and sensitivity checks. It includes all attributed reasons, like this article, but counts each company once.
 
@@ -221,3 +219,26 @@ Counts are generated from the records. Of the 228 announcements, 212 have review
 [Explore every record](explore.html) · [Analysis counts and cross-tabulations](analysis.json) · [JSON records](records.json) · [CSV](records.csv) · [Methodology](methodology.md) · [Individual source review, in Spanish](explorar.html#revision-de-las-explicaciones-generales)
 
 [Inspect calculations and evidence in the notebook](../notebooks/explorar_despidos.html#comprobaciones)
+
+<!--TRACKER-COMPARISON-->
+## How do we extend Layoffs.fyi’s data?
+
+**Its AI classifications are our starting point.** We retain its event labels and add attributions documented elsewhere. A difference requires a documented event or scope mismatch, correction, or later clarification about the same announcement. Failure to retrieve an article is not enough to discard its classification.
+
+For January–June, the [AI Layoffs Tracker](https://layoffs.fyi/ai-layoffs/), retrieved September 28, 2026, labels **95 of 231 events as AI-related (41.1%)**. Our collection contains **108 of 228 (47.4%)**. The populations differ.
+
+| Match result | Records |
+|---|---:|
+| Both record an AI reason | 91 |
+| Only the tracker records AI, within our announcement population | 1 |
+| Only our analysis records AI | 17 |
+| Tracker period measures excluded from our announcements | 3 |
+
+In **11 announcements**, the general AI attribution is retained from the tracker without independently corroborating its detailed mechanism. These are tracker attributions, not company confirmation or demonstrated replacement. In **8 other cases**, additional reporting or plan-level context completed our earlier reading. LinkedIn illustrates why a denial of replacing workers with AI can coexist with reporting on AI-oriented work redesign.
+
+**Verily is the remaining event-scope exception:** the tracker describes the devices closure announced in August 2025, while our entry is a June 2026 notice. We do not automatically transfer one round’s explanation to another. The **17 additions** retain their own sources; absence from the tracker is not a documented rejection. Oracle, Dell and Multiverse are period workforce measures rather than three new announcements.
+
+The tracker counts **90,277 of 109,017 employees (82.8%)** in AI-labelled events. This weights event size; it is not an announcement percentage or a count of individual jobs caused by each motive.
+
+[Reproduce the matching and inspect provenance](../notebooks/explorar_despidos.html#comparacion-tracker) · [Download decisions and sources](../research/ai-tracker-comparison/comparison.csv).
+<!--/TRACKER-COMPARISON-->
