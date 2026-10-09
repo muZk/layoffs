@@ -1,0 +1,215 @@
+{
+  "review_date": "2026-10-03",
+  "scope": "25 empresas con productividad o inversión hacia IA y pares de plantilla utilizables 2022-2025. No cubre las 228 observaciones.",
+  "method": "Clasificación manual de actividad según fuentes corporativas consultadas. Familias analíticas propias, no GICS/NAICS ni clasificación histórica formal. Se conserva industry original. Las páginas actuales describen actividad, no prueban composición de ingresos de 2022-2025.",
+  "groups": {
+    "software": "Software y datos",
+    "platforms": "Plataformas y servicios digitales",
+    "finance": "Pagos y servicios financieros",
+    "infrastructure": "Infraestructura tecnológica",
+    "mining": "Minería e infraestructura cripto",
+    "retail_automation": "Automatización y comercio alimentario"
+  },
+  "companies": [
+    {
+      "company": "Angi",
+      "original_industry": "Consumer",
+      "analysis_group": "platforms",
+      "activity": "Marketplace de servicios para el hogar",
+      "source_url": "https://www.angi.com/",
+      "note": "Intermedia servicios entre hogares y profesionales."
+    },
+    {
+      "company": "Playtika",
+      "original_industry": "Consumer",
+      "analysis_group": "platforms",
+      "activity": "Videojuegos móviles",
+      "source_url": "https://www.playtika.com/",
+      "note": "Desarrolla y opera juegos; no es un marketplace."
+    },
+    {
+      "company": "C3.ai",
+      "original_industry": "AI",
+      "analysis_group": "software",
+      "activity": "Software empresarial de IA",
+      "source_url": "https://c3.ai/",
+      "note": "Vende aplicaciones empresariales de IA."
+    },
+    {
+      "company": "Block",
+      "original_industry": "Finance",
+      "analysis_group": "finance",
+      "activity": "Pagos y servicios financieros",
+      "source_url": "https://block.xyz/",
+      "note": "Square y Cash App; mezcla clientes comerciales y consumidores."
+    },
+    {
+      "company": "Ocado",
+      "original_industry": "Food",
+      "analysis_group": "retail_automation",
+      "activity": "Automatización logística y comercio alimentario",
+      "source_url": "https://www.ocadogroup.com/",
+      "note": "Negocio híbrido; se mantiene separado del software puro y de marketplaces."
+    },
+    {
+      "company": "Snap",
+      "original_industry": "Consumer",
+      "analysis_group": "platforms",
+      "activity": "Redes sociales y publicidad",
+      "source_url": "https://www.snap.com/",
+      "note": "Aplicaciones de comunicación y productos de realidad aumentada."
+    },
+    {
+      "company": "Coinbase",
+      "original_industry": "Crypto",
+      "analysis_group": "finance",
+      "activity": "Servicios financieros cripto",
+      "source_url": "https://www.coinbase.com/about",
+      "note": "Servicios de activos digitales; no se agrupa con minería."
+    },
+    {
+      "company": "Upwork",
+      "original_industry": "Other",
+      "analysis_group": "platforms",
+      "activity": "Marketplace de trabajo independiente",
+      "source_url": "https://www.upwork.com/about",
+      "note": "Intermedia talento y clientes; también atiende empresas."
+    },
+    {
+      "company": "ZoomInfo",
+      "original_industry": "Sales",
+      "analysis_group": "software",
+      "activity": "Software y datos comerciales",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1794515/000179451526000022/zoominfo2025printvfpdf-ars.pdf",
+      "note": "Software y datos para equipos comerciales."
+    },
+    {
+      "company": "Jumia",
+      "original_industry": "Retail",
+      "analysis_group": "platforms",
+      "activity": "Marketplace de comercio electrónico",
+      "source_url": "https://group.jumia.com/",
+      "note": "Comercio electrónico y servicios asociados."
+    },
+    {
+      "company": "Elastic",
+      "original_industry": null,
+      "analysis_group": "software",
+      "activity": "Software de búsqueda, observabilidad y seguridad",
+      "source_url": "https://www.elastic.co/products/",
+      "note": "Plataforma de búsqueda y análisis de datos."
+    },
+    {
+      "company": "Meta",
+      "original_industry": "Consumer",
+      "analysis_group": "platforms",
+      "activity": "Redes sociales y publicidad",
+      "source_url": "https://www.meta.com/technologies/",
+      "note": "Plataformas sociales, además de hardware y otras actividades."
+    },
+    {
+      "company": "Autodesk",
+      "original_industry": "Other",
+      "analysis_group": "software",
+      "activity": "Software de diseño e ingeniería",
+      "source_url": "https://www.autodesk.com/",
+      "note": "Software de diseño y fabricación."
+    },
+    {
+      "company": "Pinterest",
+      "original_industry": "Consumer",
+      "analysis_group": "platforms",
+      "activity": "Redes sociales y publicidad",
+      "source_url": "https://investor.pinterestinc.com/overview/default.aspx",
+      "note": "Búsqueda y descubrimiento visual con publicidad."
+    },
+    {
+      "company": "Atlassian",
+      "original_industry": "Other",
+      "analysis_group": "software",
+      "activity": "Software de colaboración y desarrollo",
+      "source_url": "https://www.atlassian.com/company",
+      "note": "Herramientas de trabajo y desarrollo de software."
+    },
+    {
+      "company": "Oracle",
+      "original_industry": "Other",
+      "analysis_group": "software",
+      "activity": "Software empresarial e infraestructura cloud",
+      "source_url": "https://www.oracle.com/corporate/",
+      "note": "Híbrido software/cloud; sensibilidad lo excluye del grupo software."
+    },
+    {
+      "company": "MARA",
+      "original_industry": "Crypto",
+      "analysis_group": "mining",
+      "activity": "Minería cripto e infraestructura digital",
+      "source_url": "https://www.mara.com/",
+      "note": "Minería y computación; se separa de intermediarios financieros."
+    },
+    {
+      "company": "Life360",
+      "original_industry": "Consumer",
+      "analysis_group": "platforms",
+      "activity": "Aplicaciones de seguridad familiar",
+      "source_url": "https://www.life360.com/",
+      "note": "Aplicación y dispositivos de localización; no es un marketplace."
+    },
+    {
+      "company": "Cisco",
+      "original_industry": "Infrastructure",
+      "analysis_group": "infrastructure",
+      "activity": "Redes e infraestructura tecnológica",
+      "source_url": "https://www.cisco.com/",
+      "note": "Hardware, redes, seguridad y software; sensibilidad amplía software para incluir infraestructura."
+    },
+    {
+      "company": "Intuit",
+      "original_industry": "Finance",
+      "analysis_group": "software",
+      "activity": "Software financiero",
+      "source_url": "https://www.intuit.com/",
+      "note": "Software para empresas y consumidores, junto con otros servicios financieros; sensibilidad lo excluye."
+    },
+    {
+      "company": "GitLab",
+      "original_industry": "Data",
+      "analysis_group": "software",
+      "activity": "Software de colaboración y desarrollo",
+      "source_url": "https://about.gitlab.com/",
+      "note": "Plataforma del ciclo de desarrollo de software."
+    },
+    {
+      "company": "Lastminute",
+      "original_industry": null,
+      "analysis_group": "platforms",
+      "activity": "Intermediación de viajes",
+      "source_url": "https://corporate.lastminute.com/about-us/who-we-are/",
+      "note": "Plataforma de reservas y paquetes de viajes."
+    },
+    {
+      "company": "Rackspace",
+      "original_industry": null,
+      "analysis_group": "infrastructure",
+      "activity": "Servicios de infraestructura cloud",
+      "source_url": "https://www.rackspace.com/about",
+      "note": "Servicios e infraestructura cloud; no se trata como software de producto."
+    },
+    {
+      "company": "SentinelOne",
+      "original_industry": null,
+      "analysis_group": "software",
+      "activity": "Software de ciberseguridad",
+      "source_url": "https://www.sentinelone.com/platform/",
+      "note": "Plataforma de seguridad empresarial."
+    },
+    {
+      "company": "Groupon",
+      "original_industry": null,
+      "analysis_group": "platforms",
+      "activity": "Marketplace de servicios y experiencias",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1490281/000162828026016429/grpn-20251231.htm",
+      "note": "Marketplace de servicios y experiencias locales."
+    }
+  ]
+}
