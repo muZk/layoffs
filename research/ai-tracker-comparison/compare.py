@@ -5,7 +5,7 @@ from collections import Counter
 ROOT=Path(__file__).resolve().parents[2]; OUT=Path(__file__).resolve().parent
 tracker=json.loads((OUT/'layoffs-fyi-ai-2026-09-28.json').read_text())
 ours=json.loads((ROOT/'2026-categorized.json').read_text())
-public={r['record_id'] for r in json.loads((ROOT/'report/records.json').read_text())}
+public={r['record_id'] for r in ours if r['record_type']=='announcement' and '2026-01-01' <= r['date'] < '2026-07-01'}
 index={(r['company'].casefold(),r['date']):r for r in ours}
 # Same company/event; explicit one-day date discrepancies, not arbitrary fuzzy matching.
 dates={('zoominfo','2026-05-10'):'2026-05-11',('gitlab','2026-06-02'):'2026-06-03'}

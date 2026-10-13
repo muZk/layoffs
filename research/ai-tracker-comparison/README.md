@@ -99,6 +99,6 @@ El cruce es una comparación de clasificaciones que comparten una fuente de part
 
 [Seguimiento de evidencia y cierre del 29 de septiembre](evidence-followup-2026-09-28.md).
 
-`compare.py` reproduce el cruce desde el snapshot público y los registros canónicos. `consistency-review.json` conserva la decisión actual para cada ficha. `baseline-summary.json` y `pre-baseline-summary.json` son resultados históricos anteriores a las dos revisiones; no son resultados vigentes. `review_consistency.py` y `align_baseline.py` son aplicaciones de una sola vez, con auditorías antes/después en `coverage/`. La cadena se valida con `scripts/validate_causes.py`.
+`compare.py` reproduce el cruce desde el snapshot público y los registros canónicos. `consistency-review.json` conserva la decisión actual para cada ficha. Los resultados intermedios y scripts de aplicación única se retiraron del árbol publicado; las auditorías antes/después se conservan en `coverage/`. La cadena se valida con `scripts/validate_causes.py`.
 
 El snapshot procede de `https://layoffs-fyi.onrender.com/api/ai-layoffs-stats`. La fecha de actualización de la API no acredita la fecha de revisión de cada noticia. Se concilian dos diferencias de un día (ZoomInfo y GitLab). El cruce no reconstruye el 78% histórico ni es una tabla de confusión de poblaciones idénticas.

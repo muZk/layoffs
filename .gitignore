@@ -28,7 +28,7 @@
 /healthtech/
 /getonboard/
 
-# Previous visualization pipeline; report/assets remains part of the current site.
+# Previous visualization pipeline.
 /charts.py
 /build_all.py
 /build_html.py
@@ -58,3 +58,50 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# Editorial outputs and retired workflows stay local.
+/report/
+/output/
+/tmp/
+/*-draft.html
+/*-draft.md
+/notebooks/tres_hallazgos.*
+/notebooks/concentracion_personas.*
+/notebooks/tamano_y_razones_ia.*
+/notebooks/data/*.json
+/notebooks/data/fonts/Spectral*
+/notebooks/data/fonts/spectral-OFL.txt
+/notebooks/respaldo-editorial.md
+/scripts/build_visual_draft.py
+/scripts/build_review_report.py
+/scripts/explore_three_insights.py
+/2026-legacy-classifications.json
+/*audit-2026-09-16.json
+/full-review-2026-09-16.json
+/source-review-2026.md
+/verificacion.md
+/data/quality-review.*
+/coverage/sources/
+
+# Only active inputs and reconciliation are versioned under research.
+/research/*
+!/research/README.md
+!/research/hiring/
+/research/hiring/*
+!/research/hiring/company-history.json
+!/research/hiring/industry-review.json
+!/research/functions/
+/research/functions/*
+!/research/functions/taxonomy.json
+!/research/explanations/
+/research/explanations/*
+!/research/explanations/taxonomy.json
+!/research/ai-tracker-comparison/
+/research/ai-tracker-comparison/*
+!/research/ai-tracker-comparison/README.md
+!/research/ai-tracker-comparison/compare.py
+!/research/ai-tracker-comparison/comparison.csv
+!/research/ai-tracker-comparison/summary.json
+!/research/ai-tracker-comparison/consistency-review.json
+!/research/ai-tracker-comparison/layoffs-fyi-ai-2026-09-28.json
+!/research/ai-tracker-comparison/evidence-followup-2026-09-28.md

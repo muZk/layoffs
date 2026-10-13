@@ -15,7 +15,7 @@ def stats(data):
  ai=lambda r:any(c.startswith('ai_') for c in r['causes'])
  return {'all_records':len(data),'h1_records':len(h1),'h1_announcement_records':len(events),'review_all':dict(collections.Counter(r['review']['status'] for r in data)),'cause_status_h1_announcements':dict(collections.Counter(r['cause_status'] for r in events)),'causes_h1_announcements':dict(collections.Counter(c for r in events for c in r['causes'])),'multiple_causes':sum(len(r['causes'])>1 for r in events),'ai_reason_recorded':sum(ai(r) for r in events),'ai_and_other_reason':sum(ai(r) and any(not c.startswith('ai_') for c in r['causes']) for r in events),'no_classifiable_explanation':sum(not r['causes'] for r in events)}
 def validate():
- data=read('2026-categorized.json');audit=read('full-review-2026-09-16.json')['events'];legacy=read('2026-legacy-classifications.json')['records'];original=read('cause-audit-2026-09-16.json')['events'];follow={(r['company'],r['date']):r for r in read('ai-classification-audit-2026-09-16.json')['events']};errors=[]
+ data=read('2026-categorized.json');audit=read('data/audit/full-review-2026-09-16.json')['events'];legacy=read('data/audit/2026-legacy-classifications.json')['records'];original=read('data/audit/cause-audit-2026-09-16.json')['events'];follow={(r['company'],r['date']):r for r in read('data/audit/ai-classification-audit-2026-09-16.json')['events']};errors=[]
  def check(value,message):
   if not value:errors.append(message)
  extension=read('coverage/extension-audit-2026-09-17.json')

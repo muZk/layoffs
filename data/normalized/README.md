@@ -9,12 +9,12 @@ Exportación derivada de `../../2026-categorized.json`. No se edita a mano ni su
 - **`announcements.csv`**: 228 filas, una por anuncio incluido en el informe. Contiene dimensiones, cifras, estado de revisión, número de razones, indicador de IA y número de funciones identificadas. No hay listas ni objetos JSON en las celdas.
 - **`layoffs.sqlite`**: todas las tablas, tipos, claves, relaciones y vistas, lista para SQL, pandas, R o herramientas BI.
 - **`announcement_causes.csv`**: 304 filas anuncio–razón, con atribución, alcance, resumen y fuente. Unir por `record_id`.
-- **`announcement_functions.csv`**: 116 filas anuncio–función. Unir por `record_id`.
+- **`announcement_functions.csv`**: 122 filas anuncio–función. Unir por `record_id`.
 - **`manifest.json`**: origen, hash de la fuente canónica, alcance, columnas, filas y comprobaciones.
 - **`schema.sql`**: definición ejecutable de las tablas y vistas.
 - **`examples.sql`**: consultas verificadas contra los hallazgos.
 
-La base conserva los 235 registros internos. La vista `announcements` selecciona los mismos 228 del informe. `excluded_records.csv` explica las siete exclusiones: cinco medidas históricas o de período y dos entradas de julio. Los siete no se mezclan con los anuncios al usar las vistas `announcement_*`.
+La base conserva los 235 registros internos. La vista `announcements` selecciona los mismos 228 del análisis. `excluded_records.csv` explica las siete exclusiones: cinco medidas históricas o de período y dos entradas de julio. Los siete no se mezclan con los anuncios al usar las vistas `announcement_*`.
 
 ```python
 import sqlite3
@@ -23,7 +23,7 @@ import pandas as pd
 with sqlite3.connect("data/normalized/layoffs.sqlite") as db:
     announcements = pd.read_sql_query("SELECT * FROM announcements", db)
     reasons = pd.read_sql_query("SELECT * FROM announcement_causes", db)
-    ai = announcements.loc[announcements.has_ai_reason.eq(1)]  # 72 filas
+    ai = announcements.loc[announcements.has_ai_reason.eq(1)]  # 108 filas
 
 # Alternativa, sin base de datos:
 announcements = pd.read_csv(
@@ -68,7 +68,7 @@ announcements = pd.read_csv(
 - Indicadores como `in_report`, `has_ai_reason` e `is_ai` son enteros `0/1`. Ausencia de una razón de IA no demuestra ausencia de influencia de IA.
 - Industria, etapa y ubicación permanecen en el registro: no se asume que sean constantes por empresa. Los IDs de empresa son hashes estables de la etiqueta exacta. No se fusionan matrices, filiales ni nombres parecidos.
 - Los IDs de evidencia con sufijo numérico son locales al orden del registro; no son identificadores persistentes de una publicación.
-- `specificity` se conserva como dato de auditoría. Todos los niveles cuentan en las vistas del informe.
+- `specificity` se conserva como dato de auditoría. Todos los niveles cuentan en las vistas del análisis.
 
 ## Cómo evitar dobles conteos
 
@@ -78,11 +78,11 @@ Las medidas netas anuales, los porcentajes alternativos y las cifras disputadas 
 
 ## Alcance y reconstrucción
 
-Esta es una exportación analítica, no una copia reversible de todas las notas de trabajo: las revisiones históricas completas, notas de búsqueda, estados antes/después y decisiones editoriales permanecen en el JSON canónico, `coverage/` y `research/`. Las explicaciones, fuentes, atribuciones, funciones, contexto, negaciones y problemas de calidad sí tienen tablas propias.
+Esta es una exportación analítica, no una copia reversible de todas las notas de trabajo: las revisiones históricas completas, notas de búsqueda, estados antes/después y decisiones editoriales permanecen en el JSON canónico, `data/audit/`, `coverage/` y `research/`. Las explicaciones, fuentes, atribuciones, funciones, contexto, negaciones y problemas de calidad sí tienen tablas propias.
 
 ```sh
 python3 scripts/validate_causes.py
 python3 scripts/build_normalized.py
 ```
 
-El build del informe también regenera esta exportación. El script comprueba integridad SQLite, claves únicas y foráneas, preservación de IDs, causas y funciones de cada registro, tipos escalares y coincidencia de los recuentos con el JSON. No vuelve a investigar ni reclasifica eventos.
+El script comprueba integridad SQLite, claves únicas y foráneas, preservación de IDs, causas y funciones de cada registro, tipos escalares y coincidencia de los recuentos con el JSON. No vuelve a investigar ni reclasifica eventos.

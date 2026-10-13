@@ -111,7 +111,7 @@ explanation groups partition each row; individual-cause columns overlap. The unk
 function row includes both unit_only and not_identified (168 records).
 `related_records` flags Credit Karma as a reported subset of Intuit's plan.
 `headcount_accounts` retains disputed or multi-notice counts without treating them
-as a settled event size. Recovery outcomes are in research/functions/recovery-log.json.
+as a settled event size. Review outcomes are retained in each record and the audit chain in `coverage/`.
 
 
 ## Specificity of attributed explanations
@@ -145,10 +145,9 @@ Access limits in Aleph Alpha, Snowflake and MRI do not erase their already avail
 generic attribution or move them into the unrelated evidence-limited cause_status.
 An available statement and an inaccessible potentially richer original can coexist.
 
-Reproduction order: research/explanations/curate.py, research/explanations/recheck.py,
-research/generic-review/curate.py, then report/build.py. Each curation step reads its
-immutable baseline. The source-review audit chain includes all three follow-ups;
-the published explanation ledgers reflect the current classifications.
+Reproduction: run `scripts/validate_causes.py`, `scripts/build_normalized.py`,
+then `scripts/build_notebooks.py`. Historical before/after reviews remain in
+`coverage/`; the old one-time curation scripts are not needed for analysis.
 
 ## AI consistency rule — 2026-09-28
 
@@ -161,7 +160,7 @@ A product pivot can also have an AI reason when the same source explicitly conne
 
 Layoffs.fyi’s event-level AI classifications are the baseline. Lack of access to its linked source, lack of company confirmation, or a more general corporate explanation is not enough to remove a classification. We preserve additional AI attributions documented in other sources, and diverge only for a documented event or scope mismatch, correction, or later clarification. A later publication must concern the same event.
 
-Twelve general AI links are retained from the tracker without independently corroborating its detailed mechanism. They use `ai_transition`, `reported_inference`, and the tracker as `source_url`; summaries explicitly identify this provenance. Full access to the tracker is not full access to its underlying article. These cases are counted as attributed AI links, not confirmed replacement or company statements. Seven other additions have additional source or plan-level context. Verily remains excluded from AI classification because the tracker names a devices closure announced in August 2025 for a June 2026 notice. The 16 additional AI announcements absent from the tracker remain included. See `coverage/ai-tracker-baseline-2026-09-28.json`.
+Eleven general AI links are retained from the tracker without independently corroborating its detailed mechanism. They use `ai_transition`, `reported_inference`, and the tracker as `source_url`; summaries explicitly identify this provenance. Full access to the tracker is not full access to its underlying article. These cases are counted as attributed AI links, not confirmed replacement or company statements. Seven other additions have additional source or plan-level context. Verily remains excluded from AI classification because the tracker names a devices closure announced in August 2025 for a June 2026 notice. The 17 additional AI announcements absent from the tracker remain included. See `coverage/ai-tracker-baseline-2026-09-28.json`.
 
 ## Evidence follow-up (2026-09-29)
 
